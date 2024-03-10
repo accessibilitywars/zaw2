@@ -1,0 +1,22 @@
+# Development Notes
+
+- [ ] Recreate site using Tera
+	- theme: abridge
+	- [ ] Builds pages (shortcode/template)
+	- [ ] Guides
+	- [ ] Tag table for known tags
+	- [ ] Keymapping
+- [ ] Hook up gw2search/chatr/buildwars as [tera functions](https://keats.github.io/tera/docs/#functions):
+	- `tera.register_function("chatcode", chatr(chatcode));`
+	- in template `{{ chatcode('[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]') }}`
+- [ ] Build keybind shortcodes for armory markup
+	- [ ] Weapon based: eg "Hammer 3"
+		- look up skill name
+		- use number of keypress
+	- [ ] Skill based: eg "Tornado"
+		- if utility, find where it's mapped in build
+		- if heal, 5
+		- if elite, 0
+		- if weapon-skill requested by name, look up skills in weapon
+		- if anything else no keybind
+- [ ] LONG TERM: don't use armory, and have our own static code
