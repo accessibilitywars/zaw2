@@ -1,14 +1,24 @@
 +++
-title = "About"
+title = "About Accessibility Wars Too"
 path = "about"
 template = "pages.html"
 draft = false
 +++
 
-This site provides a demo for the [abridge theme](https://github.com/Jieiku/abridge) for [Zola](https://www.getzola.org/) the static site generator.
+## Our Mission
 
-Abridge was created by [Jake G (jieiku)](https://github.com/Jieiku) to be fast and lightweight, using semantic html, a class-light [abridge.css](https://github.com/Jieiku/abridge.css), and No Mandatory JS.
+We are a community of Guild Wars 2 gamers with accessibility needs.  We aim to help accommodate a wide range of needs, from
+physical to cognitive. To this end, with the help of the community, we publish and archive low-intensity (LI)
+builds that can allow players to solo more difficult content, and comfortably contribute in group play across game modes.
 
-Nearly half of the existing Zola MIT themes were inspiration for features and design of this theme.
+## Contributions
 
-Abridge is licensed under the [MIT license](https://opensource.org/licenses/MIT).
+To get involved, any of the following is very helpful:
+
+1. join the [Accessibility Wars Too discord](https://discord.gg/bKt2CdS8k3)
+2. check out [the GitHub](https://github.com/accessibilitywars/aw2-builds#contributing) to help with code
+3. share the [Accessibility Wars website](https://accessibilitywars.com/)
+4. test out builds and provide feedback (ideally on discord). Particularly builds with the [review-needed tag](https://accessibilitywars.com/tags/#review-needed)
+5. [submit new builds](https://forms.gle/d2cdHbx3P7JyK3GD9). This link can also be found on the website, in the sidebar on desktop, and at the bottom for desktop and mobile
+
+**TODO** - change above to new repo for zola

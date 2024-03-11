@@ -8,8 +8,8 @@ draft = false
 
 ## Privacy
 
-- This site does not set or use cookies.
+- This site may set or use cookies to store user-defined keybinds. These are only used to customize display on this site.
 - This site does not store data in the browser to be shared, sent, or sold to third-parties.
 - No personal information is shared, sent, or sold to third-parties.
 
-**Effective Date:** _1st Jan 2022_
+**Effective Date:** _1st Jan 2024_
