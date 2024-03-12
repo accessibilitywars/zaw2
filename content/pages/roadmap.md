@@ -9,7 +9,12 @@ draft = false
 
 ## Parity with Current Site
 
-- [ ] Armory/Discretize/something embeds
+- [x] Armory embeds
+  - [x] Skills
+  - [x] Traits
+  - [ ] Inline skills
+  - [ ] Ranger Pets
+  - [ ] Revenant Legends
 - [x] Tag table
 - [x] Author credit & aggregator
 - [x] Spec visuals
