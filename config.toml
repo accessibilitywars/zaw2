@@ -10,7 +10,7 @@ theme = "abridge"
 
 default_language = "en"
 compile_sass = true
-minify_html = false
+minify_html = false # minify subly breaks some markdown
 build_search_index = true
 generate_feed = true
 taxonomies = [
@@ -209,8 +209,8 @@ online_indexformat = "elasticlunr_json"# used to restore your preferred index fo
 offline = false # implies uglyurls=true and integrity=false, when true NPM/node will automatically set the path for the base_url, it will build the site, then set the base_url back to what it was.
 
 uglyurls = false # if set to true then links are generated with the full path. eg https://abridge.netlify.app/index.html
-integrity = false # increases site security, should normally be true. (setting to false is useful during js development)
-js_bundle = false # multiple javascript files combined into a single file (setting to false is useful during js development)
+integrity = true # increases site security, should normally be true. (setting to false is useful during js development)
+js_bundle = true # multiple javascript files combined into a single file (setting to false is useful during js development)
 
 js_copycode = true # The copy button on code blocks that allows you to copy them to the clipboard.
 js_email_encode = true # obfuscates email address in footer
