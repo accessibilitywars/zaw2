@@ -9,6 +9,7 @@ draft = false
 
 ## Parity with Current Site
 
+- [ ] Armory/Discretize/something embeds
 - [x] Tag table
 - [x] Author credit & aggregator
 - [x] Spec visuals
@@ -16,7 +17,7 @@ draft = false
 - [x] About Page links corrected to baseurl
 - [x] Github pages deploy (manual to github.io page)
   - [ ] Github pages deploy (automatic)
-- [ ] Flavour text/tagline
+- [x] Flavour text/tagline
 - [ ] Balance patch display on build page
 - [ ] Balance patch filters
 - [ ] Remappable keybind support

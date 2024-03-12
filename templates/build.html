@@ -1,4 +1,4 @@
-{# This Template Shows the Individual Blog Posts#}
+{# This Template Shows the Individual Builds #}
 
 {% extends "base.html" %}
 
@@ -45,6 +45,10 @@
     {%- endif %}
 
     {{- macros::title_post(page=page, config=config) }}
+
+	{%- if page.extra.tagline %}
+	<p><i>{{ page.extra.tagline | linebreaksbr | safe }}</i></p>
+	{%- endif %}
 
     {%- if config.extra.meta_post.position %}
     {%- if config.extra.meta_post.position == "top" or config.extra.meta_post.position == "both" %}
