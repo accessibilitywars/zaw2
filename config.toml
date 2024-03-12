@@ -15,7 +15,8 @@ build_search_index = true
 generate_feed = true
 taxonomies = [
 #    {name = "categories", feed = true},
-    {name = "tags", feed = true},
+    {name = "tags", feed = true },
+    {name = "authors", feed = false },
 ]
 
 #feed_filename = "atom.xml"
@@ -131,13 +132,13 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licens
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "Fast & Lightweight Zola Theme" # a default value for title addition
-author = "Jake G" # Put Your Name here
-keywords = "Abridge, Abridge.css, Zola, Theme, Zola Theme, getzola, Semantic Html, Fast, lightweight" # used for the primary site index
+title_addition = "All LI, All the Time" # a default value for title addition
+author = "AW2" # Put Your Name here
+keywords = "accessibility, guild wars 2, gw2, game, fansite, builds, LI, low intensity" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
-twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
-google = "Your Google Site verification code."
-bing = "Your Bing Site verification code."
+# twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
+# google = "Your Google Site verification code."
+# bing = "Your Bing Site verification code."
 seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
 #dev = false # development mode, if true then robots.txt should prevent search indexing.
 
@@ -289,11 +290,11 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 #icon_author = "svgs fa-solid fa-pen-fancy" # displayed in metadata on index and below title on page.
 
 ### Uncomment below line to load fontawesome, eg: <i class="fa-solid fa-heart"></i>
-#fontawesome = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
-#icon_read = "svgs fa-solid fa-glasses" # displayed in metadata on index and below title on page.
-#icon_date = "svgs fa-solid fa-calendar" # displayed in metadata on index and below title on page.
-#icon_info = "svgs fa-solid fa-circle-info" # displayed in metadata on index and below title on page for categories/tags
-#icon_author = "svgs fa-solid fa-pen-fancy" # displayed in metadata on index and below title on page.
+fontawesome = "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"
+icon_read = "svgs fa-solid fa-glasses" # displayed in metadata on index and below title on page.
+icon_date = "svgs fa-solid fa-calendar" # displayed in metadata on index and below title on page.
+icon_info = "svgs fa-solid fa-circle-info" # displayed in metadata on index and below title on page for categories/tags
+icon_author = "svgs fa-solid fa-pen-fancy" # displayed in metadata on index and below title on page.
 
 
 ###############################################################################

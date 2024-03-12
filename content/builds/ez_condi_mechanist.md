@@ -1,23 +1,23 @@
 +++
 title = "EZ Condi Mechanist"
-description = "Green Eggs (without HAM)"
+description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
 draft = false
+template = "build.html"
 
 [taxonomies]
 tags = ["condi","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
+authors = ["scooby"]
+
 [extra]
+tagline = "Green Eggs (without HAM)"
 keywords = "Data, Load, External, Shortcodes"
 toc = true
-series = "mechanist"
+spec = "mechanist"
+balance = "January 2024"
 +++
 
-> author: scooby
-> editor: berdandy
-> balance: January 2024
-> spec: mechanist
-
-All-signet, kit-free, condi mech. Priority-based skill "rotation" included.
+This mechanist build is all-signets, and no kit usage, for simple play
 
 ## Gearing
 
