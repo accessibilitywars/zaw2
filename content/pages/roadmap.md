@@ -15,7 +15,7 @@ draft = false
 - [x] Armory Revenant Legends
 - [x] Tag table
 - [x] Author credit & aggregator
-- [s] Specialization background in build page
+- [x] Specialization background in build page
 - [x] Static pages
 - [x] About Page links corrected to baseurl
 - [x] Github pages deploy (manual to github.io page)
