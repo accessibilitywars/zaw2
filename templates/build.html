@@ -92,6 +92,8 @@
 
 {{ page.content | safe }}
 
+<script async src="https://unpkg.com/armory-embeds@^0.x.x/armory-embeds.js"></script>
+
     {%- if config.extra.meta_post.position %}
     {%- if config.extra.meta_post.position == "bottom" or config.extra.meta_post.position == "both" %}
     {{- macros::meta_post(page=page, config=config) }}
