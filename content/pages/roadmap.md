@@ -20,7 +20,8 @@ draft = false
 - [ ] Github pages deploy
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
-- [ ] Move over all the content
+- [ ] Move over current balance patch content
+- [ ] Move over archival content
 
 ## Maintenance/refactor
 
