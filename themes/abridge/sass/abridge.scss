@@ -204,7 +204,7 @@ $viewports: (
 
 $document: true !default;//Content-box & Responsive typography
 $typography: true !default;//a, headings, p, ul, blockquote
-$sectioning: true !default;//responsive Container, header, main, footer
+$sectioning: true !default;//responsive Container, header, main, footer // !!! THIS BREAKS ARMORY???
 $nav: true !default;//Horizontal Navigation at top of page
 $embedded: true !default;//Embedded content, iframe, video, images, etc.
 $table: true !default;//table specific elements
@@ -214,12 +214,12 @@ $scroller: true !default;//Horizontal scroller (<figure>)
 $button: true !default;//Form elements (button)
 $form: true !default;//Form elements (non-button)
 $top: true !default;//back to top button using CSS
-$search: true !default;//search feature
+$search: true !default;//search feature // !!! THIS BREAKS ARMORY???
 $blocks: true !default;//css classes for block formatting, eg: recent posts, table of contents, series navigation
 $series: true !default;//series navigation list
 $modifiers: true !default;//tiny modifier classes for sizing and spacing
 $imgswap: true !default;//Image Swap on hover/click
-$misc: false !default;
+$misc: false !default; // !!! false by default
 $grid: true !default;//Infinity Grid, column based layouts.
 $syntax: true !default;//syntax highlighting for code blocks
 
@@ -591,7 +591,7 @@ $syntax: true !default;//syntax highlighting for code blocks
     // should always have a single div that holds all content below main.
     // TOC or Recent Posts are the only other sections that would be directly under main.
     article, div {
-      flex: 1 1 0;
+      //flex: 1 1 0; // THIS BREAKS GW2ARMORY
       min-width: 0;
     }
   }
@@ -1103,9 +1103,12 @@ $syntax: true !default;//syntax highlighting for code blocks
   }
 }
 @if $search {
+/*
+  // THIS BREAKS GW2ARMORY
   div:empty {
     display: none;
   }
+*/
   .stork-close-button {
     display: none;
   }
