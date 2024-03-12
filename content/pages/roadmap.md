@@ -9,7 +9,7 @@ draft = false
 
 ## Parity with Current Site
 
-- [x] Armory embeds
+- [ ] Armory embeds
   - [x] Skills
   - [x] Traits
   - [x] Ranger Pets
@@ -17,7 +17,9 @@ draft = false
   - [ ] Inline skills
 - [x] Tag table
 - [x] Author credit & aggregator
-- [x] Spec visuals
+- [ ] Specialization visuals
+  - [x] Background in build page
+  - [ ] Icon on index pages
 - [x] Static pages
 - [x] About Page links corrected to baseurl
 - [x] Github pages deploy (manual to github.io page)
