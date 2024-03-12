@@ -17,8 +17,6 @@ To get involved, any of the following is very helpful:
 
 1. join the [Accessibility Wars Too discord](https://discord.gg/bKt2CdS8k3)
 2. check out [the GitHub](https://github.com/accessibilitywars/aw2-builds#contributing) to help with code
-3. share the [Accessibility Wars website](https://accessibilitywars.com/)
-4. test out builds and provide feedback (ideally on discord). Particularly builds with the [review-needed tag](https://accessibilitywars.com/tags/#review-needed)
+3. share the [Accessibility Wars website]({{ baseurl() }})
+4. test out builds and provide feedback (on discord).
 5. [submit new builds](https://forms.gle/d2cdHbx3P7JyK3GD9). This link can also be found on the website, in the sidebar on desktop, and at the bottom for desktop and mobile
-
-**TODO** - change above to new repo for zola

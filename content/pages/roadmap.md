@@ -13,11 +13,12 @@ draft = false
 - [x] Author credit & aggregator
 - [x] Spec visuals
 - [x] Static pages
+- [x] About Page links corrected to baseurl
+- [x] Github pages deploy (manual to github.io page)
+  - [ ] Github pages deploy (automatic)
 - [ ] Flavour text/tagline
 - [ ] Balance patch display on build page
 - [ ] Balance patch filters
-- [ ] About Page links to new zola site
-- [ ] Github pages deploy
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
 - [ ] Move over current balance patch content
