@@ -12,7 +12,7 @@ authors = ["scooby"]
 [extra]
 series = "engineer"
 tagline = "Green Eggs without HAM"
-keywords = "Data, Load, External, Shortcodes"
+keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "January 2024"

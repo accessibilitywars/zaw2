@@ -12,9 +12,9 @@ draft = false
 - [x] Armory embeds
   - [x] Skills
   - [x] Traits
+  - [x] Ranger Pets
+  - [x] Revenant Legends
   - [ ] Inline skills
-  - [ ] Ranger Pets
-  - [ ] Revenant Legends
 - [x] Tag table
 - [x] Author credit & aggregator
 - [x] Spec visuals
