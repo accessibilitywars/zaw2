@@ -18,5 +18,5 @@ To get involved, any of the following is very helpful:
 1. join the [Accessibility Wars Too discord](https://discord.gg/bKt2CdS8k3)
 2. check out [the GitHub](https://github.com/accessibilitywars/aw2-builds) to help with code
 3. share the [Accessibility Wars website]({{ baseurl() }})
-4. test out builds and provide feedback (on discord).
-5. [submit new builds](https://forms.gle/d2cdHbx3P7JyK3GD9). This link can also be found on the website, in the sidebar on desktop, and at the bottom for desktop and mobile
+4. test out builds and provide feedback (on [discord](https://discord.gg/bKt2CdS8k3)).
+5. submit new builds (on [discord](https://discord.gg/bKt2CdS8k3))

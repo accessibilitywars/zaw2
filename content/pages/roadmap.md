@@ -9,33 +9,30 @@ draft = false
 
 ## Parity with Current Site
 
-- [ ] Armory embeds
-  - [x] Skills
-  - [x] Traits
-  - [x] Ranger Pets
-  - [x] Revenant Legends
-  - [ ] Inline skills
+- [x] Armory Skills
+- [x] Armory Traits
+- [x] Armory Ranger Pets
+- [x] Armory Revenant Legends
 - [x] Tag table
 - [x] Author credit & aggregator
-- [ ] Specialization visuals
-  - [x] Background in build page
-  - [ ] Icon on index pages
+- [s] Specialization background in build page
 - [x] Static pages
 - [x] About Page links corrected to baseurl
 - [x] Github pages deploy (manual to github.io page)
-  - [ ] Github pages deploy (automatic)
+- [x] Github pages deploy (automatic)
 - [x] Flavour text/tagline
-- [ ] Balance patch display on build page
+- [x] Remove build bounty stuff (about page too)
+- [ ] Balance patch display on build and index page
 - [ ] Balance patch filters
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
 - [ ] Move over current balance patch content
 - [ ] Move over archival content?
-- [ ] Spec background on index?
-- [ ] Remove google tag tracker bullshit
-- [ ] Add GitHub donate button? Liberapay?
-- [ ] Remove build bounty stuff (about page too)
+- [ ] Specialization Icon on index pages
+- [ ] Specialization Background on index pages
 - [ ] Build “retired build” template to take old aw2 builds without conversion
+- [ ] Add GitHub donate button? Liberapay? Patreon? Ugh
+- [ ] Inline skills by name and id (shortcodes?)
 
 ## Maintenance/refactor
 
