@@ -30,7 +30,12 @@ draft = false
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
 - [ ] Move over current balance patch content
-- [ ] Move over archival content
+- [ ] Move over archival content?
+- [ ] Spec background on index?
+- [ ] Remove google tag tracker bullshit
+- [ ] Add GitHub donate button? Liberapay?
+- [ ] Remove build bounty stuff (about page too)
+- [ ] Build “retired build” template to take old aw2 builds without conversion
 
 ## Maintenance/refactor
 
@@ -38,6 +43,7 @@ draft = false
 
 ## New features
 
+- [ ] Build gear armory markup shortcodes
 - [ ] Shortcodes for chatlinks
 	- [tera functions](https://keats.github.io/tera/docs/#functions)
 	- `tera.register_function("chatcode", chatr(chatcode));`
