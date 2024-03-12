@@ -10,14 +10,15 @@ jobs:
     name: Publish site
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout master
+    - name: Checkout main
       uses: actions/checkout@v4
     - name: Build and deploy
       uses: shalzz/zola-deploy-action@v0.18.0
-        env:
-          REPOSITORY: accessibilitywars/builds
-          PAGES_BRANCH: master
-          TOKEN: ${{ secrets.TOKEN }}
-          CHECK_LINKS: true
-          BUILD_THEMES: false
-          # BUILD_FLAGS: --drafts
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPOSITORY: accessibilitywars/builds
+        PAGES_BRANCH: main
+        TOKEN: ${{ secrets.TOKEN }}
+        CHECK_LINKS: true
+        BUILD_THEMES: false
+        # BUILD_FLAGS: --drafts
