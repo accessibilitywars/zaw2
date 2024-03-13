@@ -42,14 +42,14 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 
 The Opener is probably the hardest part of this rotation, but it boils down to:
 
-1. Start in <span data-aw2-key="F1" data-aw2-skill="5494"/> Air Attunement
-1. <span data-aw2-key="9" data-aw2-skill="5734"/> Glyph of Storms
-1. <span data-aw2-key="F5" data-aw2-skill="62940"/> Deploy Jade Sphere
-1. <span data-aw2-key="5" data-aw2-skill="30795"/> Warhorn 5 Lightning Orb
-1. <span data-aw2-key="4" data-aw2-skill="30008"/> Warhorn 4 Cyclone
-1. <span data-aw2-key="2" data-aw2-skill="44998"/> Sword 2 Polaric Leap
-1. <span data-aw2-key="3" data-aw2-skill="43803"/> Sword 3 Quantum Strike
-1. Swap to <span data-aw2-key="F1" data-aw2-skill="5492"/> Fire Attunement and begin the rotation
+1. Start in {{ skill(id="5494") }} Air Attunement
+1. {{ skill(id="5734") }} Glyph of Storms
+1. {{ skill(id="62940") }} Deploy Jade Sphere
+1. {{ skill(id="30795") }} Warhorn 5 Lightning Orb
+1. {{ skill(id="30008") }} Warhorn 4 Cyclone
+1. {{ skill(id="44998") }} Sword 2 Polaric Leap
+1. {{ skill(id="43803") }} Sword 3 Quantum Strike
+1. Swap to {{ skill(id="5492") }} Fire Attunement and begin the rotation
 
 You can remember this rotation as a flexible combo, as follows:
 
@@ -60,19 +60,19 @@ You can remember this rotation as a flexible combo, as follows:
 
 This works with both Fire and Air. It even works with Earth if you want to dip into Earth for more DPS.
 
-Use <span data-aw2-key="5" data-aw2-skill="30795"/> Warhorn 5 Lightning Orb and <span data-aw2-key="4" data-aw2-skill="30008"/> Warhorn 4 Cyclone
+Use {{ skill(id="30008") }} Warhorn 4 Cyclone
 right before you swap into Fire Attunement.
 
-Use <span data-aw2-key="7" data-aw2-skill="5638"/> Arcane Wave once at any time while you are in Fire Attunement.
+Use {{ skill(id="5638") }} Arcane Wave once at any time while you are in Fire Attunement.
 
 Finally, use
-<span data-aw2-key="5" data-aw2-skill="29533"/> Fire Warhorn 5,
-<span data-aw2-key="9" data-aw2-skill="5734"/> Glyph of Storms, and 
-<span data-aw2-key="0" data-aw2-skill="5666"/> Glyph of Elementals off cooldown.
+{{ skill(id="29533") }} Fire Warhorn 5,
+{{ skill(id="5734") }} Glyph of Storms, and 
+{{ skill(id="5666") }} Glyph of Elementals off cooldown.
 
 I personally like to use
-<span data-aw2-key="9" data-aw2-skill="5734"/> Glyph of Storms in Air and
-<span data-aw2-key="0" data-aw2-skill="5666"/> Glyph of Elementals in Fire, but it doesn't affect the end DPS much regardless, if at all.
+{{ skill(id="5734") }} Glyph of Storms in Air and
+{{ skill(id="5666") }} Glyph of Elementals in Fire, but it doesn't affect the end DPS much regardless, if at all.
 
 ## Crowd Control
 

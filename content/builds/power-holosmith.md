@@ -54,17 +54,17 @@ They are all the same priority as each other as none of these 3 skills have a ca
 
 In Photon Forge mode, your skill priorities are:
 
-1. <span data-aw2-key="3" data-aw2-skill="44530"/> Forge 3 Corona Burst
-2. <span data-aw2-key="4" data-aw2-skill="45783"/> Forge 4 Photon Blitz
-3. <span data-aw2-key="9" data-aw2-skill="42842"/> Laser Disk (above 50% heat)
-4. <span data-aw2-key="0" data-aw2-skill="42009"/> Prime Light Beam (above 50% heat)
+1. {{ skill(id="44530") }} Forge 3 Corona Burst
+2. {{ skill(id="45783") }} Forge 4 Photon Blitz
+3. {{ skill(id="42842") }} Laser Disk (above 50% heat)
+4. {{ skill(id="42009") }} Prime Light Beam (above 50% heat)
 5. Auto attack when you can't press any buttons.
 
 Outside of Photon Forge, your skill priorities are:
 
-1. <span data-aw2-key="5" data-aw2-skill="30713"/> Hammer 5 Thunder Clap
-2. <span data-aw2-key="4" data-aw2-skill="30088"/> Hammer 2 Electro-whirl
-3. <span data-aw2-key="7" data-aw2-skill="43739"/> Photon Wall + Launch Wall (spam the button)
+1. {{ skill(id="30713") }} Hammer 5 Thunder Clap
+2. {{ skill(id="30088") }} Hammer 2 Electro-whirl
+3. {{ skill(id="43739") }} Photon Wall + Launch Wall (spam the button)
 4. Auto attack when you can't press any buttons.
 
 ## Crowd Control

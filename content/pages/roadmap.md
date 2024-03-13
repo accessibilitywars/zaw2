@@ -29,11 +29,10 @@ draft = false
 - [x] Specialization Background on index pages
 - [x] Balance patch display on build page
 - [x] Balance patch display on index page
-- [ ] Balance patch filters
+- [x] Inline skills by id via shortcode
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
 - [ ] Add GitHub donate button? Liberapay? Patreon? Ugh
-- [ ] Inline skills by name and id (shortcodes?)
 - [ ] Audit archival content
 
 ## Maintenance/refactor
@@ -56,7 +55,8 @@ draft = false
 	- if anything else no keybind
 - [ ] Method to extract builds from GW2 API
 - [ ] Mechanism to submit builds?
+	- maybe just a template?
 
 ## Long term
 
-- [ ] don't use armory, and have a static builder
+- [ ] don't use armory-embeds, and have a static builder
