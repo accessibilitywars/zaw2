@@ -60,3 +60,11 @@ draft = false
 ## Long term
 
 - [ ] don't use armory-embeds, and have a static builder
+
+## Guides (video + blog post)
+
+- [ ] How to use the magnifier tool to increase the size of your boon bar
+- [ ] How to use the Special Forces Training Arena Golem, and explanation on why it is set up this way
+- [ ] Boons and why they rock
+- [ ] Conditions and why they suck
+- [ ] What are combo fields and why are they whirling in an ethereal field
