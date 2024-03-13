@@ -35,9 +35,14 @@ draft = false
 - [ ] Add GitHub donate button? Liberapay? Patreon? Ugh
 - [ ] Audit archival content
 
+## Content
+
+- [ ] Page/guide for accessibility tools (blishhud, shaders, nexus, arc, etc)
+- [ ] New page for Alternatives (Masha?)
+
 ## Maintenance/refactor
 
-- [ ] Change build.html template to extend page instead of cloning it
+- [ ] Rework to more properly inherit/extend abridge theme instead of hacking it to bits like a caveman
 
 ## New features
 

@@ -1,3 +1,5 @@
-# Accessibility Wars source
+# Accessibility Wars
 
-New zola site?
+Low Intensity builds and guides for the Guild Wars 2 community
+
+See [the roadmap](https://accessibilitywars.com/roadmap)
