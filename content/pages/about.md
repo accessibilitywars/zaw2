@@ -20,3 +20,19 @@ To get involved, any of the following is very helpful:
 3. share the [Accessibility Wars website]({{ baseurl() }})
 4. test out builds and provide feedback (on [discord](https://discord.gg/bKt2CdS8k3)).
 5. submit new builds (on [discord](https://discord.gg/bKt2CdS8k3))
+
+## Who We Are
+
+### Discord Crew
+
+- berdandy
+- xmidsummerdream
+- bunny
+
+### Build & Web Crew
+
+- berdandy
+- scooby
+- xelink
+- and various other contributors
+
