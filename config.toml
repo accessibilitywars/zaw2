@@ -82,6 +82,7 @@ menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
+    {url = "guides", name = "Guides", slash = true, blank = false, size="s110"},
     {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
 #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
@@ -156,7 +157,7 @@ feed = true # this adds the RSS feed icon in the footer.
 # element = "matrix.example.com"
 # buymeacoffee = "your-user-name"
 # kofi = "your-user-name"
-discord = "RaPVKYQPZh" # Everything after https://discord.com/   eg: invite/my-server  *or*  servers/my-server-id
+discord = "RaPVKYQPZh" # Everything after https://discord.gg/   eg: invite/my-server  *or*  servers/my-server-id
 # twitter = "your-user-name"
 # facebook = "your-user-name"
 # linkedin = "your-user-name"
