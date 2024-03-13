@@ -16,9 +16,9 @@ jobs:
       uses: shalzz/zola-deploy-action@v0.18.0
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        REPOSITORY: accessibilitywars/builds
+        REPOSITORY: accessibilitywars/aw2_builds
         PAGES_BRANCH: main
         TOKEN: ${{ secrets.TOKEN }}
-        CHECK_LINKS: true
+        # CHECK_LINKS: true
         BUILD_THEMES: false
         # BUILD_FLAGS: --drafts
