@@ -82,12 +82,13 @@ menu = [
 #    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
     {url = "about", name = "About", slash = true, blank = false, size="s110"},
     {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
-    {url = "archive", name = "Builds by Date", slash = true, blank = false, size="s110"},
+    {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
 #    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
-    {url = "tags", name = "Builds by Tag", slash = true, blank = false, size="s110"},
+    {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
     {url = "about", name = "About", slash = true, blank = false},
+	{url = "retired", name = "Retired Builds", slash = true, blank = false},
     {url = "roadmap", name = "Roadmap", slash = true, blank = false},
 #   {url = "contact", name = "Contact", slash = true, blank = false},
     {url = "privacy", name = "Privacy", slash = true, blank = false},
