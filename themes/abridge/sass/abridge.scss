@@ -1235,6 +1235,7 @@ $syntax: true !default;//syntax highlighting for code blocks
     }
     width: 15rem;
     max-width: 15rem;
+    min-width: 12rem;
     margin-left: var(--s1);
     display: none;//hide in mobile view
   }

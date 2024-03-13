@@ -22,17 +22,19 @@ draft = false
 - [x] Github pages deploy (automatic)
 - [x] Flavour text/tagline
 - [x] Remove build bounty stuff (about page too)
-- [ ] Balance patch display on build and index page
+- [x] Move over current balance patch content
+- [x] Build “retired build” template to take old aw2 builds without conversion
+- [x] Move over archival content with limited template
+- [x] Specialization Icon on index pages
+- [x] Specialization Background on index pages
+- [x] Balance patch display on build page
+- [ ] Balance patch display on index page
 - [ ] Balance patch filters
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
-- [ ] Move over current balance patch content
-- [ ] Move over archival content?
-- [ ] Specialization Icon on index pages
-- [ ] Specialization Background on index pages
-- [ ] Build “retired build” template to take old aw2 builds without conversion
 - [ ] Add GitHub donate button? Liberapay? Patreon? Ugh
 - [ ] Inline skills by name and id (shortcodes?)
+- [ ] Audit archival content
 
 ## Maintenance/refactor
 

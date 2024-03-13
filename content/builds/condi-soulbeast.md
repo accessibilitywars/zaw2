@@ -2,7 +2,6 @@
 title = "Shortbow Soulbeast"
 description = "This low-medium intensity condi Soulbeast build uses shortbow, flanking and zero-animation utilities to stay effective."
 date = 2022-04-10
-draft = true
 template = "build.html"
 
 [taxonomies]
@@ -15,10 +14,8 @@ tagline =  "'I know animals more gallant than the African warthog, but none more
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
 spec = "soulbeast"
-balance = "Unknown"
+balance = "March 2022"
 +++
-
-<p style="color: red;">**WARNING: THIS IS AN OLD BUILD. I JUST NEEDED A RANGER BUILD TO TEST THE NEW WEBSITE**</p>
 
 ## Gearing
 
