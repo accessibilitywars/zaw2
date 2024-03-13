@@ -2,6 +2,7 @@
 title = "Contributor's Guide"
 description = "A rough guide on how to contribute builds and guides to Accessibility Wars"
 date = 2024-04-12
+toc = true
 +++
 
 # The Big Picture
@@ -17,9 +18,14 @@ However, it is built from source code and contributors can make edits and submis
 - Sign up for an account on [GitHub](https://github.com/). Feel free to use whatever name you wish. Be aware all your proposed changes will be associated with this name and it will be public.
 - Familiarize yourself with [basic markdown](https://www.markdownguide.org/basic-syntax/)
 
-## Editing an existing build
+## Editing an existing build/file/guide/page
 
-1. Find a build to edit on the source repository. All builds live in [this github folder](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
+1. Find a build to edit on the source repository.
+	- all content lives in [this github folder](https://github.com/accessibilitywars/zaw2/tree/master/content)
+	- builds live in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
+	- guides live in [guides](https://github.com/accessibilitywars/zaw2/tree/master/content/guides)
+	- miscellaneous pages live in [pages](https://github.com/accessibilitywars/zaw2/tree/master/content/pages)
+	- old jekyll-based builds live in [retired](https://github.com/accessibilitywars/zaw2/tree/master/content/retired)
 3. Click the markdown (.md) file to view it in the github editor
 4. Click the pencil icon to switch to edit mode
 5. Make your changes
