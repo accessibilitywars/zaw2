@@ -39,7 +39,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 	  {%- endif %}
       <article>
 	    {%- if page.extra.spec %}
-		<img style='float: left; padding-right: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
+		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
 	    {%- endif %}
         {{- macros::title_index(page=page, config=config) }}
         {%- if config.extra.meta_index.position %}
@@ -64,6 +64,13 @@ This Template can also be used directly for the index eg: example.com/ or as the
         {{- macros::meta_index(page=page, config=config) }}
         {%- endif %}
         {%- endif %}
+		{%- if page.extra.balance %}
+          {%- if page.extra.balance == config.extra.balance %}
+			<div style="color: LightGreen; text-align: right;">Balance: {{ page.extra.balance }}</div>
+          {%- else %}
+			<div style="background-color: Crimson; text-align: right;">Balance: {{ page.extra.balance }}</div>
+          {%- endif %}
+		{%- endif %}
       </article>
 	  {%- if page.extra.spec %}
 	  </div>
@@ -90,14 +97,23 @@ This Template can also be used directly for the index eg: example.com/ or as the
     {%- else %}
     {%- set section_item = get_section(path=sec ~ "_index." ~ lang ~ ".md") %}
     {%- endif %}
-    <div class="sblock">
-      <div class="blockdiv sticky">
-        <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
-        {%- set recent_items=config.extra.recent_items | default(value=9) -%}
-        {%- for page in section_item.pages | slice(end=recent_items) %}
-          {{- macros::page_listing(page=page, config=config) }}
-        {%- endfor %}
-      </div>
-    </div>
+	<div class="sblock">
+	  <div class="sticky">
+		<div class="blockdiv">
+		  <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
+		  {%- set recent_items=config.extra.recent_items | default(value=9) -%}
+		  {%- for page in section_item.pages | slice(end=recent_items) %}
+			{{- macros::page_listing(page=page, config=config) }}
+		  {%- endfor %}
+		</div>
+
+		{%- if config.extra.balance %}
+		  <div class="blockdiv">
+			<h2 class="b s150">Current Balance</h2>
+			<p>{{ config.extra.balance }}</p>
+		  </div>
+		{%- endif %}
+	  </div>
+	</div>
   {%- endif %}
 {%- endblock content %}

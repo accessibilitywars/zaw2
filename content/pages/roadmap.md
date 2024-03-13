@@ -28,7 +28,7 @@ draft = false
 - [x] Specialization Icon on index pages
 - [x] Specialization Background on index pages
 - [x] Balance patch display on build page
-- [ ] Balance patch display on index page
+- [x] Balance patch display on index page
 - [ ] Balance patch filters
 - [ ] Remappable keybind support
 - [ ] Pretty spec/profession tag table
