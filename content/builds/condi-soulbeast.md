@@ -2,7 +2,7 @@
 title = "Shortbow Soulbeast"
 description = "This low-medium intensity condi Soulbeast build uses shortbow, flanking and zero-animation utilities to stay effective."
 date = 2022-04-10
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
