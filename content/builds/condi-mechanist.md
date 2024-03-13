@@ -55,7 +55,7 @@ Your CC skills are, in order of priority:
 
 I actually forgot to put on my Sigil of Bursting, so this build does easily ~1k more DPS than the number in the log. You can expect 33.5k DPS.
 
-## Other References
+## Video
 
 {{ youtube(id="zBh_exTC6qs") }}
 

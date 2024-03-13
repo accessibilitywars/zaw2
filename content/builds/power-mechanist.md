@@ -18,17 +18,6 @@ spec = "mechanist"
 balance = "January 2024"
 +++
 
----
-layout: build
-author: scooby
-editor: berdandy
-title: EZ Power Mechanist
-tags: power engineer mechanist eod lowcog lowphys lowrep
-tagline: "If you name your mech 'Hammer' you can dual-wield Hammers"
-balance: January 2024
-spec: mechanist
----
-
 Signet-heavy, with some chill hammer thumping. And a little turret on the side.
 
 ## Gearing
@@ -74,7 +63,7 @@ If you still need more CC, replace
 <span data-aw2-skill="5818"/>Rifle Turret with
 <span data-aw2-skill="6161"/>Throw Mine.
 
-## Other References
+## Video
 
-{% include video id="ipzl3PqQvTY" provider="youtube" %}
+{{ youtube(id="ipzl3PqQvTY") }}
 

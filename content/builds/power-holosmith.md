@@ -71,7 +71,7 @@ Outside of Photon Forge, your skill priorities are:
 
 Your CC skills are Static Shock, and Forge 5 Holographic Shockwave. That's not a lot of CC, so if you need more CC, you can swap out Rifle Turret for Throw Mine, and if you need even more CC, swap out Photon Wall for Personal Battering Ram.
 
-## Other References
+## Video
 
-{% include video id="IPqhB8YIiwo" provider="youtube" %}
+{{ youtube(id="IPqhB8YIiwo") }}
 

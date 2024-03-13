@@ -57,7 +57,7 @@ You can replace off hand Focus with Warhorn, although based on my testing the da
 
 I understand the RNG with using Glyph of Lesser Elementals in a demo, which is why I have decided not to precast it. This means that I am able to show off the full rotation and build without inflating the final damage number. I choose to leave it in because I have seen many players who don't read and just use Glyph of Elemental Power during the actual fights.
 
-## Other References
+## Video
 
-{% include video id="fmIY5GpklGA" provider="youtube" %}
+{{ youtube(id="fmIY5GpklGA") }}
 

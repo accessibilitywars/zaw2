@@ -78,7 +78,7 @@ I personally like to use
 
 Your CC skills are Air 2 and 4, Water 4, Earth 2 and 5. Dropping rotation to CC loses more DPS the longer you stay out of Fire/Air Attunement. The DPS loss can be reduced by using Deploy Jade Sphere, Water 3, and Earth 2, 3, and 5. This might leave you with not enough energy for your next Deploy Jade Sphere. If you do not have enough energy for Deploy Jade Sphere, it is okay to either skip it or use it as soon as it is available.
 
-## Other References
+## Video
 
-{% include video id="JWgnq9yLE5w" provider="youtube" %}
+{{ youtube(id="JWgnq9yLE5w") }}
 
