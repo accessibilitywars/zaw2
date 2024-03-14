@@ -5,14 +5,12 @@ template = "pages.html"
 draft = false
 +++
 
-# Roadmap
+# Content Roadmap
 
-## Content Timeline
+- [ ] Add at least 1 build for each profession [tags](https://accessibilitywars.com/tags/)
+- [ ] Add at least 1 build for each specialization [tags](https://accessibilitywars.com/tags/)
+- [ ] Update builds for [the upcoming balance patch](https://wiki.guildwars2.com/wiki/Upcoming_changes_and_features/2024-03-19_Game_update_preview)
 
-- Add at least 1 build for each profession
-- Add at least 1 build for each specialization
-- Update builds for upcoming balance patch
-
-## GitHub Issues
+# GitHub Issues
 
 {{ buglist(repo="accessibilitywars/aw2-builds") }}
