@@ -19,6 +19,8 @@ draft = false
 - [ ] Conditions and why they suck
 - [ ] What are combo fields and why are they whirling in an ethereal field
 
-# GitHub Issues
+# Open GitHub Issues
 
 {{ buglist(repo="accessibilitywars/aw2-builds") }}
+
+[see all issues...](https://github.com/accessibilitywars/zaw2/issues)
