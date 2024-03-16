@@ -105,10 +105,10 @@ Template code:
 _Note: videos are pre-balance patch, numbers will be different. The build still works well._
 
 ## Simple rotation (32.1k DPS):
-{% include video id="fHOrZAGd2J4" provider="youtube" %}
+{{ youtube(id="fHOrZAGd2J4") }}
 
 ## Full rotation (33.8k DPS):
-{% include video id="XV6_BqGYZes" provider="youtube" %}
+{{ youtube(id="XV6_BqGYZes") }}
 
 ## Kaineng Overlook CM Title:
-{% include video id="NcEvMFGH6TY" provider="youtube" %}
+{{ youtube(id="NcEvMFGH6TY") }}

@@ -47,4 +47,4 @@ Template code:
 - Relic of the Thief
 
 ## Video
-{% include video id="iQW-RPxQc3k" provider="youtube" %}
+{{ youtube(id="iQW-RPxQc3k") }}

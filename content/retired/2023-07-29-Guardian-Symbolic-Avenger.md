@@ -62,4 +62,4 @@ Template code:
 
 # Video
 
-{% include video id="k2J_BWtuurk" provider="youtube" %}
+{{ youtube(id="k2J_BWtuurk") }}

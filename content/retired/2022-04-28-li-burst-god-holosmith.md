@@ -40,7 +40,7 @@ Template code:
 - Sword/Pistol Force/Air
 
 ## Video
-{% include video id="hGYoURAIPxc" provider="youtube" %}
+{{ youtube(id="hGYoURAIPxc") }}
 
 
 ## Variants

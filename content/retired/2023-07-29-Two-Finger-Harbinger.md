@@ -50,4 +50,4 @@ Template Code:
 
 ## References
 
-{% include video id="cvffhAEi4qw" provider="youtube" %}
+{{ youtube(id="cvffhAEi4qw") }}
