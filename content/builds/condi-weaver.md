@@ -32,7 +32,7 @@ We include some Elementals for extra friends when you're feeling lonely.
 
 ## Build
 
-`[&DQYfFRomOBV0AAAAywAAAHIAAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQYfFRomOBV0AAAAywAAAHIAAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ---
 

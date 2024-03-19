@@ -32,7 +32,7 @@ Signet-heavy, with some chill hammer thumping. And a little turret on the side.
 
 ## Build
 
-`[&DQMGOyYnRh8NGwAAowAAABobAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQMGOyYnRh8NGwAAowAAABobAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ---
 

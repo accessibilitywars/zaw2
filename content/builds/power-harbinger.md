@@ -38,7 +38,9 @@ A prototype power harb
 - Weapon A2: Sword, Berserker's, Superior Sigil of Air
 
 ---
-`[&DQgnJjIrQCXnGgAA6xoAANQaAACAAAAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]`
+
+{{ chatlink(code="[&DQgnJjIrQCXnGgAA6xoAANQaAACAAAAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+
 ---
 
 <div data-armory-embed='skills' data-armory-ids='62667,62514,62530,10544,62655'></div><div data-armory-embed='specializations' data-armory-ids='39,50,64' data-armory-39-traits='2013,816,1696'  data-armory-50-traits='888,861,893'  data-armory-64-traits='2188,2192,2194' ></div>

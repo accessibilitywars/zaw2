@@ -29,7 +29,7 @@ balance = "March 2022"
 
 Template code:
 
-`[&DQQeLSE3Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQQeLSE3Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]") }}
 
 Pets: Juvenile Fanged Iboga / Juvenile Warthog<div data-armory-embed='skills' data-armory-ids='12489,12537,40498,12491,12580'></div><div data-armory-embed='specializations' data-armory-ids='30,33,55' data-armory-30-traits='1069,1846,1912' data-armory-33-traits='1099,1101,1701' data-armory-55-traits='2071,2161,2143'></div>
 
@@ -41,7 +41,7 @@ For Open World, this Beastmastery variant works well.
 
 Template code:
 
-`[&DQQeLSA+Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQQeLSA+Nz6hAAAAvwAAAOkWAACsAQAAwAAAAD0lAAAAAAAAAAAAAAAAAAA=]") }}
 
 Pets: Juvenile Fanged Iboga / Juvenile Warthog<div data-armory-embed='skills' data-armory-ids='12489,12537,40498,12491,12580'></div><div data-armory-embed='specializations' data-armory-ids='30,32,55' data-armory-30-traits='1069,1846,1912' data-armory-32-traits='1072,970,1066' data-armory-55-traits='2071,2161,2143'></div>
 

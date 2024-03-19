@@ -32,7 +32,7 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 
 ## Build
 
-`[&DQYfHSkfQyZ0AAAATgEAAMsAAAC+AQAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQYfHSkfQyZ0AAAATgEAAMsAAAC+AQAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ---
 

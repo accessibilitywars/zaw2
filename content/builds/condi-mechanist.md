@@ -30,7 +30,7 @@ This mechanist build is all-signets, and no kit usage, for simple play
 
 ## Build
 
-`[&DQMGJyY5RjUNGwAAGhsAAA4bAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQMGJyY5RjUNGwAAGhsAAA4bAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ---
 

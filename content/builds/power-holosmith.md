@@ -34,7 +34,7 @@ A hammer priority-based build, with two different priority sets (in/out of forge
 ## Build
 
 
-`[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]`
+{{ chatlink(code="[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ---
 
