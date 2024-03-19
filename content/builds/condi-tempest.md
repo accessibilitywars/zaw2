@@ -1,4 +1,4 @@
-++") }}
++++
 title = "Fire Tempest"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
