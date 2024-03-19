@@ -20,7 +20,7 @@ Mukluk has a lot of varied content, but has a [dedicated LI tag](https://muklukl
 
 #### [Hardstuck](https://hardstuck.gg)
 
-Hardstuck has posted a number of LI specific builds, mostly for Open World
+Hardstuck has posted a number of LI specific builds, mostly for Open World. Use the difficulty selector to filter builds.
 
 #### [GuildJen](https://guildjen.com/builds/)
 
