@@ -32,3 +32,7 @@ is to minimize lateral finger movement on the keyboard/mouse/controller.
 [Low Rep Builds](/tags/#lowrep) have low physical repetition. These builds have a reduced need to press the _same_ button rapidly.
 We lean on autos, and the ability to hold the weapon key down in many cases here. Note that there may be a difference for users of Action
 Camera particularly with these builds. See [the tools page](/tools) for possible accommodations.
+
+## Finally...
+
+We don't hold a monopoly on LI builds here at Accessibility Wars. [Check out some possible alternatives](/pages/alternatives)
