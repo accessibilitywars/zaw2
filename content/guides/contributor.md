@@ -7,13 +7,30 @@ date = 2024-03-13
 toc = true
 +++
 
-# The Big Picture
+# How to Contribute
 
-Accessibility Wars uses a static site generator. This means there is no database, no live scripts, and no way to edit directly on the site.
+## Time / Effort
+Contributors of time and expertise are very welcomed. Most content on the site is written in markdown, a simple text file format.
+It's pretty approachable, and works like discord. For example, using `**asterisks**` to **bold** text is markdown.
+
+We have some adaptations to add Guild Wars 2 specific functionality of course, but most of the complexity will be working with github, the site
+that _stores_ the files.
+
+## Financial
+
+Of course, financial contributions are always welcome too, if that's preferred. We have
+[a team set up on Liberapay](https://liberapay.com/AccessibilityWars), which is an open community
+funding platform based in France. All funds currently go towards development and hosting costs, but we hope to be able to offer
+honorariums to build contributors to recognize their efforts.
+
+Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](/discord) if
+you prefer one of those options.
+
+# Content how to...
+
+Accessibility Wars uses a static site generator. This means there is no database, no server-side scripts, and no way to edit directly on the site.
 
 However, it is built from source code and contributors can make edits and submissions using GitHub's interface (or the git tool directly).
-
-# How to Contribute
 
 ---
 
@@ -24,7 +41,7 @@ However, it is built from source code and contributors can make edits and submis
 
 ---
 
-## Editing an existing build/file/guide/page
+## How to... edit
 
 1. Find a build to edit on the source repository.
 	- all content lives in [this github folder](https://github.com/accessibilitywars/zaw2/tree/master/content)
@@ -53,25 +70,43 @@ inbox and/or discord for possible modifications. After changes are accepted, the
 
 ---
 
-## Previewing your changes locally
+## How to... preview
 
 In short:
 
 1. [install zola](https://www.getzola.org/documentation/getting-started/installation/)
-2. clone [the source repository](https://github.com/accessibilitywars/zaw2)
+2. clone/pull [the source repository](https://github.com/accessibilitywars/zaw2)
 3. run `zola serve`
 
 That's basically it.
 
 ---
 
-## Creating a _new_ build
+## How to... create
 
-*TODO*
+### Option 1: Copy and modify
+
+These guides are incomplete. Talk to berdandy on the discord if you want to create new content. It's not difficult, but it's
+likely using unfamiliar tools.
+
+**TODO more detail**
+
+- clone/pull
+- copy & edit md file
+- commit, make PR
+
+### Option 2: Export and fix
+
+**TODO more detail**
+
+- clone/pull
+- use [buildwars](https://github.com/berdandy/buildwars) to create md file
+- edit md file
+- commit, make PR
 
 ---
 
-## Additional tools
+# Additional tools
 
 These additional tools are useful. They will eventually be integrated, but for now, they're useful standalone utils.
 
