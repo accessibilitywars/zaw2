@@ -1,6 +1,7 @@
 +++
 title = "Alternative Build Resources"
 date = 2024-03-19
+path = "alternatives"
 +++
 
 We don't hold a monopoly on LI builds here at Accessibility Wars. Here is a non-exhaustive list of some other places to find accessible builds.
