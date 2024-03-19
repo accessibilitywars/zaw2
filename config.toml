@@ -1,6 +1,7 @@
 #do NOT include a trailing slash on the base URL
 # base_url = "https://accessibilitywars.com"
-base_url = "https://accessibilitywars.github.io/aw2-builds"
+# base_url = "https://accessibilitywars.github.io/aw2-builds"
+base_url = "https://aw2.help"
 # Usable site directly from disk, Including Search: "/home/jieiku/.dev/abridge/public"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
 # If you use the npm/node script then all you have to do is set offline = true, and everything else is automatic.
