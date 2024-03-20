@@ -22,40 +22,48 @@ A prototype power harb
 
 ## Gearing
 
-- Berserker's Coat, Superior Rune of the Scholar
-- Berserker's Boots, Superior Rune of the Scholar
-- Berserker's Gloves, Superior Rune of the Scholar
-- Berserker's Helm, Superior Rune of the Scholar
-- Berserker's Leggings, Superior Rune of the Scholar
-- Berserker's Shoulders, Superior Rune of the Scholar
-- Backpack: Assassin's
+- Berserker's Coat, Superior Rune of the Dragonhunter
+- Berserker's Boots, Superior Rune of the Dragonhunter
+- Berserker's Gloves, Superior Rune of the Dragonhunter
+- Berserker's Helm, Superior Rune of the Dragonhunter
+- Berserker's Leggings, Superior Rune of the Dragonhunter
+- Berserker's Shoulders, Superior Rune of the Dragonhunter
+- Backpack: Berserker's
 - Accessory 1: Berserker's
 - Accessory 2: Berserker's
 - Ring 1: Assassin's
 - Ring 2: Assassin's
 - Amulet: Berserker's
-- Weapon A1: Axe, Marauder, Superior Sigil of Hydromancy
+- Weapon A1: Axe, Berserker's, Superior Sigil of Accuracy
 - Weapon A2: Sword, Berserker's, Superior Sigil of Air
+- Weapon B1: Dagger, Berserker's, Superior Sigil of Energy
+- Weapon B2, Focus, Berserker's, Superior Sigil of Accuracy
+- Relic of the Thief
 
 ---
-
-{{ chatlink(code="[&DQgnJjIrQCXnGgAA6xoAANQaAACAAAAA6BoAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
-
+`[&DQg1KTIlQBXnGgAA1BoAAIEAAACAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]`
 ---
 
-<div data-armory-embed='skills' data-armory-ids='62667,62514,62530,10544,62655'></div><div data-armory-embed='specializations' data-armory-ids='39,50,64' data-armory-39-traits='2013,816,1696'  data-armory-50-traits='888,861,893'  data-armory-64-traits='2188,2192,2194' ></div>
 
-## Notes
+<div data-armory-embed='skills' data-armory-ids='62667,62530,10546,10544,10646'></div><div data-armory-embed='specializations' data-armory-ids='53,50,64' data-armory-53-traits='914,829,853'  data-armory-50-traits='875,894,893'  data-armory-64-traits='2188,2192,2218' ></div>
 
-### Out of Shroud
+# Notes
 
-- Build up blight to power your critical boosts
+## Start
+
+- Spawn flesh golem
+
+## Out of Shroud
+
+- Throw elixirs at your feet to build up blight to power critical boosts
 - Use axe 2 and sword 5
+- Use pistol 2 and torch 4, 5 to load target up on torment
+- Activate Blood Is Power before using axe 2 and before entering shroud
 
-### In shroud
+## In shroud
 
 - Enter shroud when you have 75% life force
-- Use shroud 2 & 3
+- Use shroud 2, 3, 4
 
 ## Crowd Control
 
