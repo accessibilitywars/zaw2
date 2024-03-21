@@ -38,10 +38,6 @@ A brand new spicy Fire Tempest build is great for roasted golems and friendly ra
 
 {{ chatlink(code="[&DQYfFSU9MBfHEgAAvgEAAHIAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
----
-
-<div data-armory-embed='skills' data-armory-ids='29535,5734,5502,5542,5666'></div><div data-armory-embed='specializations' data-armory-ids='31,37,48' data-armory-31-traits='296,325,1510' data-armory-37-traits='253,257,1511' data-armory-48-traits='1886,1891,1839'></div>
-
 ## Notes
 
 No attunement swapping required for this build! Just camp fire and press all of your skills off CD. Remember to prioritize Overload Fire as successfully completing an Overload gives you a **15%** damage boost!

@@ -34,7 +34,7 @@ This is a pretty foundational build for Revenant. Simple, solid and focused.
 ## Build
 
 
-{{ chatlink(code="[&DQkDNg8qRRXcEQAABhIAACsSAADUEQAAyhEAAAIDAAArEgYS1BEAAAAAAAA=]") }}
+`[&DQkDNg8qRRXcEQAABhIAACsSAADUEQAAyhEAAAIDAAArEgYS1BEAAAAAAAA=]`
 
 ---
 

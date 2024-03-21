@@ -34,10 +34,6 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 
 {{ chatlink(code="[&DQYfHSkfQyZ0AAAATgEAAMsAAAC+AQAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
----
-
-<div data-armory-embed='skills' data-armory-ids='5503,5638,5542,5734,5666'></div><div data-armory-embed='specializations' data-armory-ids='31,41,67' data-armory-31-traits='296,334,1510' data-armory-41-traits='232,1502,226' data-armory-67-traits='2252,2247,2241'></div>
-
 ## Notes
 
 The Opener is probably the hardest part of this rotation, but it boils down to:

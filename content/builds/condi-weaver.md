@@ -34,10 +34,6 @@ We include some Elementals for extra friends when you're feeling lonely.
 
 {{ chatlink(code="[&DQYfFRomOBV0AAAAywAAAHIAAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
----
-
-<div data-armory-embed='skills' data-armory-ids='5503,5542,5502,40183,5666'></div><div data-armory-embed='specializations' data-armory-ids='31,26,56' data-armory-31-traits='296,325,1510' data-armory-26-traits='1507,275,287' data-armory-56-traits='2177,2180,2131'></div>
-
 ## Notes
 
 Precast Glyph of Lesser Elementals (3 if possible) and Glyph of Elementals in Fire attunement before the fight starts.

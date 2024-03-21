@@ -40,12 +40,9 @@ A prototype power harb
 - Weapon B2, Focus, Berserker's, Superior Sigil of Accuracy
 - Relic of the Thief
 
----
-`[&DQg1KTIlQBXnGgAA1BoAAIEAAACAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]`
----
+## Build
 
-
-<div data-armory-embed='skills' data-armory-ids='62667,62530,10546,10544,10646'></div><div data-armory-embed='specializations' data-armory-ids='53,50,64' data-armory-53-traits='914,829,853'  data-armory-50-traits='875,894,893'  data-armory-64-traits='2188,2192,2218' ></div>
+{{ chatlink(code="[&DQg1KTIlQBXnGgAA1BoAAIEAAACAAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 # Notes
 

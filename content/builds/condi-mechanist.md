@@ -32,10 +32,6 @@ This mechanist build is all-signets, and no kit usage, for simple play
 
 {{ chatlink(code="[&DQMGJyY5RjUNGwAAGhsAAA4bAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
----
-
-<div data-armory-embed='skills' data-armory-ids='63049,63253,63113,63111,63095'></div><div data-armory-embed='specializations' data-armory-ids='6,38,70' data-armory-6-traits='1882,482,505' data-armory-38-traits='1878,2006,433' data-armory-70-traits='2282,2270,2298'></div>
-
 ## Notes
 
 Use all skills off cooldown in the following priority order, which is shown on screen as well:

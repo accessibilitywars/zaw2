@@ -36,10 +36,6 @@ A hammer priority-based build, with two different priority sets (in/out of forge
 
 {{ chatlink(code="[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
----
-
-<div data-armory-embed='skills' data-armory-ids='21659,43739,5818,42842,42009'></div><div data-armory-embed='specializations' data-armory-ids='6,38,57' data-armory-6-traits='1882,1892,1947' data-armory-38-traits='1914,1923,526' data-armory-57-traits='2106,2103,2064'></div>
-
 ## Notes
 
 Power Holosmith, played in this rotation, can be summed up by having a skill priority order and pressing skills off cooldown, with the exception of Laser Disc and Prime Light Beam. These 2 skills have the additional condition of needing to be pressed above 50% heat.

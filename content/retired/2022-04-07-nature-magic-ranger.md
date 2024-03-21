@@ -23,30 +23,7 @@ If comfortable with the above, consider dropping <span data-aw2-key="9" data-aw2
 
 ## Traits and Skills
 
-Template code:
-
-`[&DQQIKh42GSZ5AAAAwgAAAKsBAACsAQAA7QAAAC45AAAAAAAAAAAAAAAAAAA=]`
-
----
-
-Pets:
-- Smokescale 
-- Jacaranda
-
-<div
-  data-armory-embed='skills'
-  data-armory-ids='31914,12502,12500,12491,12516'
->
-</div>
-<div
-  data-armory-embed='specializations'
-  data-armory-ids='8,30,25'
-  data-armory-8-traits='1014,1000,1015'
-  data-armory-30-traits='1067,1016,1888'
-  data-armory-25-traits='978,1054,1988'
->
-</div>
-
+{{ chatlink(code="[&DQQIKh42GSZ5AAAAwgAAAKsBAACsAQAA7QAAAC45AAAAAAAAAAAAAAAAAAA=]") }}
 
 ## Gearing
 
