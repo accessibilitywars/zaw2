@@ -33,12 +33,7 @@ This is a pretty foundational build for Revenant. Simple, solid and focused.
 
 ## Build
 
-
-`[&DQkDNg8qRRXcEQAABhIAACsSAADUEQAAyhEAAAIDAAArEgYS1BEAAAAAAAA=]`
-
----
-
-<div data-armory-embed='skills' data-armory-nokey=true data-armory-ids='28134,28419'></div><div data-armory-embed='skills' data-armory-ids='26937,29209,28231,27107,28406'></div><div data-armory-embed='skills' data-armory-ids='27372,28516,26679,26557,27975'></div><div data-armory-embed='specializations' data-armory-ids='3,15,69' data-armory-3-traits='1761,1774,1719' data-armory-15-traits='1767,1765,1800' data-armory-69-traits='2258,2259,2257'></div>
+{{ chatlink(code="[&DQkDNg8qRRXcEQAABhIAACsSAADUEQAAyhEAAAIDAAArEgYS1BEAAAAAAAA=]") }}
 
 ## Notes
 
