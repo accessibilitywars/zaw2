@@ -37,27 +37,34 @@ Signet-heavy, with some chill hammer thumping. And a little turret on the side.
 ## Notes
 
 To play this build, you want to place
-{{ skill(id="5818") }}Rifle Turret
+
+- {{ skill(id="5818", name="Rifle Turret") }}
+
 at the start of the fight, then press
-{{ skill(id="30713") }}Hammer 5 Thunderclap, 
-{{ skill(id="30088") }}Hammer 2 Electro-Whirl, and
-{{ skill(id="63095") }}Overclock Signet
+
+1. {{ skill(id="30713", name="Hammer 5 Thunderclap") }}
+1. {{ skill(id="30088", name="Hammer 2 Electro-Whirl") }}
+1. {{ skill(id="63095", name="Overclock Signet") }}
+
 off cooldown, and that is basically your rotation.
 
 ## Crowd Control
 
-You have decent CC. Primarily, {{ skill(id="30665") }}Hammer 3 Rocket Charge
-will make your Mech do Rocket Punch, which is a CC, but do take note that since the cooldown of Rocket Punch is longer than that of
-{{ skill(id="30665") }}Hammer 3 Rocket Charge
-it will not always be available.
+You have decent CC. Primarily, {{ skill(id="30665", name="Hammer 3 Rocket Charge") }} will make your Mech do Rocket Punch, which is a CC, but do take note that since the cooldown of Rocket Punch is longer than that of
+Rocket Charge it will not always be available.
 
 Other CC skills that you have are:
-- {{ skill(id="63253") }}Force Signet
-- {{ skill(id="63095") }}Overclock Signet
+
+- {{ skill(id="63253", name="Force Signet") }}
+- {{ skill(id="63095", name="Overclock Signet") }}
 
 If you still need more CC, replace 
-<span data-aw2-skill="5818"/>Rifle Turret with
-<span data-aw2-skill="6161"/>Throw Mine.
+
+- {{ skill(id="5818", name="Rifle Turret") }}
+
+with 
+
+- {{ skill(id="6161", name="Throw Mine") }}
 
 ## Video
 
