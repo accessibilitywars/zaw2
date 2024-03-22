@@ -1,6 +1,15 @@
 /******************************************************************************
  *   Extra - Put your extra SASS/CSS here, it will get bundled with abridge.css
  *****************************************************************************/
+
+ .peticon {
+	width: 128px;
+	height: 128px;
+	vertical-align: bottom;
+	display: table-cell;
+	font-weight: bold;
+}
+
 .buildheader {
 	color: #ddd;	// always dark background, so lighter
 	position: relative;
