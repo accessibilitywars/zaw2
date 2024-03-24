@@ -16,7 +16,7 @@ tagline = "Wait, what do you mean this isn't how I get a list of my home cat col
 keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
 spec = "catalyst"
-balance = "January 2024"
+balance = "March 2024"
 +++
 
 An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it.
