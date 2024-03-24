@@ -15,7 +15,7 @@ tagline =  "'Mr. Lava Lava. She call me Mr. Boombastic, tell me fantastic' -- Sh
 keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
 spec = "weaver"
-balance = "January 2024"
+balance = "March 2024"
 +++
 
 Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking.
