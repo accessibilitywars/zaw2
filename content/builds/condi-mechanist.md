@@ -15,7 +15,7 @@ tagline = "Green Eggs without HAM"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
-balance = "January 2024"
+balance = "March 2024"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
