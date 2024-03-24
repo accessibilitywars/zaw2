@@ -16,7 +16,7 @@ tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
 spec = "holosmith"
-balance = "January 2024"
+balance = "March 2024"
 +++
 
 A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast.
