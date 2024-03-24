@@ -35,4 +35,4 @@ Camera particularly with these builds. See [the tools page](/tools) for possible
 
 ## Finally...
 
-We don't hold a monopoly on LI builds here at Accessibility Wars. [Check out some possible alternatives](/pages/alternatives)
+We don't hold a monopoly on LI builds here at Accessibility Wars. [Check out some possible alternatives](/alternatives)
