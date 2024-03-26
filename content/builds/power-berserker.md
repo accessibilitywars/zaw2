@@ -17,11 +17,11 @@ spec = "berserker"
 balance = "March 2024"
 +++
 
-Absolutely everything this build has extends berserk. Your goal is to get into berserk as fast as possible and stay there. As long as you're hitting
+Absolutely everything this build has extends berserk. Your goal is to get into berserk as fast as possible and stay there, as long as you're hitting
 targets. The main difficulty is going to be to re-engage with the next target once you kill something. Take particular note of the mobility section,
 as getting back into combat is your biggest priority
 
-## Gearing
+# Gearing
 
 - Berserker's Coat, Superior Rune of the Dragonhunter
 - Berserker's Boots, Superior Rune of the Dragonhunter
@@ -40,13 +40,15 @@ as getting back into combat is your biggest priority
 - Weapon B1: Greatsword, Berserker's, Superior Sigil of Force, Superior Sigil of Air
 - Relic of the Midnight King
 
----
+# Build
+
 `[&DQIEHzMaEhXyEgAAoRIAAKkAAADXEgAAwhIAAAAAAAAAAAAAAAAAAAAAAAA=]`
+
 ---
 
 <div data-armory-embed='skills' data-armory-ids='30189,29613,14404,30258,30343'></div><div data-armory-embed='specializations' data-armory-ids='4,51,18' data-armory-4-traits='1444,1449,1437'  data-armory-51-traits='1413,1489,1369'  data-armory-18-traits='2049,2011,1928' ></div>
 
-## Notes
+# Notes
 
 ### Engage:
 
@@ -69,7 +71,7 @@ as getting back into combat is your biggest priority
 1. GS5
 1. Dagger 2
 
-## Crowd Control
+### Crowd Control
 
 - Headbutt
 - Sundering Leap
