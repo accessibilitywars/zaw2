@@ -24,7 +24,7 @@ We include some Elementals for extra friends when you're feeling lonely.
 ## Gearing
 
 - Full Viper's, Runes of the Trapper
-- Scepter/Focus, Sigils of Torment/Eart
+- Scepter/Focus, Sigils of Torment/Earth
 - Relic of the Fractal
 - Consumables:
   - Salsa-Topped Veggie Flatbread (Expertise/Condi Damage)
