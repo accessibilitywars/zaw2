@@ -2,7 +2,6 @@
 title = "Power Soulbeast"
 description = "I'm not creative enough for this Berdandy please help"
 date = 2024-03-27
-draft = true
 template = "build.html"
 
 
@@ -12,7 +11,7 @@ authors = ["scooby"]
 
 [extra]
 series = "ranger"
-tagline = "BERDAAAAAANDY PLS"
+tagline = "Big bursts and spins for fun and profit"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
 spec = "soulbeast"
@@ -41,18 +40,20 @@ I'm not creative enough for this Berdandy please help.
 You have ONE combo to perform in this build, the rest of your skills are pressed off cooldown.
 
 Here's the combo, which you should perform whenever Frost Trap is off cooldown:
-1) Frost Trap
-2) SIc' Em
-3) One Wolf Pack
-4) Axe 5 Whirling Defense
+
+1. Frost Trap
+1. Sic' Em
+1. One Wolf Pack
+1. Axe 5 Whirling Defense
 
 It is very easy to cancel Axe 5 Whirling Defense and you should take utmost care not to cancel it.
 
 The rest of your skills that you should press off cooldown, preferably in the order stated below, but really in no particular order, are:
-1) Maul
-2) Axe 4 Path of Scars
-3) Sword 2 Pounce
-4) Worldly Impact
+
+1. Maul
+1. Axe 4 Path of Scars
+1. Sword 2 Pounce
+1. Worldly Impact
 
 Auto attack to fill any gaps.
 
@@ -63,9 +64,10 @@ The stated DPS of this build is 34.7k, but in reality this build performs MUCH b
 ## Crowd Control
 
 Your CC skills are, in order of how you should use them:
-1) Brutal Charge
-2) Sword 3 Serpent's Strike
-3) Signet of the Wild
+
+1. Brutal Charge
+1. Sword 3 Serpent's Strike
+1. Signet of the Wild
 
 ## Video
 
