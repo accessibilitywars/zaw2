@@ -39,16 +39,15 @@ This is a pretty foundational build for Revenant. Simple, solid and focused.
 
 Power Vindicator can be very easy to play, yet deliver respectable results by following the steps below:
 
-{{ skill(id="28134") }}Swap your legend when it is off cooldown
-or when you run out of energy, it doesn't matter much, and use
-{{ skill(id="27107") }} Impossible Odds while in Shiro, and
-{{ skill(id="26557") }} Vengeful Hammers while in Jalis. You can bind both these skills to the same button to reduce mistakes.
+{{ skill(id="28134") }} Swap your legend when it is off cooldown or when you run out of energy, it doesn't matter much, and use
+{{ skill(id="27107") }} while in Shiro, and
+{{ skill(id="26557") }} while in Jalis. You can bind both these skills to the same button to reduce mistakes.
 
 Use off cooldown in following priority:
 
-1. {{ skill(id="27074") }} Sword 5 Deathstrike
-2. {{ skill(id="28472") }} Sword 4 Shackling Wave
-3. {{ skill(id="29233") }} Sword 2 Chilling Isolation
+1. {{ skill(id="27074") }} (Sword 5)
+2. {{ skill(id="28472") }} (Sword 4)
+3. {{ skill(id="29233") }} (Sword 2)
 
 Dodge to start the fight and dodge when your endurance is almost full. 
 
@@ -58,12 +57,13 @@ Auto attack to fill.
 
 Your CC skills are:
 
-- {{ skill(id="26679", name="Jalis - Forced Engagement") }}
-- {{ skill(id="28406", name="Shiro - Jade Winds") }}
-- {{ skill(id="28472", name="Sword4 Shackling Wave") }}
+- {{ skill(id="26679") }}
+- {{ skill(id="28406") }}
+- {{ skill(id="28472") }} (Sword 4)
 
 However, if you're in a position where not CCing will result in failure, just swap to staff and use
-{{ skill(id="28978", name="Staff 5 Surge of the Mists") }}.
+{{ skill(id="28978") }} (Staff 5)
+
 Note that this will tank your DPS and the only thing you can do now is to auto attack (while still dodging and swapping legends).
 
 ## Video
