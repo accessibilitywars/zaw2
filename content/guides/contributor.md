@@ -115,7 +115,7 @@ to upload broken content if you can't see it.
 1. create a (free) github account as per [Setup](#setup) above
 1. download [a build .md file](https://github.com/accessibilitywars/zaw2/tree/master/content/builds) from the repository
 1. edit it to contain your new build with your favourite text editor
-1. in the [builds directory](https://github.com/accessibilitywars/zaw2/tree/master/content/builds), click **Add File > Create New File** (or **+** on the left).<br/>**Important!** _This may give you a warning about a need to make a Fork (which is a copy of the site). You want that._
+1. in the [builds directory](https://github.com/accessibilitywars/zaw2/tree/master/content/builds), click **Add File > Create New File**, NOT Upload Files.<br/>**Important!** _This may give you a warning about a need to make a Fork (which is a copy of the site). You want that._
 1. name the file. For example "my-awesome-warrior.md"
 1. paste the content of the new build file
 1. Click **Commit Changes...** and give it a commit message and description. This is for your own benefit of change history.
