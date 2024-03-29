@@ -87,7 +87,7 @@ That's basically it.
 
 ### Method 1: copy/edit files
 
-1. clone [the source repository](https://github.com/accessibilitywars/zaw2) with GitHub Desktop, gh, or just git
+1. clone [the source repository](https://github.com/accessibilitywars/zaw2) with GitHub Desktop, gh, or just git. [The following guide on pull requests](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop) is helpful if you’re new to pull requests or GitHub Desktop.
 1. find an existing build in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
 1. duplicate the md file, changing name
 1. make all your edits, and [preview changes](#how-to-preview)
