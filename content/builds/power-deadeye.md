@@ -24,7 +24,7 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 
 ## Gearing and Consumables
 **Equipment**
-- Full Berserker's up to the crit cap. It is okay to overcap on precision due to the occasional need to switch to the practiced tolerance trait.
+- Full Berserker's up to the crit cap. It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}
 - Dragon’s/Valkyrie+Berserker if desired as the build is heavily overcapped on precision
 - Dual Pistols/Dual Daggers
 
@@ -39,7 +39,7 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 - Relic of the Thief
 - Relic of Superspeed for Tower Thief (Jumping Puzzle)
 
-**Food:**
+**Food**
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Moa Wings is a suitable budget alternative
 
@@ -55,7 +55,7 @@ Quickness Variant
 
 **Trait Alternatives**
 1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
-2. Quickness Variant – Take {{ trait(id="1167"), {{ trait(id="2136") and {{ trait(id="2146"). {{ skill(id="41372") }} is required for full quickness uptime. 
+2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime. 
 
 ## Rotation and Utilities
 **DPS Rotation**
