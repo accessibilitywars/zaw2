@@ -39,13 +39,13 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 The Opener is probably the hardest part of this rotation, but it boils down to:
 
 1. Start in {{ skill(id="5494") }} Air Attunement
-1. {{ skill(id="5734") }} Glyph of Storms
-1. {{ skill(id="62940") }} Deploy Jade Sphere
-1. {{ skill(id="30795") }} Warhorn 5 Lightning Orb
-1. {{ skill(id="30008") }} Warhorn 4 Cyclone
-1. {{ skill(id="44998") }} Sword 2 Polaric Leap
-1. {{ skill(id="43803") }} Sword 3 Quantum Strike
-1. Swap to {{ skill(id="5492") }} Fire Attunement and begin the rotation
+1. {{ skill(id="5734") }}
+1. {{ skill(id="62940") }}
+1. {{ skill(id="30795") }} (Warhorn 5)
+1. {{ skill(id="30008") }} (Warhorn 4)
+1. {{ skill(id="44998") }} (Sword 2)
+1. {{ skill(id="43803") }} (Sword 3)
+1. Swap to {{ skill(id="5492") }} and begin the rotation
 
 You can remember this rotation as a flexible combo, as follows:
 
@@ -56,19 +56,19 @@ You can remember this rotation as a flexible combo, as follows:
 
 This works with both Fire and Air. It even works with Earth if you want to dip into Earth for more DPS.
 
-Use {{ skill(id="30008") }} Warhorn 4 Cyclone
+Use {{ skill(id="30008") }} (Warhorn 4)
 right before you swap into Fire Attunement.
 
-Use {{ skill(id="5638") }} Arcane Wave once at any time while you are in Fire Attunement.
+Use {{ skill(id="5638") }} once at any time while you are in Fire Attunement.
 
 Finally, use
-{{ skill(id="29533") }} Fire Warhorn 5,
-{{ skill(id="5734") }} Glyph of Storms, and 
-{{ skill(id="5666") }} Glyph of Elementals off cooldown.
+{{ skill(id="29533") }} (Warhorn 5),
+{{ skill(id="5734") }}, and 
+{{ skill(id="5666") }} off cooldown.
 
 I personally like to use
-{{ skill(id="5734") }} Glyph of Storms in Air and
-{{ skill(id="5666") }} Glyph of Elementals in Fire, but it doesn't affect the end DPS much regardless, if at all.
+{{ skill(id="5734") }} in Air and
+{{ skill(id="5666") }} in Fire, but it doesn't affect the end DPS much regardless, if at all.
 
 ## Crowd Control
 

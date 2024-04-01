@@ -74,9 +74,10 @@ inbox and/or discord for possible modifications. After changes are accepted, the
 
 In short:
 
-1. [install zola](https://www.getzola.org/documentation/getting-started/installation/)
-2. clone/pull [the source repository](https://github.com/accessibilitywars/zaw2)
-3. run `zola serve`
+1. [install the custom site buider azola](https://github.com/berdandy/azola/releases/latest/)
+1. clone [the source repository](https://github.com/accessibilitywars/zaw2)
+1. run `azola serve`
+1. go to your [http://127.0.0.1:1111](http://127.0.0.1:1111)
 
 That's basically it.
 
@@ -84,25 +85,45 @@ That's basically it.
 
 ## How to... create
 
-### Option 1: Copy and modify
+### Method 1: copy/edit files
 
-These guides are incomplete. Talk to berdandy on the discord if you want to create new content. It's not difficult, but it's
-likely using unfamiliar tools.
+1. clone [the source repository](https://github.com/accessibilitywars/zaw2) with GitHub Desktop, gh, or just git. [The following guide on pull requests](https://docs.github.com/en/desktop/working-with-your-remote-repository-on-github-or-github-enterprise/viewing-a-pull-request-in-github-desktop) is helpful if you’re new to pull requests or GitHub Desktop.
+1. find an existing build in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
+1. duplicate the md file, changing name
+1. make all your edits, and [preview changes](#how-to-preview)
+1. **add** the file on github
+1. **submit pull request**
+1. turn on github notifications and wait for comments. If anything needs to be fixed, berdandy will message you using github
+1. if needed, fix issues, and **push** new changes to github, updating the pull request
+1. if all is good, it will be merged
 
-**TODO more detail**
+### Method 2: export
 
-- clone/pull
-- copy & edit md file
-- commit, make PR
+Follow the above steps, but instead of finding an existing build file and editing it,
+use [the buildwars commandline tool](https://github.com/berdandy/buildwars) in combination with an ArenaNet API
+Key ([make one here](https://account.arena.net/applications)), to export a character to our .md file format.
 
-### Option 2: Export and fix
+> For example:
+> 
+> `> buildwars API-KEY-GOES-HERE "Character Name" 1 1`
 
-**TODO more detail**
+### Method 3: create on github web
 
-- clone/pull
-- use [buildwars](https://github.com/berdandy/buildwars) to create md file
-- edit md file
-- commit, make PR
+This method doesn't require software installation, but the price is that you don't get to preview it, and it's much easier
+to upload broken content if you can't see it.
+
+1. create a (free) github account as per [Setup](#setup) above
+1. download [a build .md file](https://github.com/accessibilitywars/zaw2/tree/master/content/builds) from the repository
+1. edit it to contain your new build with your favourite text editor
+1. in the [builds directory](https://github.com/accessibilitywars/zaw2/tree/master/content/builds), click **Add File > Create New File**, NOT Upload Files.<br/>**Important!** _This may give you a warning about a need to make a Fork (which is a copy of the site). You want that._
+1. name the file. For example "my-awesome-warrior.md"
+1. paste the content of the new build file
+1. Click **Commit Changes...** and give it a commit message and description. This is for your own benefit of change history.
+1. Once you're satisfied with the preview, click **Create pull request**. The description here is for the reviewers (ie, berdandy).<br/>
+**Important!** _ensure **Allow edits by maintainers** is checked_
+1. turn on github notifications and wait for comments. If anything needs to be fixed, berdandy will message you using github
+1. if needed, fix issues, updating the pull request
+1. if all is good, it will be merged
 
 ---
 

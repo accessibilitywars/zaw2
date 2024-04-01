@@ -38,33 +38,33 @@ Signet-heavy, with some chill hammer thumping. And a little turret on the side.
 
 To play this build, you want to place
 
-- {{ skill(id="5818", name="Rifle Turret") }}
+- {{ skill(id="5818") }}
 
 at the start of the fight, then press
 
-1. {{ skill(id="30713", name="Hammer 5 Thunderclap") }}
-1. {{ skill(id="30088", name="Hammer 2 Electro-Whirl") }}
-1. {{ skill(id="63095", name="Overclock Signet") }}
+1. {{ skill(id="30713") }} (Hammer 5)
+1. {{ skill(id="30088") }} (Hammer 2)
+1. {{ skill(id="63095") }}
 
 off cooldown, and that is basically your rotation.
 
 ## Crowd Control
 
-You have decent CC. Primarily, {{ skill(id="30665", name="Hammer 3 Rocket Charge") }} will make your Mech do Rocket Punch, which is a CC, but do take note that since the cooldown of Rocket Punch is longer than that of
+You have decent CC. Primarily, {{ skill(id="30665") }} (Hammer 3) will make your Mech do Rocket Punch, which is a CC, but do take note that since the cooldown of Rocket Punch is longer than that of
 Rocket Charge it will not always be available.
 
 Other CC skills that you have are:
 
-- {{ skill(id="63253", name="Force Signet") }}
-- {{ skill(id="63095", name="Overclock Signet") }}
+- {{ skill(id="63253") }}
+- {{ skill(id="63095") }}
 
 If you still need more CC, replace 
 
-- {{ skill(id="5818", name="Rifle Turret") }}
+- {{ skill(name="Rifle Turret") }}
 
 with 
 
-- {{ skill(id="6161", name="Throw Mine") }}
+- {{ skill(id="6161") }}
 
 ## Video
 
