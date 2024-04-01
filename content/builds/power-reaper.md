@@ -86,4 +86,4 @@ You have several options:
 - Shroud 5
 - Chilled to the Bone (Lonely Variant)
 - Spectral Grasp (Lonely Variant)
-- Flesh Golemn (Minion Variant)
+- Flesh Golem (Minion Variant)
