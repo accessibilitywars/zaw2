@@ -7,7 +7,7 @@ template = "build.html"
 
 
 [taxonomies]
-tags = ["power","engineer","holosmith","pof","lowphys", "lowrep"]
+tags = ["power","engineer","holosmith","pof","lowphys", "lowrep","raid","strike"]
 authors = ["scooby"]
 
 [extra]
