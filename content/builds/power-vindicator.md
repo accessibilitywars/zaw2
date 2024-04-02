@@ -6,7 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["power","revenant","vindicator","eod","lowcog","lowphys","lowrep"]
+tags = ["power","revenant","vindicator","eod","lowcog","lowphys","lowrep","raid","strike"]
 authors = ["scooby"]
 
 [extra]
@@ -15,7 +15,7 @@ tagline = "Death from above!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
 spec = "vindicator"
-balance = "January 2024"
+balance = "March 2024"
 +++
 
 This is a pretty foundational build for Revenant. Simple, solid and focused.
