@@ -18,7 +18,7 @@ generate_feed = true
 taxonomies = [
 #    {name = "categories", feed = true},
     {name = "tags", feed = true },
-    {name = "authors", feed = false },
+    {name = "authors", feed = true },
 ]
 
 #feed_filename = "atom.xml"
