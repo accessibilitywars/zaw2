@@ -18,9 +18,12 @@ spec = "deadeye"
 balance = "March 2024"
 +++
 
-The purpose of writing this guide is to provide a very low intensity way to play PvE deadeye. This build is low cognition, low physical complexity, has very few repetitions and is functional in both instanced content. There is an optional amount of APM to push the build to its limit. While this build has a high skill floor, it has a low skill ceiling, requiring daggers and a few button presses to push its damage to near competitive levels. At the time of writing, the options for deadeye across the power DPS variants does not smoothly transition players from low to high intensity. This simplified build also allows you to perform niche roles like pylon kiting, which is extremely useful when learning the role and not wanting to be bogged down by rotation. I have completed all 7 wings in NM with this build being fairly high/average ranked in DPS meters. There are better options that players can consider as an alternate set to complement this build when you are ready, starting with dual daggers (See Trait Alternatives: Practiced Tolerance).
+The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 
+
+This simplified build also allows you to perform niche roles like pylon kiting, which is extremely useful when learning the role and not wanting to be bogged down by rotation. I have completed all 7 wings in NM with this build being fairly high/average ranked in DPS meters. At the time of writing, the options for deadeye across the power DPS variants does not smoothly transition players from low to high intensity. There are better options that players can consider as an alternate set to complement this build when you are ready, starting with dual daggers (See Trait Alternatives: Practiced Tolerance).
 
 The improvised quickness variant uses the same stats and is able to overcap on quickness through a very simple rotation and minimal use of cantrips.
+
 
 ## Gearing and Consumables
 **Equipment**
@@ -46,16 +49,20 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 **Utility**
   - Superior Sharpening Stone (Power)
 
+
 ## Build
-DPS
+**DPS**
 {{ chatlink(code="[&DQUjHxw9Oi+FAIUAMwFYAVgBMwGsFlYBKAAoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
 
-Quickness Variant
+**Quickness Variant**
 {{ chatlink(code="[&DQUjGxwtOj+FAAwBMwFYASAXMwFYAFYBDgEoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
 
 **Trait Alternatives**
 1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
-2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime. 
+2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime.
+
+_Both Practiced Tolerance and Quickness can be taken together_
+
 
 ## Rotation and Utilities
 **DPS Rotation**
@@ -84,6 +91,7 @@ You may drop {{ skill(id="13064") }} or {{ skill(id="41158") }} for different ut
 1. Your heal skill {{ skill(id="13050") }} should provide enough heals per hit. You can opt to take {{ trait(id="1702") }} but this is not an efficient choice for sustainability.
 2. If you use dual daggers, dagger provides an additional evade on {{ skill(id="13006") }}.
 
+
 ## Optimisation
 **Cleave/Pierce**
 This build may underperform at high end raiding but it can do extremely well in fights where ranged pierce is able to double your DPS. Some targets are tall and piercing should not be presumed as your rounds may fire upwards (refer to the benchmark video shot sideways). The effect causes you to miss all posterior targets. Instead, you need to manually select the furthest target in order to hit as many targets as possible. Ranged pierce can also be done with a rifle with better DPS but the reduced mobility and increased difficulty in execution may not be feasible in certain fights. If using {{ skill(id="41158") }}, it is recommended to mark the closer target and then select the further target. A screenshot is provided at the end of the benchmark video for reference. 
@@ -103,6 +111,7 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 2.  W3 Xera - This build is able to function at range decently without stacking, making it ideal to step on buttons during the 3-button split phase
 3.  W6 Qadim - While solo lamp is ideally performed using daredevil (same equipment), you may choose to use this build instead if 2 players are sent to do Lamp. 
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
+
 
 ## Videos
 I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
