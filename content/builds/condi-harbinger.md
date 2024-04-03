@@ -51,7 +51,7 @@ With buckets of blood, torment and poison, this bursty condi build can take down
 
 ---
 
-{{ chatlink(code="CHATLINK") }} TODO
+`TODO CHATLINK`
 
 ---
 
