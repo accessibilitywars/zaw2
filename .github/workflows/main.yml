@@ -1,4 +1,4 @@
-name: AZola on GitHub Pages
+name: AZola Verify Build
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
   
 jobs:
   build:
+    name: Test Build
     runs-on: ubuntu-latest
     if: github.ref != 'refs/heads/master'
     steps:
@@ -22,6 +23,7 @@ jobs:
           BUILD_THEMES: false
           
   build_and_deploy:
+    name: Deploy to Site
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/master'
     steps:
