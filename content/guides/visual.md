@@ -15,3 +15,4 @@ To reduce visual complexity, you can change a few things in the graphics options
 
 - turn animation down (e.g. Low)
 - turn on the effect LOD check mark
+- something about the new shader settings?
