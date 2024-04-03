@@ -1,4 +1,4 @@
-name: AZola Verify Build
+name: AZola
 
 on:
   push:
