@@ -30,7 +30,7 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 - Rampager's Shoulders, Superior Rune of the Krait
 - Backpack: Viper's
 - Accessory 1: Viper's
-- Accessory 2: Berserker's
+- Accessory 2: Rampager's
 - Ring 1: Rampager's
 - Ring 2: Rampager's
 - Amulet: Rampager's
