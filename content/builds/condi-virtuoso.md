@@ -39,7 +39,7 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 - Relic of the Aristocracy
 - Food: Bowl of Fancy Potato and Leek Soup
 - Enhancement: Toxic Focusing Crystal
-- Infusions: 12 x Precise Infusions
+- Infusions: 12 x +5 Precise Infusions
 
 ## Build
 
@@ -73,7 +73,7 @@ Your CC skills are, in order of priority:
 1. Signet of Humility (BIG CC)
 1. Bladesong Dissonance
 1. Signet of Domination (big DPS loss, not recommended)
-1. Signet of Midnight (very not reacommended)
+1. Signet of Midnight (very not recommended)
 
 Bladesong Distortion is also a very long immune skill, up to 3.75 seconds if you use it with maximum stacks of blades, and should be your panic button. It is usually used for damage but as it is the lowest priority skill, you should have it off cooldown most of the time. It can also be used to dodge mechanics on various raids to increase your damage uptime.
 
