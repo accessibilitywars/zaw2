@@ -8,8 +8,8 @@ draft = false
 ## Our Mission
 
 We are a community of Guild Wars 2 gamers with accessibility needs.  We aim to help accommodate a wide range of needs, from
-physical to cognitive. To this end, with the help of the community, we publish and archive low-intensity (LI)
-builds that can allow players to solo more difficult content, and comfortably contribute in group play across game modes.
+physical to cognitive. To this end, with the help of the community, we publish and archive accessible builds that can allow
+players to solo more difficult content, and comfortably contribute in group play across game modes.
 
 ## Contributions
 

@@ -7,7 +7,7 @@ draft = false
 
 ## Our Build Philosophy
 
-We aim to create builds that include accomodations to allow players to engage with end-game content.
+We aim to create builds that include accomodations to allow players to engage with end-game content. We call these, appropriately enough, Accessible Builds.
 
 Most of our builds are currently tuned for instanced PvE balance (raids, strikes, fractals), but will likely also work well in open world.
 
@@ -35,4 +35,4 @@ Camera particularly with these builds. See [the tools page](/tools) for possible
 
 ## Finally...
 
-We don't hold a monopoly on LI builds here at Accessibility Wars. [Check out some possible alternatives](/alternatives)
+We don't hold a monopoly on Accessible Builds here at Accessibility Wars. [Check out some possible alternatives](/alternatives)

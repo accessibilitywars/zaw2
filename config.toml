@@ -7,7 +7,7 @@ base_url = "https://aw2.help"
 # If you use the npm/node script then all you have to do is set offline = true, and everything else is automatic.
 
 title = "Accessibility Wars"
-description = "Low-Intensity Builds for the Guild Wars 2 Community"
+description = "Accessible Builds for the Guild Wars 2 Community"
 theme = "abridge"
 
 default_language = "en"
@@ -138,9 +138,9 @@ copyright_override = '© $CURRENT_YEAR $SITE_TITLE • Website content is licens
 ###############################################################################
 
 title_separator = "|"  # Separator between title and title_addition, set as |, -, _, etc
-title_addition = "All LI, All the Time" # a default value for title addition
+title_addition = "All Accessibility, All the Time" # a default value for title addition
 author = "AW2" # Put Your Name here
-keywords = "accessibility wars, accessibility, guild wars 2, gw2, game, fansite, builds, LI, low intensity" # used for the primary site index
+keywords = "accessibility wars, accessibility, accessible, a11y, guild wars 2, gw2, game, fansite, builds, LI, low intensity" # used for the primary site index
 banner = "banner.png" # Used as default image for OpenGraph/Twitter if page specific image is undefined.
 # twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 # google = "Your Google Site verification code."

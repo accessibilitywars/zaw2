@@ -4,7 +4,9 @@ date = 2024-03-19
 path = "alternatives"
 +++
 
-We don't hold a monopoly on LI builds here at Accessibility Wars. Here is a non-exhaustive list of some other places to find accessible builds.
+We don't hold a monopoly on Accessible Builds here at Accessibility Wars. Here is a non-exhaustive list of some other places to find builds.
+
+Note that the terminology can vary; many use the term LI (Low Intensity), where we simply use the term Accessible.
 
 Additionally, many "standard" builds can function perfectly well in a Low Intensity way with minor modifications, such as camping a single weapon. That can open up some additional options after some experimentation.
 
@@ -20,12 +22,12 @@ Mukluk has a lot of varied content, but has a [dedicated LI tag](https://muklukl
 
 #### [Hardstuck](https://hardstuck.gg)
 
-Hardstuck has posted a number of LI specific builds, mostly for Open World. Use the difficulty selector to filter builds.
+Hardstuck has posted a few accessible builds, mostly found in the Open World section. Use their difficulty selector to filter builds.
 
 #### [GuildJen](https://guildjen.com/builds/)
 
-Builds for all game modes. This is one of the few sources for roaming (non-zerg) WvW builds. Not explicitly LI, but builds marked
-with a green star are on the simpler side.
+Builds for all game modes. This is one of the few sources for roaming (non-zerg) WvW builds. Builds marked
+with a green star are on the simpler side, and are generally more accessible.
 
 ---
 
@@ -33,7 +35,7 @@ with a green star are on the simpler side.
 
 #### [SnowCrows](https://snowcrows.com/)
 
-Builds for raids. Snowcrows was not originally LI focused, though they do have some beginner builds.
+Builds for raids (and newly, open world). Snowcrows has a history of high-performer optimization, though they do have some beginner builds.
 Their [profession sections](https://snowcrows.com/guides/professions) give a great overview for each profession that is worth reading.
 They also includes [good resources for how to get started in raids](https://snowcrows.com/guides/getting-started)
 
@@ -59,5 +61,5 @@ Video guides, open world and PvE builds. Some solo stuff too.
 
 #### [Lord Hizen (YouTube)](https://www.youtube.com/c/lordhizen)
 
-Not specifically LI, but posts a lot of builds that are designed to be very survivable and solo-capable.
+Not specifically Accessible, but posts a lot of builds that are designed to be very survivable and solo-capable.
 

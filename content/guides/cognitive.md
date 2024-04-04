@@ -11,7 +11,7 @@ draft = true
 
 Cognitive Accessibility refers to providing accommodations to issues such as processing speed, memory or other cognition-related challenges.
 
-Of course, the LI builds on this site are great for reducing cognitive load when doing combat, but there are additional tools available to make your life in Tyria just a little easier.
+Of course, the Accessible Builds on this site are great for reducing cognitive load when doing combat, but there are additional tools available to make your life in Tyria just a little easier.
 
 Useful tools:
 
