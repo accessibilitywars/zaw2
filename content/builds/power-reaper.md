@@ -43,6 +43,7 @@ This plays very tanky and comfy. You can increase DPS by swapping out to Berserk
 - Ring 1: Dragon's
 - Ring 2: Dragon's
 - Amulet: Dragon's
+- Relic: Thief
 - Weapon A1: Greatsword, Berserker's, Superior Sigil of Force, Superior Sigil of Hydromancy
 - Weapon B1: Dagger, Berserker's, Superior Sigil of Air
 - Weapon B2: Warhorn, Berserker's, Superior Sigil of Force
