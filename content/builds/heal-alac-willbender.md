@@ -13,7 +13,7 @@ series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, willbender"
 toc = true
-spec = "dragonhunter"
+spec = "willbender"
 balance = "March 2024"
 +++
 
