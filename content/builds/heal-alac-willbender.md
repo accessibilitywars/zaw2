@@ -25,28 +25,34 @@ This build is low cognition, low physical complexity, has very few repetitions a
 ## Gearing and Consumables
 
 **Equipment**
+
 - Full Harrier's 
 - Hammer
 
 > _Note: Weapon swap is optional, all the available options will lock you out of hammer and thus drop your boon coverage. Alternate weapon sets should be prioritised based on utility requirements._
 
 **Runes**
+
 - Superior Rune of the Monk
 - Superior Rune of Rebirth (budget)
 
 **Sigils**
+
 - Superior Sigil of Transference
 - Superior Sigil of Concentration
 - Superior Sigil of Water (Budget Alternative to Transference)
 
 **Relic**
+
 - Relic of Karakosa
 
 **Food**
+
 - Bowl of Fruit Salad with Mint Garnish
 - Delicious Rice Balls (budget alternative)
 
 **Utility**
+
 - Bountiful Maintenance Oil
 
 
@@ -60,6 +66,7 @@ Bring {{ trait(id="617") }} if you are taking consecrations.
 Bring {{ trait(id="654") }} if there aren't blockable mechanics. 
 
 > _This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._
+
 
 ## Rotation and Utilities
 
@@ -81,8 +88,8 @@ _The importance of your auto attacks cannot be emphasized enough. Your auto atta
 **Crowd Control rotation**
 
 1. You have decent CC by just using {{ skill(id="9124") }} (Hammer 4) and {{ skill(id="9260") }} (Hammer 3). 
-2. You can extend your CC rotation by starting with {{ skill(id="53482") }} (Hammer 2) and refreshing it with {{ skill(id="9124") }} (Hammer 4)
-3. If you need more CC you may bring {{ skill(id="9128") }}
+2. You can extend your CC rotation by starting with {{ skill(id="53482") }} (Hammer 2) and refreshing it with {{ skill(id="9124") }} (Hammer 4).
+3. If you need more CC you may bring {{ skill(id="9128") }}, which is ideally used in a precast scenario so you can top it up with Hammer 4.
 
 **Hybrid DPS**
 
@@ -95,14 +102,17 @@ _The importance of your auto attacks cannot be emphasized enough. Your auto atta
 - {{ skill(id="62648") }} allows you to shadow step through mechanics
 - Blocking increases your heal power and doing so intelligently allows efficient use of {{ trait(id="1899") }}
 
+
 ## Optimisation
 
 **Raid Ready**
 
 1. W1 Gorseval - Immobilise your spirit with {{ skill(id="9151") }} and {{ skill(id="9260") }} (Hammer 3)
 2. W1 Sabetha - You can teleport through flame wall with {{ skill(id="62648") }}. 
-2. W2 Slothasor and Matthias - Bring {{ skill(id="9251") }} for reflects.
-3. W3 Escort - This build is able to solo towers albeit a little slow with 6-8k dps. If you want to do the JP, bring {{ skill(id="29965") }} for a superspeed boost.
-4. W4 Samarog - You may knock Rigom back with {{ skill(id="9124") }} (Hammer 4) and immobilise with {{ skill(id="9260") }} (Hammer 3) and {{ skill(id="9099") }} (Scepter 3)
-5. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as they appear
-6. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
+3. W2 Slothasor - Bring {{ trait(id="610") }} for additional condition cleanses.
+4. W2 Matthias - Bring {{ skill(id="9251") }} for reflects. Bring {{ skill(id="9128") }} if you require more CC.
+5. W3 Escort - This build is able to solo towers albeit a little slow with 6-8k dps. If you want to do the JP, bring {{ skill(id="29965") }} for a superspeed boost.
+6. W4 Samarog - You may knock Rigom back with {{ skill(id="9124") }} (Hammer 4) and immobilise with {{ skill(id="9260") }} (Hammer 3) and {{ skill(id="9099") }} (Scepter 3). Bring {{ skill(id="9128") }} if you require more CC.
+7. W6 Conjured Amalgamate - Your power DPS can be quite significant despite being a healer. Do not stop attacking with autos. Place {{ skill(id="9128") }} when CA tosses out shields for a precast CC.
+8. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as the minibosses appear.
+9. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
