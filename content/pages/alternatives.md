@@ -26,8 +26,8 @@ Hardstuck has posted a few accessible builds, mostly found in the Open World sec
 
 #### [GuildJen](https://guildjen.com/builds/)
 
-Builds for all game modes. This is one of the few sources for roaming (non-zerg) WvW builds. Builds marked
-with a green star are on the simpler side, and are generally more accessible.
+Builds for all game modes. Builds marked with a green star are on the simpler side, and are generally more accessible. This is
+notably one of the few sources for roaming (non-zerg) WvW builds. 
 
 ---
 
