@@ -52,3 +52,6 @@ This build isn't even at its peak potential yet. You can't actually apply enough
 
 {{ youtube(id="SzgBuiV-zHw") }}
 
+## Build demo in "high" level play
+
+{{ youtube(id="Fa0yf0lHUTI") }}
