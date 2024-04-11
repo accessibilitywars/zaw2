@@ -26,6 +26,10 @@ taxonomies = [
 #ignored_content = ["*.{graphml,xlsx}", "temp.*"]
 #hard_link_static = false # set to true to hard link instead of copying, useful for very large files.
 
+[link_checker]
+internal_level = "error"
+external_level = "warn"
+
 [search]                # Options specific to elasticlunr search.
 # index format can be: elasticlunr_json or elasticlunr_javascript
 index_format = "elasticlunr_json"
