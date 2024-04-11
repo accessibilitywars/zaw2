@@ -102,7 +102,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		<div class="blockdiv">
 		  <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
 		  {%- set recent_items=config.extra.recent_items | default(value=9) -%}
-		  {%- for page in section_item.pages | slice(end=recent_items) %}
+		  {%- for page in section_item.pages | slice(end=recent_items) | sort(attribute="date") | reverse %}
 			{{- macros::page_listing(page=page, config=config) }}
 		  {%- endfor %}
 		</div>

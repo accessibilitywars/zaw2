@@ -2,12 +2,16 @@
  *   Extra - Put your extra SASS/CSS here, it will get bundled with abridge.css
  *****************************************************************************/
 
- .peticon {
+.peticon {
 	width: 128px;
 	height: 128px;
 	vertical-align: bottom;
 	display: table-cell;
 	font-weight: bold;
+}
+
+.indexdate {
+    font-size: small;
 }
 
 .buildheader {
