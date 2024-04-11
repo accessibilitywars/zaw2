@@ -29,6 +29,7 @@ taxonomies = [
 [link_checker]
 internal_level = "error"
 external_level = "warn"
+skip_prefixes = [ "http://127.0.0.1" ]
 
 [search]                # Options specific to elasticlunr search.
 # index format can be: elasticlunr_json or elasticlunr_javascript

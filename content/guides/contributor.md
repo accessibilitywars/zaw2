@@ -77,9 +77,9 @@ In short:
 1. [install the custom site buider azola](https://github.com/berdandy/azola/releases/latest/)
 1. clone [the source repository](https://github.com/accessibilitywars/zaw2)
 1. run `azola serve`
-1. go to your [http://127.0.0.1:1111](http://127.0.0.1:1111)
+1. go to [http://127.0.0.1:1111](http://127.0.0.1:1111) in your browser
 
-That's basically it.
+That's basically it. It will automatically refresh whenever it detects changes.
 
 ---
 
