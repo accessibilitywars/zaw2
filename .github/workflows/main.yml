@@ -37,3 +37,4 @@ jobs:
           PAGES_BRANCH: main
           TOKEN: ${{ secrets.TOKEN }}
           BUILD_THEMES: false
+          CHECK_LINKS: true
