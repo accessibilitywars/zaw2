@@ -57,7 +57,7 @@ Then use the rest of your weapon skills off cooldown.
 
 Use your Bladesong skill whenever you have 5 stacks of blades, with the following priority:
 1. {{ skill(name="Bladeturn Requiem") }}
-1. {{ skill(name="Bladesong Harmony") }}
+1. {{ skill(id="62617") }}
 1. {{ skill(name="Bladesong Sorrow") }}
 1. {{ skill(name="Bladesong Dissonance") }}
 1. {{ skill(name="Bladesong Distortion") }}
