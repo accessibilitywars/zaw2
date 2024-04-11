@@ -46,13 +46,13 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 {{ chatlink(code="[&DQcBHRgdQjsjD24BggEAAIEBAACDAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADMgAvAFoAAA==]") }}
 
 ## Notes
-{{ skill(name="") }}
 Unfortunately, this build is very heavily reliant on food and infusions, and this damage number is only possible if you have the correct food and precision infusions equipped. We will be providing alternative gear without food and/or infusions shortly.
 
 Condi Virtuoso is very simple in execution, you want to use your 3 button opener:
 1. {{ skill(name="Unstable Bladestorm") }}
 1. {{ skill(name="Bladeturn Requiem") }}
 1. {{ skill(name="Phantasmal Swordsman") }}
+
 Then use the rest of your weapon skills off cooldown.
 
 Use your Bladesong skill whenever you have 5 stacks of blades, with the following priority:
@@ -61,12 +61,14 @@ Use your Bladesong skill whenever you have 5 stacks of blades, with the followin
 1. {{ skill(name="Bladesong Sorrow") }}
 1. {{ skill(name="Bladesong Dissonance") }}
 1. {{ skill(name="Bladesong Distortion") }}
+
 Basically use the elite then left to right for the rest of them.
 
 There is also one additional trick to squeeze out a little more DPS. Signet of the Ether resets the cooldown of any Phantasmal skill (specifically Sword 5 Phantasmal Swordsman in this build) and should be used in the combo:
 1. {{ skill(name="Phantasmal Swordsman") }}
 1. {{ skill(name="Signet of the Ether") }}
 1. {{ skill(name="Phantasmal Swordsman") }}
+
 Whenever it is off cooldown.
 
 Your CC skills are, in order of priority:
