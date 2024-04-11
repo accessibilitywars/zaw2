@@ -46,38 +46,38 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 {{ chatlink(code="[&DQcBHRgdQjsjD24BggEAAIEBAACDAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADMgAvAFoAAA==]") }}
 
 ## Notes
-
+{{ skill(name="") }}
 Unfortunately, this build is very heavily reliant on food and infusions, and this damage number is only possible if you have the correct food and precision infusions equipped. We will be providing alternative gear without food and/or infusions shortly.
 
 Condi Virtuoso is very simple in execution, you want to use your 3 button opener:
-1. Dagger 3 Unstable Bladestorm
-1. Bladeturn Requiem
-1. Sword 5 Phantasmal Swordsman
+1. {{ skill(name="Unstable Bladestorm") }}
+1. {{ skill(name="Bladeturn Requiem") }}
+1. {{ skill(name="Phantasmal Swordsman") }}
 Then use the rest of your weapon skills off cooldown.
 
 Use your Bladesong skill whenever you have 5 stacks of blades, with the following priority:
-1. Bladeturn Requiem
-1. Bladesong Harmony
-1. Bladesong Sorrow
-1. Bladesong Dissonance
-1. Bladesong Distortion
+1. {{ skill(name="Bladeturn Requiem") }}
+1. {{ skill(name="Bladesong Harmony") }}
+1. {{ skill(name="Bladesong Sorrow") }}
+1. {{ skill(name="Bladesong Dissonance") }}
+1. {{ skill(name="Bladesong Distortion") }}
 Basically use the elite then left to right for the rest of them.
 
 There is also one additional trick to squeeze out a little more DPS. Signet of the Ether resets the cooldown of any Phantasmal skill (specifically Sword 5 Phantasmal Swordsman in this build) and should be used in the combo:
-1. Sword 5 Phantasmal Swordsman
-1. Signet of the Ether
-1. Sword 5 Phantasmal Swordsman
+1. {{ skill(name="Phantasmal Swordsman") }}
+1. {{ skill(name="Signet of the Ether") }}
+1. {{ skill(name="Phantasmal Swordsman") }}
 Whenever it is off cooldown.
 
 Your CC skills are, in order of priority:
-1. Signet of Humility (BIG CC)
-1. Bladesong Dissonance
-1. Signet of Domination (big DPS loss, not recommended)
-1. Signet of Midnight (very not recommended)
+1. {{ skill(name="Signet of Humility") }} (BIG CC)
+1. {{ skill(name="Bladesong Dissonance") }}
+1. {{ skill(name="Signet of Domination") }} (big DPS loss, not recommended)
+1. {{ skill(name="Signet of Midnight") }} (very not recommended)
 
-Bladesong Distortion is also a very long immune skill, up to 3.75 seconds if you use it with maximum stacks of blades, and should be your panic button. It is usually used for damage but as it is the lowest priority skill, you should have it off cooldown most of the time. It can also be used to dodge mechanics on various raids to increase your damage uptime.
+{{ skill(name="Bladesong Distortion") }} is also a very long immune skill, up to 3.75 seconds if you use it with maximum stacks of blades, and should be your panic button. It is usually used for damage but as it is the lowest priority skill, you should have it off cooldown most of the time. It can also be used to dodge mechanics on various raids to increase your damage uptime.
 
-You can also block an attack with Sword 4 Illusionary Riposte, but it is not recommended unless you are very confident of the mechanic.
+You can also block an attack with {{ skill(name="Illusionary Riposte") }}, but it is not recommended unless you are very confident of the mechanic.
 
 ## Video
 
