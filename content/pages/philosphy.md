@@ -35,4 +35,4 @@ Camera particularly with these builds.
 
 ## Finally...
 
-We don't hold a monopoly on Accessible Builds here at Accessibility Wars. [Check out some possible alternatives](/alternatives)
+We don't hold a monopoly on Accessible Builds here at Accessibility Wars. [Check out some possible alternatives](@/pages/alternatives.md)
