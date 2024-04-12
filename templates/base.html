@@ -1,5 +1,6 @@
 {%- import 'macros/seo.html' as macros_seo %}
 {%- import "macros/macros.html" as macros %}
+{%- import "macros/aw_macros.html" as aw_macros %}
 {# Load current language i18n data from .toml files in user's '/i18n' folder, use theme as fallback. #}
 {%- set i18n = load_data(path="i18n/" ~ lang ~ '.toml', required=false) -%}
 {%- if not i18n -%}{%- set i18n = load_data(path="themes/abridge/i18n/" ~ lang ~ ".toml", required=false) -%}{%- endif %}

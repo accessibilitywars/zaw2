@@ -7,7 +7,6 @@
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
         <div class="tpad">
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
-            <span class="indexdate">{{ page.date }}</span>
         </div>
 {%- endmacro page_listing %}
 
