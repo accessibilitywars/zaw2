@@ -39,13 +39,13 @@ Use all skills off cooldown in the following priority order:
 1. {{ skill(name="Blowtorch") }}
 2. {{ skill(name="Static Shot") }}
 3. {{ skill(name="Poison Dart Volley") }}
-4. {{ skill(name="Superconducting Signet ") }}
+4. {{ skill(name="Superconducting Signet") }}
 5. {{ skill(name="Overclock Signet") }}
 
 Your CC skills are, in order of priority:
 
 1. {{ skill(name="Force Signet") }}
-2. {{ skill(name="Glue Shot") }}
+2. {{ skill(id="5830") }}
 3. {{ skill(name="Crash Down") }} (by unsummoning and summoning Mech)
 4. {{ skill(name="Static Shot") }} (which makes your Mech do Rocket Punch, but since the cooldown for Rocket Punch is longer that the skill, it might not have CC)
 
