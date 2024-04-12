@@ -34,20 +34,20 @@ This mechanist build is all-signets, and no kit usage, for simple play
 
 ## Notes
 
-Use all skills off cooldown in the following priority order, which is shown on screen as well:
+Use all skills off cooldown in the following priority order:
 
-1. <span data-aw2-key="4" data-aw2-skill="5831"/> Pistol 4 Blowtorch
-2. <span data-aw2-key="3" data-aw2-skill="5829"/> Pistol 3 Static Shot
-3. <span data-aw2-key="2" data-aw2-skill="5828"/> Pistol 2 Poison Dart Volley
-4. <span data-aw2-key="8" data-aw2-skill="63113"/> Superconducting Signet 
-5. <span data-aw2-key="0" data-aw2-skill="63095"/> Overclock Signet
+1. {{ skill(name="Blowtorch") }}
+2. {{ skill(name="Static Shot") }}
+3. {{ skill(name="Poison Dart Volley") }}
+4. {{ skill(name="Superconducting Signet ") }}
+5. {{ skill(name="Overclock Signet") }}
 
 Your CC skills are, in order of priority:
 
-1. <span data-aw2-key="7" data-aw2-skill="63253"/> Force Signet
-2. <span data-aw2-key="5" data-aw2-skill="5830"/> Pistol 5 Glue Shot
-3. <span data-aw2-key="F4" data-aw2-skill="63050"/> Crash Down (by unsummoning and summoning Mech)
-4. <span data-aw2-key="3" data-aw2-skill="5829"/> Pistol 3 Static Shot (which makes your Mech do Rocket Punch, but since the cooldown for Rocket Punch is longer that the skill, it might not have CC)
+1. {{ skill(name="Force Signet") }}
+2. {{ skill(name="Glue Shot") }}
+3. {{ skill(name="Crash Down") }} (by unsummoning and summoning Mech)
+4. {{ skill(name="Static Shot") }} (which makes your Mech do Rocket Punch, but since the cooldown for Rocket Punch is longer that the skill, it might not have CC)
 
 I actually forgot to put on my Sigil of Bursting, so this build does easily ~1k more DPS than the number in the log. You can expect 33.5k DPS.
 
@@ -55,3 +55,6 @@ I actually forgot to put on my Sigil of Bursting, so this build does easily ~1k 
 
 {{ youtube(id="zBh_exTC6qs") }}
 
+## Build demo in a pug raid
+
+{{ youtube(id="GcxYf1rHy8g") }}
