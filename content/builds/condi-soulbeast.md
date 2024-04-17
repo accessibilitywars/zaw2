@@ -1,7 +1,7 @@
 +++
 title = "Barbed Arrows"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
-date = 2024-04-02
+date = 2024-04-16
 draft = false
 template = "build.html"
 
@@ -31,10 +31,12 @@ Weapon swap is optional
 1. Dagger/Dagger
 2. Dagger/Torch
 3. Dagger/Axe 
+4. 
 (Axe 4 can proc vicious quarry) and will do similar damage on a hybrid build. However, a ranged build is simpler to play.
 
 Optimised Viper's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)
+
 
 **Runes**
 - Superior Rune of the Afflicted
@@ -75,6 +77,7 @@ Stay merged at all times.
 3. You can precast {{ skill(id="12537") }} for additional CC just before the CC phase of an encounter.
 4. Bringing Warthog can add significant amount of CC for a small damage loss.
 
+
 **Sustainability**
 1. You may opt to take {{ skill(id="12489") }} for better condi cleanse
 2. {{ skill(id="12517") }} (Shortbow 3) is an evade that does a step back. This is useful for bosses with pull mechanics.
@@ -83,7 +86,9 @@ Stay merged at all times.
 
 ## Optimisation
 **Vicious Quarry**
+
 Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise vicious quarry uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
+
 
 **Dodging**
 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} by 4s after the dodge to have better uptime of {{ trait(id="1912") }}. 
@@ -94,6 +99,7 @@ On a boss with multiple adds, if you can position yourself within the boss hitbo
 
 **Raid Ready**
 1. W1 Gorseval - Immobilise with {{ skill(id="12580") }} during the split phase.
+
 2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point bow away from ally slubs!
 3. W2 Bandit Trio - The range, self sustainability and high amounts of CC allows this build to do mortars.
 4. W3 Escort - For backwarg, bring {{ skill(id="12580") }} and use {{ skill(id="12507") }} to immobilise. For frontwarg, black widow/jungle spider is useful for {{ skill(id="43375") }} to pull white mantle and {{ skill(id="44097") }} provides meaningul immobilise uptime on the frontwarg.
@@ -102,6 +108,7 @@ On a boss with multiple adds, if you can position yourself within the boss hitbo
 7. W5 Dhuum - Use {{ skill(id="12517") }} during the suck phase.
 8. W6 This build is excellent on Twin Largos as it is.
 9. This build can be used to pylon kite. Camp shortbow with Juvenile Hawk. Switch to sword. You movement skills are {{ skill(id="12521") }} (catch) and {{ skill(id="44991") }}(return). Take note that unlike other kiting classes, your return skill cannot survive dashing through fires.
+
 
 
 
@@ -114,3 +121,4 @@ I have benched the build with mostly the above mentioned gear with no infusions.
 **Pylon Kiting**
 *Courtesy of Gwen The Pretzel*
 {{ youtube(id="Jto8eANm0sg") }}
+
