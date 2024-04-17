@@ -1,7 +1,7 @@
 +++
 title = "Power Daredevil"
 description = "Very high damage for very little APM, but requires great positioning."
-date = 2024-04-15
+date = 2024-04-17
 draft = false
 template = "build.html"
 
@@ -16,7 +16,7 @@ tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
 spec = "daredevil"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 Very high damage for very little APM, but requires great positioning.
@@ -32,7 +32,7 @@ Very high damage for very little APM, but requires great positioning.
 
 ## Build
 
-TBC (I have no access to GW2 rn)
+{{ chatlink(code="[&DQUjGxw9BzmFAAwBWAFXAVcBMwEzAQAADgEoAAAAAAAAAAAAAAAAAAAAAAACNgBZAAA=]") }}
 
 ## Notes
 
