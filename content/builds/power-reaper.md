@@ -47,7 +47,7 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 - Weapon B2: Sword, Berserker's, Superior Sigil of Air
 - Relic of the Thief (Fireworks is also an option)
 
-#### Alternatives and why...
+## Alternatives and why...
 
 - Cheaper/non-EoD option: Swap Dragon's for Berserker's
 - Higher risk/higher-rewad: Swap Dragon's for Berserker's

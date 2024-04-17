@@ -23,7 +23,7 @@ targets. The main difficulty is going to be to re-engage with the next target on
 
 This build is tested with no weapon swapping. A hammer second weapon set is provided only as CC support. Dual maces can work well too.
 
-#### SPECIAL NOTE
+### SPECIAL NOTE
 
 This is one of our more challenging builds. It's relatively simple, but unforgiving. We'll keep looking for a more
 accessible warrior option.

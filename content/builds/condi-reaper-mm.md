@@ -58,7 +58,7 @@ Note that this does not peform well with single-target situations, as "Rise!" fu
 
 <div data-armory-embed='skills' data-armory-ids='10547,10589,10533,10541,10646'></div><div data-armory-embed='specializations' data-armory-ids='2,19,34' data-armory-2-traits='857,855,842'  data-armory-19-traits='1876,1844,782'  data-armory-34-traits='2020,2031,1919' ></div>
 
-#### Minion Variant
+## Minion Variant
 
 - Spawn all minions to distract enemies
 - Go into {{ skill(name="Reaper's Shroud") }}, drop an ice field with {{ skill(id="30557", name="Executioner's Scythe") }}
