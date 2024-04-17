@@ -60,7 +60,7 @@ Other CC skills that you have are:
 
 If you still need more CC, replace 
 
-- {{ skill(name="Rifle Turret") }}
+- {{ skill(id="5818") }}
 
 with 
 
