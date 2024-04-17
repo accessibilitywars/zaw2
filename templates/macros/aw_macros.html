@@ -6,3 +6,15 @@
             <span class="indexdate">{{ page.date }}</span>
         </div>
 {%- endmacro page_listing_dates %}
+
+{%- macro page_listing(page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+        <div class="tpad">
+            <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}">
+            {%- if page.extra.spec -%}
+            <img style="float: left; height: 1em;" src="/images/icons/{{ page.extra.spec }}.png"/>
+            {%- endif -%}&nbsp;
+            {{ page.title }}</a>
+        </div>
+{%- endmacro page_listing %}
