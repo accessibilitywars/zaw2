@@ -15,7 +15,7 @@ tagline = "'My advice? Use axes to fell the tree, and the hammer to pound it int
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
 spec = "berserker"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 Absolutely everything this build uses extends berserk. Your goal is to get into berserk as fast as possible and stay there, as long as you're hitting

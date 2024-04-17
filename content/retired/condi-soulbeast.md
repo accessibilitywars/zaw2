@@ -5,7 +5,7 @@ date = 2022-04-10
 template = "build.html"
 
 [taxonomies]
-tags = ["condi","ranger","soulbeast","pof","lowcog","lowphys","lowrep"]
+tags = ["condi","soulbeast","pof","lowcog","lowphys","lowrep"]
 authors = ["mukluk"]
 
 [extra]

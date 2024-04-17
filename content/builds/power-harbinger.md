@@ -15,7 +15,7 @@ tagline = "You've heard of spinning to win, now try shotgunning to win!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 spec = "harbinger"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 You've heard of spinning to win, now try shotgunning to win!

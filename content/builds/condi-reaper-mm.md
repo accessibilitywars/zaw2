@@ -15,7 +15,7 @@ tagline = "'A living being's most primal fear—its antithesis—is death.' -- Z
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
 spec = "reaper"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 # Overview 
