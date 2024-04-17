@@ -1,7 +1,7 @@
 +++
 title = "Barbed Arrows"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
-date = 2024-04-02
+date = 2024-04-16
 draft = false
 template = "build.html"
 
@@ -82,7 +82,7 @@ Stay merged at all times.
 
 ## Optimisation
 **Vicious Quarry**
-Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise vicious quarry uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
+Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(name="vicious quarry") }} uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 **Dodging**
 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} by 4s after the dodge to have better uptime of {{ trait(id="1912") }}. 
