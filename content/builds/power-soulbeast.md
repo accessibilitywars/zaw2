@@ -15,7 +15,7 @@ tagline = "Combo #3 with fries and a large root beer"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
 spec = "soulbeast"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 A power-based soulbeast build. This build relies on a single combo, but otherwise boils down to just hitting buttons when they're off cooldown.

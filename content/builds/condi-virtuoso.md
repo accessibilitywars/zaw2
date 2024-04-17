@@ -15,7 +15,7 @@ tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
 spec = "virtuoso"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 Who knew that flying swords and throwing daggers would cause bleeding?
