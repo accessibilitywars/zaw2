@@ -15,7 +15,7 @@ tagline = "'My advice? Use axes to fell the tree, and the hammer to pound it int
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
 spec = "berserker"
-balance = "March 2024"
+balance = "April 2024"
 +++
 
 Absolutely everything this build uses extends berserk. Your goal is to get into berserk as fast as possible and stay there, as long as you're hitting
@@ -23,7 +23,7 @@ targets. The main difficulty is going to be to re-engage with the next target on
 
 This build is tested with no weapon swapping. A hammer second weapon set is provided only as CC support. Dual maces can work well too.
 
-#### SPECIAL NOTE
+### SPECIAL NOTE
 
 This is one of our more challenging builds. It's relatively simple, but unforgiving. We'll keep looking for a more
 accessible warrior option.
