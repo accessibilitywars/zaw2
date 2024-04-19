@@ -30,9 +30,9 @@ The purpose of writing this guide is to provide a no-weapon swap method to play 
 Weapon swap is optional
 1. Dagger/Dagger
 2. Dagger/Torch
-3. Dagger/Axe 
-4. 
-(Axe 4 can proc vicious quarry) and will do similar damage on a hybrid build. However, a ranged build is simpler to play.
+3. Axe/Dagger
+4. Dagger/Axe 
+Dagger/Axe (Axe 4 can proc vicious quarry) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.
 
 Optimised Viper's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)
