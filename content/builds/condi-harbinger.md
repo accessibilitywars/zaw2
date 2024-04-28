@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 tags = ["condi","necromancer","harbinger","eod","lowcog","lowphys","lowrep"]
-categories = [ "raid", "strike", "open-world" ]
+categories = [ "instanced", "open-world" ]
 authors = ["berdandy"]
 
 [extra]

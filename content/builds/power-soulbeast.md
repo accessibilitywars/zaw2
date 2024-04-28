@@ -5,7 +5,7 @@ date = 2024-03-27
 template = "build.html"
 
 [taxonomies]
-categories = ["raid","strike"]
+categories = ["instanced"]
 tags = ["power","ranger","soulbeast","pof","lowcog", "lowrep"]
 authors = ["scooby"]
 

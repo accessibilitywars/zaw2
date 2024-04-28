@@ -6,7 +6,7 @@ updated = 2024-04-11
 template = "build.html"
 
 [taxonomies]
-categories = ["open-world", "raid", "strike"]
+categories = ["open-world", "instanced" ]
 tags = ["power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 
