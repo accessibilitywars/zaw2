@@ -1,38 +1,39 @@
 +++
-title = "Power Unload Deadeye"
-description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
-date = 2024-03-29
+title = "Dagger & Axe Breaker"
+description = "This build is designed around the passives that increase power damage on dagger and axe, using Weapon 5 skills to refresh Relic of the Thief and enhancing baseline autos, requiring a low skill floor to deal respectable damage."
+date = 2024-04-23
 draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["power","thief","deadeye","pof","lowcog","lowphys","lowrep"]
+tags = ["power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 
 [extra]
-series = "thief"
-tagline = "Auto-Attack Deadeye with/without Quickness"
-keywords = "Guild Wars 2, GW2, LI, Deadeye"
+series = "warrior"
+tagline = "Auto-Attack Warrior with Short Combos"
+keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-spec = "deadeye"
+spec = "spellbreaker"
 balance = "April 2024"
 +++
 
-The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 
+The purpose of writing this guide is to provide a low intensity method to play PvE spellbreaker without the need to learn opening chains and reducing variance. This build is low cognition, has low physical complexity, and has very few repetitions, relying on short bursts to refresh relics periodically. The way bursts work on warrior prevents you from cancelling your autos unnecessarily. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit but this build already does 20k on autos alone and is therefore minimally qualified to clear all 7 wings with ease. While this build has a low skill floor, it has a low damage ceiling as well but opens up a path to upskill via weapon and trait changes.
 
-This simplified build also allows you to perform niche roles like pylon kiting, which is extremely useful when learning the role and not wanting to be bogged down by rotation. I have completed all 7 wings in NM with this build being fairly high/average ranked in DPS meters. At the time of writing, the options for deadeye across the power DPS variants does not smoothly transition players from low to high intensity. There are better options that players can consider as an alternate set to complement this build when you are ready, starting with dual daggers (See Trait Alternatives: Practiced Tolerance).
-
-The improvised quickness variant uses the same stats and is able to overcap on quickness through a very simple rotation and minimal use of cantrips.
+This simplified build also embraces the combo nature of warrior instead of shunning it, which is extremely useful when learning the class for the frist time. While this build is historically popular, since relic changes, there are very few guides that explain this build at the time of writing. 
 
 
 ## Gearing and Consumables
 **Equipment**
-- Full Berserker's up to the crit cap. It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}
-- Dragon’s/Valkyrie+Berserker if desired as the build is heavily overcapped on precision
-- Dual Pistols/Dual Daggers
+- Armor: Full Berserker's is recommended
+*Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
+
+- Weapons (set 1): Dagger/Axe
+- Weapons (set 2): Dagger/Dagger
+- Weapons (alt): Axe/Dagger
 
 **Runes**
-- Superior Rune of the Scholar/Dragonhunter
+- Superior Rune of the Scholar
 
 **Sigils**
 - Superior Sigil of Impact, Sigil of Force 
@@ -40,7 +41,6 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 
 **Relic**
 - Relic of the Thief
-- Relic of Superspeed for Tower Thief (Jumping Puzzle)
 
 **Food**
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
@@ -54,73 +54,75 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 **DPS**
 {{ chatlink(code="[&DQUjHxw9Oi+FAIUAMwFYAVgBMwGsFlYBKAAoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
 
-**Quickness Variant**
-{{ chatlink(code="[&DQUjGxwtOj+FAAwBMwFYASAXMwFYAFYBDgEoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
-
 **Trait Alternatives**
-1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
-2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime.
-
-_Both Practiced Tolerance and Quickness can be taken together_
-
+There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.
 
 ## Rotation and Utilities
+**General concept**
+The build relies on the auto chain, which is just F1 (press and hold). This will provide a baseline DPS of 21-23k.
+The build can be enhanced further by triggering relics, signets and traits through a sequence of skills which constitutes the basics of playing warrior, combos. 
+The combo is a tight chain of skills that eventually builds up to an extremely buffed ultimate attack.
+Almost every warrior build will require learning of combos, otherwise you will remain at the baseline DPS or lower. 
+This combo is simplified and broken down into the table below. 
+
+| Effect     | Notes              |
+| -------- | -------------------- |
+| SignetF  | Burst window (4s)    |
+| Relic    | Using skills 2-5     |
+| PeakP    | Physical skill (6s)  |
+| AInsight | Disables (5 stacks)  |
+| BPower   | Using a    |  
+
+**Why Kick?**
+Kick is an irritating skill that can kick non-defiant foes away from your range. But it has some versatility that provides advantages against other physical skills.
+1. Triggers both AI and Peak performance at the same time
+2. You can get more stacks of AI because it could potentially hit more than 1 target (compared to bull's charge)
+3. It can be used as a movement skill.
+
+**Precasts**
+You may cast the Elite skills depending on personal preference.
+
+
+
 **DPS Rotation**
-Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (bring on fights with long damage downtimes)
-1. Set {{ skill(id="13011") }} (Pistols 3) to auto. Use {{ skill(id="13046") }} for a small DPS boost on cooldown. 
-2. Try to time {{ skill(id="13046") }} with {{ skill(id="41158") }}. 
-3. If taking {{ trait(id="1272") }}, you may switch to daggers when the window of opportunity opens up for a DPS boost especially when the boss is below 50% hp. 
-
-**Quickness Rotation**
-1. For the quickness variant, you need to use steal time. Due to {{ trait(id="1167") }}, each steal provides two charges of {{ skill(id="42863") }}. 
-2. There is an aftercast for the skill but it should not take much time to blast both charges. 
-3. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}. Use {{ skill(id="43390") }} which you can use immediately for two more charges of {{ skill(id="42863") }}. 
-
-**Dagger Rotation (Practiced Tolerance)**
-1. For the dagger rotation, which is mostly autos, use {{ skill(id="16432") }} for stealth and queue {{ skill(id="13005") }} to deal heavy damage. 
-2. Ensure that you are not 'revealed' when you do the next stealth and backstab cycle.
+Burst Opener - Kick + Burst (F1) (A3/A4 if available) + Signet of Fury
+1. Burst opener + A5 
+2. Weapon swap -> Auto Chain + hold F1 button 
+3. Burst opener + D4 D5 
+4. Weapon swap -> Auto Chain + hold F1 button 
+5. Repeat steps 1-4
+*You may extend the auto chain cycle if your skill 5 is not ready by holding F1. You may also extend the chain indefinitely by just holding F1 and it will still do a base of 20k DPS at almost 0 APM*
 
 **Crowd Control rotation**
-1. You have decent CC by just spamming {{ skill(id="13012") }} (Pistol 4). 
-2. You can take {{ skill(id="13132") }} (elite) for a minimal DPS loss if you still need more CC. 
-
-**Other Utilities**
-You may drop {{ skill(id="13064") }} or {{ skill(id="41158") }} for different utilities.
+1. You have decent CC by using dagger 3 and Throw bolas.
+2. You may bring Bull's Charge or Kick if you still need more CC
+3. Full Counter provides breakbar damage too and is useful if you know the fight well. 
+4. Consider hammer as an alternative weapon set (refer to trait alternatives)
 
 **Sustainability**
-1. Your heal skill {{ skill(id="13050") }} should provide enough heals per hit. You can opt to take {{ trait(id="1702") }} but this is not an efficient choice for sustainability.
-2. If you use dual daggers, dagger provides an additional evade on {{ skill(id="13006") }}.
-
+1. Your OH dagger set is designed for sustain.
+2. Defiant stance can be taken instead to cheese certain mechanics (see *Raid Ready* section)
+\
 
 ## Optimisation
-**Cleave/Pierce**
-This build may underperform at high end raiding but it can do extremely well in fights where ranged pierce is able to double your DPS. Some targets are tall and piercing should not be presumed as your rounds may fire upwards (refer to the benchmark video shot sideways). The effect causes you to miss all posterior targets. Instead, you need to manually select the furthest target in order to hit as many targets as possible. Ranged pierce can also be done with a rifle with better DPS but the reduced mobility and increased difficulty in execution may not be feasible in certain fights. If using {{ skill(id="41158") }}, it is recommended to mark the closer target and then select the further target. A screenshot is provided at the end of the benchmark video for reference. 
+This build has no ranged alternative. However, based on my personal testing, this build does more damage on mobile fights (like Twin Largos) than Condition Berserker. If you find yourself being forced out of range often, you might want to play a different class. 
 
-A few examples where this advantage can be used are:
-1.  Kaineng Overlook - both split phases
-2.  Harvest Temple - Any phase with adds
-3.  Old Lion’s Court - Any phase with more than 1 boss
-4.  W1 Gorseval - split phase
-5.  W2 Slothasor and its slublings
-6.  W3 Escort Tower Thief
+**Raid Ready**
+1. W1 Vale Guardian - Boon strip can be used on the Blue Boss.
+2. W1 Gorseval - Throw bolas is a really long immobilise that can extend the split phase.
+3. W2 Slothasor - You can bring permanent self stability via Brave Stride and drop your physical skills for party wide Break Stuns and Condi Cleanse Shake it off. 
+4. W3 Keep Construct - This build is excellent on this fight. 
+5. W3 Xera - During planning for the split phase, you want to inform your party that you do not have any meaningful ranged damage. If forced to take a pressure pad, your only damage skills are throw axe and throw bolas which are effectively neglible. 
+6. W4 Deimos - Throw bolas at prides is an effective immobilize as part of your rotation. I do not recommending killing the prides until they are near saul.
+7. W5 Soulless Horror - It is probably a good idea to never bring the build here. If you do however, do not use Axe 5 when TD is about to spawn. Do the burst combo after TD is pushed out. 
+8. W6 Conjured Amalgamate - The amount of cleave on this fight is amazing. 
 
-If taking practiced tolerance and daggers as an off-hand set, your daggers are your cleave options as taking practiced tolerance removes the pierce on pistol.
-
-**Niche Roles**
-1.  W1 Sabetha - Both the quickness and DPS builds are ideal to do mechanics as you can carry a shadowstep and overcap boons, sacrificing very little for doing cannons.
-2.  W3 Xera - This build is able to function at range decently without stacking, making it ideal to step on buttons during the 3-button split phase
-3.  W6 Qadim - While solo lamp is ideally performed using daredevil (same equipment), you may choose to use this build instead if 2 players are sent to do Lamp. 
+W6 Qadim - While solo lamp is ideally performed using daredevil (same equipment), you may choose to use this build instead if 2 players are sent to do Lamp. 
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
 
 
 ## Videos
-I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
+I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
 
 **DPS benchmark (28-29k)**
 {{ youtube(id="u_gXMCOkUh4") }}
-
-**Dagger Rotation**
-{{ youtube(id="8xBio3WnVXw") }}
-
-**QTP Pylon Kiting**
-{{ youtube(id="1JjqeBQe8jE") }}
