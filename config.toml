@@ -14,7 +14,7 @@ minify_html = false # minify subly breaks some markdown
 build_search_index = true
 generate_feed = true
 taxonomies = [
-#    {name = "categories", feed = true},
+    {name = "categories", feed = true},
     {name = "tags", feed = true },
     {name = "authors", feed = true },
 ]
