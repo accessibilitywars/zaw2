@@ -6,6 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
+categories = ["raid","strike"]
 tags = ["power","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
 
