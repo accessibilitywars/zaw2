@@ -89,8 +89,8 @@ menu = [
     {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
     {url = "guides", name = "Guides", slash = true, blank = false, size="s110"},
     {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
+    {url = "categories", name = "by Mode", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 	{url = "retired", name = "Retired Builds", slash = true, blank = false},
