@@ -7,7 +7,7 @@ template = "build.html"
 
 
 [taxonomies]
-categories = ["instanced"]
+categories = ["group"]
 tags = ["power","engineer","holosmith","pof","lowphys", "lowrep"]
 authors = ["scooby"]
 

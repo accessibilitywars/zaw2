@@ -6,7 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-categories = ["open-world", "instanced"]
+categories = ["solo", "group"]
 tags = ["power","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 

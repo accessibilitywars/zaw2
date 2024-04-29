@@ -7,7 +7,7 @@ template = "build.html"
 draft = true
 
 [taxonomies]
-categories = ["open-world"]
+categories = ["solo"]
 tags = ["power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 
