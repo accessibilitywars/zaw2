@@ -7,9 +7,9 @@ draft = false
 
 # Content Roadmap
 
-- [ ] Add at least 1 build for each profession [tags](https://aw2.help/tags/)
+- [x] Add at least 1 build for each profession [tags](https://aw2.help/tags/)
 - [ ] Add at least 1 build for each specialization [tags](https://aw2.help/tags/)
-- [ ] Update builds for [the upcoming balance patch](https://wiki.guildwars2.com/wiki/Upcoming_changes_and_features/2024-03-19_Game_update_preview)
+- [x] Update builds for [the upcoming balance patch](https://wiki.guildwars2.com/wiki/Upcoming_changes_and_features/2024-03-19_Game_update_preview)
 
 ## Guides (video + blog post)
 
