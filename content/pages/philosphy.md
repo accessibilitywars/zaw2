@@ -30,7 +30,7 @@ viable in fractals or organized open world events like map meta-events.
 ### LOWCOG
 
 [Low Cog Builds](/tags/#lowcog) have low cognitive complexity. These builds have less decisions, lower memorization/knowledge
-requirements, and definitely no long rotations. We aim to keep to amaximum of 3 actions in a combo when possible.
+requirements, and definitely no long rotations. We aim to keep to a maximum of 3 actions in a combo when possible.
 
 ### LOWPHYS
 
