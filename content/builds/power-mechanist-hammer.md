@@ -33,7 +33,7 @@ Signet-heavy, with some chill hammer thumping."
 
 ## Build
 
-{{ chatlink(code="[&DQMGOyYnRh8NGwAAowAAABobAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQMGOyYvRh4NGyoPJgGGABobowAQGwAACRsSAQAAAAAAAAAAAAAAAAAAAAADMwBaAFcAAA==]") }}
 
 ## Notes
 
