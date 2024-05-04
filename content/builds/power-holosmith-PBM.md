@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith"
+title = "Power Holosmith PBM"
 description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
 draft = false
@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","engineer","holosmith","pof","lowphys", "lowrep"]
+tags = ["power","engineer","holosmith","soto","lowphys", "lowrep"]
 authors = ["scooby"]
 
 [extra]
