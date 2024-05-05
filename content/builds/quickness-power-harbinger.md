@@ -1,8 +1,8 @@
 +++
 title = "Quickness Power Harbinger"
-description = ""
-date = 2024-05-04
-draft = true
+description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
+date = 2024-05-05
+draft = false
 template = "build.html"
 
 [taxonomies]
@@ -12,14 +12,14 @@ authors = ["scooby"]
 
 [extra]
 series = "necromancer"
-tagline = "You've heard of spinning to win, now try shotgunning to win!"
+tagline = "My pain brings you strength!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 spec = "harbinger"
 balance = "April 2024"
 +++
 
-You've heard of spinning to win, now try shotgunning to win!
+My pain brings you strength!
 
 ## Gearing
 
@@ -37,11 +37,11 @@ You've heard of spinning to win, now try shotgunning to win!
 - Ring 2: Berserker's
 - Amulet: Berserker's
 - Weapon: Greatsword, Superior Sigil of Accuracy, Superior Sigil of Force
-- Relic of the Fireworks
+- Relic of the Fireworks or Relic of the Thief
 
 ## Build
 
-{{ chatlink(code="[&DQg1KTIlQBXnGpsAgQDkAG8BdgB1AXAB6BqVAAAAAAAAAAAAAAAAAAAAAAACWgAyAAA=]") }}
+{{ chatlink(code="[&DQg1KTIlQCnnGpsA7BrkAG8BdgB1AXAB6BqVAAAAAAAAAAAAAAAAAAAAAAACMgBaAAA=]") }}
 
 # Notes
 
