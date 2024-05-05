@@ -1,6 +1,6 @@
 +++
 title = "Power Holosmith ECSU"
-description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
+description = "One of our tougher builds, but well worth the reward"
 date = 2024-05-05
 draft = false
 template = "build.html"
@@ -13,7 +13,7 @@ authors = ["scooby"]
 
 [extra]
 series = "engineer"
-tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
+tagline = "Repeat after me: 'DO NOT OVERHEAT.'"
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
 spec = "holosmith"
