@@ -25,7 +25,8 @@ balance = "April 2024"
 
 - Full Berserker's
 - Runes of the Scholar
-- Hammer, Sigils of Force & Impact
+- Sword, Sigil of Force
+- Shield, Sigil of Air
 - Relic of the Thief
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
@@ -37,13 +38,12 @@ balance = "April 2024"
 
 ## Notes
 
-
 Press
 
 1. {{ skill(id="44110") }} (Sword 2)  
 1. {{ skill(id="40160") }} (Sword 3)  
 1. {{ skill(id="63095") }}  
-1. {{ skill(id="6161") }}  
+1. {{ skill(id="6161") }}
 
 off cooldown, and that is basically your rotation.
 
@@ -53,7 +53,7 @@ You have very nice utilities with the Shield. You can bring a Pistol instead for
 
 {{ skill(id="6053") }} (Shield 4) is a 3s long projectile reflect, and can be pressed twice in quick succession for CC. 
 
-{{ skill(id="6054") }} (Shield 5) is a 2.5s long block, and is basically your "oh shit" button. It can also be pressed twice in quick succession for CC.
+{{ skill(id="6054") }} (Shield 5) is a 2.5s long block, and is basically your panic button. It can also be pressed twice in quick succession for CC.
 
 On top of that, you have {{ skill(id="6161") }} and {{ skill(id="63095") }}, which are both CC skills even though they are being used primarily for damage. Finally, you have {{ skill(id="63253") }}, which is another CC skill, but you should only use it in the most dire of situations, as using it is a DPS loss.
 
