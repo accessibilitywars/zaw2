@@ -56,8 +56,7 @@ and is looped repeatedly.
 In Forge rotation:
 
 1. {{ skill(id="44530") }} (Forge 3)  
-1. {{ skill(id="44783") }} (Forge 4)  
-1. {{ skill(id="42163") }}  
+1. {{ skill(id="45783") }} (Forge 4) + {{ skill(id="42163") }}  
 1. {{ skill(id="44530") }} (Forge 3)  
 1. {{ skill(id="41123") }}
 
@@ -81,7 +80,7 @@ Layer 2:
 1. {{ skill(id="42842") }}  
 1. {{ skill(id="42009") }}
 
-There are 2 parts of the rotation where you should check if these skills are off cooldown, after step 3 during In Forge rotation, and after using {{ skill(id="44110") }} (Sword 2) once in Out Forge rotation. If the skills are off cooldown during the check, use them.
+There are 2 parts of the rotation where you should check if these skills are off cooldown, after step 2 during In Forge rotation, and after using {{ skill(id="44110") }} (Sword 2) once in Out Forge rotation. If the skills are off cooldown during the check, use them.
 
 You have very nice utilities with the Shield. You can bring a Pistol instead for about 1k+ more DPS, but I will always recommend the Shield over Pistol. 
 
