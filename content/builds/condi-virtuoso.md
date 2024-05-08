@@ -6,7 +6,8 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["condi","mesmer","virtuoso","eod","lowcog","raid","strike"]
+categories = ["group"]
+tags = ["condi","mesmer","virtuoso","eod","lowcog"]
 authors = ["scooby"]
 
 [extra]

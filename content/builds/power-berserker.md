@@ -6,7 +6,8 @@ updated = 2024-03-26
 template = "build.html"
 
 [taxonomies]
-tags = ["Power","warrior","berserker","hot"]
+categories = ["group", "solo"]
+tags = ["power","warrior","berserker","hot"]
 authors = ["berdandy"]
 
 [extra]

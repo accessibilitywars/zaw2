@@ -1,11 +1,12 @@
 +++
-title = "Power Mechanist"
-description = "Signet-heavy, with some chill hammer thumping. And a little turret on the side."
-date = 2024-03-02
+title = "Hammer Power Mechanist"
+description = "Signet-heavy, with some chill hammer thumping."
+date = 2024-05-04
 draft = false
 template = "build.html"
 
 [taxonomies]
+categories = ["group"]
 tags = ["power","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
 
@@ -15,10 +16,10 @@ tagline = "If you name your mech 'Hammer' you can dual-wield Hammers"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
-balance = "January 2024"
+balance = "April 2024"
 +++
 
-Signet-heavy, with some chill hammer thumping. And a little turret on the side.
+Signet-heavy, with some chill hammer thumping."
 
 ## Gearing
 
@@ -32,19 +33,20 @@ Signet-heavy, with some chill hammer thumping. And a little turret on the side.
 
 ## Build
 
-{{ chatlink(code="[&DQMGOyYnRh8NGwAAowAAABobAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQMGOyYvRh4NGyoPJgGGABobowAQGwAACRsSAQAAAAAAAAAAAAAAAAAAAAADMwBaAFcAAA==]") }}
 
 ## Notes
 
 To play this build, you want to place
 
-- {{ skill(id="5818") }}
+- {{ skill(id="6161") }}
 
 at the start of the fight, then press
 
 1. {{ skill(id="30713") }} (Hammer 5)
 1. {{ skill(id="30088") }} (Hammer 2)
 1. {{ skill(id="63095") }}
+1. {{ skill(id="6161") }}
 
 off cooldown, and that is basically your rotation.
 
@@ -55,18 +57,11 @@ Rocket Charge it will not always be available.
 
 Other CC skills that you have are:
 
+- {{ skill(id="6161") }}
 - {{ skill(id="63253") }}
 - {{ skill(id="63095") }}
 
-If you still need more CC, replace 
-
-- {{ skill(id="5818") }}
-
-with 
-
-- {{ skill(id="6161") }}
-
 ## Video
 
-{{ youtube(id="ipzl3PqQvTY") }}
+{{ youtube(id="iZ7Oj3nyZuw") }}
 

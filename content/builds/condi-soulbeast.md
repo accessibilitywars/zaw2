@@ -6,6 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
+categories = ["group"]
 tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
 authors = ["xellink"]
 
@@ -32,7 +33,7 @@ Weapon swap is optional
 2. Dagger/Torch
 3. Axe/Dagger
 4. Dagger/Axe 
-Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.
+*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*
 
 Optimised Viper's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)

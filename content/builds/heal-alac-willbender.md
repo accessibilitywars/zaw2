@@ -5,6 +5,7 @@ date = 2024-04-04
 template = "build.html"
 
 [taxonomies]
+categories = ["group"]
 tags = ["heal","alacrity","guardian","willbender","eod","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 

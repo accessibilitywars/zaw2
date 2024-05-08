@@ -1,6 +1,4 @@
 #do NOT include a trailing slash on the base URL
-# base_url = "https://accessibilitywars.com"
-# base_url = "https://accessibilitywars.github.io/aw2-builds"
 base_url = "https://aw2.help"
 # Usable site directly from disk, Including Search: "/home/jieiku/.dev/abridge/public"
 # Also set index format = "elasticlunr_javascript", and in [extra] uglyurls = true, integrity = false
@@ -16,7 +14,7 @@ minify_html = false # minify subly breaks some markdown
 build_search_index = true
 generate_feed = true
 taxonomies = [
-#    {name = "categories", feed = true},
+    {name = "categories", feed = true},
     {name = "tags", feed = true },
     {name = "authors", feed = true },
 ]
@@ -91,8 +89,8 @@ menu = [
     {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
     {url = "guides", name = "Guides", slash = true, blank = false, size="s110"},
     {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
-#    {url = "categories", name = "Categories", slash = true, blank = false, size="s110"},
     {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
+    {url = "categories", name = "by Mode", slash = true, blank = false, size="s110"},
 ]
 menu_footer = [
 	{url = "retired", name = "Retired Builds", slash = true, blank = false},

@@ -4,9 +4,9 @@ description = "A power-based soulbeast build. This build relies on a single comb
 date = 2024-03-27
 template = "build.html"
 
-
 [taxonomies]
-tags = ["power","ranger","soulbeast","pof","lowcog", "lowrep","raid","strike"]
+categories = ["group"]
+tags = ["power","ranger","soulbeast","pof","lowcog", "lowrep"]
 authors = ["scooby"]
 
 [extra]
