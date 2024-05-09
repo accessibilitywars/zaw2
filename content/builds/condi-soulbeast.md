@@ -2,6 +2,7 @@
 title = "Barbed Arrows"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
 date = 2024-04-16
+updated = 2024-05-08
 draft = false
 template = "build.html"
 
