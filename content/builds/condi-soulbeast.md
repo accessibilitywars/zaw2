@@ -6,6 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
+categories = ["group"]
 tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
 authors = ["xellink"]
 
@@ -18,7 +19,7 @@ spec = "soulbeast"
 balance = "April 2024"
 +++
 
-The purpose of writing this guide is to provide a no-weapon swap method to play a ranged PVE soulbeast while easily hitting the 70% benchmark with minimal effort. This build is low cognition, has few repetitions but has a relatively high APM. The skills do not require specific timing and having extra hard CC (total of 3) in the build allows flexible upkeep of vicious quarry, which has a rather tight timing on other builds. The auto-attack of the build provides sufficient hits to proc bleeding and the skills that empower the shortbow hits do not interrupt the attack rotation. The way the bows are empowered with bleeding stacks is inspired by the Guild Wars 1 skill [Barbed Arrows](https://wiki.guildwars.com/wiki/Barbed_Arrows).
+The purpose of writing this guide is to provide a no-weapon swap method to play a ranged PVE soulbeast while easily hitting the 70% benchmark with minimal effort. This build is low cognition, has few repetitions but has a relatively high APM. The skills do not require specific timing and having extra hard CC (total of 3) in the build allows flexible upkeep of {{ trait(id="2127") }}, which has a rather tight timing on other builds. The auto-attack of the build provides sufficient hits to proc bleeding and the skills that empower the shortbow hits do not interrupt the attack rotation. The way the bows are empowered with bleeding stacks is inspired by the Guild Wars 1 skill [Barbed Arrows](https://wiki.guildwars.com/wiki/Barbed_Arrows).
 
 
 ## Gearing and Consumables
@@ -32,7 +33,7 @@ Weapon swap is optional
 2. Dagger/Torch
 3. Axe/Dagger
 4. Dagger/Axe 
-Dagger/Axe (Axe 4 can proc vicious quarry) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.
+*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*
 
 Optimised Viper's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)
@@ -73,7 +74,7 @@ Stay merged at all times.
 
 **Crowd Control rotation**
 1. You have decent CC by just using {{ skill(id="12508") }} (Shortbow 4)
-2. You have many other CC skills littered in your weapon and utility kit including the ones used to upkeep Vicious Quarry (see below). 
+2. You have many other CC skills littered in your weapon and utility kit including the ones used to upkeep {{ trait(id="2127") }} (see below). 
 3. You can precast {{ skill(id="12537") }} for additional CC just before the CC phase of an encounter.
 4. Bringing Warthog can add significant amount of CC for a small damage loss.
 
@@ -85,9 +86,9 @@ Stay merged at all times.
 
 
 ## Optimisation
-**Vicious Quarry**
+**Twice as Vicious**
 
-Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise vicious quarry uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
+Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 
 **Dodging**

@@ -1,12 +1,13 @@
 +++
-title = "The Bell Ringer"
+title = "The Equipped Bell Ringer"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
 updated = 2024-04-11
 template = "build.html"
+draft = true
 
 [taxonomies]
-categories = ["solo", "group" ]
+categories = ["solo"]
 tags = ["power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 
@@ -31,12 +32,13 @@ Classic power reaper spin to win playstyle. Generally speaking, this plays like:
 
 This plays quite tanky and comfy. There are some modifications below to adjust.
 
-- Berserker's Coat, Superior Rune of the Scholar
-- Berserker's Boots, Superior Rune of the Scholar
-- Berserker's Gloves, Superior Rune of the Scholar
-- Berserker's Helm, Superior Rune of the Scholar
-- Berserker's Leggings, Superior Rune of the Scholar
-- Berserker's Shoulders, Superior Rune of the Scholar
+- {{ item(name="Zojja's Masque") }} {{ item(id="24836") }}
+- {{ item(name="Zojja's Epaulets") }} {{ item(id="24836") }}
+- {{ item(name="Zojja's Doublet") }} {{ item(id="24836") }}
+- {{ item(name="Zojja's Wristguards") }} {{ item(id="24836") }}
+- {{ item(name="Zojja's Breeches") }} {{ item(id="24836") }}
+- {{ item(name="Zojja's Footwear") }} {{ item(id="24836") }}
+
 - Backpack: Dragon's
 - Accessory 1: Dragon's
 - Accessory 2: Dragon's
@@ -46,7 +48,8 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 - Weapon A1: Greatsword, Berserker's, Superior Sigil of Force, Superior Sigil of Hydromancy
 - Weapon B1: Sword, Berserker's, Superior Sigil of Force
 - Weapon B2: Sword, Berserker's, Superior Sigil of Air
-- Relic of the Thief (Fireworks is also an option)
+
+- {{ item(name="Relic of the Thief") }} or {{ item(id="100947", name="Relic of Fireworks") }}
 
 ## Alternatives and why...
 

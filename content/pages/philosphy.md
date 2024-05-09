@@ -15,12 +15,22 @@ These rotations and playstyles are intentionally designed so that almost any pla
 and achieve the set benchmark, even at ~300 ping. They are also designed to be playable in actual play, when one has to react to mechanics.
 Experienced players should be able to beat the DPS benchmark without changes.
 
-Our builds are organized with a tag system. You can filter by expansion, profession, power/condi as well as accommodation needs, as listed below:
+Our builds are organized with a tag system. You can filter by grouping (aka 'selfishness'), expansion, profession, power/condi as well as accommodation needs, as listed below:
+
+### SOLO
+
+[Solo Builds](/categories/solo) are self-ish. They are generally built for use in open world scenarios, where one can't depend on having
+group boon support.  They will also not generally provide boons to others, unless it's 'free' to do so.
+
+### GROUP
+
+[Group Builds](/categories/group) are designed for use in an instanced PvE group, particularly raids and strikes. Some builds may also be
+viable in fractals or organized open world events like map meta-events.
 
 ### LOWCOG
 
 [Low Cog Builds](/tags/#lowcog) have low cognitive complexity. These builds have less decisions, lower memorization/knowledge
-requirements, and definitely no long rotations. We aim to keep to amaximum of 3 actions in a combo when possible.
+requirements, and definitely no long rotations. We aim to keep to a maximum of 3 actions in a combo when possible.
 
 ### LOWPHYS
 
