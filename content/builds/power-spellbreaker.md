@@ -1,7 +1,7 @@
 +++
 title = "Dagger Axe Breaker"
 description = "This build is designed around the passives that trigger on disable increase power damage on dagger, using Weapon 5 skills to refresh Relic of the Thief and enhancing baseline autos, requiring a low skill floor to deal respectable damage."
-date = 2024-04-23
+date = 2024-05-08
 draft = false
 template = "build.html"
 
@@ -24,46 +24,53 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 
 ## Gearing and Consumables
-**Equipment**
+#### Equipment
 - Armor: Full Berserker's is recommended
 *Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
 
 - Weapons (set 1): Dagger/Axe
 - Weapons (alt): Dagger/Dagger (Defensive)
-- Weapons (alt): Axe/Dagger+ (Defensive)
-- Weapons (alt): Greatsword+ (Traditional)
-- Weapons (alt): Hammer++ (Meta)
-*+The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH*
-*++There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.*
 
-**Runes**
-- {{ item(id="24836") }}
+**Weapon Alternatives**
+- Weapons (alt): Axe/Dagger[^1] (Defensive)
+- Weapons (alt): Greatsword[^1] (Traditional)
+- Weapons (alt): Hammer[^2] (Meta)
 
-**Sigils**
-- {{ item(id="24615") }}
-- {{ item(id="24868") }}
+[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH
+[^2]: There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.
 
-**Relic**
-- {{ item(id="100916") }  }
+#### Runes
 
-**Food**
-  - {{ item(id="91805") }}
-  - {{ item(id="91917") }}
+{{ item(id="24836") }}
 
-**Utility**
-  - {{ item(id="9443") }}
+#### Sigils
 
+{{ item(id="24615") }}
+{{ item(id="24868") }}
+
+#### Relic
+
+{{ item(id="100916") }}
+
+#### Food
+
+{{ item(id="91805") }}
+{{ item(id="91917") }}
+
+#### Utility
+
+{{ item(id="9443") }}
 
 ## Build
-**DPS**
+*DPS*
 {{ chatlink(code="[&DQILFQQfPT0pD6cArQCtAK8ArwCpAKkAnRbuAAAAAAAAAAAAAAAAAAAAAAADLwAFAGcAAA==]") }}
 
-**Trait Alternatives**
+#### Trait Alternatives
 {{ trait(id="1447") }} provides perma stability in PVE. This is useful for some fights (e.g. Solo Lamp)
 However, you do already have lots of stability from {{ trait(id="1667") }}
 
 ## Rotation and Utilities
-**General concept**
+#### General concept
 The build relies on the auto chain, which is just F1 (press and hold). This will provide a baseline DPS of 21-23k (when a couple of long-lasting passives are triggered).
 The build can be enhanced further by triggering relics, signets and traits through a sequence of skills which constitutes the basics of playing warrior, combos. 
 The combo is a tight chain of skills that eventually builds up to an extremely buffed ultimate attack.
@@ -83,12 +90,12 @@ The attack duration means you need to trigger these effect somewhat loosely from
 
 By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons. 
 
-**Precasting Utilities**
+#### Precasting Utilities
 Precast {{ trait(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
 Some players use {{ trait(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
 If you decide not to take {{ trait(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
 
-**DPS Rotation**
+#### DPS Rotation
 Start with Dagger/Axe
 1. Opener - {{ skill(id="46233") }} -> {{ skill(id="14516") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
 2. Maintenance - skills 1-5 + {{ skill(id="14516") }} on cooldown
@@ -100,14 +107,14 @@ Start with Dagger/Axe
 
 *You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*
 
-**Crowd Control rotation**
+#### Crowd Control rotation
 1. You have decent CC by using {{ skill(id="44937") }} (dagger 3) and {{ skill(id="14410") }}
 2. {{ skill(id="14502") }} is the preferred CC skill if you can hit more than 1 enemy at once
 3. Full Counter provides breakbar damage too and is useful if you know the fight well. 
 4. The opener chain uses {{ skill(id="46233") }} for lightning field finishers to generate lots of daze that do heavy CC. 
 5. Consider hammer as an alternative weapon set (refer to Snowcrow's)
 
-**Sustainability**
+#### Sustainability
 1. Your OH dagger set is designed for sustain and you may sselect it if you do not have good heal access (eg. your healer blinked through Soulless Horror's Wall/Your heal tank got knocked away by Deimos).
 2. Defiant stance can be taken instead to cheese certain mechanics (see *Raid Ready* section)
 
@@ -129,5 +136,5 @@ This build has no ranged alternative. However, based on my personal testing, thi
 ## Videos
 I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
 
-**DPS benchmark (29-31k, 37k burst)**
+#### DPS benchmark (29-31k, 37k burst)
 Coming Soon
