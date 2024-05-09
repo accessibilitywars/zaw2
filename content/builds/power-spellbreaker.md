@@ -1,6 +1,6 @@
 +++
-title = "Dagger Axe Breaker"
-description = "This build is designed around the passives that trigger on disable increase power damage on dagger, using Weapon 5 skills to refresh Relic of the Thief and enhancing baseline autos, requiring a low skill floor to deal respectable damage."
+title = "Dagger Stormbreaker"
+description = "This build is designed around lightning field dagger leaps that creates a sizable initial burst, followed by lightning strikes from the Air Sigil and and whirwinds from the ultimate axe attack."
 date = 2024-05-08
 draft = false
 template = "build.html"
@@ -11,7 +11,7 @@ authors = ["xellink"]
 
 [extra]
 series = "warrior"
-tagline = "Auto-Attack Warrior with Short Combos"
+tagline = "Dance like the Dervishes of old."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 spec = "spellbreaker"
@@ -27,7 +27,6 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 #### Equipment
 - Armor: Full Berserker's is recommended
 *Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
-
 - Weapons (set 1): Dagger/Axe
 - Weapons (alt): Dagger/Dagger (Defensive)
 
@@ -72,10 +71,8 @@ However, you do already have lots of stability from {{ trait(id="1667") }}
 ## Rotation and Utilities
 #### General concept
 The build relies on the auto chain, which is just F1 (press and hold). This will provide a baseline DPS of 21-23k (when a couple of long-lasting passives are triggered).
-The build can be enhanced further by triggering relics, signets and traits through a sequence of skills which constitutes the basics of playing warrior, combos. 
-The combo is a tight chain of skills that eventually builds up to an extremely buffed ultimate attack.
-Almost every warrior build will require learning of combos to trigger effects, otherwise you will remain at the baseline auto attack DPS or lower. 
-These effects are simplified and broken down into the table below, sorted based on the duration of effect from longest/permanent effects to shortest.
+The build can be enhanced further by triggering relics, signets and traits through a sequence of skills which constitutes the basics of playing warrior, combos. The combo is a tight chain of skills that eventually builds up to an extremely buffed chain of attacks.
+Almost every warrior build will require learning of combos to trigger effects, otherwise you will remain at the baseline auto attack DPS or lower. These effects are simplified and broken down into the table below, sorted based on the duration of effect from longest/permanent effects to shortest:
 
 | Effect                  | Notes                     |
 | ----------------------- | ------------------------- |
@@ -90,8 +87,9 @@ The attack duration means you need to trigger these effect somewhat loosely from
 
 By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons. 
 
-#### Precasting Utilities
+#### Opener
 Precast {{ trait(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
+Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS. 
 Some players use {{ trait(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
 If you decide not to take {{ trait(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
 
@@ -136,5 +134,5 @@ This build has no ranged alternative. However, based on my personal testing, thi
 ## Videos
 I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
 
-#### DPS benchmark (29-31k, 37k burst)
-Coming Soon
+#### DPS benchmark (29-31k, 37.7k initial burst)
+{{ youtube(id="fGPygDuxx9Q") }}
