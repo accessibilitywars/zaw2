@@ -44,8 +44,8 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 #### Sigils
 
-{{ item(id="24615") }}
-{{ item(id="24868") }}
+{{ item(id="24618") }}
+{{ item(id="24554") }}
 
 #### Relic
 
