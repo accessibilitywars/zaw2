@@ -88,14 +88,14 @@ The attack duration means you need to trigger these effect somewhat loosely from
 By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons. 
 
 #### Opener
-Precast {{ trait(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
+Precast {{ skill(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
 Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS. 
 Some players use {{ trait(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
-If you decide not to take {{ trait(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
+If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
 
 #### DPS Rotation
 Start with Dagger/Axe
-1. Opener - {{ skill(id="46233") }} -> {{ skill(id="14516") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
+1. Opener - {{ skill(id="45333") }} -> {{ skill(id="14516") }} -> {{ skill(id="46233") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
 2. Maintenance - skills 1-5 + {{ skill(id="14516") }} on cooldown
 3. Finisher - {{ skill(id="14410") }} -> skills in the following order:
     a. {{ skill(id="45252") }} 
@@ -129,7 +129,7 @@ This build has no ranged alternative. However, based on my personal testing, thi
 7. W4 Deimos - {{ skill(id="14354") }} at prides is an effective way to keep Saul alive as part of your rotation. I do not recommending killing the prides until they are next to Saul as they will respawn. {{ skill(id="21815") }} is also a simple one-button mind crush deflector if you are going to be the oil kiter.
 8. W5 Soulless Horror - It is probably not good idea to bring the build here. If you do however, do not use Axe 5 when TD is about to spawn. Do the burst combo after TD is pushed out. 
 9. W6 Conjured Amalgamate - The amount of cleave on this fight is amazing. Use {{ skill(id="14502") }} on swords and shields, and most of the time you can hit more than 1 target at once. You can use {{ skill(id="21815") }} and {{ skill(id="14419") }}  to bypass the clap mechanic for your subgroup.
-10. W6 Qadim - You can solo lamp on this build using FC and OH dagger to heal. If lamping with {{ trait(id="1447") }} for perma stability on the giant fight, you can drop your physical skills for other skills such as {{ skill(id="14389") }}/{{ skill(id="14413") }} for better survivability. While this is slower than shortbow daredevil, it is easier to perform.
+10. W6 Qadim - You can solo lamp on this build using FC and OH dagger to heal. If lamping with {{ trait(id="1447") }} for perma stability on the giant fight, you can drop your physical skills for other skills such as {{ skill(id="14389") }}/{{ skill(id="14413") }} for better survivability. While this is slower than shortbow daredevil, it is easier to perform. WoD is also very useful against the main boss fight in the middle if stability pyre is to be ignored. 
 
 ## Videos
 I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
