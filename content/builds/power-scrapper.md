@@ -47,6 +47,8 @@ Use off cooldown:
 
 You want to try to maintain as much superspeed as possible as that increases your DPS. You can do this by using {{ skill(id="30357") }} opposite to {{ skill(id="29921") }}, when {{ skill(id="29921") }} has 10s of cooldown left. You can also press it before you press any high damage skill if you forgot to use it before, but generally this ensures you have a high uptime of superspeed, increasing your damage.
 
+## Crowd Control
+
 Your CC skills are:
 1. {{ skill(id="31167") }}
 1. {{ skill(id="6161") }}
