@@ -23,31 +23,31 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 
 ## Gearing
 
-- Viper's Coat, Superior Rune of the Krait
-- Rampager's Boots, Superior Rune of the Krait
-- Viper's Gloves, Superior Rune of the Krait
+There are multiple gear combinations that will arrive at the same total value of stats. However, we will be copying the gear that Snow Crows uses as that is most widely used.
+
+- Sinister Coat, Superior Rune of the Krait
+- Sinister Boots, Superior Rune of the Krait
+- Rampager's Gloves, Superior Rune of the Krait
 - Rampager's Helm, Superior Rune of the Krait
-- Viper's Leggings, Superior Rune of the Krait
+- Sinister Leggings, Superior Rune of the Krait
 - Rampager's Shoulders, Superior Rune of the Krait
-- Backpack: Viper's
-- Accessory 1: Viper's
-- Accessory 2: Rampager's
+- Backpack: Rampager's
+- Accessory 1: Sinister
+- Accessory 2: Sinister's
 - Ring 1: Rampager's
 - Ring 2: Rampager's
-- Amulet: Rampager's
-- Weapon 1: Dagger, Viper's, Superior Sigil of Bursting
+- Amulet: Sinister
+- Weapon 1: Dagger, Viper's, Superior Sigil of Agony
 - Weapon 2: Sword, Viper's, Superior Sigil of Earth
 - Relic of the Aristocracy
-- Food: Bowl of Fancy Potato and Leek Soup
+- Food: Spherified Cilantro Oyster Soup or Dragon's Revelry Starcake
 - Enhancement: Toxic Focusing Crystal
-- Infusions: 12 x +5 Precise Infusions
 
 ## Build
 
 {{ chatlink(code="[&DQcBHRgdQjsjD24BggEAAIEBAACDAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADMgAvAFoAAA==]") }}
 
 ## Notes
-Unfortunately, this build is very heavily reliant on food and infusions, and this damage number is only possible if you have the correct food and precision infusions equipped. We will be providing alternative gear without food and/or infusions shortly.
 
 Condi Virtuoso is very simple in execution, you want to use your 3 button opener:
 1. {{ skill(name="Unstable Bladestorm") }}
