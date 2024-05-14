@@ -34,7 +34,7 @@ Probably the easiest raid build available in GW2.
 
 ## Build
 
-{{ chatlink(code="[&DQkDNg8qRRXcEQAABhIAACsSAADUEQAAyhEAAAIDAAArEgYS1BEAAAAAAAA=]") }}
+{{ chatlink(code="[&DQkPKgM2NDfcEdwRBhIGEisSKxLUEdQRyhHKEQIBAgAGEtQRKxIAAAAAAAADawA1AAUAAA==]") }}
 
 ## Notes
 
