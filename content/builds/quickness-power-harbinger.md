@@ -91,3 +91,7 @@ If you find yourself being forced out of Shroud early, just carry on and do Out 
 ## Video
 
 {{ youtube(id="7lZ-3IN5MeY") }}
+
+## Build demo in "high" level play
+
+{{ youtube(id="eFDH37T6_sc") }}
