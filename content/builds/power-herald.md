@@ -39,8 +39,8 @@ Probably the easiest raid build available in GW2.
 ## Notes
 
 Use:
-1. {{ skill(id="27107") }} while in {{ skill(id="27659") }}  
-1. {{ skill(id="26557") }} while in {{ skill(id="26650") }}
+1. {{ skill(id="27107") }} while in {{ skill(id="28134") }}  
+1. {{ skill(id="26557") }} while in {{ skill(id="28419") }}
 
 and swap legends off cooldown. You can bind both these skills to the same button to reduce mistakes.
 
@@ -59,8 +59,8 @@ You need to weapon swap to your Staff for your biggest CC skill, Staff 5 Surge o
 If you do not want to weapon swap, your CC skills are:
 1. {{ skill(id="28472") }} (Sword 4)
 1. {{ skill(id="29233") }} (Sword 2)
-1. {{ skill(id="28406") }} (in {{ skill(id="27659") }})
-1. {{ skill(id="26679") }} (in {{ skill(id="26650") }})
+1. {{ skill(id="28406") }} (in {{ skill(id="28134") }})  
+1. {{ skill(id="26679") }} (in {{ skill(id="28419") }})
 
 ## Video
 
