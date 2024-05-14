@@ -42,9 +42,10 @@ Power Vindicator can be very easy to play, yet deliver respectable results by fo
 
 Swap your legend when it is off cooldown or when you run out of energy, it doesn't matter much, and use:
 
-1. {{ skill(id="27107") }} while in {{ skill(id="27659") }}
-1. {{ skill(id="26557") }} while in {{ skill(id="26650") }}
-1. You can bind both these skills to the same button to reduce mistakes.
+1. {{ skill(id="27107") }} while in {{ skill(id="28134") }}
+1. {{ skill(id="26557") }} while in {{ skill(id="28419") }}
+
+You can bind both these skills to the same button to reduce mistakes.
 
 Use off cooldown in following priority:
 
