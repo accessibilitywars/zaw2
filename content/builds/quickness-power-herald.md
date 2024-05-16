@@ -40,7 +40,7 @@ The easiest raid build, now with quickness!
 
 Use:
 1. {{ skill(id="27107") }} while in {{ skill(id="28134") }}  
-1. {{ skill(id="28375") }}, {{ skill(id="27760") }}, and {{ skill(id="26644") }} in {{ skill(id="28085") }}. Use {{ skill(id="26644") }} again (it should now be {{ skill(id="28113") }}) to consume it.
+1. {{ skill(id="28379") }}, {{ skill(id="27760") }}, and {{ skill(id="26644") }} in {{ skill(id="28085") }}. Use {{ skill(id="26644") }} again (it should now be {{ skill(id="28113") }}) to consume it.
 
 Swap legends off cooldown in {{ skill(id="28134") }}, and swap legends once you have use {{ skill(id="28113") }} twice in {{ skill(id="28085") }}
 
