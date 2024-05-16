@@ -54,7 +54,7 @@ Following the above, you should never run out of energy, unless you have to CC.
 
 ## Crowd Control
 
-You need to weapon swap to your Staff for your biggest CC skill, Staff 5 Surge of the Mists. This is a big DPS loss, but is also one of the highest CC skills in the game. If you do swap to staff, just keep either {{ skill(id="27107") }} or {{ skill(id="26557") }} active and auto attack until you can swap back to Swords. You should still swap legends off cooldown.
+You need to weapon swap to your Staff for your biggest CC skill, {{ skill(id="28978") }} (Staff 5). This is a big DPS loss, but is also one of the highest CC skills in the game. If you do swap to staff, just keep either {{ skill(id="27107") }} or {{ skill(id="26557") }} active and auto attack until you can swap back to Swords. You should still swap legends off cooldown.
 
 If you do not want to weapon swap, your CC skills are:
 1. {{ skill(id="28472") }} (Sword 4)
