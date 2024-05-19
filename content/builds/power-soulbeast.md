@@ -1,5 +1,5 @@
 +++
-title = "Power Soulbeast"
+title = "Power Soulbeast (34.7k)"
 description = "A power-based soulbeast build. This build relies on a single combo, but otherwise boils down to just hitting buttons when they're off cooldown."
 date = 2024-03-27
 template = "build.html"
