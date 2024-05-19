@@ -9,13 +9,13 @@ draft = false
 
 We aim to create builds that include accomodations to allow players to engage with end-game content. We call these, appropriately enough, Accessible Builds.
 
-Most of our builds are currently tuned for instanced PvE balance (raids, strikes, fractals), but will likely also work well in open world.
-
-These rotations and playstyles are intentionally designed so that almost any player will be able to bring it to the Lion's Arch Aerodrome golem,
+These rotations and playstyles are intentionally designed so that almost any player will be able to bring it to the Lion’s Arch Aerodrome golem,
 and achieve the set benchmark, even at ~300 ping. They are also designed to be playable in actual play, when one has to react to mechanics.
 Experienced players should be able to beat the DPS benchmark without changes.
 
-Our builds are organized with a tag system. You can filter by grouping (aka 'selfishness'), expansion, profession, power/condi as well as accommodation needs, as listed below:
+Most of our builds are currently tuned for instanced PvE balance (raids, strikes, fractals). Builds marked `solo` are good candidates for open world play.
+
+Our builds are organized with a tag system. You can filter by expansion, profession, power/condi as well as accommodation needs or solo/group support, as listed below:
 
 ### SOLO
 
