@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Herald"
+title = "Quickness Power Herald (27.1k)"
 description = "The easiest raid build, now with quickness!"
 date = 2024-05-16
 draft = false
