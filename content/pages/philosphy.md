@@ -9,7 +9,7 @@ draft = false
 
 We aim to create builds that include accomodations to allow players to engage with end-game content. We call these, appropriately enough, Accessible Builds.
 
-These rotations and playstyles are intentionally designed so that almost any player will be able to bring it to the Lion’s Arch Aerodrome golem,
+We provide benchmarks to each build, and where possible, video demonstrations. These rotations and playstyles are intentionally designed so that almost any player will be able to bring it to the Lion’s Arch Aerodrome golem,
 and achieve the set benchmark, even at ~300 ping. They are also designed to be playable in actual play, when one has to react to mechanics.
 Experienced players should be able to beat the DPS benchmark without changes.
 
