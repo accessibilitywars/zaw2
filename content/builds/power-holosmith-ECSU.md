@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith ECSU"
+title = "Power Holosmith ECSU (38.2k)"
 description = "One of our tougher builds, but well worth the reward"
 date = 2024-05-05
 draft = false
