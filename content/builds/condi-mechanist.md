@@ -1,5 +1,5 @@
 +++
-title = "Condi Mechanist"
+title = "Condi Mechanist (33.5k)"
 description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
 draft = false
