@@ -1,5 +1,5 @@
 +++
-title = "Sword Power Mechanist"
+title = "Sword Power Mechanist (33.5k)"
 description = "4 button rotation with lots of Signets"
 date = 2024-05-05
 draft = false
