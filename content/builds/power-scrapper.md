@@ -1,5 +1,5 @@
 +++
-title = "Power Scrapper"
+title = "Power Scrapper (34.4k)"
 description = "Fast paced rotation with high burst damage."
 date = 2024-05-14
 draft = false
