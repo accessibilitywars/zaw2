@@ -1,5 +1,5 @@
 +++
-title = "Power Herald"
+title = "Power Herald (31.6k)"
 description = "Probably the easiest raid build available in GW2."
 date = 2024-05-14
 draft = false
