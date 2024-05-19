@@ -1,5 +1,5 @@
 +++
-title = "Condi Virtuoso"
+title = "Condi Virtuoso (34.5k)"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
 draft = false
