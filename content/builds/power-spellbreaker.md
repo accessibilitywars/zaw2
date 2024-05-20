@@ -1,5 +1,5 @@
 +++
-title = "Dagger Stormbreaker"
+title = "Dagger Stormbreaker (37.7k burst/30k sustained)"
 description = "This build is designed around lightning field dagger leaps that creates a sizable initial burst, followed by lightning strikes from the Air Sigil and and whirwinds from the ultimate axe attack."
 date = 2024-05-08
 draft = false
@@ -25,7 +25,7 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 ## Gearing and Consumables
 #### Equipment
-- Armor: Full Berserker's is recommended
+- Armor: Full Berserker's is recommended\
 *Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
 - Weapons (set 1): Dagger/Axe
 - Weapons (alt): Dagger/Dagger (Defensive)
@@ -44,7 +44,7 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 #### Sigils
 
-{{ item(id="24618") }}
+{{ item(id="24618") }}\
 {{ item(id="24554") }}
 
 #### Relic
@@ -53,8 +53,8 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 #### Food
 
-{{ item(id="91805") }}
-{{ item(id="91917") }}
+{{ item(id="91805") }}\
+{{ item(id="91917") }} (Budget)
 
 #### Utility
 
@@ -97,10 +97,10 @@ If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ ski
 Start with Dagger/Axe
 1. Opener - {{ skill(id="45333") }} -> {{ skill(id="14516") }} -> {{ skill(id="46233") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
 2. Maintenance - skills 1-5 + {{ skill(id="14516") }} on cooldown
-3. Finisher - {{ skill(id="14410") }} -> skills in the following order:
-    a. {{ skill(id="45252") }} 
-    b. {{ skill(id="14399") }} 
-    c. {{ skill(id="14418") }} 
+3. Finisher - {{ skill(id="14410") }} -> skills in the following order:\
+    a. {{ skill(id="45252") }}\
+    b. {{ skill(id="14399") }}\
+    c. {{ skill(id="14418") }}\
     d. {{ skill(id="44937") }}
 
 *You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*
@@ -135,4 +135,6 @@ This build has no ranged alternative. However, based on my personal testing, thi
 I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
 
 #### DPS benchmark (29-31k, 37.7k initial burst)
-{{ youtube(id="fGPygDuxx9Q") }}
+{{ youtube(id="fGPygDuxx9Q") }}\
+
+This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide. 

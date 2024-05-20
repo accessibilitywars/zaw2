@@ -1,5 +1,5 @@
 +++
-title = "Power Unload Deadeye"
+title = "Power Unload Deadeye (28k)"
 description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
 date = 2024-03-29
 draft = false
@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["power","thief","deadeye","pof","lowcog","lowphys","lowrep"]
+tags = ["power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 
 [extra]
@@ -33,22 +33,24 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 - Dual Pistols/Dual Daggers
 
 **Runes**
-- Superior Rune of the Scholar/Dragonhunter
+- {{ item(id="24836") }} OR
+- {{ item(id="74978") }}
 
 **Sigils**
-- Superior Sigil of Impact, Sigil of Force 
-- Superior Sigil of Air (Budget Alternative)
+- {{ item(id="24615") }}
+- {{ item(id="24868") }}
+- {{ item(id="24554") }}(Budget Alternative)
 
 **Relic**
-- Relic of the Thief
-- Relic of Superspeed for Tower Thief (Jumping Puzzle)
+- {{ item(id="100916") }}
+- {{ item(id="100148") }}(Jumping Puzzles)
 
 **Food**
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Moa Wings is a suitable budget alternative
+  - {{ item(id="91805") }}
+  - {{ item(id="91917") }}
 
 **Utility**
-  - Superior Sharpening Stone (Power)
+  - {{ item(id="9443") }}(Power)
 
 
 ## Build

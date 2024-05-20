@@ -1,5 +1,5 @@
 +++
-title = "Symbolic Avenger"
+title = "Symbolic Avenger (29.5k)"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing utilities, crowd control and condi cleanses."
 date = 2024-04-02
 draft = false
@@ -34,26 +34,27 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 2. Scepter/Focus - Provides a decent immobilise option with some ranged DPS.
 
 Optimised Marauder/Assassin's Loadout
-[GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)
+[GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)\
 _This requires 1 +5 precise infusion, power infusions are optional_
 
 **Runes**
-- Superior Rune of the Scholar/Dragonhunter
+- {{ item(id="24836") }} OR
+- {{ item(id="74978") }}
 
 **Sigils**
-- Superior Sigil of Accuracy (Compulsory)
-- Sigil of Force/Impact
-- Superior Sigil of Air (Budget Alternative)
+- {{ item(id="24618") }} (Compulsory)
+- {{ item(id="24868") }}
+- {{ item(id="24554") }}(Budget Alternative)
 
 **Relic**
-- Relic of the Brawler
+- {{ item(id="100527") }}
 
 **Food**
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Moa Wings is a suitable budget alternative
+- {{ item(id="91805") }}
+- {{ item(id="91917") }}
 
 **Utility**
-  - Superior Sharpening Stone (Power)
+- {{ item(id="9443") }}(Power)
 
 
 ## Build
@@ -61,7 +62,7 @@ Power DPS
 {{ chatlink(code="[&DQExLyo6Gys4ATgB/hJ4AXgBBAH+AP4AcRJxEgAAAAAAAAAAAAAAAAAAAAACMwAjAAA=]") }}
 
 **Trait Alternatives**
-There is a Core Guardian variant which provides more selfless support but due to the large amounts of gear differences (crit requirement at 40% only), it will not be covered in this guide. Although somewhat repetitive (spamming virtues) and dependent on resolution uptime, it remains a very strong contender and in many situations superior to this build.
+There is a Core Guardian variant which provides more selfless support but due to the large amounts of gear differences (crit requirement at 40% only), it will not be covered in this guide. Although somewhat repetitive (spamming virtues) and dependent on resolution uptime, it remains a very strong contender and in many situations superior to this build. Dragonhunter provides a low-repetition option and is therefore the build of choice on this site.
 
 
 ## Rotation and Utilities
