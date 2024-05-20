@@ -1,12 +1,12 @@
 +++
-title = "Seraph of the Sand"
-description = "This is a build that is stat efficient, relying on traits like Sand Sage and Sand Shades to hit 99% crit chance while providing moderate DPS through the use of Seraph stats to boost healing, concentration, condi damage and precision."
-date = 2024-05-30
+title = "Seraph of the Sand (17.5k)"
+description = "This is a build relies on traits like Sand Sage and Sand Shades to hit 100% condition duration while providing moderate DPS through the use of Seraph stats to boost healing, concentration, condi damage and precision."
+date = 2024-05-20
 draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["condi","hyrbrid","heal","dps","alac","necromancer","scourge","pof","lowcog","lowrep"]
+tags = ["condi","hybrid","heal","alac","necromancer","scourge","pof","lowcog","lowrep"]
 authors = ["xellink"]
 
 [extra]
@@ -15,124 +15,103 @@ tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
 spec = "scourge"
-balance = "June 2024"
+balance = "April 2024"
 +++
 
-The purpose of writing this guide is to explain how hybrid scourge works and how it assists with weaker groups during training runs, low experience practice runs and in statics. This build does rely on on very high APM but the order of presses is irrelevant to performance, allowing you to vent your frustrations on the keyboard after a stressful day. This build is functional in both open world and instanced content. There is an optional amount of gear swaps that can be done to slide it towards being a stronger healer. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Tanking isn't terribly difficult on this fight however.
-
-Scourge allows barrier to be pulsed even on downstate .
-
+The purpose of writing this guide is to explain how hybrid scourge works and how it assists with weaker groups during training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alac. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
+This build is functional in both open world and instanced content. There is an optional amount of gear swaps that can be done to slide it towards being a stronger healer. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Tanking isn't terribly difficult on this build however.
 
 ## Gearing and Consumables
 #### Equipment
-- Armor: Full Berserker's is recommended
-*Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
-- Weapons (set 1): Dagger/Axe
-- Weapons (alt): Dagger/Dagger (Defensive)
+- Armor/Trinkets: Seraph Set but fill other pieces with other stats up to condi duration cap and the desired amount of healing/toughness.
+- Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)
+- Weapons (set 1): Sceptre/Torch (Offensive)
+- Weapons (alt): Sceptre/Warhorn (Defensive)\
+*Weapon swap to warhorn for extra heals. Weapon swap to torch for extra DPS.*\
+[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF7U9zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLYFA-e)\
+Being cost-effective: Celestials is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions. 
 
 **Weapon Alternatives**
-- Weapons (alt): Axe/Dagger[^1] (Defensive)
-- Weapons (alt): Greatsword[^1] (Traditional)
-- Weapons (alt): Hammer[^2] (Meta)
-
-[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH
-[^2]: There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.
+- Weapons (alt): Pistol/Torch[^1] (Offensive)
+[^1]: The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the [build on SnowCrow's](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.
 
 #### Runes
-
-{{ item(id="24836") }}
+{{ item(id="76166") }}
 
 #### Sigils
-
-{{ item(id="24618") }}
-{{ item(id="24554") }}
+{{ item(id="48911") }}
+{{ item(id="24583") }}
 
 #### Relic
-
-{{ item(id="100916") }}
+{{ item(id="100153") }}
 
 #### Food
-
-{{ item(id="91805") }}
-{{ item(id="91917") }}
+{{ item(id="91748") }}
+{{ item(id="95241") }} (Budget/Free)
 
 #### Utility
-
-{{ item(id="9443") }}
+{{ item(id="67185") }}
 
 ## Build
 *DPS*
-{{ chatlink(code="[&DQILFQQfPT0pD6cArQCtAK8ArwCpAKkAnRbuAAAAAAAAAAAAAAAAAAAAAAADLwAFAGcAAA==]") }}
+{{ chatlink(code="[&DQgnNhM3PD4SAKIAgABwASEXJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
 
-#### Trait Alternatives
-{{ trait(id="1447") }} provides perma stability in PVE. This is useful for some fights (e.g. Solo Lamp)
-However, you do already have lots of stability from {{ trait(id="1667") }}
+## Alternatives
+#### Traits
+Take {{ trait(id="1447") }} where condi cleanses and extra might are needed.
+
+#### General House Rules:
+1. Swapping traits and skills is a science and you must be knowledgeable on what you can afford to remove. 
+2. Alacrity is your number 1 responsiblity, so use your barrier skills first.
+3. Be prepared to tank as you have a relatively high toughness. 
 
 ## Rotation and Utilities
-#### General concept
-The build relies on the auto chain, which is just F1 (press and hold). This will provide a baseline DPS of 21-23k (when a couple of long-lasting passives are triggered).
-The build can be enhanced further by triggering relics, signets and traits through a sequence of skills which constitutes the basics of playing warrior, combos. The combo is a tight chain of skills that eventually builds up to an extremely buffed chain of attacks.
-Almost every warrior build will require learning of combos to trigger effects, otherwise you will remain at the baseline auto attack DPS or lower. These effects are simplified and broken down into the table below, sorted based on the duration of effect from longest/permanent effects to shortest:
-
-| Effect                  | Notes                     |
-| ----------------------- | ------------------------- |
-| {{ trait(id="2095") }}  | Dagger MH (+ OH Heals)    |
-| {{ trait(id="1437") }}  | Bursts (15s, 4 stacks)    |
-| {{ trait(id="2130") }}  | Disables (15s, 5 stacks)  |
-| {{ item(id="100916") }} | Skills 2-5 (6s, 5 stacks) |
-| {{ trait(id="1444") }}  | Physical skill (6s)       |  
-| {{ skill(id="14410") }} | Active window (4s)        |
-
-The attack duration means you need to trigger these effect somewhat loosely from the top and more tightly towards the bottom. This means {{ skill(id="14410") }}'s window must be triggered right before using your heaviest damage skills during your opener/during the last hits. The passive effect of {{ skill(id="14410") }} is lost when its used, hence its only used when its most beneficial, during the opener or final blows.
-
-By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons. 
-
-#### Opener
-Precast {{ skill(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
-Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS. 
-Some players use {{ trait(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
-If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
-
-#### DPS Rotation
-Start with Dagger/Axe
-1. Opener - {{ skill(id="45333") }} -> {{ skill(id="14516") }} -> {{ skill(id="46233") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
-2. Maintenance - skills 1-5 + {{ skill(id="14516") }} on cooldown
-3. Finisher - {{ skill(id="14410") }} -> skills in the following order:
-    a. {{ skill(id="45252") }} 
-    b. {{ skill(id="14399") }} 
-    c. {{ skill(id="14418") }} 
-    d. {{ skill(id="44937") }}
-
-*You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*
+#### Rotation
+1. Cast {{ skill(id="44946") }} and pulse barrier through {{ skill(id="43448") }} and {{ skill(id="44663") }}.
+2. Use all your skills on cooldown.
 
 #### Crowd Control rotation
-1. You have decent CC by using {{ skill(id="44937") }} (dagger 3) and {{ skill(id="14410") }}
-2. {{ skill(id="14502") }} is the preferred CC skill if you can hit more than 1 enemy at once
-3. Full Counter provides breakbar damage too and is useful if you know the fight well. 
-4. The opener chain uses {{ skill(id="46233") }} for lightning field finishers to generate lots of daze that do heavy CC. 
-5. Consider hammer as an alternative weapon set (refer to Snowcrow's)
-
-#### Sustainability
-1. Your OH dagger set is designed for sustain and you may sselect it if you do not have good heal access (eg. your healer blinked through Soulless Horror's Wall/Your heal tank got knocked away by Deimos).
-2. Defiant stance can be taken instead to cheese certain mechanics (see *Raid Ready* section)
+1. Both sets of weapons have CC via {{ skill(id="44296") }}(Torch 5) and {{ skill(id="10556") }}(Warhorn 4)
+2. {{ skill(id="44428") }} (F3) can be also used for CC but you may need to reserve this for revive for certain fights. 
+3. You may bring {{ skill(id="10646") }} if you need more CC. 
+4. You may bring {{ skill(id="10620") }} if you need to pull adds and have extra CC. 
 
 ## Optimisation
-This build has no ranged alternative. However, based on my personal testing, this build does more damage on mobile fights (like Twin Largos) than Condition Berserker. If you find yourself being forced out of range often and can't manage to cope, you might want to play a different class. 
+1. Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condi duration at 99.9%. 
+2. Both your offensive and defensive sets offer CC, but you can bring more skills for CC. 
+3. You also have many options to play around with your utilities. Necromancer just has so many useful skills that you may not seem obvious at first glance.
+4. Hybrid builds have a lot of give and take, so you need to adjust the build to the strengths of your team composition. 
+
+*Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities for example. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. 
+By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it.*
+
+**Strike Ready**
+1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Use {{ skill(id="44428") }} sparingly. 
+2. Whisper of Jormag - Place Flesh Wurm in the middle during the ball phase. 
+3. Harvest Temple - {{ skill(id="42917") }} is really useful to reposition players behind the ball. Swapping to pistol grants more hits against the ball.
 
 **Raid Ready**
-1. W1 Vale Guardian - {{ skill(id="45252") }}(F1) does a boon strip that can be used on the Blue Boss.
-2. W1 Gorseval - {{ skill(id="14354") }} is a really long immobilise that can extend the split phase. If using MH Axe, you can {{ skill(id="14398") }} to do a ranged cripple.
-3. W2 Slothasor - You can bring permanent self stability via {{ trait(id="1447") }} and drop your physical skills for party wide Break Stuns and Condi Cleanses if the group needs it.
-4. W3 Keep Construct - This build is excellent on this fight. Using {{ skill(id="14502") }} can hit more than one target and pile up multiple stacks of {{ trait(id="2130") }}.
-5. W3 Xera - During planning for the split phase, you want to inform your party that you do not have any meaningful ranged damage. If forced to take a pressure pad, your only damage skills are {{ skill(id="14398") }} which is effectively neglible. 
-6. W4 Cairn - In the dagger OH alt set, {{ skill(id="45160") }}(D5) is a reflect, don't use it in this fight.
-7. W4 Deimos - {{ skill(id="14354") }} at prides is an effective way to keep Saul alive as part of your rotation. I do not recommending killing the prides until they are next to Saul as they will respawn. {{ skill(id="21815") }} is also a simple one-button mind crush deflector if you are going to be the oil kiter.
-8. W5 Soulless Horror - It is probably not good idea to bring the build here. If you do however, do not use Axe 5 when TD is about to spawn. Do the burst combo after TD is pushed out. 
-9. W6 Conjured Amalgamate - The amount of cleave on this fight is amazing. Use {{ skill(id="14502") }} on swords and shields, and most of the time you can hit more than 1 target at once. You can use {{ skill(id="21815") }} and {{ skill(id="14419") }}  to bypass the clap mechanic for your subgroup.
-10. W6 Qadim - You can solo lamp on this build using FC and OH dagger to heal. If lamping with {{ trait(id="1447") }} for perma stability on the giant fight, you can drop your physical skills for other skills such as {{ skill(id="14389") }}/{{ skill(id="14413") }} for better survivability. While this is slower than shortbow daredevil, it is easier to perform. WoD is also very useful against the main boss fight in the middle if stability pyre is to be ignored. 
+1. W1 Vale Guardian - Be prepared to tank the fight. If you are not the tank, you may opt to go to the red guardian during splits, which gives the condi team added survivability. Barrier trivialises the green mechanic. {{ skill(id="51647") }} removes boons from the blue guardian. 
+2. W1 Gorseval - {{ skill(id="10532") }} is a long reliable cripple during the split phase.  
+3. W1 Sabetha - If you bring {{ skill(id="42917") }}, you may be able to serve as a cannon backup. You can {{ skill(id="42917") }} through the flame wall. 
+4. W2 Slothasor - This build excels on this fight. Bring {{ trait(id="1447") }} for a very strong condi cleanse. Projectile blocks from {{ skill(id="10689") }} are sometimes useful. {{ skill(id="10620") }} is useful against slublings.
+5. W2 Matthias - Do not use any projectile blocks unless you know when to use them. 
+6. W3 Stronghold of the Faithful - This build can solo towers but it is a little slow, remember to bring {{ skill(id="40274") }} for stability/break stun. 
+7. W3 Keep Construct - Be prepared to tank this fight. This build doesn't excel in this fight, relying mostly on condis. However, you will still outdps other healers due to the power coefficients on some weapons that feed off your celestial gear. 
+8. W4 Cairn - This build excels on this fight in every way.
+9. W4 Samarog - Bring {{ skill(id="10646") }} for added CC. You can also use {{ skill(id="10647") }} to push Rigom towards the boss. Use {{ skill(id="10532") }} for a prolonged cripple and fear from {{ skill(id="44428") }} and {{ skill(id="10556") }} to steer him back towards the boss if he gets too close. 
+10. W4 Deimos CM - {{ skill(id="41615") }} is a good aoe Aegis. 
+11. W5 Soulless Horror - Your team can {{ skill(id="42917") }} through walls.
+12. W5 Dhuum - This build functions as a decent Tank/G3 in an experienced group but you can't carry too many mistakes as your healing output is lower. 
+13. W6 Conjured Amalgamate - This build is not very good for damage on this fight. However, it is not an absolute contraindication to bring this build. If your team only has 1 rebound elementalist/nature's renewal druid, be sure to be on the same group as them so your revive can save the other subgroup after the clap mechanic. 
+14. W6 Twin Largos - This build excels on this fight. The right lane (Kenut) favors condition builds. Bring {{ skill(id="10646") }} for added CC.
+15. W6 Qadim - This build can Kite Qadim, Tank Wyverns or even solo Lamp. 
+16. W7 Sabir - Projectile blocks from {{ skill(id="10689") }} is useful. {{ skill(id="44428") }} is very helpful for players who can't do tornado jumps. 
+17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can also pull allies who identify themselves as sandsharks.
+18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos
-I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
+I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }}
 
-#### DPS benchmark (29-31k, 37.7k initial burst)
-{{ youtube(id="fGPygDuxx9Q") }}
+#### DPS benchmark (17.5k)
+Coming soon. 
