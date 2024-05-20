@@ -1,5 +1,5 @@
 +++
-title = "Power Unload Deadeye"
+title = "Power Unload Deadeye (28k)"
 description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
 date = 2024-03-29
 draft = false
@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["power","thief","deadeye","pof","lowcog","lowphys","lowrep"]
+tags = ["power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 
 [extra]
