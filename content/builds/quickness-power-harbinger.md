@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Harbinger"
+title = "Quickness Power Harbinger (27.9k)"
 description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
 date = 2024-05-05
 draft = false

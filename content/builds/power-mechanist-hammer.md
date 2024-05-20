@@ -1,5 +1,5 @@
 +++
-title = "Hammer Power Mechanist"
+title = "Hammer Power Mechanist (32.5k)"
 description = "Signet-heavy, with some chill hammer thumping."
 date = 2024-05-04
 draft = false
