@@ -1,5 +1,5 @@
 +++
-title = "Dagger Stormbreaker"
+title = "Dagger Stormbreaker (37.7k Burst/30k Sustained)"
 description = "This build is designed around lightning field dagger leaps that creates a sizable initial burst, followed by lightning strikes from the Air Sigil and and whirwinds from the ultimate axe attack."
 date = 2024-05-08
 draft = false
@@ -44,17 +44,18 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 #### Sigils
 
-{{ item(id="24618") }}
+{{ item(id="24618") }}\
 {{ item(id="24554") }}
 
 #### Relic
 
-{{ item(id="100916") }}
+{{ item(id="100916") }} OR\
+{{ item(id="99997") }} (situational)
 
 #### Food
 
-{{ item(id="91805") }}
-{{ item(id="91917") }}
+{{ item(id="91805") }}\ OR
+{{ item(id="91917") }} (budget)
 
 #### Utility
 
@@ -136,3 +137,5 @@ I have benched the build with 1 piece of marauder's headgear, budget food and ut
 
 #### DPS benchmark (29-31k, 37.7k initial burst)
 {{ youtube(id="fGPygDuxx9Q") }}
+
+This bench does not include the {{ item(id="100916") }} and you are expected to bench about 1k higher with it. In some fights, consider using {{ item(id="99997") }}. It will produce higher DPS on certain fights where evade can be procced multiple times. 
