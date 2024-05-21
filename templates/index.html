@@ -35,7 +35,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
     <div>
     {%- for page in paginator.pages %}
 	  {%- if page.extra.spec %}
-	  <div class="buildheader hflipbg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec | safe }}.jpg');">
+	  <div class="buildheader hflipbg" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec | safe }}.jpg');">
 	  {%- endif %}
       <article>
 		<div class="boxed">
@@ -107,6 +107,8 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		  {%- for page in section_item.pages | slice(end=recent_items) | sort(attribute="date") | reverse %}
 			{{- aw_macros::page_listing(page=page, config=config) }}
 		  {%- endfor %}
+
+		  <h3><a href="archive">View all...</a></h3>
 		</div>
 
 		{%- if config.extra.balance %}

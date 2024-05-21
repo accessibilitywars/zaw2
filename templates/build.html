@@ -41,7 +41,7 @@
     <article>
 
     {%- if page.extra.spec %}
-	<div class="buildheader" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec }}.jpg');">
+	<div class="buildheader" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec }}.jpg');">
     {%- endif %}
 
 	<div class="boxed">

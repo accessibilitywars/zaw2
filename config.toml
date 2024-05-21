@@ -40,7 +40,7 @@ include_content = true      # include rendered content of page/section in index
 [markdown]
 highlight_code = true
 highlight_theme = "css"
-render_emoji = false
+render_emoji = true
 external_links_target_blank = true # rel="noopener"
 external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
@@ -84,13 +84,16 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 ###############################################################################
 
 menu = [
-#    {url = "blog", name = "Blog", slash = true, blank = false, size="s110"},
-    {url = "about", name = "About", slash = true, blank = false, size="s110"},
-    {url = "philosophy", name = "Philosophy", slash = true, blank = false, size="s110"},
-    {url = "guides", name = "Guides", slash = true, blank = false, size="s110"},
-    {url = "archive", name = "by Date", slash = true, blank = false, size="s110"},
-    {url = "tags", name = "by Tag", slash = true, blank = false, size="s110"},
-    {url = "categories", name = "by Mode", slash = true, blank = false, size="s110"},
+    {url = "about", name = "Info", slash = true, blank = false, size="s150", submenu = [
+		{url = "about", name = "Our Mission", slash = true, blank = false, size="s120"},
+		{url = "philosophy", name = "Our Philosophy", slash = true, blank = false, size="s120"},
+		{url = "guides", name = "Guides", slash = true, blank = false, size="s120"},
+	]},
+    {url = "tags", name = "Builds", slash = true, blank = false, size="s150", submenu = [	
+		{url = "tags", name = "... by Tag", slash = true, blank = false, size="s120"},
+		{url = "archive", name = "... by Date", slash = true, blank = false, size="s120"},
+		{url = "categories", name = "... by Mode", slash = true, blank = false, size="s120"},
+	]},
 ]
 menu_footer = [
 	{url = "retired", name = "Retired Builds", slash = true, blank = false},
@@ -102,7 +105,7 @@ menu_footer = [
 
 toc = true
 recent = true # TOC / index
-recent_items = 15
+recent_items = 10
 series = true
 series_items = 9 # Max number of items to display in series list, use 0 to disable
 #Series_parts = "$NUMBER_OF_PARTS part Series"
@@ -126,8 +129,8 @@ logo = { file="images/AW.png", width="64", height="64", alt="AW" }
 #textlogo = '<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#f90" viewBox="0 0 96 96" width="28" height="28"><path stroke-width="14" d="M14 99 46 7h4l32 92"/><path stroke-width="9" d="M-3 82c43-26 59-26 102 0"/><path stroke-linecap="round" stroke-width="1.5" d="M94 72v7m-5-9.8v7m-5-9.8v7.1M79 64v7M63 57.7v7m-5-8.2v7m-5-7.8v7m-5-7.2v7m-5-6.7v7m-5-6.3v7m-5-5.8v7M17 64v7m-5-4.6v7m-5-4.2v7M2 72v7"/></svg>bridge'
 
 sitedesc = false # enables or disables the display of the site description below the logo.
-headhr = true # show or hide horizontal rule below header
-foothr = true # show or hide horizontal rule above footer
+headhr = false # show or hide horizontal rule below header
+foothr = false # show or hide horizontal rule above footer
 
 ### $CURRENT_YEAR and $SITE_TITLE can be used anywhere within the copyright, you can change their position or you can also delete them and type whatever you want instead.
 # copyright = false # set to false to disable the copyright.

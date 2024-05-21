@@ -55,9 +55,20 @@
             {%- set js_switcher=config.extra.js_switcher | default(value=true) %}
             {%- if config.extra.menu %}
               {%- for i in config.extra.menu -%}
-                <li><a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^http[s]?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
-                {%- if lang != config.default_language %} {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }} {% else %} {{ i.name | safe }} {% endif -%}
-                </a></li>
+				{%- if i.submenu %}
+					<li><a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^http[s]?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
+					{%- if lang != config.default_language %} {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }} {% else %} {{ i.name | safe }} {% endif -%}
+					</a></li>
+					{%- for sub in i.submenu -%}
+						<li><a{%- if sub.size %} class="{{ sub.size }}"{% endif %} href="{%- if sub.url is matching("^http[s]?://") %}{{ sub.url }}{%- else -%}{{ get_url(path=sub.url, lang=lang, trailing_slash=sub.slash) }}{%- if sub.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if sub.blank %} target="_blank"{% endif %}>
+						{%- if lang != config.default_language %} {{ macros::translate(key=sub.name|safe, default=sub.name|safe, i18n=i18n) }} {% else %} {{ sub.name | safe }} {% endif -%}
+						</a></li>
+					{%- endfor -%}
+				{%- else -%}
+					<li><a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^http[s]?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
+					{%- if lang != config.default_language %} {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }} {% else %} {{ i.name | safe }} {% endif -%}
+					</a></li>
+				{%- endif -%}
               {%- endfor -%}
             {%- endif -%}
 

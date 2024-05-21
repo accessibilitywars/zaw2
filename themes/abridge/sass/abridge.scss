@@ -721,8 +721,11 @@ $syntax: true !default;//syntax highlighting for code blocks
     z-index: 1;
     font-weight: var(--fh);
     font-size: var(--fs);
+	width: 100%;
   }
   .dropdown-content {
+	padding: 0.5em;
+	white-space: nowrap;
     display: none;
     position: absolute;
     cursor: pointer;
@@ -1119,7 +1122,6 @@ $syntax: true !default;//syntax highlighting for code blocks
   #suggestions {
     z-index: 9;
     background: var(--c1);
-    border: 2px solid var(--c3);
     position: static;
     left: 0;
     width: 100%;
@@ -1233,9 +1235,9 @@ $syntax: true !default;//syntax highlighting for code blocks
     ol,ul {
       font-size: 1em;
     }
-    width: 15rem;
-    max-width: 15rem;
-    min-width: 12rem;
+    width: 20rem;
+    max-width: 20rem;
+    min-width: 15rem;
     margin-left: var(--s1);
     display: none;//hide in mobile view
   }
