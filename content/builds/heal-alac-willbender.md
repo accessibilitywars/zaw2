@@ -5,7 +5,7 @@ date = 2024-04-04
 template = "build.html"
 
 [taxonomies]
-categories = ["group"]
+categories = ["solo","group"]
 tags = ["heal","alacrity","guardian","willbender","eod","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 
@@ -18,10 +18,9 @@ spec = "willbender"
 balance = "April 2024"
 +++
 
-This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals.
+This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
 
 This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. This build requires only one weapon with no requirement of a weapon swap: Hammer!
-
 
 ## Gearing and Consumables
 
