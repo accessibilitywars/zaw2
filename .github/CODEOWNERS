@@ -1,5 +1,7 @@
 *                                            @berdandy
 
+/content/builds/*.md                         @accessibilitywars/Builder
+
 /content/builds/condi-mechanist.md           @scoobysharky
 /content/builds/condi-tempest.md             @scoobysharky
 /content/builds/condi-virtuoso.md            @scoobysharky
@@ -18,6 +20,7 @@
 /content/builds/power-herald.md              @scoobysharky
 /content/builds/quickness-power-herald.md    @scoobysharky
 
+/content/builds/alac-hybrid-scourge.md       @xellink
 /content/builds/condi-soulbeast.md           @xellink
 /content/builds/heal-alac-willbender.md      @xellink
 /content/builds/power-deadeye.md             @xellink
