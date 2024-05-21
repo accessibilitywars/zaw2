@@ -38,6 +38,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 	  <div class="buildheader hflipbg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec | safe }}.jpg');">
 	  {%- endif %}
       <article>
+		<div class="boxed">
 	    {%- if page.extra.spec %}
 		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
 	    {%- endif %}
@@ -71,6 +72,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 			<div style="background-color: Crimson; text-align: right;">Balance: {{ page.extra.balance }}</div>
           {%- endif %}
 		{%- endif %}
+	    </div>
       </article>
 	  {%- if page.extra.spec %}
 	  </div>

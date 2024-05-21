@@ -75,7 +75,7 @@
 
   /// Dark Colors
   $f1d: #ccc,// Font Color Primary
-  //$f2d: #ddd,// Font Color Headers
+  $f2d: #ddd,// Font Color Headers
   //$c1d: #111,// Background Color Primary
   //$c2d: #222,// Background Color Secondary
   //$c3d: #333,// Table Rows, Block quote edge, Borders
@@ -88,16 +88,16 @@
   //$crd: #e33,// del red, errors
 
   /// Light Colors
-  $f1: #333,// Font Color Primary
-  //$f2: #222,// Font Color Headers
+  $f1: #000,// Font Color Primary
+  $f2: #111,// Font Color Headers
   //$c1: #fff,// Background Color Primary
   //$c2: #eee,// Background Color Secondary
   //$c3: #ddd,// Table Rows, Block quote edge, Borders
   //$c4: #555,// Disabled Buttons, Borders, mark background
-  //$a1: #c40,// link color
-  //$a2: #e60,// link hover/focus color
-  //$a3: #f90,// link h1-h2 hover/focus color
-  //$a4: #c40,// link visited color
+  $a1: #720,// link color
+  $a2: #940,// link hover/focus color
+  $a3: #a70,// link h1-h2 hover/focus color
+  $a4: #720,// link visited color
   //$cg: #373,// ins green, success
   //$cr: #d33,// del red, errors
 

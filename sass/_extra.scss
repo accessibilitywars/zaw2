@@ -15,7 +15,7 @@
 }
 
 .buildheader {
-	color: #ddd;	// always dark background, so lighter
+	color: var(--f2);
 	position: relative;
 	clear: both;
 	background-position: center;
@@ -28,17 +28,23 @@
 	-ms-interpolation-mode: bicubic;
 }
 
+div.boxed {
+  padding: 0.5em;
+  background-color: color-mix(in srgb, var(--c1), transparent 70%);
+  border: 1px solid black;
+}
+
 .buildheader * {
-	color: #ddd;	// always dark background, so lighter
+	color: var(--f2);
 }
 
 .buildheader a {
-	color: #f90;
+	color: var(--a1);
 	&:visited {
-	  color: #f90;
+	  color: var(--a1);
 	}
 	&:hover {
-	  color: #f90;
+	  color: var(--a2);
 	}
 }
 
