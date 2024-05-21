@@ -33,31 +33,28 @@ This build is low cognition, low physical complexity, has very few repetitions a
 
 **Runes**
 
-- Superior Rune of the Monk
-- Superior Rune of Rebirth (budget)
+- {{ item(id="24842") }}Superior Rune of the Monk
+- {{ item(id="84171") }}Superior Rune of Rebirth (budget)
 
 **Sigils**
 
-- Superior Sigil of Transference
-- Superior Sigil of Concentration
-- Superior Sigil of Water (Budget Alternative to Transference)
+- {{ item(id="74326") }}Superior Sigil of Transference
+- {{ item(id="72339") }}Superior Sigil of Concentration
+- {{ item(id="24551") }}Superior Sigil of Water (Budget Alternative to Transference)
 
 **Relic**
-
-- Relic of Karakosa
+- {{ item(id="101268") }}Relic of Karakosa
 
 **Food**
 
-- Bowl of Fruit Salad with Mint Garnish
-- Delicious Rice Balls (budget alternative)
+- {{ item(id="91690") }}
+- {{ item(id="68634") }}(budget alternative)
 
 **Utility**
-
-- Bountiful Maintenance Oil
+- {{ item(id="67528") }}Bountiful Maintenance Oil
 
 
 ## Build
-
 Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAAAAAAAAAAAAAAAAAAAAABMwAA]") }}
 
 **Trait Alternatives**
@@ -77,7 +74,7 @@ Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 3. Use {{ skill(id="62603") }} (F2) on cooldown, afterwards use {{ skill(id="62668") }} (F1)/{{ skill(id="62648") }} (F3) to reposition. 
 4. Use {{ skill(id="9153") }} when you require stability. 
 
-_The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!_
+<small>*The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!*</small>
 
 **Burst Heals and Revives**
 
