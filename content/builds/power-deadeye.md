@@ -64,8 +64,7 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
 2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime.
 
-_Both Practiced Tolerance and Quickness can be taken together_
-
+<small>_Both Practiced Tolerance and Quickness can be taken together_</small>
 
 ## Rotation and Utilities
 **DPS Rotation**
@@ -122,7 +121,7 @@ I have benched the build with a slight increase in hp by using mixed ascended ge
 **DPS benchmark (28-29k)**
 {{ youtube(id="u_gXMCOkUh4") }}
 
-**Dagger Rotation**
+**LI Dagger Rotation**
 {{ youtube(id="8xBio3WnVXw") }}
 
 **QTP Pylon Kiting**
