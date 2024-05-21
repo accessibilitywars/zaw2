@@ -41,30 +41,28 @@ Optimised Viper's Loadout
 
 
 **Runes**
-- Superior Rune of the Afflicted
+- {{ item(id="24687") }}
 
 **Sigils**
-- Superior Sigil of Malice
-- Superior Sigil of Earth
+- {{ item(id="44950") }}
+- {{ item(id="24560") }}
 
 **Relic**
-- Relic of the Fractal
+- {{ item(id="100153") }}
 
 **Food**
-  - Salsa Topped Veggie Flatbread
-  - Koi Cakes (budget alternative)
+- {{ item(id="91876") }}
+- {{ item(id="43361") }}(budget alternative)
 
 **Utility**
-  - Toxic Focusing Crystal
-
+- {{ item(id="48917") }} 
 
 ## Build
 Condi DPS
 {{ chatlink(code="[&DQQeLSAXNy55AHgAvwAAAOkWAAAbAAAALhYAADQDEz8AAAAAAAAAAAAAAAA=]") }}
 
 **Trait Alternatives**
-The equipment stats are fairly similar to the [SnowCrow's Build](https://snowcrows.com/builds/raids/ranger/condition-soulbeast) with selection of different traits. This is a slight step up in difficulty.
-
+The equipment stats are fairly similar to the that of [SnowCrows](https://snowcrows.com/builds/raids/ranger/condition-soulbeast) with selection of different traits.
 
 ## Rotation and Utilities
 **DPS Rotation**
@@ -88,7 +86,6 @@ Stay merged at all times.
 
 ## Optimisation
 **Twice as Vicious**
-
 Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 
@@ -101,8 +98,7 @@ On a boss with multiple adds, if you can position yourself within the boss hitbo
 
 **Raid Ready**
 1. W1 Gorseval - Immobilise with {{ skill(id="12580") }} during the split phase.
-
-2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point bow away from ally slubs!
+2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point your bow away from ally slubs!
 3. W2 Bandit Trio - The range, self sustainability and high amounts of CC allows this build to do mortars.
 4. W3 Escort - For backwarg, bring {{ skill(id="12580") }} and use {{ skill(id="12507") }} to immobilise. For frontwarg, black widow/jungle spider is useful for {{ skill(id="43375") }} to pull white mantle and {{ skill(id="44097") }} provides meaningul immobilise uptime on the frontwarg.
 5. W4 Cairn - This build does superb on Cairn, no adjustment is necessary, though you may wish to use {{ skill(id="31914") }} if you are baiting red circles for the group. Also see dodge section above as you will very often be dodging to move if celestial dash is unavailable.
@@ -111,9 +107,6 @@ On a boss with multiple adds, if you can position yourself within the boss hitbo
 8. W6 This build is excellent on Twin Largos as it is.
 9. This build can be used to pylon kite. Camp shortbow with Juvenile Hawk. Switch to sword. You movement skills are {{ skill(id="12521") }} (catch) and {{ skill(id="44991") }}(return). Take note that unlike other kiting classes, your return skill cannot survive dashing through fires.
 
-
-
-
 ## Videos
 I have benched the build with mostly the above mentioned gear with no infusions. Budget food and budget utilities were used.
 
@@ -121,6 +114,6 @@ I have benched the build with mostly the above mentioned gear with no infusions.
 {{ youtube(id="a2uqFQEScf0") }}
 
 **Pylon Kiting**
-*Courtesy of Gwen The Pretzel*
+<small>*Courtesy of Gwen The Pretzel*</small>
 {{ youtube(id="Jto8eANm0sg") }}
 
