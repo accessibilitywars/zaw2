@@ -16,7 +16,7 @@ tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
 spec = "scourge"
-balance = "April 2024"
+balance = "May 2024"
 +++
 
 The purpose of writing this guide is to explain how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
@@ -29,11 +29,11 @@ This build is functional in both open world and instanced content. There is an o
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
 - Weapons (alt): Sceptre/Warhorn (Defensive)[^2]\
-<small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*
+<small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*\
 [^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
 
 **Weapon Alternatives**
-- Weapons (alt): Pistol/Torch[^3] (Offensive)
+- Weapons (alt): Pistol/Torch (Offensive)[^3]
 <small>[^3]: *The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
 
 #### Runes
@@ -58,23 +58,29 @@ This build is functional in both open world and instanced content. There is an o
 {{ chatlink(code="[&DQgnNhM3PD4SAKIAgABwASEXJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
 
 ## Alternatives
+You have many options to play around with other traits and utilities. Necromancer just has so many useful skills that you may not seem obvious at first glance.
+
 #### Traits
 - Take {{ trait(id="2167") }} where condi cleanses and extra might are needed.
 - {{ trait(id="789") }} and {{ trait(id="1844") }} are competing traits. {{ trait(id="1844") }} provides more DPS, weaker heals but has less active interaction required.
+- Take {{ trait(id="780") }} if you are expecting to revive players a lot.
+
+#### Skills
+{{ skill(id="10589") }} may not be suitable on certain bosses that remove minions. 
+{{ skill(id="41615") }}  is a good group Aegis and Barrier skill.
 
 #### General House Rules:
 1. Swapping traits and skills is a science and you must be knowledgeable on what you can afford to remove. 
 2. Alacrity is your number 1 responsiblity, so use your barrier skills first.
 3. Be prepared to tank as you have a relatively high toughness. 
-4. Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condition duration at 100%. 
-5. Both your offensive and defensive sets offer CC, but you can bring more skills for CC. 
-6. You also have many options to play around with your utilities. Necromancer just has so many useful skills that you may not seem obvious at first glance.
-7. Hybrid builds have a lot of give and take and toe the line to bring 'just enough', so you need to adjust the build to the strengths of your team composition. 
+4. Both your offensive and defensive sets offer CC, but you can bring more skills for CC. 
+5. Hybrid builds have a lot of give and take and toe the line to bring 'just enough', so you need to adjust the build to the strengths of your team composition. 
 
 ## Rotation and Utilities
 #### Rotation
 1. Cast {{ skill(id="44946") }} and pulse barrier through {{ skill(id="43448") }} and {{ skill(id="44663") }}.
 2. Use all your skills on cooldown except your revive (F3) and signet
+<small>*Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condition duration at 100%.*</small>
 
 #### Crowd Control rotation
 1. Both sets of weapons have CC via {{ skill(id="44296") }}(Torch 5) and {{ skill(id="10556") }}(Warhorn 4)
@@ -86,7 +92,7 @@ This build is functional in both open world and instanced content. There is an o
 Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is no effective swiftness or stability. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
 
 **Strike Ready**
-1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Use {{ skill(id="44428") }} sparingly. 
+1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Take {{ trait(id="780") }} and use {{ skill(id="44428") }} sparingly. 
 2. Whisper of Jormag - Place Flesh Wurm in the middle during the ball phase. 
 3. Harvest Temple - {{ skill(id="42917") }} is really useful to reposition players behind the ball. Swapping to pistol grants more hits against the ball.
 
@@ -111,7 +117,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos
-I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }}
+I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }} and with infusions
 
-#### DPS benchmark (17.5k)
+#### DPS benchmark (18.8k)
 Coming soon. 
