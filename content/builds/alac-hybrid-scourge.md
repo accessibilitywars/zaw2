@@ -1,5 +1,5 @@
 +++
-title = "Seraph of the Sand (17.5k)"
+title = "Seraph of the Sand (18.8k)"
 description = "This is a build relies on traits like Sand Sage and Sand Shades to hit 100% condition duration while providing moderate DPS through the use of Seraph stats to boost healing, concentration, condi damage and precision."
 date = 2024-05-20
 draft = false
@@ -16,7 +16,7 @@ tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
 spec = "scourge"
-balance = "May 2024"
+balance = "April 2024"
 +++
 
 The purpose of writing this guide is to explain how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
@@ -33,7 +33,7 @@ This build is functional in both open world and instanced content. There is an o
 [^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
 
 **Weapon Alternatives**
-- Weapons (alt): Pistol/Torch (Offensive)[^3]
+- Weapons (alt): Pistol/Torch (Offensive)[^3]\
 <small>[^3]: *The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
 
 #### Runes
@@ -55,7 +55,7 @@ This build is functional in both open world and instanced content. There is an o
 
 ## Build
 *DPS*
-{{ chatlink(code="[&DQgnNhM3PD4SAKIAgABwASEXJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
+{{ chatlink(code="[&DQgnNhM/PD4SAKIAgABwAXABJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
 
 ## Alternatives
 You have many options to play around with other traits and utilities. Necromancer just has so many useful skills that you may not seem obvious at first glance.
@@ -117,7 +117,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos
-I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }} and with infusions
+I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }}, with infusions and no weapon swaps. 
 
 #### DPS benchmark (18.8k)
 Coming soon. 
