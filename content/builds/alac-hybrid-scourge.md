@@ -16,7 +16,7 @@ tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
 spec = "scourge"
-balance = "April 2024"
+balance = "May 2024"
 +++
 
 The purpose of writing this guide is to explain how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
