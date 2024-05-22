@@ -24,8 +24,7 @@ balance = "April 2024"
 
 - Full Berserker's
 - Runes of the Scholar
-- Sword, Sigil of Force
-- Shield, Sigil of Air
+- Hammer, Sigils of Force & Impact
 - Relic of the Thief
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
