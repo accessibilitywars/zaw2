@@ -1,5 +1,5 @@
 +++
-title = "Seraph of the Sand (17.5k)"
+title = "Seraph of the Sand (18.8k)"
 description = "This is a build relies on traits like Sand Sage and Sand Shades to hit 100% condition duration while providing moderate DPS through the use of Seraph stats to boost healing, concentration, condi damage and precision."
 date = 2024-05-20
 draft = false
@@ -16,7 +16,7 @@ tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
 spec = "scourge"
-balance = "May 2024"
+balance = "April 2024"
 +++
 
 The purpose of writing this guide is to explain how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
@@ -120,4 +120,4 @@ Check with your team regarding the boons that you need to cover. If there is alr
 I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }} and with infusions
 
 #### DPS benchmark (18.8k)
-Coming soon. 
+{{ youtube(id="8lBgmakjHAk") }}
