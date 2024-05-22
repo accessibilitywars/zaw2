@@ -23,8 +23,8 @@ balance = "April 2024"
 ## Gearing
 
 - Full Berserker's
-- Runes of the Scholar
-- Hammer, Sigils of Force & Impact
+- Runes of the Scholar or Dragonhunter
+- Hammer, Sigils of Force & Air
 - Relic of the Thief
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
