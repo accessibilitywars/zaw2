@@ -24,7 +24,7 @@ This build is functional in both open world and instanced content. There is an o
 
 ## Gearing and Consumables
 #### Equipment
-[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF7U9zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLYFA-e)\
+[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF70/zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLeFA-e)\
 - Armor/Trinkets: Seraph Set but fill other pieces with other stats up to condi duration cap and the desired amount of healing/toughness.
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
