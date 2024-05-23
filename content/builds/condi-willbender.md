@@ -34,7 +34,7 @@ Learn 1 simple combo, and hit everything else off cooldown.
 
 ## Build
 
-{{ chatlink(code="[&DQEQGi4XQSU4AQAA2BpMAUwBAAAxATEBcRI3AQAAAAAAAAAAAAAAAAAAAAADNQBXAFkAAA==]") }}
+{{ chatlink(code="[&DQEQGi4XQSU4AQAA2BpMAUwBAAAxATEB6Ro3AQAAAAAAAAAAAAAAAAAAAAADNgBmAAUAAA==]") }}
 
 ## Notes
 
