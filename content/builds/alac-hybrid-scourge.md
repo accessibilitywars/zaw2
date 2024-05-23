@@ -33,7 +33,7 @@ This build is functional in both open world and instanced content. There is an o
 [^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
 
 **Weapon Alternatives**
-- Weapons (alt): Pistol/Torch (Offensive)[^3]
+- Weapons (alt): Pistol/Torch (Offensive)[^3]\
 <small>[^3]: *The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
 
 #### Runes
@@ -55,7 +55,7 @@ This build is functional in both open world and instanced content. There is an o
 
 ## Build
 *DPS*
-{{ chatlink(code="[&DQgnNhM3PD4SAKIAgABwASEXJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
+{{ chatlink(code="[&DQgnNhM/PD4SAKIAgABwAXABJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
 
 ## Alternatives
 You have many options to play around with other traits and utilities. Necromancer just has so many useful skills that you may not seem obvious at first glance.
@@ -117,7 +117,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos
-I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }} and with infusions
+I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }}, with infusions and no weapon swaps. 
 
 #### DPS benchmark (18.8k)
 {{ youtube(id="8lBgmakjHAk") }}
