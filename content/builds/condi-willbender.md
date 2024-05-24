@@ -58,13 +58,13 @@ Beyond your main rotation, you should use:
 
 Off cooldown and in that order of priority. 
 
-Pressing Zealot's Flame activates {{ skill(id="9089") }}, and you should press it when all other skills are on cooldown.
+Pressing {{ skill(id="9104") }} (Torch 4) activates {{ skill(id="9089") }}, and you should press it when all other skills are on cooldown.
 
 {{ skill(id="71968") }} (Pistol 2) has a very long cast time, and you should be wary of using it right before your main combo, as delaying the main combo results in a much larger DPS loss than delaying {{ skill(id="71968") }} (Pistol 2).
 
 ## Crowd Control
 
-You only have 1 CC skill, {{ skill(id="62562") }}, with a very short cooldown of 20s (15s with Alacrity), but that's enough CC to carry your own weight in every encounter in the game, as it does quite a bit of breakbar damage at 450.
+You only have 1 CC skill, {{ skill(id="62561") }}, with a very short cooldown of 20s (15s with Alacrity), but that's enough CC to carry your own weight in every encounter in the game, as it does quite a bit of breakbar damage at 450.
 
 ## Video
 
