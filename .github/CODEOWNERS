@@ -2,29 +2,32 @@
 
 /content/builds/*.md                         @accessibilitywars/Builder
 
-/content/builds/condi-mechanist.md           @scoobysharky
-/content/builds/condi-tempest.md             @scoobysharky
-/content/builds/condi-virtuoso.md            @scoobysharky
-/content/builds/condi-weaver.md              @scoobysharky
-/content/builds/power-catalyst.md            @scoobysharky
-/content/builds/power-daredevil.md           @scoobysharky
-/content/builds/power-harbinger.md           @scoobysharky
-/content/builds/power-holosmith-PBM.md       @scoobysharky
-/content/builds/power-holosmith-ECSU.md      @scoobysharky
-/content/builds/power-mechanist-hammer.md    @scoobysharky
-/content/builds/power-mechanist-sword.md     @scoobysharky
-/content/builds/power-soulbeast.md           @scoobysharky
-/content/builds/power-vindicator.md          @scoobysharky
+# read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
+/content/builds/condi-mechanist.md @scoobysharky
+/content/builds/condi-tempest.md @scoobysharky
+/content/builds/condi-virtuoso.md @scoobysharky
+/content/builds/condi-weaver.md @scoobysharky
+/content/builds/condi-willbender.md @scoobysharky
+/content/builds/power-catalyst.md @scoobysharky
+/content/builds/power-daredevil.md @scoobysharky
+/content/builds/power-harbinger.md @scoobysharky
+/content/builds/power-herald.md @scoobysharky
+/content/builds/power-holosmith-ECSU.md @scoobysharky
+/content/builds/power-holosmith-PBM.md @scoobysharky
+/content/builds/power-mechanist-hammer.md @scoobysharky
+/content/builds/power-mechanist-sword.md @scoobysharky
+/content/builds/power-scrapper.md @scoobysharky
+/content/builds/power-soulbeast.md @scoobysharky
+/content/builds/power-vindicator.md @scoobysharky
 /content/builds/quickness-power-harbinger.md @scoobysharky
-/content/builds/power-scrapper.md            @scoobysharky
-/content/builds/power-herald.md              @scoobysharky
-/content/builds/quickness-power-herald.md    @scoobysharky
+/content/builds/quickness-power-herald.md @scoobysharky
 
-/content/builds/alac-hybrid-scourge.md       @xellink
-/content/builds/condi-soulbeast.md           @xellink
-/content/builds/heal-alac-willbender.md      @xellink
-/content/builds/power-deadeye.md             @xellink
-/content/builds/power-dragonhunter.md        @xellink
-/content/builds/power-spellbreaker.md        @xellink
+# read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
+/content/builds/alac-hybrid-scourge.md @xellink
+/content/builds/condi-soulbeast.md @xellink
+/content/builds/heal-alac-willbender.md @xellink
+/content/builds/power-deadeye.md @xellink
+/content/builds/power-dragonhunter.md @xellink
+/content/builds/power-spellbreaker.md @xellink
 
 # vim: set expandtab:
