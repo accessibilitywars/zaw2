@@ -69,3 +69,7 @@ You only have 1 CC skill, {{ skill(id="62561") }}, with a very short cooldown of
 ## Video
 
 {{ youtube(id="oq0cp5W0e8g") }}
+
+## Build demo in "high" level play
+
+{{ youtube(id="-nEaSy5Y3Ms") }}
