@@ -1,11 +1,11 @@
-{%- set found = false -%}
+{%- set found_exact = false -%}
 {%- set traits = load_data(path="static/traits.csv") -%}
 {%- set fuzzy_trait = false -%}
 {%- for trait in traits.records -%}
   {%- set trait_name = trait.1 | lower -%}
   {%- if id and trait.0 == id -%}
 	<span class="armory-inline" data-armory-embed="traits" data-armory-ids="{{trait.0 | safe}}"></span> {{trait.1 | safe}}
-	{%- set_global found = true -%}
+	{%- set_global found_exact = true -%}
 	{% break %}
   {%- elif not id and name -%}
   	{%- if trait.1 == name -%}
@@ -21,6 +21,14 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- if not found_exact and fuzzy_trait -%}
-	<span class="armory-inline" data-armory-embed="traits" data-armory-ids="{{fuzzy_trait.0 | safe}}"></span> {{fuzzy_trait.1 | safe}}
+{%- if not found_exact -%}
+	{%- if fuzzy_trait -%}
+		<span class="armory-inline" data-armory-embed="traits" data-armory-ids="{{fuzzy_trait.0 | safe}}"></span> {{fuzzy_trait.1 | safe}}
+	{%- elif name -%}
+		<span title="ERROR: no matches for {{name | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for trait " ~ name) }}
+	{%- else -%}
+		<span title="ERROR: no id match for {{id | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for trait " ~ id) }}
+	{%- endif -%}
 {%- endif -%}

@@ -21,6 +21,14 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- if not found_exact and fuzzy_item -%}
-	<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{fuzzy_item.0 | safe}}"></span> {{fuzzy_item.1 | safe}}
+{%- if not found_exact -%}
+	{%- if fuzzy_trait -%}
+		<span class="armory-inline" data-armory-embed="traits" data-armory-ids="{{fuzzy_trait.0 | safe}}"></span> {{fuzzy_trait.1 | safe}}
+	{%- elif name -%}
+		<span title="ERROR: no matches for {{name | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for trait " ~ name) }}
+	{%- else -%}
+		<span title="ERROR: no id match for {{id | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for trait " ~ id) }}
+	{%- endif -%}
 {%- endif -%}
