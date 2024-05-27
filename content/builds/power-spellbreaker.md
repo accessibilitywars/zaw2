@@ -90,7 +90,7 @@ By default, warrior is not a button mashing class and it would be recommended to
 #### Opener
 Precast {{ skill(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
 Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS. 
-Some players use {{ trait(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
+Some players use {{ skill(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
 If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
 
 #### DPS Rotation
