@@ -65,7 +65,7 @@ The stated DPS of this build is 34.7k, but in reality this build performs MUCH b
 
 Your CC skills are, in order of how you should use them:
 
-1. {{ skill(id="12738") }}
+1. {{ skill(id="46432") }}
 1. {{ skill(id="12482") }}
 1. {{ skill(id="12491") }}
 
