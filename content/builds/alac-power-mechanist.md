@@ -41,7 +41,7 @@ Probably the easiest to play Alacrity build
 ## Notes
 
 You give Alacrity with:
-1. {{ skill(id="63143") }}  
+1. {{ skill(id="63262") }}  
 1. {{ skill(id="63293") }}  
 1. {{ skill(id="63141") }}
 
