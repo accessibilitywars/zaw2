@@ -10,7 +10,8 @@
   {%- elif not id and name -%}
   	{%- if skill.1 == name -%}
 		{%- if found_exact -%}
-			<span title="WARNING: multiple exact matches for {{skill.1 | safe}}. Use id param to differentiate!" style='color: red; font-weight: bold;'> ERROR</span>
+			<span title="WARNING: multiple exact matches for {{skill.1 | safe}}. Use id param to differentiate!" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+			{{ throw(message="WARNING: multiple exact matches for " ~ skill.1 ~ ". Use id param to differentiate!") }}
 			{%- break -%}
 		{%- endif -%}
 		<span class="armory-inline" data-armory-embed="skills" data-armory-ids="{{skill.0 | safe}}"></span> {{skill.1 | safe}}
@@ -21,6 +22,14 @@
   {%- endif -%}
 {%- endfor -%}
 
-{%- if not found_exact and fuzzy_skill -%}
-	<span class="armory-inline" data-armory-embed="skills" data-armory-ids="{{fuzzy_skill.0 | safe}}"></span> {{fuzzy_skill.1 | safe}}
+{%- if not found_exact -%}
+	{%- if fuzzy_skill -%}
+		<span class="armory-inline" data-armory-embed="skills" data-armory-ids="{{fuzzy_skill.0 | safe}}"></span> {{fuzzy_skill.1 | safe}}
+	{%- elif name -%}
+		<span title="ERROR: no matches for {{name | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for skill " ~ name) }}
+	{%- else -%}
+		<span title="ERROR: no id match for {{id | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
+		{{ throw(message="no matches for skill " ~ id) }}
+	{%- endif -%}
 {%- endif -%}
