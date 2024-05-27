@@ -67,3 +67,7 @@ You only realistically have 1 CC skill, that is {{ skill(id="13132") }}. However
 ## Video
 
 {{ youtube(id="-KKWiwc4pIE") }}
+
+## Build demo in "high" level play
+
+{{ youtube(id="aBkjhsxvLBE") }}
