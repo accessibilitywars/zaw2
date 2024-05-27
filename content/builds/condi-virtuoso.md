@@ -77,3 +77,7 @@ You can also block an attack with {{ skill(name="Illusionary Riposte") }} (Sword
 ## Video
 
 {{ youtube(id="nAhl520Y8dA") }}
+
+## Build demo in "high" level play
+
+{{ youtube(id="qeSC05yR5uw") }}
