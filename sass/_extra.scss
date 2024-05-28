@@ -83,6 +83,28 @@ div.boxed {
   height: 32px;
   user-select: none;
 }
+.armory-inline .gw2a-traits-embed {
+  display: inline-block;
+  vertical-align: middle;
+}
+.armory-inline .gw2a-traits-embed > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  user-select: none;
+}
+.armory-inline .gw2a-items-embed {
+  display: inline-block;
+  vertical-align: middle;
+}
+.armory-inline .gw2a-items-embed > div {
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+  user-select: none;
+}
 
 /*
 [data-aw2-key]{
