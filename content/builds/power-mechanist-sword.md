@@ -47,7 +47,7 @@ Press
 
 off cooldown, and that is basically your rotation.
 
-Your auto attack chain reduces the cooldown of {{ skill(id="44110") }} (Sword 2) and {{ skill(id="40160") }} (Sword 3), allowing you to cast them more often. This lines up pretty well and results in you being able to use {{ skill(id="40160") }} (Sword 3) every other time you use {{ skill(id="40160") }} (Sword 3). Using {{ skill(id="6161") }} does NOT cancel your auto attack chain so you don't have to worry about managing it, spam away.
+Your auto attack chain reduces the cooldown of {{ skill(id="44110") }} (Sword 2) and {{ skill(id="40160") }} (Sword 3), allowing you to cast them more often. This lines up pretty well and results in you being able to use {{ skill(id="40160") }} (Sword 3) every other time you use {{ skill(id="44110") }} (Sword 2). Using {{ skill(id="6161") }} does NOT cancel your auto attack chain so you don't have to worry about managing it, spam away.
 
 You have very nice utilities with the Shield. You can bring a Pistol instead for about 1k+ more DPS, but I will always recommend the Shield over Pistol. 
 
