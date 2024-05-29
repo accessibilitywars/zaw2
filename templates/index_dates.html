@@ -41,7 +41,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 	    {%- if page.extra.spec %}
 		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
 	    {%- endif %}
-        {{- macros::title_index(page=page, config=config) }}
+        {{- aw_macros::title_index(page=page, config=config) }}
         {%- if config.extra.meta_index.position %}
         {%- if config.extra.meta_index.position == "top" or config.extra.meta_index.position == "both" %}
         {{- macros::meta_index(page=page, config=config) }}

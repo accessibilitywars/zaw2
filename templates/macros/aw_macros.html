@@ -11,10 +11,49 @@
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
         <div class="tpad" style="white-space: nowrap;">
-            <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}">
+            <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
+			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}"
+			>
             {%- if page.extra.spec -%}
             <img style="float: left; height: 1em;" src="/images/icons/{{ page.extra.spec }}.png"/>
             {%- endif -%}&nbsp;
-            {{ page.title }}</a>
+            {{ page.title }}
+			</a>
         </div>
 {%- endmacro page_listing %}
+
+{%- macro title_post(page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+	{%- if page.extra.benchmark -%}
+	  <span style="float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
+	{%- endif -%}
+    <h1><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a></h1>
+{%- endmacro title_post %}
+
+{%- macro title_index(page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+        <h1>
+		{%- if config.extra.title_size_index %}<span class="{{ config.extra.title_size_index }}">{% endif -%}
+			{%- if page.extra.benchmark -%}
+			  <span style="float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
+			{%- endif -%}
+			<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
+		{%- if config.extra.title_size_index %}</span>{% endif -%}
+		</h1>
+{%- endmacro title_index %}
+
+{%- macro series_link(inner, page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+  {%- if inner.content == page.content %}
+      <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
+      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}"
+>{{ inner.title }}</a></li>
+    {% else %}
+      <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
+      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}"
+	>{{ inner.title }}</a></li>
+  {%- endif %}
+{%- endmacro %}
