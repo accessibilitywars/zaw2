@@ -1,7 +1,5 @@
 *                                            @berdandy
 
-/content/builds/*.md                         @accessibilitywars/Builder
-
 # read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
 /content/builds/alac-condi-mechanist.md @scoobysharky
 /content/builds/alac-power-mechanist.md @scoobysharky
@@ -31,5 +29,8 @@
 /content/builds/power-deadeye.md @xellink
 /content/builds/power-dragonhunter.md @xellink
 /content/builds/power-spellbreaker.md @xellink
+
+/content/builds/*.md @accessibilitywars/builder
+
 
 # vim: set expandtab:
