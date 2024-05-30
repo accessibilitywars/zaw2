@@ -34,11 +34,11 @@
 {%- macro title_index(page, config) %}
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+		{%- if page.extra.benchmark -%}
+		  <span style="max-width: 8em; float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
+		{%- endif -%}
         <h1>
 		{%- if config.extra.title_size_index %}<span class="{{ config.extra.title_size_index }}">{% endif -%}
-			{%- if page.extra.benchmark -%}
-			  <span style="float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
-			{%- endif -%}
 			<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
 		{%- if config.extra.title_size_index %}</span>{% endif -%}
 		</h1>
