@@ -1,5 +1,5 @@
 +++
-title = "Alacrity Condi Mechanist (25.7k)"
+title = "Alacrity Condi Mechanist"
 description = "Probablty the easiest to play Alacrity... hmmm"
 date = 2024-05-26
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "April 2024"
+benchmark = "25.7k DPS"
 +++
 
 Probablty the easiest to play Alacrity... hmmm

@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Herald (27.1k)"
+title = "Quickness Power Herald"
 description = "The easiest raid build, now with quickness!"
 date = 2024-05-16
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
 spec = "herald"
 balance = "April 2024"
+benchmark = "27.1k DPS"
 +++
 
 The easiest raid build, now with quickness!

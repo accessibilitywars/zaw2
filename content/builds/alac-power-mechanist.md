@@ -1,5 +1,5 @@
 +++
-title = "Alacrity Power Mechanist (27.1k)"
+title = "Alacrity Power Mechanist"
 description = "Probably the easiest to play Alacrity build"
 date = 2024-05-26
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "April 2024"
+benchmark = "27.1k DPS"
 +++
 
 Probably the easiest to play Alacrity build

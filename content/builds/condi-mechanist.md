@@ -1,5 +1,5 @@
 +++
-title = "Condi Mechanist (33.5k)"
+title = "Condi Mechanist"
 description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "April 2024"
+benchmark = "33.5k DPS"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play

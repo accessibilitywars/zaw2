@@ -1,5 +1,5 @@
 +++
-title = "Condi Willbender (37.3k)"
+title = "Condi Willbender"
 description = "Learn 1 simple combo, and hit everything else off cooldown."
 date = 2024-05-23
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
 spec = "willbender"
 balance = "April 2024"
+benchmark = "37.3k DPS"
 +++
 
 Learn 1 simple combo, and hit everything else off cooldown.

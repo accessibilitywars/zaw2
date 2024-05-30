@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Harbinger (27.9k)"
+title = "Quickness Power Harbinger"
 description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
 date = 2024-05-05
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 spec = "harbinger"
 balance = "April 2024"
+benchmark = "27.9k DPS"
 +++
 
 My pain brings you strength!

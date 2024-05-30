@@ -1,5 +1,5 @@
 +++
-title = "Power Vindicator (33.6k)"
+title = "Power Vindicator"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
 spec = "vindicator"
 balance = "April 2024"
+benchmark = "33.6k DPS"
 +++
 
 This is a pretty foundational build for Revenant. Simple, solid and focused.

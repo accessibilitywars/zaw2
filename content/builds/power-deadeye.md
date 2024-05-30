@@ -1,5 +1,5 @@
 +++
-title = "Power Unload Deadeye (28k)"
+title = "Power Unload Deadeye"
 description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
 date = 2024-03-29
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
 spec = "deadeye"
 balance = "April 2024"
+benchmark = "28k DPS"
 +++
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 

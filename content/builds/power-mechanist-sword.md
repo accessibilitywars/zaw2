@@ -1,5 +1,5 @@
 +++
-title = "Sword Power Mechanist (33.5k)"
+title = "Sword Power Mechanist"
 description = "4 button rotation with lots of Signets"
 date = 2024-05-05
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "April 2024"
+benchmark = "33.5k DPS"
 +++
 
 4 button rotation with lots of Signets

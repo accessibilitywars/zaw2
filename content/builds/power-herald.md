@@ -1,5 +1,5 @@
 +++
-title = "Power Herald (31.6k)"
+title = "Power Herald"
 description = "Probably the easiest raid build available in GW2."
 date = 2024-05-14
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
 spec = "herald"
 balance = "April 2024"
+benchmark = "31.6k DPS"
 +++
 
 Probably the easiest raid build available in GW2.

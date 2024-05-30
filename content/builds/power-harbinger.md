@@ -1,5 +1,5 @@
 +++
-title = "Power Harbinger (33.5k)"
+title = "Power Harbinger"
 description = "Alternative power build for Necro enjoyers who are sick of playing Reaper"
 date = 2024-04-10
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 spec = "harbinger"
 balance = "April 2024"
+benchmark = "33.5k DPS"
 +++
 
 You've heard of spinning to win, now try shotgunning to win!

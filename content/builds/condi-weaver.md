@@ -1,5 +1,5 @@
 +++
-title = "Lava Weaver (35.3k)"
+title = "Lava Weaver"
 description = "Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking. We include some Elementals for extra friends when you're feeling lonely."
 date = 2024-03-02
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
 spec = "weaver"
 balance = "April 2024"
+benchmark = "35.3k DPS"
 +++
 
 Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking.

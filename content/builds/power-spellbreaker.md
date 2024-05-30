@@ -1,5 +1,5 @@
 +++
-title = "Dagger Stormbreaker (37.7k burst/30k sustained)"
+title = "Dagger Storm­breaker"
 description = "This build is designed around lightning field dagger leaps that creates a sizable initial burst, followed by lightning strikes from the Air Sigil and and whirwinds from the ultimate axe attack."
 date = 2024-05-08
 draft = false
@@ -16,6 +16,7 @@ keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 spec = "spellbreaker"
 balance = "April 2024"
+benchmark = "37.7k DPS burst, 30k sustained"
 +++
 
 The purpose of writing this guide is to provide a low intensity method to play PvE spellbreaker without the need for weapon swaps. This build does relying on multiple key presses on cooldown but the order of presses is quite forgiving. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit but this build already does 20k on autos alone and is therefore minimally qualified to clear all 7 wings with ease. While this build has a low skill floor, it has a low damage ceiling as well but opens up a path to upskill via weapon swaps.

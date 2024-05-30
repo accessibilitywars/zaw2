@@ -1,5 +1,5 @@
 +++
-title = "Condi Virtuoso (34.5k)"
+title = "Condi Virtuoso"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
 updated = 2024-05-26
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
 spec = "virtuoso"
 balance = "April 2024"
+benchmark = "34.5k DPS"
 +++
 
 Who knew that flying swords and throwing daggers would cause bleeding?

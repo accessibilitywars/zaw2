@@ -1,5 +1,5 @@
 +++
-title = "Power Catalyst (35.3k)"
+title = "Power Catalyst"
 description = "An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it."
 date = 2024-03-04
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
 spec = "catalyst"
 balance = "April 2024"
+benchmark = "35.3k DPS"
 +++
 
 An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it.

@@ -1,5 +1,5 @@
 +++
-title = "Fire Tempest (35.0k)"
+title = "Fire Tempest"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
 spec = "tempest"
 balance = "April 2024"
+benchmark = "35.0k DPS"
 +++
 
 A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours.

@@ -1,5 +1,5 @@
 +++
-title = "Hammer Power Mechanist (32.5k)"
+title = "Hammer Power Mechanist"
 description = "Signet-heavy, with some chill hammer thumping."
 date = 2024-05-04
 draft = false
@@ -17,6 +17,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 spec = "mechanist"
 balance = "April 2024"
+benchmark = "32.5k DPS"
 +++
 
 Signet-heavy, with some chill hammer thumping."

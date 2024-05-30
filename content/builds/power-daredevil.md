@@ -1,5 +1,5 @@
 +++
-title = "Power Daredevil (34.2k)"
+title = "Power Daredevil"
 description = "Very high damage for very little APM, but requires great positioning."
 date = 2024-04-17
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
 spec = "daredevil"
 balance = "April 2024"
+benchmark = "34.2k DPS"
 +++
 
 Very high damage for very little APM, but requires great positioning.

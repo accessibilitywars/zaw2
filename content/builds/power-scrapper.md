@@ -1,5 +1,5 @@
 +++
-title = "Power Scrapper (34.4k)"
+title = "Power Scrapper"
 description = "Fast paced rotation with high burst damage."
 date = 2024-05-14
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Scrapper"
 toc = true
 spec = "scrapper"
 balance = "April 2024"
+benchmark = "34.4k DPS"
 +++
 
 ## Gearing

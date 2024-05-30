@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith PBM (33.2k)"
+title = "Power Holosmith PBM"
 description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
 spec = "holosmith"
 balance = "April 2024"
+benchmark = "33.2k DPS"
 +++
 
 A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast.

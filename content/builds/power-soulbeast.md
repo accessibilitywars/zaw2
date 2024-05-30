@@ -1,5 +1,5 @@
 +++
-title = "Power Soulbeast (34.7k)"
+title = "Power Soulbeast"
 description = "A power-based soulbeast build. This build relies on a single combo, but otherwise boils down to just hitting buttons when they're off cooldown."
 date = 2024-03-27
 template = "build.html"
@@ -16,6 +16,7 @@ keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
 spec = "soulbeast"
 balance = "April 2024"
+benchmark = "34.7k DPS"
 +++
 
 A power-based soulbeast build. This build relies on a single combo, but otherwise boils down to just hitting buttons when they're off cooldown.

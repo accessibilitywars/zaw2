@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith ECSU (38.2k)"
+title = "Power Holosmith ECSU"
 description = "One of our tougher builds, but well worth the reward"
 date = 2024-05-05
 draft = false
@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
 spec = "holosmith"
 balance = "April 2024"
+benchmark = "38.2k DPS"
 +++
 
 ### SPECIAL NOTE
