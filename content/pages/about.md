@@ -26,7 +26,7 @@ To get involved, any of the following is very helpful:
 ### Discord Crew
 
 - berdandy
-- xmidsummerdream
+- xmidsummerdreams
 - bunny
 
 ### Build & Web Crew
