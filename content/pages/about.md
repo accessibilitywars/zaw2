@@ -33,6 +33,6 @@ To get involved, any of the following is very helpful:
 
 - berdandy
 - scooby
-- xelink
+- xellink
 - and various other contributors
 
