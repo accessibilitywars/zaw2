@@ -87,7 +87,7 @@ Ensure skill 1 on both shroud and daggers are set to autocast. You don't have to
 #### Rotation
 Precasts - {{ skill(id="13082") }} (Elite) and Utilities (use these on cooldown)
 Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
-1. Alacrity Rotation - Perform autos + {{ skill(id="63167") } (Shroud 2) + {{ skill(id="63160") }} (Shroud 4) on cooldown.[^3]
+1. Alacrity Rotation - Perform autos + {{ skill(id="63167") }} (Shroud 2) + {{ skill(id="63160") }} (Shroud 4) on cooldown.[^3]
 2. DPS rotation - Spam {{ skill(id="13006") }} (Dagger 3)[^4]
 3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.[^5]
 4. Reset the rotation using {{ skill(id="63155") }} (F2).[^6]
