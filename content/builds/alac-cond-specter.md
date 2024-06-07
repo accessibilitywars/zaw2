@@ -24,14 +24,13 @@ The purpose of writing this guide is to provide a competent DPS options with goo
 
 This build requires daggers and unfortunately has a small amount of forced movement. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary.
 
-This build is geared similar to the [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.
 
 ## Gearing and Consumables
 #### GW2Skills Links
 1. [Optimised Loadout](http://gw2skills.net/editor/?PaABgihjlhyOYKMK2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
 2. [Ranged Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W9xaA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
 3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)\
-
+---
 - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
 - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified.</small>
 - <small> The support loadout takes on barrier via consume shadows and also provides boons such as fury if supply from the healer is lacking.</small>
@@ -39,6 +38,8 @@ This build is geared similar to the [SnowCrows](https://snowcrows.com/builds/rai
 #### Equipment
 - Full Ritualist's
 - Dual Daggers
+---
+This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.
 
 #### Weapon Swap Options
 - Dagger (3rd) (higher DPS on swaps/shroud)
@@ -76,7 +77,7 @@ This build is geared similar to the [SnowCrows](https://snowcrows.com/builds/rai
 #### Trait Alternatives
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^1]
 2. {{ trait(id="2285") }} can refill your shroud meter if you bring wells.[^2]
-
+---
 [^1]<small>_Barriers scale according to your vitality so investment into healing power is not necessary._</small>\
 [^2]<small>_This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals._</small>
 
@@ -86,14 +87,18 @@ Ensure skill 1 on both shroud and daggers are set to autocast. You don't have to
 #### Rotation
 Precasts - {{ skill(id="13082") }} (Elite) and Utilities (use these on cooldown)
 Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
-1. Alacrity Rotation - Perform autos + (Shroud 2) + (Shroud 4) on cooldown.[^3]
-2. DPS rotation - {{ skill(id="13006") }} Dagger 3 until you are out of initiative. 
-3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.
-4. Repeat by {{ skill(id="63155") }} (F2).\
-<small>Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (Dagger 3)'s. Using a utility helps smoothen that.</small>\
+1. Alacrity Rotation - Perform autos + {{ skill(id="63167") } (Shroud 2) + {{ skill(id="63160") }} (Shroud 4) on cooldown.[^3]
+2. DPS rotation - Spam {{ skill(id="13006") }} (Dagger 3)[^4]
+3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.[^5]
+4. Reset the rotation using {{ skill(id="63155") }} (F2).[^6]
+---
+[^3]<small>_You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)_</small>\
+[^4]<small>Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (Dagger 3)'s aftercast. Using a utility when you are out of initiative to smoothen that.</small>\
+[^5]<small>_Some of these have no cast time and can be done mid animation._</small>\
+[^6]<small>_This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about_</small>\
 
 #### Utilties
-1. Utilities to cast on cooldown [^4]
+1. Utilities to cast on cooldown
     * {{ skill(id="13037") }}
     * {{ skill(id="13093") }}
     * {{ skill(id="13028") }}
@@ -107,9 +112,7 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 3. Other Strategic Options
     * {{ skill(id="13002") }}
     * {{ skill(id="13038") }}
-
-[^3]<small>_You may need to stay in shroud for a longer period of time to extend alacrity e.g._</small>\
-[^4]<small>_Some of these have no cast time and can be done mid animation._</small>\
+---
 <small>Note: All the utilites are optional, some are more optional than others.</small>
 
 #### CC options
@@ -119,7 +122,8 @@ In shroud, you can use {{ skill(id="63220") }}/{{ skill(id="63249") }} to CC
 #### Sustainability
 1. {{ skill(id="13006") }} (Dagger 3) is an evade. You spend almost half the time in evade frames. 
 2. {{ skill(id="63155") }} is your second health bar. You spend almost half the time on your second health bar.
-Taking consume shadows will obliterate your second health bar but can trivialise certain fights if timed well. Use it for group survivabiity. 
+---
+<small>Taking consume shadows will obliterate your second health bar but can trivialise certain fights if timed well. Use it for group survivabiity.</small>
 
 ## Optimisation
 #### Raid Ready
@@ -129,10 +133,10 @@ Taking consume shadows will obliterate your second health bar but can trivialise
 4. W2 Bandit Trio - Place thousand needles along saboteur routes.
 5. W2 Matthias - Bring {{ skill(id="13132") }} to break allies free. Use your shroud CCs if it is not available.
 6. W3 Escort - The large amounts of HP, cleaves and evades make this a good build to fight on towers. You can use {{ skill(id="16435") }} to 2/3-man the towers as well. You also have plenty of immobilise options for backwarg.
-7. W4 Cairn - This build is effective on this fight. Stay in shroud and stack alacrity {{ skill(id="13006") }} (Shroud 1) when he is bouncing around/out of reach. 
-8. W4 Mursaat Overseer - Its probably good to bring a thief so you can open the door to the next fight. 
+7. W4 Cairn - This build is effective on this fight. Stay in shroud and stack alacrity when he is bouncing around/out of reach. 
+8. W4 Mursaat Overseer - Its probably good to bring a thief so you can open the door to the next fight.
 9. W4 Samarog - Bring {{ skill(id="13132") }} to break allies free but this is only available on alternate break bars. Use {{ skill(id="56898") }} or your shroud CCs if it is not available.
-10. W4 Deimos - {{ skill(id="56898") }} can be used when prides are nearby. {{ skill(id="13006") }} can drop you in the oil so you need a bit of clearance. 
+10. W4 Deimos - {{ skill(id="56898") }} can be used when prides are nearby. {{ skill(id="13006") }} can drop you in the oil so have bit of clearance. 
 11. W5 Soulless Horror - You may use your wells/shadowsteps to get through walls. Bring {{ skill(id="13132") }} as failing the breakbar is of dire consequence. 
 12. W5 Dhuum - Shadowstep is good for this fight, especially CM! Using {{ skill(id="63155") }} at 10% skips the ball collection phase.
 13. W6 Twin Largos - Right lane (Kenut) is favourable for condition damage. If timed well, you can use {{ skill(id="13006") }} (Dagger 3) to dodge the wave. If you need a wider window, evading drops {{ skill(id="14136") }} too, which is still pretty nifty.
@@ -149,4 +153,4 @@ Taking consume shadows will obliterate your second health bar but can trivialise
 
 
 ## Video
-Coming Soon
+Coming Soon\
