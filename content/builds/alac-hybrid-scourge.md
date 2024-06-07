@@ -29,12 +29,14 @@ This build is functional in both open world and instanced content. There is an o
 - Armor/Trinkets: Seraph Set but fill other pieces with other stats up to condi duration cap and the desired amount of healing/toughness.
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
-- Weapons (alt): Sceptre/Warhorn (Defensive)[^2]\
-<small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*\
-[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
+- Weapons (alt): Sceptre/Warhorn (Defensive)[^2]
+---
+<small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*</small>\
+<small>[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
 
 **Weapon Alternatives**
 - Weapons (alt): Pistol/Torch (Offensive)[^3]\
+---
 <small>[^3]: *The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
 
 #### Runes
@@ -81,6 +83,7 @@ You have many options to play around with other traits and utilities. Necromance
 #### Rotation
 1. Cast {{ skill(id="44946") }} and pulse barrier through {{ skill(id="43448") }} and {{ skill(id="44663") }}.
 2. Use all your skills on cooldown except your revive (F3) and signet
+---
 <small>*Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condition duration at 100%.*</small>
 
 #### Crowd Control rotation
