@@ -7,7 +7,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-categories = ["group"]
+categories = ["solo","group"]
 tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
 authors = ["xellink"]
 
@@ -25,79 +25,80 @@ The purpose of writing this guide is to provide a no-weapon swap method to play 
 
 
 ## Gearing and Consumables
-**Equipment**
+#### Equipment
 - Full Vipers
 - Shortbow
 
-**Weapon Swap**
+#### Weapon Swap
 Weapon swap is optional
 1. Dagger/Dagger
 2. Dagger/Torch
 3. Axe/Dagger
-4. Dagger/Axe 
-*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*
+4. Dagger/Axe
+---
+<small>*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*</small>
 
 Optimised Viper's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3Umqdn5B-DSJYmRB/YEPBCVAGOGAQFA-e)
 
 
-**Runes**
+#### Runes
 - {{ item(id="24687") }}
 
-**Sigils**
+#### Sigils
 - {{ item(id="44950") }}
 - {{ item(id="24560") }}
 
-**Relic**
+#### Relic
 - {{ item(id="100153") }}
 
-**Food**
+#### Food
 - {{ item(id="91876") }}
 - {{ item(id="43361") }}(budget alternative)
 
-**Utility**
+#### Utility
 - {{ item(id="48917") }} 
 
 ## Build
-Condi DPS
+Condi DPS\
 {{ chatlink(code="[&DQQeLSAXNy55AHgAvwAAAOkWAAAbAAAALhYAADQDEz8AAAAAAAAAAAAAAAA=]") }}
 
-**Trait Alternatives**
+#### Trait Alternatives
 The equipment stats are fairly similar to the that of [SnowCrows](https://snowcrows.com/builds/raids/ranger/condition-soulbeast) with selection of different traits.
 
 ## Rotation and Utilities
-**DPS Rotation**
+#### DPS Rotation
 Stay merged at all times. 
 1. Early Precast - {{ skill(id="12476") }}
 2. Pre-battle - {{ skill(id="45717") }} + {{ skill(id="12537") }} + {{ skill(id="40498") }} + {{ skill(id="45479") }}
 3. General Rotation - Use all non-healing skills on cooldown except F1
 
-**Crowd Control rotation**
+#### Crowd Control rotation
 1. You have decent CC by just using {{ skill(id="12508") }} (Shortbow 4)
 2. You have many other CC skills littered in your weapon and utility kit including the ones used to upkeep {{ trait(id="2127") }} (see below). 
 3. You can precast {{ skill(id="12537") }} for additional CC just before the CC phase of an encounter.
 4. Bringing Warthog can add significant amount of CC for a small damage loss.
 
 
-**Sustainability**
+#### Sustainability
 1. You may opt to take {{ skill(id="12489") }} for better condi cleanse
 2. {{ skill(id="12517") }} (Shortbow 3) is an evade that does a step back. This is useful for bosses with pull mechanics.
 3. If you need an extra heal, you may swap your pet to Jungle Stalker for {{ skill(id="44626") }}
 
 
 ## Optimisation
-**Twice as Vicious**
+#### Twice as Vicious
 Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 
-**Dodging**
+#### Dodging
 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} by 4s after the dodge to have better uptime of {{ trait(id="1912") }}. 
 2. It is better to use {{ skill(id="12517") }} to dodge once if you don't need to dodge twice for better DPS uptime. 
 
-**Rain of spikes**
+#### Rain of spikes
 On a boss with multiple adds, if you can position yourself within the boss hitbox, rain of spikes can hit the boss more than the usual number of times, making this skill worthwhile to include in your rotation. 
 
-**Raid Ready**
+#### Raid Ready
 1. W1 Gorseval - Immobilise with {{ skill(id="12580") }} during the split phase.
 2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point your bow away from ally slubs!
 3. W2 Bandit Trio - The range, self sustainability and high amounts of CC allows this build to do mortars.
@@ -111,10 +112,10 @@ On a boss with multiple adds, if you can position yourself within the boss hitbo
 ## Videos
 I have benched the build with mostly the above mentioned gear with no infusions. Budget food and budget utilities were used.
 
-**DPS benchmark (27.7k solo, 30k with allies)**
+#### DPS benchmark (27.7k solo, 30k with allies)
 {{ youtube(id="a2uqFQEScf0") }}
 
-**Pylon Kiting**
+#### Pylon Kiting
 <small>*Courtesy of Gwen The Pretzel*</small>
 {{ youtube(id="Jto8eANm0sg") }}
 
