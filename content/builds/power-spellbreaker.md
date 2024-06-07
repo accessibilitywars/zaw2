@@ -35,9 +35,9 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 - Weapons (alt): Axe/Dagger[^1] (Defensive)
 - Weapons (alt): Greatsword[^1] (Traditional)
 - Weapons (alt): Hammer[^2] (Meta)
-
-[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH
-[^2]: There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.
+---
+<small>[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH
+[^2]: There is a good [build on SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.</small>
 
 #### Runes
 
@@ -85,14 +85,15 @@ Almost every warrior build will require learning of combos to trigger effects, o
 | {{ skill(id="14410") }} | Active window (4s)        |
 
 The attack duration means you need to trigger these effect somewhat loosely from the top and more tightly towards the bottom. This means {{ skill(id="14410") }}'s window must be triggered right before using your heaviest damage skills during your opener/during the last hits. The passive effect of {{ skill(id="14410") }} is lost when its used, hence its only used when its most beneficial, during the opener or final blows.
-
-By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons. 
+---
+<small>By default, warrior is not a button mashing class and it would be recommended to refine your play better as you get used to this build so that you can adapt to weapon swaps and other weapons.</small>
 
 #### Opener
 Precast {{ skill(id="45333") }} for the lightning field which provides extra disables and {{ trait(id="2130") }} stacks with the other movement skills.
-Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS. 
-Some players use {{ skill(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.
-If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime. 
+Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the start of the fight, increasing group DPS.
+---
+* <small>Some players use {{ skill(id="14402") }} to build up adrenaline although in the video {{ skill(id="14410") }} is used instead in the opener.</small>
+* <small>If you decide not to take {{ skill(id="45333") }}, you may need to remove {{ skill(id="14410") }} from the opener as the dps gain from low stacks of {{ trait(id="2130") }} may not justify the DPS loss from the signet downtime.</small>
 
 #### DPS Rotation
 Start with Dagger/Axe
@@ -103,8 +104,8 @@ Start with Dagger/Axe
     b. {{ skill(id="14399") }}\
     c. {{ skill(id="14418") }}\
     d. {{ skill(id="44937") }}
-
-*You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*
+---
+<small>*You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*</small>
 
 #### Crowd Control rotation
 1. You have decent CC by using {{ skill(id="44937") }} (dagger 3) and {{ skill(id="14410") }}
@@ -120,7 +121,7 @@ Start with Dagger/Axe
 ## Optimisation
 This build has no ranged alternative. However, based on my personal testing, this build does more damage on mobile fights (like Twin Largos) than Condition Berserker. If you find yourself being forced out of range often and can't manage to cope, you might want to play a different class. 
 
-**Raid Ready**
+#### Raid Ready
 1. W1 Vale Guardian - {{ skill(id="45252") }}(F1) does a boon strip that can be used on the Blue Boss.
 2. W1 Gorseval - {{ skill(id="14354") }} is a really long immobilise that can extend the split phase. If using MH Axe, you can {{ skill(id="14398") }} to do a ranged cripple.
 3. W2 Slothasor - You can bring permanent self stability via {{ trait(id="1447") }} and drop your physical skills for party wide Break Stuns and Condi Cleanses if the group needs it.
@@ -137,5 +138,5 @@ I have benched the build with 1 piece of marauder's headgear, budget food and ut
 
 #### DPS benchmark (29-31k, 37.7k initial burst)
 {{ youtube(id="fGPygDuxx9Q") }}\
-
-This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide. 
+---
+<small>This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>
