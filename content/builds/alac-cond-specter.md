@@ -1,7 +1,7 @@
 +++
 title = "Blade of Alacrity (30k DPS)"
 description = "This build is designed around empowered poison/bleeding and Dagger bursts."
-date = 2024-06-20
+date = 2024-06-07
 draft = false
 template = "build.html"
 
@@ -53,6 +53,7 @@ This build is geared similar to the [SnowCrows](https://snowcrows.com/builds/rai
 - {{ item(id="24609") }} (Optimal)
 - {{ item(id="24605") }} (3rd dagger or budget alternative)[^:repeat:]
 - {{ item(id="24583") }} (Scepter or budget alternative)
+
 [^:repeat:]<small>Swapping to a third dagger allows utilisation of two different sigils due to the ICDs.</small>
 
 #### Relic
@@ -75,6 +76,7 @@ This build is geared similar to the [SnowCrows](https://snowcrows.com/builds/rai
 #### Trait Alternatives
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^1]
 2. {{ trait(id="2285") }} can refill your shroud meter if you bring wells.[^2]
+
 [^1]<small>_Barriers scale according to your vitality so investment into healing power is not necessary._</small>\
 [^2]<small>_This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals._</small>
 
