@@ -20,7 +20,7 @@ balance = "April 2024"
 benchmark = "18.8k DPS"
 +++
 
-The purpose of writing this guide is to explain how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\
+This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\\
 This build is functional in both open world and instanced content. There is an optional amount of gear swaps that can be done to slide it towards being a stronger healer. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Tanking isn't terribly difficult on this build however.
 
 ## Gearing and Consumables
@@ -30,14 +30,12 @@ This build is functional in both open world and instanced content. There is an o
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
 - Weapons (alt): Sceptre/Warhorn (Defensive)[^2]
----
-<small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*</small>\
-<small>[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
+><small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*</small>\
+><small>[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
 
-**Weapon Alternatives**
-- Weapons (alt): Pistol/Torch (Offensive)[^3]\
----
-<small>[^3]: *The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
+#### Weapon Alternatives
+- Weapons (alt): Pistol/Torch (Offensive)[^3]
+><small>[^3]*The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
 
 #### Runes
 {{ item(id="76166") }}
@@ -57,7 +55,7 @@ This build is functional in both open world and instanced content. There is an o
 {{ item(id="67185") }}
 
 ## Build
-*DPS*
+#### Hybrid DPS Alac
 {{ chatlink(code="[&DQgnNhM/PD4SAKIAgABwAXABJBdvAW8BkgCSAAAAAAAAAAAAAAAAAAAAAAADVgBmAGcAAA==]") }}
 
 ## Alternatives
@@ -83,8 +81,7 @@ You have many options to play around with other traits and utilities. Necromance
 #### Rotation
 1. Cast {{ skill(id="44946") }} and pulse barrier through {{ skill(id="43448") }} and {{ skill(id="44663") }}.
 2. Use all your skills on cooldown except your revive (F3) and signet
----
-<small>*Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condition duration at 100%.*</small>
+><small>*Always be on top of a sand shade. Your skills hit like wet noodles without it. Being on shroud keeps your condition duration at 100%.*</small>
 
 #### Crowd Control rotation
 1. Both sets of weapons have CC via {{ skill(id="44296") }}(Torch 5) and {{ skill(id="10556") }}(Warhorn 4)
@@ -95,12 +92,12 @@ You have many options to play around with other traits and utilities. Necromance
 ## Optimisation
 Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is no effective swiftness or stability. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
 
-**Strike Ready**
+#### Strike Ready
 1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Take {{ trait(id="780") }} and use {{ skill(id="44428") }} sparingly. 
-2. Whisper of Jormag - Place Flesh Wurm in the middle during the ball phase. 
+2. Whisper of Jormag - Use {{ skill(id="10543") }} in the middle during the ball phase. 
 3. Harvest Temple - {{ skill(id="42917") }} is really useful to reposition players behind the ball. Swapping to pistol grants more hits against the ball.
 
-**Raid Ready**
+#### Raid Ready
 1. W1 Vale Guardian - Be prepared to tank the fight. If you are not the tank, you may opt to go to the red guardian during splits, which gives the condi team added survivability. Barrier trivialises the green mechanic. {{ skill(id="51647") }} removes boons from the blue guardian. 
 2. W1 Gorseval - {{ skill(id="10532") }} is a long reliable cripple during the split phase.  
 3. W1 Sabetha - If you bring {{ skill(id="42917") }}, you may be able to serve as a cannon backup. You can {{ skill(id="42917") }} through the flame wall. 
