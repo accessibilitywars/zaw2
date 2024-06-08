@@ -30,14 +30,15 @@ This build requires daggers and unfortunately has a small amount of forced movem
 1. [Optimised Loadout](http://gw2skills.net/editor/?PaABgihjlhyOYKMK2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
 2. [Ranged/Solo Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W/xaA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
 3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)\
->- <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
->- <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified.</small>
->- <small> The support loadout takes on barrier via consume shadows and also provides boons such as fury if supply from the healer is lacking.</small>
+
+> - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
+> - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified.</small>
+> - <small> The support loadout takes on barrier via consume shadows and also provides boons such as fury if supply from the healer is lacking.</small>
 
 #### Equipment
 - Full Ritualist's
 - Dual Daggers
-><small>This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.</small>
+> <small>This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.</small>
 
 #### Weapon Swap Options
 - Dagger (3rd) (higher DPS on swaps/shroud)
@@ -53,7 +54,7 @@ This build requires daggers and unfortunately has a small amount of forced movem
 - {{ item(id="24605") }} (3rd Dagger or budget alternative)[^1]
 - {{ item(id="24583") }} (Scepter or budget alternative)
 
->[^1]<small>Swapping to a third Dagger allows utilisation of two different sigils due to the ICDs.</small>
+> [^1]<small>Swapping to a third Dagger allows utilisation of two different sigils due to the ICDs.</small>
 
 #### Relic
 - {{ item(id="100153") }}
@@ -75,8 +76,9 @@ This build requires daggers and unfortunately has a small amount of forced movem
 #### Trait Alternatives
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^2]
 2. {{ trait(id="2285") }} can refill your shroud meter if you bring wells.[^3]
->[^2]<small>_Barriers scale according to your vitality so investment into healing power is not necessary._</small>\
->[^3]<small>_This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals._</small>
+
+> [^2]<small>_Barriers scale according to your vitality so investment into healing power is not necessary._</small>\
+> [^3]<small>_This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals._</small>
 
 ## Rotation and Utilities
 Ensure skill 1 on both shroud and daggers are set to autocast. You don't have to complete your auto-attack chain, the damage is negligible and prioritising the chain on top of other skills will lead to a DPS drop.
@@ -88,10 +90,10 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 2. DPS rotation - Spam {{ skill(id="13006") }} (D3)[^5]
 3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.[^6]
 4. Reset the rotation using {{ skill(id="63155") }} (F2).[^7]
->[^4]<small>_You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)_</small>\
->[^5]<small>Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast. Using a utility when you are out of initiative to smoothen that.</small>\
->[^6]<small>_Some of these have no cast time and can be done mid animation._</small>\
->[^7]<small>_This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about_</small>\
+> [^4]<small>_You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)_</small>\
+> [^5]<small>Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast. Using a utility when you are out of initiative to smoothen that.</small>\
+> [^6]<small>_Some of these have no cast time and can be done mid animation._</small>\
+> [^7]<small>_This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about_</small>\
 
 #### Utilties
 1. Utilities to cast on cooldown
@@ -108,7 +110,8 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 3. Other Strategic Options
     * {{ skill(id="13002") }}
     * {{ skill(id="13038") }}
-><small>Note: All the utilites are optional, some are more optional than others.</small>
+
+> <small>Note: All the utilites are optional, some are more optional than others.</small>
 
 #### CC options
 {{ skill(id="13132") }} is your best CC skill.\
@@ -117,7 +120,8 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh3)
 #### Sustainability
 1. {{ skill(id="13006") }} (D3) is an evade. You spend almost half the time in evade frames. 
 2. {{ skill(id="63155") }} is your second health bar. You spend almost half the time on your second health bar.
-><small>Taking consume shadows will obliterate your second health bar but can trivialise certain fights if timed well. Use it for group survivabiity.</small>
+
+> <small>Taking consume shadows will obliterate your second health bar but can trivialise certain fights if timed well. Use it for group survivabiity.</small>
 
 ## Optimisation
 #### Raid Ready
