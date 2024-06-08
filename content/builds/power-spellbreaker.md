@@ -36,7 +36,7 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 - Weapons (alt): Greatsword[^1] (Traditional)
 - Weapons (alt): Hammer[^2] (Meta)
 
-> <small>[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH</small>
+> <small>[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH</small>\
 > <small>[^2]: [SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.</small>
 
 #### Runes
