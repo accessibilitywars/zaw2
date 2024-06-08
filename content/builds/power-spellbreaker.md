@@ -134,4 +134,4 @@ I have benched the build with 1 piece of marauder's headgear, budget food and ut
 #### DPS benchmark (29-31k, 37.7k initial burst)
 {{ youtube(id="fGPygDuxx9Q") }}\
 
-> <small>This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>\
+> <small>This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>
