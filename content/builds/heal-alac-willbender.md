@@ -28,7 +28,8 @@ This build is low cognition, low physical complexity, has very few repetitions a
 
 - Full Harrier's 
 - Hammer
-><small>_Note: Weapon swap is optional, all the available options will lock you out of hammer and thus drop your boon coverage. Alternate weapon sets should be prioritised based on utility requirements._</small>
+
+> <small>_Note: Weapon swap is optional, all the available options will lock you out of hammer and thus drop your boon coverage. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
 **Runes**
 
@@ -60,7 +61,7 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 Bring {{ trait(id="617") }} if you are taking consecrations.\
 Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 
-><small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
+> <small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
 
 
 ## Rotation and Utilities
@@ -70,7 +71,8 @@ Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 2. Auto Attack with minimal interruptions, using {{ skill(id="9084") }} can provide the group with permanent swiftness without interrupting your autos. 
 3. Use {{ skill(id="62603") }} (F2) on cooldown, afterwards use {{ skill(id="62668") }} (F1)/{{ skill(id="62648") }} (F3) to reposition. 
 4. Use {{ skill(id="9153") }} when you require stability. 
-><small>*The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!*</small>
+
+> <small>*The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!*</small>
 
 #### Burst Heals and Revives
 1. Use {{ skill(id="53482") }} (Hammer 2) for burst heals (due to Relic of Karakosa). You may refresh this skill using {{ skill(id="9124") }} (Hammer 4).
