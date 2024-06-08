@@ -36,8 +36,7 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 
 Optimised Marauder/Assassin's Loadout\
 [GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)\
----
-<small>_This requires 1 +5 precise infusion, power infusions are optional_</small>
+><small>_This requires 1 +5 precise infusion, power infusions are optional_</small>
 
 #### Runes
 - {{ item(id="24836") }} OR
@@ -72,8 +71,7 @@ There is a Core Guardian variant which provides more selfless support but due to
 1. Precasts - {{ skill(id="30273") }} (elite)
 2. Opening - {{ skill(id="9124") }} (Hammer 4)
 3. Use {{ skill(id="29786") }} and {{ skill(id="9245") }} on cooldown. You may try to time these when Relic of the Brawler is active.
----
-<small>_{{ skill(id="30273") }} precasts may not be possible on some fights although it is the best option for DPS. Bring {{ skill(id="30461") }} instead for passive healing. If you are not familiar with the fight, {{ skill(id="30461") }} is also the preferred default elite skill._</small>
+><small>_{{ skill(id="30273") }} precasts may not be possible on some fights although it is the best option for DPS. Bring {{ skill(id="30461") }} instead for passive healing. If you are not familiar with the fight, {{ skill(id="30461") }} is also the preferred default elite skill._</small>
 
 #### Crowd Control rotation
 1. You have decent CC by just using {{ skill(id="9124") }} (Hammer 4) and {{ skill(id="9260") }} (Hammer 3). 
@@ -106,10 +104,9 @@ A few examples where this advantage can be used are:
 2. W2 Bandit Trio - The self sustainability and high amounts of CC allow this build to do mortars very efficiently.
 3. W3 escort - For backwarg, bring {{ skill(id="9151") }} which gives a generous 6s immobilise. You have other skills that can immobilise and cripple too!
 4. W6 Qadim - You may choose to use this build instead if 2 players are sent to do Lamp.\
---- 
-<small>_Caution: Leftover traps on the arena can trigger mechanics e.g._
-- _ball mechanic on KC_
-- _killing deadly adds like tormented dead (you don't want to bring this build to SH!)_</small>
+><small>_Caution: Leftover traps on the arena can trigger mechanics e.g._
+>- _ball mechanic on KC_
+>- _killing deadly adds like tormented dead (you don't want to bring this build to SH!)_</small>
 
 
 ## Videos
@@ -117,5 +114,4 @@ I have benched the build with mostly Assassin's and a handful Marauders Gear and
 
 #### DPS benchmark (29.5k)
 {{ youtube(id="6ArosWCZPY8") }}
----
-<small>_{{ skill(id="30273") }} will start the encounter early. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) has a long precast and a short aftercast and you don't want its precast to be included. Hence {{ skill(id="30461") }} is brought for the benchmark instead._</small>
+><small>_{{ skill(id="30273") }} will start the encounter early. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) has a long precast and a short aftercast and you don't want its precast to be included. Hence {{ skill(id="30461") }} is brought for the benchmark instead._</small>
