@@ -115,7 +115,7 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 
 #### CC options
 {{ skill(id="13132") }} is your best CC skill.\
-In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh3) to CC
+In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5) to CC
 
 #### Sustainability
 1. {{ skill(id="13006") }} (D3) is an evade. You spend almost half the time in evade frames. 
