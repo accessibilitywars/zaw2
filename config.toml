@@ -15,6 +15,7 @@ build_search_index = true
 generate_feed = true
 taxonomies = [
     {name = "categories", feed = true},
+    {name = "specs", feed = true },
     {name = "tags", feed = true },
     {name = "authors", feed = true },
 ]
@@ -90,6 +91,7 @@ menu = [
 		{url = "guides", name = "Guides", slash = true, blank = false, size="s120"},
 	]},
     {url = "tags", name = "Builds", slash = true, blank = false, size="s150", submenu = [	
+		{url = "specs", name = "... by Profession", slash = true, blank = false, size="s120"},
 		{url = "tags", name = "... by Tag", slash = true, blank = false, size="s120"},
 		{url = "archive", name = "... by Date", slash = true, blank = false, size="s120"},
 		{url = "categories", name = "... by Mode", slash = true, blank = false, size="s120"},

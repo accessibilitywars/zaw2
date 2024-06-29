@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["condi","guardian","willbender","soto","lowcog"]
 authors = ["scooby"]
+specs = ["willbender", "guardian"]
 
 [extra]
 series = "guardian"
 tagline = "Hans, get ze flammenwerfer"
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-spec = "willbender"
 balance = "April 2024"
 benchmark = "37.3k DPS"
 +++

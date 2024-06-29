@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["solo","group"]
 tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
 authors = ["xellink"]
+specs = ["soulbeast", "ranger"]
 
 [extra]
 series = "ranger"
 tagline = "Condi Shortbow Ranger"
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-spec = "soulbeast"
 balance = "April 2024"
 benchmark = "27.7k DPS solo, 30k DPS w. allies"
 +++

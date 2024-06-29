@@ -10,13 +10,13 @@ draft = true
 categories = ["solo"]
 tags = ["power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
+specs = ["reaper", "necromancer"]
 
 [extra]
 series = "necromancer"
 tagline = "Ask not for whom the bell tolls. It tolls for thee."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-spec = "reaper"
 balance = "April 2024"
 +++
 

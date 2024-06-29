@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["condi","mesmer","virtuoso","eod","lowcog"]
 authors = ["scooby"]
+specs = ["virtuoso", "mesmer"]
 
 [extra]
 series = "mesmer"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-spec = "virtuoso"
 balance = "April 2024"
 benchmark = "34.5k DPS"
 +++

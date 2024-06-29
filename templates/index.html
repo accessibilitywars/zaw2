@@ -34,12 +34,16 @@ This Template can also be used directly for the index eg: example.com/ or as the
 {%- block content %}
     <div>
     {%- for page in paginator.pages %}
-	  {%- if page.extra.spec %}
+	  {%- if page.taxonomies.specs %}
+	  <div class="buildheader hflipbg" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.taxonomies.specs[0] | safe }}.jpg');">
+	  {%- elif page.extra.spec %}
 	  <div class="buildheader hflipbg" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec | safe }}.jpg');">
 	  {%- endif %}
       <article>
 		<div class="boxed">
-	    {%- if page.extra.spec %}
+	    {%- if page.taxonomies.specs %}
+		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.taxonomies.specs[0] | safe }}.png'/>
+	    {%- elif page.extra.spec %}
 		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
 	    {%- endif %}
         {{- aw_macros::title_index(page=page, config=config) }}
@@ -74,7 +78,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		{%- endif %}
 	    </div>
       </article>
-	  {%- if page.extra.spec %}
+	  {%- if page.taxonomies.specs or page.extra.spec %}
 	  </div>
 	  {%- endif %}
     {%- endfor %}

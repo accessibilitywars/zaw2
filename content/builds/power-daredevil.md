@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","thief","daredevil","hot","lowcog","lowrep","lowphys"]
 authors = ["scooby"]
+specs = ["daredevil", "thief"]
 
 [extra]
 series = "daredevil"
 tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
-spec = "daredevil"
 balance = "April 2024"
 benchmark = "34.2k DPS"
 +++

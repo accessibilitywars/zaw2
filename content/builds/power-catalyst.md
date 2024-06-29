@@ -5,18 +5,17 @@ date = 2024-03-04
 draft = false
 template = "build.html"
 
-
 [taxonomies]
 categories = ["group"]
 tags = ["power","elementalist","catalyst","eod","lowcog","lowrep"]
 authors = ["scooby"]
+specs = ["catalyst", "elementalist"]
 
 [extra]
 series = "elementalist"
 tagline = "Wait, what do you mean this isn't how I get a list of my home cat collection?"
 keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
-spec = "catalyst"
 balance = "April 2024"
 benchmark = "35.3k DPS"
 +++

@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","engineer","mechanist","soto","lowcog","lowphys","lowrep","boon","alacrity"]
 authors = ["scooby"]
+specs = ["mechanist", "engineer"]
 
 [extra]
 series = "engineer"
 tagline = "Babe, si Optimum Pride Œœœœœ"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-spec = "mechanist"
 balance = "April 2024"
 benchmark = "27.1k DPS"
 +++

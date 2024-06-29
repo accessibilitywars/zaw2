@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","guardian","dragonhunter","hot","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
+specs = ["dragonhunter", "guardian"]
 
 [extra]
 series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-spec = "dragonhunter"
 balance = "April 2024"
 benchmark = "29.5k DPS"
 +++

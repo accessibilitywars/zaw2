@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","engineer","mechanist","soto","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
+specs = ["mechanist", "engineer"]
 
 [extra]
 series = "engineer"
 tagline = "Reports of my death have been greatly exaggerated"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-spec = "mechanist"
 balance = "April 2024"
 benchmark = "33.5k DPS"
 +++

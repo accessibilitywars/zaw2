@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["solo", "group"]
 tags = ["condition","alacrity","thief","specter","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
+specs = ["specter", "thief" ]
 
 [extra]
 series = "thief"
 tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
-spec = "specter"
 balance = "April 2024"
 benchmark = "30k DPS"
 +++

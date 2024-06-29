@@ -14,7 +14,9 @@
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
 			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}"
 			>
-            {%- if page.extra.spec -%}
+            {%- if page.taxonomies.specs -%}
+            <img style="float: left; height: 1em;" src="/images/icons/{{ page.taxonomies.specs[0] }}.png"/>
+            {%- elif page.extra.spec -%}
             <img style="float: left; height: 1em;" src="/images/icons/{{ page.extra.spec }}.png"/>
             {%- endif -%}&nbsp;
             {{ page.title }}

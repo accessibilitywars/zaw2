@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","engineer","holosmith","soto","lowphys", "lowrep"]
 authors = ["scooby"]
+specs = ["holosmith", "engineer"]
 
 [extra]
 series = "engineer"
 tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-spec = "holosmith"
 balance = "April 2024"
 benchmark = "33.2k DPS"
 +++

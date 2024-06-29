@@ -9,13 +9,13 @@ draft = true
 categories = ["solo"]
 tags = ["condi","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
+specs = ["reaper", "necromancer"]
 
 [extra]
 series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-spec = "reaper"
 balance = "April 2024"
 +++
 

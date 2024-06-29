@@ -8,13 +8,13 @@ template = "build.html"
 categories = ["solo","group"]
 tags = ["heal","alacrity","guardian","willbender","eod","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
+specs = ["willbender", "guardian"]
 
 [extra]
 series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, willbender"
 toc = true
-spec = "willbender"
 balance = "April 2024"
 +++
 

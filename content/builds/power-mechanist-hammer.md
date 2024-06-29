@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
+specs = ["mechanist", "engineer"]
 
 [extra]
 series = "engineer"
 tagline = "If you name your mech 'Hammer' you can dual-wield Hammers"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-spec = "mechanist"
 balance = "April 2024"
 benchmark = "32.5k DPS"
 +++

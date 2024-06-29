@@ -9,13 +9,13 @@ template = "build.html"
 tags = ["condi","necromancer","harbinger","eod","lowcog","lowphys","lowrep"]
 categories = [ "group", "solo" ]
 authors = ["berdandy"]
+specs = ["harbinger", "necromancer"]
 
 [extra]
 series = "harbinger"
 tagline = "It's not easy being green"
 keywords = "Guild Wars 2, GW2, LI, Harbinger"
 toc = true
-spec = "harbinger"
 balance = "January 2024"
 +++
 

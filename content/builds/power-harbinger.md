@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","necromancer","harbinger","eod","lowcog","lowphys"]
 authors = ["scooby"]
+specs = ["harbinger", "necromancer"]
 
 [extra]
 series = "necromancer"
 tagline = "You've heard of spinning to win, now try shotgunning to win!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
-spec = "harbinger"
 balance = "April 2024"
 benchmark = "33.5k DPS"
 +++

@@ -8,13 +8,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","ranger","soulbeast","pof","lowcog", "lowrep"]
 authors = ["scooby"]
+specs = ["soulbeast", "ranger"]
 
 [extra]
 series = "ranger"
 tagline = "Combo #3 with fries and a large root beer"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
-spec = "soulbeast"
 balance = "April 2024"
 benchmark = "34.7k DPS"
 +++

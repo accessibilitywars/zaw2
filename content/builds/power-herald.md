@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","revenant","herald","pof","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
+specs = ["herald", "revenant"]
 
 [extra]
 series = "revenant"
 tagline = "Heralding the start of a new raid experience"
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
-spec = "herald"
 balance = "April 2024"
 benchmark = "31.6k DPS"
 +++

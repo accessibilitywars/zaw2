@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["solo", "group"]
 tags = ["condi","hybrid","heal","alacrity","necromancer","scourge","pof","lowcog","lowrep"]
 authors = ["xellink"]
+specs = ["scourge", "necromancer"]
 
 [extra]
 series = "necromancer"
 tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
-spec = "scourge"
 balance = "April 2024"
 benchmark = "18.8k DPS"
 +++

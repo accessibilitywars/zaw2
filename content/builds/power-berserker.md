@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group", "solo"]
 tags = ["power","warrior","berserker","hot"]
 authors = ["berdandy"]
+specs = ["berserker", "warrior"]
 
 [extra]
 series = "warrior"
 tagline = "'My advice? Use axes to fell the tree, and the hammer to pound it into submission. Your enemy is the tree.' --Tyltooth Oakfist"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
-spec = "berserker"
 balance = "April 2024"
 +++
 

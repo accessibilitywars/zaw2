@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["solo", "group"]
 tags = ["power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
+specs = ["deadeye", "thief"]
 
 [extra]
 series = "thief"
 tagline = "Auto-Attack Deadeye with/without Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-spec = "deadeye"
 balance = "April 2024"
 benchmark = "28k DPS"
 +++

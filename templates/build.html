@@ -40,9 +40,11 @@
 
     <article>
 
-    {%- if page.extra.spec %}
+    {%- if page.taxonomies.specs -%}
+	<div class="buildheader" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.taxonomies.specs[0] }}.jpg');">
+    {%- elif page.extra.spec -%}
 	<div class="buildheader" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.extra.spec }}.jpg');">
-    {%- endif %}
+    {%- endif -%}
 
 	<div class="boxed">
     {{- aw_macros::title_post(page=page, config=config) }}
@@ -93,7 +95,7 @@
     {%- endif %}
     {%- endif %}
 
-	{%- if page.extra.spec %}
+    {%- if page.taxonomies.specs or page.extra.spec %}
 	</div>
 	{%- endif %}
 

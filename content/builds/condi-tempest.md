@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["condi","elementalist","tempest","hot","lowcog"]
 authors = ["scooby"]
+specs = ["tempest", "elementalist"]
 
 [extra]
 series = "elementalist"
 tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
-spec = "tempest"
 balance = "April 2024"
 benchmark = "35.0k DPS"
 +++

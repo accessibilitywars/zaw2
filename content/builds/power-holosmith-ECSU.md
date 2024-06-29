@@ -10,13 +10,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","engineer","holosmith","soto","lowrep"]
 authors = ["scooby"]
+specs = ["holosmith", "engineer"]
 
 [extra]
 series = "engineer"
 tagline = "Repeat after me: 'DO NOT OVERHEAT.'"
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-spec = "holosmith"
 balance = "April 2024"
 benchmark = "38.2k DPS"
 +++

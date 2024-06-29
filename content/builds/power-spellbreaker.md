@@ -8,13 +8,13 @@ template = "build.html"
 [taxonomies]
 tags = ["power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
+specs = ["spellbreaker", "warrior"]
 
 [extra]
 series = "warrior"
 tagline = "Dance like the Dervishes of old."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-spec = "spellbreaker"
 balance = "April 2024"
 benchmark = "37.7k DPS burst, 30k sustained"
 +++

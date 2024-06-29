@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["condi","elementalist","weaver","hot","lowcog"]
 authors = ["scooby"]
+specs = ["weaver", "elementalist"]
 
 [extra]
 series = "elementalist"
 tagline =  "'Mr. Lava Lava. She call me Mr. Boombastic, tell me fantastic' -- Shaggy, probably"
 keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
-spec = "weaver"
 balance = "April 2024"
 benchmark = "35.3k DPS"
 +++

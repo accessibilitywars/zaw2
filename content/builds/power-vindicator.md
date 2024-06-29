@@ -9,13 +9,13 @@ template = "build.html"
 categories = ["group"]
 tags = ["power","revenant","vindicator","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
+specs = ["vindicator", "revenant"]
 
 [extra]
 series = "revenant"
 tagline = "Death from above!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
-spec = "vindicator"
 balance = "April 2024"
 benchmark = "33.6k DPS"
 +++
