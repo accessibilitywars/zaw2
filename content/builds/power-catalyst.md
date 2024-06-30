@@ -1,5 +1,5 @@
 +++
-title = "Power Catalyst"
+title = "Power Catalyst [pDPS]"
 description = "An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it."
 date = 2024-03-04
 draft = false

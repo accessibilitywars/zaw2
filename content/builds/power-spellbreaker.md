@@ -1,5 +1,5 @@
 +++
-title = "Dagger Storm­breaker"
+title = "Dagger Storm­breaker [pDPS]"
 description = "This build is designed around lightning field dagger leaps that creates a sizable initial burst, followed by lightning strikes from the Air Sigil and and whirwinds from the ultimate axe attack."
 date = 2024-05-08
 draft = false

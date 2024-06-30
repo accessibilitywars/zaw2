@@ -1,5 +1,5 @@
 +++
-title = "Symbolic Avenger"
+title = "Symbolic Avenger [pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing utilities, crowd control and condi cleanses."
 date = 2024-04-02
 draft = false

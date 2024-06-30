@@ -1,5 +1,5 @@
 +++
-title = "Power Vindicator"
+title = "Power Vindicator [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
 draft = false

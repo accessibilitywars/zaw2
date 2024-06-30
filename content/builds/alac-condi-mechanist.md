@@ -1,5 +1,5 @@
 +++
-title = "Alacrity Condi Mechanist"
+title = "Alacrity Condi Mechanist [aDPS]"
 description = "Probablty the easiest to play Alacrity... hmmm"
 date = 2024-05-26
 draft = false
@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["condi","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
+tags = ["alacrity", "condi","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
 specs = ["mechanist", "engineer"]
 

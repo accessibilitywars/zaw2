@@ -1,5 +1,5 @@
 +++
-title = "The Bell Ringer"
+title = "The Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
 updated = 2024-04-11

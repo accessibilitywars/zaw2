@@ -1,5 +1,5 @@
 +++
-title = "Condi Virtuoso"
+title = "Condi Virtuoso [cDPS]"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
 updated = 2024-05-26

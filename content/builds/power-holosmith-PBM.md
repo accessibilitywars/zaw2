@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith PBM"
+title = "Power Holosmith PBM [pDPS]"
 description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
 draft = false
