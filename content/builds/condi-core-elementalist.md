@@ -49,7 +49,7 @@ Core Elementalist has been a passion project of mine, and today I am happy to pr
 
 ## Notes
 
-Use all of your skills off cooldown in Fire attunement, except for your healing skill.
+Use all of your skills off cooldown in {{ skill(id="5492") }} attunement, except for your healing skill.
 
 Your CC skills are:  
 1. {{ skill(id="5490") }} (Water Focus 5)  
@@ -62,8 +62,9 @@ Your CC skills are:
 You should cycle through your elements in the order:  
 1. {{ skill(id="5493") }}
 1. {{ skill(id="5494") }}
-1. {{ skill(id="5495") }}  
-to CC, and return back to Fire as soon as it is off cooldown.
+1. {{ skill(id="5495") }}
+
+to CC, and return back to {{ skill(id="5492") }} as soon as it is off cooldown.
 
 However, while you do have a lot of CC, going into CC is a DPS loss. As a result, this build is most effective on fights where you do not have to CC. 
 
