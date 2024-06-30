@@ -1,5 +1,5 @@
 +++
-title = "Power Harbinger"
+title = "Power Harbinger [pDPS]"
 description = "Alternative power build for Necro enjoyers who are sick of playing Reaper"
 date = 2024-04-10
 draft = false

@@ -1,5 +1,5 @@
 +++
-title = "Alacrity Power Mechanist"
+title = "Alacrity Power Mechanist [aDPS]"
 description = "Probably the easiest to play Alacrity build"
 date = 2024-05-26
 draft = false

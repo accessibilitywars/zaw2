@@ -1,5 +1,5 @@
 +++
-title = "Putrid Petmaster"
+title = "Putrid Petmaster [cDPS]"
 description = "With the power of hordes of minions filled with poison, this is a build to really go after Zhaitan's heart"
 date = 2024-04-11
 template = "build.html"

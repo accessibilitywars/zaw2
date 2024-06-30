@@ -1,5 +1,5 @@
 +++
-title = "Blade of Alacrity (30k DPS)"
+title = "Blade of Alacrity [aDPS]"
 description = "This build is designed around empowered poison/bleeding and Dagger bursts."
 date = 2024-06-07
 draft = false

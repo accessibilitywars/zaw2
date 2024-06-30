@@ -1,5 +1,5 @@
 +++
-title = "Condi Harbinger"
+title = "Condi Harbinger [cDPS]"
 description = "With buckets of blood, torment and poison, this bursty condi build can take down a lot of things solo, as well as contribute a lot of quickness with a pulsing aura."
 date = 2024-03-14
 draft = true

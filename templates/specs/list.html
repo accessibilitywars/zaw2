@@ -21,10 +21,10 @@
     <div>
       <div class="c">
         <h1>{{ terms | length }} {{ macros::translate(key="Specializations", default="Specializations", i18n=i18n) }} </h1>
-        <p>{% for term in terms %}<img style="height: 1em;" src="/images/icons/{{ term.name }}.png"/> #<a href="#{{ term.name }}">{{ term.name }}</a><sup>{{ term.pages | length }}</sup> {% endfor %}</p>
+        <p>{% for term in terms %}<span style='white-space: nowrap;'><img style="height: 1em;" src="/images/icons/{{ term.name }}.png"/>&nbsp;#<a href="#{{ term.name }}">{{ term.name }}</a><sup>{{ term.pages | length }}</sup></span> {% endfor %}</p>
       </div>
       {%- for term in terms %}
-      <h2 id="{{ term.name }}"><img style="float: left; height: 1em;" src="/images/icons/{{ term.name }}.png"/>&nbsp;<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
+      <h2 id="{{ term.name }}"><img style="height: 1em;" src="/images/icons/{{ term.name }}.png"/>&nbsp;<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
       {%- for page in term.pages %}
       <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
       {%- endfor %}

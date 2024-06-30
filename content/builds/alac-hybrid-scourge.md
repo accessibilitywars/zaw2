@@ -1,5 +1,5 @@
 +++
-title = "Seraph of the Sand"
+title = "Seraph of the Sand [aHeal]"
 description = "This is a build relies on traits like Sand Sage and Sand Shades to hit 100% condition duration while providing moderate DPS through the use of Seraph stats to boost healing, concentration, condi damage and precision."
 date = 2024-05-20
 draft = false
