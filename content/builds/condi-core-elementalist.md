@@ -10,7 +10,7 @@ template = "build.html"
 categories = ["group"]
 tags = ["condi","elementalist","hot","lowcog"]
 authors = ["scooby"]
-specs = ["mesmer"]
+specs = ["elementalist"]
 
 [extra]
 series = "elementalist"
