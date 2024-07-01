@@ -16,8 +16,8 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with/without Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "April 2024"
-benchmark = "28k DPS"
+balance = "June 2024"
+benchmark = "32k DPS"
 +++
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 
@@ -120,7 +120,7 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
 
 #### DPS benchmark (28-29k)
-{{ youtube(id="u_gXMCOkUh4") }}
+{{ youtube(id="xOLjCEErMD8") }}
 
 #### LI Dagger Rotation
 {{ youtube(id="8xBio3WnVXw") }}
