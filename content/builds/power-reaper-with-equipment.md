@@ -32,24 +32,35 @@ Classic power reaper spin to win playstyle. Generally speaking, this plays like:
 
 This plays quite tanky and comfy. There are some modifications below to adjust.
 
-- {{ item(name="Zojja's Masque") }} {{ item(id="24836") }}
-- {{ item(name="Zojja's Epaulets") }} {{ item(id="24836") }}
-- {{ item(name="Zojja's Doublet") }} {{ item(id="24836") }}
-- {{ item(name="Zojja's Wristguards") }} {{ item(id="24836") }}
-- {{ item(name="Zojja's Breeches") }} {{ item(id="24836") }}
-- {{ item(name="Zojja's Footwear") }} {{ item(id="24836") }}
+| Armor                                                    | Stat        | Upgrade                |
+| -------------------------------------------------------- | ----------- | ---------------------- |
+| {{ item(name="Zojja's Masque", upgrades="24836") }}      | Berserker's | {{ item(id="24836") }} |
+| {{ item(name="Zojja's Epaulets", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
+| {{ item(name="Zojja's Doublet", upgrades="24836") }}     | Berserker's | {{ item(id="24836") }} |
+| {{ item(name="Zojja's Wristguards", upgrades="24836") }} | Berserker's | {{ item(id="24836") }} |
+| {{ item(name="Zojja's Breeches", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
+| {{ item(name="Zojja's Footwear", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
 
-- Backpack: Dragon's
-- Accessory 1: Dragon's
-- Accessory 2: Dragon's
-- Ring 1: Dragon's
-- Ring 2: Dragon's
-- Amulet: Dragon's
-- Weapon A1: Greatsword, Berserker's, Superior Sigil of Force, Superior Sigil of Hydromancy
-- Weapon B1: Sword, Berserker's, Superior Sigil of Force
-- Weapon B2: Sword, Berserker's, Superior Sigil of Air
+| Trinkets | Type | Stat |
+| -------- | ---- | ---- |
+| {{ item(name="Ad Infinitum", stat="1697") }} | Back item | Dragon's |
+| {{ item(name="Aurora", stat="1697") }} | Accessory | Dragon's |
+| {{ item(name="Vision", stat="1697") }} | Accessory | Dragon's |
+| {{ item(name="Conflux", stat="1697") }} | Ring | Dragon's |
+| {{ item(name="Coalescence", stat="1697") }} | Ring | Dragon's |
+| {{ item(name="Prismatic Champion's Regalia", stat="1697") }} | Amulet | Dragon's |
+| {{ item(name="Relic of the Thief") }} or {{ item(id="100947", name="Relic of Fireworks") }} | Relic ||
 
-- {{ item(name="Relic of the Thief") }} or {{ item(id="100947", name="Relic of Fireworks") }}
+| Weapon Set 1| Type | Stat | Upgrade |
+| ----------- | ---- | ---- | ------- |
+| {{ item(id="95129" stat="1077", upgrades="91439,91406") }} | Greatsword | Berserker's | {{ item(id="91439") }} |
+| | | | {{ item(id="91406") }} |
+
+| Weapon Set 2 | Type | Stat | Upgrade |
+| ------------ | ---- | ---- | ------- |
+| {{ item(id="95109", stat="1077", upgrades="91439") }} | Sword | Berserker's | {{ item(id="91439") }} |
+| {{ item(id="95122", stat="1077", upgrades="91520") }} | Sword | Berserker's | {{ item(id="91520") }} |
+
 
 ## Alternatives and why...
 
