@@ -3,6 +3,7 @@
 # read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
 /content/builds/alac-condi-mechanist.md @scoobysharky
 /content/builds/alac-power-mechanist.md @scoobysharky
+/content/builds/condi-core-elementalist.md @scoobysharky
 /content/builds/condi-mechanist.md @scoobysharky
 /content/builds/condi-tempest.md @scoobysharky
 /content/builds/condi-virtuoso.md @scoobysharky
@@ -18,6 +19,7 @@
 /content/builds/power-mechanist-sword.md @scoobysharky
 /content/builds/power-scrapper.md @scoobysharky
 /content/builds/power-soulbeast.md @scoobysharky
+/content/builds/power-tempest.md @scoobysharky
 /content/builds/power-vindicator.md @scoobysharky
 /content/builds/quickness-power-harbinger.md @scoobysharky
 /content/builds/quickness-power-herald.md @scoobysharky
