@@ -4,7 +4,10 @@
 {%- for item in items.records -%}
   {%- set item_name = item.1 | lower -%}
   {%- if id and item.0 == id -%}
-	<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"></span> {{item.1 | safe}}
+	<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"
+		{%- if upgrades %} data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
+		{%- if stat %} data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
+	></span> {{item.1 | safe}}
 	{%- set_global found_exact = true -%}
 	{% break %}
   {%- elif not id and name -%}
@@ -13,7 +16,10 @@
 			<span title="WARNING: multiple exact matches for {{item.1 | safe}}. Use id param to differentiate!" style='color: red; font-weight: bold;'> ERROR</span>
 			{%- break -%}
 		{%- endif -%}
-		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"></span> {{item.1 | safe}}
+		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"
+			{%- if upgrades %} data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
+			{%- if stat %} data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
+		></span> {{item.1 | safe}}
 		{%- set_global found_exact = true -%}
 	{%- elif name | lower in item_name -%}
 		{% set_global fuzzy_item = item -%}
@@ -22,13 +28,16 @@
 {%- endfor -%}
 
 {%- if not found_exact -%}
-	{%- if fuzzy_trait -%}
-		<span class="armory-inline" data-armory-embed="traits" data-armory-ids="{{fuzzy_trait.0 | safe}}"></span> {{fuzzy_trait.1 | safe}}
+	{%- if fuzzy_item -%}
+		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{fuzzy_item.0 | safe}}" 
+			{%- if upgrades %}data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
+			{%- if stat %}data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
+		></span> {{fuzzy_item.1 | safe}}
 	{%- elif name -%}
 		<span title="ERROR: no matches for {{name | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
-		{{ throw(message="no matches for trait " ~ name) }}
-	{%- else -%}
+		{{ throw(message="no matches for item " ~ name) }}
+	{%- elif id -%}
 		<span title="ERROR: no id match for {{id | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
-		{{ throw(message="no matches for trait " ~ id) }}
+		{{ throw(message="no matches for item " ~ id) }}
 	{%- endif -%}
 {%- endif -%}
