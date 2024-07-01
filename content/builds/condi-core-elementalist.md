@@ -1,6 +1,6 @@
 +++
 title = "Condi Core Elementalist"
-description = "Who knew that flying swords and throwing daggers would cause bleeding?"
+description = "No expansions needed for this strong condi elementalist build"
 date = 2024-06-30
 updated = 2024-06-30
 draft = false
