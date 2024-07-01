@@ -1,5 +1,5 @@
 +++
-title = "Power Soulbeast [pDPS]"
+title = "Beastblade [pDPS]"
 description = "A power-based soulbeast build. This build relies on a single combo, but otherwise boils down to just hitting buttons when they're off cooldown."
 date = 2024-03-27
 template = "build.html"

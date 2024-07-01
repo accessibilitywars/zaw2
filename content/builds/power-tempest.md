@@ -1,5 +1,5 @@
 +++
-title = "Power Tempest"
+title = "Electromancer Tempest [pDPS]"
 description = "Simple, step based rotation with most of your damage in Overload Air"
 date = 2024-06-30
 updated = 2024-06-30

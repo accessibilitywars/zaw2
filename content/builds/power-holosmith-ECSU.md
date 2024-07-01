@@ -1,5 +1,5 @@
 +++
-title = "Power Holosmith ECSU [pDPS]"
+title = "Thermal Runaway [pDPS]"
 description = "One of our tougher builds, but well worth the reward"
 date = 2024-05-05
 draft = false

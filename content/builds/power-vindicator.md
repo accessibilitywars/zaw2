@@ -1,5 +1,5 @@
 +++
-title = "Power Vindicator [pDPS]"
+title = "Lord of the Stomp [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
 draft = false

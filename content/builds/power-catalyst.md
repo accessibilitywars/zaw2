@@ -1,5 +1,5 @@
 +++
-title = "Power Catalyst [pDPS]"
+title = "Catalytic Converter [pDPS]"
 description = "An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it."
 date = 2024-03-04
 draft = false

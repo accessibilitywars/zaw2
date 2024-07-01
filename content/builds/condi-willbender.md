@@ -1,5 +1,5 @@
 +++
-title = "Condi Willbender [cDPS]"
+title = "Flamebender [cDPS]"
 description = "Learn 1 simple combo, and hit everything else off cooldown."
 date = 2024-05-23
 draft = false
