@@ -34,20 +34,20 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 | Armor                                                    | Stat        | Upgrade                |
 | -------------------------------------------------------- | ----------- | ---------------------- |
-| {{ itemicon(name="Zojja's Masque", upgrades="24836") }}      | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Zojja's Epaulets", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Zojja's Doublet", upgrades="24836") }}     | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Zojja's Wristguards", upgrades="24836") }} | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Zojja's Breeches", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Zojja's Footwear", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Cowl", stat="1077", upgrades="24836") }}      | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Mantle", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Vestments", stat="1077", upgrades="24836") }}     | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Gloves", stat="1077", upgrades="24836") }} | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Pants", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Shoes", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
 
 | Primary Weapon| Type | Stat | Upgrade |
 | ----------- | ---- | ---- | ------- |
-| {{ itemicon(id="95129" stat="1077", upgrades="91439,91406") }} | Greatsword | Berserker's | {{ item(id="91439", name="Force") }} |
+| {{ itemicon(name="Aurene's Bite", stat="1077", upgrades="91439,91406") }} | Greatsword | Berserker's | {{ item(id="91439", name="Force") }} |
 | | | | {{ item(id="91406", name="Hydromancy") }} |
 | **Alt Weapon** | **Type** | **Stat** | **Upgrade** |
-| {{ itemicon(id="95109", stat="1077", upgrades="91439") }} | Sword | Berserker's | {{ item(id="91439", name="Force") }} |
-| {{ itemicon(id="95122", stat="1077", upgrades="91520") }} | Sword | Berserker's | {{ item(id="91520", name="Air") }} |
+| {{ itemicon(name="Aurene's Fang", stat="1077", upgrades="91439") }} | Sword | Berserker's | {{ item(id="91439", name="Force") }} |
+| {{ itemicon(name="Aurene's Fang", stat="1077", upgrades="91520") }} | Sword | Berserker's | {{ item(id="91520", name="Air") }} |
 
 ---
 
