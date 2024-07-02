@@ -1,5 +1,5 @@
 +++
-title = "Condi Core Elementalist"
+title = "Core Elementalist [cDPS]"
 description = "No expansions needed for this strong condi elementalist build"
 date = 2024-06-30
 updated = 2024-06-30

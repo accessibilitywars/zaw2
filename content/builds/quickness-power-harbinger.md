@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Harbinger [qDPS]"
+title = "Dread Apothecary [qDPS]"
 description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
 date = 2024-05-05
 draft = false

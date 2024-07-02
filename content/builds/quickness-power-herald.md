@@ -1,5 +1,5 @@
 +++
-title = "Quickness Power Herald [qDPS]"
+title = "Heart of the Dragon [qDPS]"
 description = "The easiest raid build, now with quickness!"
 date = 2024-05-16
 draft = false

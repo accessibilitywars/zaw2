@@ -1,5 +1,5 @@
 +++
-title = "Alacrity Condi Mechanist [aDPS]"
+title = "Chronomechanic [aDPS]"
 description = "Probablty the easiest to play Alacrity... hmmm"
 date = 2024-05-26
 draft = false
