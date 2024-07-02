@@ -2,7 +2,7 @@
 title = "The Equipped Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
-updated = 2024-04-11
+updated = 2024-07-02
 template = "build.html"
 draft = true
 
