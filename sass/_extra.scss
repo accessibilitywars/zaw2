@@ -28,10 +28,28 @@
 	-ms-interpolation-mode: bicubic;
 }
 
+table {
+  margin: 0.5em;
+  float: left;
+  max-width: 35%;
+}
+
+td {
+  white-space: nowrap;
+}
+
+hr {
+  clear: both;
+}
+
 div.boxed {
   padding: 0.5em;
   background-color: color-mix(in srgb, var(--c1), transparent 25%);
   border: 1px solid black;
+}
+
+div {
+  clear: both;
 }
 
 .buildheader * {

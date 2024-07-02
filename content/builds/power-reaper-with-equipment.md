@@ -2,7 +2,7 @@
 title = "The Equipped Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
-updated = 2024-04-11
+updated = 2024-07-02
 template = "build.html"
 draft = true
 
@@ -34,33 +34,38 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 | Armor                                                    | Stat        | Upgrade                |
 | -------------------------------------------------------- | ----------- | ---------------------- |
-| {{ item(name="Zojja's Masque", upgrades="24836") }}      | Berserker's | {{ item(id="24836") }} |
-| {{ item(name="Zojja's Epaulets", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
-| {{ item(name="Zojja's Doublet", upgrades="24836") }}     | Berserker's | {{ item(id="24836") }} |
-| {{ item(name="Zojja's Wristguards", upgrades="24836") }} | Berserker's | {{ item(id="24836") }} |
-| {{ item(name="Zojja's Breeches", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
-| {{ item(name="Zojja's Footwear", upgrades="24836") }}    | Berserker's | {{ item(id="24836") }} |
+| {{ itemicon(name="Perfected Envoy Cowl", stat="1077", upgrades="24836") }}      | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Mantle", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Vestments", stat="1077", upgrades="24836") }}     | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Gloves", stat="1077", upgrades="24836") }} | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Pants", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Shoes", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+
+| Primary Weapon| Type | Stat | Upgrade |
+| ----------- | ---- | ---- | ------- |
+| {{ itemicon(name="Aurene's Bite", stat="1077", upgrades="91439,91406") }} | Greatsword | Berserker's | {{ item(id="91439", name="Force") }} |
+| | | | {{ item(id="91406", name="Hydromancy") }} |
+| **Alt Weapon** | **Type** | **Stat** | **Upgrade** |
+| {{ itemicon(name="Aurene's Fang", stat="1077", upgrades="91439") }} | Sword | Berserker's | {{ item(id="91439", name="Force") }} |
+| {{ itemicon(name="Aurene's Fang", stat="1077", upgrades="91520") }} | Sword | Berserker's | {{ item(id="91520", name="Air") }} |
+
+---
 
 | Trinkets | Type | Stat |
 | -------- | ---- | ---- |
-| {{ item(name="Ad Infinitum", stat="1697") }} | Back item | Dragon's |
-| {{ item(name="Aurora", stat="1697") }} | Accessory | Dragon's |
-| {{ item(name="Vision", stat="1697") }} | Accessory | Dragon's |
-| {{ item(name="Conflux", stat="1697") }} | Ring | Dragon's |
-| {{ item(name="Coalescence", stat="1697") }} | Ring | Dragon's |
-| {{ item(name="Prismatic Champion's Regalia", stat="1697") }} | Amulet | Dragon's |
-| {{ item(name="Relic of the Thief") }} or {{ item(id="100947", name="Relic of Fireworks") }} | Relic ||
+| {{ itemicon(name="Ad Infinitum", stat="1697") }} | Back item | Dragon's |
+| {{ itemicon(name="Prismatic Champion's Regalia", stat="1697") }} | Amulet | Dragon's |
+| {{ itemicon(name="Aurora", stat="1697") }} | Accessory | Dragon's |
+| {{ itemicon(name="Vision", stat="1697") }} | Accessory | Dragon's |
 
-| Weapon Set 1| Type | Stat | Upgrade |
-| ----------- | ---- | ---- | ------- |
-| {{ item(id="95129" stat="1077", upgrades="91439,91406") }} | Greatsword | Berserker's | {{ item(id="91439") }} |
-| | | | {{ item(id="91406") }} |
+| Trinkets | Type | Stat |
+| -------- | ---- | ---- |
+| {{ itemicon(name="Conflux", stat="1697") }} | Ring | Dragon's |
+| {{ itemicon(name="Coalescence", stat="1697") }} | Ring | Dragon's |
+| {{ itemicon(name="Relic of the Thief") }} | Relic | Thief |
+| {{ itemicon(id="100947") }} | Relic (alternative) | Fireworks |
 
-| Weapon Set 2 | Type | Stat | Upgrade |
-| ------------ | ---- | ---- | ------- |
-| {{ item(id="95109", stat="1077", upgrades="91439") }} | Sword | Berserker's | {{ item(id="91439") }} |
-| {{ item(id="95122", stat="1077", upgrades="91520") }} | Sword | Berserker's | {{ item(id="91520") }} |
-
+---
 
 ## Alternatives and why...
 

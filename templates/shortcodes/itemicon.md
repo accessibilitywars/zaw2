@@ -7,7 +7,7 @@
 	<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"
 		{%- if upgrades %} data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
 		{%- if stat %} data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
-	></span>&nbsp;{% if not hidename %}{% if name %}{{name | safe}}{% else %}{{item.1 | safe}}{% endif %}{% endif %}
+	></span> 
 	{%- set_global found_exact = true -%}
 	{% break %}
   {%- elif not id and name -%}
@@ -19,7 +19,7 @@
 		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{item.0 | safe}}"
 			{%- if upgrades %} data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
 			{%- if stat %} data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
-		></span>&nbsp;{% if not hidename %}{{item.1 | safe}}{% endif %}
+		></span> 
 		{%- set_global found_exact = true -%}
 	{%- elif name | lower in item_name -%}
 		{% set_global fuzzy_item = item -%}
@@ -32,7 +32,7 @@
 		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{fuzzy_item.0 | safe}}" 
 			{%- if upgrades %}data-armory-{{item.0 | safe}}-upgrades="{{upgrades}}"{% endif -%}
 			{%- if stat %}data-armory-{{item.0 | safe}}-stat="{{stat}}"{% endif -%}
-		></span>&nbsp;{% if not hidename %}{{fuzzy_item.1 | safe}}{% endif %}
+		></span> 
 	{%- elif name -%}
 		<span title="ERROR: no matches for {{name | safe}}" style='color: red; font-weight: bold;'>ERROR (mouseover for details)</span>
 		{{ throw(message="no matches for item " ~ name) }}
