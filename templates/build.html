@@ -100,8 +100,10 @@
 	{%- endif %}
 
 {%- if page.extra.balance %}
-{%- if page.extra.balance != config.extra.balance %}
-<div><h2 style="color: Crimson;">Warning: this build was created for an earlier balance patch. It may not perform up to expectations.</h2></div>
+{%- if page.extra.balance == config.extra.prev_balance %}
+<div><h3 style="color: Gold;">Caution: this build was created for the previous {{ page.extra.balance }} balance patch. It may not perform up to expectations.</h2></div>
+{%- elif page.extra.balance != config.extra.balance %}
+<div><h2 style="color: Crimson;">Warning: this build was created for an older {{ page.extra.balance }} balance patch. It likely will not perform up to expectations.</h2></div>
 {%- endif %}
 {%- endif %}
 
@@ -236,6 +238,8 @@
 		  <h2 class="b s150">Balance</h2>
 		  {%- if page.extra.balance == config.extra.balance %}
 			<p style="color: LightGreen;">{{ page.extra.balance }}</p>
+		  {%- elif page.extra.balance == config.extra.prev_balance %}
+			<p style="color: Gold;">{{ page.extra.balance }}</p>
 		  {%- else %}
 			<p style="color: Crimson;">{{ page.extra.balance }}</p>
 		  {%- endif %}

@@ -71,6 +71,8 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		{%- if page.extra.balance %}
           {%- if page.extra.balance == config.extra.balance %}
 			<div style="color: LightGreen; text-align: right;">Balance: {{ page.extra.balance }}</div>
+          {%- elif page.extra.balance == config.extra.prev_balance %}
+			<div style="color: Black; background-color: Gold; text-align: right;">Balance: {{ page.extra.balance }}</div>
           {%- else %}
 			<div style="background-color: Crimson; text-align: right;">Balance: {{ page.extra.balance }}</div>
           {%- endif %}

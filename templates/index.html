@@ -71,9 +71,11 @@ This Template can also be used directly for the index eg: example.com/ or as the
         {%- endif %}
 		{%- if page.extra.balance %}
           {%- if page.extra.balance == config.extra.balance %}
-			<div style="color: LightGreen; text-align: right;">Balance: {{ page.extra.balance }}</div>
+			<div style="color: LightGreen; text-align: right;">Balance: {{ page.extra.balance }}&nbsp;</div>
+          {%- elif page.extra.balance == config.extra.prev_balance %}
+			<div style="color: Black; background-color: Gold; text-align: right;">Balance: {{ page.extra.balance }}&nbsp;</div>
           {%- else %}
-			<div style="background-color: Crimson; text-align: right;">Balance: {{ page.extra.balance }}</div>
+			<div style="color: White; background-color: Crimson; text-align: right;">Balance: {{ page.extra.balance }}&nbsp;</div>
           {%- endif %}
 		{%- endif %}
 	    </div>
@@ -108,7 +110,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		<div class="blockdiv">
 		  <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
 		  {%- set recent_items=config.extra.recent_items | default(value=9) -%}
-		  {%- for page in section_item.pages | slice(end=recent_items) | sort(attribute="date") | reverse %}
+		  {%- for page in section_item.pages | slice(end=recent_items) %}
 			{{- aw_macros::page_listing(page=page, config=config) }}
 		  {%- endfor %}
 
