@@ -1,5 +1,5 @@
 +++
-title = "M Power Mech [aDPS]"
+title = "Hyperclocked Mech [aDPS]"
 description = "Probably the easiest to play Alacrity build"
 date = 2024-05-26
 draft = false
