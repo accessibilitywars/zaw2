@@ -385,3 +385,4 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 #math_auto_render = false # Recommended setting false, and enable on per page bases instead.
 
 balance = "June 2024"
+prev_balance = "April 2024"
