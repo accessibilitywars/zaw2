@@ -25,21 +25,37 @@ Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 
 ## Gearing
 
-- Coat: Berserker, Superior Rune of Scholar
-- Boots: Berserker, Superior Rune of Scholar
-- Gloves: Berserker, Superior Rune of Scholar
-- Helm: Berserker, Superior Rune of Scholar
-- Leggings: Berserker, Superior Rune of Scholar
-- Shoulders: Berserker, Superior Rune of Scholar
-- Backpack: Berserker
-- Accessory 1: Assassin
-- Accessory 2: Assassin
-- Ring 1: Berserker
-- Ring 2: Berserker
-- Amulet: Berserker
-- Weapon 1: Scepter, Berserker, Superior Sigil of Force
-- Weapon 2: Warhorn, Sinister, Superior Sigil of Accuracy
-- Relic of Fireworks
+| Armor                                                    | Stat        | Upgrade                |
+| -------------------------------------------------------- | ----------- | ---------------------- |
+| {{ itemicon(name="Perfected Envoy Cowl", stat="1077", upgrades="24836") }}      | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Mantle", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Vestments", stat="1077", upgrades="24836") }}     | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Gloves", stat="1077", upgrades="24836") }} | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Pants", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+| {{ itemicon(name="Perfected Envoy Shoes", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
+
+| Primary Weapon| Type | Stat | Upgrade |
+| ----------- | ---- | ---- | ------- |
+| {{ itemicon(name="Aurene's Wisdom", stat="1077", upgrades="91439,91406") }} | Scepter | Berserker's | {{ item(id="24615", name="Force") }} |
+| {{ itemicon(name="Aurene's Voice", stat="1077", upgrades="91439,91406") }} | Warhorn | Berserker's | {{ item(id="24618", name="Accuracy") }} |
+
+---
+
+| Trinkets | Type | Stat |
+| -------- | ---- | ---- |
+| {{ itemicon(name="Ad Infinitum", stat="1077") }} | Back item | Berserker's |
+| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} | Amulet | Berserker's |
+| {{ itemicon(name="Aurora", stat="1077") }} | Accessory | Assassin's |
+| {{ itemicon(name="Vision", stat="1077") }} | Accessory | Assassin's |
+
+| Trinkets | Type | Stat |
+| -------- | ---- | ---- |
+| {{ itemicon(name="Conflux", stat="1077") }} | Ring | Berserker's |
+| {{ itemicon(name="Coalescence", stat="1077") }} | Ring | Berserker's |
+| {{ itemicon(id="100947") }} | Relic | Fireworks |
+
+---
+
 - Food: Bowl of Sweet and Spicy Butternut Squash Soup or Cilantro Lime Sous-Vide Steak
 - Enhancement: Potent Superior Sharpening Stone
 
@@ -49,9 +65,9 @@ Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 
 ## Notes
 
-The concept of this build relies on the trait Fresh Air resetting the cooldown of Air Attunement whenever you hit a critical hit. The build will crit cap with Fury, and it is pretty much guaranteed that you will reset it as soon as you exit Air Attunement.
+The concept of this build relies on the trait Fresh Air resetting the cooldown of Air Attunement whenever you crit. The build will crit cap with Fury, and it is pretty much guaranteed that you will reset it as soon as you exit {{ skill(id="5494") }}.
 
-You always want to precast Glyph of Elementals, as well as Overload Air, before the fight starts. As much as possible you want to hit your precasted Overload Air, but that is not always possible on all bosses.
+You always want to precast {{ skill(id="5666") }}, as well as {{ skill(id="29719") }}, before the fight starts. As much as possible you want to hit your precasted {{ skill(id="29719") }}, but that is not always possible on all bosses.
 
 The opener goes like this:
 
