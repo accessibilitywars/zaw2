@@ -1,5 +1,5 @@
 +++
-title = "Power Scrapper [pDPS]"
+title = "Gyroscopic Hammer [pDPS]"
 description = "Fast paced rotation with high burst damage."
 date = 2024-05-14
 draft = false

@@ -1,5 +1,5 @@
 +++
-title = "Hammer Power Mechanist [pDPS]"
+title = "Big Bang Mech [pDPS]"
 description = "Signet-heavy, with some chill hammer thumping."
 date = 2024-05-04
 draft = false

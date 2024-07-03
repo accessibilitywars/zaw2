@@ -1,5 +1,5 @@
 +++
-title = "Sword Power Mechanist [pDPS]"
+title = "Mechknight [pDPS]"
 description = "4 button rotation with lots of Signets"
 date = 2024-05-05
 draft = false
