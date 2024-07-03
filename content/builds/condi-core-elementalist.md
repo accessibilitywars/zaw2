@@ -1,6 +1,6 @@
 +++
 title = "Core Elementalist [cDPS]"
-description = "No expansions needed for this strong condi elementalist build"
+description = "No elite specialization required for this strong condi elementalist build"
 date = 2024-06-30
 draft = false
 template = "build.html"
