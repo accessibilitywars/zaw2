@@ -17,7 +17,7 @@ series = "daredevil"
 tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "34.2k DPS"
 +++
 
