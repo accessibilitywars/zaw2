@@ -43,7 +43,7 @@ However, it is built from source code and contributors can make edits and submis
 
 ## How to... edit
 
-1. Find a build to edit on the source repository.
+1. Find content (such as a build or guide) to edit on the source repository.
 	- all content lives in [this github folder](https://github.com/accessibilitywars/zaw2/tree/master/content)
 	- builds live in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
 	- guides live in [guides](https://github.com/accessibilitywars/zaw2/tree/master/content/guides)
