@@ -20,11 +20,9 @@ balance = "June 2024"
 benchmark = "18.8k DPS"
 +++
 
-This build is an extension of the condition tempest build. With scepter benefiting from power damage increases, this condition build can scale with multiple stats, making it a great performer in doing multiple roles at once. While this build has a low skill floor, it does have a high toughness and users should be expected to tank.\
+This build is an extension of the condition tempest build. With scepter benefiting from power damage increases, this condition build can scale with multiple stats, making it a great performer in doing multiple roles at once. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Swapping to water and air for CC is not detrimental compared to camping fire and is included as part of the rotation.\
 
-Swapping to water and air for CC is not detrimental compared to camping fire and is included as part of the rotation. The nature of overloads reduce the physical intensity of the build but this is not a low cognitive build. Spending more time exploring the class and reading through the tooltips and guides will help improve your play.\
-
-The rotation is not hard to perform but the options available are not obvious to a new player. This guide will hence be longer and more detailed than others, with the main focus on a general well-rounded build, and options to scale defensively or offensively. The available choices are not limited to the options presented in this guide.\
+The nature of overloads reduce the physical intensity of the build but this is not a low cognitive build. Spending more time exploring the class and reading through the tooltips and guides will help improve your play. The rotation is not hard to perform but the options available are not obvious to a new player. This guide will hence be longer and more detailed than others, with the main focus on a general well-rounded build, and options to scale defensively or offensively. The available choices are not limited to the options presented in this guide.\
 
 This build aims at achieving the following goals (in order of priority):
 1. Provide 100% Alacrity
@@ -32,7 +30,7 @@ This build aims at achieving the following goals (in order of priority):
 3. Provide adequate Heals
 4. Provide DPS that you can afford
 
-Do attempt to provide 10k or more DPS or you might want to consider playing a pure heal setup instead
+<small>Do attempt to provide 10k or more DPS or you might want to consider playing a pure heal setup instead</small>
 
 ## Gearing and Consumables
 #### Equipment
@@ -47,7 +45,7 @@ Do attempt to provide 10k or more DPS or you might want to consider playing a pu
 | Relic	(Heal)  | N/A           | {{ item(id="101268") }} |
 | Relic (DPS)   | N/A           | {{ item(id="100153") }} |
 
-> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use {{ item(id="78599") }} gear. The default runes and sigils are low-cost.*</small>\
+> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use Level-80 Booster gear. The default runes and sigils are low-cost.*</small>\
 > <small>*You may switch {{ item(id="24624") }} to {{ item(id="74326") }} if you need more heals.*</small>
 > <small>*{ item(id="99965") }} is overrated and its purpose of converting extra heals into effective heals via barrier is negated by the fact {{ skill(id="29535") }} already does so by triggering multiple heals*</small>
 
@@ -80,7 +78,7 @@ In order to provide alacrity, you will need to use Overloads. The overload skill
 
 #### Healing Over Time
 Tempest has reliable heal over time mechanics, primarily due to long lasting regeneration and soothing mist. In order to maintain soothing mist, water attunement must always be included as a bridge to swapping elements. Each time you swap into water, you provide 10s of soothing mist. 
-Therefore a simplified elemental rotation will be: 
+Therefore a simplified elemental cycle will be: 
 1. {{ skill(id="29706") }}
 2. {{ skill(id="5493") }}
 3. {{ skill(id="5495") }}
@@ -89,6 +87,7 @@ Therefore a simplified elemental rotation will be:
 Healers also need to provide boons but some healers are missing certain key boons eg. Scourge doesn’t have swiftness. There are two ways to provide swiftness, 
 1. {{ skill(id="30008") }} (not 100% uptime)
 2. {{ skill(id="30047") }} (not 100% uptime)
+
 Thus some players will squeeze air into the rotation. 
 
 #### Burst Heals
