@@ -1,6 +1,6 @@
 +++
 title = "Celestial Elements [aHeal]"
-description = "This is a build relies on the hybrid nature of scepter and powerful heal traits on tempest to make the most out of Celestial gear."
+description = "This is a build that relies on the hybrid nature of scepter and powerful heal traits on tempest to make the most out of Celestial gear."
 date = 2024-07-13
 draft = false
 template = "build.html"
@@ -20,9 +20,9 @@ balance = "June 2024"
 benchmark = "18.8k DPS"
 +++
 
-This build is an extension of the condition tempest build. With scepter benefiting from power damage increases, this condition build can scale with multiple stats, making it a great performer in doing multiple roles at once. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Swapping to water and air for CC is not detrimental compared to camping fire and is included as part of the rotation.\
+This build is an extension of the condition tempest build. With scepter benefiting from power damage increases, this condition build can scale with multiple stats, making it a great performer in doing multiple roles at once. While this build has a low skill floor, it does have a high toughness and players should be expected to tank. Swapping to water and air for CC is not detrimental compared to camping fire and is included as part of the rotation.\
 
-The nature of overloads reduce the physical intensity of the build but this is not a low cognitive build. Spending more time exploring the class and reading through the tooltips and guides will help improve your play. The rotation is not hard to perform but the options available are not obvious to a new player. This guide will hence be longer and more detailed than others, with the main focus on a general well-rounded build, and options to scale defensively or offensively. The available choices are not limited to the options presented in this guide.\
+The nature of overloads reduce the physical intensity of the build but this is not a low cognition build. Spending more time exploring the class and reading through the tooltips and guides will help improve your play. The rotation is not hard to perform but the options available are not obvious to a new player. This guide will hence be longer and more detailed than others, with the main focus on a general well-rounded build, and options to scale defensively or offensively. The available choices are not limited to the options presented in this guide.\
 
 This build aims at achieving the following goals (in order of priority):
 1. Provide 100% Alacrity
@@ -45,9 +45,9 @@ This build aims at achieving the following goals (in order of priority):
 | Relic	(Heal)  | N/A           | {{ item(id="101268") }} |
 | Relic (DPS)   | N/A           | {{ item(id="100153") }} |
 
-> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use {{ item(id="78586") }} gear. The default runes and sigils are low-cost.*</small>\
+> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use {{ item(id="78122") }} gear. The default runes and sigils are low-cost.*</small>\
 > <small>*You may switch {{ item(id="24624") }} to {{ item(id="74326") }} if you need more heals.*</small>
-> <small>*{ item(id="99965") }} is overrated and its purpose of converting extra heals into effective heals via barrier is negated by the fact {{ skill(id="29535") }} already does so by triggering multiple heals*</small>
+> <small>*{{ item(id="99965") }} is overrated and its purpose of converting extra heals into effective heals via barrier is negated by the fact {{ skill(id="29535") }} already does so by triggering multiple heals*</small>
 
 #### Food
 {{ item(id="91748") }} OR\
@@ -100,7 +100,7 @@ You have several options for burst heals:
 
 2. Blasting Water fields (water 5)
 
-	* Blasting Water fields gives an extremely strong triple heal effect. This is tricky because the {{ skill(id="30446") }} is fleeting and travels anterior to your character.
+	* Blasting Water fields gives an extremely strong triple heal effect. This is tricky because the {{ skill(id="30446") }} is fleeting and travels forward from your character.
 	* Your potential timing may miss the blast finisher due to {{ skill(id="30432") }} having a 1 second delay for its finisher
 	* For other options you need to swap elements to access other blast abilities.
 	* Running forward after casting may mitigate some of the quirks. 
@@ -115,18 +115,21 @@ You need to bring 'enough' condi cleanses.
 3. {{ trait(id="340") }} (moderate DPS loss)
 4. Combo: {{ trait(id="361") }} + {{ trait(id="1886") }} + {{ trait(id="340") }}
 
-If you need anything more than this, go and play Cele Scourge. 
-
+If you need anything more than this, Cele Scourge may be a better option. 
 
 ## Mastering the Elements
 #### Elemental Cycle
 Full Elemental rotation: Our rotation is simply just F1 F2 F3 F4, then F4 F3 F2 F1
+
 F1-F4
+
 1. {{ skill(id="29706") }}
 2. {{ skill(id="5493") }}
 3. {{ skill(id="5494") }} (optional)
 4. {{ skill(id="5495") }}
+
 F4-F1 (reverse)
+
 1. {{ skill(id="29618") }}
 2. {{ skill(id="5494") }} (optional)
 3. {{ skill(id="5493") }}
@@ -134,8 +137,9 @@ F4-F1 (reverse)
 
 ## Rotation
 #### DPS Rotation
-(Start in Fire)
-F1-F4
+
+(Start in Fire) F1-F4
+
 1. F1 {{ skill(id="29706") }}
 2. F2 {{ skill(id="5493") }}
 
@@ -150,6 +154,7 @@ F1-F4
 	* use Earth 5 to 1 in descending order
 
 F4-F1 (reverse)
+
 1. F4 {{ skill(id="29618") }}
 2. F3 {{ skill(id="5494") }} (optional)
 
@@ -173,7 +178,7 @@ F4-F1 (reverse)
 	* {{ skill(id="25491") }} -> {{ skill(id="25492") }} (Also works as a spike heal)
 
 ## Optimisation
-#### Omiting Air
+#### Omitting Air
 {{ skill(id="5494") }} is always optional in the rotation. This can be omitted in order to speed up the elemental cycle for various reasons:
 1. You need to get access to water faster. 
 2. You already have sufficient swiftness.
@@ -182,27 +187,29 @@ F4-F1 (reverse)
 
 Check with your team regarding the boons that you need to cover.
 
-#### Raid Ready
+---
+
+## Raid Ready
 * W1 Vale Guardian - You should be able to heal through greens pretty easily. Blast your healing fields before greens happen. Reserve {{ skill(id="29415") }} for emergencies.
-* W1 Gorseval - You may want to bring stability and aegis for this fight. Immobilise with {{ skill(id="5571") is also usef	ul during the split phase. 
+* W1 Gorseval - You may want to bring stability and aegis for this fight. Immobilising with {{ skill(id="5571") }} is also useful during the split phase. 
 * W1 Sabetha - Probably not a good idea to flak kite due to the way alac is distributed, unless you want to stay really close to the party. You can however use {{ skill(id="5536") }} to navigate past flame wall, which is pretty nifty.
-* W2 Slothasor - You will need to bring more condition cleanses for this fight and in doing so sacrifice damage 
+* W2 Slothasor - You will need to bring more condition cleanses for this fight and in doing so, will sacrifice damage 
 * W3 Xera - This build can tank xera and clear crystals at the same time.
-* W4 Cairn - This build is excellent on this fight. Be careful of Magnetic Aura as it can kill your allies.
+* W4 Cairn - This build is excellent on this fight. Be careful of {{ skill(id="5685") }} as it can kill your allies.
 * W4 Mursaat Overseer - Healing is not a priority and you can opt for more damage choices. You should however retain survival options for jade armors and the resultant death nova. 
-* W4 Samarog - Healing through this fight is extremely easy. CC however is quite a pain and you may consider bringing {{ skill(id="5567") }} for CC. Otherwise Try to bait as the tank if you can.
+* W4 Samarog - Healing through this fight is extremely easy. CC however is quite a pain and you may consider bringing {{ skill(id="5567") }} for CC. Otherwise try to bait as the tank if you can.
 * W4 Deimos - Due to your high toughness, you are likely to tank and will function as a great tank. Group aegis through {{ skill(id="30432") }} is extremely effective in CM! 
 * W5 Soulless Horror - You have enough toughness to tank this fight, enough damage to contribute. CC is going to be your biggest weakness. {{ skill(id="5536") }} can navigate through walls. 
 * W5 Dhuum - With your toughness, you will probably tank on this fight. You may opt to bring movement skills if you are doing the green mechanic (G3) as the tank. 
 * W6 Conjured Amalgamate - {{ skill(id="29968") }} is often used to bypass the clap mechanic on your subgroup.
 * W6 Twin Largos - This build does well tanking on either lanes for this fight.
 * W6 Qadim - Your CCs are not particularly super responsive so you need to know the fight well. 
-* W7 Adina - Magnetic aura is pretty cool on this fight.
+* W7 Adina - {{ skill(id="5685") }} is pretty cool on this fight.
 * W7 QTP - You are probably not the best tank on the list, but not the worst either. Unlike other tanks you can't exactly sit comfortably on the roads mechanic with damage mitigation strategies and you probably will accidentally point your cones in the wrong direction if you aren't careful enough.
 
 #### Pitfalls
 1. Just in case the other healer has 2k toughness and you are considering, Tempest in general does not perform as a better hand kite than other alternatives. You have to change a lot of things in the build which is outside the scope of this guide.
-2. You need to sacrifice a lot of be able do significant condi cleanses. It isn't a great performer on slothasor. 
+2. You need to sacrifice a lot to be able do significant condi cleanses. It isn't a great performer on slothasor. 
 3. The reflects on elementalist can be a little janky on Matthias. I recommend sticking to the tradition of using mesmers and guardians. 
 
 ## Videos
