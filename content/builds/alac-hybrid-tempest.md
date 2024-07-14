@@ -45,7 +45,7 @@ This build aims at achieving the following goals (in order of priority):
 | Relic	(Heal)  | N/A           | {{ item(id="101268") }} |
 | Relic (DPS)   | N/A           | {{ item(id="100153") }} |
 
-> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use Level-80 Booster gear. The default runes and sigils are low-cost.*</small>\
+> <small>*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. You may also just use {{ item(id="78586") }} gear. The default runes and sigils are low-cost.*</small>\
 > <small>*You may switch {{ item(id="24624") }} to {{ item(id="74326") }} if you need more heals.*</small>
 > <small>*{ item(id="99965") }} is overrated and its purpose of converting extra heals into effective heals via barrier is negated by the fact {{ skill(id="29535") }} already does so by triggering multiple heals*</small>
 
