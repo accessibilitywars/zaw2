@@ -65,7 +65,7 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 # Rotation / Notes
 
-- Pull enemies to melee range with {{ skill(name="Spectral Grasp") }} or {{ skill(name="Spectral Grasp") }}
+- Pull enemies to melee range with {{ skill(name="Spectral Grasp") }} or {{ skill(name="Grasping Darkness") }}
 - Hit enemies with {{ skill(name="death spiral") }} (Greatsword 3) to inflict vulnerability (and increase your crit chance)
 - Hit enemies with {{ skill(name="Chilled to the Bone") }} to inflict chill (which grants might, life force and nova explosions every time you hit them)
 - Go into {{ skill(name="Reaper's Shroud") }}, drop an ice field with {{ skill(id="30557", name="Executioner's Scythe") }}
