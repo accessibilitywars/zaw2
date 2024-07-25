@@ -67,6 +67,26 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 ---
 
+# Gearing with Macros
+
+## Light
+
+{{ larmor(stat="1077", rune="24836") }}
+
+---
+
+## Medium
+
+{{ marmor(stat="1077", rune="24836") }}
+
+---
+
+## Heavy
+
+{{ harmor(stat="1077", rune="24836") }}
+
+---
+
 ## Alternatives and why...
 
 - Cheaper/non-EoD option: Swap Dragon's for Berserker's

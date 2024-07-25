@@ -1,0 +1,52 @@
+{# HARDCODED TO HELL #}
+
+{# TODO: all the runes #}
+{%- macro rune(id) -%}
+{%- if id == "24836" -%} Scholar {%- endif -%}
+{%- endmacro -%}
+
+{# TODO: all the sigils #}
+{%- macro sigil(id) -%}
+{%- if id == "91406" -%} Hydromancy {%- endif -%}
+{%- endmacro -%}
+
+{# TODO: all the stats #}
+{%- macro stat(id) -%}
+{%- if id == "1077" -%} Berserker's {%- endif -%}
+{%- endmacro -%}
+
+{%- macro larmor(statid, runeid) -%}
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80248" data-armory-80248-upgrades="{{runeid}}" data-armory-80248-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80131" data-armory-80131-upgrades="{{runeid}}" data-armory-80131-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80190" data-armory-80190-upgrades="{{runeid}}" data-armory-80190-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80111" data-armory-80111-upgrades="{{runeid}}" data-armory-80111-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80356" data-armory-80356-upgrades="{{runeid}}" data-armory-80356-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80399" data-armory-80399-upgrades="{{runeid}}" data-armory-80399-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+</tbody></table>
+{%- endmacro larmor -%}
+
+{%- macro marmor(statid, runeid) -%}
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80296" data-armory-80296-upgrades="{{runeid}}" data-armory-80296-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80145" data-armory-80145-upgrades="{{runeid}}" data-armory-80145-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80578" data-armory-80578-upgrades="{{runeid}}" data-armory-8057-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80161" data-armory-80161-upgrades="{{runeid}}" data-armory-80161-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80252" data-armory-80252-upgrades="{{runeid}}" data-armory-80252-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80281" data-armory-80281-upgrades="{{runeid}}" data-armory-80281-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+</tbody></table>
+{%- endmacro marmor -%}
+
+{%- macro harmor(statid, runeid) -%}
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80384" data-armory-80384-upgrades="{{runeid}}" data-armory-80384-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80435" data-armory-80435-upgrades="{{runeid}}" data-armory-80435-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80254" data-armory-80254-upgrades="{{runeid}}" data-armory-80254-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80205" data-armory-80205-upgrades="{{runeid}}" data-armory-80205-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80277" data-armory-80277-upgrades="{{runeid}}" data-armory-80277-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80557" data-armory-80557-upgrades="{{runeid}}" data-armory-80557-stat="{{statid}}"></span></td><td>{{self::stat(id=statid)}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{runeid}}"></span> {{self::rune(id=runeid)}}</td></tr>
+</tbody></table>
+{%- endmacro harmor -%}
