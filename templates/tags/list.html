@@ -26,7 +26,7 @@
       {%- for term in terms %}
       <h2 id="{{ term.name }}">{{ aw_macros::safeicon(icon=term.name) }}#<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
       {%- for page in term.pages %}
-      <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+      <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
       {%- endfor %}
       {%- endfor %}
     </div>
