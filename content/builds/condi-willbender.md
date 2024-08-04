@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "Hans, get ze flammenwerfer"
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "37.3k DPS"
 +++
 

@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Death from above!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
-balance = "April 2024"
+balance = June 2024"
 benchmark = "33.6k DPS"
 +++
 

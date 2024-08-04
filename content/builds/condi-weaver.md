@@ -16,8 +16,8 @@ series = "elementalist"
 tagline =  "'Mr. Lava Lava. She call me Mr. Boombastic, tell me fantastic' -- Shaggy, probably"
 keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
-balance = "April 2024"
-benchmark = "35.3k DPS"
+balance = "June 2024"
+benchmark = "37.3k DPS"
 +++
 
 Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking.
@@ -56,6 +56,8 @@ You can replace off hand Focus with Warhorn, although based on my testing the da
 I understand the RNG with using Glyph of Lesser Elementals in a demo, which is why I have decided not to precast it. This means that I am able to show off the full rotation and build without inflating the final damage number. I choose to leave it in because I have seen many players who don't read and just use Glyph of Elemental Power during the actual fights.
 
 ## Video
+
+Damage is outdated, pending new video, but rotation is still the same.
 
 {{ youtube(id="fmIY5GpklGA") }}
 
