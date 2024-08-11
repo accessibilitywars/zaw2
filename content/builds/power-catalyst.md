@@ -24,9 +24,11 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 
 ## Gearing
 
-- Full Berserker's, with Runes of the Scholar or Dragonhunter
-- Sword/Warhorn with Force/Impact Sigils
-- Relic of the Thief, or Fireworks.
+{{ light(stat="Berserker's", rune="Scholar") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ warhorn_off(stat="Berserker's", sigil="Impact") }}
+{{ trinkets(stat="Berserker's", relic="Thief", alternate="Fireworks") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

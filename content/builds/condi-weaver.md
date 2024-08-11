@@ -25,9 +25,11 @@ We include some Elementals for extra friends when you're feeling lonely.
 
 ## Gearing
 
-- Full Viper's, Runes of the Trapper
-- Scepter/Focus, Sigils of Torment/Earth
-- Relic of the Fractal
+{{ light(stat="Viper's", rune="Trapper") }}
+{{ scepter_main(stat="Viper's", sigil="Torment") }}
+{{ focus_off(stat="Viper's", sigil="Earth") }}
+{{ trinkets(stat="Viper's", relic="Fractal") }}
+
 - Consumables:
   - Salsa-Topped Veggie Flatbread (Expertise/Condi Damage)
   - Toxic Focusing Crystal (Condi Damage)

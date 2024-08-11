@@ -25,19 +25,9 @@ Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 
 ## Gearing
 
-| Armor                                                    | Stat        | Upgrade                |
-| -------------------------------------------------------- | ----------- | ---------------------- |
-| {{ itemicon(name="Perfected Envoy Cowl", stat="1077", upgrades="24836") }}      | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Perfected Envoy Mantle", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Perfected Envoy Vestments", stat="1077", upgrades="24836") }}     | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Perfected Envoy Gloves", stat="1077", upgrades="24836") }} | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Perfected Envoy Pants", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
-| {{ itemicon(name="Perfected Envoy Shoes", stat="1077", upgrades="24836") }}    | Berserker's | {{ item(id="24836", name="Scholar") }} |
-
-| Primary Weapon| Type | Stat | Upgrade |
-| ----------- | ---- | ---- | ------- |
-| {{ itemicon(name="Aurene's Wisdom", stat="1077", upgrades="91439,91406") }} | Scepter | Berserker's | {{ item(id="24615", name="Force") }} |
-| {{ itemicon(name="Aurene's Voice", stat="1077", upgrades="91439,91406") }} | Warhorn | Berserker's | {{ item(id="24618", name="Accuracy") }} |
+{{ light(stat="Berserker's", rune="Scholar") }}
+{{ scepter_main(stat="Berserker's", sigil="Force") }}
+{{ warhorn_off(stat="Berserker's", sigil="Accuracy") }}
 
 ---
 
@@ -45,8 +35,8 @@ Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 | -------- | ---- | ---- |
 | {{ itemicon(name="Ad Infinitum", stat="1077") }} | Back item | Berserker's |
 | {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} | Amulet | Berserker's |
-| {{ itemicon(name="Aurora", stat="1077") }} | Accessory | Assassin's |
-| {{ itemicon(name="Vision", stat="1077") }} | Accessory | Assassin's |
+| {{ itemicon(name="Aurora", stat="1128") }} | Accessory | Assassin's |
+| {{ itemicon(name="Vision", stat="1128") }} | Accessory | Assassin's |
 
 | Trinkets | Type | Stat |
 | -------- | ---- | ---- |
