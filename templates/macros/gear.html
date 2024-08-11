@@ -1,87 +1,34 @@
-{# HARDCODED TO HELL #}
+{%- macro find_id(datapath, name) -%}
+{%- set data = load_data(path=datapath) -%}
+{%- set found = false %}
+{%- for d in data.records -%}
+  {%- set needle = name -%}
+  {%- set haystack = d.1 -%}
+  {%- if needle == haystack -%}
+    {{ d.0 }}
+    {%- set_global found = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if not found -%}
+ {{ throw(message="Missing data! " ~ name ~ " not present in " ~ datapath) }}
+{%- endif -%}
+{%- endmacro -%}
 
-{# TODO: all the stats #}
 {%- macro stat(name) -%}
-{%- if name == "Viper's" -%} 1268
-{%- elif name == "Berserker's" -%} 1077 
-{%- elif name == "Dragon's" -%} 1697 
-{%- elif name == "Celestial" -%} 1052	 
-{%- else -%}
- {{ throw(message="Missing data! Add Stat " ~ name ~ " to templates/macros/gear.html") }}
-{%- endif -%}
+  {{ self::find_id(datapath="static/itemstats.csv", name=name) }}
 {%- endmacro -%}
 
-{# TODO: all the runes #}
 {%- macro rune(name) -%}
-{%- if name == "Scholar" -%}24836
-{%- elif name == "Monk" -%}24842 
-{%- elif name == "Tempest" -%}76166 
-{%- else -%}
- {{ throw(message="Missing data! Add Rune " ~ name ~ " to templates/macros/gear.html") }}
-{%- endif -%}
+  {{ self::find_id(datapath="static/runes.csv", name=name) }}
 {%- endmacro -%}
 
-{# TODO: all the sigils #}
 {%- macro sigil(name) -%}
-{%- if name == "Hydromancy" -%} 24597
-{%- elif name == "Geomancy" -%} 24605 
-{%- elif name == "Force" -%} 24615 
-{%- elif name == "Air" -%} 24554
-{%- elif name == "Ice" -%} 24555
-{%- elif name == "Cleansing" -%} 67340
-{%- else -%}
- {{ throw(message="Missing data! Add Sigil " ~ name ~ " to templates/macros/gear.html") }}
-{%- endif -%}
+  {{ self::find_id(datapath="static/sigils.csv", name=name) }}
 {%- endmacro -%}
 
-{# TODO: all the relics #}
 {%- macro relic(name) -%}
-{%- if name == "Thief" -%} 100916 
-{%- elif name == "Fireworks" -%} 100947 
-{%- elif name == "Akeem" -%} 100432 
-{%- else -%}
- {{ throw(message="Missing data! Add Relic " ~ name ~ " to templates/macros/gear.html") }}
-{%- endif -%}
-{%- endmacro -%}
-
-{# ----------------------------------------------------------------------------------------- #}
-{# reversed. Deprecated, use names as above #}
-
-{# TODO: all the runes #}
-{%- macro id2rune(id) -%}
-{%- if id == "24836" -%} Scholar
-{%- elif id == "24842" -%} Monk 
-{%- else -%}
- {{ throw(message="Missing data! Add Rune " ~ id ~ " to templates/macros/gear.html") }}
-{%- endif -%}
-{%- endmacro -%}
-
-{# TODO: all the sigils #}
-{%- macro id2sigil(id) -%}
-{%- if id == "91406" -%} Hydromancy 
-{%- elif id == "91439" -%} Force 
-{%- elif id == "91520" -%} Air
-{%- else -%}
- {{ throw(message="Missing data! Add Sigil " ~ id ~ " to templates/macros/gear.html") }}
-{%- endif -%}
-{%- endmacro -%}
-
-{# TODO: all the relics #}
-{%- macro id2relic(id) -%}
-{%- if id == "100916" -%} Thief 
-{%- elif id == "100947" -%} Fireworks 
-{%- else -%}
- {{ throw(message="Missing data! Add Relic " ~ id ~ " to templates/macros/gear.html") }}
-{%- endif -%}
-{%- endmacro -%}
-
-{# TODO: all the stats #}
-{%- macro id2stat(id) -%}
-{%- if id == "1077" -%} Berserker's
-{%- elif id == "1697" -%} Dragon's
-{%- else -%}
- {{ throw(message="Missing data! Add Stat " ~ id ~ " to templates/macros/gear.html") }}
-{%- endif -%}
+  {{ self::find_id(datapath="static/relics.csv", name=name) }}
 {%- endmacro -%}
 
 {%- macro larmor(stat, rune) -%}
