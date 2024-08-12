@@ -213,5 +213,9 @@ Check with your team regarding the boons that you need to cover.
 3. The reflects on elementalist can be a little janky on Matthias. I recommend sticking to the tradition of using mesmers and guardians. 
 
 ## Videos
-#### DPS benchmark (18.8k)
-coming soon
+#### DPS benchmark (18k)
+{{ youtube(id="uydaDvc9xZI") }}
+This bench is done with only birthday cake and Karakosa Relic and no infusions/utilities. You may use fractal relic, utilities and infusions to easily punch about 20k DPS.
+
+#### OLC demo - Explanatory Video
+Coming Soon.
