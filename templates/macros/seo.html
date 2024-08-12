@@ -78,7 +78,7 @@
 {#- SEO MEDIA START #}
 {%- if page.taxonomies.specs %}
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:image" content="{{ get_url(path='images/specs/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
+  <meta name="twitter:image" content="{{ get_url(path='images/specs/crop/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
   <meta property="og:image" content="{{ get_url(path='images/specs/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
 
 {%- elif page.extra.thumbnail %}
