@@ -55,7 +55,7 @@ This build is also primarily ranged, accounting for ~93% of it's damage. Small t
 > 1. {{ skill(id="5492") }}/{{ skill(id="5495") }}
 
 **Precast:**
-> 1. {{ skill(id="5492") }} × 3 (if possible)
+> 1. {{ skill(id="25486") }} × 3 (if possible)
 > 1. {{ skill(id="5666") }}
 
 Your main loop consists of swapping between {{ skill(id="5492") }} and {{ skill(id="5495") }}, while casting all your damage dealing skills off cooldown.
