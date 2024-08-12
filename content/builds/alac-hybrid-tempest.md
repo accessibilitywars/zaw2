@@ -143,11 +143,11 @@ F4-F1 (reverse)
 1. F1 {{ skill(id="29706") }}
 2. F2 {{ skill(id="5493") }}
 
-	* use Water 5/4/3 (if available)
+	* use Water 5/4/3 (1 skill if available)
 
 3. F3 {{ skill(id="5494") }} (optional)
 
-	* use Air 5/4/3 (if available)
+	* use Air 5/4/3 (1 skill if available)
 
 4. F4 {{ skill(id="5495") }}
 
@@ -158,11 +158,11 @@ F4-F1 (reverse)
 1. F4 {{ skill(id="29618") }}
 2. F3 {{ skill(id="5494") }} (optional)
 
-	* use Air 5/4/3 (if available)
+	* use Air 5/4/3 (1 skill if available)
 
 3. F2 {{ skill(id="5493") }}
 
-	* use Water 5/4/3 (if available)
+	* use Water 5/4/3 (1 skill if available)
 
 4. F1 {{ skill(id="5492") }}
 
@@ -207,11 +207,15 @@ Check with your team regarding the boons that you need to cover.
 * W7 Adina - {{ skill(id="5685") }} is pretty cool on this fight.
 * W7 QTP - You are probably not the best tank on the list, but not the worst either. Unlike other tanks you can't exactly sit comfortably on the roads mechanic with damage mitigation strategies and you probably will accidentally point your cones in the wrong direction if you aren't careful enough.
 
-#### Pitfalls
+#### Pitfalls and Special Roles
 1. Just in case the other healer has 2k toughness and you are considering, Tempest in general does not perform as a better hand kite than other alternatives. You have to change a lot of things in the build which is outside the scope of this guide.
 2. You need to sacrifice a lot to be able do significant condi cleanses. It isn't a great performer on slothasor. 
 3. The reflects on elementalist can be a little janky on Matthias. I recommend sticking to the tradition of using mesmers and guardians. 
 
 ## Videos
-#### DPS benchmark (18.8k)
-coming soon
+#### DPS benchmark (18k)
+{{ youtube(id="uydaDvc9xZI") }}
+This bench is done with only birthday cake and Karakosa Relic and no infusions/utilities. You may use fractal relic, utilities and infusions to easily punch above 20k DPS.
+
+#### OLC demo - Explanatory Video
+{{ youtube(id="bCPk1Cz5AW8") }}
