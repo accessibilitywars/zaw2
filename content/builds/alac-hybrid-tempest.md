@@ -218,4 +218,5 @@ Check with your team regarding the boons that you need to cover.
 This bench is done with only birthday cake and Karakosa Relic and no infusions/utilities. You may use fractal relic, utilities and infusions to easily punch above 20k DPS.
 
 #### OLC demo - Explanatory Video
-Coming Soon.
+{{ youtube(id="bCPk1Cz5AW8") }}
+
