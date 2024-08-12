@@ -25,16 +25,15 @@ A hammer priority-based build, with two different priority sets (in/out of forge
 
 ## Gearing
 
-- Full Berserker's
-- Runes of the Scholar
-- Hammer, Sigils of Force & Impact
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)
 
 ## Build
-
 
 {{ chatlink(code="[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 

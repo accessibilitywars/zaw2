@@ -24,10 +24,10 @@ Signet-heavy, with some chill hammer thumping."
 
 ## Gearing
 
-- Full Berserker's
-- Runes of the Scholar
-- Hammer, Sigils of Force & Impact
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

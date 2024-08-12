@@ -24,10 +24,11 @@ This mechanist build is all-signets, and no kit usage, for simple play
 
 ## Gearing
 
-- Armor: Viper's with Runes of the Trapper
-- Trinkets: Viper's
-- Weapons: Viper's Pistol/Pistol with Sigils of Bursting/Earth
-- Relic of the Fractal
+{{ medium(stat="Viper's", rune="Trapper") }}
+{{ pistol_main(stat="Viper's", sigil="Bursting") }}
+{{ pistol_off(stat="Viper's", sigil="Earth") }}
+{{ trinkets(stat="Viper's", relic="Fractal") }}
+
 - Food & Utility: Cilantro Flatbread & Toxic Focusing Crystal
 
 ## Build

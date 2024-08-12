@@ -1,9 +1,8 @@
 +++
-title = "Putrid Petmaster [cDPS]"
-description = "With the power of hordes of minions filled with poison, this is a build to really go after Zhaitan's heart"
-date = 2024-04-11
+title = "Putrid Petmaster [DPS]"
+description = "With the power of hordes of minions filled with poison, this hybrid dps build really goes after Zhaitan's heart"
+date = 2024-08-11
 template = "build.html"
-draft = true
 
 [taxonomies]
 categories = ["solo"]
@@ -16,48 +15,29 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 +++
 
 # Overview 
 
-This open-world minion master excels when it's horde _dies_. You want to cycle through minions rapidly and often.
+This casual open-world minion master excels when it's horde _dies_. You want to cycle through minions rapidly and often.
 
 - Step 1: Summon horde
 - Step 2: Exploit horde
 - Step 3: Repeat
 
-Note that this does not peform well with single-target situations, as "Rise!" fuels much of the damage in this build.
+Note that this build does not peform very well with single-target situations, as {{ skill(name="Rise!") }} ultimately fuels much of the damage in this build.
 
 # Gearing
 
-> WORK IN PROGRESS
-
-- Celestial Coat, Superior Rune of the Tempest
-- Celestial Boots, Superior Rune of the Tempest
-- Celestial Gloves, Superior Rune of the Tempest
-- Celestial Helm, Superior Rune of the Tempest
-- Celestial Leggings, Superior Rune of the Tempest
-- Celestial Shoulders, Superior Rune of the Tempest
-- Backpack: Celestial
-- Accessory 1: Celestial
-- Accessory 2: Celestial
-- Ring 1: Celestial
-- Ring 2: Celestial
-- Amulet: Celestial
-- Weapon A1: Greatsword, Viper's, Superior Sigil of Geomancy, Superior Sigil of Hydromancy
-- Weapon B1: Staff, Viper's, Superior Sigil of Ice, Superior Sigil of Cleansing
-- Relic of Akeem
+{{ light(stat="Celestial", rune="Tempest") }}
+{{ greatsword(stat="Celestial", sigils=["Geomancy", "Hydromancy"]) }}
+{{ staff(stat="Celestial", sigils=["Ice", "Cleansing"]) }}
+{{ trinkets(stat="Celestial", relic="Akeem") }}
 
 # Build
 
-> WORK IN PROGRESS
-
-`[&DQgCHhMfIi6bAAAAcAEAAHYAAADkAAAAlQAAAAAAAAAAAAAAAAAAAAAAAAA=]`
-
----
-
-<div data-armory-embed='skills' data-armory-ids='10547,10589,10533,10541,10646'></div><div data-armory-embed='specializations' data-armory-ids='2,19,34' data-armory-2-traits='857,855,842'  data-armory-19-traits='1876,1844,782'  data-armory-34-traits='2020,2031,1919' ></div>
+{{ chatlink(code="[&DQgCHhMfIi6bAAAAcAEAAOQAAAAPEwAAlQAAAAAAAAAAAAAAAAAAAAAAAAACMgBZAAA=]") }}
 
 ## Notes
 
@@ -67,6 +47,7 @@ Note that this does not peform well with single-target situations, as "Rise!" fu
 - When out of shroud, use {{ skill(name="Rise!") }} when you can hit at least 3 enemies, and then build life force
 - When your minions die, they will spawn poison fields due to {{ trait(name="death nova") }}. Poison application also grants Carapace as well as causing some damage and inhibiting enemy healing.
 - Try to combo {{ skill(id="30504", name="Soul Spiral") }} in the poison fields to create additional poison bolts
+- Use the Bone Minion's flipover skill, {{ skill(name="Putrid Explosion") }}, to quickly generate fields. This is also a blast finisher.
 
 # Crowd Control
 

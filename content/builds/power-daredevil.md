@@ -25,9 +25,12 @@ Very high damage for very little APM, but requires great positioning.
 
 ## Gearing
 
-- Full Berserker's, with Runes of the Scholar or Dragonhunter
-- Staff with Force/Impact Sigils
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ staff(stat="Berserker's", sigils=["Force", "Impact"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
+> Dragonhunter runes work equally well
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

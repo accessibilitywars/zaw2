@@ -31,30 +31,15 @@ accessible warrior option.
 
 # Gearing
 
-- Berserker's Coat, Superior Rune of the Dragonhunter
-- Berserker's Boots, Superior Rune of the Dragonhunter
-- Berserker's Gloves, Superior Rune of the Dragonhunter
-- Berserker's Helm, Superior Rune of the Dragonhunter
-- Berserker's Leggings, Superior Rune of the Dragonhunter
-- Berserker's Shoulders, Superior Rune of the Dragonhunter
-- Backpack: Berserker's
-- Accessory 1: Berserker's
-- Accessory 2: Berserker's
-- Ring 1: Berserker's
-- Ring 2: Berserker's
-- Amulet: Berserker's
-- Weapon A1: Dagger, Berserker's, Superior Sigil of Air
-- Weapon A2: Axe, Berserker's, Superior Sigil of Force
-- Weapon B1: Hammer, Berserker's, Superior Sigil of Paralyzation, Superior Sigil of Energy
-- Relic of the Thief
+{{ heavy(stat="Berserker's", rune="Scholar") }}
+{{ dagger_main(stat="Berserker's", sigil="Force") }}
+{{ axe_off(stat="Berserker's", sigil="Air") }}
+{{ hammer(stat="Berserker's", sigils=["Paralyzation", "Energy"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
 
 # Build
 
-`[&DQIEHzMaEhXyEgAAoRIAAKkAAADXEgAAwhIAAAAAAAAAAAAAAAAAAAAAAAA=]`
-
----
-
-<div data-armory-embed='skills' data-armory-ids='30189,29613,14404,30258,30343'></div><div data-armory-embed='specializations' data-armory-ids='4,51,18' data-armory-4-traits='1444,1449,1437'  data-armory-51-traits='1413,1489,1369'  data-armory-18-traits='2049,2011,1928' ></div>
+{{ chatlink(code="[&DQIEHzMaEhXyEgAAoRIAAKkAAADXEgAAwhIAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 # Notes
 

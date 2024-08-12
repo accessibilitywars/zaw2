@@ -31,22 +31,15 @@ Classic power reaper spin to win playstyle. Generally speaking, this plays like:
 
 This plays quite tanky and comfy. There are some modifications below to adjust.
 
-- Berserker's Coat, Superior Rune of the Scholar
-- Berserker's Boots, Superior Rune of the Scholar
-- Berserker's Gloves, Superior Rune of the Scholar
-- Berserker's Helm, Superior Rune of the Scholar
-- Berserker's Leggings, Superior Rune of the Scholar
-- Berserker's Shoulders, Superior Rune of the Scholar
-- Backpack: Dragon's
-- Accessory 1: Dragon's
-- Accessory 2: Dragon's
-- Ring 1: Dragon's
-- Ring 2: Dragon's
-- Amulet: Dragon's
-- Weapon A1: Greatsword, Berserker's, Superior Sigil of Force, Superior Sigil of Hydromancy
-- Weapon B1: Sword, Berserker's, Superior Sigil of Force
-- Weapon B2: Sword, Berserker's, Superior Sigil of Air
-- Relic of the Thief (Fireworks is also an option)
+{{ light(stat="Berserker's", rune="Scholar") }}
+{{ greatsword(stat="Berserker's", sigils=["Force", "Hydromancy"]) }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ sword_off(stat="Berserker's", sigil="Air") }}
+{{ trinkets(stat="Dragon's", relic="Thief", alternative="Fireworks") }}
+
+# Build
+
+{{ chatlink(code="[&DQgTHjIlIj7BEgAAdwEAAPoAAAC9AQAAAxMAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ## Alternatives and why...
 
@@ -55,17 +48,9 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 - Dealing with percentage-based damage? Swap Dragon's for Berserker's
 - Not comfy enough? Swap Scholar runes for Vampirism (only do this for Open World, as it will over-burden your healers in some raid scenarios)
 
-# Build
-
-`[&DQgTHjIlIj7BEgAAdwEAAPoAAAC9AQAAAxMAAAAAAAAAAAAAAAAAAAAAAAA=]`
-
----
-
-<div data-armory-embed='skills' data-armory-ids='30488,10620,10583,10685,30105'></div><div data-armory-embed='specializations' data-armory-ids='19,50,34' data-armory-19-traits='788,1844,782'  data-armory-50-traits='875,894,893'  data-armory-34-traits='2020,2031,2021' ></div>
-
 # Rotation / Notes
 
-- Pull enemies to melee range with {{ skill(name="Spectral Grasp") }} or {{ skill(name="Spectral Grasp") }}
+- Pull enemies to melee range with {{ skill(name="Spectral Grasp") }} or {{ skill(name="Grasping Darkness") }}
 - Hit enemies with {{ skill(name="death spiral") }} (Greatsword 3) to inflict vulnerability (and increase your crit chance)
 - Hit enemies with {{ skill(name="Chilled to the Bone") }} to inflict chill (which grants might, life force and nova explosions every time you hit them)
 - Go into {{ skill(name="Reaper's Shroud") }}, drop an ice field with {{ skill(id="30557", name="Executioner's Scythe") }}
