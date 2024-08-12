@@ -48,8 +48,6 @@ Granting allies (or yourself) auras also gives you a large **10%** damage boost.
 
 Swap into Air or Water for **HUGE** amounts of CC whenever needed, and Overload Air/Water/camp Earth after while waiting to re-enter Fire attunement. This will drop your DPS to the floor but eh, mechanics are IMPORTANT.
 
-This build isn't even at its peak potential yet. You can't actually apply enough bleeding to proc your Relic of the Fractal, so that's ~500+ more DPS that you could be doing in an actual fight when you can proc it!
-
 ## Video
 
 Damage is outdated, pending new video, but rotation is still exactly the same.
