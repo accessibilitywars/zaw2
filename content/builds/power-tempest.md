@@ -27,7 +27,7 @@ benchmark = "37.4k DPS"
 
 Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 
-The concept of this build relies on the trait Fresh Air resetting the cooldown of Air Attunement whenever you crit. The build will crit cap with Fury, and it is pretty much guaranteed that you will reset it as soon as you exit {{ skill(id="5494") }}.
+The concept of this build relies on {{ trait(id="1503") }} resetting the cooldown of Air Attunement whenever you crit. The build will crit cap with Fury, and it is pretty much guaranteed that you will reset it as soon as you exit {{ skill(id="5494") }}.
 
 ## Gearing
 
@@ -97,7 +97,7 @@ if they are on cooldown.
 
 Do note that {{ skill(id="29719") }} has a ~3.5s cast time, and dodging or swapping attunements during it's cast will interrupt it and result in a large DPS loss. You can still move and use skills with no cast time, as well as queue a skill to cast after. However, this rotation is designed so that there is little to no risk of cancelling Overload Air with the rotation steps as {{ skill(id="5492") }} should still just be on cooldown when you complete {{ skill(id="29719") }}.
 
-On top of the main loop
+On top of the main loop,
 
 **Cast Off Cooldown:**
 > 1. {{ skill(id="5561") }} (Scepter Air 2)
