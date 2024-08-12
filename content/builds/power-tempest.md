@@ -21,7 +21,7 @@ balance = "June 2024"
 benchmark = "37.4k DPS"
 +++
 
-### Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
+#### Simple, step based rotation with most of your damage in {{ skill(id="29719") }}.
 
 ## Gearing
 
@@ -53,7 +53,10 @@ benchmark = "37.4k DPS"
 
 {{ chatlink(code="[&DQYlPSkvMBd0AHQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAAEVgAxADYAZwAA]") }}
 
+
 ## Notes
+
+---
 
 The concept of this build relies on the trait Fresh Air resetting the cooldown of Air Attunement whenever you crit. The build will crit cap with Fury, and it is pretty much guaranteed that you will reset it as soon as you exit {{ skill(id="5494") }}.
 
@@ -116,6 +119,9 @@ Scepter Air 3 Blinding Flash and Warhorn Air 4 Cyclone should be on your skill b
 
 with a preference of {{ skill(id="5493") }} 2 3 4, before continuing your rotation back in {{ skill(id="5494") }}.
 
+
 ## Video
+
+---
 
 {{ youtube(id="Ke5GV0NI6Mw") }}
