@@ -15,7 +15,7 @@ series = "ranger"
 tagline = "Combo #3 with fries and a large root beer"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "34.7k DPS"
 +++
 
@@ -23,10 +23,11 @@ A power-based soulbeast build. This build relies on a single combo, but otherwis
 
 ## Gearing
 
-- Full Berserker's
-- Runes of the Scholar
-- Sword & Axe, Sigils of Force & Impact
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ axe_off(stat="Berserker's", sigil="Impact") }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

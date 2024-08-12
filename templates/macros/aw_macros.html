@@ -59,3 +59,10 @@
 	>{{ inner.title }}</a></li>
   {%- endif %}
 {%- endmacro %}
+
+{%- macro safeicon(icon) -%}
+  {%- set iconmeta = get_image_metadata(path='@/images/icons/' ~ icon ~ '.png', allow_missing=true) -%}
+  {%- if iconmeta -%}
+    <img style="height: 1em;" src="/images/icons/{{ icon }}.png"/>&nbsp;
+  {%- endif -%}
+{%- endmacro safeicon -%}

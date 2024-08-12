@@ -27,17 +27,16 @@ This is one of our more challenging builds. It's relatively simple, but unforgiv
 
 ## Gearing
 
-- Full Berserker's
-- Runes of the Scholar
-- Sword, Sigil of Force
-- Shield, Sigil of Air
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ shield_off(stat="Berserker's", sigil="Air") }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)
 
 ## Build
-
 
 {{ chatlink(code="[&DQMGNyYvOSsqDwAA5RaGAKMAAABXFgAA8BWJAQAAAAAAAAAAAAAAAAAAAAADWgBXADMAAA==]") }}
 

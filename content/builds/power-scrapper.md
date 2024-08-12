@@ -17,16 +17,16 @@ series = "engineer"
 tagline = "With Gyros like these who needs friends?"
 keywords = "Guild Wars 2, GW2, LI, Scrapper"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "34.4k DPS"
 +++
 
 ## Gearing
 
-- Full Berserker's
-- Runes of the Scholar or Dragonhunter
-- Hammer, Sigils of Force & Air
-- Relic of the Thief
+{{ medium(stat="Berserker's", rune="Scholar") }}
+{{ hammer(stat="Berserker's", sigils=["Force", "Air"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

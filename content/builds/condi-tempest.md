@@ -18,7 +18,7 @@ tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
 balance = "June 2024"
-benchmark = "35.0k DPS"
+benchmark = "36.7k DPS"
 +++
 
 A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours.
@@ -48,9 +48,9 @@ Granting allies (or yourself) auras also gives you a large **10%** damage boost.
 
 Swap into Air or Water for **HUGE** amounts of CC whenever needed, and Overload Air/Water/camp Earth after while waiting to re-enter Fire attunement. This will drop your DPS to the floor but eh, mechanics are IMPORTANT.
 
-This build isn't even at its peak potential yet. You can't actually apply enough bleeding to proc your Relic of the Fractal, so that's ~500+ more DPS that you could be doing in an actual fight when you can proc it!
-
 ## Video
+
+Damage is outdated, pending new video, but rotation is still exactly the same.
 
 {{ youtube(id="SzgBuiV-zHw") }}
 

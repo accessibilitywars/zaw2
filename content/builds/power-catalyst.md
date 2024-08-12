@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "Wait, what do you mean this isn't how I get a list of my home cat collection?"
 keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "35.3k DPS"
 +++
 
@@ -24,9 +24,11 @@ An moderately easy catalyst build, with a consistent skill pattern that applies 
 
 ## Gearing
 
-- Full Berserker's, with Runes of the Scholar or Dragonhunter
-- Sword/Warhorn with Force/Impact Sigils
-- Relic of the Thief, or Fireworks.
+{{ light(stat="Berserker's", rune="Scholar") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ warhorn_off(stat="Berserker's", sigil="Impact") }}
+{{ trinkets(stat="Berserker's", relic="Thief", alternate="Fireworks") }}
+
 - Consumables:
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)

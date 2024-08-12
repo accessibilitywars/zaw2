@@ -23,32 +23,12 @@ With buckets of blood, torment and poison, this bursty condi build can take down
 
 # Gearing
 
-## Armor
-
-- Viper's Coat, Superior Rune of Tormenting
-- Viper's Boots, Superior Rune of Tormenting
-- Viper's Gloves, Superior Rune of Tormenting
-- Viper's Helm, Superior Rune of Tormenting
-- Viper's Leggings, Superior Rune of Tormenting
-- Viper's Shoulders, Superior Rune of Tormenting
-
-## Trinkets
-
-- Backpack: Viper's
-- Accessory 1: Viper's
-- Accessory 2: Viper's
-- Ring 1: Viper's
-- Ring 2: Viper's
-- Amulet: Viper's
-
-## Weapons
-
-- Set 1:
-  - Pistol, Viper's, Superior Sigil of Earth
-  - Dagger, Viper's, Superior Sigil of Torment
-- Set 2:
-  - Scepter, Viper's, Superior Sigil of Earth
-  - Warhorn, Viper's, Superior Sigil of Torment
+{{ light(stat="Viper's", rune="Tormenting") }}
+{{ pistol_main(stat="Viper's", sigil="Earth") }}
+{{ dagger_off(stat="Viper's", sigil="Torment") }}
+{{ scepter_main(stat="Viper's", sigil="Earth") }}
+{{ warhorn_off(stat="Viper's", sigil="Torment") }}
+{{ trinkets(stat="Viper's", relic="Akeem") }}
 
 ---
 

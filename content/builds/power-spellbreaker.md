@@ -25,11 +25,17 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 
 ## Gearing and Consumables
+
 #### Equipment
-- Armor: Full Berserker's is recommended\
-*Marauder's can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
-- Weapons (set 1): Dagger/Axe
-- Weapons (alt): Dagger/Dagger (Defensive)
+
+{{ heavy(stat="Berserker's", rune="Scholar") }}
+{{ dagger_main(stat="Berserker's", sigil="Accuracy") }}
+{{ axe_off(stat="Berserker's", sigil="Air") }}
+{{ dagger_main(stat="Berserker's", sigil="Accuracy") }}
+{{ dagger_off(stat="Berserker's", sigil="Air") }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
+> ***Marauder's*** *can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
 
 #### Weapon Alternatives
 - Weapons (alt): Axe/Dagger[^1] (Defensive)
@@ -38,16 +44,6 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 
 > <small>[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH</small>\
 > <small>[^2]: [SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.</small>
-
-#### Runes
-{{ item(id="24836") }}
-
-#### Sigils
-{{ item(id="24618") }}\
-{{ item(id="24554") }}
-
-#### Relic
-{{ item(id="100916") }}
 
 #### Food
 {{ item(id="91805") }}\

@@ -1,0 +1,157 @@
+{%- macro find_id(datapath, name) -%}
+{%- set data = load_data(path=datapath) -%}
+{%- set found = false %}
+{%- for d in data.records -%}
+  {%- set needle = name -%}
+  {%- set haystack = d.1 -%}
+  {%- if needle == haystack -%}
+    {{ d.0 }}
+    {%- set_global found = true -%}
+    {%- break -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- if not found -%}
+ {{ throw(message="Missing data! " ~ name ~ " not present in " ~ datapath) }}
+{%- endif -%}
+{%- endmacro -%}
+
+{%- macro stat(name) -%}
+  {{ self::find_id(datapath="static/itemstats.csv", name=name) }}
+{%- endmacro -%}
+
+{%- macro rune(name) -%}
+  {{ self::find_id(datapath="static/runes.csv", name=name) }}
+{%- endmacro -%}
+
+{%- macro sigil(name) -%}
+  {{ self::find_id(datapath="static/sigils.csv", name=name) }}
+{%- endmacro -%}
+
+{%- macro relic(name) -%}
+  {{ self::find_id(datapath="static/relics.csv", name=name) }}
+{%- endmacro -%}
+
+{%- macro larmor(stat, rune) -%}
+<hr/>
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80248" data-armory-80248-upgrades="{{self::rune(name=rune)}}" data-armory-80248-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80131" data-armory-80131-upgrades="{{self::rune(name=rune)}}" data-armory-80131-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80190" data-armory-80190-upgrades="{{self::rune(name=rune)}}" data-armory-80190-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80111" data-armory-80111-upgrades="{{self::rune(name=rune)}}" data-armory-80111-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80356" data-armory-80356-upgrades="{{self::rune(name=rune)}}" data-armory-80356-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80399" data-armory-80399-upgrades="{{self::rune(name=rune)}}" data-armory-80399-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+</tbody></table>
+{%- endmacro larmor -%}
+
+{%- macro marmor(stat, rune) -%}
+<hr/>
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armosry-embed="items" data-armory-ids="80296" data-armory-80296-upgrades="{{self::rune(name=rune)}}" data-armory-80296-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80145" data-armory-80145-upgrades="{{self::rune(name=rune)}}" data-armory-80145-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80578" data-armory-80578-upgrades="{{self::rune(name=rune)}}" data-armory-80578-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80161" data-armory-80161-upgrades="{{self::rune(name=rune)}}" data-armory-80161-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80252" data-armory-80252-upgrades="{{self::rune(name=rune)}}" data-armory-80252-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-esmbed="items" data-armory-ids="80281" data-armory-80281-upgrades="{{self::rune(name=rune)}}" data-armory-80281-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+</tbody></table>
+{%- endmacro marmor -%}
+
+{%- macro harmor(stat, rune) -%}
+<hr/>
+<table>
+<thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80384" data-armory-80384-upgrades="{{self::rune(name=rune)}}" data-armory-80384-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80435" data-armory-80435-upgrades="{{self::rune(name=rune)}}" data-armory-80435-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80254" data-armory-80254-upgrades="{{self::rune(name=rune)}}" data-armory-80254-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80205" data-armory-80205-upgrades="{{self::rune(name=rune)}}" data-armory-80205-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80277" data-armory-80277-upgrades="{{self::rune(name=rune)}}" data-armory-80277-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80557" data-armory-80557-upgrades="{{self::rune(name=rune)}}" data-armory-80557-stat="{{self::stat(name=stat)}}"></span></td><td>{{stat}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
+</tbody></table>
+{%- endmacro harmor -%}
+
+{%- macro weapon_main(itemid, typedesc, stat, sigil) -%}
+<table>
+<thead><tr><th>Weapon</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr>
+	<td><span class="armory-inline" data-armory-embed="items" 
+		data-armory-ids="{{itemid}}" 
+		data-armory-{{itemid}}-upgrades="{{self::sigil(name=sigil)}}"
+		data-armory-{{itemid}}-stat="{{self::stat(name=stat)}}"></span></td>
+	<td>{{typedesc}}</td>
+	<td>{{stat}}</td>
+	<td><span class="armory-inline" data-armory-embed="items" 
+		data-armory-ids="{{self::sigil(name=sigil)}}"></span> {{sigil}}</td>
+</tr>
+{%- endmacro weapon_main -%}
+
+{%- macro weapon_off(itemid, typedesc, stat, sigil) -%}
+<tr>
+	<td><span class="armory-inline" data-armory-embed="items" s
+		data-armory-ids="{{itemid}}" 
+		data-armory-{{itemid}}-upgrades="{{self::sigil(name=sigil)}}"
+		data-armory-{{itemid}}-stat="{{self::stat(name=stat)}}"></span></td>
+	<td>{{typedesc}}</td>
+	<td>{{stat}}</td>
+	<td><span class="armory-inline" data-armory-embed="items" 
+		data-armory-ids="{{self::sigil(name=sigil)}}"></span> {{sigil}}</td>
+</tr>
+</tbody></table>
+{%- endmacro weapon_off -%}
+
+{%- macro weapon_2h(itemid, typedesc, stat, sigils) -%}
+<table>
+<thead><tr><th>Weapon</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<tr>
+	<td><span class="armory-inline"
+		data-armory-embed="items"
+		data-armory-ids="{{itemid}}"
+		data-armory-{{itemid}}-upgrades="{{self::sigil(name=sigils[0])}},{{self::sigil(name=sigils[1])}}"
+		data-armory-{{itemid}}-stat="{{self::stat(name=stat)}}"></span></td>
+	<td>{{typedesc}}</td>
+	<td>{{stat}}</td>
+	<td><span class="armory-inline" data-armory-embed="items"
+		data-armory-ids="{{self::sigil(name=sigils[0])}}"></span> {{sigils[0]}}</td>
+</tr>
+<tr>
+	<td></td>
+	<td></td>
+	<td></td>
+	<td><span class="armory-inline" data-armory-embed="items"
+		data-armory-ids="{{self::sigil(name=sigils[1])}}"></span> {{sigils[1]}}</td>
+</tr>
+</tbody></table>
+{%- endmacro weapon_2h -%}
+
+{%- macro trinkets(stat, relic, alternative) -%}
+<hr/>
+<table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="74155" 
+	data-armory-74155-stat="{{self::stat(name=stat)}}"></span></td><td>Back item</td><td> {{stat}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="95380" 
+	data-armory-95380-stat="{{self::stat(name=stat)}}"></span></td><td>Amulet</td><td> {{stat}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="81908" 
+	data-armory-81908-stat="{{self::stat(name=stat)}}"></span></td><td>Accessory</td><td> {{stat}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="91048" 
+	data-armory-91048-stat="{{self::stat(name=stat)}}"></span></td><td>Accessory</td><td> {{stat}}</td></tr>
+</tbody></table>
+<table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="93105" 
+	data-armory-93105-stat="{{self::stat(name=stat)}}"></span></td><td>Ring</td><td> {{stat}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="91234" 
+	data-armory-91234-stat="{{self::stat(name=stat)}}"></span></td><td>Ring</td><td> {{stat}}</td></tr>
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="{{self::relic(name=relic)}}"></span></td><td>Relic</td><td> {{relic}} </td></tr>
+{%- if alternative -%}
+<tr><td><span class="armory-inline" data-armory-embed="items" 
+	data-armory-ids="{{self::relic(name=alternative)}}"></span></td><td>Relic (alternative)</td><td> {{alternative}} </td></tr>
+{%- endif -%}
+</tbody></table>
+<hr/>
+{%- endmacro trinkets -%}

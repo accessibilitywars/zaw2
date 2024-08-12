@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "My pain brings you strength!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "27.9k DPS"
 +++
 

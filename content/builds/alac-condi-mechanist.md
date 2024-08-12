@@ -1,6 +1,6 @@
 +++
 title = "Chronomechanic [aDPS]"
-description = "Probablty the easiest to play Alacrity... hmmm"
+description = "Simple but effective Condition Alacrity build"
 date = 2024-05-26
 draft = false
 template = "build.html"
@@ -13,14 +13,14 @@ specs = ["mechanist", "engineer"]
 
 [extra]
 series = "engineer"
-tagline = "Deja vu?"
+tagline = "I take my laser gun and I go pew pew pew pew"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "April 2024"
+balance = "June 2024"
 benchmark = "25.7k DPS"
 +++
 
-Probablty the easiest to play Alacrity... hmmm
+Simple but effective Condition Alacrity build
 
 ## Gearing
 
