@@ -40,7 +40,7 @@ The concept of this build relies on {{ trait(id="1503") }} resetting the cooldow
 | Trinkets | Type | Stat |
 | -------- | ---- | ---- |
 | {{ itemicon(name="Ad Infinitum", stat="1077") }} | Back item | Berserker's |
-| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} |
+| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} | Amulet | Berserker's |
 | {{ itemicon(name="Aurora", stat="1128") }} | Accessory | Assassin's |
 | {{ itemicon(name="Vision", stat="1128") }} | Accessory | Assassin's |
 
