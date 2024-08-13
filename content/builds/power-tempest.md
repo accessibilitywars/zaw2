@@ -40,14 +40,15 @@ The concept of this build relies on {{ trait(id="1503") }} resetting the cooldow
 | Trinkets | Type | Stat |
 | -------- | ---- | ---- |
 | {{ itemicon(name="Ad Infinitum", stat="1077") }} | Back item | Berserker's |
+| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} |
 | {{ itemicon(name="Aurora", stat="1128") }} | Accessory | Assassin's |
 | {{ itemicon(name="Vision", stat="1128") }} | Accessory | Assassin's |
 
-| Trinkets | Type | Stat | Relic |
-| -------- | ---- | ---- | ----- |
-| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} | Amulet | Berserker's | {{ itemicon(id="100947") }} Fireworks |
+| Trinkets | Type | Stat |
+| -------- | ---- | ---- |
 | {{ itemicon(name="Conflux", stat="1077") }} | Ring | Berserker's | 
 | {{ itemicon(name="Coalescence", stat="1077") }} | Ring | Berserker's |
+| {{ itemicon(id="100947") }} | Relic | Fireworks |
 
 ---
 
