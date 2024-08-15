@@ -30,6 +30,16 @@
 <body>
 {%- block header %}
   <header>
+	{%- if config.extra.alert -%}
+		<div style="padding: 0.5em; width: 100%; background-color: Crimson; color: White;">
+			<h1>{{ config.extra.alert }}</h1>
+			{%- if config.extra.alert_detail -%}
+				<hr/>
+				<p>{{ config.extra.alert_detail }}</p>
+			{%- endif -%}
+		</div>
+	{%- endif -%}
+
     <nav>
       <div>
         {%- if config.extra.logo -%}
