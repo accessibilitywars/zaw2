@@ -87,7 +87,44 @@ You can replace off hand Focus with Warhorn, although based on my testing the da
 
 ---
 
-WIP WIP WIP
+You have
+
+**CC Skills:**
+> 1. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 2. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 3. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 4. {{ skill(id="5562") }} ({{ skill(id="5494") }} Focus 5)
+> 5. {{ skill(id="45742") }} (Dual Scepter 3)
+> 6. {{ skill(id="40794") }} (Dual Scepter 3)
+
+However, these skills are locked behind elements that you do not use in your rotation. To fully utilize your CC, you should use the following CC Loop.
+
+**CC Loop**
+> 1. {{ skill(id="5493") }}
+> 2. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 3. {{ skill(id="5494") }}
+> 4. {{ skill(id="45742") }} (Dual Scepter 3)
+> 5. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 6. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 7. {{ skill(id="5495") }}
+> 8. {{ skill(id="5562") }} ({{ skill(id="5494") }} Focus 5)
+> 9. {{ skill(id="40794") }} (Dual Scepter 3)
+
+And continue your rotation from Step #3 in the Main Loop.
+
+Sometimes, you do not need so much CC, in that case you can use a shortened loop.
+
+**Short CC Loop**
+> 1. {{ skill(id="5493") }}
+> 2. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 3. {{ skill(id="5495") }}
+> 4. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 5. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 6. {{ skill(id="46014") }} (Dual Septer 3)
+
+And continue your rotation from Step $3 in the Main Loop.
+
+Having to CC will result in a significant DPS loss, and it is recommended to bring this class only if the fight has very low CC pressure, no CC at all, or if your supports are able to carry the CC.
 
 ## Advanced Tips
 
