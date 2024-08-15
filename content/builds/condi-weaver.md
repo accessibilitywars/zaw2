@@ -2,6 +2,7 @@
 title = "Lava Weaver [cDPS]"
 description = "Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking. We include some Elementals for extra friends when you're feeling lonely."
 date = 2024-03-02
+updated = 2024-08-15
 draft = false
 template = "build.html"
 
@@ -112,6 +113,11 @@ However, these skills are locked behind elements that you do not use in your rot
 
 And continue your rotation from Step #3 in the Main Loop.
 
+This may seem very intimidating at first, but in simplified form it is just:
+> 1. {{ skill(id="5493") }} 2
+> 2. {{ skill(id="5494") }} 3 4 5
+> 3. {{ skill(id="5495") }} 3 5
+
 Sometimes, you do not need so much CC, in that case you can use a shortened loop.
 
 **Short CC Loop**
@@ -122,7 +128,11 @@ Sometimes, you do not need so much CC, in that case you can use a shortened loop
 > 5. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
 > 6. {{ skill(id="46014") }} (Dual Septer 3)
 
-And continue your rotation from Step $3 in the Main Loop.
+And continue your rotation from Step #3 in the Main Loop.
+
+Once again, the simplified form will look like:
+> 1. {{ skill(id="5493") }} 2
+> 2. {{ skill(id="5495") }} 3 4 5
 
 Having to CC will result in a significant DPS loss, and it is recommended to bring this class only if the fight has very low CC pressure, no CC at all, or if your supports are able to carry the CC.
 
