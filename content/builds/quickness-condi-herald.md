@@ -61,7 +61,7 @@ The equipment stats are fairly similar to the that of [SnowCrows](https://snowcr
 #### Consuming skills (on cooldown)
 3. {{ skill(id="26644") }} -> {{ skill(id="28113") }}
 4. {{ skill(id="27014") }} -> {{ skill(id="27162") }} (Ground Targeted) 
-Swap to {{ skill(id="28376") }} after consuming strength second time. 
+Swap to {{ skill(id="28494") }} after consuming strength second time. 
 
 #### Generating Quickness in Mallyx
 5. {{ skill(id="28287") }} (upkeep)
