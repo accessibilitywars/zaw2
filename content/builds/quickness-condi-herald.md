@@ -1,5 +1,5 @@
 +++
-title = "Seven Paths of Pain [aDPS]"
+title = "Seven Paths of Pain [qDPS]"
 description = "This build uses 7 key skills in its rotation without weapon swap, stacking as much torment as possible."
 date = 2024-08-16
 updated = 2024-08-16
