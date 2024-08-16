@@ -33,7 +33,7 @@ Optimised Loadout
 | Armor         | Viper's       | {{ item(id="67339") }} |
 | Short Bow     | Viper's       | {{ item(id="44950") }}<br>{{ item(id="48911") }} |
 | Trinkets      | Viper's       | {{ item(id="100153") }} |
-<br>
+
 ## Weapon Swaps (optional)
 1. Mace/Axe - This does more damage in theory. However, in practice, the melee range may cause you to miss hits, thus swapping to bow is useful. For the purpose of a low intensity guide, we will be discussing bow as the default. 
 2. Staff - This may be used for large amounts of CC, but is detrimental to your DPS. This isto  be used situationally only. 
