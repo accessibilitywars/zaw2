@@ -387,4 +387,4 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 balance = "June 2024"
 prev_balance = "April 2024"
 alert = "WARNING: GW2 API Disabled August 16-23"
-alert_detail = "During the Janthir Wilds launch week of August 16-23, some portions of this site will not function, such as mouse-over details of items, skills and traits."
+alert_detail = "During the Janthir Wilds launch week of August 16-23. Some portions of this site will not function, such as icons and mouse-over details of items, skills and traits."
