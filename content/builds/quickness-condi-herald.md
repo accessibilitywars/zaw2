@@ -27,16 +27,18 @@ This build uses 7 key skills in its rotation without weapon swap. With only 2 sh
 Optimised Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?PmwAUlflhQKsIyiJRXMICjBSiMBqgjukVzC-DSJYmRN/ZkrUIEVgCPGQDKOrAVA-e)
 
-#### Equipment
 |Equipment      | Stats         | Rune/Sigil/Relic|
 | ------------- | ------------- | --------------- |
 | Armor         | Viper's       | {{ item(id="67339") }} |
-| Short Bow     | Viper's       | {{ item(id="44950") }}<br>{{ item(id="48911") }} |
+| Short Bow     | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }} |
 | Trinkets      | Viper's       | {{ item(id="100153") }} |
 
+---
+
 ## Weapon Swaps (optional)
+
 1. Mace/Axe - This does more damage in theory. However, in practice, the melee range may cause you to miss hits, thus swapping to bow is useful. For the purpose of a low intensity guide, we will be discussing bow as the default. 
-2. Staff - This may be used for large amounts of CC, but is detrimental to your DPS. This isto  be used situationally only. 
+2. Staff - This may be used for large amounts of CC, but is detrimental to your DPS. This is to be used situationally only.
 
 #### Food
 - {{ item(id="91876") }}
