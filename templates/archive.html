@@ -68,7 +68,9 @@ This Template can also be used as the rendering template for Sections, eg: examp
       {%- endif %}
       {%- endif %}
       {%- for post in posts %}
-      <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>{%- if not hide_section_dates %} - <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>{%- endif %}</p>
+      {%- if not post.extra or not post.extra.hidden or post.extra.hidden != true %}
+        <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>{%- if not hide_section_dates %} - <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>{%- endif %}</p>
+      {%- endif -%}
       {%- endfor %}
       {%- endfor %}
       {%- else %}
@@ -81,7 +83,9 @@ This Template can also be used as the rendering template for Sections, eg: examp
       {%- endif %}
       {%- endif %}
       {%- for post in posts %}
-      <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>{%- if not hide_section_dates %} - <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>{%- endif %}</p>
+      {%- if not post.extra or not post.extra.hidden or post.extra.hidden != true %}
+		  <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>{%- if not hide_section_dates %} - <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>{%- endif %}</p>
+	  {%- endif -%}
       {%- endfor %}
       {%- endfor %}
       {%- endif %}

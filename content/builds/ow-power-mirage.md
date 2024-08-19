@@ -2,7 +2,6 @@
 title = "Lightlancer [pDPS]"
 description = "Power mirage"
 date = 2024-08-19
-draft = true
 template = "build.html"
 
 [taxonomies]
@@ -17,6 +16,7 @@ tagline = "Challenging open world mirage that juggles knives, big knives and las
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
 balance = "June 2024"
+hidden = true
 +++
 
 Open world only. I'll write more later

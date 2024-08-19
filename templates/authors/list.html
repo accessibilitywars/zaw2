@@ -26,7 +26,9 @@
       {%- for term in terms %}
       <h2 id="{{ term.name }}">#<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
       {%- for page in term.pages %}
-      <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+      {%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
+        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+      {%- endif -%}
       {%- endfor %}
       {%- endfor %}
     </div>

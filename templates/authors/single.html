@@ -23,7 +23,9 @@
       {%- for year, posts in term.pages | group_by(attribute="year") %}
       <h3>{{ year }}</h3>
       {%- for page in posts %}
-      <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+	  {%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
+        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+      {%- endif -%}
       {%- endfor %}
       {%- endfor %}
     </div>

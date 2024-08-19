@@ -78,6 +78,7 @@
         <a class="b s150" href="{{ tag.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ tag.name }} ({{ parts_string }})</a>
         <ol>
         {%- for inner in tag.pages | sort(attribute="date") %}
+          {%- if not inner.extra or not inner.extra.hidden or inner.extra.hidden != true %}
           {%- if inner.content == page.content %}
             <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ inner.title }}
 			{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
@@ -88,6 +89,7 @@
 			{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
 			</a></li>
           {%- endif %}
+		  {%- endif -%}
         {%- endfor %}
         </ol>
       </div>
@@ -203,7 +205,9 @@
         {# If there is not more than max pages render normally #}
         {%- else %}
           {%- for inner in tag.pages | sort(attribute="date") %}
-            {{ aw_macros::series_link(inner=inner, page=page, config=config) }}
+			{%- if not inner.extra or not inner.extra.hidden or inner.extra.hidden != true %}
+              {{ aw_macros::series_link(inner=inner, page=page, config=config) }}
+			{%- endif -%}
           {%- endfor %}
         {%- endif %}
         </ol>
