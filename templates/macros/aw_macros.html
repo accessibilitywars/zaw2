@@ -66,3 +66,26 @@
     <img style="height: 1em;" src="/images/icons/{{ icon }}.png"/>&nbsp;
   {%- endif -%}
 {%- endmacro safeicon -%}
+
+{%- macro footer(page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+      {#- prev/next content page nextprev title pagination #}
+      {%- if not config.extra.hide_page_nextprev_titles | default(value=false) %}
+      {%- if page.lower or page.higher %}
+      <nav>
+        <div>
+          {%- if page.lower %}
+          <a href="{{ page.lower.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">&#8249; {{ page.lower.title | truncate(length=100) }}</a>
+          {%- endif %}
+        </div>
+        <div>
+          {%- if page.higher %}
+          <a href="{{ page.higher.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}"> {{ page.higher.title | truncate(length=100) }} &#8250;</a>
+          {%- endif %}
+        </div>
+      </nav>
+      {%- endif %}
+      {%- endif %}
+{%- endmacro footer %}
+
