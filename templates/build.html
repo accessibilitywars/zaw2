@@ -103,9 +103,13 @@
 
 {%- if page.extra.balance %}
 {%- if page.extra.balance == config.extra.prev_balance %}
-<div><h3 style="color: Gold;">Caution: this build was created for the previous {{ page.extra.balance }} balance patch. It may not perform up to expectations.</h3></div>
+<div><h3 style="color: Gold;">
+Caution: this build was created for the previous {{ page.extra.balance }} balance patch. It may perform better or worse than how it is described here.
+</h3></div>
 {%- elif page.extra.balance != config.extra.balance %}
-<div><h3 style="color: Crimson;">Warning: this build was created for an older {{ page.extra.balance }} balance patch. It likely will not perform up to expectations.</h3></div>
+<div><h3 style="color: Crimson;">
+Warning: this build was created for the older {{ page.extra.balance }} balance patch. It is likely obsolete, but may still be fun.
+</h3></div>
 {%- endif %}
 {%- endif %}
 
