@@ -77,16 +77,17 @@
 
 {#- SEO MEDIA START #}
 {%- if page.taxonomies.specs %}
+  <meta property="og:image" content="{{ get_url(path='images/specs/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
+  <meta property="og:image:width" content="647" />
+  <meta property="og:image:height" content="136" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{{ get_url(path='images/specs/crop/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
   <meta name="twitter:image:width" content="272" />
   <meta name="twitter:image:height" content="136" />
-  <meta property="og:image" content="{{ get_url(path='images/specs/' ~ page.taxonomies.specs[0] ~ '.jpg', trailing_slash=false) }}" />
-  <meta property="og:image:width" content="647" />
-  <meta property="og:image:height" content="136" />
 
 {%- elif page.extra.thumbnail %}
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="{{ get_url(path=page.path ~ page.extra.thumbnail, trailing_slash=false) }}" />
   <meta name="twitter:image" content="{{ get_url(path=page.path ~ page.extra.thumbnail, trailing_slash=false) }}" />
   <meta property="og:image" content="{{ get_url(path=page.path ~ page.extra.thumbnail, trailing_slash=false) }}" />
 
