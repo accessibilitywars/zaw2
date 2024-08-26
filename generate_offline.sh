@@ -1,5 +1,11 @@
 #!/bin/sh
 
+echo NOTE: USE $0 --reset TO GET FRESH DATA FROM API
+
+if [ "$1" == "--reset" ]; then
+  gw2search --reset-data
+fi
+
 echo -n Generating offline caches from latest api
 
 # EVENTUALLY the vindicator legends will be supported by Anet...
