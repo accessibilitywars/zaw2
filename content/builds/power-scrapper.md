@@ -17,7 +17,7 @@ series = "engineer"
 tagline = "With Gyros like these who needs friends?"
 keywords = "Guild Wars 2, GW2, LI, Scrapper"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "34.4k DPS"
 +++
 

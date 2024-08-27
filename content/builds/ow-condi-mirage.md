@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Challenging open world mirage that uses only staff.. but two of them. And weapon swapping."
 keywords = "Guild Wars 2, GW2, LI, Mirage"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 hidden = true
 +++
 

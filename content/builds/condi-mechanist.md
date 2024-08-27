@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "Green Eggs without HAM"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "33.5k DPS"
 +++
 

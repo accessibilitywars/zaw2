@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Challenging open world mirage that juggles knives, big knives and lasers"
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 hidden = true
 +++
 
