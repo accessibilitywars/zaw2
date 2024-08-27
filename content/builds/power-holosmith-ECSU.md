@@ -5,7 +5,6 @@ date = 2024-05-05
 draft = false
 template = "build.html"
 
-
 [taxonomies]
 categories = ["group"]
 tags = ["power","engineer","holosmith","soto","lowrep"]
@@ -32,9 +31,10 @@ This is one of our more challenging builds. It's relatively simple, but unforgiv
 {{ shield_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+## Consumables:
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 

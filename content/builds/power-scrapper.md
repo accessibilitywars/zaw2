@@ -27,9 +27,10 @@ benchmark = "34.4k DPS"
 {{ hammer(stat="Berserker's", sigils=["Force", "Air"]) }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+## Consumables:
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
