@@ -2,7 +2,6 @@
 title = "Dragontooth [pDPS]"
 description = "Probably the easiest raid build available in GW2."
 date = 2024-05-14
-updated = 2024-08-27
 draft = false
 template = "build.html"
 

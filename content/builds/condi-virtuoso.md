@@ -2,7 +2,7 @@
 title = "Flying Blades [cDPS]"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
-updated = 2024-05-27
+updated = 2024-05-26
 draft = false
 template = "build.html"
 

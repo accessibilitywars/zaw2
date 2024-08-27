@@ -2,7 +2,6 @@
 title = "Fire Whirl [cDPS]"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
-updated = 2024-08-27
 draft = false
 template = "build.html"
 

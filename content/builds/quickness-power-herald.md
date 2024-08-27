@@ -2,7 +2,6 @@
 title = "Heart of the Dragon [qDPS]"
 description = "The easiest raid build, now with quickness!"
 date = 2024-05-16
-updated = 2024-08-27
 draft = false
 template = "build.html"
 

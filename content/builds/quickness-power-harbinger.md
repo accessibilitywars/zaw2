@@ -2,7 +2,6 @@
 title = "Dread Apothecary [qDPS]"
 description = "A slight variation of Power Harbinger that provides Quickness using the same gear"
 date = 2024-05-05
-updated = 2024-08-27
 draft = false
 template = "build.html"
 

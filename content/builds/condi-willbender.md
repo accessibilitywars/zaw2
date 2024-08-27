@@ -2,7 +2,6 @@
 title = "Flamebender [cDPS]"
 description = "Learn 1 simple combo, and hit everything else off cooldown."
 date = 2024-05-23
-updated = 2024-08-27
 draft = false
 template = "build.html"
 
