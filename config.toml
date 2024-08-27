@@ -98,7 +98,7 @@ menu = [
 	]},
 ]
 menu_footer = [
-	{url = "retired", name = "Retired Builds", slash = true, blank = false},
+	# {url = "retired", name = "Retired Builds", slash = true, blank = false},
 	{url = "alternatives", name = "Alternatives", slash = true, blank = false},
     {url = "roadmap", name = "Roadmap", slash = true, blank = false},
     {url = "privacy", name = "Privacy", slash = true, blank = false},
