@@ -1,6 +1,6 @@
 +++
-title = "Mechknight [pDPS]"
-description = "4 button rotation with lots of Signets"
+title = "Rifle Mechanist [pDPS]"
+description = "Simple and effective build for dealing ranged damage."
 date = 2024-08-27
 draft = false
 template = "build.html"
@@ -13,7 +13,7 @@ specs = ["mechanist", "engineer"]
 
 [extra]
 series = "engineer"
-tagline = "Reports of my death have been greatly exaggerated"
+tagline = "Guild Wars 2: End of Rotations"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
@@ -38,8 +38,8 @@ Highly recommended, beginner friendly build that can be played in all scenarios,
 ---
 
 - Consumables:
-  - Bowl of Sweet and Spicy Butternut Squash Soup OR Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Potent Superior Sharpening Stone (Power)
+  - {{ item(id="41569") }} OR {{ item(id="91805") }} (Power/Ferocity)
+  - {{ item(id="43451") }} (Power)
 
 ## Build
 
@@ -99,6 +99,15 @@ as movement skills to get to your objective or to escape from an enemy or mechan
 {{ skill(id="63111") }} is also both a condition cleanse and a stun break, and can be used in the direst of situations as a get out of jail free card. However, using it could result in your Mech losing boons, and slightly decreasing your DPS output, hence user discretion is advised.
 
 You can also skill click {{ skill(id="6005") }} (Rifle 5) to use it as a damage skill, increasing your DPS output. Skill clicking {{ skill(id="6005") }} (Rifle 5) makes you leap in place, reducing it's total cast time, allowing you to increase your DPS as it saves time over using it normally.
+
+If you know when a CC bar is about to come up, it is recommended to save:
+> 1. {{ skill(id="6154") }} (Rifle 4)
+> 1. {{ skill(id="6161") }}
+> 1. {{ skill(id="6004") }} (Rifle 3)
+
+and use them only when the CC bar is up.
+
+You can also recall your Mech using {{ skill(id="63089") }} and resummoning it with {{ skill(id="63050") }} for even more breakbar damage if required. Do take note that if your Mech has been damaged, you will not be able to resummon it immediately, hence you only want to do this if you are very familiar with the fight, as not having your Mech is a large DPS loss.
 
 ## Video
 
