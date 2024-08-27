@@ -24,23 +24,31 @@ Core Elementalist has been a passion project of mine, and today I am happy to pr
 
 ## Gearing
 
-- Coat: Sinister, Superior Rune of Balthazar
-- Boots: Sinister, Superior Rune of the Balthazar
-- Gloves: Sinister, Superior Rune of Balthazar
-- Helm: Sinister, Superior Rune of Balthazar
-- Leggings: Viper, Superior Rune of Balthazar
-- Shoulders: Sinister, Superior Rune of Balthazar
-- Backpack: Viper
-- Accessory 1: Viper
-- Accessory 2: Viper
-- Ring 1: Viper
-- Ring 2: Sinister
-- Amulet: Sinister
-- Weapon 1: Scepter, Sinister, Superior Sigil of Agony
-- Weapon 2: Focus, Sinister, Superior Sigil of Earth
-- Relic of the Fractal
-- Food: Fishy Rice Bowl
-- Enhancement: Toxic Focusing Crystal
+{{ light(
+	head="Sinister",
+	shoulders="Sinister",
+	chest="Viper's",
+	arms="Sinister",
+	legs="Sinister",
+	feet="Sinister",
+	rune="Balthazar") }}
+
+{{ scepter_main(stat="Sinister", sigil="Agony") }}
+{{ focus_off(stat="Sinister", sigil="Earth") }}
+
+{{ trinkets(
+	back="Viper's",
+	accessory1="Viper's",
+	accessory2="Viper's",
+	ring1="Viper's",
+	ring2="Sinister",
+	amulet="Sinister",
+	relic="Fractal") }}
+
+### Consumables
+
+- {{ item(name="Fishy Rice Bowl") }}
+- {{ item(name="Toxic Focusing Crystal") }}
 
 ## Build
 

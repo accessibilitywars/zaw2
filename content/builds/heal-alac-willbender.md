@@ -2,6 +2,7 @@
 title = "Symbolic Healbender [aHeal]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Karakosa consecutively with a burst heal rotation. Besides being easy to play, this build has flexible utilities, decent crowd control and excellent condi cleanses."
 date = 2024-04-04
+updated = 2024-08-27
 template = "build.html"
 
 [taxonomies]
@@ -13,48 +14,34 @@ specs = ["willbender", "guardian"]
 [extra]
 series = "guardian"
 tagline = "Auto-Attack Healbender"
-keywords = "Guild Wars 2, GW2, LI, willbender"
+keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
 
 This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. This build requires only one weapon with no requirement of a weapon swap: Hammer!
 
-## Gearing and Consumables
+# Gearing
 
-**Equipment**
+{{ heavy(stat="Harrier's", rune="Monk") }}
+{{ hammer(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+{{ trinkets(stat="Harrier's", relic="Karakosa") }}
 
-- Full Harrier's 
-- Hammer
+#### Budget Options
+
+- Replace {{ item(name="Superior Rune of the Monk", id="24842") }} with {{ item(name="Superior Rune of Rebirth", id="84171") }}
+- Replace {{ item(name="Superior Sigil of Transference", id="74326") }} with {{ item(name="Superior Sigil of Water", id="24551") }}
 
 > <small>_Note: Weapon swap is optional, all the available options will lock you out of hammer and thus drop your boon coverage. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
-**Runes**
+## Consumables
 
-- {{ item(id="24842") }}Superior Rune of the Monk
-- {{ item(id="84171") }}Superior Rune of Rebirth (budget)
+- {{ item(id="91690") }} OR {{ item(id="68634") }} _(budget alternative)_
+- {{ item(id="67528", name="Bountiful Maintenance Oil") }}
 
-**Sigils**
-
-- {{ item(id="74326") }}Superior Sigil of Transference
-- {{ item(id="72339") }}Superior Sigil of Concentration
-- {{ item(id="24551") }}Superior Sigil of Water (Budget Alternative to Transference)
-
-**Relic**
-- {{ item(id="101268") }}Relic of Karakosa
-
-**Food**
-
-- {{ item(id="91690") }}
-- {{ item(id="68634") }}(budget alternative)
-
-**Utility**
-- {{ item(id="67528") }}Bountiful Maintenance Oil
-
-
-## Build
+# Build
 Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAAAAAAAAAAAAAAAAAAAAABMwAA]") }}
 
 #### Trait Alternatives

@@ -2,9 +2,9 @@
 title = "Fire Whirl [cDPS]"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
+updated = 2024-08-27
 draft = false
 template = "build.html"
-
 
 [taxonomies]
 categories = ["group"]
@@ -17,7 +17,7 @@ series = "elementalist"
 tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "36.7k DPS"
 +++
 
@@ -25,16 +25,32 @@ A brand new spicy Fire Tempest build is great for roasted golems and friendly ra
 
 ## Gearing
 
-- Armor
-	- Viper's Coat or Leggings, the rest Sinister
-    - Runes of Balthazar
-- Trinkets:
-	- Sinister Amulet
-	- Sinister Ring
-	- Viper's for remaining Ring and all other trinkets
-- Sinister Scepter/Focus with Bursting/Earth Sigils
-- Relic of the Fractal
-- Food & Utility: Fishy Rice Bowl & Toxic Focusing Crystal
+
+{{ light(
+	head="Sinister",
+	shoulders="Sinister",
+	chest="Viper's",
+	arms="Sinister",
+	legs="Sinister",
+	feet="Sinister",
+	rune="Balthazar") }}
+
+{{ scepter_main(stat="Sinister", sigil="Bursting") }}
+{{ focus_off(stat="Sinister", sigil="Earth") }}
+
+{{ trinkets(
+	back="Viper's",
+	accessory1="Viper's",
+	accessory2="Viper's",
+	ring1="Viper's",
+	ring2="Sinister",
+	amulet="Sinister",
+	relic="Fractal") }}
+
+### Consumables
+
+- {{ item(name="Fishy Rice Bowl") }}
+- {{ item(name="Toxic Focusing Crystal") }}
 
 ## Build
 

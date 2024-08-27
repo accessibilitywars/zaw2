@@ -2,7 +2,7 @@
 title = "Flying Blades [cDPS]"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
-updated = 2024-05-26
+updated = 2024-05-27
 draft = false
 template = "build.html"
 
@@ -17,7 +17,7 @@ series = "mesmer"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "34.5k DPS"
 +++
 
@@ -27,23 +27,29 @@ Who knew that flying swords and throwing daggers would cause bleeding?
 
 There are multiple gear combinations that will arrive at the same total value of stats. However, we will be copying the gear that Snow Crows uses as that is most widely used.
 
-- Sinister Coat, Superior Rune of the Krait
-- Sinister Boots, Superior Rune of the Krait
-- Rampager's Gloves, Superior Rune of the Krait
-- Rampager's Helm, Superior Rune of the Krait
-- Sinister Leggings, Superior Rune of the Krait
-- Rampager's Shoulders, Superior Rune of the Krait
-- Backpack: Rampager's
-- Accessory 1: Sinister
-- Accessory 2: Sinister's
-- Ring 1: Rampager's
-- Ring 2: Rampager's
-- Amulet: Sinister
-- Weapon 1: Dagger, Viper's, Superior Sigil of Agony
-- Weapon 2: Sword, Viper's, Superior Sigil of Earth
-- Relic of the Aristocracy
-- Food: Spherified Cilantro Oyster Soup or Dragon's Revelry Starcake
-- Enhancement: Toxic Focusing Crystal
+{{ light(
+	head="Rampager's",
+	shoulders="Rampager's",
+	chest="Sinister",
+	arms="Rampager's",
+	legs="Sinister",
+	feet="Sinister",
+	rune="Krait") }}
+{{ dagger_main(stat="Viper's", sigil="Agony") }}
+{{ sword_off(stat="Viper's", sigil="Earth") }}
+{{ trinkets(
+	back="Rampager's",
+	accessory1="Sinister",
+	accessory2="Sinister",
+	ring1="Rampager's",
+	ring2="Rampager's",
+	amulet="Sinister",
+	relic="Aristocracy") }}
+
+### Consumables
+
+- {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }} OR {{ item(name="Dragon's Revelry Starcake") }}
+- {{ item(name="Toxic Focusing Crystal") }}
 
 ## Build
 

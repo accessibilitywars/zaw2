@@ -2,6 +2,7 @@
 title = "Lord of the Stomp [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
+updated = 2024-08-27
 draft = false
 template = "build.html"
 
@@ -16,7 +17,7 @@ series = "revenant"
 tagline = "Death from above!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "33.6k DPS"
 +++
 
@@ -24,14 +25,25 @@ This is a pretty foundational build for Revenant. Simple, solid and focused.
 
 ## Gearing
 
-- Dragon's Helm, and full Berserker's otherwise, with Dragonhunter's runes
-  - Alternates: Full Berserker's and/or Scholar runes
-- Sword/Sword with Force/Air Sigils
-- Staff with Force/Air Sigils
-- Relic of the Thief
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+{{ heavy(
+	head="Dragon's",
+	shoulders="Berserker's",
+	chest="Berserker's",
+	arms="Berserker's",
+	legs="Berserker's",
+	feet="Berserker's",
+	rune="Dragonhunter") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ sword_off(stat="Berserker's", sigil="Air") }}
+{{ staff(stat="Berserker's", sigils=["Force", "Air"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
+> Alternatives: Full Berserker's and/or Scholar runes
+
+#### Consumables
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 

@@ -2,7 +2,7 @@
 title = "Seven Paths of Pain [qDPS]"
 description = "This build uses 7 key skills in its rotation without weapon swap, stacking as much torment as possible."
 date = 2024-08-16
-updated = 2024-08-16
+updated = 2024-08-27
 draft = false
 template = "build.html"
 
@@ -17,7 +17,7 @@ series = "revenant"
 tagline = "Condi Quickness Short Bow Herald"
 keywords = "Guild Wars 2, GW2, LI, herald"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "25k DPS"
 +++
 
