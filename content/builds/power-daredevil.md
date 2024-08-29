@@ -31,17 +31,14 @@ Power Daredevil is an effective DPS build that can be played with very little bu
 
 The difficulty of the build comes in the form of requiring great positioning and some level of resource management. The rotation is designed to minimize resource management, however more experienced players will be able to push more damage by actively improvising and using said resources well.
 
-This build is also heavily reliant on having Vigor, and not having Vigor will result in a DPS loss.
+This build is also heavily reliant on Vigor, and not having Vigor will result in a DPS loss.
 
 ## Gearing
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ staff(stat="Berserker's", sigils=["Force", "Impact"]) }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
-
 > Dragonhunter runes work equally well
-
----
 
 - #### Food (Power/Ferocity):
   - {{ item(id="91805") }}
@@ -62,9 +59,9 @@ There are 2 main resources you have to manage in this rotation, **Initiative** a
 
 There are also 2 crucial buffs to upkeep, {{ item(id="100916") }} and {{ trait(name="bounding dodger") }}. 
 
-Your skills cost **Initiative** to cast but have no cooldown, and casting a skill refreshes {{ item(id="100916") }} uptime. Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiatve** used, you want to use it as much as possible over all of your other skills.
+Your skills cost **Initiative** to cast but have no cooldown, and casting a skill refreshes {{ item(id="100916") }} uptime. Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiatve**, you want to use it as much as possible over all of your other skills.
 
-Dodging activates {{ trait(name="bounding dodger") }}, but costs **Endurance**. In this guide we are using all of our **Endurance** but it is recommended for less experienced players to save at least 1 bar of **Endurance** at all times instead of using it all up. This will result in a minor DPS loss, but allow you to have 1 charge of dodge in a bad situation.
+Dodging activates {{ trait(name="bounding dodger") }}, but costs **Endurance**. In this guide we are using all of our **Endurance** but it is recommended for less experienced players to save at least 1 bar of **Endurance** at all times instead of using it all up. This will result in a minor DPS loss, but allow you to have a dodge in a bad situation.
 
 By following the below rotation, you will naturally maintain full uptime on {{ item(id="100916") }}, as well as high uptime on {{ trait(name="bounding dodger") }}.
 
@@ -103,6 +100,7 @@ It is also recommended for advance players to bring an alternative set of weapon
 {{ pistol_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Impact") }}
 
+
 This will allow you to upkeep damage at range while it is unsafe to stay within melee range of the boss. Examples of such a scenario would include Lesser/Greater Dip phase on Dhuum, or 40/30/20% phase on Qadim The Peerless.
 
 While in Pistol/Pistol, replace your Loop with:
@@ -126,8 +124,12 @@ Examples of bosses that this is particularly effective on include
 
 ## Video
 
+---
+
 {{ youtube(id="-KKWiwc4pIE") }}
 
 ## Build demo in "high" level play
+
+---
 
 {{ youtube(id="aBkjhsxvLBE") }}
