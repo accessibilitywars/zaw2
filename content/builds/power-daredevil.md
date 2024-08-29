@@ -114,7 +114,7 @@ While in Pistol/Pistol, replace your Loop with:
 
 As fully chanelling {{ skill(id="13011") }} without cancelling it refunds the **Initiatve** used, you can use it endlessly.
 
-Finally, Throw Magnetic Bomb is a possible stolen skill from some raid bosses. It is both a large damage and CC skill, and should be used between steps 2 & 3 of your loop.
+Finally, {{ skill(id="17811") }} is a possible stolen skill from some raid bosses. It is both a large damage and CC skill, and should be used between steps 2 & 3 of your loop.
 
 Examples of bosses that this is particularly effective on include
 
