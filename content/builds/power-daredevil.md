@@ -100,7 +100,7 @@ It is also recommended for advance players to bring an alternative set of weapon
 {{ pistol_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Impact") }}
 
-<br>
+<div style=‘clear:both;’>&nbsp;</div>
 
 This will allow you to upkeep damage at range while it is unsafe to stay within melee range of the boss. Examples of such a scenario would include Lesser/Greater Dip phase on Dhuum, or 40/30/20% phase on Qadim The Peerless.
 
