@@ -38,7 +38,6 @@ This build is also heavily reliant on Vigor, and not having Vigor will result in
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ staff(stat="Berserker's", sigils=["Force", "Impact"]) }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
-> Dragonhunter runes work equally well
 
 - #### Food (Power/Ferocity):
   - {{ item(id="91805") }}
@@ -46,6 +45,8 @@ This build is also heavily reliant on Vigor, and not having Vigor will result in
  
 - #### Consumable (Power):
   - {{ item(id="43451") }}
+ 
+<small>Dragonhunter runes work equally well</small>
 
 ## Build
 
@@ -111,7 +112,7 @@ While in Pistol/Pistol, replace your Loop with:
 > 1. Dodge
 > 1. Repeat
 
-As fully chanelling {{ skill(id="13011") }} without cancelling it refunds the **Initiatve** used, you can use it endlessly.
+As fully chanelling {{ skill(id="13011") }} without cancelling it refunds the **Initiative** used, you can use it endlessly.
 
 Finally, Throw Magnetic Bomb is a possible stolen skill from some raid bosses. It is both a large damage and CC skill, and should be used between steps 2 & 3 of your loop.
 
@@ -129,7 +130,7 @@ Examples of bosses that this is particularly effective on include
 
 {{ youtube(id="-KKWiwc4pIE") }}
 
-## Build demo in "high" level play
+## Build demo in high end static
 
 ---
 
