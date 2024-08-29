@@ -86,7 +86,7 @@ and they should be used in the listed order. You will notice that most of these 
 
 As far as possible, try not to press {{ skill(id="63253") }} for CC as this will result in a large damage drop.
 
-## Advanced Tipa
+## Advanced Tips
 
 ---
 
