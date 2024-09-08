@@ -34,7 +34,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 {%- block content %}
     <div>
     {%- for page in paginator.pages %}
-	  {%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
+      {%- if page.components is not containing("hidden") %}
 	  {%- if page.taxonomies.specs %}
 	  <div class="buildheader hflipbg" style="background-image: url('{{ config.base_url | safe }}/images/specs/{{ page.taxonomies.specs[0] | safe }}.jpg');">
 	  {%- elif page.extra.spec %}
@@ -84,6 +84,8 @@ This Template can also be used directly for the index eg: example.com/ or as the
 	  {%- if page.taxonomies.specs or page.extra.spec %}
 	  </div>
 	  {%- endif %}
+    {%- else -%}
+     <h2>HIDING {{ page.title }} </h2>
     {%- endif -%}
     {%- endfor %}
     {{- macros::pagination(paginator=paginator, config=config) }}

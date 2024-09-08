@@ -20,7 +20,6 @@ keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
 balance = "August 2024"
 benchmark = "34.2k DPS"
-hidden = false
 +++
 
 ## Notes

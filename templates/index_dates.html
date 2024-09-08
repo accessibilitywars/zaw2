@@ -34,7 +34,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 {%- block content %}
     <div>
     {%- for page in paginator.pages %}
-      {%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
+      {%- if page.components is not containing("hidden") %}
 	  {%- if page.taxonomies.specs %}
 	  <div class="buildheader hflipbg" style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('{{ config.base_url | safe }}/images/specs/{{ page.taxonomies.specs[0] | safe }}.jpg');">
 	  {%- elif page.extra.spec %}
@@ -111,7 +111,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		  <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
 		  {%- set recent_items=config.extra.recent_items | default(value=9) -%}
 		  {%- for page in section_item.pages | slice(end=recent_items) | sort(attribute="date") | reverse %}
-            {%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
+            {%- if page.components is not containing("hidden") %}
 			{{- aw_macros::page_listing_dates(page=page, config=config) }}
             {%- endif -%}
 		  {%- endfor %}

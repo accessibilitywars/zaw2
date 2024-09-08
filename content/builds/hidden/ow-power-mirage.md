@@ -16,7 +16,6 @@ tagline = "Challenging open world mirage that juggles knives, big knives and las
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
 balance = "August 2024"
-hidden = true
 +++
 
 Open world only. I'll write more later

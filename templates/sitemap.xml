@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {%- for sitemap_entry in entries %}
+    {%- if sitemap_entry.permalink is not containing("hidden") %}
     {%- if not sitemap_entry.extra or not sitemap_entry.extra.hidden or sitemap_entry.extra.hidden != true %}
     <url>
         <loc>{{ sitemap_entry.permalink | escape_xml | safe }}</loc>
@@ -8,6 +9,7 @@
         <lastmod>{{ sitemap_entry.updated }}</lastmod>
         {%- endif %}
     </url>
+	{%- endif -%}
 	{%- endif -%}
     {%- endfor %}
 </urlset>
