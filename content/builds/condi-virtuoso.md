@@ -33,7 +33,7 @@ It is also relatively sturdy for a DPS build, and has good HP self sustain.
 
 ## Gearing
 
-There are multiple gear combinations that will arrive at the same total value of stats. However, we will be copying the gear that Snow Crows uses as that is most widely used.
+<small> *There are multiple gear combinations that will arrive at the same total value of stats. However, we will be copying the gear that Snow Crows uses as that is most widely used.* </small>
 
 {{ light(
 	head="Rampager's",
@@ -108,7 +108,9 @@ Your CC skills are, in order of priority
 
 ---
 
-{{ skill(name="Illusionary Riposte") }} (Sword 4), but it is not recommended unless you are very confident of the mechanic. An example of using this to increase DPS would be on Deimos, where it's cooldown is short enough to block both the knockback "pizza" mechanic and mindcrush, allowing you to maximise damage uptime on the boss. An example of this can be seen in the demo video below.
+You can block attacks with {{ skill(name="Illusionary Riposte") }} (Sword 4), but it is not recommended unless you are very confident of the mechanic. An example of using this to increase DPS would be on Deimos, where it's cooldown is short enough to block both the knockback "pizza" mechanic and mindcrush, allowing you to maximise damage uptime on the boss. An example of this can be seen in the demo video below.
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 For fights without CC,
 
