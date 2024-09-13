@@ -149,6 +149,8 @@ with either:
 
 Generally you want to pick {{ skill(id="5506") }} over {{ skill(id="5736") }} as {{ skill(id="5506") }} can be precast, and has no cast time, allowing for minimal impact to your rotation. However, {{ skill(id="5736") }} tends to do more damage on fights that the bosses that have lower armour, as well as on bosses that do not move much.
 
+<div style=‘clear:both;’>&nbsp;</div>
+
 Try to use:
 > 1. {{ skill(id="5497") }} ({{ skill(id="5492") }} Focus 4)
 
