@@ -2,7 +2,7 @@
 title = "Flying Blades [cDPS]"
 description = "Who knew that flying swords and throwing daggers would cause bleeding?"
 date = 2024-04-02
-updated = 2024-05-26
+updated = 2024-09-13
 draft = false
 template = "build.html"
 
@@ -21,7 +21,15 @@ balance = "August 2024"
 benchmark = "34.5k DPS"
 +++
 
-Who knew that flying swords and throwing daggers would cause bleeding?
+## Notes
+
+---
+
+Condition Virtuoso is a simple to play, press skills off cooldown build that excels at dealing ranged damage.
+
+This build is also capable of doing large amounts of CC, and has multiple skills that can be swapped around for more utility, making it an excellent build for almost all bosses and situations.
+
+It is also relatively sturdy for a DPS build, and has good HP self sustain.
 
 ## Gearing
 
@@ -46,45 +54,84 @@ There are multiple gear combinations that will arrive at the same total value of
 	amulet="Sinister",
 	relic="Aristocracy") }}
 
-### Consumables
-
-- {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }} OR {{ item(name="Dragon's Revelry Starcake") }}
-- {{ item(name="Toxic Focusing Crystal") }}
+- #### Food (Celestial):
+  - {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }}
+  - {{ item(name="Dragon's Revelry Starcake") }} (Budget Alternative)
+ 
+- #### Consumable (Condition Damage):
+  - {{ item(name="Toxic Focusing Crystal") }}
 
 ## Build
 
 {{ chatlink(code="[&DQcBHRgdQjsjD24BggEAAIEBAACDAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADMgAvAFoAAA==]") }}
 
-## Notes
+## Rotation
 
-Condi Virtuoso is very simple in execution, you want to use your 3 button opener:
-1. {{ skill(name="Unstable Bladestorm") }} (Dagger 3)  
-1. {{ skill(name="Bladeturn Requiem") }}  
-1. {{ skill(name="Phantasmal Swordsman") }} (Sword 5)
+---
 
-Then use the rest of your weapon skills off cooldown.
+To maximise damage on Condition Virtuoso, you should space out your Bladesong Skills in order to upkeep {{ trait(id="2204") }}, as this provides you with a +5% all damage buff. However, by simply comboing a Bladesong Skill with each use of {{ skill(id="62560") }} (Dagger 2), you will be able to maintain 100% uptime on {{ trait(id="2204") }}.
 
-You want to space out the use of your Bladesong Skills in order to upkeep {{ trait(id="2204") }}, as this provides you with a +5% all damage buff. You can do this by tracking the cooldown of {{ skill(id="62560") }} (Dagger 2), and press a Bladesong Skill every time before or after using {{ skill(id="62560") }} (Dagger 2). Bladesong Skills should be used in the following priority:
-1. {{ skill(name="Bladeturn Requiem") }}  
-1. {{ skill(name="Bladesong Sorrow") }}  
-1. {{ skill(id="62617") }}
+**Opener:**
+> 1. {{ skill(name="Unstable Bladestorm") }} (Dagger 3)  
+> 1. {{ skill(name="Bladeturn Requiem") }}  
+> 1. {{ skill(name="Phantasmal Swordsman") }} (Sword 5)
 
-And you should never run out of charges if you space them out well.
+**Use Off Cooldown:**
+> 1. {{ skill(id="62560") }} (Dagger 2) + Bladesong Skill
+> 1. {{ skill(name="Unstable Bladestorm") }} (Dagger 3)
+> 1. {{ skill(name="Phantasmal Swordsman") }} (Sword 5)
 
-Your CC skills are, in order of priority:
-1. {{ skill(name="Signet of Humility") }} (BIG CC)
-1. {{ skill(name="Bladesong Dissonance") }}
-1. {{ skill(name="Signet of Domination") }} (big DPS loss, not recommended)
-1. {{ skill(name="Signet of Midnight") }} (very not recommended)
+**Bladesong Skill Priority:**
+> 1. {{ skill(name="Bladeturn Requiem") }}  
+> 1. {{ skill(name="Bladesong Sorrow") }}  
+> 1. {{ skill(id="62617") }}
+
+Following the above rotation, you will never run out of Bladesong Charges.
+
+{{ skill(name="Bladesong Distortion") }} is also a very long immune skill, scaling up to a maximum of 3.75 seconds with the number of blade stacks you currently have, and should be your panic button. It can also be used to dodge mechanics on various raids to increase your damage uptime.
+
+## Crowd Control
+
+---
+
+Your CC skills are, in order of priority
+
+**CC Skills:**
+> 1. {{ skill(name="Signet of Humility") }} (BIG CC)
+> 1. {{ skill(name="Bladesong Dissonance") }}
+> 1. {{ skill(name="Signet of Domination") }} (big DPS loss, not recommended)
+> 1. {{ skill(name="Signet of Midnight") }} (very not recommended)
 
 {{ skill(name="Bladesong Distortion") }} is also a very long immune skill, up to 3.75 seconds if you use it with maximum stacks of blades, and should be your panic button. It can also be used to dodge mechanics on various raids to increase your damage uptime.
 
-You can also block an attack with {{ skill(name="Illusionary Riposte") }} (Sword 4), but it is not recommended unless you are very confident of the mechanic. An example of using this to increase DPS would be on Deimos, where it's cooldown is short enough to block every knockback "pizza" mechanic.
+## Advanced Tips
+
+---
+
+{{ skill(name="Illusionary Riposte") }} (Sword 4), but it is not recommended unless you are very confident of the mechanic. An example of using this to increase DPS would be on Deimos, where it's cooldown is short enough to block both the knockback "pizza" mechanic and mindcrush, allowing you to maximise damage uptime on the boss. An example of this can be seen in the demo video below.
+
+For fights without CC,
+
+**Replace:**
+> 1. {{ skill(id="10247") }}
+> 1. {{ skill(name="Signet of Humility") }}
+
+**With:**
+> 1. {{ skill(id="62553") }}
+> 1. {{ skill(id="24755") }}
+
+And use both skills off cooldown for more damage. {{ skill(id="24755") }} can be used at any time as it has no cast time and will not interrupt your current action.
+
+*More advanced tips coming soon*
 
 ## Video
 
+---
+
 {{ youtube(id="nAhl520Y8dA") }}
 
-## Build demo in "high" level play
+## Build demo in high end static
+
+---
 
 {{ youtube(id="qeSC05yR5uw") }}
