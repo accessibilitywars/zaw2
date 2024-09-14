@@ -20,7 +20,7 @@ balance = "August 2024"
 benchmark = "25k DPS"
 +++
 
-This build uses 7 key skills in its rotation without weapon swap. With only 2 short bow skills {{ skill(id="41829") }} and {{ skill(id="40175") }}, this build avoids high energy skills in Mallyx allows energy management to frequently trigger torment through {{ skill(id="28287") }}. The ranged nature of the build allows higher damage uptime, less button presses and the relics and sigils are focused on stacking as much torment as possible. 
+This build uses 7 key skills in its rotation without weapon swap. With only 2 short bow skills {{ skill(id="41829") }} and {{ skill(id="40175") }}, this build avoids high energy skills in Mallyx allows energy management to frequently trigger torment through {{ skill(id="28287") }}. The ranged nature of the build allows higher damage uptime, less button presses and the relics and sigils are focused on stacking as much torment as possible. Originally build for bow, the build has now been updated to include spear in its rotation.
 
 ## Gearing and Consumables
 Optimised Loadout
@@ -30,14 +30,16 @@ Optimised Loadout
 | ------------- | ------------- | --------------- |
 | Armor         | Viper's       | {{ item(id="67339") }} |
 | Short Bow     | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }} |
+| Spear         | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }} |
 | Trinkets      | Viper's       | {{ item(id="100153") }} |
+
+Short Bow/Spear and Spear/Spear are the most popular loadouts.
 
 ---
 
-## Weapon Swaps (optional)
-
-1. Mace/Axe - This does more damage in theory. However, in practice, the melee range may cause you to miss hits, thus swapping to bow is useful. For the purpose of a low intensity guide, we will be discussing bow as the default. 
-2. Staff - This may be used for large amounts of CC, but is detrimental to your DPS. This is to be used situationally only.
+## Weapon Alternatives
+1. Mace/Axe - This does more damage in theory than bow. However, in practice, the melee range may cause you to miss hits, thus swapping to bow/spear is useful. In light of the JW update, spears have now overshadowed mace.
+2. Staff - This may be used for large amounts of CC, but is detrimental to your DPS. This is to be used situationally only and is strongly not recommended. 
 
 #### Food
 - {{ item(id="91876") }}
@@ -69,14 +71,36 @@ Swap to {{ skill(id="28494") }} after consuming strength second time.
 Swap to {{ skill(id="28085") }} when out of energy,
 
 #### Weapon Rotation
+<details>
+<summary>Short Bow</summary>
+
 6. {{ skill(id="40175") }} (Short Bow 2)
 7. {{ skill(id="41829") }} (Short Bow 3)
+Use 2/3 off cooldown. 
 If you end up having excess energy because you messed up your rotation, you can use {{ skill(id="43993") }} Bow 4. However if executed properly, this is a very energy hungry build and you should not have enough.
+If you are forced into range and may have damage downtime/narrow windows such that you cannot maintain stacks of Crushing Abyss, bow would be your default weapon. Bow also has a shorter ramp up time.
+</details>
 
-#### Weapon Rotation (alt)
+<details>
+<summary>Spear</summary>
+
+6. {{ skill(id="72972") }} (Spear 2)
+7. {{ skill(id="73059") }} (Spear 5)
+Use 2/5 off cooldown.
+Autos will lower the cooldown of {{ skill(id="73059") }}, but also requires your attacks to hit.
+If there is a wide open damage window, spear is your weapon of choice. Legend swaps count as swaps. 
+Spears offer the highest DPS at this point in time. 
+</details>
+
+<details>
+<summary>Mace/Axe</summary>
+
 6. {{ skill(id="28357") }} (Mace 2)
 7. {{ skill(id="27964") }} (Mace 3)
+Use 2/3 off cooldown. 
 If you end up having excess energy because you messed up your rotation, you can use {{ skill(id="28409") }} (Axe 5). However if executed properly, this is a very energy hungry build and you should not have enough.
+</details>
+
 
 <br><small>The above skills 1-5 occur in a loop while weapon skills are available on all stances and can be performed anytime.</small>
 
@@ -87,9 +111,11 @@ This skill is not necessary to upkeep quickness and is neglible to DPS. However 
 ## Optimisation
 #### CC
 1. {{ skill(id="41820") }} is always available (Short Bow 5)
-2. {{ skill(id="28409") }} is always available (Axe 5)
-3. {{ skill(id="27917") }} is available in Mallyx
-4. {{ skill(id="28075") }} is available in Glint
+2. {{ skill(id="72954") }} is always available (Spear 4)
+3. {{ skill(id="28409") }} is always available (Axe 5)
+4. {{ skill(id="27917") }} is available in Mallyx
+5. {{ skill(id="28075") }} is available in Glint
+You may bring a staff if you really need a strong CC
 
 #### Sustain and Stunbreaks
 1. {{ skill(id="27080") }} is available in Glint
