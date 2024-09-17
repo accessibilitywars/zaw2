@@ -33,7 +33,7 @@ Probably the easiest to play Alacrity build
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)
  
-[^1]You want to swap out Berserker's gear for Diviner's until you have above 20% boon duration while maintaining at least 45% critical chance. I recommend swapping an Amulet and 2 Rings for highest cost effectiveness, but this can be done in a variety of ways.
+[^1]: You want to swap out Berserker's gear for Diviner's until you have above 20% boon duration while maintaining at least 45% critical chance. I recommend swapping an Amulet and 2 Rings for highest cost effectiveness, but this can be done in a variety of ways.
 
 ## Build
 
