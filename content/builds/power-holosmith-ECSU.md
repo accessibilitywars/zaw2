@@ -16,13 +16,13 @@ series = "engineer"
 tagline = "Repeat after me: 'DO NOT OVERHEAT.'"
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "April 2024"
-benchmark = "38.2k DPS"
+balance = "August 2024"
+benchmark = "36.5k DPS"
 +++
 
 ### SPECIAL NOTE
 
-This is one of our more challenging builds. It's relatively simple, but unforgiving. It is also a 'Flavour of the Month' class, and might get nerfed in the future. Right now it is massively overperforming so even if it is nerfed, it should still perform reasonably well.
+This is one of our more challenging builds. It's relatively simple in concept, but unforgiving in execution. 
 
 ## Gearing
 
@@ -61,7 +61,8 @@ In Forge rotation:
 1. {{ skill(id="41123") }}
 
 Out Forge rotation:
-1. {{ skill(id="44110") }} (Sword 2) off cooldown  
+1. {{ skill(id="40110") }} (Sword 3)
+1. {{ skill(id="44160") }} (Sword 2)
 1. Auto attack  
 1. {{ skill(id="42938") }} @ ~80 Heat
 
@@ -93,5 +94,7 @@ You have very nice utilities with the Shield. You can bring a Pistol instead for
 Finally, you have 1 more CC skill, {{ skill(id="21661") }}. It should be your first option when it comes to CC, followed by {{ skill(id="6053") }} (Shield 4) and {{ skill(id="6054") }} (Shield 5).
 
 ## Video
+
+Outdated damage, but rotation is still the same. This does ~36.5K now.
 
 {{ youtube(id="HIGTdU60IU8") }}
