@@ -1,6 +1,6 @@
 +++
 title = "Blastmaster [pDPS]"
-description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
+description = "A sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
 draft = false
 template = "build.html"
@@ -17,16 +17,17 @@ series = "engineer"
 tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "April 2024"
-benchmark = "33.2k DPS"
+balance = "August 2024"
+benchmark = "34.5k DPS"
 +++
 
-A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast.
+A Sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast.
 
 ## Gearing
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
-{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ shield_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
 ### Consumables
@@ -60,16 +61,16 @@ In Photon Forge mode, your skill priorities are:
 
 Outside of Photon Forge, your skill priorities are:
 
-1. {{ skill(id="30713") }} (Hammer 5)
-2. {{ skill(id="30088") }} (Hammer 2)
+1. {{ skill(id="40160") }} (Sword 3)
+2. {{ skill(id="44160") }} (Sword 2)
 3. {{ skill(id="43739") }} -> {{ skill(name="Launch Wall") }} (spam the button)
 4. Auto attack when you can't press any buttons.
 
 ## Crowd Control
 
-Your CC skills are Static Shock, and Forge 5 Holographic Shockwave. That's not a lot of CC, so if you need more CC, you can swap out Rifle Turret for Throw Mine, and if you need even more CC, swap out Photon Wall for Personal Battering Ram.
+Your CC skills are {{ skill(id="6053") }} (Shield 4), which is a 3s long projectile reflect, and can be pressed twice in quick succession for CC, {{ skill(id="6054") }} (Shield 5), which is a 2.5s long block, and is basically your panic button. It can also be pressed twice in quick succession for CC. You can also swap out Rifle Turret for Throw Mine, and if you need even more CC, swap out Photon Wall for Personal Battering Ram.
 
 ## Video
 
-{{ youtube(id="IPqhB8YIiwo") }}
+UNDER CONSTRUCTION
 
