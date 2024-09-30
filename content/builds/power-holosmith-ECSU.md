@@ -61,8 +61,8 @@ In Forge rotation:
 1. {{ skill(id="41123") }}
 
 Out Forge rotation:
-1. {{ skill(id="40110") }} (Sword 3)
-1. {{ skill(id="44160") }} (Sword 2)
+1. {{ skill(id="40160") }} (Sword 3)
+1. {{ skill(id="44110") }} (Sword 2)
 1. Auto attack  
 1. {{ skill(id="42938") }} @ ~80 Heat
 
