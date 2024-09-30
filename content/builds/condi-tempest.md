@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
 balance = "August 2024"
 benchmark = "36.7k DPS"
+apm = "46"
 +++
 
 A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours.

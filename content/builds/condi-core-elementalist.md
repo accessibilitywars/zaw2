@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Elementalist"
 toc = true
 balance = "August 2024"
 benchmark = "33.4k DPS"
+apm = "44"
 +++
 
 Core Elementalist has been a passion project of mine, and today I am happy to present that it is now strong enough to earn a place on the website. I genuinely believe that this is the easiest and most effective build to play right now, and I am highly recommending it.

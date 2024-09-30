@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
 benchmark = "25.7k DPS"
+apm = "24"
 +++
 
 Simple but effective Condition Alacrity build

@@ -19,6 +19,7 @@ keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
 balance = "August 2024"
 benchmark = "34.5k DPS"
+apm = "37"
 +++
 
 ## Notes

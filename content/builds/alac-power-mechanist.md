@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
 benchmark = "27.1k DPS"
+apm = "24"
 +++
 
 Probably the easiest to play Alacrity build

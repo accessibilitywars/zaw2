@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
 benchmark = "33.5k DPS"
+apm = "25"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
