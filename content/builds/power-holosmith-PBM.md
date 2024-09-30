@@ -62,7 +62,7 @@ In Photon Forge mode, your skill priorities are:
 Outside of Photon Forge, your skill priorities are:
 
 1. {{ skill(id="40160") }} (Sword 3)
-2. {{ skill(id="44160") }} (Sword 2)
+2. {{ skill(id="44110") }} (Sword 2)
 3. {{ skill(id="43739") }} -> {{ skill(name="Launch Wall") }} (spam the button)
 4. Auto attack when you can't press any buttons.
 
