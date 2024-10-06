@@ -18,7 +18,7 @@ toc = true
 balance = "August 2024"
 +++
 
-Assuming your party is experienced and only require a tank with multiple reliable blocks to ensure minimal risk of failure, majority of your actions will be based on the scepter auto-attack. The end of the auto-attack chain {{ skill(id="9161") }} procs {{ trait(id="558") }} to provide heals and empower your shatter skills. Aegis and Stability are available on demand.
+Assuming your party is experienced and only require a tank with multiple reliable blocks to ensure minimal risk of failure, majority of your actions will be based on the scepter auto-attack. The end of the auto-attack chain {{ skill(id="10291") }} procs {{ trait(id="1915") }} to provide heals and empower your shatter skills. Aegis and Stability are available on demand.
 
 This build is has low physical complexity, has very few repetitions and is functional in instanced content, especially for new players wanting to volunteer for learning tank roles. You may find that the tanking ability is superior to other classes but relying on scepter alone without proper planning may result in mediocre healing. While this guide assumes no weapon swap is needed, to maximise its heal utility, you may consider swapping to rifle.
 
