@@ -20,37 +20,37 @@ balance = "August 2024"
 benchmark = "18.8k DPS"
 +++
 
-This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\\
+This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.
 This build is functional in both open world and instanced content. There is an optional amount of gear swaps that can be done to slide it towards being a stronger healer. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Tanking isn't terribly difficult on this build however.
 
 ## Gearing and Consumables
 #### Equipment
-[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF70/zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLeFA-e)\
+[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF70/zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLeFA-e)
 - Armor/Trinkets: Seraph Set but fill other pieces with other stats up to condi duration cap and the desired amount of healing/toughness.
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
 - Weapons (alt): Sceptre/Warhorn (Defensive)[^2]
 
-> <small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*</small>\
->  <small>[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
+[^1]: Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option
+[^2]: Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.
 
 #### Weapon Alternatives
 - Weapons (alt): Pistol/Torch (Offensive)[^3]
 
-> <small>[^3]*The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
+[^3]: The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.
 
 #### Runes
 {{ item(id="76166") }}
 
 #### Sigils
-{{ item(id="48911") }}\
+{{ item(id="48911") }}
 {{ item(id="24583") }}
 
 #### Relic
 {{ item(id="100153") }}
 
 #### Food
-{{ item(id="91748") }} OR\
+{{ item(id="91748") }} OR
 {{ item(id="95241") }} (Budget/Free)
 
 #### Utility

@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
 benchmark = "32.5k DPS"
+apm = "22"
 +++
 
 Signet-heavy, with some chill hammer thumping."

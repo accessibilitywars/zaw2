@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "August 2024"
 benchmark = "25.7k DPS"
+apm = "24"
 +++
 
 Simple but effective Condition Alacrity build
@@ -30,7 +31,7 @@ Simple but effective Condition Alacrity build
 - Relic of the Fractal
 - Food & Utility: Cilantro Flatbread & Toxic Focusing Crystal
 
-[^1]Start by adding Ritualist pieces until you are above 20% boon duration, then fill the remaining slots with Viper's. You can replace Viper's gear with more Ritualist if you find yourself dropping Alacrity.
+[^1]: Start by adding Ritualist pieces until you are above 20% boon duration, then fill the remaining slots with Viper's. You can replace Viper's gear with more Ritualist if you find yourself dropping Alacrity.
 
 ## Build
 

@@ -48,7 +48,6 @@ However, it is built from source code and contributors can make edits and submis
 	- builds live in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
 	- guides live in [guides](https://github.com/accessibilitywars/zaw2/tree/master/content/guides)
 	- miscellaneous pages live in [pages](https://github.com/accessibilitywars/zaw2/tree/master/content/pages)
-	- old jekyll-based builds live in [retired](https://github.com/accessibilitywars/zaw2/tree/master/content/retired)
 2. Click the markdown (.md) file to view it in the github editor
 3. Click the pencil icon to switch to edit mode, and make your changes
 4. Click the **[Commit Changes...]** button

@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
 balance = "August 2024"
 benchmark = "37.3k DPS"
+apm = "50"
 +++
 
 Learn 1 simple combo, and hit everything else off cooldown.
