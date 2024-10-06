@@ -28,14 +28,15 @@
 /content/builds/rifle-mech.md @scoobysharky
 
 # read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
+/content/builds/alac-condi-specter.md @xellink
 /content/builds/alac-hybrid-scourge.md @xellink
+/content/builds/alac-hybrid-tempest.md @xellink
 /content/builds/condi-soulbeast.md @xellink
+/content/builds/heal-alac-chronomancer.md @xellink
 /content/builds/heal-alac-willbender.md @xellink
 /content/builds/power-deadeye.md @xellink
 /content/builds/power-dragonhunter.md @xellink
 /content/builds/power-spellbreaker.md @xellink
-/content/builds/alac-condi-specter.md @xellink
-/content/builds/alac-hybrid-tempest.md @xellink
 /content/builds/quickness-condi-herald.md @xellink
 
 # vim: set expandtab:
