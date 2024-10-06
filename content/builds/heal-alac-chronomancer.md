@@ -31,15 +31,16 @@ This build is has low physical complexity, has very few repetitions and is funct
 | All Armor     | Minstrel's    | {{ item(id="84171") }}  |
 | Scepter (MH)  | Minstrel's    | {{ item(id="72339") }}  |
 | Shield (OH)   | Minstrel's    | {{ item(id="74326") }}  |
-| All Trinkets  | Minstrel's    | N/A 				        	  |
+| All Trinkets  | Minstrel's    | N/A                     |
 | Relic	        | N/A           | {{ item(id="100633") }} |
-<br>
-Consider rifle for additional healing and focus for additional CC/pulls.<br>
+
+Consider rifle for additional healing and focus for additional CC/pulls.
+
+> <small>_Note: Weapon swap to rifle is optional, but shield is better used for tanking. Alternate weapon sets should be prioritised based on utility requirements._</small>
+<div style="clear:both;">&nbsp;</div>
 
 #### Budget Options
 - Replace {{ item(name="Superior Sigil of Transference", id="74326") }} with {{ item(name="Superior Sigil of Water", id="24551") }}
-
-> <small>_Note: Weapon swap to rifle is optional, but shield is better used for tanking. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
 ## Consumables
 - {{ item(id="91690") }} OR {{ item(id="68634") }} _(budget alternative)_
