@@ -19,6 +19,7 @@ keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
 balance = "August 2024"
 benchmark = "37.4k DPS"
+apm = "63"
 +++
 
 ## Notes

@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 balance = "August 2024"
 benchmark = "27.9k DPS"
+apm = "39"
 +++
 
 My pain brings you strength!

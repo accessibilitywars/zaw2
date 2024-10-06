@@ -29,7 +29,7 @@ This build requires daggers and unfortunately has a small amount of forced movem
 #### GW2Skills Links
 1. [Optimised Loadout](http://gw2skills.net/editor/?PaABgihjlhyOYKMK2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
 2. [Ranged/Solo Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W/xaA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
-3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)\
+3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)
 
 > - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
 > - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified.</small>
@@ -54,13 +54,13 @@ This build requires daggers and unfortunately has a small amount of forced movem
 - {{ item(id="24605") }} (3rd Dagger or budget alternative)[^1]
 - {{ item(id="24583") }} (Scepter or budget alternative)
 
-> [^1]<small>Swapping to a third Dagger allows utilisation of two different sigils due to the ICDs.</small>
+[^1]: Swapping to a third Dagger allows utilisation of two different sigils due to the ICDs
 
 #### Relic
 - {{ item(id="100153") }}
 
 #### Food
-- {{ item(id="96578") }}\
+- {{ item(id="96578") }}
   There is no need for a budget alternative as this is relatively cheap. 
   Consider swapping this for alternatives if you are using budget runes.
 
@@ -77,8 +77,8 @@ This build requires daggers and unfortunately has a small amount of forced movem
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^2]
 2. {{ trait(id="2285") }} can refill your shroud meter if you bring wells.[^3]
 
-> [^2]<small>_Barriers scale according to your vitality so investment into healing power is not necessary._</small>\
-> [^3]<small>_This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals._</small>
+[^2]: Barriers scale according to your vitality so investment into healing power is not necessary.
+[^3]: This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals.
 
 ## Rotation and Utilities
 Ensure skill 1 on both shroud and daggers are set to autocast. You don't have to complete your auto-attack chain, the damage is negligible and prioritising the chain on top of other skills will lead to a DPS drop.
@@ -90,10 +90,11 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 2. DPS rotation - Spam {{ skill(id="13006") }} (D3)[^5]
 3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.[^6]
 4. Reset the rotation using {{ skill(id="63155") }} (F2).[^7]
-> [^4]<small>_You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)_</small>\
-> [^5]<small>Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast. Using a utility when you are out of initiative to smoothen that.</small>\
-> [^6]<small>_Some of these have no cast time and can be done mid animation._</small>\
-> [^7]<small>_This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about_</small>\
+
+[^4]: You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)
+[^5]: Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast. Using a utility when you are out of initiative to smoothen that.
+[^6]: Some of these have no cast time and can be done mid animation.
+[^7]: This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about
 
 #### Utilties
 1. Utilities to cast on cooldown
@@ -114,7 +115,7 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 > <small>Note: All the utilites are optional, some are more optional than others.</small>
 
 #### CC options
-{{ skill(id="13132") }} is your best CC skill.\
+{{ skill(id="13132") }} is your best CC skill.
 In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5) to CC
 
 #### Sustainability
@@ -153,4 +154,4 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5)
 You probably want to take the ranged loadout for solo due to provision of self boons when you steal. Apart from siphon, feel free to stay in shroud longer as you need to use haunt shot to increase your number of might stacks. Swapping to scepter can give another source of might but this is an intensive drain on your initiative resource. 
 
 ## Video
-Coming Soon\
+Coming Soon

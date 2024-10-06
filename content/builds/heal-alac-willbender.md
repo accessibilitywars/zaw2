@@ -44,8 +44,9 @@ This build is low cognition, low physical complexity, has very few repetitions a
 Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAAAAAAAAAAAAAAAAAAAAABMwAA]") }}
 
 #### Trait Alternatives
-Bring {{ trait(id="617") }} if you are taking consecrations.\
-Bring {{ trait(id="654") }} if there aren't blockable mechanics.
+
+- Bring {{ trait(id="617") }} if you are taking consecrations.
+- Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 
 > <small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
 

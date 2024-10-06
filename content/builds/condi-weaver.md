@@ -19,6 +19,7 @@ keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
 balance = "August 2024"
 benchmark = "37.3k DPS"
+apm = "79"
 +++
 
 ## Notes

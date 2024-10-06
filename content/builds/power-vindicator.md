@@ -18,6 +18,7 @@ keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
 balance = "August 2024"
 benchmark = "33.6k DPS"
+apm = "44"
 +++
 
 This is a pretty foundational build for Revenant. Simple, solid and focused.
