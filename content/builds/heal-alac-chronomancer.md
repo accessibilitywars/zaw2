@@ -32,6 +32,8 @@ This build is has low physical complexity, has very few repetitions and is funct
 | All Trinkets  | Minstrel's    | N/A 					  |
 | Relic	        | N/A           | {{ item(id="100633") }} |
 
+Consider rifle for additional healing and focus for additional CC/pulls.
+
 #### Budget Options
 - Replace {{ item(name="Superior Sigil of Transference", id="74326") }} with {{ item(name="Superior Sigil of Water", id="24551") }}
 
@@ -102,7 +104,7 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 
 Other utilities and trait combos
 1. Bring {{ skill(id="10267") }} / {{ skill(id="10185") }} for boon strips. 
-2. You may take {{ skill(id="677") }} for more/backup group aegis.
+2. You may take {{ trait(id="677") }} for more/backup group aegis.
 
 ## Optimisation
 #### Raid Ready
