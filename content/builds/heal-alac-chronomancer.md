@@ -31,8 +31,8 @@ This build is has low physical complexity, has very few repetitions and is funct
 | Shield (OH)   | Minstrel's    | {{ item(id="74326") }}  |
 | All Trinkets  | Minstrel's    | N/A 					  |
 | Relic	        | N/A           | {{ item(id="100633") }} |
-
-Consider rifle for additional healing and focus for additional CC/pulls.
+<br>
+Consider rifle for additional healing and focus for additional CC/pulls.<br>
 
 #### Budget Options
 - Replace {{ item(name="Superior Sigil of Transference", id="74326") }} with {{ item(name="Superior Sigil of Water", id="24551") }}
@@ -46,7 +46,7 @@ Consider rifle for additional healing and focus for additional CC/pulls.
 # Build
 Heal Quickness Build {{ chatlink(code="[&DQctOhcqKC9tAQ8BkxKGAX8BgQFrAWsBsxK8AQAAAAAAAAAAAAAAAAAAAAADVgBXAFUAAA==]") }}
 
-> <small>Swap to stretched time for Alacrity instead of quickness</small>
+> <small>Swap to stretched time for Alacrity instead of Quickness</small>
 
 ## Rotation and Utilities
 
@@ -86,8 +86,8 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 3. Your shatter skills provide significant heals even without clones.[^2] 
 4. Additional Mantras can be used in place of wells for very mobile fights.
 
-[^1]<small>You can overheal using {{ item(id="100633") }}. This generates barrier but has an ICD so you want to spread your casts.</small>
-[^2]<small>Using all your shatters in panic without clones will destroy your boon uptime. 
+[^1]: <small>You can overheal using {{ item(id="100633") }}. This generates barrier but has an ICD so you want to spread your casts.</small>
+[^2]: <small>Using all your shatters in panic without clones will destroy your boon uptime. 
 
 #### Crowd Control
 1. You have decent CC by just using {{ skill(id="30643") }} (Shield 5). 
