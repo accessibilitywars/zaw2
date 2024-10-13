@@ -2,7 +2,7 @@
 title = "Meat Carver [pDPS]"
 description = "As long as you have something to hit, enjoy a never-ending berserk mode."
 date = 2024-03-25
-updated = 2024-10-13
+updated = 2024-03-26
 template = "build.html"
 
 [taxonomies]
