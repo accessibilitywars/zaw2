@@ -68,7 +68,7 @@ Majority of this build's damage is ranged, allowing it to have high damage uptim
 
 ## Build
 
-{{ chatlink(code="") }}
+{{ chatlink(code="[&DQcBHQoaKD4jDwAAjwEAAAQTAACHEgAA7RIAAAAAAAAAAAAAAAAAAAAAAAADWQAFAGYAAA==]") }}
 
 ## Rotation
 
