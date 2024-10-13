@@ -2,6 +2,7 @@
 title = "Putrid Petmaster [DPS]"
 description = "With the power of hordes of minions filled with poison, this hybrid dps build really goes after Zhaitan's heart"
 date = 2024-08-11
+updated = 2024-10-13
 template = "build.html"
 
 [taxonomies]
@@ -15,7 +16,7 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 +++
 
 # Overview 

@@ -2,7 +2,7 @@
 title = "Meat Carver [pDPS]"
 description = "As long as you have something to hit, enjoy a never-ending berserk mode."
 date = 2024-03-25
-updated = 2024-03-26
+updated = 2024-10-13
 template = "build.html"
 
 [taxonomies]
@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "'My advice? Use axes to fell the tree, and the hammer to pound it into submission. Your enemy is the tree.' --Tyltooth Oakfist"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 +++
 
 Absolutely everything this build uses extends berserk. Your goal is to get into berserk as fast as possible and stay there, as long as you're hitting

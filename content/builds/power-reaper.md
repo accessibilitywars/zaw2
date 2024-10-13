@@ -2,7 +2,7 @@
 title = "The Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
-updated = 2024-04-11
+updated = 2024-10-13
 template = "build.html"
 
 [taxonomies]
@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "Ask not for whom the bell tolls. It tolls for thee."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 +++
 
 # Overview 
