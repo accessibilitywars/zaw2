@@ -23,8 +23,10 @@
 /content/builds/power-soulbeast.md @scoobysharky
 /content/builds/power-tempest.md @scoobysharky
 /content/builds/power-vindicator.md @scoobysharky
+/content/builds/power-chronomancer.md @scoobysharky
 /content/builds/quickness-power-harbinger.md @scoobysharky
 /content/builds/quickness-power-herald.md @scoobysharky
+/content/builds/quickness-power-chronomancer.md @scoobysharky
 /content/builds/rifle-mech.md @scoobysharky
 
 # read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
@@ -38,5 +40,6 @@
 /content/builds/power-dragonhunter.md @xellink
 /content/builds/power-spellbreaker.md @xellink
 /content/builds/quickness-condi-herald.md @xellink
+/content/builds/heal-alac-chronomancer.md @xellink
 
 # vim: set expandtab:
