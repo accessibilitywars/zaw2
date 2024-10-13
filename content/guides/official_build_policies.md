@@ -33,6 +33,8 @@ This is a living document and will be expanded as more functionality is implemen
 - benchmark dps
 - apm calculation 
 - rotation notes
+- updated date
+  - note: updated date should only be changed if the build is changed. Changing the Balance String only does NOT qualify
 
 ## May Have
 
