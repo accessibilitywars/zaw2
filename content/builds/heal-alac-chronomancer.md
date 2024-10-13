@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Time heals all wounds."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 +++
 
 Assuming your party is experienced and only require a tank with multiple reliable blocks to ensure minimal risk of failure, majority of your actions will be based on the scepter auto-attack. The end of the auto-attack chain {{ skill(id="9161") }} procs {{ trait(id="558") }} to provide heals and empower your shatter skills. Aegis and Stability are available on demand.
@@ -111,7 +111,7 @@ Other utilities and trait combos
 4. Advanced strategies can be used with {{ skill(id="29830") }} to duplicate skills for example:
     * Double {{ skill(id="52370") }}
     * Double Moa CC
-5. Advanced strategies can be used by combining {{ skill(id="29578") }} and {{ skill(id="29830") }}
+5. More advanced strategies can be used by combining {{ skill(id="29578") }} and {{ skill(id="29830") }}
 
 ## Optimisation
 #### Raid Ready
@@ -124,7 +124,7 @@ Other utilities and trait combos
 7. W3 Twisted Castle - You may wish to attempt the button with the statues (left split). In this case after the double doors, use {{ skill(id="30769") }} immediately after entering and face them as they will throw hammers, then {{ skill(id="10200") to the next button. More skips can be done with an elementalist pair combo using Fiery Greatsword and clever use of portals and blink.
 8. W3 Xera - You are likely to tank this fight. This fight is mostly based on positioning. {{ skill(id="10363") }} (Focus Pull 4) is useful when tanking as it allows your team to cleave them more easily. 
 9. W4 Cairn - Stability is required for skipping greens. Bring {{ skill(id="29526") }} and {{ skill(id="10237") }}.
-10. W4 Mursaat Overseer - Improved alacrity will allow you to claim tiles faster than other class. Using {{ skill(id="29830") }} to duplicate 
+10. W4 Mursaat Overseer - Improved alacrity will allow you to claim tiles faster than other class. Using {{ skill(id="29830") }} to duplicate [&BhCUAAA=] will allow you to claim tiles even faster, especially useful in CM. 
 11. W4 Samarog - Try to bait as tank as much as possible. You can pre-cast your CC such as {{ skill(id="30643") }} (Shield 5) before he pins you down (health bar indicator).
 12. W4 Deimos - Group Aegis is useful on CM. I prefer to Group Aegis before casting a Channeled block. You can also use manipulations for group aegis.
 13. W5 Soulless Horror - You will be tanking this fight and would definitely appreciate the added toughness. Bring {{ skill(id="29519") }} for this fight for the additional CC. {{ skill(id="29830") }} has killed many Chrono Tanks in this fight so spatial awareness is important. 
