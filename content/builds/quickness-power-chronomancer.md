@@ -68,7 +68,7 @@ This build gives quickness when you create a Phantasmal ({{ skill(name="Phantasm
 
 ## Build
 
-{{ chatlink(code="") }}
+{{ chatlink(code="[&DQcBHQoaKC4jDwAAjwEAAAQTAADPEgAA7RIAAAAAAAAAAAAAAAAAAAAAAAADWQAFAGYAAA==]") }}
 
 ## Rotation
 
