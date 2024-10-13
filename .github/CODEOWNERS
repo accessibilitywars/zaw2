@@ -26,6 +26,7 @@
 /content/builds/power-chronomancer.md @scoobysharky
 /content/builds/quickness-power-harbinger.md @scoobysharky
 /content/builds/quickness-power-herald.md @scoobysharky
+/content/builds/quickness-power-chronomancer.md @scoobysharky
 /content/builds/rifle-mech.md @scoobysharky
 
 # read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
