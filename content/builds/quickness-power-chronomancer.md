@@ -22,11 +22,9 @@ benchmark = "28.0k DPS"
 apm = "52"
 +++
 
-## Disclaimer
+> Disclaimer: this build depends on a 9-year-old bug with Fencer's Finesse[^1]
 
----
-
-Fencer's Finesse is bugged, and activates on your phantasms and clones even if you're not using main-hand sword. It is a long known bug that happens even for every Condition Virtuoso, Power Chronomancer, and Power Boon Chronomancer build, and has not been fixed for a long time. It takes no setup and will activate as long as you are taking the trait Fencer's Finesse, and using a Sword in your offhand with any other mainhand weapon. Due to how general it is, it is almost impossible to avoid triggering this bug and we will proceed with the game assuming that it is intended behaviour.
+[^1]: Fencer's Finesse is bugged, and activates on your phantasms and clones even if you're not using main-hand sword. It is a long known bug that happens even for every Condition Virtuoso, Power Chronomancer, and Power Boon Chronomancer build, and has not been fixed for a long time. It takes no setup and will activate as long as you are taking the trait Fencer's Finesse, and using a Sword in your offhand with any other mainhand weapon. Due to how general it is, it is almost impossible to avoid triggering this bug and we will proceed with the game assuming that it is intended behaviour.
 
 ## Notes
 
