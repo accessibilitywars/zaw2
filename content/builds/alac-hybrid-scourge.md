@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "18.8k DPS"
 +++
 
@@ -93,7 +93,7 @@ You have many options to play around with other traits and utilities. Necromance
 4. You may bring {{ skill(id="10620") }} if you need to pull adds and have extra CC. 
 
 ## Optimisation
-Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is no effective swiftness or stability. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
+Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is now effective swiftness and stability in the latest patch. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
 
 #### Strike Ready
 1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Take {{ trait(id="780") }} and use {{ skill(id="44428") }} sparingly. 
@@ -117,7 +117,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 14. W6 Twin Largos - This build excels on this fight. The right lane (Kenut) favors condition builds. Bring {{ skill(id="10646") }} for added CC.
 15. W6 Qadim - This build can Kite Qadim, Tank Wyverns or even solo Lamp. 
 16. W7 Sabir - Projectile blocks from {{ skill(id="10689") }} is useful. {{ skill(id="44428") }} is very helpful for players who can't do tornado jumps. 
-17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can also pull allies who identify themselves as sandsharks.
+17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can no longer pull allies who identify themselves as sandsharks.
 18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos
