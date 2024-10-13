@@ -17,7 +17,7 @@ series = "mesmer"
 tagline = "Maybe I was the illusion all along"
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "34.1k DPS"
 apm = "51"
 +++
