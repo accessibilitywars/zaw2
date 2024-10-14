@@ -44,7 +44,7 @@ You also give alacrity while you are casting {{ skill(id="29719") }}, and the ro
 	ring1="Berserker's",
 	ring2="Berserker's",
 	amulet="Berserker's",
-	relic="Firework") }}
+	relic="Fireworks") }}
 
 ---
 
@@ -57,7 +57,7 @@ You also give alacrity while you are casting {{ skill(id="29719") }}, and the ro
 
 ## Build
 
-{{ chatlink(code="") }}
+{{ chatlink(code="[&DQYlPSkvMCfHEnQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgBnAAkBAA==]") }}
 
 
 ## Rotation
