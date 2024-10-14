@@ -44,7 +44,7 @@ You also give alacrity while you are casting {{ skill(id="29719") }}, and the ro
 	ring1="Berserker's",
 	ring2="Berserker's",
 	amulet="Berserker's",
-	relic="Fireworks") }}
+	relic="Firework") }}
 
 ---
 
