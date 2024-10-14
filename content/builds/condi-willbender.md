@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "Hans, get ze flammenwerfer"
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "37.3k DPS"
 apm = "50"
 +++
