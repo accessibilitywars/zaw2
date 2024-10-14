@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "You've heard of spinning to win, now try shotgunning to win!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "33.5k DPS"
 apm = "38"
 +++
