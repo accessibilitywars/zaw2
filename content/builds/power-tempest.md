@@ -42,7 +42,7 @@ The concept of this build relies on {{ trait(id="1503") }} resetting the cooldow
 	ring1="Berserker's",
 	ring2="Berserker's",
 	amulet="Berserker's",
-	relic="Fireworks") }}
+	relic="Firework") }}
 
 ---
 
