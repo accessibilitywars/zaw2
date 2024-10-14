@@ -17,7 +17,7 @@ series = "elementalist"
 tagline = "A storm is coming."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "37.4k DPS"
 apm = "63"
 +++
@@ -35,21 +35,14 @@ The concept of this build relies on {{ trait(id="1503") }} resetting the cooldow
 {{ light(stat="Berserker's", rune="Scholar") }}
 {{ scepter_main(stat="Berserker's", sigil="Force") }}
 {{ warhorn_off(stat="Berserker's", sigil="Accuracy") }}
-
----
-
-| Trinkets | Type | Stat |
-| -------- | ---- | ---- |
-| {{ itemicon(name="Ad Infinitum", stat="1077") }} | Back item | Berserker's |
-| {{ itemicon(name="Prismatic Champion's Regalia", stat="1077") }} | Amulet | Berserker's |
-| {{ itemicon(name="Aurora", stat="1128") }} | Accessory | Assassin's |
-| {{ itemicon(name="Vision", stat="1128") }} | Accessory | Assassin's |
-
-| Trinkets | Type | Stat |
-| -------- | ---- | ---- |
-| {{ itemicon(name="Conflux", stat="1077") }} | Ring | Berserker's | 
-| {{ itemicon(name="Coalescence", stat="1077") }} | Ring | Berserker's |
-| {{ itemicon(id="100947") }} | Relic | Fireworks |
+{{ trinkets(
+	back="Berserker's",
+	accessory1="Assassin's",
+	accessory2="Assassin's",
+	ring1="Berserker's",
+	ring2="Berserker's",
+	amulet="Berserker's",
+	relic="Fireworks") }}
 
 ---
 
@@ -128,7 +121,7 @@ Your CC skills are:
 > 1. {{ skill(id="5696") }} (Scepter Earth 3)
 > 1. {{ skill(id="30336") }} (Warhorn Earth 5)
 
-Scepter Air 3 Blinding Flash and Warhorn Air 4 Cyclone should be on your skill bar most of the time, and if you require more CC, you can replace the step of {{ skill(id="5492") }} 2 3 5 with either:
+{{ skill(id="5694") }} (Scepter Air 3) and {{ skill(id="30008") }} (Warhorn Air 4) should be on your skill bar most of the time, and if you require more CC, you can replace the step of {{ skill(id="5492") }} 2 3 5 with either:
 > 1. {{ skill(id="5493") }} 2 3 4
 > 1. {{ skill(id="5495") }} 3 5
 
