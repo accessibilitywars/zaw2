@@ -29,6 +29,7 @@
 /content/builds/quickness-power-chronomancer.md @scoobysharky
 /content/builds/rifle-mech.md @scoobysharky
 /content/builds/alac-condi-mirage.md @scoobysharky
+/content/builds/alac-power-tempest.md @scoobysharky
 
 # read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
 /content/builds/alac-condi-specter.md @xellink
