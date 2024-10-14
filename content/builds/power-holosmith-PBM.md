@@ -17,7 +17,7 @@ series = "engineer"
 tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "34.5k DPS"
 +++
 
