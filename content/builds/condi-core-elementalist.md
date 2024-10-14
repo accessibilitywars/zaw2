@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Elementalist"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "33.4k DPS"
 apm = "44"
 +++
