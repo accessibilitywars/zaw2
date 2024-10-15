@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "Condi Shortbow Ranger"
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-balance = "April 2024"
+balance = "October 2024"
 benchmark = "27.7k DPS solo, 30k DPS w. allies"
 +++
 
@@ -50,6 +50,7 @@ Optimised Viper's Loadout
 
 #### Relic
 - {{ item(id="100153") }}
+<small>Relic of the {{ item(id="102199") }} has been considered but remains a much weaker version as there is a hidden ICD, preventing {{ skill(id="12468") }} from proccing multiple times.</small>
 
 #### Food
 - {{ item(id="91876") }}
