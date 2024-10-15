@@ -15,7 +15,7 @@ series = "warrior"
 tagline = "Dance like the Dervishes of old."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "37.7k DPS burst, 30k sustained"
 +++
 
@@ -33,7 +33,7 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 {{ axe_off(stat="Berserker's", sigil="Air") }}
 {{ dagger_main(stat="Berserker's", sigil="Accuracy") }}
 {{ dagger_off(stat="Berserker's", sigil="Air") }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
+{{ trinkets(stat="Berserker's", relic="Claw") }}
 
 > ***Marauder's*** *can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
 
@@ -130,4 +130,6 @@ I have benched the build with 1 piece of marauder's headgear, budget food and ut
 #### DPS benchmark (29-31k, 37.7k initial burst)
 {{ youtube(id="fGPygDuxx9Q") }}
 
-> <small>This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>
+> <small>This benchmark does not include any relic. You may bench 2k higher with the proper relic equipped.</small>
+> <small>Alternative relics include {{ item(id="100916") }} and {{ item(id="99997") }}.</small>
+> <small>{{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>
