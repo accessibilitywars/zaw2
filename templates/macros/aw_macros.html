@@ -13,7 +13,7 @@
         <div class="tpad" style="white-space: nowrap;">
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
 			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}
-			       {%- if page.extra.apm %} {{ page.extra.apm }} APM{%- endif -%}"
+			       {%- if page.extra.apm %} {{ page.extra.apm }}&nbsp;APM{%- endif -%}"
 			>
             {%- if page.taxonomies.specs -%}
             <img style="float: left; height: 1em;" src="/images/icons/{{ page.taxonomies.specs[0] }}.png"/>
@@ -35,7 +35,7 @@
 	{%- endif -%}
 	{%- if page.extra.apm -%}
 		</br>
-		{{ page.extra.apm }} APM
+		{{ page.extra.apm }}&nbsp;APM
 	{%- endif -%}
 	</h3></span>
 	{%- endif -%}
@@ -52,7 +52,7 @@
 		{%- endif -%}
 		{%- if page.extra.apm -%}
 			</br>
-			{{ page.extra.apm }} APM
+			{{ page.extra.apm }}&nbsp;APM
 		{%- endif -%}
 		</h3></span>
 		{%- endif -%}
@@ -69,12 +69,12 @@
   {%- if inner.content == page.content %}
       <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
-      {%- if inner.extra.apm %} {{ inner.extra.apm }} APM{%- endif -%}"
+      {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 >{{ inner.title }}</a></li>
     {% else %}
       <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
-      {%- if inner.extra.apm %} {{ inner.extra.apm }} APM{%- endif -%}"
+      {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 	>{{ inner.title }}</a></li>
   {%- endif %}
 {%- endmacro %}
