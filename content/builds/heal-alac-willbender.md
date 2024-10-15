@@ -15,7 +15,7 @@ series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
@@ -80,7 +80,6 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 - {{ skill(id="62648") }} allows you to shadow step through mechanics
 - Blocking increases your heal power and doing so intelligently allows efficient use of {{ trait(id="1899") }}
 
-
 ## Optimisation
 #### Raid Ready
 1. W1 Gorseval - Immobilise your spirit with {{ skill(id="9151") }} and {{ skill(id="9260") }} (Hammer 3)
@@ -89,6 +88,9 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 4. W2 Matthias - Bring {{ skill(id="9251") }} for reflects. Bring {{ skill(id="9128") }} if you require more CC.
 5. W3 Escort - This build is able to solo towers albeit a little slow with 6-8k dps. If you want to do the JP, bring {{ skill(id="29965") }} for a superspeed boost.
 6. W4 Samarog - You may knock Rigom back with {{ skill(id="9124") }} (Hammer 4) and immobilise with {{ skill(id="9260") }} (Hammer 3) and {{ skill(id="9099") }} (Scepter 3). Bring {{ skill(id="9128") }} if you require more CC.
-7. W6 Conjured Amalgamate - Your power DPS can be quite significant despite being a healer. Do not stop attacking with autos. Place {{ skill(id="9128") }} when CA tosses out shields for a precast CC.
-8. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as the minibosses appear.
-9. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
+7. W4 Deimos - If you are the healer, due to the low toughness, you will probably be tasked to provide group aegis for the other DPS players.
+8. W6 Conjured Amalgamate - Your power DPS can be quite significant despite being a healer. Do not stop attacking with autos. Place {{ skill(id="9128") }} when CA tosses out shields for a precast CC.
+9. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as the minibosses appear.
+10. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
+
+<small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>
