@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Condi Quickness Short Bow Herald"
 keywords = "Guild Wars 2, GW2, LI, herald"
 toc = true
-balance = "August 2024"
+balance = "October 2024"
 benchmark = "25k DPS"
 +++
 
@@ -87,9 +87,7 @@ If you are forced into range and may have damage downtime/narrow windows such th
 6. {{ skill(id="72972") }} (Spear 2)
 7. {{ skill(id="73059") }} (Spear 5)
 Use 2/5 off cooldown.
-Autos will lower the cooldown of {{ skill(id="73059") }}, but also requires your attacks to hit.
-If there is a wide open damage window, spear is your weapon of choice. Legend swaps count as swaps. 
-Spears offer the highest DPS at this point in time. 
+Autos will lower the cooldown of {{ skill(id="73059") }}, but also requires your attacks to hit. If there is a wide open damage window, spear is your weapon of choice. Legend swaps count as swaps for sigils but does not trigger Abyssal Raze. Spears offer the highest DPS at the time of writing. 
 </details>
 
 <details>
