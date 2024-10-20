@@ -9,7 +9,7 @@ function BUILDCODE__copyCode() {
 }
 </script>
 
-<span onclick='BUILDCODE__copyCode()'>
+<span style='overflow:hidden;' onclick='BUILDCODE__copyCode()'>
 
 `{{code}}` <div id="copycode" style='position: relative; top: -1.25em; left: 1em; width="100%"; center; font-size: 0.5em;'>click to copy</div>
 
