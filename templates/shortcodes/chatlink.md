@@ -11,7 +11,7 @@ function BUILDCODE__copyCode() {
 
 <span onclick='BUILDCODE__copyCode()'>
 
-`{{code}}` <span id="copycode">click to copy</span>
+`{{code}}` <div id="copycode" style='position: relative; top: -1.25em; left: 1em; width="100%"; center; font-size: 0.5em;'>click to copy</div>
 
 </span>
 
