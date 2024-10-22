@@ -14,6 +14,8 @@ for i in $FILES; do
 		deps=$(chatr -D $c)
 		depstring="${depstring:+$depstring, }$deps"
 	done
-	echo "\"$(basename $i)\": [$depstring]"
+	u="${u:+$u, }\"$(basename $i)\": [$depstring]$sep"
+	depstring=
 done
+echo $u
 echo "}"
