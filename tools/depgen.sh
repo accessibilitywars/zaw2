@@ -9,8 +9,11 @@ FILES=$@
 
 echo "{"
 for i in $FILES; do
-	chatlink=$(grep -ohP '(?<=\[&)[A-Za-z0-9].+(?=\])' $i)
-	deps=$(chatr -D $chatlink)
-	echo "'$(basename $i)': " $deps "," 
+	chatlinks=$(grep -ohP '(?<=\[&)[A-Za-z0-9].+(?=\])' $i)
+	for c in $chatlinks; do
+		deps=$(chatr -D $c)
+		depstring="${depstring:+$depstring, }$deps"
+	done
+	echo "\"$(basename $i)\": [$depstring]"
 done
 echo "}"
