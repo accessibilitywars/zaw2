@@ -38,6 +38,14 @@ This means that with just those traits:
 
 - `(58 * 21) + 1000 - 550 - 200` = **1369 precision** to hit crit cap (which is 1000 base + 369 from gear)
 
+### Final note
+
+Take care when optimizing, as some traits and skills in a build can benefit from “excess” precision. In that case, going beyond the crit cap can still be valuable, and sometimes we deliberately [do this](https://aw2.help/builds/power-deadeye/).
+
+To continue with the thief examples,
+
+- {{ trait(name=“Practiced Tolerance”) }} will benefit from any and all precision, even beyond the crit cap
+
 # Topic 2: Boon Duration
 
 ** TODO **
