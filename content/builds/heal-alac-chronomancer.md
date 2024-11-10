@@ -47,9 +47,11 @@ Consider rifle for additional healing and focus for additional CC/pulls.
 - {{ item(id="81157") }}
 
 # Build
+[GW2Skills Link](http://gw2skills.net/editor/?PiwAw6RlZwaYLYn4RPp2eB-DSJYjRH/hkoEoalQ6iA7+Lgl23sgKA-e)
 Heal Quickness Build {{ chatlink(code="[&DQctOhcqKC9tAQ8BkxKGAX8BgQFrAWsBsxK8AQAAAAAAAAAAAAAAAAAAAAADVgBXAFUAAA==]") }}
 
 > <small>Swap to stretched time for Alacrity instead of Quickness</small>
+
 
 ## Rotation and Utilities
 
@@ -73,15 +75,17 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 #### Principles of generating Alacrity/Quickness
 1. Generate Clones using autos - {{ skill(id="10291") }}.
 2. Use shatter skills when clones are full to heal allies and grant alacrity/quickness.
+3. Phantasms add a whole lot of alacrity/quickness which can quickly overcap if desired.
 
-> <small>In an experienced group, assuming you have a herald, players who avoid damage and are expert at mechanics, these two steps are the core foundation of your build.</small>
+> <small>In an experienced group, assuming you have a herald and other players who avoid damage and are expert at mechanics, these two steps are the core foundation of your build.</small>
 > <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains. Nobody actually watches the chain but you know you need to auto when your clones are not coming.</small>
 > <small>The rotation for quickness and alacrity is the same.</small>
-> <small>You need to reserve backup when you can't generate clones or give boons. That's what the utilities are for.</small>
+> <small>You need to reserve backup when you can't generate clones or give boons. That's what the phantasms and other utilities are for.</small>
 
 #### Maintenance Heals
 1. Clone generation provides a small but steady heal.
 2. Shattering clones provides a more sizeable heal.
+3. Regeneration uptime is important. 
 
 #### Burst Heals
 1. Reserve the use of your wells if you can anticipate a large attack (eg. VG greens)
