@@ -127,7 +127,7 @@ title_size_index = "s85"
 footer_size = "s90"
 footer_menu_size = "s100"
 footer_credit = true
-footer_credit_override = '<p class="s80">Site built and maintained by: <a rel="me" href="https://mstdn.games/@berdandy">berdandy</a></p><hr/><p class="s70">NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, Guild Wars 2: Secrets of the Obscure, Guild Wars 2: Janthir Wilds and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</p>'
+footer_credit_override = '<p class="s80">Site built and maintained by: <a rel="me" href="https://gw2.social/@berdandy">berdandy</a><a href="https://mstdn.games/@berdandy" rel="me" style="display: none;">hidden</a></p><hr/><p class="s70">NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, Guild Wars 2: Secrets of the Obscure, Guild Wars 2: Janthir Wilds and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</p>'
 
 #archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
 
