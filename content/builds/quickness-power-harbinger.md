@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","necromancer","harbinger","eod","lowcog","lowphys","boon","quickness"]
+tags = ["greatsword","power","necromancer","harbinger","eod","lowcog","lowphys","boon","quickness"]
 authors = ["scooby"]
 specs = ["harbinger", "necromancer"]
 

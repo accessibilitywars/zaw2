@@ -6,7 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
+tags = ["hammer","dagger","axe","greatsword","power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["spellbreaker", "warrior"]
 
