@@ -20,7 +20,11 @@ balance = "October 2024"
 benchmark = "25k DPS"
 +++
 
-This build uses 7 key skills in its rotation without weapon swap. With only 2 short bow skills {{ skill(id="41829") }} and {{ skill(id="40175") }}, this build avoids high energy skills in Mallyx allows energy management to frequently trigger torment through {{ skill(id="28287") }}. The ranged nature of the build allows higher damage uptime, less button presses and the relics and sigils are focused on stacking as much torment as possible. Originally build for bow, the build has now been updated to include spear in its rotation.
+This build uses 7 key skills in its rotation without weapon swap. With only 2 short bow skills {{ skill(id="41829") }} and
+{{ skill(id="40175") }}, this build avoids high energy skills in Mallyx, allowing energy management to frequently trigger
+torment through {{ skill(id="28287") }}. The ranged nature of the build allows higher damage uptime, less button presses
+and the relics and sigils are focused on stacking as much torment as possible. Originally build for bow, the build has
+now been updated to include spear in its rotation.
 
 ## Gearing and Consumables
 Optimised Loadout
@@ -30,10 +34,12 @@ Optimised Loadout
 | ------------- | ------------- | --------------- |
 | Armor         | Viper's       | {{ item(id="67339") }} |
 | Short Bow     | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }} |
-| Spear         | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }} |
+| Spear         | Viper's       | {{ item(id="44950") }}<br/>{{ item(id="48911") }}[^1] |
 | Trinkets      | Viper's       | {{ item(id="100153") }} |
 
 Short Bow/Spear and Spear/Spear are the most popular loadouts.
+
+[^1]: While it's possible to play this build solo, spear will not trigger enough bleeds in a solo environment to proc the relic. {{ item(name="relic of the aristocracy") }} and {{ item(name="relic of akeem") }} are possible alternatives.
 
 ---
 
