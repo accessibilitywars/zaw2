@@ -50,7 +50,7 @@ A brand new spicy Fire Tempest build is great for roasted golems and friendly ra
 ### Consumables
 
 - {{ item(name="Fishy Rice Bowl") }}
-- {{ item(name="Toxic Focusing Crystal") }}
+- {{ item(name="Toxic Tuning Crystal") }}
 
 ## Build
 

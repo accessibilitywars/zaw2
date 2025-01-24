@@ -33,7 +33,7 @@ Learn 1 simple combo, and hit everything else off cooldown.
 #### Consumables 
 
 - {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} OR {{ item(name="Plate of Beef Rendang") }}
-- {{ item(name="Toxic Focusing Crystal") }} 
+- {{ item(name="Toxic Tuning Crystal") }} 
 
 ## Build
 

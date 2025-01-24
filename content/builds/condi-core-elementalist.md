@@ -49,7 +49,7 @@ Core Elementalist has been a passion project of mine, and today I am happy to pr
 ### Consumables
 
 - {{ item(name="Fishy Rice Bowl") }}
-- {{ item(name="Toxic Focusing Crystal") }}
+- {{ item(name="Toxic Tuning Crystal") }}
 
 ## Build
 

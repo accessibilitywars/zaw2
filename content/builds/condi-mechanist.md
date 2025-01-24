@@ -30,7 +30,7 @@ This mechanist build is all-signets, and no kit usage, for simple play
 {{ pistol_off(stat="Viper's", sigil="Earth") }}
 {{ trinkets(stat="Viper's", relic="Fractal") }}
 
-- Food & Utility: Cilantro Flatbread & Toxic Focusing Crystal
+- Food & Utility: Cilantro Flatbread & Toxic Tuning Crystal
 
 ## Build
 

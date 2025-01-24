@@ -60,7 +60,7 @@ It is also relatively sturdy for a DPS build, and has good HP self sustain.
   - {{ item(name="Dragon's Revelry Starcake") }} (Budget Alternative)
  
 - #### Consumable (Condition Damage):
-  - {{ item(name="Toxic Focusing Crystal") }}
+  - {{ item(name="Toxic Tuning Crystal") }}
 
 ## Build
 

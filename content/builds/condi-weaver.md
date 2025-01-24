@@ -41,7 +41,7 @@ This build is also primarily ranged, accounting for ~93% of it's damage. Small t
 
 - Consumables:
   - Cilantro and Cured Meat Flatbread (Condi Damage/Expertise Damage)
-  - Toxic Focusing Crystal (Condi Damage)
+  - Toxic Tuning Crystal (Condi Damage)
 
 ## Build
 
