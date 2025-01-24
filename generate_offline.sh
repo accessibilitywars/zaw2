@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 echo NOTE: USE $0 --reset TO GET FRESH DATA FROM API
 
