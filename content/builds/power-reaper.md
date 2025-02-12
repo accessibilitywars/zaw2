@@ -19,6 +19,8 @@ toc = true
 balance = "October 2024"
 +++
 
+**Feb 11 Note: Overflowing Thirst is the only relevant change**
+
 # Overview 
 
 Classic power reaper spin to win playstyle. Generally speaking, this plays like:

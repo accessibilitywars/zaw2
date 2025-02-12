@@ -390,7 +390,7 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 #math = false # Recommended setting false, and enable on per page bases instead.
 #math_auto_render = false # Recommended setting false, and enable on per page bases instead.
 
-balance = "October 2024"
-prev_balance = "August 2024"
+balance = "February 2025"
+prev_balance = "October 2024"
 # alert = "WARNING: GW2 API Disabled August 16-23"
 # alert_detail = "During the Janthir Wilds launch week of August 16-23. Some portions of this site will not function, such as icons and mouse-over details of items, skills and traits."
