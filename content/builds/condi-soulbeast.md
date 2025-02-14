@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "Condi Shortbow Ranger"
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-balance = "October 2024"
+balance = "February 2025"
 benchmark = "27.7k DPS solo, 30k DPS w. allies"
 +++
 

@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Time heals all wounds."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "October 2024"
+balance = "February 2025"
 +++
 
 

@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "Reports of my death have been greatly exaggerated"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "October 2024"
+balance = "February 2025"
 benchmark = "33.5k DPS"
 apm = "26"
 +++

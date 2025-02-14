@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "'My advice? Use axes to fell the tree, and the hammer to pound it into submission. Your enemy is the tree.' --Tyltooth Oakfist"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
-balance = "October 2024"
+balance = "February 2025"
 +++
 
 Absolutely everything this build uses extends berserk. Your goal is to get into berserk as fast as possible and stay there, as long as you're hitting

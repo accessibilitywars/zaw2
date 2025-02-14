@@ -6,7 +6,6 @@ updated = 2024-08-29
 draft = false
 template = "build.html"
 
-
 [taxonomies]
 categories = ["group"]
 tags = ["staff","power","thief","daredevil","hot","lowcog","lowrep","lowphys"]
@@ -14,11 +13,11 @@ authors = ["scooby"]
 specs = ["daredevil", "thief"]
 
 [extra]
-series = "daredevil"
+series = "thief"
 tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
-balance = "October 2024"
+balance = "February 2025"
 benchmark = "34.2k DPS"
 apm = "19"
 +++
