@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["scepter","warhorn","condi","hybrid","heal","alacrity","elementalist","tempest","hot","lowrep","lowphys"]
+tags = ["scepter","warhorn","condi","hybrid","heal","alacrity","elementalist","tempest","hot","lowrep","lowphys","FIXME"]
 authors = ["xellink"]
 specs = ["tempest", "elementalist"]
 
