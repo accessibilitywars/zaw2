@@ -20,6 +20,4 @@ draft = false
 
 # Open GitHub Issues
 
-{{ buglist(repo="accessibilitywars/aw2-builds") }}
-
 [see all issues...](https://github.com/accessibilitywars/zaw2/issues)
