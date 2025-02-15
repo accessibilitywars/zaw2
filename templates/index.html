@@ -115,9 +115,11 @@ This Template can also be used directly for the index eg: example.com/ or as the
 		  <span class="b s150">{{ macros::translate(key="Recent", default="Recent", i18n=i18n) }}</span>
 		  {%- set recent_items=config.extra.recent_items | default(value=9) -%}
 		  {%- for page in section_item.pages | slice(end=recent_items) %}
+		    {%- if page.components is not containing("hidden") %}
 			{%- if not page.extra or not page.extra.hidden or page.extra.hidden != true %}
 			{{- aw_macros::page_listing(page=page, config=config) }}
 			{%- endif -%}
+		    {%- endif -%}
 		  {%- endfor %}
 
 		  <h3><a href="archive">View all...</a></h3>

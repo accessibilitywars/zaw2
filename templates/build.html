@@ -79,18 +79,18 @@
         <ol>
         {%- for inner in tag.pages | sort(attribute="date") %}
           {%- if page.components is not containing("hidden") %}
-          {%- if inner.content == page.content %}
-            <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ inner.title }}
-			{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
-			{%- if inner.extra.apm -%} [{{ inner.extra.apm }}&nbsp;APM]{%- endif -%}
-			</a></li>
-            {%- set_global current_section_index = loop.index0 %} {# Finds the current section, needed for pagination logic later #}
-          {% else %}
-            <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ inner.title }}
-			{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
-			{%- if inner.extra.apm -%} [{{ inner.extra.apm }}&nbsp;APM]{%- endif -%}
-			</a></li>
-          {%- endif %}
+				  {%- if inner.content == page.content %}
+					<li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ inner.title }}
+						{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
+						{%- if inner.extra.apm -%} [{{ inner.extra.apm }}&nbsp;APM]{%- endif -%}
+						</a></li>
+					{%- set_global current_section_index = loop.index0 %} {# Finds the current section, needed for pagination logic later #}
+				  {% else %}
+					<li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ inner.title }}
+						{%- if inner.extra.benchmark -%}({{ inner.extra.benchmark }}){%- endif -%}
+						{%- if inner.extra.apm -%} [{{ inner.extra.apm }}&nbsp;APM]{%- endif -%}
+						</a></li>
+				  {%- endif %}
 		  {%- endif -%}
         {%- endfor %}
         </ol>
@@ -211,9 +211,11 @@ Warning: this build was created for the older {{ page.extra.balance }} balance p
         {# If there is not more than max pages render normally #}
         {%- else %}
           {%- for inner in tag.pages | sort(attribute="date") %}
-			{%- if not inner.extra or not inner.extra.hidden or inner.extra.hidden != true %}
-              {{ aw_macros::series_link(inner=inner, page=page, config=config) }}
-			{%- endif -%}
+            {%- if inner.components is not containing("hidden") %}
+		{%- if not inner.extra or not inner.extra.hidden or inner.extra.hidden != true %}
+			{{ aw_macros::series_link(inner=inner, page=page, config=config) }}
+		{%- endif -%}
+            {%- endif %}
           {%- endfor %}
         {%- endif %}
         </ol>
