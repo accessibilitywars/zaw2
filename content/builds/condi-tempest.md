@@ -118,20 +118,14 @@ This may seem overwhelming at first, but you can simply follow the below simplif
 
 Swap back to {{ skill(id="5492") }} as soon as it is off cooldown, and continue your rotation from there. Do not cast {{ skill(id="25486") }}, {{ skill(id="5736") }}, {{ skill(id="25486") }}, or {{ skill(id="25488") }} in any other attunement, as doing so will result in a DPS loss.
 
-## Advanced Tips
-
----
-
-COMING SOON
-
 ## Video
 
---
+---
 
 {{ youtube(id="P1d0w_QI6WA") }}
 
 ## Build demo in "high" level play
 
---
+---
 
 {{ youtube(id="Fa0yf0lHUTI") }}
