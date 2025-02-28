@@ -33,7 +33,7 @@ Note that this build does not peform very well with single-target situations, as
 {{ light(stat="Celestial", rune="Tempest") }}
 {{ greatsword(stat="Celestial", sigils=["Geomancy", "Hydromancy"]) }}
 {{ staff(stat="Celestial", sigils=["Ice", "Cleansing"]) }}
-{{ trinkets(stat="Celestial", relic="Akeem") }}
+{{ trinkets(stat="Celestial", relic="Blightbringer") }}
 
 # Build
 
