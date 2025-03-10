@@ -28,7 +28,7 @@ apm = "49"
 
 Simple, step based rotation with most of your damage in {{ skill(id="5492") }}.
 
-The concept of this build is to stay in {{ skill(id="5492") }} as much as possible, while swapping to {{ skill(id="5494") }} to fill in some of the downt time, as well as to upkeep {{ item(id="100947", name="Relic of Fireworks") }}.
+The concept of this build is to stay in {{ skill(id="5492") }} as much as possible, while swapping to {{ skill(id="5494") }} both to fill in some of the down time and to upkeep {{ item(id="100947", name="Relic of Fireworks") }}.
 
 This build does ~17.5% of your total damage in Burning, which is unusual for a Power based DPS build, but not enough for us to consider it Hybrid.
 
@@ -46,8 +46,6 @@ This build does ~17.5% of your total damage in Burning, which is unusual for a P
 	amulet="Berserker's",
 	relic="Fireworks") }}
 
----
-
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
@@ -60,7 +58,7 @@ This build does ~17.5% of your total damage in Burning, which is unusual for a P
 
 ---
 
-Your rotation consists of a precasted opener, a {{ skill(id="5492") }} priority, and an {{ skill(id="5494") }} priority. Listed below are all 3:
+Your rotation consists of a precasted opener, a {{ skill(id="5492") }} priority, and an {{ skill(id="5494") }} priority:
 
 **Precasted Opener:**
 > 1. Start in {{ skill(id="5492") }}
@@ -80,17 +78,13 @@ Your rotation consists of a precasted opener, a {{ skill(id="5492") }} priority,
 > 2. {{ skill(id="5561") }} (Scepter Air 2)
 > 3. {{ skill(id="30795") }} (Warhorn Air 5)
 
-Try to always start with your Precasted Opener, before entering your main attunement looping below. As much as possible you want to hit your precast {{ skill(id="29719") }}, but that is not always possible on all bosses. If you do not have enough time for your precast, start in {{ skill(id="5494") }}, precast {{ skill(id="29719") }} as you are running towards the boss, and continue the rotation from there, casting {{ skill(id="5666") }} in your first {{ skill(id="5492") }} loop. You can refer to the provided video rotation for an example of this precast.
-
-Your main attunement looping is:
+Try to always start with your Precasted Opener, before entering your main attunement looping below. As much as possible you want to hit your precast {{ skill(id="29719") }}, but that is not always possible on all bosses. If you do not have enough time for your full precast, start in {{ skill(id="5494") }}, precast {{ skill(id="29719") }} as you are running towards the boss, and continue the rotation from there, casting {{ skill(id="5666") }} in your first {{ skill(id="5492") }} loop. You can refer to the provided video rotation for an example of this precast.
 
 **Main Attunement Loop:**
 > 1. {{ skill(id="5492") }}
 > 2. {{ skill(id="5494") }}
 
-And you should repeatedly swap betwen these 2 attunements as soon as they are available and off cooldown, while following the priority list for each attunement when you are in that attunement. Following this logic, you will maximise uptime in both {{ skill(id="5492") }} and {{ item(id="100947", name="Relic of Fireworks") }}.
-
-On top of your main attunement loop,
+You should repeatedly swap betwen these 2 attunements as soon as they are off cooldown, while following the priority list for each attunement when you are in that attunement. Following this logic, you will maximise uptime in both {{ skill(id="5492") }} and {{ item(id="100947", name="Relic of Fireworks") }}. You should also:
 
 **Cast Off Cooldown:**
 > 1. {{ skill(id="30662") }}
