@@ -78,11 +78,11 @@ You can bring a Pistol instead of a Shield for about 1.5k+ more DPS, by using bo
 > 1. {{ skill(id="63095") }}
 > 1. {{ skill(id="63253") }}
 
-However, {{ skill(id="6161") }} and {{ skill(id="63095") }} are used as part of your damage rotation, and might not bee off cooldown when you need to CC.
+However, {{ skill(id="6161") }} and {{ skill(id="63095") }} are used as part of your damage rotation, and might not be off cooldown when you need to CC.
 
 Both {{ skill(id="6053") }} (Shield 4) and {{ skill(id="6054") }} (Shield 5) have to be pressed twice for CC.
 
-Using {{ skill(id="63253") }} to CC will result in a DPS loss, and is not recommended unless not using it will result in a wipe.
+Using {{ skill(id="63253") }} to CC will result in a DPS loss, and is not recommended unless using it will prevent a wipe.
 
 {{ skill(id="6053") }} (Shield 4) is also 3s long projectile reflect, while {{ skill(id="6054") }} (Shield 5) is a 2.5s long block, and can be used as your panic button.
 
