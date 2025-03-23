@@ -38,9 +38,7 @@ It also loses out in damage over time, and is weaker on fights with long phases.
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ shield_off(stat="Berserker's", sigil="Air") }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
-
-Note: Relic of the Eagle is an easier and preferred alternative to Relic of the Thief.
+{{ trinkets(stat="Berserker's", relic="Eagle") }}
 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
