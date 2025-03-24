@@ -1,6 +1,6 @@
 +++
 title = "Power Spellbreaker [pDPS]"
-description = "A sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
+description = "Dagger Axe build with simple combos and a priority based rotation."
 date = 2024-03-23
 updated = 2025-03-23
 draft = false
@@ -15,7 +15,7 @@ specs = ["spellbreaker", "warrior"]
 
 [extra]
 series = "warrior"
-tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
+tagline = "Spin to win with a heaping side of stabbing"
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 balance = "February 2025"
