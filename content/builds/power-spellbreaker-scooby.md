@@ -85,7 +85,7 @@ Advanced players should note that {{ skill(id="14413") }} does not have a cast t
 
 While the rotation itself is simple with few steps, do take note that both {{ skill(id="45252") }} and {{ skill(id="46233") }} (Dagger 2) are leap skills, and will have forced movement and animation lock when you are casting them. This may cause you to become badly positioned or hit by some mechanics as you are not able to dodge during this time.
 
-{{ skill(id="14399") }} (Axe 5) also has a long channel time, and while you can move during the channel, dodging or casting another skill will end it prematurely, resulting in a loss of damage. You should thus always hold {{ skill(id="14418") }} (Axe 4) until you have finished casting {{ skill(id="14399") }}, and it is better to skip {{ skill(id="14418") }} altogether than to cancel {{ skill(id="14399") }}.
+{{ skill(id="14399") }} (Axe 5) also has a long channel time, and while you can move during the channel, dodging or casting another skill will end it prematurely, resulting in a loss of damage. You should thus always hold {{ skill(id="14418") }} (Axe 4) until you have finished casting {{ skill(id="14399") }} (Axe 5), and it is better to skip {{ skill(id="14418") }} (Axe 4) altogether than to cancel {{ skill(id="14399") }} (Axe 5).
 
 ## Crowd Control
 
