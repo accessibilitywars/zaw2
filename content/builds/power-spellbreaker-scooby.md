@@ -117,6 +117,12 @@ This can be done for all fights, but is highly recommended for fights with many 
 
 {{ youtube(id="A3NGKb-fzQw") }}
 
+## Build Demo
+
+---
+
+{{ youtube(id="46l7eGKVZXg") }}
+
 ## Build Explanation
 
 ---
