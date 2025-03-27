@@ -5,6 +5,7 @@ date = 2025-03-23
 updated = 2025-03-23
 draft = false
 template = "build.html"
+slug = "power-spellbreaker-redux"
 
 
 [taxonomies]
