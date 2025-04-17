@@ -2,6 +2,7 @@
 title = "Rifle Mechanist [pDPS]"
 description = "Simple and effective build for dealing ranged damage."
 date = 2024-08-27
+updated = 2025-04-17
 draft = false
 template = "build.html"
 
@@ -16,8 +17,8 @@ series = "engineer"
 tagline = "Guild Wars 2: End of Rotations"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "February 2025"
-benchmark = "~28k DPS"
+balance = "April 2025"
+benchmark = "?? DPS"
 +++
 
 ## Notes
