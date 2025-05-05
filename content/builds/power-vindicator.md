@@ -2,6 +2,7 @@
 title = "Lord of the Stomp [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
+updated = 2025-04-17
 draft = false
 template = "build.html"
 
@@ -16,8 +17,8 @@ series = "revenant"
 tagline = "Death from above!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
-balance = "February 2025"
-benchmark = "33.6k DPS"
+balance = "April 2025"
+benchmark = "33k+ DPS"
 apm = "44"
 +++
 
@@ -86,4 +87,6 @@ Note that this will tank your DPS and the only thing you can do now is to auto a
 ## Video
 
 {{ youtube(id="0NdsSbwbdpQ") }}
+
+Note: video was pre-buff in April 2025 patch. Results will be better
 
