@@ -33,7 +33,7 @@ However, it is built from source code and contributors can make edits and submis
 
 ---
 
-## How to.. get set up
+## Setup
 
 - Sign up for an account on [GitHub](https://github.com). Feel free to use whatever name you wish. Be aware all your proposed changes will be associated with this name and it will be public.
 - Familiarize yourself with [basic markdown](https://www.markdownguide.org/basic-syntax/)
