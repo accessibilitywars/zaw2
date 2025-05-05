@@ -19,9 +19,8 @@ that _stores_ the files.
 ## Financial
 
 Of course, financial contributions are always welcome too, if that's preferred. We have
-[a team set up on Liberapay](https://liberapay.com/AccessibilityWars), which is an open community
-funding platform based in France. All funds currently go towards development and hosting costs, but we hope to be able to offer
-honorariums to build contributors to recognize their efforts.
+[a page set up on OpenCollective](https://opencollective.com/accessibility-wars), which is an open community
+funding platform. All funds currently go towards development and hosting costs and all of that information is transparently visible on the collective site.
 
 Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](@/discord/_index.md) if
 you prefer one of those options.
@@ -34,7 +33,7 @@ However, it is built from source code and contributors can make edits and submis
 
 ---
 
-## Setup
+## How to.. get set up
 
 - Sign up for an account on [GitHub](https://github.com). Feel free to use whatever name you wish. Be aware all your proposed changes will be associated with this name and it will be public.
 - Familiarize yourself with [basic markdown](https://www.markdownguide.org/basic-syntax/)
@@ -128,7 +127,7 @@ to upload broken content if you can't see it.
 
 # Additional tools
 
-These additional tools are useful. They will eventually be integrated, but for now, they're useful standalone utils.
+These additional tools are useful. They may eventually be integrated, but for now, they're useful standalone utils.
 
 - [gw2search](https://github.com/berdandy/gw2search)
 - [chatr](https://github.com/berdandy/chatr)
