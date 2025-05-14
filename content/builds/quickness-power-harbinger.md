@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","necromancer","harbinger","eod","lowcog","lowphys","boon","quickness"]
+tags = ["greatsword","power","necromancer","harbinger","eod","lowcog","lowphys","boon","quickness"]
 authors = ["scooby"]
 specs = ["harbinger", "necromancer"]
 
@@ -16,29 +16,32 @@ series = "necromancer"
 tagline = "My pain brings you strength!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "27.9k DPS"
+apm = "39"
 +++
 
 My pain brings you strength!
 
 ## Gearing
 
-- Assassin's Helm, Superior Rune of the Dragonhunter
-- Berserker's Shoulders, Superior Rune of the Dragonhunter
-- Berserker's Coat, Superior Rune of the Dragonhunter
-- Berserker's Gloves, Superior Rune of the Dragonhunter
-- Berserker's Leggings, Superior Rune of the Dragonhunter
-- Berserker's Boots, Superior Rune of the Dragonhunter
+{{ heavy(
+	head="Assassin's",
+	shoulders="Berserker's",
+	chest="Berserker's",
+	arms="Berserker's",
+	legs="Berserker's",
+	feet="Berserker's",
+	rune="Dragonhunter") }}
+{{ greatsword(stat="Berserker's", sigils=["Force", "Accuracy"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
 
-- Backpack: Berserker's
-- Accessory 1: Berserker's
-- Accessory 2: Berserker's
-- Ring 1: Berserker's
-- Ring 2: Berserker's
-- Amulet: Berserker's
-- Weapon: Greatsword, Superior Sigil of Accuracy, Superior Sigil of Force
-- Relic of the Fireworks or Relic of the Thief
+> Alternatives: Full Berserker's and/or Scholar runes
+
+#### Consumables
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 

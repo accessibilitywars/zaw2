@@ -15,7 +15,7 @@ series = "ranger"
 tagline = "Combo #3 with fries and a large root beer"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "34.7k DPS"
 +++
 

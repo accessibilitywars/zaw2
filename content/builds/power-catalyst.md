@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","elementalist","catalyst","eod","lowcog","lowrep"]
+tags = ["power","elementalist","catalyst","eod","lowcog","lowrep","FIXME"]
 authors = ["scooby"]
 specs = ["catalyst", "elementalist"]
 
@@ -16,8 +16,9 @@ series = "elementalist"
 tagline = "Wait, what do you mean this isn't how I get a list of my home cat collection?"
 keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
-balance = "June 2024"
+balance = "August 2024"
 benchmark = "35.3k DPS"
+apm = "54"
 +++
 
 An moderately easy catalyst build, with a consistent skill pattern that applies in all elements -- but still allows for flexibility when you need it.

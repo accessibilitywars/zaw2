@@ -14,24 +14,26 @@ specs = ["willbender", "guardian"]
 [extra]
 series = "guardian"
 tagline = "Hans, get ze flammenwerfer"
-keywords = "Guild Wars 2, GW2, LI, Virtuoso"
+keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "37.3k DPS"
+apm = "50"
 +++
 
 Learn 1 simple combo, and hit everything else off cooldown.
 
 ## Gearing
 
-- Full Viper's Armour with Superior Rune of Balthazar
-- Ring 1: Viper's
-- All other Trinkets: Sinister
-- Weapon 1: Pistol, Viper's, Superior Sigil of Bursting
-- Weapon 2: Torch, Viper's, Superior Sigil of Air
-- Relic of the Fractal
-- Food: Cilantro and Cured Meat Flatbread or Plate of Beef Rendang
-- Enhancement: Toxic Focusing Crystal
+{{ light(stat="Viper's", rune="Balthazar") }}
+{{ pistol_main(stat="Viper's", sigil="Bursting") }}
+{{ torch_off(stat="Viper's", sigil="Air") }}
+{{ trinkets(ring1="Viper's", ring2="Sinister", accessory1="Sinister", accessory2="Sinister", back="Sinister", amulet="Sinister", relic="Fractal") }}
+
+#### Consumables 
+
+- {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} OR {{ item(name="Plate of Beef Rendang") }}
+- {{ item(name="Toxic Tuning Crystal") }} 
 
 ## Build
 

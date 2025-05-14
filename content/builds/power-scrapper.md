@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","engineer","scrapper","hot","lowcog"]
+tags = ["hammer","power","engineer","scrapper","hot","lowcog"]
 authors = ["scooby"]
 specs = ["scrapper", "engineer"]
 
@@ -17,8 +17,9 @@ series = "engineer"
 tagline = "With Gyros like these who needs friends?"
 keywords = "Guild Wars 2, GW2, LI, Scrapper"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "34.4k DPS"
+apm = "38"
 +++
 
 ## Gearing
@@ -27,9 +28,10 @@ benchmark = "34.4k DPS"
 {{ hammer(stat="Berserker's", sigils=["Force", "Air"]) }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+## Consumables:
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 

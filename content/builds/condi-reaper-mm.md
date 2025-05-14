@@ -6,7 +6,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo"]
-tags = ["condi","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
+tags = ["staff","greatsword","condi","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 specs = ["reaper", "necromancer"]
 
@@ -15,7 +15,7 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 +++
 
 # Overview 
@@ -33,7 +33,7 @@ Note that this build does not peform very well with single-target situations, as
 {{ light(stat="Celestial", rune="Tempest") }}
 {{ greatsword(stat="Celestial", sigils=["Geomancy", "Hydromancy"]) }}
 {{ staff(stat="Celestial", sigils=["Ice", "Cleansing"]) }}
-{{ trinkets(stat="Celestial", relic="Akeem") }}
+{{ trinkets(stat="Celestial", relic="Blightbringer") }}
 
 # Build
 

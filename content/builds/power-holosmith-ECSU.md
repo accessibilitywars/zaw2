@@ -5,7 +5,6 @@ date = 2024-05-05
 draft = false
 template = "build.html"
 
-
 [taxonomies]
 categories = ["group"]
 tags = ["power","engineer","holosmith","soto","lowrep"]
@@ -17,13 +16,14 @@ series = "engineer"
 tagline = "Repeat after me: 'DO NOT OVERHEAT.'"
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "April 2024"
-benchmark = "38.2k DPS"
+balance = "February 2025"
+benchmark = "36.5k DPS"
+apm = "53"
 +++
 
 ### SPECIAL NOTE
 
-This is one of our more challenging builds. It's relatively simple, but unforgiving. It is also a 'Flavour of the Month' class, and might get nerfed in the future. Right now it is massively overperforming so even if it is nerfed, it should still perform reasonably well.
+This is one of our more challenging builds. It's relatively simple in concept, but unforgiving in execution. 
 
 ## Gearing
 
@@ -32,9 +32,10 @@ This is one of our more challenging builds. It's relatively simple, but unforgiv
 {{ shield_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+## Consumables:
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
@@ -61,7 +62,8 @@ In Forge rotation:
 1. {{ skill(id="41123") }}
 
 Out Forge rotation:
-1. {{ skill(id="44110") }} (Sword 2) off cooldown  
+1. {{ skill(id="40160") }} (Sword 3)
+1. {{ skill(id="44110") }} (Sword 2)
 1. Auto attack  
 1. {{ skill(id="42938") }} @ ~80 Heat
 
@@ -93,5 +95,7 @@ You have very nice utilities with the Shield. You can bring a Pistol instead for
 Finally, you have 1 more CC skill, {{ skill(id="21661") }}. It should be your first option when it comes to CC, followed by {{ skill(id="6053") }} (Shield 4) and {{ skill(id="6054") }} (Shield 5).
 
 ## Video
+
+Outdated damage, but rotation is still the same. This does ~36.5K now.
 
 {{ youtube(id="HIGTdU60IU8") }}

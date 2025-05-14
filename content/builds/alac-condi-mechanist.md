@@ -16,8 +16,9 @@ series = "engineer"
 tagline = "I take my laser gun and I go pew pew pew pew"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "25.7k DPS"
+apm = "24"
 +++
 
 Simple but effective Condition Alacrity build
@@ -28,9 +29,9 @@ Simple but effective Condition Alacrity build
 - Trinkets: Viper's
 - Weapons: Viper's Pistol/Pistol with Sigils of Bursting/Earth
 - Relic of the Fractal
-- Food & Utility: Cilantro Flatbread & Toxic Focusing Crystal
+- Food & Utility: Cilantro Flatbread & Toxic Tuning Crystal
 
-[^1]Start by adding Ritualist pieces until you are above 20% boon duration, then fill the remaining slots with Viper's. You can replace Viper's gear with more Ritualist if you find yourself dropping Alacrity.
+[^1]: Start by adding Ritualist pieces until you are above 20% boon duration, then fill the remaining slots with Viper's. You can replace Viper's gear with more Ritualist if you find yourself dropping Alacrity.
 
 ## Build
 

@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
+tags = ["hammer","power","engineer","mechanist","eod","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
 specs = ["mechanist", "engineer"]
 
@@ -16,8 +16,9 @@ series = "engineer"
 tagline = "If you name your mech 'Hammer' you can dual-wield Hammers"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "32.5k DPS"
+apm = "22"
 +++
 
 Signet-heavy, with some chill hammer thumping."

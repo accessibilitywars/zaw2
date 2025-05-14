@@ -1,14 +1,15 @@
 +++
 title = "Blastmaster [pDPS]"
-description = "A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
+description = "A sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
+updated = 2025-03-15
 draft = false
 template = "build.html"
 
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","engineer","holosmith","soto","lowphys", "lowrep"]
+tags = ["sword","power","engineer","holosmith","soto","lowphys","lowrep"]
 authors = ["scooby"]
 specs = ["holosmith", "engineer"]
 
@@ -17,58 +18,97 @@ series = "engineer"
 tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "April 2024"
-benchmark = "33.2k DPS"
+balance = "February 2025"
+benchmark = "34.6k DPS"
+apm = "40"
 +++
 
-A hammer priority-based build, with two different priority sets (in/out of forge), this build heats up fast.
+## Notes
+
+---
+
+A Sword priority-based build, with two different priority sets (in/out of forge).
+
+This build is able to deal very high burst damage with no setup required. However, knowing how to save your burst by changing or delaying your rotation requires high levels of familiarity with the build, and if done incorrectly, will lose your more DPS than you would gain.
+
+It also loses out in damage over time, and is weaker on fights with long phases.
 
 ## Gearing
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
-{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ shield_off(stat="Berserker's", sigil="Air") }}
+{{ trinkets(stat="Berserker's", relic="Eagle") }}
 
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+- Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
+- Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
-{{ chatlink(code="[&DQMGOyYvOTcqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQMGNyYvOTsqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAADWgBXAFUAAA==]") }}
 
-## Notes
+## Rotation
 
-Power Holosmith, played in this rotation, can be summed up by having a skill priority order and pressing skills off cooldown, with the exception of Laser Disc and Prime Light Beam. These 2 skills have the additional condition of needing to be pressed above 50% heat.
+---
 
-The highest priority skills are:
+While playing Power Holosmith, you always want to {{ skill(id="42938") }} as soon as it is available, as most of your damage is done during {{ skill(id="42938") }}. As {{ skill(id="42938") }} replaces your weapon skill bar when it is cast, this rotation will consists of 2 different skill priority orders, during {{ skill(id="42938") }} and {{ skill(id="44386") }}.
 
-- Particle Accelerator
-- Surprise Shot
-- Blade Burst
+Always cast {{ skill(id="5818") }} before the fight begins, and follow the priority of the mode you are currently in. Auto attack if you have no skills to press.
 
-They are all the same priority as each other as none of these 3 skills have a cast time, and can be cast anytime without interrupting any of your skills or auto attack chain.
+**{{ skill(id="42938") }} Priority:**
+> 1. {{ skill(id="44530") }} (Forge 3)
+> 2. {{ skill(id="45783") }} (Forge 4)
+> 3. {{ skill(id="43739") }} --> {{ skill(id="40533") }} (above 50% heat)
+> 4. {{ skill(id="42842") }} (above 50% heat)
+> 5. {{ skill(id="42009") }} (above 50% heat)
+> 6. {{ skill(id="42163") }} (above 50% heat)
 
-In Photon Forge mode, your skill priorities are:
+Skip {{ skill(id="42009") }} if it is on cooldown, and note that {{ skill(id="43739") }} has be pressed twice to cast {{ skill(id="40533") }}. As there is a delay between {{ skill(id="43739") }} flipping over to reveal {{ skill(id="40533") }}, I personally like to cast it in the order:
+> 1. {{ skill(id="43739") }}
+> 2. {{ skill(id="42842") }}
+> 3. {{ skill(id="40533") }}
 
-1. {{ skill(id="44530") }} (Forge 3)
-2. {{ skill(id="45783") }} (Forge 4)
-3. {{ skill(id="42842") }} (above 50% heat)
-4. {{ skill(id="42009") }} (above 50% heat)
-5. Auto attack when you can't press any buttons.
+Allowing me to queue skill casts and not lose damage uptime.
 
-Outside of Photon Forge, your skill priorities are:
+Ultimately the order which you press the skills are not important, as long as you are able to squeeze in 2 x {{ skill(id="44530") }} (Forge 3), 2 x {{ skill(id="45783") }} (Forge 4), 1 x {{ skill(id="40533") }}, 1 x {{ skill(id="42009") }}, and 1 x {{ skill(id="42163") }} for every {{ skill(id="42938") }}.
 
-1. {{ skill(id="30713") }} (Hammer 5)
-2. {{ skill(id="30088") }} (Hammer 2)
-3. {{ skill(id="43739") }} -> {{ skill(name="Launch Wall") }} (spam the button)
-4. Auto attack when you can't press any buttons.
+**{{ skill(id="44386") }} Priority:**
+> 1. {{ skill(id="44110") }} (Sword 2)
+> 1. {{ skill(id="40160") }} (Sword 3)
+
+During {{ skill(id="44386") }}, you are basically just waiting for {{ skill(id="42938") }} to come off cooldown, and pressing any high damage weapon skills to upkeep damage as much as possible.
+
+On top of your rotation, you should also
+
+**Cast Off Cooldown:**
+> 1. {{ skill(id="45732") }}
+> 1. {{ skill(id="6178") }}
+
+{{ skill(id="45732") }} and {{ skill(id="6178") }} do not have any cast time, and will not interrupt your current skill.
 
 ## Crowd Control
 
-Your CC skills are Static Shock, and Forge 5 Holographic Shockwave. That's not a lot of CC, so if you need more CC, you can swap out Rifle Turret for Throw Mine, and if you need even more CC, swap out Photon Wall for Personal Battering Ram.
+---
+
+**Your CC skills are:** 
+> 1. {{ skill(id="21661") }}
+> 2. {{ skill(id="6053") }} (Shield 4)
+> 3. {{ skill(id="6054") }} (Shield 5)
+
+Both {{ skill(id="6053") }} (Shield 4) and {{ skill(id="6054") }} (Shield 5) have to be pressed twice for CC, and you can also swap out {{ skill(id="5818") }} for {{ skill(id="6161") }} for more CC, and {{ skill(id="43739") }} for {{ skill(id="5811") }} if you need even more CC.
+
+{{ skill(id="6053") }} (Shield 4) is also 3s long projectile reflect, while {{ skill(id="6054") }} (Shield 5) is a 2.5s long block, and can be used as your panic button.
+
+{{ skill(id="21659") }} will heal you to 12,280 HP if you take lethal damage, and can also be used as another panic button.
 
 ## Video
 
-{{ youtube(id="IPqhB8YIiwo") }}
+---
 
+{{ youtube(id="WsuGyVXw-Is") }}
+
+## Build demo in high end static
+
+---
+
+{{ youtube(id="478ENOnvYv8") }}

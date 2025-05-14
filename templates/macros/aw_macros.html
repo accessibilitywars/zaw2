@@ -12,7 +12,8 @@
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
         <div class="tpad" style="white-space: nowrap;">
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
-			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}"
+			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}
+			       {%- if page.extra.apm %} {{ page.extra.apm }}&nbsp;APM{%- endif -%}"
 			>
             {%- if page.taxonomies.specs -%}
             <img style="float: left; height: 1em;" src="/images/icons/{{ page.taxonomies.specs[0] }}.png"/>
@@ -27,8 +28,16 @@
 {%- macro title_post(page, config) %}
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+	{%- if page.extra.benchmark or page.extra.apm -%}
+	  <span style="float: right;"><h3>
 	{%- if page.extra.benchmark -%}
-	  <span style="float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
+		{{ page.extra.benchmark }}
+	{%- endif -%}
+	{%- if page.extra.apm -%}
+		</br>
+		{{ page.extra.apm }}&nbsp;APM
+	{%- endif -%}
+	</h3></span>
 	{%- endif -%}
     <h1><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a></h1>
 {%- endmacro title_post %}
@@ -36,8 +45,16 @@
 {%- macro title_index(page, config) %}
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+		{%- if page.extra.benchmark or page.extra.apm -%}
+		  <span style="max-width: 8em; float: right;"><h3>
 		{%- if page.extra.benchmark -%}
-		  <span style="max-width: 8em; float: right;"><h3>{{ page.extra.benchmark }}</h3></span>
+			{{ page.extra.benchmark }}
+		{%- endif -%}
+		{%- if page.extra.apm -%}
+			</br>
+			{{ page.extra.apm }}&nbsp;APM
+		{%- endif -%}
+		</h3></span>
 		{%- endif -%}
         <h1>
 		{%- if config.extra.title_size_index %}<span class="{{ config.extra.title_size_index }}">{% endif -%}
@@ -51,11 +68,13 @@
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
   {%- if inner.content == page.content %}
       <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
-      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}"
+      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
+      {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 >{{ inner.title }}</a></li>
     {% else %}
       <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
-      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}"
+      {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
+      {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 	>{{ inner.title }}</a></li>
   {%- endif %}
 {%- endmacro %}
@@ -66,3 +85,26 @@
     <img style="height: 1em;" src="/images/icons/{{ icon }}.png"/>&nbsp;
   {%- endif -%}
 {%- endmacro safeicon -%}
+
+{%- macro footer(page, config) %}
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+      {#- prev/next content page nextprev title pagination #}
+      {%- if not config.extra.hide_page_nextprev_titles | default(value=false) %}
+      {%- if page.lower or page.higher %}
+      <nav>
+        <div>
+          {%- if page.lower %}
+          <a href="{{ page.lower.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">&#8249; {{ page.lower.title | truncate(length=100) }}</a>
+          {%- endif %}
+        </div>
+        <div>
+          {%- if page.higher %}
+          <a href="{{ page.higher.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}"> {{ page.higher.title | truncate(length=100) }} &#8250;</a>
+          {%- endif %}
+        </div>
+      </nav>
+      {%- endif %}
+      {%- endif %}
+{%- endmacro footer %}
+

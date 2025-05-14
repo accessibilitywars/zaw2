@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","necromancer","harbinger","eod","lowcog","lowphys"]
+tags = ["greatsword","power","necromancer","harbinger","eod","lowcog","lowphys"]
 authors = ["scooby"]
 specs = ["harbinger", "necromancer"]
 
@@ -16,29 +16,24 @@ series = "necromancer"
 tagline = "You've heard of spinning to win, now try shotgunning to win!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "33.5k DPS"
+apm = "38"
 +++
 
 You've heard of spinning to win, now try shotgunning to win!
 
 ## Gearing
 
-- Assassin's Helm, Superior Rune of the Dragonhunter
-- Berserker's Shoulders, Superior Rune of the Dragonhunter
-- Berserker's Coat, Superior Rune of the Dragonhunter
-- Berserker's Gloves, Superior Rune of the Dragonhunter
-- Berserker's Leggings, Superior Rune of the Dragonhunter
-- Berserker's Boots, Superior Rune of the Dragonhunter
-
-- Backpack: Berserker's
-- Accessory 1: Berserker's
-- Accessory 2: Berserker's
-- Ring 1: Berserker's
-- Ring 2: Berserker's
-- Amulet: Berserker's
-- Weapon: Greatsword, Superior Sigil of Accuracy, Superior Sigil of Force
-- Relic of the Fireworks
+{{ light(head="Assassin's",
+		shoulders="Berserker's",
+		chest="Berserker's",
+		arms="Berserker's",
+		legs="Berserker's",
+		feet="Berserker's",
+		rune="Dragonhunter") }}
+{{ greatsword(stat="Berserker's", sigils=["Accuracy", "Force"]) }}
+{{ trinkets(stat="Berserker's", relic="Fireworks") }}
 
 ## Build
 

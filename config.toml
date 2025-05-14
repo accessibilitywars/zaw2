@@ -12,7 +12,7 @@ default_language = "en"
 compile_sass = true
 minify_html = false # minify subly breaks some markdown
 build_search_index = true
-generate_feed = true
+generate_feeds = true
 taxonomies = [
     {name = "categories", feed = true},
     {name = "specs", feed = true },
@@ -20,7 +20,11 @@ taxonomies = [
     {name = "authors", feed = true },
 ]
 
-#feed_filename = "atom.xml"
+feed_filenames = [
+#   "feed.rss",
+    "atom.xml"
+]
+
 #output_dir = "public"
 #ignored_content = ["*.{graphml,xlsx}", "temp.*"]
 #hard_link_static = false # set to true to hard link instead of copying, useful for very large files.
@@ -46,6 +50,8 @@ external_links_target_blank = true # rel="noopener"
 external_links_no_follow = false   # rel="nofollow"
 external_links_no_referrer = false # rel="noreferrer"
 smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` etc
+bottom_footnotes = true
+extra_syntaxes_and_themes = ["syntaxes"]
 
 # Any Extra language you do not use, delete or comment out the extra language sections:
 # [languages.fr]
@@ -98,7 +104,7 @@ menu = [
 	]},
 ]
 menu_footer = [
-	{url = "retired", name = "Retired Builds", slash = true, blank = false},
+	# {url = "retired", name = "Retired Builds", slash = true, blank = false},
 	{url = "alternatives", name = "Alternatives", slash = true, blank = false},
     {url = "roadmap", name = "Roadmap", slash = true, blank = false},
     {url = "privacy", name = "Privacy", slash = true, blank = false},
@@ -116,12 +122,12 @@ meta_index = { position="bottom", size="s90", author=false, readtime=false, read
 meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
 
 hide_section_dates = false # hides the date for sections that use posts.html as their template.
-hide_page_nextprev_titles = false # hides the next/previous titles for pages that use page.html as their template.
+hide_page_nextprev_titles = true # hides the next/previous titles for pages that use page.html as their template.
 title_size_index = "s85"
 footer_size = "s90"
 footer_menu_size = "s100"
 footer_credit = true
-footer_credit_override = '<p class="s80">Site built and maintained by: <a href="https://github.com/berdandy">berdandy</a></p><hr/><p class="s70">NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, and Guild Wars 2: Secrets of the Obscure and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</p>'
+footer_credit_override = '<p class="s80">Site built and maintained by: <a rel="me" href="https://gw2.social/@berdandy">berdandy</a><a href="https://mstdn.games/@berdandy" rel="me" style="display: none;">hidden</a></p><hr/><p class="s70">NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, Guild Wars 2: Secrets of the Obscure, Guild Wars 2: Janthir Wilds and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.</p>'
 
 #archive_reverse = true # Set to True to sort posts chronologically per year instead of newest first on the archive page: example.com/archive/
 
@@ -231,7 +237,7 @@ js_prestyle = true # used to preload: FontAwesome, Katex, external Google Fonts
 js_switcher = true # The button that allows manually changing between light/dark mode.
 js_switcher_default = "dark" # default nojs switcher mode: dark, light (make sure to also set $switcherDefault in abridge.scss)
 
-search_library = 'elasticlunr'
+search_library = 'stork'
 stylesheets = ["abridge.css"]
 
 webmanifest = "manifest.min.json" # Required for PWAs
@@ -384,5 +390,7 @@ favicon16 = "favicon-16x16.png" # favicon-16x16.png
 #math = false # Recommended setting false, and enable on per page bases instead.
 #math_auto_render = false # Recommended setting false, and enable on per page bases instead.
 
-balance = "June 2024"
-prev_balance = "April 2024"
+balance = "April 2025"
+prev_balance = "February 2025"
+# alert = "WARNING: GW2 API Disabled August 16-23"
+# alert_detail = "During the Janthir Wilds launch week of August 16-23. Some portions of this site will not function, such as icons and mouse-over details of items, skills and traits."

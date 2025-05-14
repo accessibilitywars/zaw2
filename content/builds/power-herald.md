@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","revenant","herald","pof","lowcog","lowphys","lowrep"]
+tags = ["staff","power","revenant","herald","pof","lowcog","lowphys","lowrep"]
 authors = ["scooby"]
 specs = ["herald", "revenant"]
 
@@ -16,22 +16,34 @@ series = "revenant"
 tagline = "Heralding the start of a new raid experience"
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "31.6k DPS"
+apm = "38"
 +++
 
 Probably the easiest raid build available in GW2.
 
 ## Gearing
 
-- Dragon's Helm, and full Berserker's otherwise, with Dragonhunter's runes
-  - Alternates: Full Berserker's and/or Scholar runes
-- Sword/Sword with Force/Air Sigils
-- Staff with Force/Air Sigils
-- Relic of the Thief
-- Consumables:
-  - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
-  - Superior Sharpening Stone (Power)
+{{ heavy(
+	head="Dragon's",
+	shoulders="Berserker's",
+	chest="Berserker's",
+	arms="Berserker's",
+	legs="Berserker's",
+	feet="Berserker's",
+	rune="Dragonhunter") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ sword_off(stat="Berserker's", sigil="Air") }}
+{{ staff(stat="Berserker's", sigils=["Force", "Air"]) }}
+{{ trinkets(stat="Berserker's", relic="Thief") }}
+
+> Alternatives: Full Berserker's and/or Scholar runes
+
+#### Consumables
+
+- {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
+- {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 

@@ -2,12 +2,12 @@
 title = "The Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
-updated = 2024-04-11
+updated = 2025-02-14
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group" ]
-tags = ["power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
+tags = ["sword","greatsword","power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 specs = ["reaper", "necromancer"]
 
@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "Ask not for whom the bell tolls. It tolls for thee."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "April 2024"
+balance = "February 2025"
 +++
 
 # Overview 
@@ -39,7 +39,7 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 # Build
 
-{{ chatlink(code="[&DQgTHjIlIj7BEgAAdwEAAPoAAAC9AQAAAxMAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQgTHzIlIj7BEgAAdwEAAPoAAAC9AQAAAxMAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ## Alternatives and why...
 
@@ -56,7 +56,7 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 - Go into {{ skill(name="Reaper's Shroud") }}, drop an ice field with {{ skill(id="30557", name="Executioner's Scythe") }}
 - Use {{ skill(id="30504", name="Soul Spiral") }} in the ice field
 - When out of shroud, focus on life force generation with weapons and {{ skill(name="Your Soul is Mine") }}
-- Dual-swords are provided as a utility option. If you don't own SotO, use axe/warhorn instead.
+- Dual-swords are provided only as a utility option. If you don't own SotO, use axe/warhorn instead.
   - Sword 1/4 will heal
   - Sword 3 provides rapid movement (sacrificing health to move again)
   - Sword 2/5 generate additional life force (note: sacrificing health for second use does not build life force)

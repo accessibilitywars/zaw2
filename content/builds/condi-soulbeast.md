@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo","group"]
-tags = ["condi","ranger","soulbeast","pof","lowcog","lowrep"]
+tags = ["shortbow","longbow","sword","condi","ranger","soulbeast","pof","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["soulbeast", "ranger"]
 
@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "Condi Shortbow Ranger"
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-balance = "April 2024"
+balance = "February 2025"
 benchmark = "27.7k DPS solo, 30k DPS w. allies"
 +++
 
@@ -50,6 +50,7 @@ Optimised Viper's Loadout
 
 #### Relic
 - {{ item(id="100153") }}
+<small>Relic of the {{ item(id="102199") }} has been considered but remains a much weaker version as there is a hidden ICD, preventing {{ skill(id="12468") }} from proccing multiple times.</small>
 
 #### Food
 - {{ item(id="91876") }}

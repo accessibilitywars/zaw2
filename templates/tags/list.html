@@ -18,16 +18,28 @@
 {%- endblock seo %}
 
 {%- block content %}
+    {%- set_global filtered_terms = [] -%}
+    {%- for term in terms %}
+	  {%- for page in term.pages %}
+        {%- if page.components is not containing("hidden") %}
+		  {%- set_global filtered_terms = filtered_terms | concat(with=term) -%}
+		  {%- break -%}
+	    {%- endif -%}
+	  {%- endfor -%}
+    {%- endfor -%}
+   
     <div>
       <div class="c">
-        <h1>{{ terms | length }} {{ macros::translate(key="Tags", default="Tags", i18n=i18n) }} </h1>
-        <p>{% for term in terms %}<span style='white-space: nowrap;'>{{ aw_macros::safeicon(icon=term.name) }}#<a href="#{{ term.name }}">{{ term.name }}</a><sup>{{ term.pages | length }}</sup></span> {% endfor %}</p>
+        <h1>{{ filtered_terms | length }} {{ macros::translate(key="Tags", default="Tags", i18n=i18n) }} </h1>
+        <p>{% for term in filtered_terms %}<span style='white-space: nowrap;'>{{ aw_macros::safeicon(icon=term.name) }}#<a href="#{{ term.name }}">{{ term.name }}</a><sup>{{ term.pages | length }}</sup></span> {% endfor %}</p>
       </div>
-      {%- for term in terms %}
+      {%- for term in filtered_terms %}
       <h2 id="{{ term.name }}">{{ aw_macros::safeicon(icon=term.name) }}#<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
-      {%- for page in term.pages %}
-      <p>&nbsp;&nbsp;&nbsp;&nbsp;{% if "specs" in page.taxonomies %}{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}{% endif %}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
-      {%- endfor %}
+        {%- for page in term.pages %}
+          {%- if page.components is not containing("hidden") %}
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;{% if "specs" in page.taxonomies %}{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}{% endif %}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+	      {%- endif -%}
+        {%- endfor %}
       {%- endfor %}
     </div>
 {%- endblock content %}

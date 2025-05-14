@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
+tags = ["pistol","dagger","power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["deadeye", "thief"]
 
@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with/without Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "32k DPS"
 +++
 

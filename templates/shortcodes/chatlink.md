@@ -1,4 +1,7 @@
-`{{code}}`
+
+```chatlink
+{{code}}
+```
 
 ---
 

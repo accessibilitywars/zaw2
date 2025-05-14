@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["condi","elementalist","hot","lowcog"]
+tags = ["condi","elementalist","hot","lowcog","FIXME"]
 authors = ["scooby"]
 specs = ["elementalist"]
 
@@ -16,31 +16,40 @@ series = "elementalist"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Elementalist"
 toc = true
-balance = "June 2024"
+balance = "October 2024"
 benchmark = "33.4k DPS"
+apm = "44"
 +++
 
 Core Elementalist has been a passion project of mine, and today I am happy to present that it is now strong enough to earn a place on the website. I genuinely believe that this is the easiest and most effective build to play right now, and I am highly recommending it.
 
 ## Gearing
 
-- Coat: Sinister, Superior Rune of Balthazar
-- Boots: Sinister, Superior Rune of the Balthazar
-- Gloves: Sinister, Superior Rune of Balthazar
-- Helm: Sinister, Superior Rune of Balthazar
-- Leggings: Viper, Superior Rune of Balthazar
-- Shoulders: Sinister, Superior Rune of Balthazar
-- Backpack: Viper
-- Accessory 1: Viper
-- Accessory 2: Viper
-- Ring 1: Viper
-- Ring 2: Sinister
-- Amulet: Sinister
-- Weapon 1: Scepter, Sinister, Superior Sigil of Agony
-- Weapon 2: Focus, Sinister, Superior Sigil of Earth
-- Relic of the Fractal
-- Food: Fishy Rice Bowl
-- Enhancement: Toxic Focusing Crystal
+{{ light(
+	head="Sinister",
+	shoulders="Sinister",
+	chest="Viper's",
+	arms="Sinister",
+	legs="Sinister",
+	feet="Sinister",
+	rune="Balthazar") }}
+
+{{ scepter_main(stat="Sinister", sigil="Agony") }}
+{{ focus_off(stat="Sinister", sigil="Earth") }}
+
+{{ trinkets(
+	back="Viper's",
+	accessory1="Viper's",
+	accessory2="Viper's",
+	ring1="Viper's",
+	ring2="Sinister",
+	amulet="Sinister",
+	relic="Fractal") }}
+
+### Consumables
+
+- {{ item(name="Fishy Rice Bowl") }}
+- {{ item(name="Toxic Tuning Crystal") }}
 
 ## Build
 

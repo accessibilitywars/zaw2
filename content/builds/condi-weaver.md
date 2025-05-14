@@ -2,6 +2,7 @@
 title = "Lava Weaver [cDPS]"
 description = "Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking. We include some Elementals for extra friends when you're feeling lonely."
 date = 2024-03-02
+updated = 2024-08-15
 draft = false
 template = "build.html"
 
@@ -16,8 +17,9 @@ series = "elementalist"
 tagline =  "'Mr. Lava Lava. She call me Mr. Boombastic, tell me fantastic' -- Shaggy, probably"
 keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "37.3k DPS"
+apm = "79"
 +++
 
 ## Notes
@@ -39,7 +41,7 @@ This build is also primarily ranged, accounting for ~93% of it's damage. Small t
 
 - Consumables:
   - Cilantro and Cured Meat Flatbread (Condi Damage/Expertise Damage)
-  - Toxic Focusing Crystal (Condi Damage)
+  - Toxic Tuning Crystal (Condi Damage)
 
 ## Build
 
@@ -87,7 +89,53 @@ You can replace off hand Focus with Warhorn, although based on my testing the da
 
 ---
 
-WIP WIP WIP
+You have
+
+**CC Skills:**
+> 1. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 2. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 3. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 4. {{ skill(id="5562") }} ({{ skill(id="5494") }} Focus 5)
+> 5. {{ skill(id="45742") }} (Dual Scepter 3)
+> 6. {{ skill(id="40794") }} (Dual Scepter 3)
+
+However, these skills are locked behind elements that you do not use in your rotation. To fully utilize your CC, you should use the following CC Loop.
+
+**CC Loop**
+> 1. {{ skill(id="5493") }}
+> 2. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 3. {{ skill(id="5494") }}
+> 4. {{ skill(id="45742") }} (Dual Scepter 3)
+> 5. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 6. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 7. {{ skill(id="5495") }}
+> 8. {{ skill(id="5562") }} ({{ skill(id="5494") }} Focus 5)
+> 9. {{ skill(id="40794") }} (Dual Scepter 3)
+
+And continue your rotation from Step #3 in the Main Loop.
+
+This may seem very intimidating at first, but in simplified form it is just:
+> 1. {{ skill(id="5493") }} 2
+> 2. {{ skill(id="5494") }} 3 4 5
+> 3. {{ skill(id="5495") }} 3 5
+
+Sometimes, you do not need so much CC, in that case you can use a shortened loop.
+
+**Short CC Loop**
+> 1. {{ skill(id="5493") }}
+> 2. {{ skill(id="5538") }} ({{ skill(id="5493") }} Scepter 2)
+> 3. {{ skill(id="5495") }}
+> 4. {{ skill(id="5556") }} ({{ skill(id="5493") }} Focus 4)
+> 5. {{ skill(id="5490") }} ({{ skill(id="5493") }} Focus 5)
+> 6. {{ skill(id="46014") }} (Dual Septer 3)
+
+And continue your rotation from Step #3 in the Main Loop.
+
+Once again, the simplified form will look like:
+> 1. {{ skill(id="5493") }} 2
+> 2. {{ skill(id="5495") }} 3 4 5
+
+Having to CC will result in a significant DPS loss, and it is recommended to bring this class only if the fight has very low CC pressure, no CC at all, or if your supports are able to carry the CC.
 
 ## Advanced Tips
 
@@ -101,6 +149,8 @@ with either:
 > 1. {{ skill(id="5736") }}
 
 Generally you want to pick {{ skill(id="5506") }} over {{ skill(id="5736") }} as {{ skill(id="5506") }} can be precast, and has no cast time, allowing for minimal impact to your rotation. However, {{ skill(id="5736") }} tends to do more damage on fights that the bosses that have lower armour, as well as on bosses that do not move much.
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 Try to use:
 > 1. {{ skill(id="5497") }} ({{ skill(id="5492") }} Focus 4)

@@ -16,8 +16,9 @@ series = "engineer"
 tagline = "Babe, si Optimum Pride Œœœœœ"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "27.1k DPS"
+apm = "24"
 +++
 
 Probably the easiest to play Alacrity build
@@ -33,7 +34,7 @@ Probably the easiest to play Alacrity build
   - Cilantro Lime Sous-Vide Steak (Power/Ferocity)
   - Superior Sharpening Stone (Power)
  
-[^1]You want to swap out Berserker's gear for Diviner's until you have above 20% boon duration while maintaining at least 45% critical chance. I recommend swapping an Amulet and 2 Rings for highest cost effectiveness, but this can be done in a variety of ways.
+[^1]: You want to swap out Berserker's gear for Diviner's until you have above 20% boon duration while maintaining at least 45% critical chance. I recommend swapping an Amulet and 2 Rings for highest cost effectiveness, but this can be done in a variety of ways.
 
 ## Build
 

@@ -6,60 +6,47 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo","group"]
-tags = ["heal","alacrity","guardian","willbender","eod","lowcog","lowphys","lowrep"]
+tags = ["hammer","heal","alacrity","guardian","willbender","eod","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["willbender", "guardian"]
 
 [extra]
 series = "guardian"
 tagline = "Auto-Attack Healbender"
-keywords = "Guild Wars 2, GW2, LI, willbender"
+keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
 
 This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. This build requires only one weapon with no requirement of a weapon swap: Hammer!
 
-## Gearing and Consumables
+# Gearing
 
-**Equipment**
+{{ heavy(stat="Harrier's", rune="Monk") }}
+{{ hammer(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+{{ trinkets(stat="Harrier's", relic="Karakosa") }}
 
-- Full Harrier's 
-- Hammer
+#### Budget Options
+
+- Replace {{ item(name="Superior Rune of the Monk", id="24842") }} with {{ item(name="Superior Rune of Rebirth", id="84171") }}
+- Replace {{ item(name="Superior Sigil of Transference", id="74326") }} with {{ item(name="Superior Sigil of Water", id="24551") }}
 
 > <small>_Note: Weapon swap is optional, all the available options will lock you out of hammer and thus drop your boon coverage. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
-**Runes**
+## Consumables
 
-- {{ item(id="24842") }}Superior Rune of the Monk
-- {{ item(id="84171") }}Superior Rune of Rebirth (budget)
+- {{ item(id="91690") }} OR {{ item(id="68634") }} _(budget alternative)_
+- {{ item(id="67528", name="Bountiful Maintenance Oil") }}
 
-**Sigils**
-
-- {{ item(id="74326") }}Superior Sigil of Transference
-- {{ item(id="72339") }}Superior Sigil of Concentration
-- {{ item(id="24551") }}Superior Sigil of Water (Budget Alternative to Transference)
-
-**Relic**
-- {{ item(id="101268") }}Relic of Karakosa
-
-**Food**
-
-- {{ item(id="91690") }}
-- {{ item(id="68634") }}(budget alternative)
-
-**Utility**
-- {{ item(id="67528") }}Bountiful Maintenance Oil
-
-
-## Build
+# Build
 Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAAAAAAAAAAAAAAAAAAAAABMwAA]") }}
 
 #### Trait Alternatives
-Bring {{ trait(id="617") }} if you are taking consecrations.\
-Bring {{ trait(id="654") }} if there aren't blockable mechanics.
+
+- Bring {{ trait(id="617") }} if you are taking consecrations.
+- Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 
 > <small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-willbender) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
 
@@ -93,7 +80,6 @@ Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 - {{ skill(id="62648") }} allows you to shadow step through mechanics
 - Blocking increases your heal power and doing so intelligently allows efficient use of {{ trait(id="1899") }}
 
-
 ## Optimisation
 #### Raid Ready
 1. W1 Gorseval - Immobilise your spirit with {{ skill(id="9151") }} and {{ skill(id="9260") }} (Hammer 3)
@@ -102,6 +88,9 @@ Bring {{ trait(id="654") }} if there aren't blockable mechanics.
 4. W2 Matthias - Bring {{ skill(id="9251") }} for reflects. Bring {{ skill(id="9128") }} if you require more CC.
 5. W3 Escort - This build is able to solo towers albeit a little slow with 6-8k dps. If you want to do the JP, bring {{ skill(id="29965") }} for a superspeed boost.
 6. W4 Samarog - You may knock Rigom back with {{ skill(id="9124") }} (Hammer 4) and immobilise with {{ skill(id="9260") }} (Hammer 3) and {{ skill(id="9099") }} (Scepter 3). Bring {{ skill(id="9128") }} if you require more CC.
-7. W6 Conjured Amalgamate - Your power DPS can be quite significant despite being a healer. Do not stop attacking with autos. Place {{ skill(id="9128") }} when CA tosses out shields for a precast CC.
-8. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as the minibosses appear.
-9. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
+7. W4 Deimos - If you are the healer, due to the low toughness, you will probably be tasked to provide group aegis for the other DPS players.
+8. W6 Conjured Amalgamate - Your power DPS can be quite significant despite being a healer. Do not stop attacking with autos. Place {{ skill(id="9128") }} when CA tosses out shields for a precast CC.
+9. W6 Qadim - You want to precast {{ skill(id="9128") }} for each CC phase and load the CC bar with {{ skill(id="9124") }} (Hammer 4) as soon as the minibosses appear.
+10. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
+
+<small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>

@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","guardian","dragonhunter","hot","lowcog","lowphys","lowrep"]
+tags = ["hammer","power","guardian","dragonhunter","hot","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["dragonhunter", "guardian"]
 
@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "29.5k DPS"
 +++
 
@@ -34,8 +34,8 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 1. Bow - Bow provides a ranged option for bosses with melee DPS downtime. 
 2. Scepter/Focus - Provides a decent immobilise option with some ranged DPS.
 
-Optimised Marauder/Assassin's Loadout\
-[GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)\
+Optimised Marauder/Assassin's Loadout
+[GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)
 
 > <small>_This requires 1 +5 precise infusion, power infusions are optional_</small>
 
@@ -105,7 +105,7 @@ A few examples where this advantage can be used are:
 1. W1 Gorseval - Immobilise your spirit with {{ skill(id="9151") }} and {{ skill(id="9260") }} (Hammer 3)
 2. W2 Bandit Trio - The self sustainability and high amounts of CC allow this build to do mortars very efficiently.
 3. W3 escort - For backwarg, bring {{ skill(id="9151") }} which gives a generous 6s immobilise. You have other skills that can immobilise and cripple too!
-4. W6 Qadim - You may choose to use this build instead if 2 players are sent to do Lamp.\
+4. W6 Qadim - You may choose to use this build instead if 2 players are sent to do Lamp.
 
 > <small>_Caution: Leftover traps on the arena can trigger mechanics e.g._
 > - _ball mechanic on KC_

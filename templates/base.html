@@ -30,6 +30,16 @@
 <body>
 {%- block header %}
   <header>
+	{%- if config.extra.alert -%}
+		<div style="padding: 0.5em; width: 100%; background-color: Crimson; color: White;">
+			<h1>{{ config.extra.alert }}</h1>
+			{%- if config.extra.alert_detail -%}
+				<hr/>
+				<p>{{ config.extra.alert_detail }}</p>
+			{%- endif -%}
+		</div>
+	{%- endif -%}
+
     <nav>
       <div>
         {%- if config.extra.logo -%}
@@ -50,7 +60,6 @@
         {%- endif -%}
       </div>
       <div>
-
         <div>
           <ul>
 
@@ -62,6 +71,7 @@
 					<li><div class="dropdown">
 					<a{%- if i.size %} class="{{ i.size }}"{% endif %} href="{%- if i.url is matching("^http[s]?://") %}{{ i.url }}{%- else -%}{{ get_url(path=i.url, lang=lang, trailing_slash=i.slash) }}{%- if i.slash and uglyurls %}index.html{%- endif %}{%- endif %}"{% if i.blank %} target="_blank"{% endif %}>
 					{%- if lang != config.default_language %} {{ macros::translate(key=i.name|safe, default=i.name|safe, i18n=i18n) }} {% else %} {{ i.name | safe }} {% endif -%}
+                    🔽
 					</a>
 					<div class="dropdown-content">
 					{%- for sub in i.submenu -%}
@@ -124,21 +134,13 @@
           </div>
           {%- endif %}
         </div>
-
-        <div>
-		  <div style="max-width: 200px; position: relative; display: inline-block; padding-bottom: 1.25em;">
-            <div style="display: inline-block;">
-			  <script src="https://liberapay.com/AccessibilityWars/widgets/button.js"></script>
-			  <noscript><a href="https://liberapay.com/AccessibilityWars/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
-            </div>
-            <div style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; position: absolute; left: 0; right: 0;">
-              <img src="https://img.shields.io/liberapay/goal/AccessibilityWars.svg?logo=liberapay">
-            </div>
-		  </div>
-        </div>
+      </div>
+      <div>
+        <a href="https://opencollective.com/accessibility-wars/contribute" target="_blank">
+          <img src="https://opencollective.com/accessibility-wars/contribute/button@2x.png?color=blue" width=250 />
+        </a>
       </div>
     </nav>
-
     {%- if config.extra.sitedesc %}
     {%- if config.description %}
     <div class="desc">{{ config.description }}</div>

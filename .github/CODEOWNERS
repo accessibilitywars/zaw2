@@ -1,5 +1,7 @@
 *                                            @berdandy
 
+/content/builds/hidden/*                     @berdandy @scoobysharky @xellink
+
 # read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
 /content/builds/alac-condi-mechanist.md @scoobysharky
 /content/builds/alac-power-mechanist.md @scoobysharky
@@ -21,17 +23,26 @@
 /content/builds/power-soulbeast.md @scoobysharky
 /content/builds/power-tempest.md @scoobysharky
 /content/builds/power-vindicator.md @scoobysharky
+/content/builds/power-chronomancer.md @scoobysharky
+/content/builds/power-spellbreaker-scooby.md @scoobysharky
 /content/builds/quickness-power-harbinger.md @scoobysharky
 /content/builds/quickness-power-herald.md @scoobysharky
+/content/builds/quickness-power-chronomancer.md @scoobysharky
+/content/builds/rifle-mech.md @scoobysharky
+/content/builds/alac-condi-mirage.md @scoobysharky
+/content/builds/alac-power-tempest.md @scoobysharky
 
 # read! grep -l xellink content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @xellink/'
+/content/builds/alac-condi-specter.md @xellink
 /content/builds/alac-hybrid-scourge.md @xellink
+/content/builds/alac-hybrid-tempest.md @xellink
 /content/builds/condi-soulbeast.md @xellink
+/content/builds/heal-alac-chronomancer.md @xellink
 /content/builds/heal-alac-willbender.md @xellink
 /content/builds/power-deadeye.md @xellink
 /content/builds/power-dragonhunter.md @xellink
 /content/builds/power-spellbreaker.md @xellink
-/content/builds/alac-cond-specter.md @xellink
-/content/builds/alac-hybrid-tempest.md @xellink
+/content/builds/quickness-condi-herald.md @xellink
+/content/builds/heal-alac-chronomancer.md @xellink
 
 # vim: set expandtab:

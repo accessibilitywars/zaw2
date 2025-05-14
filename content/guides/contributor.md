@@ -19,9 +19,8 @@ that _stores_ the files.
 ## Financial
 
 Of course, financial contributions are always welcome too, if that's preferred. We have
-[a team set up on Liberapay](https://liberapay.com/AccessibilityWars), which is an open community
-funding platform based in France. All funds currently go towards development and hosting costs, but we hope to be able to offer
-honorariums to build contributors to recognize their efforts.
+[a page set up on OpenCollective](https://opencollective.com/accessibility-wars), which is an open community
+funding platform. All funds currently go towards development and hosting costs and all of that information is transparently visible on the collective site.
 
 Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](@/discord/_index.md) if
 you prefer one of those options.
@@ -48,7 +47,6 @@ However, it is built from source code and contributors can make edits and submis
 	- builds live in [builds](https://github.com/accessibilitywars/zaw2/tree/master/content/builds)
 	- guides live in [guides](https://github.com/accessibilitywars/zaw2/tree/master/content/guides)
 	- miscellaneous pages live in [pages](https://github.com/accessibilitywars/zaw2/tree/master/content/pages)
-	- old jekyll-based builds live in [retired](https://github.com/accessibilitywars/zaw2/tree/master/content/retired)
 2. Click the markdown (.md) file to view it in the github editor
 3. Click the pencil icon to switch to edit mode, and make your changes
 4. Click the **[Commit Changes...]** button
@@ -129,7 +127,7 @@ to upload broken content if you can't see it.
 
 # Additional tools
 
-These additional tools are useful. They will eventually be integrated, but for now, they're useful standalone utils.
+These additional tools are useful. They may eventually be integrated, but for now, they're useful standalone utils.
 
 - [gw2search](https://github.com/berdandy/gw2search)
 - [chatr](https://github.com/berdandy/chatr)

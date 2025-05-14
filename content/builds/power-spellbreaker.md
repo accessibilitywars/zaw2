@@ -6,7 +6,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-tags = ["power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
+tags = ["hammer","dagger","axe","greatsword","power","warrior","spellbreaker","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["spellbreaker", "warrior"]
 
@@ -15,7 +15,7 @@ series = "warrior"
 tagline = "Dance like the Dervishes of old."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "37.7k DPS burst, 30k sustained"
 +++
 
@@ -33,7 +33,7 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 {{ axe_off(stat="Berserker's", sigil="Air") }}
 {{ dagger_main(stat="Berserker's", sigil="Accuracy") }}
 {{ dagger_off(stat="Berserker's", sigil="Air") }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
+{{ trinkets(stat="Berserker's", relic="Claw") }}
 
 > ***Marauder's*** *can be used for extra crit chance if you struggle to maintain at least 2 levels of attacker's insight.*
 
@@ -42,11 +42,11 @@ This simplified build also embraces the combo nature of warrior instead of shunn
 - Weapons (alt): Greatsword[^1] (Traditional)
 - Weapons (alt): Hammer[^2] (Meta)
 
-> <small>[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH</small>\
-> <small>[^2]: [SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.</small>
+[^1]: The rotation for axe MH and greatsword differs slightly. To simplify the rotation, this will not be covered in this guide but they are not hard to learn. It will probably deal higher damage than dagger/dagger MH
+[^2]: [SnowCrow's](https://snowcrows.com/builds/raids/warrior/power-spellbreaker) which uses the Defense trait which is out of the scope of this article.
 
 #### Food
-{{ item(id="91805") }}\
+{{ item(id="91805") }}
 {{ item(id="91917") }} (Budget)
 
 #### Utility
@@ -90,10 +90,10 @@ Early stacks of Brutal Bolts can stack vulnerability faster on bosses at the sta
 Start with Dagger/Axe
 1. Opener - {{ skill(id="45333") }} -> {{ skill(id="14516") }} -> {{ skill(id="46233") }} -> {{ skill(id="14410") }} -> {{ skill(id="45252") }} -> {{ skill(id="14399") }}
 2. Maintenance - skills 1-5 + {{ skill(id="14516") }} on cooldown
-3. Finisher - {{ skill(id="14410") }} -> skills in the following order:\
-    a. {{ skill(id="45252") }}\
-    b. {{ skill(id="14399") }}\
-    c. {{ skill(id="14418") }}\
+3. Finisher - {{ skill(id="14410") }} -> skills in the following order:
+    a. {{ skill(id="45252") }}
+    b. {{ skill(id="14399") }}
+    c. {{ skill(id="14418") }}
     d. {{ skill(id="44937") }}
 
 > <small>*You may extend the auto chain cycle if you need a break. If you need to reorientate yourself (or if you have a pizza on your other hand), you may also extend the auto-chain indefinitely by just holding F1 and it will still do a base of 23k DPS at 0 APM (while attacker's insight is still up)*</small>
@@ -128,6 +128,8 @@ This build has no ranged alternative. However, based on my personal testing, thi
 I have benched the build with 1 piece of marauder's headgear, budget food and utilities, no infusions. 
 
 #### DPS benchmark (29-31k, 37.7k initial burst)
-{{ youtube(id="fGPygDuxx9Q") }}\
+{{ youtube(id="fGPygDuxx9Q") }}
 
-> <small>This benchmark does not include {{ item(id="100916") }} and you may bench 1k higher with the proper relic equipped. {{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>
+> <small>This benchmark does not include any relic. You may bench 2k higher with the proper relic equipped.</small>
+> <small>Alternative relics include {{ item(id="100916") }} and {{ item(id="99997") }}.</small>
+> <small>{{ item(id="99997") }} was equipped but has no effect on the benchmark numbers. This relic is situationally better in some fights but due to the complexity of its use, I have not included this in the guide.</small>

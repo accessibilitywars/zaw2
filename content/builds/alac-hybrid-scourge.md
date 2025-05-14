@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["condi","hybrid","heal","alacrity","necromancer","scourge","pof","lowcog","lowrep"]
+tags = ["pistol","torch","scepter","warhorn","condi","hybrid","heal","alacrity","necromancer","scourge","pof","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["scourge", "necromancer"]
 
@@ -16,41 +16,41 @@ series = "necromancer"
 tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "18.8k DPS"
 +++
 
-This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.\\
+This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.
 This build is functional in both open world and instanced content. There is an optional amount of gear swaps that can be done to slide it towards being a stronger healer. While this build has a low skill floor, it does have a high toughness and users should be expected to tank. Tanking isn't terribly difficult on this build however.
 
 ## Gearing and Consumables
 #### Equipment
-[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF70/zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLeFA-e)\
+[Optimised loadout with infusions](http://gw2skills.net/editor/?PSAFsE26XZGMQmEDiRiF70/zH-DSRYVRP1kHaI5CPjuUB5KFU6HgAEue41EgZLeFA-e)
 - Armor/Trinkets: Seraph Set but fill other pieces with other stats up to condi duration cap and the desired amount of healing/toughness.
 - Alt Stats: Celestial's (recommended)/Ritualist's/Viper's/Plaguedoctor's/Minstrels (For tanking)[^1]
 - Weapons (set 1): Sceptre/Torch (Offensive)
 - Weapons (alt): Sceptre/Warhorn (Defensive)[^2]
 
-> <small>[^1]*Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option*</small>\
->  <small>[^2]*Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.*</small>
+[^1]: Being cost-effective: Celestial stat is a good pick because it is a core stat and can be obtained from the Wizard's Vault. Your armor requirements will vary depending on your infusions and you may need additional expertise to hit 100% condition duration. Adding more Celestial stats is an option
+[^2]: Weapon swap to warhorn for extra heals. Use torch as default for extra DPS.
 
 #### Weapon Alternatives
 - Weapons (alt): Pistol/Torch (Offensive)[^3]
 
-> <small>[^3]*The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.*</small>
+[^3]: The general idea is to use skills on cooldown and swapping to pistol shortens that. The rotation is forgiving but you may also refer to the build on [SnowCrows](https://snowcrows.com/builds/raids/necromancer/condition-scourge) Condition Scourge to get the general idea.
 
 #### Runes
 {{ item(id="76166") }}
 
 #### Sigils
-{{ item(id="48911") }}\
+{{ item(id="48911") }}
 {{ item(id="24583") }}
 
 #### Relic
 {{ item(id="100153") }}
 
 #### Food
-{{ item(id="91748") }} OR\
+{{ item(id="91748") }} OR
 {{ item(id="95241") }} (Budget/Free)
 
 #### Utility
@@ -93,7 +93,7 @@ You have many options to play around with other traits and utilities. Necromance
 4. You may bring {{ skill(id="10620") }} if you need to pull adds and have extra CC. 
 
 ## Optimisation
-Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is no effective swiftness or stability. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
+Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. There is now effective swiftness and stability in the latest patch. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
 
 #### Strike Ready
 1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Take {{ trait(id="780") }} and use {{ skill(id="44428") }} sparingly. 
@@ -117,7 +117,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 14. W6 Twin Largos - This build excels on this fight. The right lane (Kenut) favors condition builds. Bring {{ skill(id="10646") }} for added CC.
 15. W6 Qadim - This build can Kite Qadim, Tank Wyverns or even solo Lamp. 
 16. W7 Sabir - Projectile blocks from {{ skill(id="10689") }} is useful. {{ skill(id="44428") }} is very helpful for players who can't do tornado jumps. 
-17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can also pull allies who identify themselves as sandsharks.
+17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can no longer pull allies who identify themselves as sandsharks.
 18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
 
 ## Videos

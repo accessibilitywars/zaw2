@@ -16,8 +16,9 @@ series = "engineer"
 tagline = "Green Eggs without HAM"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "June 2024"
+balance = "February 2025"
 benchmark = "33.5k DPS"
+apm = "25"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
@@ -29,7 +30,7 @@ This mechanist build is all-signets, and no kit usage, for simple play
 {{ pistol_off(stat="Viper's", sigil="Earth") }}
 {{ trinkets(stat="Viper's", relic="Fractal") }}
 
-- Food & Utility: Cilantro Flatbread & Toxic Focusing Crystal
+- Food & Utility: Cilantro Flatbread & Toxic Tuning Crystal
 
 ## Build
 
