@@ -18,32 +18,32 @@ tagline = "Guild Wars 2: End of Rotations"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
 balance = "April 2025"
-benchmark = "?? DPS"
+benchmark = "36.7k DPS"
+apm = "31"
 +++
 
 ## Notes
 
 ---
 
-Extremely simple build that does almost all of it's damage from range.
+Extremely simple build that does almost all of its damage from range.
 
 Highly recommended, beginner friendly build that can be played in all scenarios, whether it be instanced content such as fractals, raids, or strikes, or if you just need a safe, comfortable build for open world.
 
 ## Gearing
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
-{{ rifle(stat="Berserker's", sigils=["Force", "Air"]) }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
+{{ shield_off(stat="Berserker's", sigil="Air") }}
+{{ trinkets(stat="Berserker's", relic="Eagle") }}
 
----
 
-- Consumables:
-  - {{ item(id="41569") }} OR {{ item(id="91805") }} (Power/Ferocity)
-  - {{ item(id="43451") }} (Power)
+- Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
+- Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
-{{ chatlink(code="[&DQMGNyYvRh4NGyoPJgGGABobowAQGwAACRsSAQAAAAAAAAAAAAAAAAAAAAADWgA2ADMAAA==]") }}
+{{ chatlink(code="[&DQMGNyYvRh8NGwAAJgGGABobAAAQGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADVQBaADYAAA==]") }}
 
 ## Rotation
 
@@ -113,4 +113,5 @@ You can also recall your Mech using {{ skill(id="63089") }} and resummoning it w
 
 ---
 
-(UNDER CONSTRUCTION)
+{{ youtube(id="fGwUEpknoEs") }}
+
