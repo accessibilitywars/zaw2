@@ -13,10 +13,10 @@ specs = ["elementalist"]
 
 [extra]
 series = "elementalist"
-tagline = "If you ever wanted to be Tenten from Naruto, this is it."
+tagline = "Scooby's Favourite Build"
 keywords = "Guild Wars 2, GW2, LI, Elementalist"
 toc = true
-balance = "October 2024"
+balance = "April 2025"
 benchmark = "33.4k DPS"
 apm = "44"
 +++
