@@ -17,7 +17,7 @@ series = "elementalist"
 tagline = "A storm is coming."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "February 2025"
+balance = "April 2025"
 benchmark = "35.4k DPS"
 apm = "49"
 +++

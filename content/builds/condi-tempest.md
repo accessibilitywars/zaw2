@@ -17,7 +17,7 @@ series = "elementalist"
 tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
-balance = "February 2025"
+balance = "April 2025"
 benchmark = "37.1k DPS"
 apm = "46"
 +++

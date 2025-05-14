@@ -17,8 +17,8 @@ series = "engineer"
 tagline = "Reports of my death have been greatly exaggerated"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "February 2025"
-benchmark = "33.5k DPS"
+balance = "April 2025"
+benchmark = "35.2k DPS"
 apm = "26"
 +++
 
@@ -33,9 +33,8 @@ A Power DPS build with only 4 buttons to press, Sword Power Mechanist is a simpl
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ shield_off(stat="Berserker's", sigil="Air") }}
-{{ trinkets(stat="Berserker's", relic="Thief") }}
+{{ trinkets(stat="Berserker's", relic="Eagle") }}
 
-Note: Relic of the Eagle is an easier and preferred alternative to Relic of the Thief.
 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
