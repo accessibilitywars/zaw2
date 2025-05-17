@@ -33,8 +33,7 @@ Highly recommended, beginner friendly build that can be played in all scenarios,
 ## Gearing
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
-{{ sword_main(stat="Berserker's", sigil="Force") }}
-{{ shield_off(stat="Berserker's", sigil="Air") }}
+{{ rifle(stat="Berserker's", sigils=["Force", "Air"]) }}
 {{ trinkets(stat="Berserker's", relic="Eagle") }}
 
 
