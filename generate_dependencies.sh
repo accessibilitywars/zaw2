@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Run this script to output a json file that contains data dependencies for each build
 
