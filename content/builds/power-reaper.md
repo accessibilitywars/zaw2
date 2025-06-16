@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group" ]
-tags = ["sword","greatsword","power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
+tags = ["axe", "warhorn", "greatsword","power","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 specs = ["reaper", "necromancer"]
 
@@ -33,8 +33,8 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 
 {{ light(stat="Berserker's", rune="Scholar") }}
 {{ greatsword(stat="Berserker's", sigils=["Force", "Hydromancy"]) }}
-{{ sword_main(stat="Berserker's", sigil="Force") }}
-{{ sword_off(stat="Berserker's", sigil="Air") }}
+{{ axe_main(stat="Berserker's", sigil="Force") }}
+{{ warhorn_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(stat="Dragon's", relic="Thief", alternative="Fireworks") }}
 
 # Build
@@ -56,11 +56,8 @@ This plays quite tanky and comfy. There are some modifications below to adjust.
 - Go into {{ skill(name="Reaper's Shroud") }}, drop an ice field with {{ skill(id="30557", name="Executioner's Scythe") }}
 - Use {{ skill(id="30504", name="Soul Spiral") }} in the ice field
 - When out of shroud, focus on life force generation with weapons and {{ skill(name="Your Soul is Mine") }}
-- Dual-swords are provided only as a utility option. If you don't own SotO, use axe/warhorn instead.
-  - Sword 1/4 will heal
-  - Sword 3 provides rapid movement (sacrificing health to move again)
-  - Sword 2/5 generate additional life force (note: sacrificing health for second use does not build life force)
-
+- TODO: notes about secondary set
+- 
 # Crowd Control
 
 You have several options:
