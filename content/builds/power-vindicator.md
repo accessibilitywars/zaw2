@@ -98,8 +98,6 @@ That will always be on your utilities bar, and in many situations might be all t
 - That's not a problem though, because {{ skill(id="62693") }} is great damage while providing that damage modifier.
 - The Dodge requirement is reinforced by {{ trait(id="2258") }}, which increases your damage done when your Endurance is not full.
 
-<div style=‘clear:both;’>&nbsp;</div>
-
 #### {{ skill(id="62757") }}
 
 - Another part of the profession mechanics is {{ skill(id="62757") }}.
