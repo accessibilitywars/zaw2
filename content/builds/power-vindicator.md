@@ -2,7 +2,7 @@
 title = "Lord of the Stomp [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
-updated = 1970-01-01
+updated = 2025-07-04
 draft = false
 template = "build.html"
 
@@ -93,7 +93,7 @@ That will always be on your utilities bar, and in many situations might be all t
 
 #### Dodge & {{ trait(id="2262") }}
 
-- On Vindicator, your Dodge becomes an integral part of your damage rotation. Instead of diving into a specific direaction, it causes you to "jump" into the Mists and deal damage upon landing by default.
+- On Vindicator, your Dodge becomes an integral part of your damage rotation. Instead of diving into a specific direction, it causes you to "jump" into the Mists and deal damage upon landing by default.
 - With {{ trait(id="2257") }}, you gain 25% Strike damage done for 10 seconds whenever you Dodge. This is one of the strongest single damage modifiers in the game. It is therefore crucial to Dodge at least once every 10 seconds.
 - That's not a problem though, because {{ skill(id="62693") }} is great damage while providing that damage modifier.
 - The Dodge requirement is reinforced by {{ trait(id="2258") }}, which increases your damage done when your Endurance is not full.
