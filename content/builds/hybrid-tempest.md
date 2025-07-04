@@ -124,7 +124,7 @@ Then return to {{ skill(id="5492") }} as soon as you are able to.
 This may seem to be an extremely long chain of skills, but it's essentially just:
 > 1. {{ skill(id="5495") }} 3 4 5
 > 1. {{ skill(id="5494") }} 2 3 4 5
-> 1. { skill(id="29719") }}
+> 1. {{ skill(id="29719") }}
 
 ## Video
 
