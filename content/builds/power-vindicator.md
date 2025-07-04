@@ -32,7 +32,7 @@ Vindicator also a great pick for solo gameplay, as it can provide itself with go
 
 ## Gearing
 
-{{ heavy(stat="Berserker's", rune="Draonhunter") }}
+{{ heavy(stat="Berserker's", rune="Dragonhunter") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ sword_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
