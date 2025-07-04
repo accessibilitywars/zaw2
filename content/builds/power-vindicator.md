@@ -2,7 +2,7 @@
 title = "Lord of the Stomp [pDPS]"
 description = "This is a pretty foundational build for Revenant. Simple, solid and focused."
 date = 2024-03-08
-updated = 2025-07-04
+updated = 1970-07-04
 draft = true
 template = "build.html"
 
