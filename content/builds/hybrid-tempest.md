@@ -1,6 +1,6 @@
 +++
-title = "DPS Hybrid Tempest [DPS]"
-description = "Simple, step based rotation with most of your damage in Fire Attunement"
+title = "Into the Inforno [DPS]"
+description = "Press Everything Off Cooldown in Fire Attunement"
 date = 2025-07-04
 draft = false
 template = "build.html"
@@ -13,7 +13,7 @@ specs = ["tempest","elementalist"]
 
 [extra]
 series = "elementalist"
-tagline = "A storm is coming."
+tagline = "I am become Fire, destroyer of raids."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
 balance = "April 2025"
@@ -27,7 +27,7 @@ apm = "51"
 
 Press everything off cooldown while in {{ skill(id="5492") }}.
 
-With the addition of Major Grandmaster trait {{ trait(id="1675") }}, burning you do now scales off of your Power instead of Condition Damage. This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible.
+With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible.
 
 This build does ~45% of your total damage in Burning, with the remaining ~55% in Power, easily making it a Hybrid DPS build.
 
@@ -117,7 +117,7 @@ To CC, perform the following:
 > 1. {{ skill(id="5687") }} (Dagger Air 5)
 > 1. {{ skill(id="5529") }} (Dagger Air 4)
 > 1. {{ skill(id="5561") }} (Scepter Air 2)
-> 1. { skill(id="29719") }}
+> 1. {{ skill(id="29719") }}
 
 Then return to {{ skill(id="5492") }} as soon as you are able to.
 
