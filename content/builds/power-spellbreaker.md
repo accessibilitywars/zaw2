@@ -15,7 +15,7 @@ series = "warrior"
 tagline = "Dance like the Dervishes of old."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "February 2025"
+balance = "2025-02"
 benchmark = "37.7k DPS burst, 30k sustained"
 +++
 

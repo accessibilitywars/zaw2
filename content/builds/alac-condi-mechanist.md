@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "I take my laser gun and I go pew pew pew pew"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "25.7k DPS"
 apm = "24"
 +++

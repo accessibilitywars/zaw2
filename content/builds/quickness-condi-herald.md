@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Condi Quickness Short Bow Herald"
 keywords = "Guild Wars 2, GW2, LI, herald"
 toc = true
-balance = "October 2024"
+balance = "2024-10"
 benchmark = "25k DPS"
 +++
 

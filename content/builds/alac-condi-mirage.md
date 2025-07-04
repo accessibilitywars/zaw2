@@ -17,7 +17,7 @@ series = "mesmer"
 tagline = "Mirror, mirror, on the wall."
 keywords = "Guild Wars 2, GW2, LI, Mirage"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "27.0k DPS"
 apm = "23~40"
 +++

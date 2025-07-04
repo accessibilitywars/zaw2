@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "I am become Fire, destroyer of raids."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "39.7k DPS"
 apm = "51"
 +++

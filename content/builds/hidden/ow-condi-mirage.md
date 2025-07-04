@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Challenging open world mirage that uses only staff.. but two of them. And weapon swapping."
 keywords = "Guild Wars 2, GW2, LI, Mirage"
 toc = true
-balance = "August 2024"
+balance = "2024-08"
 +++
 
 Classic dual-staff mirage. This build can be very survivable once you get the hang of it, as you spend 90% of your time evading. Named after staphylococcus, the real world bacteria responsible for 'staph infections'

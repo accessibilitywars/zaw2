@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "Ask not for whom the bell tolls. It tolls for thee."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "February 2025"
+balance = "2025-02"
 +++
 
 # Overview 

@@ -17,7 +17,7 @@ series = "elementalist"
 tagline = "That was a blast!"
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "October 2024"
+balance = "2024-10"
 benchmark = "30.0k DPS"
 apm = "59"
 +++

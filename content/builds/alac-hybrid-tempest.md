@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "I won't give up, no, I won't give in, 'Til I reach the end, and then I'll start again."
 keywords = "Guild Wars 2, GW2, LI, tempest"
 toc = true
-balance = "October 2024"
+balance = "2024-10"
 benchmark = "18.8k DPS"
 +++
 

@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "Wait, what do you mean this isn't how I get a list of my home cat collection?"
 keywords = "Guild Wars 2, GW2, LI, Catalyst"
 toc = true
-balance = "August 2024"
+balance = "2024-08"
 benchmark = "35.3k DPS"
 apm = "54"
 +++

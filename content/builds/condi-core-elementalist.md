@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "Scooby's Favourite Build"
 keywords = "Guild Wars 2, GW2, LI, Elementalist"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "33.4k DPS"
 apm = "44"
 +++

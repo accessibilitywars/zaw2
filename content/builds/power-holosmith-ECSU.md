@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "Repeat after me: 'DO NOT OVERHEAT.'"
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "36.5k DPS"
 apm = "53"
 +++

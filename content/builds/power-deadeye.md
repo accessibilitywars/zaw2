@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with/without Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "February 2025"
+balance = "2025-02"
 benchmark = "32k DPS"
 +++
 

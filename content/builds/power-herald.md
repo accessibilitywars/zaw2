@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Heralding the start of a new raid experience"
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
-balance = "April 2025"
+balance = "2025-04"
 benchmark = "31.6k DPS"
 apm = "38"
 +++

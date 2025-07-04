@@ -15,7 +15,7 @@ series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "February 2025"
+balance = "2025-02"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
