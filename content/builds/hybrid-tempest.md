@@ -1,7 +1,7 @@
 +++
 title = "Into the Inferno [DPS]"
 description = "Press Everything Off Cooldown in Fire Attunement"
-date = 2025-07-04
+date = 2025-07-02
 draft = false
 template = "build.html"
 
