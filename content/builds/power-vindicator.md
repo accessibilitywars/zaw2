@@ -50,13 +50,42 @@ Vindicator also a great pick for solo gameplay, as it can provide itself with go
 
 ---
 
+Power Vindicator follows a simple priority based rotation:
 
+**Rotation Priority:**
+> 1. {{ skill(id="62757") }}
+> 2. {{ skill(id="62942") }}
+> 3. {{ skill(id="28472") }}
+> 4. {{ skill(id="27074") }}
+> 5. {{ skill(id="29233") }}
+
+And you want to press these skills as often as you can off cooldown. Ideally, you do not want to interrupt your auto attack chain, as seen in the video demonstration, for maximum DPS.
+
+On top of the above rotation, you also want to Dodge periodically to cast {{ skill(id="62693") }}, as well as to ensure that your endurance is not full. Try to fit in the Dodges while your skills are all on cooldown to maximuse DPS output.
 
 ## Crowd Control
 
 ---
 
+Depending on your secondary weapon, you will have a different set of CC skills.
 
+**Staff:**
+> 1. {{ skill(id="28978") }}
+
+**Hammer:**
+> 1. {{ skill(id="28110") }}
+
+**Shortbow:**
+> 1. {{ skill(id="41820") }}
+
+It is recommended to bring either Staff or Hammer over Shortbow. Staff does the most CC, especially if the enemy has a large hitbox, while Hammer allows you to upkeep the best DPS. Note that swapping weapons to perform CC will result in a DPS loss, and you should swap back to Dual Swords as soon as possible.
+
+You also have:
+
+**CC Skill:**
+> 1. {{ skill(id="62878") }}
+
+That will always be on your utilities bar, and in many situations might be all the CC you require.
 
 ## Build Concept
 
