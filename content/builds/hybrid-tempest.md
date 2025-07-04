@@ -2,7 +2,7 @@
 title = "DPS Hybrid Tempest [DPS]"
 description = "Simple, step based rotation with most of your damage in Fire Attunement"
 date = 2025-07-04
-draft = true
+draft = false
 template = "build.html"
 
 [taxonomies]
@@ -64,6 +64,7 @@ Your rotation consists of a simple opener and a {{ skill(id="5492") }} priority.
 > 1. Cast {{ skill(id="29719") }} as the start begins
 > 1. {{ skill(id="5561") }} (Scepter Air 2)
 > 2. {{ skill(id="5529") }} (Dagger Air 4)
+> 3. {{ skill(id="5492") }}
 
 **{{ skill(id="5492") }} Priority:**
 > 1. {{ skill(id="29706") }}
@@ -94,17 +95,36 @@ All of these skills have no cast time and can be cast anytime, even during {{ sk
 ---
 
 Your CC skills are:
+
+**CC Skills:**
 > 1. {{ skill(id="5694") }} (Scepter Air 3)
 > 1. {{ skill(id="5687") }} (Dagger Air 5)
 > 1. {{ skill(id="5696") }} (Scepter Earth 3)
 > 1. {{ skill(id="5690") }} (Dagger Earth 4)
 > 1. {{ skill(id="5522") }} (Dagger Earth 5)
 
-{{ skill(id="5694") }} (Scepter Air 3) and {{ skill(id="30008") }} (Warhorn Air 4) will be on your bar whenever you are in {{ skill(id="5494") }}, and you can insert either of the below:
-> 1. {{ skill(id="5493") }} 2 3 4
-> 1. {{ skill(id="5495") }} 3 5
+Unfortunately to CC, you will need to swap off {{ skill(id="5492") }}. This usually results in a DPS loss, but there is a small window, when your {{ skill(id="5492") }} is about ~7-10 seconds from coming off cooldown, where it would actually result in a DPS increase.
 
-into your rotation between either of {{ skill(id="5492") }} or {{ skill(id="5494") }} if you need to do CC, with a preference of {{ skill(id="5493") }} 2 3 4 over {{ skill(id="5495") }} 3 5.
+To CC, perform the following:
+
+**CC Rotation:**
+> 1. {{ skill(id="5495") }}
+> 1. {{ skill(id="5696") }} (Scepter Earth 3)
+> 1. {{ skill(id="5690") }} (Dagger Earth 4)
+> 1. {{ skill(id="5522") }} (Dagger Earth 5)
+> 1. {{ skill(id="5494") }}
+> 1. {{ skill(id="5694") }} (Scepter Air 3)
+> 1. {{ skill(id="5687") }} (Dagger Air 5)
+> 1. {{ skill(id="5529") }} (Dagger Air 4)
+> 1. {{ skill(id="5561") }} (Scepter Air 2)
+> 1. { skill(id="29719") }}
+
+Then return to {{ skill(id="5492") }} as soon as you are able to.
+
+This may seem to be an extremely long chain of skills, but it's essentially just:
+> 1. {{ skill(id="5495") }} 3 4 5
+> 1. {{ skill(id="5494") }} 2 3 4 5
+> 1. { skill(id="29719") }}
 
 ## Video
 
