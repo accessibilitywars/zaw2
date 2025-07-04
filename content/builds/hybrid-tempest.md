@@ -25,11 +25,11 @@ apm = "51"
 
 ---
 
-Simple, step based rotation with most of your damage in {{ skill(id="5492") }}.
+Press everything off cooldown while in {{ skill(id="5492") }}.
 
-The concept of this build is to stay in {{ skill(id="5492") }} as much as possible, while swapping to {{ skill(id="5494") }} both to fill in some of the down time and to upkeep {{ item(id="100947", name="Relic of Fireworks") }}.
+With the addition of Major Grandmaster trait {{ trait(id="1675") }}, burning you do now scales off of your Power instead of Condition Damage. This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible.
 
-This build does ~17.5% of your total damage in Burning, which is unusual for a Power based DPS build, but not enough for us to consider it Hybrid.
+This build does ~45% of your total damage in Burning, with the remaining ~55% in Power, easily making it a Hybrid DPS build.
 
 ## Gearing
 
@@ -57,39 +57,37 @@ This build does ~17.5% of your total damage in Burning, which is unusual for a P
 
 ---
 
-Your rotation consists of a precasted opener, a {{ skill(id="5492") }} priority, and an {{ skill(id="5494") }} priority:
+Your rotation consists of a simple opener and a {{ skill(id="5492") }} priority.
 
-**Precasted Opener:**
-> 1. Start in {{ skill(id="5492") }}
-> 1. {{ skill(id="5666") }}
-> 1. {{ skill(id="5494") }}
-> 1. {{ skill(id="29719") }}
+**Opener:**
+> 1. Start in {{ skill(id="5494") }}
+> 1. Cast {{ skill(id="29719") }} as the start begins
+> 1. {{ skill(id="5561") }} (Scepter Air 2)
+> 2. {{ skill(id="5529") }} (Dagger Air 4)
 
 **{{ skill(id="5492") }} Priority:**
 > 1. {{ skill(id="29706") }}
-> 2. {{ skill(id="29533") }} (Warhorn Fire 5)
-> 3. {{ skill(id="5692") }} (Scepter Fire 2)
-> 4. {{ skill(id="5675") }} (Scepter Fire 3)
-> 5. {{ skill(id="5736") }} ({{ skill(id="5734") }} in {{ skill(id="5492") }})
+> 1. {{ skill(id="5675") }} (Scepter Fire 3)
+> 1. {{ skill(id="5692") }} (Scepter Fire 2)
+> 1. {{ skill(id="5736") }} ({{ skill(id="5734") }} in {{ skill(id="5492") }})
+> 1. {{ skill(id="5542") }}
+> 1. {{ skill(id="5691") }} (Dagger Fire 4)
+> 1. {{ skill(id="5557") }} (Dagger Fire 5)
+> 1. {{ skill(id="5666") }}
 
-**{{ skill(id="5494") }} Priority:**
-> 1. {{ skill(id="29719") }}
-> 2. {{ skill(id="5561") }} (Scepter Air 2)
-> 3. {{ skill(id="30795") }} (Warhorn Air 5)
+Try to always start with your Opener before entering {{ skill(id="5494") }}. As much as possible you want to hit your {{ skill(id="29719") }}, but that is not always possible on all bosses. If you are lazy or do not want to do the opener, you can also just start in {{ skill(id="5492") }}, cast some skills, then proceed to {{ skill(id="29706") }}.
 
-Try to always start with your Precasted Opener, before entering your main attunement looping below. As much as possible you want to hit your precast {{ skill(id="29719") }}, but that is not always possible on all bosses. If you do not have enough time for your full precast, start in {{ skill(id="5494") }}, precast {{ skill(id="29719") }} as you are running towards the boss, and continue the rotation from there, casting {{ skill(id="5666") }} in your first {{ skill(id="5492") }} loop. You can refer to the provided video rotation for an example of this precast.
+It is important to press {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2) as much as possible as they are both blast finishers, and are critical to upkeep {{ item(id="104800", name="Relic of Bloodstone") }}. In an actual fight, there will be many fields placed by your allies that you will be continuously blasting, but on the golem the only fields you have are from {{ skill(id="29706") }} and {{ skill(id="5691") }}. Therefore you might find yourself doing more damage in a fight than on the golem, especially since this build is not designed to maximise self blast finishers.
 
-**Main Attunement Loop:**
-> 1. {{ skill(id="5492") }}
-> 2. {{ skill(id="5494") }}
+However, outside of {{ skill(id="29706") }}, {{ skill(id="5675") }} (Scepter Fire 3), and {{ skill(id="5692") }} (Scepter Fire 2), it honestly doesn't matter too much which order you push your buttons in, as long as you try your best to hit them off cooldown. I personally press most of my buttons from left to right on the keyboard for this build, as it is easier that way.
 
-You should repeatedly swap betwen these 2 attunements as soon as they are off cooldown, while following the priority list for each attunement when you are in that attunement. Following this logic, you will maximise uptime in both {{ skill(id="5492") }} and {{ item(id="100947", name="Relic of Fireworks") }}. You should also:
+You should also:
 
 **Cast Off Cooldown:**
 > 1. {{ skill(id="30662") }}
 > 1. {{ skill(id="25499") }}
 
-All of these skills have no cast time and can be cast anytime, even during {{ skill(id="29706") }} or {{ skill(id="29719") }}.
+All of these skills have no cast time and can be cast anytime, even during {{ skill(id="29706") }}.
 
 ## Crowd Control
 
@@ -97,10 +95,10 @@ All of these skills have no cast time and can be cast anytime, even during {{ sk
 
 Your CC skills are:
 > 1. {{ skill(id="5694") }} (Scepter Air 3)
-> 1. {{ skill(id="30008") }} (Warhorn Air 4)
-> 1. {{ skill(id="30864") }} (Warhorn Water 4)
+> 1. {{ skill(id="5687") }} (Dagger Air 5)
 > 1. {{ skill(id="5696") }} (Scepter Earth 3)
-> 1. {{ skill(id="30336") }} (Warhorn Earth 5)
+> 1. {{ skill(id="5690") }} (Dagger Earth 4)
+> 1. {{ skill(id="5522") }} (Dagger Earth 5)
 
 {{ skill(id="5694") }} (Scepter Air 3) and {{ skill(id="30008") }} (Warhorn Air 4) will be on your bar whenever you are in {{ skill(id="5494") }}, and you can insert either of the below:
 > 1. {{ skill(id="5493") }} 2 3 4
