@@ -26,6 +26,7 @@ To get involved, any of the following is very helpful:
 
 - berdandy - _code/site/tools, discord, builds_
 - scooby - _builds_ 
+- masel - _builds_
 - xellink - _builds_
 - xmidsummerdreams - _discord_
 - bunny - _discord_
