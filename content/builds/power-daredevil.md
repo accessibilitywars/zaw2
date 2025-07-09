@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
-balance = "2025-04"
+balance = "2025-06"
 benchmark = "34.2k DPS"
 apm = "19"
 +++
