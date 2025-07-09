@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Same same but different"
 keywords = "Guild Wars 2, GW2, LI, Herald"
 toc = true
-balance = "2024-04"
+balance = "2025-06"
 benchmark = "27.1k DPS"
 apm = "47"
 +++
