@@ -17,7 +17,7 @@ series = "engineer"
 tagline = "Guild Wars 2: End of Rotations"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-04"
+balance = "2025-06"
 benchmark = "36.7k DPS"
 apm = "31"
 +++

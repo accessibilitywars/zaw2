@@ -17,7 +17,7 @@ series = "elementalist"
 tagline =  "'Mr. Lava Lava. She call me Mr. Boombastic, tell me fantastic' -- Shaggy, probably"
 keywords = "Guild Wars 2, GW2, LI, Weaver"
 toc = true
-balance = "2025-04"
+balance = "2025-06"
 benchmark = "37.3k DPS"
 apm = "79"
 +++

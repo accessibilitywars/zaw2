@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "Babe, si Optimum Pride Œœœœœ"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-04"
+balance = "2025-06"
 benchmark = "27.1k DPS"
 apm = "24"
 +++

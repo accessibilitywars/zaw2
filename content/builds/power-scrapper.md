@@ -17,7 +17,7 @@ series = "engineer"
 tagline = "With Gyros like these who needs friends?"
 keywords = "Guild Wars 2, GW2, LI, Scrapper"
 toc = true
-balance = "2025-04"
+balance = "2025-06"
 benchmark = "34.4k DPS"
 apm = "38"
 +++
