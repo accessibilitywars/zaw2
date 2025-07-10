@@ -5,6 +5,7 @@
 # read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
 /content/builds/alac-condi-mechanist.md @scoobysharky
 /content/builds/alac-power-mechanist.md @scoobysharky
+/content/builds/condi-chronomancer.md @scoobysharky
 /content/builds/condi-core-elementalist.md @scoobysharky
 /content/builds/condi-mechanist.md @scoobysharky
 /content/builds/condi-tempest.md @scoobysharky
