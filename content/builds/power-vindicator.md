@@ -22,6 +22,8 @@ benchmark = "35.5k DPS"
 apm = "43"
 +++
 
+This is a pretty foundational build for Revenant. Simple, solid and focused.
+
 ## Notes
 
 ---
@@ -87,7 +89,7 @@ You also have:
 
 That will always be on your utilities bar, and in many situations might be all the CC you require.
 
-## Build Concept
+## Build Concepts
 
 ---
 
