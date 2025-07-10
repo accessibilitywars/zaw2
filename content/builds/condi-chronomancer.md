@@ -21,7 +21,13 @@ benchmark = "36.7k DPS"
 apm = "26"
 +++
 
-A strong condi dps option for the chronomancer fans in the building. All staff, no swapping, heavy on the signets.
+## Notes
+
+---
+
+Condition Chronomancer is a simple build with solid damage potential. Due to the high amounts of Confusion it applies, it excels at fights with fast-attacking bosses. 
+It has very high range and is able to provide all important Boons to itself in open world gameplay: (Might, Stability, Aegis, Regeneration, Quickness, Alacrity, Fury and Protection). 
+It can also be turned into a simple Alacrity or Quickness provider with just one trait change.
 
 ## Gearing (Damage)
 
