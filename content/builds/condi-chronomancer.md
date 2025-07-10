@@ -28,7 +28,9 @@ A strong condi dps option for the chronomancer. All staff, no swapping, heavy on
 ---
 
 Condition Chronomancer is a simple build with solid damage potential. Due to the high amounts of Confusion it applies, it excels at fights with fast-attacking bosses. 
+
 It has very high range and is able to provide all important Boons to itself in open world gameplay: (Might, Stability, Aegis, Regeneration, Quickness, Alacrity, Fury and Protection). 
+
 It can also be turned into a simple Alacrity or Quickness provider with just one trait change.
 
 ## Gearing
@@ -90,14 +92,14 @@ Your CC skills are, in order of priority:
 
 {{ skill(id="10169") }} (Staff 5) is used in your damage rotation and might not always be available.
 
-## Build Concept
+## Build Concepts
 
 ---
 
 Like core mesmer, the gameplay on chrono evolves around creating clones of yourself and then shattering them.
 Creating clones can be done in two ways:
-1. Indirectly by using phantasm skills, which perform an attack and then turn into clones afterwards
-2. Directly by skills or traits that create clones on certain actions, like {{ skill(id="10310") }} (Staff 2) for example.
+> 1. Directly by skills or traits that create clones on certain actions, like {{ skill(id="10310") }} (Staff 2)
+> 2. Indirectly by using phantasm skills, like {{ skill(id="10216") }} (Staff 3), which perform an attack and then turn into clones afterwards
 
 {{ trait(id="667") }} increases your condition damage by 7% for 5 seconds when you apply Chaos Aura to yourself and stacks in duration.
 
