@@ -67,7 +67,7 @@ It's also a great pick for solo gameplay, as it provides itself with good amount
 
 In this build we'll spam the spear primal burst {{ skill(id="73103") }} while using most skills off cooldown. It is the most powerful skill in your kit, so you (almost) always want to prioritize it.
 
-{{ item(id="103574", name="Relic of the Claw") }} requires you to apply Control effects to maintain it. With Alacrity, {{ skill(id="72959") }} is enough to maintain it, while {{ skill(id="30343") }} provides additional uptime.
+{{ item(id="103574", name="Relic of the Claw") }} requires you to apply Control effects to maintain it. With Alacrity, {{ skill(id="72959") }} is enough to maintain it, while {{ skill(id="29941") }} and {{ skill(id="30343") }} provides additional uptime.
 
 **Opener:**
 > 1. {{ skill(id="30343") }}
@@ -83,7 +83,12 @@ In this build we'll spam the spear primal burst {{ skill(id="73103") }} while us
 > 3. {{ skill(id="72959") }}
 > 4. {{ skill(id="72992") }}
 > 5. {{ skill(id="72897") }}
-> 6. {{ skill(id="30343") }} and break stun with {{ skill(id="30258") }}
+> 6. {{ skill(id="29941") }}
+> 7. {{ skill(id="30343") }} and break stun with {{ skill(id="30258") }}
+
+{{ skill(id="30258") }} extends the duration of {{ skill(id="30435") }}, and should be used off cooldown. {{ skill(id="30258") }} has no cast time, and will not interrupt the casting of your current skill, so you can use it as soon as it is off cooldown.
+
+{{ skill(id="29941") }} provides both {{ item(id="103574", name="Relic of the Claw") }} uptime and extends the duration of {{ skill(id="30435") }}. However, it has a range of 170 and should only be used when you are in melee range of the boss.
 
 ## Crowd Control
 
@@ -93,14 +98,15 @@ Your CC skills are
 
 **CC Skills:**
 > 1. {{ skill(id="72959") }}
-> 2. {{ skill(id="30343") }}
-> 3. {{ skill(id="73009") }}
+> 2. {{ skill(id="29941") }}
+> 3. {{ skill(id="30343") }}
+> 4. {{ skill(id="73009") }}
 
-As {{ skill(id="72959") }} and {{ skill(id="30343") }} are used as part of your damage rotation, they might not be on cooldown during the CC phase of the boss. You can delay using them for a small DPS loss if you know the CC bar of the boss is about to come up.
+As {{ skill(id="72959") }}, {{ skill(id="29941") }}, and {{ skill(id="30343") }} are used as part of your damage rotation, they might not be on cooldown during the CC phase of the boss. You can delay using them for a small DPS loss if you know the CC bar of the boss is about to come up.
 
 However, as {{ skill(id="73009") }} does 382 breakbar damage on a 20s cooldown (15s with Alacrity), it is usually enough on its own as long as the rest of your squad is also CCing.
 
-If more CC is required (i.e the group is wiping to mechanics due to not having enough CC), you can swap out {{ skill(id="14404") }} for {{ skill(id="14502") }} to get up to 450 extra breakbar damage. This will result in a major DPS loss, but is ultimately still better than wiping. Do note that if you are already using {{ skill(id="73009") }} to CC and saving either one of {{ skill(id="72959") }} or {{ skill(id="30343") }}, it is probably not your fault that the group does not have enough CC, even if you have the ability to bring more.
+If more CC is required (i.e the group is wiping to mechanics due to not having enough CC), you can swap out {{ skill(id="14404") }} for {{ skill(id="14502") }} to get up to 450 extra breakbar damage. This will result in a major DPS loss, but is ultimately still better than wiping. Do note that if you are already using {{ skill(id="73009") }} to CC and saving either one of {{ skill(id="72959") }} or {{ skill(id="29941") }}, it is probably not your fault that the group does not have enough CC, even if you have the ability to bring more.
 
 ## Build Concepts
 
