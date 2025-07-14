@@ -1,6 +1,6 @@
 +++
 title = "Power Berserker [pDPS]"
-description = ""
+description = "Simple, priority based, and ranged Power DPS build."
 date = 2025-07-13
 draft = false
 template = "build.html"
@@ -13,13 +13,15 @@ specs = ["berserker","warrior"]
 
 [extra]
 series = "warrior"
-tagline = ""
+tagline = "Looks like meat's back on the menu, boys!"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
 balance = "2025-06"
 benchmark = "36.6k DPS"
 apm = "48"
 +++
+
+Simple, priority based, and ranged Power DPS build.
 
 ## Notes
 
