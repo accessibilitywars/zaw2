@@ -104,7 +104,7 @@ Your CC skills are
 
 As {{ skill(id="72959") }}, {{ skill(id="29941") }}, and {{ skill(id="30343") }} are used as part of your damage rotation, they might not be on cooldown during the CC phase of the boss. You can delay using them for a small DPS loss if you know the CC bar of the boss is about to come up.
 
-However, as {{ skill(id="73009") }} does 382 breakbar damage on a 20s cooldown (15s with Alacrity), it is usually enough on its own as long as the rest of your squad is also CCing.
+However, as {{ skill(id="73009") }} does 382 breakbar damage on a 20s cooldown (16s with Alacrity), it is usually enough on its own as long as the rest of your squad is also CCing.
 
 If more CC is required (i.e the group is wiping to mechanics due to not having enough CC), you can swap out {{ skill(id="14404") }} for {{ skill(id="14502") }} to get up to 450 extra breakbar damage. This will result in a major DPS loss, but is ultimately still better than wiping. Do note that if you are already using {{ skill(id="73009") }} to CC and saving either one of {{ skill(id="72959") }} or {{ skill(id="29941") }}, it is probably not your fault that the group does not have enough CC, even if you have the ability to bring more.
 
