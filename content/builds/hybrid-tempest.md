@@ -35,7 +35,7 @@ This build does ~45% of your total damage in Burning, with the remaining ~55% in
 
 {{ light(stat="Berserker's", rune="Flame Legion") }}
 {{ scepter_main(stat="Berserker's", sigil="Smoldering") }}
-{{ warhorn_off(stat="Berserker's", sigil="Accuracy") }}
+{{ dagger_off(stat="Berserker's", sigil="Accuracy") }}
 {{ trinkets(
 	back="Berserker's",
 	accessory1="Berserker's",
