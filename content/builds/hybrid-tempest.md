@@ -50,7 +50,7 @@ This build does ~45% of your total damage in Burning, with the remaining ~55% in
 
 ## Build
 
-{{ chatlink(code="[&DQYfHSkfMBd0AHQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]") }}
+{{ chatlink(code="[&DQYfPSkfMBd0AHQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]") }}
 
 
 ## Rotation
