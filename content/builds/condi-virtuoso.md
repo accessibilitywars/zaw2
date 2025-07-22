@@ -17,9 +17,9 @@ series = "mesmer"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-balance = "2024-10"
+balance = "2025-06"
 benchmark = "34.5k DPS"
-apm = "37"
+apm = "48"
 +++
 
 ## Notes
@@ -34,33 +34,29 @@ It is also relatively sturdy for a DPS build, and has good HP self sustain.
 
 ## Gearing
 
-<small> *There are multiple gear combinations that will arrive at the same total value of stats. However, we will be copying the gear that Snow Crows uses as that is most widely used.* </small>
+<small> *There are multiple gear combinations that will arrive at the same total value of stats.* </small>
 
 {{ light(
-	head="Rampager's",
+	head="Viper's",
 	shoulders="Rampager's",
-	chest="Sinister",
+	chest="Viper's",
 	arms="Rampager's",
-	legs="Sinister",
-	feet="Sinister",
+	legs="Rampager's",
+	feet="Rampager's",
 	rune="Krait") }}
-{{ dagger_main(stat="Viper's", sigil="Agony") }}
-{{ sword_off(stat="Viper's", sigil="Earth") }}
+{{ dagger_main(stat="Sinister", sigil="Bursting") }}
+{{ sword_off(stat="Sinister", sigil="Earth") }}
 {{ trinkets(
 	back="Rampager's",
-	accessory1="Sinister",
-	accessory2="Sinister",
+	accessory1="Rampager's",
+	accessory2="Rampager's",
 	ring1="Rampager's",
 	ring2="Rampager's",
 	amulet="Sinister",
-	relic="Aristocracy") }}
+	relic="Fractal") }}
 
-- #### Food (Celestial):
-  - {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }}
-  - {{ item(name="Dragon's Revelry Starcake") }} (Budget Alternative)
- 
-- #### Consumable (Condition Damage):
-  - {{ item(name="Toxic Tuning Crystal") }}
+- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} or {{ item(id="86997", name="Plate of Beef Rendang") }}
+- Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
 
 ## Build
 
