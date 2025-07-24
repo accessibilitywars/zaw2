@@ -108,3 +108,80 @@
       {%- endif %}
 {%- endmacro footer %}
 
+{%- macro meta_post(page, config) %}
+{# Load current language i18n data from .toml files in user's '/i18n' folder, use theme as fallback. #}
+{%- set i18n = load_data(path="i18n/" ~ lang ~ '.toml', required=false) -%}
+{%- if not i18n -%}{%- set i18n = load_data(path="themes/abridge/i18n/" ~ lang ~ ".toml", required=false) -%}{%- endif %}
+
+{%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
+{%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
+      <span{%- if config.extra.meta_post.size %} class="{{ config.extra.meta_post.size }}"{% endif %}>
+
+        {#- Author #}
+        {%- if page.taxonomies.authors and config.taxonomies %}
+          {%- for author in page.taxonomies.authors %}
+          {%- if author_flag %}, {% endif %}
+          <a href="{{ get_taxonomy_url(kind='authors', name=author) | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ author }}</a>
+          {%- set_global author_flag = true %}
+          {%- endfor %}
+        {%- elif page.extra.authors and config.extra.meta_post.author %}
+          {%- if config.extra.icon_author %}<i class="{{ config.extra.icon_author }}"></i> {% endif %}
+          {%- for author in page.extra.authors %}
+          {%- if author_flag %}, {% endif %} {{ author }}
+          {%- set_global author_flag = true %}
+          {%- endfor %}
+        {%- elif config.extra.author and config.extra.meta_post.author %}
+          {%- if config.extra.icon_author %}<i class="{{ config.extra.icon_author }}"></i> {% endif %} {{ config.extra.author }}
+        {%- endif %}
+
+          {#- divider #}
+          {%- if config.extra.meta_post.author %}
+          {%- if config.extra.meta_post.readtime or config.extra.meta_post.date or config.extra.meta_post.updated or config.extra.meta_post.categories_tags %}
+          {%- if config.extra.meta_post.divider %}<span class="hpad">{{ config.extra.meta_post.divider | safe }}</span>{%- else %} <span class="rpad"></span> {%- endif %}
+          {%- endif %}
+          {%- endif %}
+
+        {#- ReadTime #}
+          {%- if config.extra.meta_post.readtime %} {%- if config.extra.icon_read %}<i class="{{ config.extra.icon_read }}"></i> {% endif %} {{ page.reading_time }} {{ config.extra.meta_post.readstring | default(value="min") }}
+          {#- divider #}
+          {%- if config.extra.meta_post.date or config.extra.meta_post.updated or config.extra.meta_post.categories_tags %}
+          {%- if config.extra.meta_post.divider %}<span class="hpad">{{ config.extra.meta_post.divider | safe }}</span>{%- else %} <span class="rpad"></span> {%- endif %}{%- endif %}{%- endif %}
+
+        {#- Date #}
+          {%- if config.extra.meta_post.date %} {%- if config.extra.icon_date %}<i class="{{ config.extra.icon_date }}"></i> {% endif %}
+          {%- set lang_locale = macros::translate(key='date_locale', default='en_US', i18n=i18n) -%}
+          {%- set page_date = page.date | date(format="%B %d, %Y", locale=lang_locale) -%}
+          {%- if page_date %} {{ page_date }} {%- else %} {{ page.date | date(format="%B %d, %Y") }} {%- endif %}
+          {#- divider #}
+          {%- if config.extra.meta_post.updated or config.extra.meta_post.categories_tags %}
+          {%- if config.extra.meta_post.divider %}<span class="hpad">{{ config.extra.meta_post.divider | safe }}</span>{%- else %} <span class="rpad"></span> {%- endif %}{%- endif %}{% endif %}
+
+        {#- Updated #}
+          {%- if config.extra.meta_post.updated and page.updated %} {%- if config.extra.icon_date %}<i class="{{ config.extra.icon_date }}"></i> {% endif -%}
+          {{ macros::translate(key="Updated", default="Updated", i18n=i18n) }}:
+          {%- set lang_locale = macros::translate(key='date_locale', default='en_US', i18n=i18n) -%}
+          {%- set page_updated = page.updated | date(format="%B %d, %Y", locale=lang_locale) -%}
+          {%- if page_updated %} {{ page_updated }} {%- else %} {{ page.updated | date(format="%B %d, %Y") }} {%- endif %}
+          {#- divider #}
+          {%- if config.extra.meta_post.categories_tags %}
+          {%- if config.extra.meta_post.divider %}<span class="hpad">{{ config.extra.meta_post.divider | safe }}</span>{%- else %} <span class="rpad"></span> {%- endif %}{%- endif %}{% endif %}
+
+        {#- Categories #}
+          {%- if page.taxonomies.categories %} {%- if config.extra.icon_info %}<i class="{{ config.extra.icon_info }}"></i> {% endif %} [ {% for cat in page.taxonomies.categories %}<a href="{{ get_taxonomy_url(kind='categories', name=cat, lang=lang) | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ cat }} </a>{% endfor %}]{% endif %}
+
+        {#- Tags #}
+          {%- if page.taxonomies.tags %} {%- for tag in page.taxonomies.tags %} #<a href="{{ get_taxonomy_url(kind='tags', name=tag, lang=lang) | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ tag }}</a> {% endfor -%}{%- endif %}</span>
+
+        {#- Expansions #}
+            {%- set req = [] -%}
+              {%- if page.taxonomies.tags is containing("hot") -%}{%- set req = req | concat(with="HEART OF THORNS") -%}{%- endif -%}
+              {%- if page.taxonomies.tags is containing("pof") -%}{%- set req = req | concat(with="PATH OF FIRE") -%}{%- endif -%}
+              {%- if page.taxonomies.tags is containing("eod") -%}{%- set req = req | concat(with="END OF DRAGONS") -%}{%- endif -%}
+              {%- if page.taxonomies.tags is containing("soto") -%}{%- set req = req | concat(with="SECRETS OF THE OBSCURE") -%}{% endif -%}
+              {%- if page.taxonomies.tags is containing("jw") -%}{%- set req = req | concat(with="JANTHIR WILDS") -%}{%- endif -%}
+            {%- if req | length > 0 -%}
+              <div>
+                This build requires: {{ req | join(sep=", ") }}
+              </div>
+            {%- endif -%}
+{%- endmacro meta_post %}

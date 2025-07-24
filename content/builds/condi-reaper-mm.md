@@ -6,7 +6,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo"]
-tags = ["staff","greatsword","condi","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
+tags = ["staff","greatsword","condi","necromancer","reaper","hot","jw","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 specs = ["reaper", "necromancer"]
 
@@ -15,7 +15,7 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "2025-02"
+balance = "2025-06"
 +++
 
 # Overview 
@@ -26,14 +26,16 @@ This casual open-world minion master excels when it's horde _dies_. You want to 
 - Step 2: Exploit horde
 - Step 3: Repeat
 
-Note that this build does not peform very well with single-target situations, as {{ skill(name="Rise!") }} ultimately fuels much of the damage in this build.
+Notes:
+- this build does not peform very well with single-target situations, as {{ skill(name="Rise!") }} ultimately fuels much of the damage in this build.
+- If you do not own Janthir Wilds, you may swap out {{ item(name="Relic of the Blightbringer", id="102199") }} for {{ item(name="Relic of Thorns", id="104424") }}, or even {{ item(name="Relic of the Lich", id="100238") }}.
 
 # Gearing
 
 {{ light(stat="Celestial", rune="Tempest") }}
 {{ greatsword(stat="Celestial", sigils=["Geomancy", "Hydromancy"]) }}
 {{ staff(stat="Celestial", sigils=["Ice", "Cleansing"]) }}
-{{ trinkets(stat="Celestial", relic="Blightbringer") }}
+{{ trinkets(stat="Celestial", relic="Blightbringer", alternative="Thorns") }}
 
 # Build
 
