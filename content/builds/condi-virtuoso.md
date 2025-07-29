@@ -82,9 +82,9 @@ To maximise damage on Condition Virtuoso, you should space out your Bladesong Sk
 The rest of your rotation follows a priority list of skills you should use off cooldown.
 
 **Use Off Cooldown:**
-> 1. {{ skill(name="Bladesong Sorrow") }} (only use with 5 blades)
-> 1. {{ skill(id="62617") }} (only use with 5 blades)
-> 1. {{ skill(name="Bladeturn Requiem") }}  (only use with 5 blades)
+> 1. {{ skill(name="Bladesong Sorrow") }} *(only use with 5 blades)*
+> 1. {{ skill(id="62617") }} *(only use with 5 blades)*
+> 1. {{ skill(name="Bladeturn Requiem") }}  *(only use with 5 blades)*
 > 1. {{ skill(id="10189") }} (Torch 5)
 > 1. {{ skill(name="Unstable Bladestorm") }} (Dagger 3)
 > 1. {{ skill(id="62560") }} (Dagger 2)
@@ -92,7 +92,7 @@ The rest of your rotation follows a priority list of skills you should use off c
 
 Outside of this priority, you should also cast {{ skill(id="24755") }} as soon as it is off cooldown, as it has no cast time and will not interrupt your current action.
 
-After every cast of {{ skill(name="Bladeturn Requiem") }}, if {{ skill(id="10247") }} is off cooldown, you should use it immediately, as in the rotation, pairing these 2 skills together whenever possible.
+After every cast of {{ skill(name="Bladeturn Requiem") }}, if {{ skill(id="10247") }} is off cooldown, you should use it immediately, as in the opener, pairing these 2 skills together whenever possible.
 
 You should also pair {{ skill(id="10213") }} with {{ skill(id="10285") }} (Torch 4), casting it whenever you have used {{ skill(id="10285") }} (Torch 4). {{ skill(id="10213") }} places an Ethereal Field every other cast due to {{ trait(id="670") }} and {{ skill(id="10285") }} (Torch 4) is a Blast finisher with a 3 second delay. The two skills share the same cooldown, so you can always pair them.
 
@@ -104,7 +104,7 @@ Your CC skills are, in order of priority
 
 **CC Skills:**
 > 1. {{ skill(id="10189") }} (Torch 5)
-> 1. {{ skill(name="Bladesong Dissonance") }} (use with as many blades as possible)
+> 1. {{ skill(name="Bladesong Dissonance") }} *(use with as many blades as possible)*
 > 1. {{ skill(name="Signet of Domination") }} (big DPS loss, not recommended)
 
 As {{ skill(id="10189") }} (Torch 5) is used in your damage rotation, it might not always be off cooldown. You should delay it if you know a CC bar is about to come up.
