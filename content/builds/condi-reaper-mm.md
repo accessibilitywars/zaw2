@@ -6,7 +6,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["solo"]
-tags = ["staff","greatsword","condi","necromancer","reaper","hot","lowcog","lowphys","lowrep"]
+tags = ["staff","greatsword","condi","necromancer","reaper","hot","jw","lowcog","lowphys","lowrep"]
 authors = ["berdandy"]
 specs = ["reaper", "necromancer"]
 
@@ -15,7 +15,7 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "2025-02"
+balance = "2025-06"
 +++
 
 # Overview 
@@ -26,7 +26,8 @@ This casual open-world minion master excels when it's horde _dies_. You want to 
 - Step 2: Exploit horde
 - Step 3: Repeat
 
-Note that this build does not peform very well with single-target situations, as {{ skill(name="Rise!") }} ultimately fuels much of the damage in this build.
+Notes:
+- this build does not peform very well with single-target situations, as {{ skill(name="Rise!") }} ultimately fuels much of the damage in this build.
 
 # Gearing
 
