@@ -26,17 +26,19 @@ This build is has low physical complexity, has very few repetitions and is funct
 
 # Gearing
 
-| Equipment     | Stat          | Rune/Sigil              |
-| ------------- | ------------- | ----------------------- |
-| All Armor     | Minstrel's    | {{ item(id="84171") }}  |
-| Scepter (MH)  | Minstrel's    | {{ item(id="72339") }}  |
-| Shield (OH)   | Minstrel's    | {{ item(id="74326") }}  |
-| All Trinkets  | Minstrel's    | N/A                     |
-| Relic	        | N/A           | {{ item(id="100633") }} |
+{{ light(stat="Minstrel's", rune="Rebirth") }}
+{{ scepter_main(stat="Minstrel's", sigil="Concentration") }}
+{{ shield_off(stat="Minstrel's", sigil="Transference") }}
+{{ trinkets(stat="Minstrel's", relic="Flock") }}
+
+### Alternative
 
 Consider rifle for additional healing and focus for additional CC/pulls.
 
+{{ rifle(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
+
 > <small>_Note: Weapon swap to rifle is optional, but shield is better used for tanking. Alternate weapon sets should be prioritised based on utility requirements._</small>
+
 <div style="clear:both;">&nbsp;</div>
 
 #### Budget Options
