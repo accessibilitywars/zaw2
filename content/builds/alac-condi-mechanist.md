@@ -2,6 +2,7 @@
 title = "Chronomechanic [aDPS]"
 description = "Simple but effective Condition Alacrity build"
 date = 2024-05-26
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
