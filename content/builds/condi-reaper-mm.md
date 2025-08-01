@@ -2,6 +2,7 @@
 title = "Putrid Petmaster [DPS]"
 description = "With the power of hordes of minions filled with poison, this hybrid dps build really goes after Zhaitan's heart"
 date = 2024-08-11
+updated = 2025-06-24
 template = "build.html"
 
 [taxonomies]
