@@ -2,6 +2,7 @@
 title = "Violent Emetic [pDPS]"
 description = "Alternative power build for Necro enjoyers who are sick of playing Reaper"
 date = 2024-04-10
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
