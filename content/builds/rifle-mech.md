@@ -2,7 +2,7 @@
 title = "Rifle Mechanist [pDPS]"
 description = "Simple and effective build for dealing ranged damage."
 date = 2024-08-27
-updated = 2025-04-17
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
