@@ -2,6 +2,7 @@
 title = "Gunmech [cDPS]"
 description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
