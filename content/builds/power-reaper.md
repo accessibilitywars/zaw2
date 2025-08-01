@@ -2,7 +2,7 @@
 title = "The Bell Ringer [pDPS]"
 description = "The classic power reaper spin-to-win experience"
 date = 2024-04-01
-updated = 2025-02-14
+updated = 2025-02-15
 template = "build.html"
 
 [taxonomies]
