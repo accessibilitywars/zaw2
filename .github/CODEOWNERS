@@ -1,7 +1,5 @@
 *                                            @berdandy
-/content/builds/*                            @berdandy @scoobysharky
-
-/content/builds/hidden/*                     @berdandy @scoobysharky @xellink
+/content/builds/                             @scoobysharky
 
 # read! grep -l scooby content/builds/*.md | sed -e 's/^\(.*\)$/\/\1 @scoobysharky/'
 /content/builds/alac-condi-mechanist.md @scoobysharky
