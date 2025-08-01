@@ -2,7 +2,7 @@
 title = "Lava Weaver [cDPS]"
 description = "Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking. We include some Elementals for extra friends when you're feeling lonely."
 date = 2024-03-02
-updated = 2024-08-15
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
