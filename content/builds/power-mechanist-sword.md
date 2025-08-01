@@ -2,7 +2,7 @@
 title = "Mechknight [pDPS]"
 description = "4 button rotation with lots of Signets"
 date = 2024-05-05
-updated = 2025-03-19
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
