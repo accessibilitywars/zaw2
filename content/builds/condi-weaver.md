@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "37.3k DPS"
 apm = "79"
+log = "https://dps.report/wPk4-20240627-225402_golem"
 +++
 
 ## Notes
