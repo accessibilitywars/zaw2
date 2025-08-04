@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "33.5k DPS"
 apm = "25"
+log = "https://dps.report/zbdy-20240208-110835_golem"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
