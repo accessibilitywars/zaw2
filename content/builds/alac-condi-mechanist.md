@@ -2,6 +2,7 @@
 title = "Chronomechanic [aDPS]"
 description = "Simple but effective Condition Alacrity build"
 date = 2024-05-26
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
@@ -19,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "25.7k DPS"
 apm = "24"
+log = "https://dps.report/1w5R-20240519-214952_golem"
 +++
 
 Simple but effective Condition Alacrity build

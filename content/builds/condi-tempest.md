@@ -2,7 +2,7 @@
 title = "Fire Whirl [cDPS]"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
-updated = 2025-02-17
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "37.1k DPS"
 apm = "46"
+log = "https://dps.report/GFZP-20250215-142801_golem"
 +++
 
 ## Notes

@@ -2,6 +2,7 @@
 title = "Thermal Runaway [pDPS]"
 description = "One of our tougher builds, but well worth the reward"
 date = 2024-05-05
+updated = 2025-06-24
 draft = false
 template = "build.html"
 

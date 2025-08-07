@@ -2,7 +2,7 @@
 title = "Power Spellbreaker [pDPS]"
 description = "Dagger Axe build with simple combos and a priority based rotation."
 date = 2025-03-23
-updated = 2025-03-23
+updated = 2025-06-24
 draft = false
 template = "build.html"
 slug = "power-spellbreaker-redux"

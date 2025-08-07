@@ -2,7 +2,7 @@
 title = "Rifle Mechanist [pDPS]"
 description = "Simple and effective build for dealing ranged damage."
 date = 2024-08-27
-updated = 2025-04-17
+updated = 2025-06-25
 draft = false
 template = "build.html"
 
@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "36.7k DPS"
 apm = "31"
+log = "https://dps.report/4Lyb-20250514-205156_golem"
 +++
 
 ## Notes

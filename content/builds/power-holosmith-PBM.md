@@ -2,7 +2,7 @@
 title = "Blastmaster [pDPS]"
 description = "A sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
-updated = 2025-03-15
+updated = 2025-06-24
 draft = false
 template = "build.html"
 

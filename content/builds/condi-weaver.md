@@ -2,7 +2,7 @@
 title = "Lava Weaver [cDPS]"
 description = "Rotating between Fire and Earth Attunements, this hot weaver build gets things shaking. We include some Elementals for extra friends when you're feeling lonely."
 date = 2024-03-02
-updated = 2024-08-15
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "37.3k DPS"
 apm = "79"
+log = "https://dps.report/wPk4-20240627-225402_golem"
 +++
 
 ## Notes

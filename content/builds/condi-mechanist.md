@@ -2,6 +2,7 @@
 title = "Gunmech [cDPS]"
 description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
+updated = 2025-06-24
 draft = false
 template = "build.html"
 
@@ -19,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "33.5k DPS"
 apm = "25"
+log = "https://dps.report/zbdy-20240208-110835_golem"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play

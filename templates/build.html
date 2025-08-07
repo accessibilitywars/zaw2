@@ -257,6 +257,13 @@ Warning: this build was created for the older {{ page.extra.balance }} balance p
 		  {%- endif %}
 		</div>
 		{%- endif %}
+
+   		{%- if page.extra.log %}
+		<div class="blockdiv">
+		  <h2 class="b s150">DPS Log</h2>
+			<p><a href="{{ page.extra.log }}">DPS Log</a></p>
+		</div>
+		{%- endif %}
       </div>
     </div>
     {%- endif %}
