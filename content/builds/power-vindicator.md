@@ -14,7 +14,7 @@ specs = ["vindicator", "revenant"]
 
 [extra]
 series = "revenant"
-tagline = "Death from above!"
+tagline = "Step on me pleeeease!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
 balance = "2025-06"
