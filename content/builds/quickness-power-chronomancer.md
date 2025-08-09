@@ -2,7 +2,7 @@
 title = "Quickness Power Chronomancer [qDPS]"
 description = "Provide full party quickness by swapping 1 trait from the Power Chronomancer build."
 date = 2024-10-13
-updated = 2024-10-13
+updated = 2025-08-09
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "mesmer"
 tagline = "I'm neither here nor there."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2024-10"
-benchmark = "28.0k DPS"
+balance = "2025-06"
+benchmark = "25.0k DPS"
 apm = "52"
 +++
 
@@ -39,30 +39,26 @@ This build gives quickness when you create a Phantasmal ({{ skill(name="Phantasm
 ## Gearing
 
 {{ light(
-	head="Berserker's",
-	shoulders="Assassin's",
+	head="Assassin's",
+	shoulders="Berserker's",
 	chest="Berserker's",
-	arms="Assassin's",
+	arms="Berserker's",
 	legs="Assassin's",
-	feet="Assassin's",
-	rune="Infiltration") }}
+	feet="Berserker's",
+	rune="Dragonhunter") }}
 {{ dagger_main(stat="Berserker's", sigil="Force") }}
-{{ sword_off(stat="Berserker's", sigil="Impact") }}
+{{ sword_off(stat="Berserker's", sigil="Accuracy") }}
 {{ trinkets(
-	back="Assassin's",
-	accessory1="Assassin's",
+	back="Berserker's",
+	accessory1="Berserker's",
 	accessory2="Berserker's",
-	ring1="Assassin's",
+	ring1="Berserker's",
 	ring2="Berserker's",
-	amulet="Assassin's",
+	amulet="Berserker's",
 	relic="Thief") }}
 
-- #### Food (Power/Ferocity):
-  - {{ item(id="91805") }}
-  - {{ item(id="41569") }} (Budget Alternative)
- 
-- #### Consumable (Power):
-  - {{ item(id="43451") }}
+- Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
+- Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
@@ -109,7 +105,7 @@ And you should use your skills off cooldown with the following priority:
 Your CC skills are, in order of priority
 
 **CC Skills:**
-> 1. {{ skill(id="30359") }} (BIG CC)
+> 1. {{ skill(id="29519") }} (BIG CC)
 > 1. {{ skill(id="56873") }} (more clones more CC)
 
 ## Advanced Tips
