@@ -10,14 +10,14 @@ draft = false
 
 This site does not store data in the browser to be shared, sent, or sold to third-parties. No personal information is shared, sent, or sold to third-parties.
 
-However, several pages on this site includes embedded youtube videos, which does contain tracking code.
+However, several pages on this site includes embedded youtube videos, which does contain tracking code. If that is a concern, blocking YouTube will not affect AW2 functionality in any way.
 
 ## Analytics Policy
 
-AW2 uses Cabin Analytics to track page views and content popularity in an ethical, sustainable way. See our [privacy page at Cabin for more details](https://withcabin.com/privacy/aw2.help)
+AW2 uses Cabin to track page views and content popularity in a cookie-free, privacy-preserving, ethical, sustainable way. See our [privacy page at Cabin for more details](https://withcabin.com/privacy/aw2.help)
 
 ## Advertising Policy
 
 Accessibility Wars does not advertise, sell ad space or otherwise leverage its users for profit. We believe in an open internet for accessibility reasons. 
 
-**Effective Date:** _August 7, 2025_
+**Effective Date:** _August 10, 2025_
