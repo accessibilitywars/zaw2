@@ -20,7 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "34.9k DPS"
 apm = "25"
-log = "https://dps.report/zbdy-20240208-110835_golem"
+log = "https://dps.report/LQyn-20250806-195649_golem"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
@@ -39,10 +39,8 @@ Gunmech is also capable of dealing most of its damage from range, and having goo
 {{ staff(stat="Viper's", sigils=["Bursting", "Earth"]) }}
 {{ trinkets(stat="Viper's", relic="Fractal") }}
 
-#### Food & Utility
-- {{ item(name="Cilantro and Cured Meat Flatbread") }} (Ascended)
-- {{ item(name="Plate of Beef Rendang") }} (Non-Ascended)
-- {{ item(name="Toxic Tuning Crystal") }} (Utility)
+- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} or {{ item(id="86997", name="Plate of Beef Rendang") }}
+- Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
 
 ## Build
 
