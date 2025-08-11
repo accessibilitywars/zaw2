@@ -39,10 +39,8 @@ It can also be turned into a simple Alacrity or Quickness provider with just one
 {{ staff(stat="Viper's", sigils=["Malice", "Torment"]) }}
 {{ trinkets(stat="Viper's", relic="Fractal") }}
 
-#### Food & Utility
-- {{ item(name="cilantro and cured meat flatbread") }} (Ascended)
-- {{ item(name="Plate of Beef Rendang") }} (Non-Ascended)
-- {{ item(name="Toxic Tuning Crystal") }} (Utility)
+- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} or {{ item(id="86997", name="Plate of Beef Rendang") }}
+- Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
 
 ## Build
 
