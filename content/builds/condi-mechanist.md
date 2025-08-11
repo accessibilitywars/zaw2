@@ -36,7 +36,8 @@ Gunmech is also capable of dealing most of its damage from range, and having goo
 ## Gearing
 
 {{ light(stat="Viper's", rune="Trapper") }}
-{{ staff(stat="Viper's", sigils=["Bursting", "Earth"]) }}
+{{ pistol_main(stat="Viper's", sigil="Bursting") }}
+{{ pistol_off(stat="Viper's", sigil="Earth") }}
 {{ trinkets(stat="Viper's", relic="Fractal") }}
 
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} or {{ item(id="86997", name="Plate of Beef Rendang") }}
