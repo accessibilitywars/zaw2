@@ -1,5 +1,5 @@
 +++
-title = "Give Yourself a Hand [Handkite]"
+title = "Give Yourself a Hand [HK]"
 description = "Easy handkite build for Raid Wing 4"
 date = 2025-08-11
 draft = false
