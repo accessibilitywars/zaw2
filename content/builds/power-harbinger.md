@@ -22,7 +22,10 @@ benchmark = "36.0k DPS"
 apm = "40"
 +++
 
-Alternative power build for Necro enjoyers who are sick of playing Reaper
+Alternative power build for Necro enjoyers who are sick of playing Reaper[^1]
+
+[^1]: Shoutout to Zargholl for his comments, without which this build would have been much worse. You can find him helping out players with any questions they have about Necromancer over at the Snow Crows discord, where he also enjoys theorycrafting ~~and shitposting~~.
+
 
 ## Notes
 
