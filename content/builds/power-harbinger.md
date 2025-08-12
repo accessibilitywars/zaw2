@@ -20,6 +20,7 @@ toc = true
 balance = "2025-06"
 benchmark = "36.0k DPS"
 apm = "40"
+log = "https://dps.report/sozo-20250812-001820_golem"
 +++
 
 Alternative power build for Necro enjoyers who are sick of playing Reaper[^1]
