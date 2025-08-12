@@ -2,13 +2,13 @@
 title = "Violent Emetic [pDPS]"
 description = "Alternative power build for Necro enjoyers who are sick of playing Reaper"
 date = 2024-04-10
-updated = 2025-06-24
+updated = 2025-08-12
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["greatsword","power","necromancer","harbinger","eod","soto","lowcog","lowphys"]
+tags = ["greatsword","power","necromancer","harbinger","eod","lowcog","lowrep"]
 authors = ["scooby"]
 specs = ["harbinger", "necromancer"]
 
@@ -32,13 +32,13 @@ Alternative power build for Necro enjoyers who are sick of playing Reaper[^1]
 
 ---
 
-Harbinger gets most of its damage from having high stacks of Blight, which can be stacked through {{ trait(id="2183") }} and {{ skill(id="62567") }}, as well as your utility skills.
-
-However, in the interest of reducing complexity, we will not be bringing any skills that stacks Blight, instead relying solely on {{ skill(id="62567") }}.
+Harbinger gets most of its damage from having high stacks of Blight, which can be stacked through {{ trait(id="2183") }} and {{ skill(id="62567") }}, as well as your utility skills. However, in the interest of reducing complexity and increasing utility, we will not be bringing any skills that stacks Blight, instead relying solely on {{ skill(id="62567") }}.
 
 This causes some issues where our Power Harbinger build may not perform as well on fights with many long phases inbetween where you are not able to perform your rotation.
 
 For fights with short interruptions between phases, such as having to CC the boss, there is no expected loss in performance of this build.
+
+Power Harbinger is still able to burst extremely well if you are able to line up your **Burst** rotation with the burst phases of the boss, easily hitting 50-60k burst DPS.
 
 ## Gearing
 
@@ -58,6 +58,9 @@ For fights with short interruptions between phases, such as having to CC the bos
 	ring2="Berserker's",
 	amulet="Assassin's",
 	relic="Fireworks") }}
+
+- Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
+- Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
 
@@ -103,6 +106,8 @@ If you find yourself being forced out of Shroud early, just carry on and do your
 
 Becareful when using {{ skill(id="10546") }} --> {{ skill(id="62567") }} and {{ skill(id="62621") }} (Shroud 2) --> {{ skill(id="62540") }}, as casting either of {{ skill(id="62567") }} or {{ skill(id="62540") }} too early will cancel the skill before it.
 
+This rotation will upkeep basically perfect {{ item(id="100947", name="Relic of Fireworks") }} uptime when performed correctly and up to speed. The skills that upkeep {{ item(id="100947", name="Relic of Fireworks") }} are {{ skill(id="29855") }} (Greatsword 4), {{ skill(id="29740") }} (Greatsword 5), and {{ skill(id="62563") }} (Shroud 5). You will notice that they are spaced out well throughout the rotation. Not having Alacrity will cause you to lose uptime on {{ item(id="100947", name="Relic of Fireworks") }}, but will not affect the order of the rotation.
+
 ## Crowd Control
 
 ---
@@ -110,11 +115,25 @@ Becareful when using {{ skill(id="10546") }} --> {{ skill(id="62567") }} and {{ 
 Your CC skills are:
 
 **Shroud:**
+> 1. {{ skill(id="62540") }} (Shroud 4)
+> 1. {{ skill(id="62563") }} (Shroud 5)
 
 **Normal:**
+> 1. {{ skill(id="10647") }}
+> 1. {{ skill(id="62563") }} (Greatsword 5)
+
+Both {{ skill(id="62540") }} (Shroud 4) and {{ skill(id="10647") }} are available during their respective stages for CC on demand. You can press them as soon as you see a breakbar appear with near 0 interruption to your rotation.
+
+On the other hand, {{ skill(id="62563") }} (Shroud 5) and {{ skill(id="62563") }} (Greatsword 5) are both used as part of your DPS rotation. They provide great CC when the breakbar coincides with your rotation phases, but you should not delay or save them for CC.
+
+## Advanced Tips
+
+---
+
+Experienced players or players with lower ping might sometimes find that the **Normal** rotation does not line up perfectly with the rest of the rotation, with some skills still being on cooldown when you reach that part of the rotation. To prevent this from happening, delay casting {{ skill(id="62563") }} (Shroud 5) --> {{ skill(id="62621") }} (Shroud 2) slightly longer, and your cooldowns should now line up. This problem can also happen if you delay {{ skill(id="62563") }} (Shroud 5) --> {{ skill(id="62621") }} (Shroud 2) by too much in one rotation, then too little in the next rotation.
 
 ## Video
 
 ---
 
-{{ youtube(id="") }}
+{{ youtube(id="YRSIVMu7mxc") }}
