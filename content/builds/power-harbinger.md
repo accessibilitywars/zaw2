@@ -87,7 +87,7 @@ Listed below are the combos:
 
 **Shroud:**  
 > 1. {{ skill(id="62621") }} (Shroud 2) x 2
-> 1. {{ skill(id="62563") }} (Shroud 5) when {{ skill(id="62621") }} (Shroud 2) is almost ready.
+> 1. {{ skill(id="62563") }} (Shroud 5) when {{ skill(id="62621") }} (Shroud 2) is almost ready
 > 1. {{ skill(id="62621") }} (Shroud 2)
 > 1. {{ skill(id="62540") }}  
 
@@ -100,7 +100,13 @@ Listed below are the combos:
 
 You will know when your auto attack chain is completed when the cooldown of {{ skill(id="30163") }} (Greatsword 2) resets, in which case you should use it again immediately.
 
-Below 50% boss HP, you will notice that {{ skill(id="30163") }} (Greatsword 2) has no cooldown. Replace Greatsword 1 Chain with {{ skill(id="30163") }}.
+Below 50% boss HP, you will notice that {{ skill(id="30163") }} (Greatsword 2) has no cooldown. Replace Greatsword 1 Chain with {{ skill(id="30163") }}. Your **Normal** combo will now look like this:
+
+**Normal:** 
+> 1. {{ skill(id="30163") }} (Greatsword 2)  
+> 1. {{ skill(id="30860") }} (Greatsword 3)
+> 1. {{ skill(id="29740") }} (Greatsword 5)
+> 1. {{ skill(id="30163") }} (Greatsword 2) x 2
 
 If you find yourself being forced out of Shroud early, just carry on and do your **Normal** combo repeatedly until {{ skill(id="10607") }} is off cooldown, then recover and continue the rotation.
 
