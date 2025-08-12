@@ -18,15 +18,27 @@ tagline = "You've heard of spinning to win, now try shotgunning to win!"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Harbinger"
 toc = true
 balance = "2025-06"
-benchmark = "33.5k DPS"
-apm = "38"
+benchmark = "36.0k DPS"
+apm = "40"
 +++
 
-You've heard of spinning to win, now try shotgunning to win!
+Alternative power build for Necro enjoyers who are sick of playing Reaper
+
+## Notes
+
+---
+
+Harbinger gets most of its damage from having high stacks of Blight, which can be stacked through {{ trait(id="2183") }} and {{ skill(id="62567") }}, as well as your utility skills.
+
+However, in the interest of reducing complexity, we will not be bringing any skills that stacks Blight, instead relying solely on {{ skill(id="62567") }}.
+
+This causes some issues where our Power Harbinger build may not perform as well on fights with many long phases inbetween where you are not able to perform your rotation.
+
+For fights with short interruptions between phases, such as having to CC the boss, there is no expected loss in performance of this build.
 
 ## Gearing
 
-{{ light(head="Assassin's",
+{{ light(head="Berserker's",
 		shoulders="Berserker's",
 		chest="Berserker's",
 		arms="Berserker's",
@@ -34,49 +46,71 @@ You've heard of spinning to win, now try shotgunning to win!
 		feet="Berserker's",
 		rune="Dragonhunter") }}
 {{ greatsword(stat="Berserker's", sigils=["Accuracy", "Force"]) }}
-{{ trinkets(stat="Berserker's", relic="Fireworks") }}
+{{ trinkets(
+	back="Berserker's",
+	accessory1="Berserker's",
+	accessory2="Berserker's",
+	ring1="Berserker's",
+	ring2="Berserker's",
+	amulet="Assassin's",
+	relic="Fireworks") }}
 
 ## Build
 
-{{ chatlink(code="[&DQg1KTIlQBXnGpsAgQDkAG8BdgB1AXAB6BqVAAAAAAAAAAAAAAAAAAAAAAACWgAyAAA=]") }}
+{{ chatlink(code="[&DQg1KTIlQBWbAJsAQAHkAIEAdgB1AXABlQCVAAAAAAAAAAAAAAAAAAAAAAACMgBaAAA=]") }}
 
-# Notes
+# Rotation
 
-Start by using {{ skill(id="62667") }} and {{ skill(id="62655") }} to build up blight stacks. You should always start with these 2 skills after any prolonged phases of not attacking.
+---
 
 The rotation consists of 3 main combos:  
-1. Pre Shroud  
-1. In Shroud  
-1. Out Shroud
+> 1. Burst
+> 1. Shroud
+> 1. Normal
 
 And should be looped in this order indefinitely.
 
-Pre Shroud combo consists of:  
-1. {{ skill(id="29740") }} (Greatsword 5)  
-1. {{ skill(id="29855") }} (Greatsword 4)  
-1. {{ skill(id="10546") }}  
-1. {{ skill(id="62567") }}
+Listed below are the combos:
 
-In Shroud combo consists of:  
-1. {{ skill(id="62672") }} (Shroud 3)  
-1. {{ skill(id="62621") }} (Shroud 2)  
-1. Do it 3 times  
-1. {{ skill(id="62540") }}  
+**Burst:**
+> 1. {{ skill(id="29855") }} (Greatsword 4)  
+> 1. {{ skill(id="10607") }}
+> 1. {{ skill(id="10546") }}
+> 1. {{ skill(id="62567") }}
 
-Basically Shroud 3 Devouring Cut has a very long after cast and you are using Shroud 2 Dark Barrage to cancel the after cast.
+**Shroud:**  
+> 1. {{ skill(id="62621") }} (Shroud 2) x 2
+> 1. {{ skill(id="62563") }} (Shroud 5) when {{ skill(id="62621") }} (Shroud 2) is almost ready.
+> 1. {{ skill(id="62621") }} (Shroud 2)
+> 1. {{ skill(id="62540") }}  
 
-Out Shroud combo consists of:  
-1. {{ skill(id="30163") }} (Greatsword 2)  
-1. {{ skill(id="30860") }} (Greatsword 3)  
-1. Auto Attack Chain  
-1. {{ skill(id="30163") }} (Greatsword 2)  
+**Normal:** 
+> 1. {{ skill(id="30163") }} (Greatsword 2)  
+> 1. {{ skill(id="30860") }} (Greatsword 3)
+> 1. {{ skill(id="29740") }} (Greatsword 5)
+> 1. {{ skill(id="29705") }} --> {{ skill(id="30799") }} --> {{ skill(id="29867") }} (Greatsword 1 Chain)
+> 1. {{ skill(id="30163") }} (Greatsword 2)  
 
 You will know when your auto attack chain is completed when the cooldown of {{ skill(id="30163") }} (Greatsword 2) resets, in which case you should use it again immediately.
 
-Below 50% boss HP, you will notice that {{ skill(id="30163") }} (Greatsword 2) has no cooldown. You should use it as much as possible and Out Shroud combo basically becomes spam {{ skill(id="30163") }} (Greatsword 2) until Enter Shroud is off cooldown.
+Below 50% boss HP, you will notice that {{ skill(id="30163") }} (Greatsword 2) has no cooldown. Replace Greatsword 1 Chain with {{ skill(id="30163") }}.
 
-If you find yourself being forced out of Shroud early, just carry on and do Out Shroud combo repeatedly until {{ skill(id="29740") }} (Greatsword 5) is off cooldown, then recover and continue the rotation.
+If you find yourself being forced out of Shroud early, just carry on and do your **Normal** combo repeatedly until {{ skill(id="10607") }} is off cooldown, then recover and continue the rotation.
+
+Becareful when using {{ skill(id="10546") }} --> {{ skill(id="62567") }} and {{ skill(id="62621") }} (Shroud 2) --> {{ skill(id="62540") }}, as casting either of {{ skill(id="62567") }} or {{ skill(id="62540") }} too early will cancel the skill before it.
+
+## Crowd Control
+
+---
+
+Your CC skills are:
+
+**Shroud:**
+
+**Normal:**
 
 ## Video
 
-{{ youtube(id="zyOdaWExRvU") }}
+---
+
+{{ youtube(id="") }}
