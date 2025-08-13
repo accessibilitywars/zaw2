@@ -1,7 +1,7 @@
 +++
 title = "Put Your Hands Together for... [HK]"
 description = "Easy handkite mechanist build for Raid Wing 4"
-date = 2025-08-11
+date = 2025-08-13
 draft = false
 template = "build.html"
 
@@ -12,6 +12,7 @@ authors = ["berdandy"]
 specs = ["mechanist", "engineer"]
 
 [extra]
+series = "engineer"
 tagline = "A mech in the hands is worth two in the bush"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
@@ -65,15 +66,16 @@ In an ideal world, you will want to stack 5 hands in the same spot. But we will 
 It's better to have a messier cluster of hands than to get downed far from the group. If you're having
 a hard time with damage, move early.
 
-There are 4 main things to worry about: Autocasting, Hands, Mind Crush, and Tears.
+There are a few things to worry about: Autocasting, Hands, Mind Crush, and Tears. Read on...
 
 ## Autocasting, Setup
 
-Before the fight, set the following to autocast (Ctrl-Right Click):
+Before the fight, set the following 
 
-- All mech abilities
-- Set mech to peaceful
-- {{ skill(id="29591", name="Utility Goggles") }}
+- Autocast (Ctrl-Right Click) {{ skill(id="29591", name="Utility Goggles") }}
+- Set mech to peaceful to keep it near you.<br/>
+***Warning: avoid targeting Deimos to allow the mech to stay nearby***.<br/>
+The mech will go after your target when you press F2/F3
 
 Staying in a kit will also proc {{ trait(name="Backpack Regenerator") }}. I find it helpful to just stay in
 {{ skill(name="Tool Kit") }} most of the time so I don't accidentally use {{ skill(name="Static Shield") }} (Shield 5).
@@ -84,10 +86,16 @@ Almost immediately, Deimos will start spawning hands. They spawn on the furthest
 there's a short break. Then 5 more, etc. There are several ways to deal with hands:
 
 1. Facetank hand 1, use {{ skill(name="Gear Shield") }} (Tool Kit 4) to block 2 hands, sidestep and dodge the last two.
-1. Facetank hand 1, use {{ skill(name="Elixir S") }} for hands 2-4, dodge hand 5. Warning: if a mind crush happens while Elixir S is active, you cannot block it.
+1. Facetank hand 1, use {{ skill(name="Elixir S") }} for hands 2-4, dodge hand 5.<br/>
+***Warning: if a mind crush happens while Elixir S is active, you cannot block it.***
 1. Sidestep/dodge plus outheal with {{ skill(name="Elixir H") }} and {{ skill(name="Elixir Shell") }} (Mortar Kit 5)
-  - Bonus: {{ skill(name="Elixir Shell") }} creates a water field, use a leap or blast finisher like {{ skill(name="Energizing Slam") }} (Mace 2) for extra
-    healing and barrier from {{ trait(name="Chain Reactivity") }}
+
+#### Bonus Healing During Hands
+
+- {{ skill(name="Elixir Shell") }} creates a water field, use a leap or blast finisher like {{ skill(name="Energizing Slam") }} (Mace 2)
+or {{ skill(name="Magnetic Inversion") }} (double-press Shield 4) for extra healing and barrier from {{ trait(name="Chain Reactivity") }}
+- When off cooldown, press {{ skill(name="Crisis Zone") }} (F2) & {{ skill(name="Barrier Burst") }} (F3). Because the mech is set to peaceful,
+it won't do this on it's own, even if you set them to autocast.
 
 \* NOTE: always dodge to the side. You will ideally be on the edge of the platform, so a normal dodge backwards will be fatal.
 
