@@ -28,7 +28,9 @@ Step based heal alacrity support with easy access to both Aegis and Stability.
 
 ---
 
+With the recent changes to {{ trait(id="1986") }}, Tempest now both heals and gives Alacrity to allies you grant an aura to. As a whole, Elementalist has lots of auras in its kit, and Tempest adds even more. Together with {{ trait(id="361") }}, this allows Tempest to constantly apply auras onto its allies.
 
+We are also abusing changes to {{ trait(id="1675") }} to deal damage as part of the boon/healing rotation. {{ trait(id="1675") }} makes it so that Burning damage you deal scales of Power instead of Condition Damage, and by taking a full set of Harrier's equipment (Power/Healing/Boon Duration), we are maxing out the efficiency of the equipment.
 
 ## Boon Coverage
 
@@ -147,7 +149,15 @@ Ensuring that you will almost always have some form of CC available on your bar.
 
 ---
 
-After your first loop of rotation, you can delay casting {{ skill(id="30047") }} (for Stability/Superspeed) or {{ skill(id="30432") }} (for Aegis) if you know there is a mechanic that is about to happen that yourequire Stability or Aegis for.
+After your first loop of rotation, you can delay casting {{ skill(id="30047") }} (for Stability/Superspeed) or {{ skill(id="30432") }} (for Aegis) if you know there is a mechanic that is about to happen that requires Stability or Aegis.
+
+<div style=‘clear:both;’>&nbsp;</div>
+
+{{ skill(id="29535") }} can be used to skip certain mechanics to allow your group to have increased damage uptime on the boss. Examples of these mechanics include, but are not limited to, Deimos Mindcrash and Sabir Shockwave.
+
+<div style=‘clear:both;’>&nbsp;</div>
+
+If you are in a fight where lots of condition cleanse is required (i.e Slothasaur), consider swapping {{ trait(id="334") }} for {{ trait(id="340") }}, allowing the auras you grant to cleanse conditions as well. This, combined with the number of auras you are constantly granting your allies, will allow you to passively cleanse conditions from your allies.
 
 ## Video
 
