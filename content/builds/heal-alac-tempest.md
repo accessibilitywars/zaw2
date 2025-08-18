@@ -115,20 +115,48 @@ Although the rotation may seem daunting with many steps, it can be simplified do
 
 Notice that the skills are arranged to be casted mostly from either left to right or right to left. It is actually not critical to cast the skills in each attunement in the specified order, as long as all of them are cast, it will result in very similar results. This means that you can choose to cast all of the skills from left to right or right to left, whichever is more comfortable for you.
 
+Do take note not to accidentally cancel your Overloads as a large part of your boon uptime relies on successfully completing them.
+
+On top of this rotation,
+
+**Press off cooldown:**
+> 1. {{ skill(id="30662") }}
+> 2. {{ skill(id="30047") }}
+> 3. {{ skill(id="30432") }}
+
+{{ skill(id="30662") }} and {{ skill(id="30047") }} have no cast time, and can be used even while overloading.
+
+{{ skill(id="29535") }} and {{ skill(id="29535") }} are both not used as part of your rotation. {{ skill(id="29535") }} can be used whenever you need additional healing, and {{ skill(id="29535") }} is your emergency button, and should be your goto button to press whenever you feel a sense of impending doom.
+
 ## Crowd Control
 
 ---
 
+Your CC skills are
 
+**CC Skills:**
+> 1. {{ skill(id="30008") }} (Warhorn 4)
+> 1. {{ skill(id="30864") }} (Warhorn 4)
+> 2. {{ skill(id="5696") }} (Scepter 3)
+> 3. {{ skill(id="30432") }}
+> 4. {{ skill(id="29618") }}
+
+Ensuring that you will almost always have some form of CC available on your bar. Although these are used in your rotation, you can delay your rotation if you know a CC bar is about to happen, as you are mostly overcapping on all of the boons that you provide.
 
 ## Advanced Tips
 
 ---
 
-
+After your first loop of rotation, you can delay casting {{ skill(id="30047") }} (for Stability/Superspeed) or {{ skill(id="30432") }} (for Aegis) if you know there is a mechanic that is about to happen that yourequire Stability or Aegis for.
 
 ## Video
 
 ---
 
 {{ youtube(id="ehmDKG4iCqQ") }}
+
+## Build Demo
+
+--
+
+{{ youtube(id="kIMeGfEenAU") }}
