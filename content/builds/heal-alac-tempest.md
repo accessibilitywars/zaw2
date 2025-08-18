@@ -130,7 +130,7 @@ On top of this rotation,
 
 {{ skill(id="30662") }} and {{ skill(id="30047") }} have no cast time, and can be used even while overloading.
 
-{{ skill(id="29535") }} and {{ skill(id="29535") }} are both not used as part of your rotation. {{ skill(id="29535") }} can be used whenever you need additional healing, and {{ skill(id="29535") }} is your emergency button, and should be your goto button to press whenever you feel a sense of impending doom.
+{{ skill(id="29535") }} and {{ skill(id="29968") }} are both not used as part of your rotation. {{ skill(id="29535") }} can be used whenever you need additional healing, and {{ skill(id="29968") }} is your emergency button, and should be your goto button to press whenever you feel a sense of impending doom.
 
 ## Crowd Control
 
@@ -155,7 +155,7 @@ After your first loop of rotation, you can delay casting {{ skill(id="30047") }}
 
 <div style=‘clear:both;’>&nbsp;</div>
 
-{{ skill(id="29535") }} can be used to skip certain mechanics to allow your group to have increased damage uptime on the boss. Examples of these mechanics include, but are not limited to, Deimos Mindcrash and Sabir Shockwave.
+{{ skill(id="29968") }} can be used to skip certain mechanics to allow your group to have increased damage uptime on the boss. Examples of these mechanics include, but are not limited to, Deimos Mindcrash and Sabir Shockwave.
 
 <div style=‘clear:both;’>&nbsp;</div>
 
@@ -169,6 +169,6 @@ If you are in a fight where lots of condition cleanse is required (i.e Slothasau
 
 ## Build Demo
 
---
+---
 
 {{ youtube(id="kIMeGfEenAU") }}
