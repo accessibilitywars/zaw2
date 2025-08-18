@@ -50,6 +50,8 @@ We are also abusing changes to {{ trait(id="1675") }} to deal damage as part of 
 | Aegis        | Yes           |
 | Stability    | Yes           |
 
+<div style=‘clear:both;’>&nbsp;</div>
+
 ## Gearing
 
 {{ light(stat="Harrier's", rune="Flame Legion") }}
