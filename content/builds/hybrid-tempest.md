@@ -46,7 +46,7 @@ This build does ~45% of your total damage in Burning, with the remaining ~55% in
 	amulet="Berserker's",
 	relic="Bloodstone") }}
 
-- Food: {{ item(id="12484", name="Bowl of Fire Meat Chili") }}
+- Food: {{ item(id="91709", name="Plate of Coq Au Vin with Salsa") }} or {{ item(id="12467", name="Plate of Truffle Steak") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
