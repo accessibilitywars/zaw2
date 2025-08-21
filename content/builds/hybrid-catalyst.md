@@ -78,8 +78,6 @@ However, outside of {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="569
 ---
 
 Your CC skills are:
-
-Your CC skills are:
 > 1. {{ skill(id="5538") }} (Scepter Water 2)
 > 2. {{ skill(id="5556") }} (Focus Water 4)
 > 3. {{ skill(id="5490") }} (Focus Water 5)
