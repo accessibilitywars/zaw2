@@ -25,7 +25,7 @@
 			{%- set skill_name = skillrec.1 | lower -%}
 			{%- if skillrec.1 == name -%}
 				<span class="armory-inline" data-armory-embed="skills" data-armory-ids="{{skillrec.0 | safe}}"></span> {% if show_text -%}{{skillrec.1 | safe}}{%- endif -%}
-			{%- elif name | lower in skill_name -%}
+			{%- elif name | lower == skill_name -%}
 				<span class="armory-inline" data-armory-embed="skills" data-armory-ids="{{skillrec.0 | safe}}"></span> {% if show_text -%}{{skillrec.1 | safe}}{%- endif -%}
 			{%- endif %}
 		{%- endfor -%}
