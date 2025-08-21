@@ -34,7 +34,7 @@ This build does basically 50/50 split of your total damage in Burning and Power,
 
 {{ light(stat="Berserker's", rune="Flame Legion") }}
 {{ scepter_main(stat="Berserker's", sigil="Smoldering") }}
-{{ dagger_off(stat="Berserker's", sigil="Accuracy") }}
+{{ focus_off(stat="Berserker's", sigil="Accuracy") }}
 {{ trinkets(
 	back="Berserker's",
 	accessory1="Berserker's",
