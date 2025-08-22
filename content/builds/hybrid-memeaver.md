@@ -34,7 +34,7 @@ Press everything off cooldown while in {{ skill(id="5492") }}.
 
 With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible.
 
-This build does ~45% of your total damage in Burning, with the remaining ~55% in Power, easily making it a Hybrid DPS build.
+This build does ~40% of your total damage in Burning, with the remaining ~60% in Power, easily making it a Hybrid DPS build.
 
 ## Gearing
 
@@ -93,7 +93,7 @@ You should perform the following rotation when you want to CC:
 > 1. {{ skill(id="5690") }} (Dagger Earth 4)
 > 1. {{ skill(id="5522") }} (Dagger Earth 5)
 > 1. {{ skill(id="5492") }}
-> 1. {{ skill(id="5694") }} (Scepter 3)
+> 1. {{ skill(id="43576") }} (Scepter 3)
 > 1. {{ skill(id="5687") }} (Dagger Air 5)
 > 1. {{ skill(id="5529") }} (Dagger Air 4)
 > 1. {{ skill(id="5492") }}
