@@ -62,14 +62,14 @@ Your rotation consists solely of a priority list of buttons to press.
 > 1. {{ skill(id="62813") }} --> {{ skill(id="62965") }} (skip if {{ skill(id="62965") }} is on cooldown)
 > 1. {{ skill(id="5675") }} (Scepter Fire 3)
 > 1. {{ skill(id="5692") }} (Scepter Fire 2)
-> 1. {{ skill(id="5497") }} (Warhorn 4)
-> 1. {{ skill(id="5678") }} (Warhorn 5)
-> 1. {{ skill(id="51711") }} (Warhorn 5 Flip)
+> 1. {{ skill(id="5497") }} (Focus Fire 4)
+> 1. {{ skill(id="5678") }} (Focus Fire 5)
+> 1. {{ skill(id="51711") }} (Focus Fire 5 Flip)
 > 1. {{ skill(id="5734") }}
 > 1. {{ skill(id="5542") }}
 > 1. {{ skill(id="25499") }} 
 
-It is important to press {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2) as much as possible as they are both blast finishers, and are critical to upkeep {{ item(id="104800", name="Relic of Bloodstone") }}. In an actual fight, there will be many fields placed by your allies that you will be continuously blasting, but on the golem the only fields you have are from {{ skill(id="62813") }} and {{ skill(id="5497") }} (Warhorn 4). Therefore you might find yourself doing more damage in a fight than on the golem, especially since this build is not designed to maximise self blast finishers.
+It is important to press {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2) as much as possible as they are both blast finishers, and are critical to upkeep {{ item(id="104800", name="Relic of Bloodstone") }}. In an actual fight, there will be many fields placed by your allies that you will be continuously blasting, but on the golem the only fields you have are from {{ skill(id="62813") }} and {{ skill(id="5497") }} (Focus Fire 4). Therefore you might find yourself doing more damage in a fight than on the golem, especially since this build is not designed to maximise self blast finishers.
 
 However, outside of {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2), it honestly doesn't matter too much which order you push your buttons in, as long as you try your best to hit them off cooldown. I personally press most of my buttons from left to right on the keyboard for this build, as it is easier that way.
 
