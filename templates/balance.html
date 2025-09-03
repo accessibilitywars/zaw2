@@ -78,7 +78,7 @@ TODO: sort them chronologically
       {%- endfor %}
       {%- endfor %}
       {%- else %}
-      {%- for balance, posts in section_item.pages | group_by(attribute="extra.balance") %}
+      {%- for balance, posts in section_item.pages | sort(attribute="extra.balance") | reverse | group_by(attribute="extra.balance") %}
       {%- if not hide_section_dates %}
       {%- if section_item.title %}
       <h3>{{ balance }}</h3>
