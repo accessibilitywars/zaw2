@@ -38,7 +38,7 @@ For older raids, the build is less optimal than other celestial variants after t
 #### Weapon Alternatives
 - Weapons (alt): Dagger/Torch (Healing/Boonstrip)[^3]
 
-[^3]: Dagger allows more heals through the trait {{ skill(id="788") }}
+[^3]: Dagger allows more heals through the trait {{ trait(id="788") }}
 
 #### Runes
 {{ item(id="76166") }}
