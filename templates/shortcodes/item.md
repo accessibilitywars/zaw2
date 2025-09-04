@@ -27,6 +27,7 @@
   {%- endif -%}
 {%- endfor -%}
 
+
 {%- if not found_exact -%}
 	{%- if fuzzy_item -%}
 		<span class="armory-inline" data-armory-embed="items" data-armory-ids="{{fuzzy_item.0 | safe}}" 
