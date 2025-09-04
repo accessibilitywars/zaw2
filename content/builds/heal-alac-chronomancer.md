@@ -15,12 +15,11 @@ series = "mesmer"
 tagline = "Time heals all wounds."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2025-02"
+balance = "2025-06"
 +++
 
 
 Assuming your party is experienced and only require a tank with multiple reliable blocks to ensure minimal risk of failure, majority of your actions will be based on the scepter auto-attack. The end of the auto-attack chain {{ skill(id="10291") }} procs {{ trait(id="1915") }} to provide heals and empower your shatter skills. Aegis and Stability are available on demand.
-
 
 This build is has low physical complexity, has very few repetitions and is functional in instanced content, especially for new players wanting to volunteer for learning tank roles. You may find that the tanking ability is superior to other classes but relying on scepter alone without proper planning may result in mediocre healing. While this guide assumes no weapon swap is needed, to maximise its heal utility, you may consider swapping to rifle.
 
@@ -36,6 +35,7 @@ This build is has low physical complexity, has very few repetitions and is funct
 Consider rifle for additional healing and focus for additional CC/pulls.
 
 {{ rifle(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
+{{ focus(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
 
 > <small>_Note: Weapon swap to rifle is optional, but shield is better used for tanking. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
@@ -49,7 +49,7 @@ Consider rifle for additional healing and focus for additional CC/pulls.
 - {{ item(id="81157") }}
 
 # Build
-Heal Quickness Build {{ chatlink(code="[&DQctOhcqKC9tAQ8BkxKGAX8BgQFrAWsBsxK8AQAAAAAAAAAAAAAAAAAAAAADVgBXAFUAAA==]") }}
+Heal Quickness Build {{ chatlink(code="[&DQctOhcqKC9tAQ8BkxKGAc8SgQGPAWsBsxK8AQAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 > <small>Swap to stretched time for Alacrity instead of Quickness</small>
 
@@ -80,6 +80,7 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 > <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains. Nobody actually watches the chain but you know you need to auto when your clones are not coming.</small>
 > <small>The rotation for quickness and alacrity is the same.</small>
 > <small>You need to reserve backup when you can't generate clones or give boons. That's what the utilities are for.</small>
+> <small>Phantasms generate more alacrity than clones, it will be good to bring at least 1-2.</small>
 
 #### Maintenance Heals
 1. Clone generation provides a small but steady heal.

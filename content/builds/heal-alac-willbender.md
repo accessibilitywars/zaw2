@@ -15,7 +15,7 @@ series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "2025-02"
+balance = "2025-06"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
@@ -26,6 +26,7 @@ This build is low cognition, low physical complexity, has very few repetitions a
 
 {{ heavy(stat="Harrier's", rune="Monk") }}
 {{ hammer(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+{{ spear(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
 {{ trinkets(stat="Harrier's", relic="Karakosa") }}
 
 #### Budget Options
@@ -65,6 +66,13 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 1. Use {{ skill(id="53482") }} (Hammer 2) for burst heals (due to Relic of Karakosa). You may refresh this skill using {{ skill(id="9124") }} (Hammer 4).
 2. Use {{ skill(id="9083") }} for a burst heal.
 3. Use {{ skill(id="9163") }} as an emergency revive.
+4. Weapon swap to spear
+    1. {{ skill(id="73132") }}(Spear 5)
+    2. {{ skill(id="73094") }}(Spear 4)
+    3. {{ skill(id="72978") }}(Spear 3)
+    4. {{ skill(id="72940") }}(Spear 2)
+    5. {{ skill(id="73055") }}(Spear 1 Auto Attack)
+    6. Swap back to hammer when ready
 
 #### Crowd Control rotation
 1. You have decent CC by just using {{ skill(id="9124") }} (Hammer 4) and {{ skill(id="9260") }} (Hammer 3). 
