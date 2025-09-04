@@ -197,7 +197,7 @@ Check with your team regarding the boons that you need to cover.
 * W1 Gorseval - You may want to bring stability and aegis for this fight. Immobilising with {{ skill(id="5571") }} is also useful during the split phase. 
 * W1 Sabetha - Probably not a good idea to flak kite due to the way alac is distributed, unless you want to stay really close to the party. You can however use {{ skill(id="5536") }} to navigate past flame wall, which is pretty nifty.
 * W2 Slothasor - You will need to bring more condition cleanses for this fight and in doing so, will sacrifice damage 
-* W3 Tower - This build can solo towers due to its moderate damage, high defenses, empowered protection and passive healing (even when you get knocked down). Bring {{ item(id="100676") }} if you need survivability and {{ trait(id="1902") }} for stability. You can use {{ trait(id="30864") }} as a push.
+* W3 Tower - This build can solo towers due to its moderate damage, high defenses, empowered protection and passive healing (even when you get knocked down). Bring {{ item(id="100676") }} if you need survivability and {{ trait(id="1902") }} for stability. You can use {{ skill(id="30864") }} as a push.
 * W3 Xera - This build can tank xera and clear crystals at the same time.
 * W4 Cairn - This build is excellent on this fight. Be careful of {{ skill(id="5685") }} as it can kill your allies.
 * W4 Mursaat Overseer - Healing is not a priority and you can opt for more damage choices. You should however retain survival options for jade armors and the resultant death nova. 
