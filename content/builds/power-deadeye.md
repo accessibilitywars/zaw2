@@ -123,7 +123,7 @@ I have benched the build with a slight increase in hp by using mixed ascended ge
 
 #### DPS benchmark (28-29k)
 {{ youtube(id="xOLjCEErMD8") }}
-You should be able to hit >30k when optimised with the right gear and infusions as this bench was done before the buff to {{ skill(id="1299") }}.
+You should be able to hit >30k when optimised with the right gear and infusions as this bench was done before the buff to {{ trait(id="1299") }}.
 
 #### LI Dagger Rotation
 {{ youtube(id="8xBio3WnVXw") }}
