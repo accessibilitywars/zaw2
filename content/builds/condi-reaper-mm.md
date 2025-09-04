@@ -19,6 +19,7 @@ toc = true
 balance = "2025-06"
 +++
 
+
 # Overview 
 
 This casual open-world minion master excels when it's horde _dies_. You want to cycle through minions rapidly and often.
