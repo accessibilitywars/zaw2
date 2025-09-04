@@ -35,7 +35,7 @@ This build is has low physical complexity, has very few repetitions and is funct
 Consider rifle for additional healing and focus for additional CC/pulls.
 
 {{ rifle(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
-{{ focus(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
+{{ focus_off(stat="Minstrel's", sigils=["Concentration", "Transference"]) }}
 
 > <small>_Note: Weapon swap to rifle is optional, but shield is better used for tanking. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
