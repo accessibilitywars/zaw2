@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with/without Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2025-02"
+balance = "2025-06"
 benchmark = "32k DPS"
 +++
 
@@ -80,10 +80,12 @@ Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (br
 1. For the quickness variant, you need to use steal time. Due to {{ trait(id="1167") }}, each steal provides two charges of {{ skill(id="42863") }}. 
 2. There is an aftercast for the skill but it should not take much time to blast both charges. 
 3. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}. Use {{ skill(id="43390") }} which you can use immediately for two more charges of {{ skill(id="42863") }}. 
+4. When you have hit the quickness cap, you may wish to spread the use of Steal Time to increase {{ trait(id="1704") }} uptime.
 
 #### Dagger Rotation (Practiced Tolerance)
 1. For the dagger rotation, which is mostly autos, use {{ skill(id="16432") }} for stealth and queue {{ skill(id="13005") }} to deal heavy damage. 
 2. Ensure that you are not 'revealed' when you do the next stealth and backstab cycle.
+3. Slot {{ skill(id="13097") }} when you are comfortable to build malice, and use your stolen skills to enter stealth when at full malice.
 
 #### Crowd Control rotation
 1. You have decent CC by just spamming {{ skill(id="13012") }} (Pistol 4). 
@@ -116,12 +118,12 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 3.  W6 Qadim - While solo lamp is ideally performed using daredevil (same equipment), you may choose to use this build instead if 2 players are sent to do Lamp. 
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
 
-
 ## Videos
 I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
 
 #### DPS benchmark (28-29k)
 {{ youtube(id="xOLjCEErMD8") }}
+You should be able to hit >30k when optimised with the right gear and infusions as this bench was done before the buff to {{ skill(id="1299") }}.
 
 #### LI Dagger Rotation
 {{ youtube(id="8xBio3WnVXw") }}

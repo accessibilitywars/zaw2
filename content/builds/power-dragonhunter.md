@@ -16,8 +16,8 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2025-02"
-benchmark = "29.5k DPS"
+balance = "2025-06"
+benchmark = "30k DPS"
 +++
 
 The purpose of writing this guide is to provide an ultra low intensity method to play PvE dragonhunter while easily hitting the 70% benchmark with minimal effort. This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. The utilities do not require specific timing and do not interrupt the auto attack nature of the build. This build requires only one weapon to deal damage to near competitive levels with no requirement of a weapon swap: Hammer!
@@ -116,6 +116,6 @@ A few examples where this advantage can be used are:
 I have benched the build with mostly Assassin's and a handful Marauders Gear and budget food/utilities. 1 precise infusion is used to hit the 75% critical sweetspot.
 
 #### DPS benchmark (29.5k)
-{{ youtube(id="6ArosWCZPY8") }}
-
+{{ youtube(id="6ArosWCZPY8") }}{{ skill(id="9124") }}
+> <small>_You should be able to punch above 31k DPS easily as this bench was done before the buffs to {{ trait(id="1963") }}_</small>
 > <small>_{{ skill(id="30273") }} will start the encounter early. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) has a long precast and a short aftercast and you don't want its precast to be included. Hence {{ skill(id="30461") }} is brought for the benchmark instead._</small>

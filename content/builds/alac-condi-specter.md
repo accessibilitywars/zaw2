@@ -16,7 +16,7 @@ series = "thief"
 tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
-balance = "2024-04"
+balance = "2025-06"
 benchmark = "30k DPS"
 +++
 
@@ -27,17 +27,18 @@ This build requires daggers and unfortunately has a small amount of forced movem
 
 ## Gearing and Consumables
 #### GW2Skills Links
-1. [Optimised Loadout](http://gw2skills.net/editor/?PaABgihjlhyOYKMK2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
-2. [Ranged/Solo Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W/xaA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
+1. [Optimised Loadout](https://gw2skills.net/editor/?PaABgihjlhyOYssJ2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
+2. [Ranged/Mobile Loadout](https://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W/xcA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
 3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)
 
 > - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
-> - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified.</small>
+> - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified due to boss positioning or mobility. This also assumes that weapon swaps may not be possible.</small>
 > - <small> The support loadout takes on barrier via consume shadows and also provides boons such as fury if supply from the healer is lacking.</small>
 
 #### Equipment
 - Full Ritualist's
-- Dual Daggers
+- You may swap a few pieces for Viper's for a slight increase in DPS when you are comfortable with the uptime
+- Daggers
 > <small>This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.</small>
 
 #### Weapon Swap Options
@@ -54,7 +55,7 @@ This build requires daggers and unfortunately has a small amount of forced movem
 - {{ item(id="24605") }} (3rd Dagger or budget alternative)[^1]
 - {{ item(id="24583") }} (Scepter or budget alternative)
 
-[^1]: Swapping to a third Dagger allows utilisation of two different sigils due to the ICDs
+[^1]: Swapping to a third Dagger allows utilisation of two different sigils
 
 #### Relic
 - {{ item(id="100153") }}
@@ -70,8 +71,7 @@ This build requires daggers and unfortunately has a small amount of forced movem
 
 ## Build
 #### Alac DPS (Optimised)
-{{ chatlink(code="[&DQUcGyw1RzkVGwwBLwEvAVUBPgELAVYBKAAoAAAAAAAAAAAAAAAAAAAAAAACLwBWAAA=]") }}
-
+{{ chatlink(code="[&DQUcGyw1RzkVGwAALwEAAAYbAABUAQAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 #### Trait Alternatives
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^2]
@@ -112,7 +112,7 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
     * {{ skill(id="13002") }}
     * {{ skill(id="13038") }}
 
-> <small>Note: All the utilites are optional, some are more optional than others.</small>
+> <small>Note: All the utilites are optional as your rotation is predetermined by your weapon and shroud skills.</small>
 
 #### CC options
 {{ skill(id="13132") }} is your best CC skill.
@@ -122,16 +122,16 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5)
 1. {{ skill(id="13006") }} (D3) is an evade. You spend almost half the time in evade frames. 
 2. {{ skill(id="63155") }} is your second health bar. You spend almost half the time on your second health bar.
 
-> <small>Taking consume shadows will obliterate your second health bar but can trivialise certain fights if timed well. Use it for group survivabiity.</small>
+> <small>Taking {{ trait(id="2275") }} will obliterate your second health bar but can assist your healers with certain fights if timed well. Use it for group survivabiity.</small>
 
 ## Optimisation
 #### Raid Ready
 1. W1 Vale Guardian - {{ trait(id="2275") }} before greens gives your healers a super easy time. {{ skill(id="63220") }} also adds barrier that fears red orbs away. You can take on guardians of any colour and you have a boon strip through {{ trait(id="1277") }}.
-2. W1 Gorseval - {{ skill(id="56898") }} is a prolonged immobilise that can stop spirits in their tracks. Precast skills before each main boss phase. 
+2. W1 Gorseval - {{ skill(id="56898") }} is a prolonged immobilise that can stop spirits in their tracks. It is also a great damage skills which you can precast  before each main boss phase. 
 3. W1 Sabetha - Be careful with {{ skill(id="13006") }} during the flamethrower phase. Bring {{ skill(id="13132") }} for Knuckles.
 4. W2 Bandit Trio - Place thousand needles along saboteur routes.
 5. W2 Matthias - Bring {{ skill(id="13132") }} to break allies free. Use your shroud CCs if it is not available.
-6. W3 Escort - The large amounts of HP, cleaves and evades make this a good build to fight on towers. You can use {{ skill(id="16435") }} to 2/3-man the towers as well. You also have plenty of immobilise options for backwarg.
+6. W3 Escort - The large amounts of HP, cleaves and evades make this a good build to fight on towers solo. You also have plenty of immobilise options for backwarg.
 7. W4 Cairn - This build is effective on this fight. Stay in shroud and stack alacrity when he is bouncing around/out of reach. 
 8. W4 Mursaat Overseer - Its probably good to bring a thief so you can open the door to the next fight.
 9. W4 Samarog - Bring {{ skill(id="13132") }} to break allies free but this is only available on alternate break bars. Use {{ skill(id="56898") }} or your shroud CCs if it is not available.
@@ -149,9 +149,3 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5)
 3. W3 Xera - Bringing a power option is recommended but this is not a strict contraindication.
 4. W6 Conjured Amalgamate - Bringing a power option is recommended.
 5. W7 Qadim the Peerless - If you need to pylon kite, just play a deadeye.
-
-#### Solo Play
-You probably want to take the ranged loadout for solo due to provision of self boons when you steal. Apart from siphon, feel free to stay in shroud longer as you need to use haunt shot to increase your number of might stacks. Swapping to scepter can give another source of might but this is an intensive drain on your initiative resource. 
-
-## Video
-Coming Soon
