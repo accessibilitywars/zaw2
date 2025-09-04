@@ -2,6 +2,7 @@
 title = "Blade of Alacrity [aDPS]"
 description = "This build is designed around empowered poison/bleeding and Dagger bursts."
 date = 2024-06-07
+updated = 2025-09-03
 draft = false
 template = "build.html"
 

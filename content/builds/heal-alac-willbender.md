@@ -2,6 +2,7 @@
 title = "Symbolic Healbender [aHeal]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Karakosa consecutively with a burst heal rotation. Besides being easy to play, this build has flexible utilities, decent crowd control and excellent condi cleanses."
 date = 2024-04-04
+updated = 2025-09-04
 template = "build.html"
 
 [taxonomies]
