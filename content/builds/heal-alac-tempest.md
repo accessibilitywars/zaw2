@@ -64,7 +64,7 @@ We are also abusing changes to {{ trait(id="1675") }} to deal damage as part of 
 
 ## Build
 
-{{ chatlink(code="[&DQYfPSkfMBd0AHQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]") }}
+{{ chatlink(code="[&DQYfPREuMD/HEgAAwxJQAXYSAAB0EhwBmRIAAAAAAAAAAAAAAAAAAAAAAAAEWgAvAFYAZwAA]") }}
 
 
 ## Rotation
