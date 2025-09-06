@@ -119,7 +119,7 @@ series = true
 series_items = 9 # Max number of items to display in series list, use 0 to disable
 #Series_parts = "$NUMBER_OF_PARTS part Series"
 
-meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, updated=true, categories_tags=true, divider="" }
+meta_index = { position="top", size="s90", author=false, readtime=false, readstring="min", date=true, updated=true, categories_tags=true, divider="|" }
 meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
 
 hide_section_dates = false # hides the date for sections that use posts.html as their template.

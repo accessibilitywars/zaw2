@@ -50,7 +50,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
         {{- aw_macros::title_index(page=page, config=config) }}
         {%- if config.extra.meta_index.position %}
         {%- if config.extra.meta_index.position == "top" or config.extra.meta_index.position == "both" %}
-        {{- macros::meta_index(page=page, config=config) }}
+        {{- aw_macros::meta_index(page=page, config=config) }}
         {%- endif %}{%- endif %}
         <div class="sum">
         <p>
@@ -67,7 +67,7 @@ This Template can also be used directly for the index eg: example.com/ or as the
         </div>
         {%- if config.extra.meta_index.position %}
         {%- if config.extra.meta_index.position == "bottom" or config.extra.meta_index.position == "both" %}
-        {{- macros::meta_index(page=page, config=config) }}
+        {{- aw_macros::meta_index(page=page, config=config) }}
         {%- endif %}
         {%- endif %}
 		{%- if page.extra.balance %}
