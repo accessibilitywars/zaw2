@@ -53,6 +53,7 @@ This build attempts to maximise this trait by staying in {{ skill(id="5492") }} 
 	relic="Fireworks") }}
 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
+- Food: {{ item(id="91709") }} may have higher DPS if weakness uptime is not 100%
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 {{ item(id="104800", name="Relic of Bloodstone") }} can be used instead if your squad generates lots of fields for you to blast.
