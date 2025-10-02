@@ -140,4 +140,4 @@ Other utilities and trait combos
 14. W6 Qadim - You have lots of CC options, some of which can be pre-casted for the mini bosses. You will need to tank one of the wyverns. Most of the time you will be bringing {{ skill(id="10197") }} for the split phase and jumping puzzle. 
 15. W7 Sabir - With clever use of {{ skill(id="29830") }}, you can generate enough CC to break the bar during the 'coordinated' phase.
 16. W7 Adina - Tank on the grass. Just alternating your three blocks is enough. {{ skill(id="10302") }} can be duplicated with {{ skill(id="29830") }} and {{ skill(id="29578") }}. For most groups, a 4th projectile block is not required but in case your options are exhausted, {{ skill(id="10282") }}. {{ skill(id="10186") }} (Focus 4) may fail to block projectiles due to height limitations and you will need to sacrifice a trait.
-17. W7 QtP - You will be tanking this fight. If you bring {{ skill(id="10197") }} and {{ skill(id="10200"), you can function as the backup pylon kiter in training runs. 
+17. W7 QtP - You will be tanking this fight.
