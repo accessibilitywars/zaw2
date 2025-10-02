@@ -23,7 +23,7 @@ benchmark = "30k DPS"
 
 The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime and decent DPS output in group PVE content. While weapon swaps are not included in the rotation, swapping to another dagger or a ranged option remains viable choices. This build is functional in both open world and instanced content. While this build has a a moderate skill floor, it has a higher achievable damage ceiling once the basics are secured. Because of the differences in condition types and trait interactions, this build is not efficient with torment unless special arrangements are made, thus three loadouts are explored here but this guide assumes you are following the optimised loadout.
 
-This build requires daggers and unfortunately has a small amount of forced movement. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary.
+This build requires daggers and unfortunately has a small amount of forced movement. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary. This build has intermediate difficulty and although the APM is relatively low, high ping, slow execution and fumbling with your skills can lead to a massive drop in DPS. 
 
 
 ## Gearing and Consumables
@@ -38,28 +38,19 @@ This build requires daggers and unfortunately has a small amount of forced movem
 
 #### Equipment
 - Full Ritualist's
+{{ medium(stat="Ritualist's", rune="Trapper") }}
+{{ dagger_main(stat="Ritualist's", sigil="Agony") }}
+{{ dagger_off(stat="Ritualist's", sigil="Doom") }}
+{{ trinkets(stat="Ritualist's", relic="Fractal") }}
 - You may swap a few pieces for Viper's for a slight increase in DPS when you are comfortable with the uptime
-- Daggers
+
 > <small>This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.</small>
 
 #### Weapon Swap Options
-- Dagger (3rd) (higher DPS on swaps/shroud)
-- Scepter MH (ranged torment/support)
-
-#### Runes
-- {{ item(id="67339") }} OR
-- {{ item(id="24687") }} (Budget, adjust food options)
-
-#### Sigils
-- {{ item(id="24612") }} (Compulsory)
-- {{ item(id="24609") }} (Optimal)
-- {{ item(id="24605") }} (3rd Dagger or budget alternative)[^1]
-- {{ item(id="24583") }} (Scepter or budget alternative)
+{{ dagger_off(stat="Ritualist's", sigil="Transference") }} as a third dagger for a small DPS increase [^1]
+{{ scepter_main(stat="Ritualist's", sigil="Concentration") }} as a ranged option
 
 [^1]: Swapping to a third Dagger allows utilisation of two different sigils
-
-#### Relic
-- {{ item(id="100153") }}
 
 #### Food
 - {{ item(id="96578") }}
@@ -68,7 +59,6 @@ This build requires daggers and unfortunately has a small amount of forced movem
 
 #### Utility
   - {{ item(id="81079") }}(Condi)
-
 
 ## Build
 #### Alac DPS (Optimised)
@@ -145,7 +135,7 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5)
 16. W7 Sabir - Try not to blindly {{ skill(id="13006") }} into the red tornado.
 
 #### Consider an alternative build for 
-1. W2 Slothasor - This build does not perform well on Slothasor as bleeding resets when he sleeps. Bringing a power option is recommended but this is not a strict contraindication.
+1. W2 Slothasor - This build does not perform well on Slothasor as conditions reset when he sleeps. Bringing a power option is recommended but this is not a strict contraindication.
 2. W3 Keep Construct - Bringing a power option is recommended but this is not a strict contraindication.
 3. W3 Xera - Bringing a power option is recommended but this is not a strict contraindication.
 4. W6 Conjured Amalgamate - Bringing a power option is recommended.
