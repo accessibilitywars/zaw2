@@ -8,7 +8,7 @@ template = "build.html"
 [taxonomies]
 categories = ["group"]
 tags = ["power","condi","hybrid","elementalist","weaver","pof","lowcog","lowrep"]
-authors = ["scooby"] ["xellink"]
+authors = ["scooby", "xellink"]
 specs = ["weaver","elementalist"]
 
 [extra]
