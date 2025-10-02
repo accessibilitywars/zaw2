@@ -30,11 +30,11 @@ This build was initially written as a meme build. Tempest is still the ideal bui
 
 This build is the Weaver alternative for Inferno Elementalist. With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. Although Tempest does more damage, this build offers a few small advantages against Tempest in niche conditions and decent DPS in the following conditions:
 
-1. Being locked out of melee range (Pylon Kiting, Flak Kiting)
-2. You have only standard power food
-3. Multiple reset phases (e.g. All the EOD Strikes)
-4. Where you can't deal damage during CC phases 
-5. Where you are constantly forced to cancel your overloads
+> 1. Being locked out of melee range (Pylon Kiting, Flak Kiting)
+> 2. You have only standard power food
+> 3. Multiple reset phases (e.g. All the EOD Strikes)
+> 4. During CC phases where you can't deal damage
+> 5. When you are constantly forced to cancel your overloads
 
 This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible while, while phase resets allow you to reset your opener, triggering {{ trait(id="2131") }}. Although this is a power build, there is a ramp-up time. 
 
@@ -87,19 +87,20 @@ Do take note that some skills have no cooldown and can be simultaneously cast wi
 
 ---
 
-You have to prepare your CC skills in advance. Staying out of air is a DPS loss. You play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
+You have to prepare your CC skills in advance. Staying out in air is a DPS loss. You play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
 
 **CC Rotation 400-800:**
 > 1. {{ skill(id="5494") }} Air/Fire
 > 1. {{ skill(id="5492") }} Fire/Air
 > 1. {{ skill(id="5635") }} (Optional)
-> 1. {{ skill(id="5687") }} (Dagger Air 5)
-> 1. {{ skill(id="5687") }} (If Echoed)
+> 1. {{ skill(id="5562") }} (Focus Air 5)
+> 1. {{ skill(id="5562") }} (If Echoed)
 > 1. Opener
 
 Use Fire-only skills and utilities while you are on Air/Fire or Fire/Air. Due to the nature of how Weaver works, on certain fights where there is no damage during CC phase, this may result in a DPS increase. However repeatedly doing {{ skill(id="5494") }} will result in a DPS loss because of how Inferno works.
 
-<small>Additional CC can be done, for example attuning to water and bringing arcane wave, but these will result in a massive drop in DPS.</small>
+- <small>It may not be worthwhile to echo {{ skill(id="5687") }} if you are taking dagger because it does a lot less CC.</small>
+- <small>Additional CC can be done, for example attuning to water and bringing arcane wave, but these will result in a massive drop in DPS.</small>
 
 ## Video
 
