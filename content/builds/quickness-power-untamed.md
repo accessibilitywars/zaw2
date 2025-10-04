@@ -34,8 +34,8 @@ This build uses hammers and pets to smash things and provides steady quickness f
 	ring2="Berserker's",
 	amulet="Berserker's",
 	relic="Claw") }}
-{{ hammer(stat="Berserker's", sigil="Force", "Impact") }}
-{{ hammer(stat="Berserker's", sigil="Force", "Impact") }}
+{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
+{{ hammer(stat="Berserker's", sigils=["Force", "Impact"]) }}
 
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
