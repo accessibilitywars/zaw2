@@ -50,9 +50,9 @@ This build uses two hammers and has a relatively large amount of button downtime
 ## Rotation
 Start in {{ skill(id="63344") }}
 **Optional Precasts/Opener** 
-> 1. {{ skill(id="12493") }} CC
-> 1. {{ skill(id="63163") }} Boons
-> 1. {{ skill(id="63330") }} Gap closer and CC
+> 1. {{ skill(id="12493") }} (CC)
+> 1. {{ skill(id="63163") }} (Boons)
+> 1. {{ skill(id="63330") }} (Gap closer and CC)
 
 **Providing Quickness**
 This build starts off with a very simple quickness rotation through the trait {{ trait(id="2268") }}.
