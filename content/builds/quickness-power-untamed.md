@@ -73,7 +73,7 @@ To surpass the damage cap, you will need to find ways to improve {{ item(id="103
 
 ## Crowd Control
 > 1. {{ skill(id="31639") }} (Electric Wyvern)
-> 2. {{ skill(id="31321") }} (Electric Wyvern)
+> 2. {{ skill(id="41908") }} (Electric Wyvern)
 > 3. {{ skill(id="12493") }}
 > 4. {{ skill(id="63075") }} (While in {{ skill(id="63344") }})
 > 5. {{ skill(id="63330") }} (While in {{ skill(id="63344") }})
