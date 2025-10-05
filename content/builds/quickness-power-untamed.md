@@ -50,9 +50,9 @@ This build uses two hammers and has a relatively large amount of button downtime
 ## Rotation
 Start in {{ skill(id="63344") }}
 **Optional Precasts/Opener** 
-> 1. {{ skill(id="12493") }} CC
-> 1. {{ skill(id="63163") }} Boons
-> 1. {{ skill(id="63330") }} Gap closer and CC
+> 1. {{ skill(id="12493") }} (CC)
+> 1. {{ skill(id="63163") }} (Boons)
+> 1. {{ skill(id="63330") }} (Gap closer and CC)
 
 **Providing Quickness**
 This build starts off with a very simple quickness rotation through the trait {{ trait(id="2268") }}.
@@ -65,18 +65,20 @@ This build starts off with a very simple quickness rotation through the trait {{
 > 1. Use all skills except Signet and Elite skill
 > 1. Fill with Autos until 🔃 Weapon Swap refreshes
 > 1. {{ skill(id="63344") }}
-> 1. {{ skill(id="63330") }} (optional to refresh {{ item(id="103574") }})
+> 1. {{ skill(id="63330") }} (🔨5 to refresh {{ item(id="103574") }})
 > 1. Restart Quickness rotation
 
 **Relic of the Claw Uptime**
-To surpass the damage cap, you will need to find ways to improve {{ item(id="103574") }} uptime and also optimise damage during the long hammer cooldown windows, which in this case {{ skill(id="63330") }} is used. Your pet CC skills cannot refresh your relic effect. When you are comfortable with the build you may look at additional weapon sets. Other weapon sets are not within the scope of this guide and the [snowcrows build](https://snowcrows.com/builds/raids/ranger/power-quickness-untamed) plays fairly similarly to this build.
+To surpass the damage cap, you will need to find ways to improve {{ item(id="103574") }} uptime and also optimise damage during the long hammer cooldown windows, which in this case {{ skill(id="63330") }} (🔨5) is used. Your pet CC skills cannot refresh your relic effect. 
+
+When you are comfortable with the build you may look at additional weapon sets. Other weapon sets are not within the scope of this guide and the [snowcrows build](https://snowcrows.com/builds/raids/ranger/power-quickness-untamed) plays fairly similarly to this build and deft strike is able to provide the CC to refresh the relic.
 
 ## Crowd Control
 > 1. {{ skill(id="31639") }} (Electric Wyvern)
 > 2. {{ skill(id="41908") }} (Electric Wyvern)
 > 3. {{ skill(id="12493") }}
-> 4. {{ skill(id="63075") }} (While in {{ skill(id="63344") }})
-> 5. {{ skill(id="63330") }} (While in {{ skill(id="63344") }})
+> 4. {{ skill(id="63075") }} (🔨3 While in {{ skill(id="63344") }})
+> 5. {{ skill(id="63330") }} (🔨5 While in {{ skill(id="63344") }})
 
 You may opt to bring Juvenile Rock Gazelle for extra pet CC skills but the initial CC skills are already decent.
 
