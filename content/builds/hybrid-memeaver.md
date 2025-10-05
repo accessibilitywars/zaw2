@@ -1,6 +1,6 @@
 +++
 title = "Fever (Fire-only Meme Weaver) [DPS]"
-description = "You probably shouldn't play this build"
+description = "You probably shouldn't play this build 🔥"
 date = 2025-08-23
 draft = false
 template = "build.html"
@@ -60,7 +60,7 @@ This build attempts to maximise this trait by staying in {{ skill(id="5492") }} 
 
 **Alternative offhand weapons**
 {{ dagger_off(stat="Berserker's", sigil="Bursting") }}
-This may result in a small DPS increase when used in conjunction with {{ item(id="104800", name="Relic of Bloodstone") }}. It is however somewhat melee locked and is unable to upkeep {{ item(id="100947") }}. CC (Air) is also weaker.
+This may result in a small DPS increase when used in conjunction with {{ item(id="104800", name="Relic of Bloodstone") }}. It is however somewhat melee locked and is unable to upkeep {{ item(id="100947") }}. CC (Air 5) is also weaker.
 
 ## Build
 {{ chatlink(code="[&DQYfPSkfOBl0AAAAywAAAL4BAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
@@ -68,9 +68,9 @@ This may result in a small DPS increase when used in conjunction with {{ item(id
 ## Rotation
 Opener: 
 Start in {{ skill(id="5492") }}/{{ skill(id="5494") }}
-> 1. {{ skill(id="5692") }} (Scepter Fire 2)
+> 1. {{ skill(id="5692") }} (🪄🔥2)
 > 1. {{ skill(id="5736") }} (Optional)
-> 1. {{ skill(id="5492") }} (Fire/Fire)
+> 1. {{ skill(id="5492") }} (🔥/🔥)
 ---
 
 Then press all of your skills off cooldown. It honestly doesn't matter too much which order you push your buttons in, as long as you try your best to hit them off cooldown. I personally press most of my buttons from left to right on the keyboard for this build, as it is easier that way.
@@ -88,17 +88,17 @@ Do take note that some skills have no cooldown and can be simultaneously cast wi
 
 ---
 
-You have to prepare your CC skills in advance. Staying out in air is a DPS loss. You play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
+You have to prepare your CC skills in advance. Staying in air is a DPS loss. You do play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
 
 **CC Rotation 400-800:**
-> 1. {{ skill(id="5494") }} Air/Fire
-> 1. {{ skill(id="5492") }} Fire/Air
+> 1. {{ skill(id="5494") }} 🌩️/🔥
+> 1. {{ skill(id="5492") }} 🔥/🌩️
 > 1. {{ skill(id="5635") }} (Optional)
-> 1. {{ skill(id="5562") }} (Focus Air 5)
+> 1. {{ skill(id="5562") }} (🌩️5)
 > 1. {{ skill(id="5562") }} (If Echoed)
 > 1. Opener
 
-Use Fire-only skills and utilities while you are on Air/Fire or Fire/Air. Due to the nature of how Weaver works, on certain fights where there is no damage during CC phase, this may result in a DPS increase. However repeatedly doing {{ skill(id="5494") }} will result in a DPS loss because of how Inferno works.
+Use Fire-only skills and utilities while you are attuned to 🌩️/🔥 or 🔥/🌩️. Due to the nature of how Weaver works, on certain fights where there is no damage during CC phase, this may result in a DPS increase. However repeatedly doing {{ skill(id="5494") }} will result in a DPS loss because of how Inferno works.
 
 - <small>It may not be worthwhile to echo {{ skill(id="5687") }} if you are taking dagger because it does a lot less CC.</small>
 - <small>Additional CC can be done, for example attuning to water and bringing arcane wave, but these will result in a massive drop in DPS.</small>
@@ -108,4 +108,5 @@ Use Fire-only skills and utilities while you are on Air/Fire or Fire/Air. Due to
 ---
 
 {{ youtube(id="pP9vOoFX4vY") }}
-Our benches are 39.2k DPS without infusions and 40.5k DPS with infusions.
+* <small>Our benches are 39.2k DPS without infusions and 40.5k DPS with infusions.</small> 
+* <small>You can surpass 41k if you delay Primordial Stance charges till when the boss is below 50% health, this is a golem gimmick and serves at most minimal effectiveness on actual fights.</small>
