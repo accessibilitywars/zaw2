@@ -65,7 +65,7 @@ This build aims at achieving the following goals (in order of priority):
 
 #### General House Rules
 > 1. Swapping traits and skills is a science and you must be knowledgeable on what you can afford to remove.
-> 2. Alacrity is your number 1 responsiblity, so use your overload skills first.
+> 2. Alacrity is your number 1 responsiblity, so use your aura and overload skills first.
 > 3. Be prepared to tank as you have a relatively high toughness.
 > 4. Both water and air attunement offer CC, but you can bring more skills for CC.
 > 5. Hybrid builds have a lot of give and take and toe the line to bring 'just enough', so you need to adjust the build to the strengths of your team composition.
@@ -99,15 +99,13 @@ Thus some players will squeeze air into the rotation.
 #### Burst Heals
 You have several options for burst heals:
 > 1. {{ item(id="101268") }} is the ideal pick that does a solid heal:
-
-	* Part of your fire rotation as long as {{ skill(id="29533") }} (Fire WH5) is not on cooldown.
-	* Use with water fields for a more potent area heal (this can be tricky, see point 2.)
-	* Blasting fields provided by other allies
+>> - Part of your fire rotation as long as {{ skill(id="29533") }} (Fire WH5) is not on cooldown.
+>> - Use with water fields for a more potent area heal (this can be tricky, see point 2.)
+>> - Blasting fields provided by other allies
 
 > 2. Blasting Water fields (water 5)
-
-	* Blasting Water fields gives an extremely strong triple heal effect. {{ skill(id="30446") }} is no longer fleeting and you can pair it with Earth or Fire blast skills.
-	* For other options you need to swap elements to access other blast abilities.
+>> - Blasting Water fields gives an extremely strong triple heal effect. {{ skill(id="30446") }} is no longer fleeting and you can pair it with Earth or Fire blast skills.
+>> -  For other options you need to swap elements to access other blast abilities.
 	
 > 3. {{ skill(id="29535") }}
 > 4. {{ skill(id="29415") }}
@@ -145,41 +143,36 @@ F4-F1 (reverse)
 **(Start in Fire) F1-F4**
 
 > 1. F1 {{ skill(id="29706") }}
-> 2. F2 {{ skill(id="5493") }}
 
-	* use Water 5/4/3 (1 skill if available)
+> 2. F2 {{ skill(id="5493") }}
+>> - use Water 5/4/3 (1 skill if available)
 
 > 3. F3 {{ skill(id="5494") }} (optional)
-
-	* use Air 5/4/3 (1 skill if available)
+>> - use Air 5/4/3 (1 skill if available)
 
 > 4. F4 {{ skill(id="5495") }}
-
-	* use Earth 5 to 1 in descending order
+>> - use Earth 5 to 1 in descending order
 
 **F4-F1 (reverse)**
 
 > 1. F4 {{ skill(id="29618") }}
-> 2. F3 {{ skill(id="5494") }} (optional)
 
-	* use Air 5/4/3 (1 skill if available)
+> 2. F3 {{ skill(id="5494") }} (optional)
+>> - use Air 5/4/3 (1 skill if available)
 
 > 3. F2 {{ skill(id="5493") }}
-
-	* use Water 5/4/3 (1 skill if available)
+>> - use Water 5/4/3 (1 skill if available)
 
 > 4. F1 {{ skill(id="5492") }}
-
-	* use Fire 5 to 1 in descending order
+>> - use Fire 5 to 1 in descending order
 
 #### Crowd Control rotation
 > 1. {{ skill(id="30864") }} (Wh4 while attuned to water)
 > 2. {{ skill(id="30008") }} (Wh4 while attuned to air)
 > 3. Other soft CC skills
 > 4. Additional Adaptions for CC
-	
-	* {{ skill(id="5567") }} -> {{ skill(id="5721") }}
-	* {{ skill(id="25491") }} -> {{ skill(id="25492") }} (Also works as a spike heal)
+>> - {{ skill(id="5567") }} -> {{ skill(id="5721") }}
+>> - {{ skill(id="25491") }} -> {{ skill(id="25492") }} (Also works as a spike heal)
 
 ## Optimisation
 #### Omitting Air
@@ -220,8 +213,7 @@ Check with your team regarding the boons that you need to cover.
 ## Videos
 #### DPS benchmark (18k)
 {{ youtube(id="uydaDvc9xZI") }}
-This bench is done with only birthday cake and {{ item(id="101268") }} and no infusions/utilities. In low pressure fights, you may use {{ item(id="100153") }}, utilities and infusions to easily punch above 20k DPS.
+This bench is done with only birthday cake and {{ item(id="101268") }} and no infusions/utilities and {{ trait(id="2033") }}. In our testing, the {{ trait(id="1986") }} does equal amounts of damage and maintains alacrity equally well. In low pressure fights, you may use {{ item(id="100153") }}, utilities and infusions to easily punch above 20k DPS.
 
 #### OLC demo - Explanatory Video
 {{ youtube(id="bCPk1Cz5AW8") }}
-
