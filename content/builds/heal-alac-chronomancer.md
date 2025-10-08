@@ -75,12 +75,14 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 #### Principles of generating Alacrity/Quickness
 1. Generate Clones using autos - {{ skill(id="10291") }}.
 2. Use shatter skills when clones are full to heal allies and grant alacrity/quickness.
+3. Using Phantasm skills from your weapon skills and utilties also generate a significant amount of alacrity/quickness.
 
-> <small>In an experienced group, assuming you have a herald, players who avoid damage and are expert at mechanics, these two steps are the core foundation of your build.</small>
-> <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains. Nobody actually watches the chain but you know you need to auto when your clones are not coming.</small>
-> <small>The rotation for quickness and alacrity is the same.</small>
-> <small>You need to reserve backup when you can't generate clones or give boons. That's what the utilities are for.</small>
-> <small>Phantasms generate more alacrity than clones, it will be good to bring at least 1-2.</small>
+> 1. <small>In an experienced group, assuming you have a herald, players who avoid damage and are expert at mechanics, these two steps are the core foundation of your build.</small>
+> 1. <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains. Nobody actually watches the chain but you know you need to auto when your clones are not coming.</small>
+> 1. <small>The rotation for quickness and alacrity is the same.</small>
+> 1. <small>You need to reserve backup when you can't generate clones or give boons. That's what the utilities are for.</small>
+> 1. <small>Phantasms generate more alacrity than clones, it will be good to bring at least 1-2.</small>
+
 
 #### Maintenance Heals
 1. Clone generation provides a small but steady heal.
@@ -141,3 +143,4 @@ Other utilities and trait combos
 15. W7 Sabir - With clever use of {{ skill(id="29830") }}, you can generate enough CC to break the bar during the 'coordinated' phase.
 16. W7 Adina - Tank on the grass. Just alternating your three blocks is enough. {{ skill(id="10302") }} can be duplicated with {{ skill(id="29830") }} and {{ skill(id="29578") }}. For most groups, a 4th projectile block is not required but in case your options are exhausted, {{ skill(id="10282") }}. {{ skill(id="10186") }} (Focus 4) may fail to block projectiles due to height limitations and you will need to sacrifice a trait.
 17. W7 QtP - You will be tanking this fight.
+18. W8 Greer - A reflection variant of this build makes this fight much easier. 
