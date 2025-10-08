@@ -69,9 +69,9 @@ This build starts off with a very simple quickness rotation through the trait {{
 > 1. Restart Quickness rotation
 
 **Relic of the Claw Uptime**
-To surpass the damage cap, you will need to find ways to improve {{ item(id="103574") }} uptime and also optimise damage during the long hammer cooldown windows, which in this case {{ skill(id="63330") }} (🔨5) is used. Your pet CC skills cannot refresh your relic effect. 
+<p>To surpass the damage cap, you will need to find ways to improve {{ item(id="103574") }} uptime and also optimise damage during the long hammer cooldown windows, which in this case {{ skill(id="63330") }} (🔨5) is used. If it is not available, you may use {{ skill(id="63075") }} (🔨3) Your pet CC skills cannot refresh your relic effect. 
 
-When you are comfortable with the build you may look at additional weapon sets. Other weapon sets are not within the scope of this guide and the [snowcrows build](https://snowcrows.com/builds/raids/ranger/power-quickness-untamed) plays fairly similarly to this build and deft strike is able to provide the CC to refresh the relic.
+When you are comfortable with the build you may look at additional weapon sets. Other weapon sets are not within the scope of this guide and the [snowcrows build](https://snowcrows.com/builds/raids/ranger/power-quickness-untamed) plays fairly similarly to this build and deft strike is able to provide the CC to refresh the relic.</p>
 
 ## Crowd Control
 > 1. {{ skill(id="31639") }} (Electric Wyvern)
