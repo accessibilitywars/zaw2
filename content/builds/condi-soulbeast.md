@@ -99,7 +99,7 @@ Stay merged at all times.
 ## Optimisation
 #### Twice as Vicious
 > 1. Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. 
-> 1. Use {{ skill(id="75661") }} if your coverage is falling
+> 1. Use your other pet CC skills if your coverage is falling
 > 1. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 #### Dodging
