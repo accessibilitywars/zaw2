@@ -37,7 +37,15 @@ As of 2025, the build has been updated to use the juvenile bee and shifts its da
 	ring2="Viper's",
 	amulet="Sinister",
 	relic="Thorns") }}
+
+<table>
+<tr>
+<td>
+
 {{ shortbow(stat="Viper's", sigils=["Malice", "Earth"]) }}
+
+</td>
+<td>
 
 #### Weapon Swap
 Weapon swap is optional
@@ -46,7 +54,15 @@ Weapon swap is optional
 3. Axe/Dagger
 4. Dagger/Axe
 
+</td></tr>
+<tr><td colspan=2 style="white-space: normal;">
+
 > <small>*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build is simpler to play.*</small>
+
+</td></tr></table>
+
+
+---
 
 Optimised Viper's Loadout
 [GW2Skills Link](https://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3ca3+4hDB-DSRYfBFaGFcehRaBEmAG/KoJFnVgKA-e)
