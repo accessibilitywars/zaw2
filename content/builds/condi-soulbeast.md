@@ -2,7 +2,7 @@
 title = "Barbed Arrows [cDPS]"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
 date = 2024-04-16
-updated = 2024-05-08
+updated = 2025-10-11
 draft = false
 template = "build.html"
 
@@ -99,7 +99,7 @@ Stay merged at all times.
 ## Optimisation
 #### Twice as Vicious
 > 1. Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. 
-> 1. Use your other pet CC skills if your coverage is falling
+> 1. Use your other pet CC skills if your coverage is falling such as {{ skill(id="75771") }}.
 > 1. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 #### Dodging
