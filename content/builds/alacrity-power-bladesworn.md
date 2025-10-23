@@ -34,11 +34,13 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 	ring2="Berserker's",
 	amulet="Berserker's",
 	relic="Peitha") }}
+
 ### Weapon Options (Axe is an optional alternative)
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
 {{ axe_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
+---
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
 - {{ item(id="67530", name="Furious Sharpening Stone") }} (Optimised)
