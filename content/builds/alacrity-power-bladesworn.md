@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["sword", "pistol","power","ranger","untamed","eod","quickness","lowcog","lowphys","lowrep"]
+tags = ["sword", "pistol","power","warrior","bladesworn","eod","alacrity","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["bladesworn", "warrior"]
 
@@ -84,4 +84,4 @@ Physical skills provide a short term buff through {{ trait(id="1444") }}, so you
 ## Video
 {{ youtube(id="GYZ4EW2EYIw") }}
 
-This bench is made with budget utilities, food and no infusions. 
+This bench is made with budget utilities, food and no infusions.
