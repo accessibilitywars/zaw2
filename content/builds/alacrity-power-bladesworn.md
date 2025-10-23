@@ -62,7 +62,7 @@ Start in {{ skill(id="62803") }}
 You MUST learn this combo:
 1. {{ skill(id="62803") }}
 1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
-1. {{ skill(id="62893") }} (optional)
+1. **Triggerguard** (optional)
 1. **Dragon Slash - Force** (after fully charged, but very quickly)
 
 [^1]: Add charges via ({{ skill(id="62901") }}.
