@@ -35,8 +35,9 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 	amulet="Berserker's",
 	relic="Peitha") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }} OR 
-{{ axe_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
+
+> <small>Axe is an optional alternative.</small>
 
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
@@ -50,32 +51,28 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. Because of this, you must not delay {{ skill(id="62803") }} and you have to use **Dragon Slash - Force** (DT1) almost immediately after triggering {{ item(id="100177") }}.
 
 ## Rotation
-Start in {{ skill(id="62803") }}
 
-### Precasts** 
-> 1. Use Gunsaber skills
-> 1. Use Utilty skills ({{ skill(id="62967") }} x3 [^1]
+### Precasts
+> 1. Gunsaber skills
+> 1. Utilty skills ({{ skill(id="62967") }} x3 [^1]
 > 1. {{ skill(id="14401") }}
-> 1. Dragon Slash Combo (see below)
+>> <small>Use {{ skill(id="62901") }} to get the third {{ skill(id="62967") }}</small>
 
-### Dragon Slash Combo 
-You MUST learn this combo:
+### Dragon Slash Combo
+You **MUST** learn this combo:
 > 1. {{ skill(id="62803") }}
 > 1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
-> 1. **Triggerguard** (optional)
 > 1. **Dragon Slash - Force** (after fully charged, but very quickly)
-
-<small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
+>> <small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
+>> <small>Triggerguard can be added on for free aegis.</small>
 
 ### Simplified Loop
-After the first slash, repeat the following
+> 1. Dragon Slash Combo
 > 1. Weapon Skills (5→1→Autos)
 > 1. Dragon Slash Combo
 > 1. Gunsaber (4→3→2→1)
-> 1. Dragon Slash Combo
-> 1. Repeat ↺
-
-<small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
+> 1. Dragon Slash Combo ↺
+>> <small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
 
 ## Crowd Control
 This build has weak crowd control. Replace {{ skill(id="14404") }} with a physical skills that has CC:
