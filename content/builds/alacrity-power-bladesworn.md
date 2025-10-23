@@ -53,45 +53,34 @@ This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. 
 Start in {{ skill(id="62803") }}
 
 ### Precasts** 
-1. Use Gunsaber skills
-1. Use Utilty skills ({{ skill(id="62967") }} x3 [^1]
-1. {{ skill(id="14401") }}
-1. Dragon Slash Combo (see below)
+> 1. Use Gunsaber skills
+> 1. Use Utilty skills ({{ skill(id="62967") }} x3 [^1]
+> 1. {{ skill(id="14401") }}
+> 1. Dragon Slash Combo (see below)
 
 ### Dragon Slash Combo 
 You MUST learn this combo:
-1. {{ skill(id="62803") }}
-1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
-1. **Triggerguard** (optional)
-1. **Dragon Slash - Force** (after fully charged, but very quickly)
-
-[^1]: Add charges via ({{ skill(id="62901") }}.
-
-### Simplified Rotation
-After the first slash, repeat the following
-1. Weapon Skills 
-1. Dragon Slash Combo
-1. Gunsaber Skills
-	* 4→3→2→1
-1. Dragon Slash Combo
-1. Repeat ↺
-
-
-#### Weapon Skills
-1. Pistol 5→4
-1. Sword 3→1 OR Axe 3→2→1
-1. Auto-attack until {{ skill(id="62803") }}(F2) is ready
-
-> In summary: 
-> * If using sword, go 5→4→3→1
-> * If using Axe, go 5→4→3→2→1
+> 1. {{ skill(id="62803") }}
+> 1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
+> 1. **Triggerguard** (optional)
+> 1. **Dragon Slash - Force** (after fully charged, but very quickly)
 
 <small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
 
+### Simplified Loop
+After the first slash, repeat the following
+> 1. Weapon Skills (5→1→Autos)
+> 1. Dragon Slash Combo
+> 1. Gunsaber (4→3→2→1)
+> 1. Dragon Slash Combo
+> 1. Repeat ↺
+
+<small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
+
 ## Crowd Control
 This build has weak crowd control. Replace {{ skill(id="14404") }} with a physical skills that has CC:
-* {{ skill(id="14516") }}
-* {{ skill(id="14502") }}
+> * {{ skill(id="14516") }}
+> * {{ skill(id="14502") }}
 
 Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use dragon trigger right after using one of the above CC skills. 
 
