@@ -34,9 +34,9 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 	ring2="Berserker's",
 	amulet="Berserker's",
 	relic="Peitha") }}
-{{ sword_main(stat="Berserker's", sigil=["Force"]) }} OR 
-{{ axe_main(stat="Berserker's", sigil=["Force"]) }}
-{{ pistol_off(stat="Berserker's", sigil=["Accuracy"]) }}
+{{ sword_main(stat="Berserker's", sigil="Force") }} OR 
+{{ axe_main(stat="Berserker's", sigil="Force") }}
+{{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
 
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
