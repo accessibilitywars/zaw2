@@ -47,7 +47,7 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 {{ chatlink(code="[&DQIEHwsVRDunACkP8hoAAKkAAACvAK0A/BqcAAAAAAAAAAAAAAAAAAAAAAAEWgA2AC8ABQAA]") }}
 
 ## Notes
-This build relies on Dragon Slash - Force (DT1) to deal most of its damage. Because of this, you must not delay {{ skill(id="62803") }} and you have to use Dragon Slash - Force (DT1) almost immediately after triggering {{ item(id="100177") }}.
+This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. Because of this, you must not delay {{ skill(id="62803") }} and you have to use **Dragon Slash - Force** (DT1) almost immediately after triggering {{ item(id="100177") }}.
 
 ## Rotation
 Start in {{ skill(id="62803") }}
@@ -61,9 +61,9 @@ Start in {{ skill(id="62803") }}
 ### Dragon Slash Combo 
 You MUST learn this combo:
 1. {{ skill(id="62803") }}
-1. {{ skill(id="62926") }} (essential to trigger {{ item(id="100177") }})
+1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
 1. {{ skill(id="62893") }} (optional)
-1. Dragon Slash - Force (after fully charged, but very quickly)
+1. **Dragon Slash - Force** (after fully charged, but very quickly)
 
 [^1]: Add charges via ({{ skill(id="62901") }}.
 
