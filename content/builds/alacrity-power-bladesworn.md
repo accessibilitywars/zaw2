@@ -25,6 +25,7 @@ apm = "65"
 This build relies on the trait {{ trait(id="2245") }} to generate alacrity and stacks of {{ trait(id="2302") }} to maintain damage. The APM is unfortunately high due to the reduced charge time for **Dragon Slash - Force**.
 
 ## Gearing
+You may use any combination of Berserker's, Assassin's or Marauder's stats but keep critical chance at 75%
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
 	{{ trinkets(
@@ -36,12 +37,12 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 	amulet="Berserker's",
 	relic="Peitha") }}
 
-### Weapon Options (Axe is an optional alternative)
+#### Weapon Options
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
 {{ axe_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
-> <small>You may use any combination of Berserker's, Assassin's or Marauder's stats but keep critical chance at 75%</small>
+
 ---
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
@@ -56,27 +57,27 @@ This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. 
 
 ## Rotation
 
-### Precasts
+#### Precasts
 > 1. Gunsaber skills
 > 1. Utilty skills ({{ skill(id="62967") }} x3 [^1]
 > 1. {{ skill(id="14401") }}
->> <small>Use {{ skill(id="62901") }} to get the third {{ skill(id="62967") }}</small>
+>> * <small>Use {{ skill(id="62901") }} to get the third {{ skill(id="62967") }}</small>
 
-### Dragon Slash Combo
+#### Dragon Slash Combo
 You **MUST** learn this combo:
 > 1. {{ skill(id="62803") }}
-> 1. **Flickerstep** (essential to trigger {{ item(id="100177") }})
-> 1. **Dragon Slash - Force** (after fully charged, but very quickly)
->> <small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
->> <small>Triggerguard can be added on for free aegis.</small>
+> 1. **Flickerstep** (triggers {{ item(id="100177") }})
+> 1. **Dragon Slash - Force** (ASAP when charged)
+>> * <small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
+>> * <small>Triggerguard can be added on for free aegis.</small>
 
-### Simplified Loop
+#### Simplified Loop
 > 1. Dragon Slash Combo
 > 1. Weapon Skills (5→1→Autos)
 > 1. Dragon Slash Combo
-> 1. Gunsaber (4→3→2→1)
+> 1. Gunsaber (4→3→2→1→Autos)
 > 1. Dragon Slash Combo ↺
->> <small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
+>> * <small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
 
 ## Crowd Control
 This build has weak crowd control. Replace {{ skill(id="14404") }} with a physical skills that has CC:
