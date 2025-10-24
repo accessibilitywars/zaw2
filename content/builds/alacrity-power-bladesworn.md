@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["sword","pistol","axe","power","warrior","bladesworn","eod","soto","alacrity","lowcog","lowphys","lowrep"]
+tags = ["sword","pistol","axe","power","warrior","bladesworn","eod","soto","alacrity","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["bladesworn", "warrior"]
 
@@ -19,9 +19,10 @@ keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
 balance = "2025-06"
 benchmark = "32k DPS"
+apm = "65"
 +++
 
-This build relies on the trait {{ trait(id="2245") }} to generate alacrity and stacks of {{ trait(id="2302") }} to maintain damage.
+This build relies on the trait {{ trait(id="2245") }} to generate alacrity and stacks of {{ trait(id="2302") }} to maintain damage. The APM is unfortunately high due to the reduced charge time for **Dragon Slash - Force**.
 
 ## Gearing
 
@@ -40,6 +41,7 @@ This build relies on the trait {{ trait(id="2245") }} to generate alacrity and s
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
 {{ axe_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
+> <small>You may use any combination of Berserker's, Assassin's or Marauder's stats but keep critical chance at 75%</small>
 ---
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
@@ -81,7 +83,7 @@ This build has weak crowd control. Replace {{ skill(id="14404") }} with a physic
 > * {{ skill(id="14516") }}
 > * {{ skill(id="14502") }}
 
-Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use dragon trigger right after using one of the above CC skills. 
+Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above CC skills. 
 
 ## Video
 {{ youtube(id="GYZ4EW2EYIw") }}
