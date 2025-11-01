@@ -52,9 +52,11 @@ This build has a lot of auto attacks, includes throwing blades
 - {{ item(id="43253") }} can be used for all other empty slots (optional)
 
 ####
-Optional weapon sets
-{{ mace_off(stat="Viper's", sigil=["Earth"]) }} (for CC)<br/>
-{{ dagger_off(stat="Viper's", sigil=["Earth"]) }} (for boon strip)
+Optional weapon sets<br/>
+| Equipment     | Stat          | Sigil                   |
+| ------------- | ------------- | ----------------------- |
+| Mace (OH)     | Grieving      | {{ item(id="24560") }}  |
+| Dagger (OH)   | Grieving      | {{ item(id="24560") }}  |
 
 ## Build
 ---
