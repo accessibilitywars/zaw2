@@ -39,8 +39,8 @@ This build has a lot of auto attacks, includes throwing blades
 | Sword (MH)    | Viper's       | {{ item(id="48911") }}  |
 | Sword (OH)    | Grieving      | {{ item(id="24560") }}  |
 | All Trinkets  | Grieving      | N/A 					  |
-| Relic (DPS)   | N/A           | {{ item(id="100153") }} |
-| Relic	(Sust)  | N/A           | {{ item(id="106364") }} |
+| Relic (DPS)   | N/A           | Relic of the Fractal    |
+| Relic	(Sust)  | N/A           | Relic of the Biomancer  |
 
 
 #### Food, Enhancement
@@ -87,3 +87,23 @@ Use the following off-cooldown
 >> - Try to maintain 4-5 stacks of {{ trait(id="1344") }}.
 >> - {{ skill(id="14413") }} has no cast time.
 >> - {{ skill(id="14404") }} has no cast time.
+
+#### Crowd Control
+This build has very poor CC options and you may bring additional CC by sacrificing {{ skill(id="14413") }} and using other signets instead. {{ trait(id="1344") }} will be harder to maintain. 
+> 1. {{ skill(id="77114") }
+> 1. {{ skill(id="14502") }}
+> 1. {{ skill(id="14415") }} (swap to mace for CC)
+
+#### Sustain in Open World
+> 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
+> 2. Use **Relic of the Biomancer** for baseline healing
+> 3. Use {{ skill(id="76562") }} in emergencies
+
+## Video
+---
+
+{{ youtube(id="qwOJRFs9s1c") }}
+
+> - This bench was performed with 2 expertise infusions and missing most of the other infusions.
+> - This bench is not grinded and you may be able to surpass this number up to 38k.
+> - The complexity and damage ceiling of this build is low, so do not expect a much higher performance above 38k DPS. 
