@@ -1,7 +1,7 @@
 +++
 title = "Grieving Blademaster [DPS]"
 description = "Auto-Attack Hybrid Paragon"
-date = 2025-07-13
+date = 2025-11-02
 draft = false
 template = "build.html"
 
@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "I am the bone of my sword."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2025-10"
+balance = "2025-06"
 benchmark = "37k DPS"
 apm = "26"
 log = "https://dps.report/kq1M-20251101-011803_golem"
