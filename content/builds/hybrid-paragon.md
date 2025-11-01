@@ -33,24 +33,15 @@ This build has a lot of auto attacks, includes throwing blades
 ## Gearing
 ---
 
-{{ heavy(
-	head="Grieving",
-	shoulders="Grieving",
-	chest="Grieving",
-	arms="Grieving",
-	legs="Grieving",
-	feet="Grieving",
-	rune="Krait") }}
-{{ sword_main(stat="Grieving", sigil=["Earth"]) }}
-{{ sword_off(stat="Viper's", sigil=["Torment"]) }}
-{{ trinkets(
-	back="Grieving",
-	accessory1="Grieving",
-	accessory2="Grieving",
-	ring1="Grieving",
-	ring2="Grieving",
-	amulet="Grieving",
-	relic="Fractal") }}
+| Equipment     | Stat          | Rune/Sigil              |
+| ------------- | ------------- | ----------------------- |
+| Hvy Armor     | Grieving      | {{ item(id="24762") }}  |
+| Sword (MH)    | Viper's       | {{ item(id="48911") }}  |
+| Sword (OH)    | Grieving      | {{ item(id="24560") }}  |
+| All Trinkets  | Grieving      | N/A 					  |
+| Relic (DPS)   | N/A           | {{ item(id="100153") }} |
+| Relic	(Sust)  | N/A           | {{ item(id="106364") }} |
+
 
 #### Food, Enhancement
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}
@@ -62,8 +53,8 @@ This build has a lot of auto attacks, includes throwing blades
 
 ####
 Optional weapon sets
-{{ mace_off(stat="Viper's", sigil=["Torment"]) }} (for CC)<br/>
-{{ dagger_off(stat="Viper's", sigil=["Torment"]) }} (for boon strip)
+{{ mace_off(stat="Viper's", sigil=["Earth"]) }} (for CC)<br/>
+{{ dagger_off(stat="Viper's", sigil=["Earth"]) }} (for boon strip)
 
 ## Build
 ---
