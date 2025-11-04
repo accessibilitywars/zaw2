@@ -53,13 +53,13 @@ You may replace Dagger/warhorn
 **Off Hand**<br/>
 - Mace (for CC)
 - Dagger (Boon Strip)
-<br/>
 
 ## Build
 ---
 
 [GW2Skills Link](https://gw2skills.net/editor/?PKwEYCNssXWMDmJzox036f6B-DSRYjBrG1sSJxII1Qo6CI9Ew3fBs0+mFUB-e)<br/>
 {{ chatlink(code="[&DQILHzM/Sh55HQAAhh0AAH4dAAB2HQAAcx0AAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+<br/>
 
 ## Rotation
 ---
