@@ -41,22 +41,24 @@ This build has a lot of auto attacks, includes throwing blades
 | All Trinkets  | Grieving      | N/A 					  |
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
 | Relic	(Sust)  | N/A           | Relic of the Biomancer  |
+<br/>
 
-
-#### Food, Enhancement
-- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}
-- Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
-
-#### Infusions
-- {{ item(id="87218") }} (1-2) may be used to hit max bleed duration (recommended)
-- {{ item(id="43253") }} can be used for all other empty slots (optional)
-
-####
-Optional weapon sets<br/>
+#### Optional weapon sets
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
 | Mace (OH)     | Grieving      | {{ item(id="24560") }}  |
 | Dagger (OH)   | Grieving      | {{ item(id="24560") }}  |
+<br/>
+
+#### Food, Enhancement
+- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}
+- Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
+<br/>
+
+#### Infusions
+- {{ item(id="87218") }} (1-2) may be used to hit max bleed duration (recommended)
+- {{ item(id="43253") }} can be used for all other empty slots (optional)
+<br/>
 
 ## Build
 ---

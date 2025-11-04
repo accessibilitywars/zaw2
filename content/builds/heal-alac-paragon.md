@@ -37,12 +37,12 @@ Its quite hard to do badly on this build... This build gambles on {{ trait(id="2
 | Warhorn (OH)  | Harrier's     | {{ item(id="44947") }}  |
 | All Trinkets  | Minstrel's    | N/A 					  |
 | Relic         | N/A           | {{ item(id="99965") }}  |
-
+<br/>
 
 #### Food, Enhancement
 - Food: {{ item(id="91690", name="Bowl of Fruit Salad with Mint Garnish") }}
 - Enhancement: {{ item(id="67528", name="Bountiful Maintenance Oil") }}
-
+<br/>
 
 #### Optional weapon sets
 
@@ -59,6 +59,7 @@ You may replace Dagger/warhorn
 
 [GW2Skills Link](https://gw2skills.net/editor/?PKwEYCNssXWMDmJzox036f6B-DSRYjBrG1sSJxII1Qo6CI9Ew3fBs0+mFUB-e)<br/>
 {{ chatlink(code="[&DQILHzM/Sh55HQAAhh0AAH4dAAB2HQAAcx0AAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+<br/>
 
 ## Rotation
 ---
@@ -77,6 +78,7 @@ The opener is optional and helps to speed up initial ramp of adrenaline and prio
 >     > {{ skill(id="14394") }}
 > 1. Rotate your chants to provide alacrity.
 > 1. 🔁Weapon swap (to Staff)
+<br/>
 
 #### Providing Alacrity
 Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} and {{ skill(id="71889") to get adrenaline. There is a certain priority depending on the situation:
@@ -85,6 +87,7 @@ Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} 
 > | {{ skill(id="77342") }} | F2    | To give might and fury             |
 > | {{ skill(id="76782") }} | F3    | When you need heals                |
 > | {{ skill(id="77155") }} | F4    | When you need stability/stun-break |
+<br/>
 
 #### Commands
 You must use your commands to grant boons, but you must also reserve some for emergencies. 
@@ -94,12 +97,15 @@ You must use your commands to grant boons, but you must also reserve some for em
 > | {{ skill(id="76755") }} | Lots of healing and condi-cleanses |
 > | {{ skill(id="76934") }} | Barrier                            |
 > | {{ skill(id="77040") }} | For Might uptime                   |
-> | {{ skill(id="76769") }} | For Aegis, Resistance, Resolution  |
+> | {{ skill(id="76769") }} | For Aegis, Resistance, Resolution  |<br/>
 > - <small>{{ skill(id="77040") }} and {{ skill(id="76769") }} should be used as part of your rotation to maintain boons.</small>
 > - <small>Many of your other boons are covered by your weapons and there is some overlap.</small>
+<br/>
 
 #### Crowd Control
-{{ skill(id="77114") }} is a very strong pulsing CC that is ample in almost all situations use it to replace {{ skill(id="77040") }}
+
+**Command CC**<br/>
+> {{ skill(id="77114") }} is a very strong pulsing CC that is ample in almost all situations. Use it to replace {{ skill(id="77040") }}
 
 **Weapon skills that provide breakbar damage**
 > 1. {{ skill(id="44937") }} (🗡️3)
@@ -108,5 +114,5 @@ You must use your commands to grant boons, but you must also reserve some for em
 > 1. {{ skill(id="14415") }} (🏏5)
 > 1. {{ skill(id="14503") }} (🏏3) (only when tanking)
 
-**CC Utilities**
+**CC Utilities**<br/>
 Additional CC options are available but reduce your might uptime when you switch out another command to use them. I do not recommend doing so and hence it will not be covered in the guide. 
