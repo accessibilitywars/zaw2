@@ -31,7 +31,21 @@ This is a build which uses mostly Grieving gear and hybrid traits to maximise th
 This build has a lot of auto attacks, includes throwing blades 
 
 ## Gearing
----
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
+<div>
+
+{{ heavy(stat="Grieving", rune="Krait") }}
+{{ sword_main(stat="Viper's", sigil="Torment") }}
+{{ sword_off(stat="Viper's", sigil="Earth") }}
+
+</div><div>
+
+{{ trinkets(stat="Grieving", relic="Fractal", alternative="Biomancer") }}
+
+</div>
+
+IGNORE AFTER THIS
 
 | Equipment     | Stat          | Rune/Sigil              |
 | ------------- | ------------- | ----------------------- |
@@ -41,14 +55,17 @@ This build has a lot of auto attacks, includes throwing blades
 | All Trinkets  | Grieving      | N/A 					  |
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
 | Relic	(Sust)  | N/A           | Relic of the Biomancer  |
-<br/>
 
-#### Optional weapon sets
+</div>
+<div>
+
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
 | Mace (OH)     | Grieving      | {{ item(id="24560") }}  |
 | Dagger (OH)   | Grieving      | {{ item(id="24560") }}  |
-<br/>
+
+</div>
+</div>
 
 #### Food, Enhancement
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}
