@@ -28,7 +28,7 @@ log = "https://dps.report/kq1M-20251101-011803_golem"
 
 This is a build which uses mostly Grieving gear and hybrid traits to maximise the sword's physical prowress and bleeding capabilities. 
 
-This build has a lot of auto attacks, includes throwing blades 
+This build has a lot of auto attacks.
 
 ## Gearing
 ---
