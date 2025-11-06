@@ -32,20 +32,7 @@ This build has a lot of auto attacks, includes throwing blades
 
 ## Gearing
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
-<div>
-
-{{ heavy(stat="Grieving", rune="Krait") }}
-{{ sword_main(stat="Viper's", sigil="Torment") }}
-{{ sword_off(stat="Viper's", sigil="Earth") }}
-
-</div><div>
-
-{{ trinkets(stat="Grieving", relic="Fractal", alternative="Biomancer") }}
-
-</div>
-
-IGNORE AFTER THIS
+{{ gear() }}
 
 | Equipment     | Stat          | Rune/Sigil              |
 | ------------- | ------------- | ----------------------- |
@@ -56,16 +43,12 @@ IGNORE AFTER THIS
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
 | Relic	(Sust)  | N/A           | Relic of the Biomancer  |
 
-</div>
-<div>
-
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
 | Mace (OH)     | Grieving      | {{ item(id="24560") }}  |
 | Dagger (OH)   | Grieving      | {{ item(id="24560") }}  |
 
-</div>
-</div>
+{{ endgear() }}
 
 #### Food, Enhancement
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}

@@ -33,6 +33,7 @@
 
 {%- macro larmor(head, shoulders, chest, arms, legs, feet, rune) -%}
 <hr/>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
 <table>
 <thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
 <tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80248" data-armory-80248-upgrades="{{self::rune(name=rune)}}" data-armory-80248-stat="{{self::stat(name=head)}}"></span></td><td>{{head}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
@@ -46,6 +47,7 @@
 
 {%- macro marmor(head, shoulders, chest, arms, legs, feet, rune) -%}
 <hr/>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px;">
 <table>
 <thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
 <tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80296" data-armory-80296-upgrades="{{self::rune(name=rune)}}" data-armory-80296-stat="{{self::stat(name=head)}}"></span></td><td>{{head}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
@@ -59,6 +61,7 @@
 
 {%- macro harmor(head, shoulders, chest, arms, legs, feet, rune) -%}
 <hr/>
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px;">
 <table>
 <thead><tr><th>Armor</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
 <tr><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="80384" data-armory-80384-upgrades="{{self::rune(name=rune)}}" data-armory-80384-stat="{{self::stat(name=head)}}"></span></td><td>{{head}}</td><td><span class="armory-inline" data-armory-embed="items" data-armory-ids="{{self::rune(name=rune)}}"></span> {{rune}}</td></tr>
@@ -124,7 +127,6 @@
 {%- endmacro weapon_2h -%}
 
 {%- macro trinkets(ring1, ring2, accessory1, accessory2, back, amulet, relic, alternative) -%}
-<hr/>
 <table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
 <tr><td><span class="armory-inline" data-armory-embed="items" 
 	data-armory-ids="74155" 
@@ -138,8 +140,6 @@
 <tr><td><span class="armory-inline" data-armory-embed="items" 
 	data-armory-ids="91048" 
 	data-armory-91048-stat="{{self::stat(name=accessory2)}}"></span></td><td>Accessory</td><td> {{accessory2}}</td></tr>
-</tbody></table>
-<table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
 <tr><td><span class="armory-inline" data-armory-embed="items" 
 	data-armory-ids="93105" 
 	data-armory-93105-stat="{{self::stat(name=ring1)}}"></span></td><td>Ring</td><td> {{ring1}}</td></tr>
@@ -153,5 +153,5 @@
 	data-armory-ids="{{self::relic(name=alternative)}}"></span></td><td>Relic (alternative)</td><td> {{alternative}} </td></tr>
 {%- endif -%}
 </tbody></table>
-<hr/>
+</div>
 {%- endmacro trinkets -%}
