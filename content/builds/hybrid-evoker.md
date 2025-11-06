@@ -1,6 +1,6 @@
 +++
-title = " [DPS]"
-description = ""
+title = "Galvanic Enchantment [DPS]"
+description = "An actual proper Fire Camp build that can still play the game."
 date = 2025-11-07
 draft = false
 template = "build.html"
@@ -128,4 +128,4 @@ Then return to {{ skill(id="5492") }} as soon as you are able to. You can cut sh
 
 ---
 
-{{ youtube(id="ANRJlzVgcTo") }}
+{{ youtube(id="ncYcPJrVuMQ") }}
