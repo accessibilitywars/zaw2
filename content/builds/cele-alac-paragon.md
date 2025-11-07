@@ -2,7 +2,7 @@
 title = "Celestial Blademaster [aHeal]"
 description = ""
 date = 2025-11-05
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
@@ -18,8 +18,6 @@ keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2025-06"
 benchmark = "20k DPS"
-apm = "35"
-log = "https://dps.report/kq1M-20251101-011803_golem"
 +++
 
 
