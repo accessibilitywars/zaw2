@@ -81,7 +81,7 @@ The opener is optional and helps to speed up initial ramp of adrenaline and prio
 <br/>
 
 #### Providing Alacrity
-Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} (⚕️2) and **Defiant Roar** (⚕️5) to get adrenaline. For Chants, there is a certain priority depending on the situation:
+Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} (⚕️2) and {{ skill(id="71889") }} (⚕️5) to get adrenaline. For Chants, there is a certain priority depending on the situation:
 > | Skill                   | Key   | When prioritised                   |
 > | ----------------------- | ----- | ---------------------------------- |
 > | {{ skill(id="77342") }} | F2    | To give might and fury             |
