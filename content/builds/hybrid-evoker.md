@@ -26,6 +26,8 @@ log = "https://dps.report/cljF-20251107-005646_golem"
 
 ---
 
+**This is a build from the new expansion, Visions of Eternity, and is currently overperforming. Expect it to be balanced in the near future.**
+
 This build combines the concepts used in other Elementalist Inferno builds into the new Evoker elite specialization.
 
 Instead of taking {{ trait(id="2437" , name="Specialized Elements") }} like every other mono element Evoker build, this build uses {{ trait(id="2335" , name="Galvanic Enchantment") }}.
@@ -129,3 +131,9 @@ Then return to {{ skill(id="5492") }} as soon as you are able to. You can cut sh
 ---
 
 {{ youtube(id="ncYcPJrVuMQ") }}
+
+## Build Demo
+
+---
+
+{{ youtube(id="-9tnRIo2PiI") }}
