@@ -1,6 +1,6 @@
 +++
-title = "Paragon-and-on-and-on [aHeal]"
-description = "I wanna scream and shout and let it all out! We sayin' oh we oh we oh we oh!"
+title = "Vocals of Eternity [aHeal]"
+description = "I wanna scream and shout and let it all out!"
 date = 2025-11-05
 draft = false
 template = "build.html"
