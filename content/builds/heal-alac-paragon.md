@@ -1,6 +1,6 @@
 +++
-title = "Paragon-and-on-and-on [aHeal]"
-description = "I wanna scream and shout and let it all out! We sayin' oh we oh we oh we oh!"
+title = "Vocals of Eternity [aHeal]"
+description = "I wanna scream and shout and let it all out!"
 date = 2025-11-05
 draft = false
 template = "build.html"
@@ -13,7 +13,7 @@ specs = ["paragon","warrior"]
 
 [extra]
 series = "warrior"
-tagline = "And baby it goes on, and on, and on and on, when me and you party together..."
+tagline = "It goes on, and on, and on and on, when me and you party together..."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2025-06"
