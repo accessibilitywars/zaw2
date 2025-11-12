@@ -86,10 +86,11 @@ Take note that you do want to use {{ skill(id="76552") }} with 3 Notes active fo
 On top of this, you should:
 
 **Use off cooldown:**
+> 1. {{ skill(id="10212") }} (Only use 1 charge)
 > 1. {{ skill(id="10334") }}
 > 1. {{ skill(id="77066") }}
 
-In that order of priority.
+In that order of priority. {{ skill(id="10212") }} has no cast time and can be used during the cast of another skill without interrupting it.
 
 <div style=‘clear:both;’>&nbsp;</div>
 
