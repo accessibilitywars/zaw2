@@ -22,11 +22,15 @@ apm = "35"
 log = "https://dps.report/tQLS-20251112-222622_golem"
 +++
 
+<div style=‘clear:both;’>&nbsp;</div>
+
 ## Notes
 
 ---
 
 Melee Power build with high burst damage, ability to skip mechanics, and option to swap out utility for much more CC.
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 ## Gearing
 
@@ -38,7 +42,7 @@ Melee Power build with high burst damage, ability to skip mechanics, and option 
 	legs="Berserker's",
 	feet="Assassin's",
 	rune="Infiltration") }}
-{{ dagger_main(stat="Berserker's", sigil="Force") }}
+{{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ sword_off(stat="Berserker's", sigil="Accuracy") }}
 {{ trinkets(
 	back="Berserker's",
@@ -52,10 +56,13 @@ Melee Power build with high burst damage, ability to skip mechanics, and option 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
+<div style=‘clear:both;’>&nbsp;</div>
 
 ## Build
 
 {{ chatlink(code="[&DQcBHQoaSScjDwAAaQEAAIIBAABmHQAAbR0AAAAAAAAAAAAAAAAAAAAAAAACWgAyAAA=]") }}
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 ## Rotation
 
@@ -84,9 +91,15 @@ On top of this, you should:
 
 In that order of priority.
 
+<div style=‘clear:both;’>&nbsp;</div>
+
 {{ skill(id="76971") }} is a 2 second long immune skill, and should be your panic button. It can also be used to dodge mechanics on various raids to increase your damage uptime.
 
+<div style=‘clear:both;’>&nbsp;</div>
+
 You can block attacks with {{ skill(name="Illusionary Riposte") }} (Sword 4), but it is not recommended unless you are very confident of the mechanic. An example of using this to increase DPS would be on Deimos, where it's cooldown is short enough to block both the knockback "pizza" mechanic and mindcrush, allowing you to maximise damage uptime on the boss.
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 ## Crowd Control
 
@@ -99,6 +112,8 @@ Your CC skills are, in order of priority
 > 1. {{ skill(id="77079") }}
 
 and you can swap out {{ skill(id="76971") }} for {{ skill(id="29519") }} if a lot of CC is required for the encounter.
+
+<div style=‘clear:both;’>&nbsp;</div>
 
 ## Video
 
