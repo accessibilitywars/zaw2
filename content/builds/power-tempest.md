@@ -31,7 +31,7 @@ log = "https://dps.report/NpoR-20251114-023832_golem"
 
 Simple, step based rotation with most of your damage in {{ skill(id="5494") }}.
 
-The concept of this build is to stay in {{ skill(id="5494") }} and {{ skill(id="29719") }} as much as possible, while swapping to {{ skill(id="5494") }} both to fill in some of the down time and to reset {{ skill(id="29719") }} cooldown.
+The concept of this build is to stay in {{ skill(id="5494") }} and {{ skill(id="29719") }} as much as possible, while swapping to {{ skill(id="5492") }} both to fill in some of the down time and to reset {{ skill(id="29719") }} cooldown.
 
 <div style=‘clear:both;’>&nbsp;</div>
 
@@ -119,6 +119,8 @@ If more CC is required, instead of your {{ skill(id="5492") }} Loop, you can ins
 > 1. {{ skill(id="5690") }} (Dagger Earth 4)
 > 1. {{ skill(id="5522") }} (Dagger Earth 5)
 > 1. {{ skill(id="5494") }} during the cast of {{ skill(id="5522") }} (Dagger Earth 5)
+
+Immediately after {{ skill(id="29719") }}.
 
 <div style=‘clear:both;’>&nbsp;</div>
 
