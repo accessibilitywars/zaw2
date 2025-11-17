@@ -716,6 +716,9 @@ $syntax: true !default;//syntax highlighting for code blocks
   }
 
   //dropdown menu used for lang, etc.
+  .dropdown-menu {
+    overflow: visible;
+  }
   .dropdown {
     display: inline-block;
     position: relative;
