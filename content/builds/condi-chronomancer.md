@@ -16,7 +16,7 @@ series = "mesmer"
 tagline = "No time like the present"
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "36.7k DPS"
 apm = "26"
 +++

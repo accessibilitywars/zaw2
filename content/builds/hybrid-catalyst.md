@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["power","condi","hybrid","elementalist","catalyst","eod","jw","lowcog","lowrep"]
+tags = ["power","condi","hybrid","elementalist","catalyst","eod","lowcog","lowrep"]
 authors = ["scooby"]
 specs = ["catalyst","elementalist"]
 
@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "I took a day off to play Evoker and all I got was this lousy Deploy Jade Sphere."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Catalyst"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "38.6k DPS"
 apm = "52"
 log = "https://dps.report/NTg4-20250821-215722_golem"
@@ -42,7 +42,7 @@ This build does basically 50/50 split of your total damage in Burning and Power,
 	ring1="Berserker's",
 	ring2="Berserker's",
 	amulet="Berserker's",
-	relic="Bloodstone") }}
+	relic="Fireworks") }}
 
 - Food: {{ item(id="91709", name="Plate of Coq Au Vin with Salsa") }} or {{ item(id="12467", name="Plate of Truffle Steak") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
@@ -69,7 +69,7 @@ Your rotation consists solely of a priority list of buttons to press.
 > 1. {{ skill(id="5542") }}
 > 1. {{ skill(id="25499") }} 
 
-It is important to press {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2) as much as possible as they are both blast finishers, and are critical to upkeep {{ item(id="104800", name="Relic of Bloodstone") }}. In an actual fight, there will be many fields placed by your allies that you will be continuously blasting, but on the golem the only fields you have are from {{ skill(id="62813") }} and {{ skill(id="5497") }} (Focus Fire 4). Therefore you might find yourself doing more damage in a fight than on the golem, especially since this build is not designed to maximise self blast finishers.
+It is important to press {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2) as much as possible as they are both blast finishers. In an actual fight, there will be many fields placed by your allies that you will be continuously blasting, but on the golem the only fields you have are from {{ skill(id="62813") }} and {{ skill(id="5497") }} (Focus Fire 4). Therefore you might find yourself doing more damage in a fight than on the golem, especially since this build is not designed to maximise self blast finishers.
 
 However, outside of {{ skill(id="5675") }} (Scepter Fire 3) and {{ skill(id="5692") }} (Scepter Fire 2), it honestly doesn't matter too much which order you push your buttons in, as long as you try your best to hit them off cooldown. I personally press most of my buttons from left to right on the keyboard for this build, as it is easier that way.
 
