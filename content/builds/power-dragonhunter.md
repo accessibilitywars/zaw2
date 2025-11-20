@@ -37,7 +37,7 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 	feet="Assassin's",
 	rune="Scholar") }}
 
-{{ hammer(stat="Assassin's", sigils=["Force", "Impact"]) }}
+{{ hammer(stat="Assassin's", sigils=["Force", "Accuracy"]) }}
 
 {{ trinkets(
 	back="Assassin's",
@@ -61,18 +61,6 @@ Optimised Marauder/Assassin's Loadout
 [GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)
 
 > <small>_This requires 1 +5 precise infusion, power infusions are optional_</small>
-
-#### Runes
-- {{ item(id="24836") }} OR
-- {{ item(id="74978") }}
-
-#### Sigils
-- {{ item(id="24618") }} (Compulsory)
-- {{ item(id="24868") }}
-- {{ item(id="24554") }}(Budget Alternative)
-
-#### Relic
-- {{ item(id="100527") }}
 
 #### Food
 - {{ item(id="91805") }}
