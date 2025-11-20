@@ -14,7 +14,7 @@ specs = ["guardian"]
 
 [extra]
 series = "guardian"
-tagline = "Auto-Attack Dragonhunter"
+tagline = "Auto-Attack Core Guardian"
 keywords = "Guild Wars 2, GW2, LI, core, guardian"
 toc = true
 balance = "2025-11"
