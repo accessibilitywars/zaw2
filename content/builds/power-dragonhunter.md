@@ -1,7 +1,8 @@
 +++
-title = "Symbolic Avenger [pDPS]"
-description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing utilities, crowd control and condi cleanses."
+title = "Symbolic Dragonhammer [pDPS]"
+description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing stability, crowd control and condi cleanses."
 date = 2024-04-02
+updated = 2025-11-21
 draft = false
 template = "build.html"
 
@@ -16,8 +17,9 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2025-06"
-benchmark = "30k DPS"
+balance = "2025-11"
+benchmark = "31.6k DPS"
+log = "https://dps.report/uHvG-20251120-132403_golem"
 +++
 
 The purpose of writing this guide is to provide an ultra low intensity method to play PvE dragonhunter while easily hitting the 70% benchmark with minimal effort. This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. The utilities do not require specific timing and do not interrupt the auto attack nature of the build. This build requires only one weapon to deal damage to near competitive levels with no requirement of a weapon swap: Hammer!
@@ -89,6 +91,7 @@ There is a Core Guardian variant which provides more selfless support but due to
 You may drop {{ skill(id="9245") }} for different utilities.
 - {{ skill(id="9247") }} allows you to shadow step through mechanics
 - You can also pair this while casting {{ skill(id="9195") }} for a Teleport CC
+- You get stability from {{ trait(id="1963") }} just by using your CC skills.
 
 ## Optimisation
 #### Cleave
@@ -113,9 +116,9 @@ A few examples where this advantage can be used are:
 
 
 ## Videos
-I have benched the build with mostly Assassin's and a handful Marauders Gear and budget food/utilities. 1 precise infusion is used to hit the 75% critical sweetspot.
+I have benched the build with mostly Assassin's and a handful Marauders Gear and food/utilities. 1 precise infusion is used to hit the 75% critical sweetspot. No infusions were included which can easily punch your DPS to 32k.
 
-#### DPS benchmark (29.5k)
-{{ youtube(id="6ArosWCZPY8") }}{{ skill(id="9124") }}
-> <small>_You should be able to punch above 31k DPS easily as this bench was done before the buffs to {{ trait(id="1963") }}_</small>
-> <small>_{{ skill(id="30273") }} will start the encounter early. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) has a long precast and a short aftercast and you don't want its precast to be included. Hence {{ skill(id="30461") }} is brought for the benchmark instead._</small>
+#### DPS benchmark (31.6k)
+{{ youtube(id="Nb3SM507nQg") }}
+<br/>
+> <small>_{{ skill(id="30273") }} will start the encounter early. {{ skill(id="30461") }} is brought for the benchmark instead. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) because it has a long precast and a short aftercast. _</small>
