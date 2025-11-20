@@ -27,12 +27,33 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 
 ## Gearing and Consumables
 #### Equipment
-- Full Assassins's up to the crit cap (75%), in favour of Berserker's pieces
-- For a slight DPS loss, you may use a few Marauder's pieces for extra vitality
-- Hammer
+#### Equipment
+{{ heavy(
+	head="Assassin's",
+	shoulders="Dragon's",
+	chest="Assassin's",
+	arms="Assassin's",
+	legs="Berserker's",
+	feet="Assassin's",
+	rune="Scholar") }}
+
+{{ hammer(stat="Assassin's", sigils=["Force", "Impact"]) }}
+
+{{ trinkets(
+	back="Assassin's",
+	accessory1="Assassin's",
+	accessory2="Assassin's",
+	ring1="Assassin's",
+	ring2="Marauder's",
+	amulet="Marauder's",
+	relic="Brawler") }}
+
+#### Infusions
+- {{ item(id="43255") }} x1 (recommended)
+- {{ item(id="43255") }} x19 (optional)
 
 #### Weapon Swap
-Weapon swap is optional, all the available options will massively reduce DPS and lock you out of hammer, they should be prioritised based on utility requirements. Where necessary, bring {{ skill(id="9150") }} to proc Relic of the Brawler.
+Weapon swap is optional, all the available options will massively reduce DPS and lock you out of hammer, they should be prioritised based on utility requirements. 
 1. Bow - Bow provides a ranged option for bosses with melee DPS downtime. 
 2. Scepter/Focus - Provides a decent immobilise option with some ranged DPS.
 
