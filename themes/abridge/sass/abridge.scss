@@ -161,7 +161,7 @@ $findFont-Code : null !default;
 $fontExt-Main  : null !default;
 $fontExt-Code  : null !default;
 
-$font: Roboto system-ui -apple-system BlinkMacSystemFont "Segoe UI" Oxygen Ubuntu Cantarell "Fira Sans" "Droid Sans" "Helvetica Neue" "Noto Sans" Helvetica Arial sans-serif !default;
+$font: Roboto system-ui -apple-system BlinkMacSystemFont "Segoe UI" Oxygen Ubuntu Cantarell "Fira Sans" "Droid Sans" "Helvetica Neue" Helvetica Arial sans-serif !default;
 $font-mono: ui-monospace Menlo Monaco Consolas "SF Mono" "Cascadia Mono" "Segoe UI Mono" "DejaVu Sans Mono" "Liberation Mono" "Roboto Mono" "Oxygen Mono" "Ubuntu Monospace" "Ubuntu Mono" "Source Code Pro" "Fira Mono" "Droid Sans Mono" "Courier New" Courier monospace !default;
 
 /// Enable <header>, <main>, <footer> inside <body> as a container
@@ -716,6 +716,9 @@ $syntax: true !default;//syntax highlighting for code blocks
   }
 
   //dropdown menu used for lang, etc.
+  .dropdown-menu {
+    overflow: visible;
+  }
   .dropdown {
     display: inline-block;
     position: relative;

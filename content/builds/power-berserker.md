@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "Looks like meat's back on the menu, boys!"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Berserker"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "36.6k DPS"
 apm = "48"
 +++

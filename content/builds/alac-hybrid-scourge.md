@@ -17,7 +17,7 @@ series = "necromancer"
 tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "18.8k DPS"
 +++
 

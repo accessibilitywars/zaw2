@@ -17,7 +17,7 @@ series = "mesmer"
 tagline = "I'm neither here nor there."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "25.0k DPS"
 apm = "52"
 +++

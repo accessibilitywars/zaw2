@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "Ive Got A Fever And The Only Prescription Is More Cowbell!"
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Weaver"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "39.2k DPS"
 apm = "48"
 log = "https://dps.report/FFrK-20250924-220250_golem"
@@ -56,11 +56,8 @@ This build attempts to maximise this trait by staying in {{ skill(id="5492") }} 
 - Food: {{ item(id="91709") }} may have higher DPS if weakness uptime is not 100%
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
 
-{{ item(id="104800", name="Relic of Bloodstone") }} can be used instead if your squad generates lots of fields for you to blast.
-
 **Alternative offhand weapons**
 {{ dagger_off(stat="Berserker's", sigil="Bursting") }}
-This may result in a small DPS increase when used in conjunction with {{ item(id="104800", name="Relic of Bloodstone") }}. It is however somewhat melee locked and is unable to upkeep {{ item(id="100947") }}. CC (Air 5) is also weaker.
 
 ## Build
 {{ chatlink(code="[&DQYfPSkfOBl0AAAAywAAAL4BAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}

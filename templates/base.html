@@ -61,7 +61,7 @@
       </div>
       <div>
         <div>
-          <ul>
+          <ul class="dropdown-menu">
 
             {%- set js_switcher=config.extra.js_switcher | default(value=true) %}
 
@@ -206,6 +206,6 @@
 {%- endblock footer %}
 {%- block gotop %}
 {%- endblock gotop %}
-<script async src="https://scripts.withcabin.com/hello.js"></script>
+<script async defer src="https://scripts.withcabin.com/hello.js"></script>
 </body>
 </html>

@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "If you only have a hammer, every problem is a nail. – Abraham Maslow"
 keywords = "Guild Wars 2, GW2, LI, untamed"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "28k DPS"
 +++
 

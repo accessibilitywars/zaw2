@@ -15,7 +15,7 @@ series = "ranger"
 tagline = "Combo #3 with fries and a large root beer"
 keywords = "Guild Wars 2, GW2, LI, Soulbeast"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "34.7k DPS"
 +++
 

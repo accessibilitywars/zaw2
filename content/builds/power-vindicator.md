@@ -17,7 +17,7 @@ series = "revenant"
 tagline = "Step on me pleeeease!"
 keywords = "Guild Wars 2, GW2, LI, Vindicator"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 benchmark = "35.5k DPS"
 apm = "43"
 +++

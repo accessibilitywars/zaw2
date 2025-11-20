@@ -16,7 +16,7 @@ series = "necromancer"
 tagline = "'A living being's most primal fear—its antithesis—is death.' -- Zhaitan"
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Reaper"
 toc = true
-balance = "2025-06"
+balance = "2025-11"
 +++
 
 # Overview 
