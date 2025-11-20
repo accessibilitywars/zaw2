@@ -30,10 +30,10 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 #### Equipment
 {{ heavy(
 	head="Assassin's",
-	shoulders="Dragon's",
+	shoulders="Marauder",
 	chest="Assassin's",
 	arms="Assassin's",
-	legs="Berserker's",
+	legs="Marauder",
 	feet="Assassin's",
 	rune="Scholar") }}
 
@@ -44,8 +44,8 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 	accessory1="Assassin's",
 	accessory2="Assassin's",
 	ring1="Assassin's",
-	ring2="Marauder's",
-	amulet="Marauder's",
+	ring2="Marauder",
+	amulet="Marauder",
 	relic="Brawler") }}
 
 #### Infusions
