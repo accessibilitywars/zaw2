@@ -35,7 +35,7 @@ The utilities do not require specific timing and do not interrupt the auto attac
 	arms="Dragon's",
 	legs="Berserker's",
 	feet="Dragon's",
-	rune="Dragon's") }}
+	rune="Scholar") }}
 
 {{ hammer(stat="Dragon's", sigils=["Force", "Impact"]) }}
 
@@ -79,6 +79,6 @@ Power DPS
 2. You can use {{ skill(id="9093") }} for a strong CC but resulting in a DPS loss.
 
 #### Sustainability
-1. Your autos generate perma protection and your symbols heal you.
+1. Your autos generate perma-protection and your symbols heal you.
 2. {{ skill(id="9118") }} provides aegis and a stun break. 
 3. Use {{ skill(id="9153") }} for a group stun break and multiple stacks of stability.
