@@ -17,7 +17,7 @@ series = "guardian"
 tagline = "Auto-Attack Core Guardian"
 keywords = "Guild Wars 2, GW2, LI, core, guardian"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "30k DPS"
 +++
 
