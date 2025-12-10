@@ -17,7 +17,7 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "31.6k DPS"
 log = "https://dps.report/uHvG-20251120-132403_golem"
 +++

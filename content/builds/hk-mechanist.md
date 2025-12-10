@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "A mech in the hands is worth two in the bush"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 +++
 
 This is a specialized build, intended for use in the final fight of Raid Wing 4 (Deimos). Often people shy away from

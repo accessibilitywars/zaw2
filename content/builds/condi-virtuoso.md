@@ -17,7 +17,7 @@ series = "mesmer"
 tagline = "If you ever wanted to be Tenten from Naruto, this is it."
 keywords = "Guild Wars 2, GW2, LI, Virtuoso"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "35.9k DPS"
 apm = "48"
 +++

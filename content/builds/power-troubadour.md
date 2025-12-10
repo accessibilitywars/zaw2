@@ -1,7 +1,7 @@
 +++
 title = "Power Troubadour [pDPS]"
 description = "Melee based Power build with high burst damage"
-date = 2025-11-12
+date = 2025-12-12
 draft = false
 template = "build.html"
 
@@ -16,7 +16,7 @@ series = "mesmer"
 tagline = "Brr baa brrr brrbrrbaaa baaaaaa brr brr brr baaa brr brr baaaaa"
 keywords = "Guild Wars 2, GW2, LI, Troubadour"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "33.7k DPS"
 apm = "35"
 log = "https://dps.report/tQLS-20251112-222622_golem"

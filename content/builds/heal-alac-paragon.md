@@ -1,7 +1,7 @@
 +++
 title = "Vocals of Eternity [aHeal]"
 description = "I wanna scream and shout and let it all out!"
-date = 2025-11-05
+date = 2025-12-05
 draft = false
 template = "build.html"
 
@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "It goes on, and on, and on and on, when me and you party together..."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 +++
 
 

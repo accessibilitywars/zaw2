@@ -16,7 +16,7 @@ series = "engineer"
 tagline = "If you name your mech 'Hammer' you can dual-wield Hammers"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "32.5k DPS"
 apm = "22"
 +++

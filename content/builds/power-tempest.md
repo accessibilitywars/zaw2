@@ -2,7 +2,7 @@
 title = "Power Tempest [pDPS]"
 description = "Simple, step based rotation with most of your damage in Air Attunement"
 date = 2024-06-30
-updated = 2025-11-14
+updated = 2025-12-14
 draft = false
 template = "build.html"
 
@@ -17,7 +17,7 @@ series = "elementalist"
 tagline = "A storm is coming."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "2025-11"
+balance = "2025-12"
 benchmark = "37.6k DPS"
 apm = "59"
 log = "https://dps.report/NpoR-20251114-023832_golem"
