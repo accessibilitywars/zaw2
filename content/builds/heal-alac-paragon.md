@@ -1,7 +1,7 @@
 +++
 title = "Vocals of Eternity [aHeal]"
 description = "I wanna scream and shout and let it all out!"
-date = 2025-12-05
+date = 2025-11-05
 draft = false
 template = "build.html"
 

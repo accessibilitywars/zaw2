@@ -2,7 +2,7 @@
 title = "Power Tempest [pDPS]"
 description = "Simple, step based rotation with most of your damage in Air Attunement"
 date = 2024-06-30
-updated = 2025-12-14
+updated = 2025-11-14
 draft = false
 template = "build.html"
 

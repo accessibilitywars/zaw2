@@ -1,7 +1,7 @@
 +++
 title = "Power Troubadour [pDPS]"
 description = "Melee based Power build with high burst damage"
-date = 2025-12-12
+date = 2025-11-12
 draft = false
 template = "build.html"
 
