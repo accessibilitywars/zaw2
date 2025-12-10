@@ -39,12 +39,13 @@
         {%- if page.components is not containing("hidden") %}
           <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
 	  {%- if page.extra.benchmark %} - {{ page.extra.benchmark }}{%- endif -%}
-	  {%- if page.extra.apm %} - {{ page.extra.apm }}&nbsp;APM{%- endif %}
-	  - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+	  {%- if page.extra.apm %} - {{ page.extra.apm }}&nbsp;APM{%- endif %} - {% if page.updated -%}
+                <time datetime="{{ page.updated }}">{{ page.updated | date(format="%F") }}</time> (U)</p>
+            {%- else -%}
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+            {%- endif -%}
         {%- endif -%}
       {%- endfor %}
       {%- endfor %}
     </div>
 {%- endblock content %}
-
-

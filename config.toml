@@ -99,7 +99,7 @@ menu = [
     {url = "tags", name = "Builds", slash = true, blank = false, size="s150", submenu = [	
 		{url = "specs", name = "... by Profession", slash = true, blank = false, size="s120"},
 		{url = "tags", name = "... by Tag", slash = true, blank = false, size="s120"},
-		{url = "archive", name = "... by Date", slash = true, blank = false, size="s120"},
+#		{url = "archive", name = "... by Date", slash = true, blank = false, size="s120"},
 		{url = "categories", name = "... by Mode", slash = true, blank = false, size="s120"},
 		{url = "balance", name = "... by Balance", slash = true, blank = false, size="s120"},
 	]},

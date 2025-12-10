@@ -24,7 +24,11 @@
       <h3>{{ year }}</h3>
       {%- for page in posts %}
       {%- if page.components is not containing("hidden") %}
-        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+        <p><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - {% if page.updated -%}
+                <time datetime="{{ page.updated }}">{{ page.updated | date(format="%F") }}</time> (U)</p>
+            {%- else -%}
+                <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+            {%- endif -%}
       {%- endif -%}
       {%- endfor %}
       {%- endfor %}

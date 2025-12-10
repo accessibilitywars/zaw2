@@ -35,9 +35,14 @@
       </div>
       {%- for term in filtered_terms %}
       <h2 id="{{ term.name }}"><img style="height: 1em;" src="/images/icons/{{ term.name }}.png"/>&nbsp;<a href="{{ term.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ term.name }}</a></h2>
+      {#%- for page in term.pages | filter(attribute="updated") | sort(attribute="updated") | reverse %#}
       {%- for page in term.pages %}
         {%- if page.components is not containing("hidden") %}
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - {% if page.updated -%}
+		<time datetime="{{ page.updated }}">{{ page.updated | date(format="%F") }}</time> (U)</p>
+	    {%- else -%}
+		<time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time></p>
+            {%- endif -%}
         {%- endif -%}
       {%- endfor %}
       {%- endfor %}
