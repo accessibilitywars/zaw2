@@ -11,5 +11,5 @@ echo "Updating $OLD to $NEW..."
 
 for i in `grep -l "$OLD" content/builds/*.md`; do
 	echo "... $i"
-	sed -i "s/$OLD/$NEW/" $i
+	sed -i "s/balance = \"$OLD\"/balance = \"$NEW\"/" $i
 done
