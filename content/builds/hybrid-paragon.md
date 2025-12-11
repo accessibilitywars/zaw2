@@ -65,7 +65,7 @@ This build has a lot of auto attacks.
 - Food: {{ item(id="43550", name="Dragon's Revelry Starcake") }} (Budget)
 - Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
 - Better (prohibitively expensive) enhancements are available
-    * {{ item(id="106880", name="Snow Diamond Ornament") }}
+    * **Snow Diamond Ornament**
     * {{ item(id="72510", name="Writ of Masterful Malice") }}
     * {{ item(id="76833", name="Writ of Masterful Accuracy") }}
 <br/>
