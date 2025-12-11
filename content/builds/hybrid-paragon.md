@@ -1,5 +1,5 @@
 +++
-title = "Grieving Blademaster [DPS]"
+title = "Dual Blademaster [DPS]"
 description = "Auto-Attack Hybrid Paragon"
 date = 2025-11-02
 draft = false
@@ -16,54 +16,71 @@ series = "warrior"
 tagline = "I am the bone of my sword."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2025-11"
-benchmark = "37k DPS"
+balance = "2025-12"
+benchmark = "38.6k DPS"
 apm = "26"
-log = "https://dps.report/kq1M-20251101-011803_golem"
+log = "https://dps.report/dnK9-20251212-022925_golem"
 +++
 
 
 ## Notes
 ---
 
-This is a build which uses mostly Grieving gear and hybrid traits to maximise the sword's physical prowress and bleeding capabilities. 
+This is a build which uses mostly Vipers and Grieving gear to maximise the dual swords' physical prowress and bleeding capabilities. 
 
 This build has a lot of auto attacks.
 
 ## Gearing
 ---
 
+{{ heavy(
+	head="Viper's",
+	shoulders="Grieving",
+	chest="Viper's",
+	arms="Viper's",
+	legs="Viper's",
+	feet="Viper's",
+	rune="Trapper") }}
+
 | Equipment     | Stat          | Rune/Sigil              |
 | ------------- | ------------- | ----------------------- |
-| Hvy Armor     | Grieving      | {{ item(id="24762") }}  |
 | Sword (MH)    | Viper's       | {{ item(id="48911") }}  |
-| Sword (OH)    | Grieving      | {{ item(id="24560") }}  |
-| All Trinkets  | Grieving      | N/A 					  |
+| Sword (OH)    | Viper's       | {{ item(id="24560") }}  |
+| All Trinkets  | Viper's       | N/A 					  |
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
+| Relic	(DPS)   | N/A           | Relic of the Thorn      |
 | Relic	(Sust)  | N/A           | Relic of the Biomancer  |
+| Relic	(Sust)  | N/A           | Relic of the Mistfire   |
 <br/>
 
 #### Optional weapon sets
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
-| Mace (OH)     | Grieving      | {{ item(id="24560") }}  |
-| Dagger (OH)   | Grieving      | {{ item(id="24560") }}  |
+| Mace (OH)     | Viper's       | {{ item(id="24560") }}  |
+| Dagger (OH)   | Viper's       | {{ item(id="24560") }}  |
 <br/>
 
 #### Food, Enhancement
-- Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }}
+- Food: {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }}
+- Food: {{ item(id="43550", name="Dragon's Revelry Starcake") }} (Budget)
 - Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
+- Better (prohibitively expensive) enhancements are available
+    * {{ item(id="106880", name="Snow Diamond Ornament") }}
+    * {{ item(id="72510", name="Writ of Masterful Malice") }}
+    * {{ item(id="76833", name="Writ of Masterful Accuracy") }}
 <br/>
 
 #### Infusions
-- {{ item(id="87218") }} (1-2) may be used to hit max bleed duration (recommended)
-- {{ item(id="43253") }} can be used for all other empty slots (optional)
+- {{ item(id="43253") }} can be used for all empty slots (optional)
 <br/>
 
 ## Build
 ---
 
-[DPS Group Content](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmhAxGt03lRcFQupgPHDChgSGwpFu8XTKOrgVA-e)<br/>
+An alternate set (more Grieving pieces and Krait Runes) is also available and may provide a faster competitive ramp when using Relic of Thorns and other sustain relics.
+[Viper's Variant](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmRL1PbIBnRcKgclCK8YQACXL8amwZFsC-e)<br/>
+[Grieving Variant](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmhAxGt03lRcFQupgPHDChgSGwpFu8XTKOrgVA-e)<br/>
+<br/>
 {{ chatlink(code="[&DQIEHyQ+SiWmAAAAswAAAK8AAACpAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ## Rotation
@@ -75,7 +92,7 @@ This build has a lot of auto attacks.
 > 1. {{ skill(id="14402") }}
 > 
 > - <small>None of these skills will trigger the boss fight, and you can perpetually keep refreshing signet until the fight begins.</small>
-> - <small>{{ skill(id="14410") }} and {{ skill(id="14402") }} provide adrenaline so use it just before the fight starts.</small>
+> - <small>{{ skill(id="14410") }} and {{ skill(id="14402") }} provide adrenaline so you may use them in between fight phases or as part of your opener</small>
 
 #### Skill Priority
 Use the following off-cooldown
@@ -99,13 +116,14 @@ This build has very poor CC options and you may bring additional CC by sacrifici
 #### Sustain in Open World
 > 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
 > 2. Use **Relic of the Biomancer** for baseline healing
-> 3. Use {{ skill(id="76562") }} in emergencies
+> 3. Use **Relic of the Mistfire** for life siphon and additional damage
+> 4. Use {{ skill(id="76562") }} in emergencies
+> 5. Use {{ skill(id="14413") }} for stability
 
 ## Video
 ---
+{{ youtube(id="Zp68hj-ziBA") }}
 
-{{ youtube(id="qwOJRFs9s1c") }}
-
-> - This bench was performed with 2 expertise infusions and missing most of the other infusions.
-> - This bench is not grinded and you may be able to surpass this number up to 38k.
-> - The complexity and damage ceiling of this build is low, so do not expect a much higher performance above 39k DPS. 
+> - This bench was performed without infusions
+> - This bench is not grinded and you should easily be able to surpass 40k by optimising utilities, RNG procs and cancelling less autos. 
+> - The complexity and damage ceiling of this build is low, so do not expect a much higher performance above 42k DPS. 
