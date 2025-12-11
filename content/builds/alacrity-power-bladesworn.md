@@ -32,7 +32,7 @@ You may use any combination of Berserker's, Assassin's or Marauder's stats but k
 	back="Berserker's",
 	accessory1="Assassin's",
 	accessory2="Berserker's",
-	ring1="Berserker's",
+	ring1="Assassin's",
 	ring2="Berserker's",
 	amulet="Berserker's",
 	relic="Peitha") }}
