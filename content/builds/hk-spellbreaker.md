@@ -26,7 +26,7 @@ This is a specialized build, intended for use in the final fight of Raid Wing 4 
 {{ heavy(stat="Harrier's", rune="Rebirth") }}
 {{ mace_main(stat="Minstrel's", sigil="Transference") }}
 {{ sword_off(stat="Minstrel's", sigil="Concentration") }}
-{{ staff(stat="Minstrel's", sigils="Transference,Concentration") }}
+{{ staff(stat="Minstrel's", sigils=["Transference", "Concentration"]) }}
 {{ trinkets(stat="Harrier's", relic="Defender") }}
 
 #### Gear Alternatives
