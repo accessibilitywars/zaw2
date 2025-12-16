@@ -23,10 +23,10 @@ This is a specialized build, intended for use in the final fight of Raid Wing 4 
 
 
 ## Gearing
-{{ heavy(stat="Harrier's", rune="Rebirth") }}
-{{ mace_main(stat="Minstrel's", sigil="Transference") }}
-{{ sword_off(stat="Minstrel's", sigil="Concentration") }}
-{{ staff(stat="Minstrel's", sigils=["Transference", "Concentration"]) }}
+{{ heavy(stat="Minstrel's", rune="Rebirth") }}
+{{ mace_main(stat="Harrier's", sigil="Transference") }}
+{{ sword_off(stat="Harrier's", sigil="Concentration") }}
+{{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
 {{ trinkets(stat="Harrier's", relic="Defender") }}
 
 #### Gear Alternatives
@@ -67,7 +67,7 @@ Using food/enhancements for handkiting is optional. If you decide to do so, choo
 ## Build
 
 ---
-[GW2Skills Loadout](https://gw2skills.net/editor/?PKwAkyZlNw8YIMLWJeqSuPVA-DSRYjRHoG+zIVFQ1SALeIgl+3sgKA-e) <br/><br/>
+[GW2Skills Loadout](https://gw2skills.net/editor/?PKwAkyZlNw8YIMLWJeqSuPVA-DSRYjhpGd4DJVFQ1yg0FC29QAL9vZBVA-e) <br/><br/>
 {{ chatlink(code="[&DQIWFTM2PSopD6cArQGtAAoArwCzAAAAnADuAAAAAAAAAAAAAAAAAAAAAAADWQA1AFoAAA==]") }}<br/>
 
 Because of the upcoming changes (Jan 2026) to Fast Hands, I have used the defense traitline. The build can also run on Discipline/Tactics or Discipline/Defense, with compromises.
