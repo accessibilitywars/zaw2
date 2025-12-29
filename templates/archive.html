@@ -72,13 +72,7 @@ This Template can also be used as the rendering template for Sections, eg: examp
         <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>
 		{%- if post.extra.benchmark %} - {{ post.extra.benchmark }}{%- endif -%}
 		{%- if post.extra.apm %} - {{ post.extra.apm }}&nbsp;APM{%- endif -%}
-		{%- if not hide_section_dates %} - 
-		  {%- if post.updated -%}
-                    <time datetime="{{ post.updated }}">{{ post.updated | date(format="%F") }}</time>
-                  {%- else -%}
-                    <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>
-                  {%- endif -%}
-		{%- endif %}</p>
+		{%- if not hide_section_dates %} - {{ aw_macros::updated_date(page=post) }} {%- endif %}</p>
       {%- endif -%}
       {%- endfor %}
       {%- endfor %}
@@ -96,12 +90,7 @@ This Template can also be used as the rendering template for Sections, eg: examp
 		  <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>
 		  {%- if post.extra.benchmark %} - {{ post.extra.benchmark }}{%- endif -%}
 		  {%- if post.extra.apm %} - {{ post.extra.apm }}&nbsp;APM{%- endif -%}
-		  {%- if not hide_section_dates %} - {% if post.updated -%}
-                      <time datetime="{{ post.updated }}">{{ post.updated | date(format="%F") }}</time> (U)
-                    {%- else -%}
-                      <time datetime="{{ post.date }}">{{ post.date | date(format="%F") }}</time>
-                    {%- endif -%}
-                  {%- endif %}</p>
+		  {%- if not hide_section_dates %} - {{ aw_macros::updated_date(page=post) }}{%- endif %}</p>
 	  {%- endif -%}
       {%- endfor %}
       {%- endfor %}
