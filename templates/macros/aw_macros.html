@@ -199,6 +199,7 @@
               {%- if page.taxonomies.tags is containing("eod") -%}{%- set req = req | concat(with="END OF DRAGONS") -%}{%- endif -%}
               {%- if page.taxonomies.tags is containing("soto") -%}{%- set req = req | concat(with="SECRETS OF THE OBSCURE") -%}{% endif -%}
               {%- if page.taxonomies.tags is containing("jw") -%}{%- set req = req | concat(with="JANTHIR WILDS") -%}{%- endif -%}
+              {%- if page.taxonomies.tags is containing("voe") -%}{%- set req = req | concat(with="VISIONS OF ETERNITY") -%}{%- endif -%}
             {%- if req | length > 0 -%}
               <div>
                 This build requires: {{ req | join(sep=", ") }}
