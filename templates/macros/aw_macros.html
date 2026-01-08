@@ -66,11 +66,11 @@
 {%- macro balance_index(page, config) %}
   {%- if page.extra.balance %}
     {%- if page.extra.balance == config.extra.balance %}
-      <span style="color: LightGreen; text-align: right;">&nbsp;Balance: {{ page.extra.balance }}&nbsp;</span>
+      <span style="color: LightGreen; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
     {%- elif page.extra.balance == config.extra.prev_balance %}
-      <span style="color: Black; background-color: Gold; text-align: right;">&nbsp;Balance: {{ page.extra.balance }}&nbsp;</span>
+      <span style="color: Black; background-color: Gold; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
     {%- else %}
-      <span style="color: White; background-color: Crimson; text-align: right;">&nbsp;Balance: {{ page.extra.balance }}&nbsp;</span>
+      <span style="color: White; background-color: Crimson; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
     {%- endif %}
   {%- endif %}
 {%- endmacro balance_index %}
