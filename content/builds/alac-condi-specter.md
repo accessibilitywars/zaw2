@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
-balance = "2025-12"
+balance = "2026-01"
 benchmark = "30k DPS"
 +++
 

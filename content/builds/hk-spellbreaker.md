@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "Go with the flow... if you can't groove to this, then you probably are dead!"
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "2025-12"
+balance = "2026-01"
 +++
 
 This is a specialized build, intended for use in the final fight of Raid Wing 4 (Deimos). This build can be made comfortable and yet retains a high skill ceiling to allow the hand kiter to contribute to the team from far. 
