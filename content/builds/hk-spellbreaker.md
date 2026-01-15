@@ -2,6 +2,7 @@
 title = "Hand Break [HK]"
 description = "You can't touch this... Break it down!"
 date = 2025-12-16
+updated = 2026-01-15
 draft = false
 template = "build.html"
 
@@ -141,11 +142,10 @@ You may choose to use and of the following blocks, easiest executions with the m
 | {{ skill(id="14507") }} | Blocks only 1 attack, Main-hand     |
 | {{ skill(id="14362") }} | Long Cooldown, Off-hand             |
 | {{ skill(id="14400") }} | Blocks only 1 attack, Off-hand      |
-| {{ skill(id="71975") }} | Removed in next update, Two-handed  |
-
 
 > - <small>If you find yourself struggling with a rotation, Endure pain has no cast time and may be used either as a backup or for mind-crush.</small>
 > - <small>You can mix and match these skills to create your own combos if you are creative.</small>
+> - <small>Bullet catcher was removed in the latest update</small>
 
 ###### Precast/optimising blocks
 
@@ -181,3 +181,5 @@ Position yourself just slightly off-mid on the arena. This allows you to survive
 ## Video
 ---
 {{ youtube(id="JVflCnj3-xs") }}
+
+This video used Bullet Catcher which has been removed from the game. there are alternative skills to mitigate hands which are described above. 
