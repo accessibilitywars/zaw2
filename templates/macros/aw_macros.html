@@ -63,6 +63,26 @@
 		</h1>
 {%- endmacro title_index %}
 
+{%- macro balance_index(page, config) %}
+  {%- if page.extra.balance %}
+    {%- if page.extra.balance == config.extra.balance %}
+      <span style="color: LightGreen; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
+    {%- elif page.extra.balance == config.extra.prev_balance %}
+      <span style="color: Black; background-color: Gold; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
+    {%- else %}
+      <span style="color: White; background-color: Crimson; text-align: right;">&nbsp;Balance:&nbsp;{{ page.extra.balance }}&nbsp;</span>
+    {%- endif %}
+  {%- endif %}
+{%- endmacro balance_index %}
+
+{%- macro updated_date(page) %}
+  {% if page.updated -%}
+    <time datetime="{{ page.updated }}">{{ page.updated | date(format="%F") }}</time>
+  {%- else -%}
+    <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time>
+  {%- endif -%}
+{%- endmacro updated_or_date %}
+
 {%- macro series_link(inner, page, config) %}
 {%- set uglyurls = config.extra.uglyurls | default(value=false) -%}
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
@@ -179,6 +199,7 @@
               {%- if page.taxonomies.tags is containing("eod") -%}{%- set req = req | concat(with="END OF DRAGONS") -%}{%- endif -%}
               {%- if page.taxonomies.tags is containing("soto") -%}{%- set req = req | concat(with="SECRETS OF THE OBSCURE") -%}{% endif -%}
               {%- if page.taxonomies.tags is containing("jw") -%}{%- set req = req | concat(with="JANTHIR WILDS") -%}{%- endif -%}
+              {%- if page.taxonomies.tags is containing("voe") -%}{%- set req = req | concat(with="VISIONS OF ETERNITY") -%}{%- endif -%}
             {%- if req | length > 0 -%}
               <div>
                 This build requires: {{ req | join(sep=", ") }}

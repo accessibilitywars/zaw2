@@ -7,7 +7,7 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-categories = ["group, solo"]
+categories = ["group","solo"]
 tags = ["hammer","power","ranger","untamed","eod","quickness","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["untamed", "ranger"]
@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "If you only have a hammer, every problem is a nail. – Abraham Maslow"
 keywords = "Guild Wars 2, GW2, LI, untamed"
 toc = true
-balance = "2025-12"
+balance = "2026-01"
 benchmark = "28k DPS"
 +++
 
