@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "Time heals all wounds."
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2025-12"
+balance = "2026-01"
 +++
 
 
@@ -69,7 +69,8 @@ The methods of executing your opener is non-exhaustive and you will find new way
 An example opener would be 
 1. F5 {{ skill(id="30643") }} 
 2. F1-F4 All your shatter skills
-3. With clones, you may be able to double cast {{ skill(id="30643") }} (Shield 5) which translates to faster stacking of might stacks. 
+3. {{ skill(id="30643") }} (Shield 5) which translates to faster stacking of might stacks. Double cast if possible. 
+
 The above is used due to easy execution, instant alacrity/quickness and early might, fury, protection, resistance, stability, regeneration and vigor.
 
 #### Principles of generating Alacrity/Quickness
@@ -77,11 +78,11 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 2. Use shatter skills when clones are full to heal allies and grant alacrity/quickness.
 3. Using Phantasm skills from your weapon skills and utilties also generate a significant amount of alacrity/quickness.
 
-> 1. <small>In an experienced group, assuming you have a herald, players who avoid damage and are expert at mechanics, these two steps are the core foundation of your build.</small>
-> 1. <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains. Nobody actually watches the chain but you know you need to auto when your clones are not coming.</small>
+> 1. <small>These three steps are the core foundation of your build.</small>
+> 1. <small>Your last attack on the auto chain generates clones so you won't have enough quickness if you don't finish the auto chains.
 > 1. <small>The rotation for quickness and alacrity is the same.</small>
 > 1. <small>You need to reserve backup when you can't generate clones or give boons. That's what the utilities are for.</small>
-> 1. <small>Phantasms generate more alacrity than clones, it will be good to bring at least 1-2.</small>
+> 1. <small>Phantasms generate more alacrity than clones, it will be good to bring at least 1-2 from weapon skills or utilities.</small>
 
 
 #### Maintenance Heals
@@ -143,4 +144,4 @@ Other utilities and trait combos
 15. W7 Sabir - With clever use of {{ skill(id="29830") }}, you can generate enough CC to break the bar during the 'coordinated' phase.
 16. W7 Adina - Tank on the grass. Just alternating your three blocks is enough. {{ skill(id="10302") }} can be duplicated with {{ skill(id="29830") }} and {{ skill(id="29578") }}. For most groups, a 4th projectile block is not required but in case your options are exhausted, {{ skill(id="10282") }}. {{ skill(id="10186") }} (Focus 4) may fail to block projectiles due to height limitations and you will need to sacrifice a trait.
 17. W7 QtP - You will be tanking this fight.
-18. W8 Greer - A reflection variant of this build makes this fight much easier. 
+18. W8 Greer - A reflection variant of this build makes this fight much easier.

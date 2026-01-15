@@ -2,13 +2,13 @@
 title = "Barbed Arrows [cDPS]"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
 date = 2024-04-16
-updated = 2025-10-11
+updated = 2026-01-15
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo","group"]
-tags = ["shortbow","longbow","sword","condi","ranger","soulbeast","hot","pof","lowcog","lowrep"]
+tags = ["shortbow","condi","ranger","soulbeast","hot","pof","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["soulbeast", "ranger"]
 
@@ -132,6 +132,7 @@ Stay merged at all times.
 7. W5 Dhuum - Use {{ skill(id="12517") }} during the suck phase.
 8. W6 This build is excellent on Twin Largos as it is.
 9. This build can be used to pylon kite. Camp shortbow with Juvenile Hawk. Switch to sword. You movement skills are {{ skill(id="12521") }} (catch) and {{ skill(id="44991") }}(return). Take note that unlike other kiting classes, your return skill cannot survive dashing through fires.
+10. This build can provide good range damage on Decima and excellent on-demand CC.
 
 ## Videos
 I have benched the build with no infusions. Budget food and budget utilities were used.

@@ -2,7 +2,7 @@
 title = "Symbolic Dragonhammer [pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing stability, crowd control and condi cleanses."
 date = 2024-04-02
-updated = 2025-11-21
+updated = 2026-01-15
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2025-12"
-benchmark = "31.6k DPS"
+balance = "2026-01"
+benchmark = "33k DPS"
 log = "https://dps.report/uHvG-20251120-132403_golem"
 +++
 
@@ -58,7 +58,7 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 2. Scepter/Focus - Provides a decent immobilise option with some ranged DPS.
 
 Optimised Marauder/Assassin's Loadout
-[GW2Skills Link](http://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)
+[GW2Skills Link](https://gw2skills.net/editor/?PWQAIlJw8YNsJ2JO0TttVA-DSRYbRB1GvYIpGKjIKgKSAb/BEAB2A5fqAaowZEoC-e)
 
 > <small>_This requires 1 +5 precise infusion, power infusions are optional_</small>
 
@@ -127,7 +127,7 @@ A few examples where this advantage can be used are:
 ## Videos
 I have benched the build with mostly Assassin's and a handful Marauders Gear and food/utilities. 1 precise infusion is used to hit the 75% critical sweetspot. No infusions were included which can easily punch your DPS to 32k.
 
-#### DPS benchmark (31.6k)
-{{ youtube(id="Nb3SM507nQg") }}
+#### DPS benchmark (33k)
+Latest Video Coming soon
 <br/>
 > <small>_{{ skill(id="30273") }} will start the encounter early. {{ skill(id="30461") }} is brought for the benchmark instead. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) because it has a long precast and a short aftercast. _</small>
