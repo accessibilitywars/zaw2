@@ -32,7 +32,7 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 
 {{ heavy(
 	head="Berserker's",
-	shoulders="Berserker",
+	shoulders="Berserker's",
 	chest="Berserker's",
 	arms="Berserker's",
 	legs="Berserker's",
