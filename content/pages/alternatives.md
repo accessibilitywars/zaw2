@@ -55,6 +55,10 @@ Video guides for easier builds. Some of these builds are also featured on Access
 
 Video guides for Instanced PvE, Open World and help with rotations
 
+#### [Nick the Infamous](https://www.youtube.com/@NickTheInfamous)
+
+Video guides for Low Intensity Instanced PvE
+
 #### [MrMystic (YouTube)](https://www.youtube.com/c/MrMystic1)
 
 Video guides, open world and PvE builds. Some solo stuff too.
