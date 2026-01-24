@@ -67,9 +67,10 @@ The methods of executing your opener is non-exhaustive and you will find new way
 4. Provide boons that are missing from the subgroup.
 
 An example opener would be 
-1. F5 {{ skill(id="30643") }} 
-2. F1-F4 All your shatter skills
-3. {{ skill(id="30643") }} (Shield 5) which translates to faster stacking of might stacks. Double cast if possible. 
+1. {{ skill(id="29830") }} F5
+2. {{ skill(id="30643") }} (Shield 5) 
+3. F1-F4 All your shatter skills
+4. {{ skill(id="30643") }} (Shield 5)
 
 The above is used due to easy execution, instant alacrity/quickness and early might, fury, protection, resistance, stability, regeneration and vigor.
 
@@ -101,15 +102,16 @@ The above is used due to easy execution, instant alacrity/quickness and early mi
 #### Crowd Control
 1. You have decent CC by just using {{ skill(id="30643") }} (Shield 5). 
 2. {{ skill(id="10287") }} (Shatter F3) provides a small CC.
-3. You can bring {{ skill(id="29519") }} (Elite) for a mega CC.
-4. You can bring {{ skill(id="30359") }} (Elite) for a sizeable CC with other beneficial effects.
+3. {{ skill(id="29519") }} (Elite) for a mega CC.
+4. {{ skill(id="30359") }} (Elite) for a sizeable CC with other beneficial effects.
+5. {{ skill(id="29830") }} can double cast some of your CC skills.
 
 #### Tanking Rotation
-1. Cycle between your blocks
+1. Cycle between your blocks when receiving heavy attacks
     - {{ skill(id="10276") }}
     - {{ skill(id="30769") }} -> {{ skill(id="29649") }}
     - {{ skill(id="29526") }}
-2. Group Aegis can also be used but reserve it when it is absolutely required. 
+2. Other sources of group aegis can also be used but reserve it when it is absolutely required.
 
 Other utilities and trait combos
 1. Bring {{ skill(id="10267") }} / {{ skill(id="10185") }} for boon strips. 
@@ -133,7 +135,7 @@ Other utilities and trait combos
 7. W3 Twisted Castle - You may wish to attempt the button with the statues (left split). In this case after the double doors, use {{ skill(id="30769") }} immediately after entering and face them as they will throw hammers, then {{ skill(id="10200") }} to the next button. More skips can be done with an elementalist pair combo using Fiery Greatsword and clever use of portals and blink.
 8. W3 Xera - You are likely to tank this fight. This fight is mostly based on positioning. {{ skill(id="10363") }} (Focus Pull 4) is useful when tanking as it allows your team to cleave them more easily. 
 9. W4 Cairn - Stability is required for skipping greens. Bring {{ skill(id="29526") }} and {{ skill(id="10237") }}.
-10. W4 Mursaat Overseer - Improved alacrity will allow you to claim tiles faster than other class. Using {{ skill(id="29830") }} to duplicate Claim will allow you to claim tiles even faster, especially useful in CM. 
+10. W4 Mursaat Overseer - Improved alacrity will allow you to claim tiles faster than other class. Using {{ skill(id="29830") }} to duplicate Claim will allow you to claim tiles even faster.
 11. W4 Samarog - Try to bait as tank as much as possible. You can pre-cast your CC such as {{ skill(id="30643") }} (Shield 5) before he pins you down (health bar indicator).
 12. W4 Deimos - Group Aegis is useful on CM. I prefer to Group Aegis before casting a Channeled block. You can also use manipulations for group aegis.
 13. W5 Soulless Horror - You will be tanking this fight and would definitely appreciate the added toughness. Bring {{ skill(id="29519") }} for this fight for the additional CC. {{ skill(id="29830") }} has killed many Chrono Tanks in this fight so spatial awareness is important. 
@@ -143,5 +145,5 @@ Other utilities and trait combos
 14. W6 Qadim - You have lots of CC options, some of which can be pre-casted for the mini bosses. You will need to tank one of the wyverns. Most of the time you will be bringing {{ skill(id="10197") }} for the split phase and jumping puzzle. 
 15. W7 Sabir - With clever use of {{ skill(id="29830") }}, you can generate enough CC to break the bar during the 'coordinated' phase.
 16. W7 Adina - Tank on the grass. Just alternating your three blocks is enough. {{ skill(id="10302") }} can be duplicated with {{ skill(id="29830") }} and {{ skill(id="29578") }}. For most groups, a 4th projectile block is not required but in case your options are exhausted, {{ skill(id="10282") }}. {{ skill(id="10186") }} (Focus 4) may fail to block projectiles due to height limitations and you will need to sacrifice a trait.
-17. W7 QtP - You will be tanking this fight.
+17. W7 QtP - You will be tanking this fight. Your timely channelled blocks are extrely useful to bypass attacks.
 18. W8 Greer - A reflection variant of this build makes this fight much easier.
