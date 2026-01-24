@@ -38,8 +38,7 @@
       {#%- for page in term.pages | filter(attribute="updated") | sort(attribute="updated") | reverse %#}
       {%- for page in term.pages %}
         {%- if page.components is not containing("hidden") %}
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a> - {{ aw_macros::updated_date(page=page) }}
-            {{- aw_macros::balance_index(page=page, config=config) }}
+		  {{- aw_macros::icon_index(page=page, config=config) }}
         {%- endif -%}
       {%- endfor %}
       {%- endfor %}
