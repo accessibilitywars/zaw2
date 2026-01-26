@@ -60,14 +60,16 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 2. Auto Attack with minimal interruptions, using {{ skill(id="9084") }} can provide the group with permanent swiftness without interrupting your autos. 
 3. Use {{ skill(id="62603") }} (F2) on cooldown, afterwards use {{ skill(id="62668") }} (F1)/{{ skill(id="62648") }} (F3) to reposition. 
 4. Use {{ skill(id="9153") }} when you require stability. 
+5. Burst Heal Spear rotation for Fury (Refer to Burst Heal Section)
 
 > <small>*The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!*</small>
+> <small>*You may skip the spear rotation and take {{ skill(id="29965") }} instead.*</small>
 
 #### Burst Heals and Revives
 1. Use {{ skill(id="53482") }} (Hammer 2) for burst heals (due to Relic of Karakosa). You may refresh this skill using {{ skill(id="9124") }} (Hammer 4).
 2. Use {{ skill(id="9083") }} for a burst heal.
 3. Use {{ skill(id="9163") }} as an emergency revive.
-4. Weapon swap to spear
+4. Swap to spear ->5,4,3,2,1:
     1. {{ skill(id="73132") }}(Spear 5)
     2. {{ skill(id="73094") }}(Spear 4)
     3. {{ skill(id="72978") }}(Spear 3)
