@@ -2,7 +2,7 @@
 title = "Symbolic Core Avenger[pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing group utilities, crowd control and condi cleanses."
 date = 2023-07-29
-updated = 2026-01-15
+updated = 2026-01-26
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "guardian"
 tagline = "Auto-Attack Core Guardian"
 keywords = "Guild Wars 2, GW2, LI, core, guardian"
 toc = true
-balance = "2025-12"
-benchmark = "31k DPS"
+balance = "2026-01"
+benchmark = "30k DPS"
 +++
 
 The purpose of writing this guide is to provide an ultra low intensity method to play PvE Core Guardian while easily hitting the 70% benchmark with minimal effort. This is a Core Guardian variant which provides more selfless support. This build is low cognition, low physical complexity but has somewhat repetitive (spamming virtues) requirement due to its dependency on resolution uptime. It remains a very strong contender (and sometimes superior to DH) and provides an alternative to players without access to Dragonhunter.
@@ -55,7 +55,6 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 
 Optimised Loadout
 [GW2Skills Link](https://gw2skills.net/editor/?PWgAINlJwmYUMM2JO0L+raA-DSRYBhgMHV07lRtVQFpgt/AohCzAgKA-e)
-
 
 #### Food
 - {{ item(id="91805") }} OR
