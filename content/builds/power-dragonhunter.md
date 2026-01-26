@@ -2,7 +2,7 @@
 title = "Symbolic Dragonhammer [pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing stability, crowd control and condi cleanses."
 date = 2024-04-02
-updated = 2026-01-15
+updated = 2026-01-27
 draft = false
 template = "build.html"
 
