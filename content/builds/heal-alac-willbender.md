@@ -64,6 +64,7 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 
 > <small>*The importance of your auto attacks cannot be emphasized enough. Your auto attacks heal, provide alacrity, regeneration, might and protection and a field to trigger Relic of Karakosa with!*</small>
 > <small>*You may skip the spear rotation and take {{ skill(id="29965") }} instead.*</small>
+> <small>*Some boon DPS classes provide additional fury uptime, freeing your spear rotation for burst healing.*</small>
 
 #### Burst Heals and Revives
 1. Use {{ skill(id="53482") }} (Hammer 2) for burst heals (due to Relic of Karakosa). You may refresh this skill using {{ skill(id="9124") }} (Hammer 4).
