@@ -45,8 +45,8 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 	back="Berserker's",
 	accessory1="Marauder",
 	accessory2="Assassin's",
-	ring1="Assassin's",
-	ring2="Assassin's",
+	ring1="Berserker's",
+	ring2="Berserker's",
 	amulet="Marauder",
 	relic="Mistburn") }}
 
