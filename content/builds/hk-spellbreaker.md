@@ -147,9 +147,10 @@ You may choose to use and of the following blocks, easiest executions with the m
 > - <small>You can mix and match these skills to create your own combos if you are creative.</small>
 > - <small>Bullet catcher was removed in the latest update</small>
 
-###### Precast/optimising blocks
-
 --- 
+
+#### Precast/optimising blocks
+
 You can precast Aegis as a block to reserve health:
 > 1. {{ skill(id="14528") }}
 > 2. {{ skill(id="71860") }}
