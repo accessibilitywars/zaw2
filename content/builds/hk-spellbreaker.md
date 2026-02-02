@@ -65,13 +65,14 @@ Using food/enhancements for handkiting is optional. If you decide to do so, choo
 > - {{ item(name="Bountiful Maintenance Oil") }}
 > - {{ item(name="Holographic Super Drumstick") }}
 
+---
+
 ## Build
 
----
 [GW2Skills Loadout](https://gw2skills.net/editor/?PKwAkyZlNw8YIMLWJeqSuPVA-DSRYjhpGd4DJVFQ1yg0FC29QAL9vZBVA-e) <br/><br/>
-{{ chatlink(code="[&DQIWFTM2PSopD6cArQGtAAoArwCzAAAAnADuAAAAAAAAAAAAAAAAAAAAAAADWQA1AFoAAA==]") }}<br/>
+{{ chatlink(code="[&DQIWFQsuPSopDwAArQEAAAoAAACzAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}<br/>
 
-Because of the upcoming changes (Jan 2026) to Fast Hands, I have used the defense traitline. The build can also run on Discipline/Tactics or Discipline/Defense, with compromises.
+Because of the Jan 2026 changes to Fast Hands, I have used the Defense/Tactics traitline. The build can also run on Discipline/Tactics or Discipline/Defense, with compromises.
 
 ## Handkiting 101
 
@@ -82,9 +83,9 @@ In an ideal world, you will want to stack 5 hands in the same spot. But we will 
 
 This guide assumes that basic encounter knowledge is present. If you don't you may refer to the video at the end of the guide.
 
+---
 ## Pre-Phase
-
---- 
+ 
 
 #### Greens
 
@@ -112,9 +113,9 @@ Use the early phase to seek out prides but be careful not to daze them as it can
 ---
 Once the prephase is over, Deimos will start spawning hands. 
 
-The above mechanics will continue into the main fight. Greens specifically occur at 75%, 50% and 25% of Deimos's health. This phase lasts till Deimos's health drops to 10%.
+The above mechanics will continue into the main fight. Greens specifically occur at 75%, 50% and 25% of Deimos's health. If the group goes down for greens, you may have to deal with oils depending on whether the group has assigned an oil-kiter. The main fight lasts till Deimos's health drops to 10%.
 
-Prides will also spawn in the later phases of the fight, of which the first two ranged cripple/immobilise above will be more applicable. 
+Prides will also spawn in the later phases of the fight, of which ranged cripple/immobilise used during the pre-phase will increase the odds of success of the team. 
 
 
 #### Hands
@@ -127,7 +128,7 @@ The general idea of the rotation is to do the following:
 > 2. {{ skill(id="44165") }}
 > 3. Move/roll to the side and heal up
 
-Many of the blocks are not needed to survive but provide additional insurance. At the very minimum you should aim to have 1 channeled block, finished by a full-counter. 
+Many of the blocks are not needed to survive but provide additional insurance. At the very minimum you should aim to have 1 channeled block, finished by a full-counter.
 
 ###### Channeled blocks
 
