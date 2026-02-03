@@ -51,10 +51,10 @@ It also has multiple CC options and decent boon strips, making it situationally 
 > 2.  <small>This buid is severely over-capped on precision and will function even without signet of fury. (see auto-attack rotation)</small>
 
 ## Build
-{{ chatlink(code="[&DQIEHyQ2PT1wAKcAswAAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQIEHyQ2PT1wAKcAogEAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 --- 
-[GW2 Skills Link](https://gw2skills.net/editor/?PKABgehnlZkwsYTMKWJO+K2veA-DSIYR0zXItFD1mAVUA2uAEwe4BA-e)
+[GW2 Skills Link](https://gw2skills.net/editor/?PKABgehnlZkwOYTMKWJO+K2veA-DSIYR0zXItFD1mAVUA2uAEwe4BA-e)
 
 --- 
 
@@ -64,7 +64,9 @@ It also has multiple CC options and decent boon strips, making it situationally 
 
 The primary focus of this build is to understand how your DPS buffs accumulates and introduces a simplified approach towards a more complex rotation that squeezes out a few thousand more DPS. 
 
+--- 
 #### Simplified Auto-Attack Rotation (35k DPS, 21 APM)
+--- 
 
 It is crucial to master the Auto Attack Rotation before learning the harder rotation. This requires ONLY DAGGER and the weapon on the off-hand is only for display or for extra utility/CC (Mace/Axe/Sword/Dagger).
 
@@ -95,7 +97,9 @@ And you should always cast 4 of these skills before you hit the boss. As both {{
 
 For the simplified rotation, you may substitute {{ skill(id="14410") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the more complex rotation.  
 
+---
 #### Off-hand Mace/Axe Burst Combos (38k DPS, 43 APM)
+--- 
 
 Most skills randomly pressed will result in a DPS loss. There are two burst chains that warrant use even if it interrupts your auto-chains. It is good to use {{ skill(id="14410") }} prior to the burst combo if it is available. 
 
