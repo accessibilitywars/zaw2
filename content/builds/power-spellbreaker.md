@@ -62,7 +62,7 @@ It also has multiple CC options and decent boon strips, making it situationally 
 
 ---
 
-The primary focus of this build is to understand how your DPS buffs accumulates and introduces a simplified approach a more complex version that squeezes out a few thousand more DPS. 
+The primary focus of this build is to understand how your DPS buffs accumulates and introduces a simplified approach towards a more complex rotation that squeezes out a few thousand more DPS. 
 
 #### Simplified Auto-Attack Rotation (35k DPS, 21 APM)
 
@@ -100,14 +100,14 @@ For the simplified rotation, you may substitute {{ skill(id="14410") }} as you a
 Most skills randomly pressed will result in a DPS loss. There are two burst chains that warrant use even if it interrupts your auto-chains. It is good to use {{ skill(id="14410") }} prior to the burst combo if it is available. 
 
 **Off-hand Mace Combo**
-1. {{ skill(id="14518") }}(4)
-2. {{ skill(id="14415") }}(5)
-3. {{ skill(id="14518") }}(4)
+> 1. {{ skill(id="14518") }}(4)
+> 2. {{ skill(id="14415") }}(5)
+> 3. {{ skill(id="14518") }}(4)
 
 **Off-hand Axe Combo**
-1. {{ skill(id="14418") }}(4)
-2. {{ skill(id="14399") }}(5)
-3. {{ skill(id="14418") }}(4)
+> 1. {{ skill(id="14418") }}(4)
+> 2. {{ skill(id="14399") }}(5)
+> 3. {{ skill(id="14418") }}(4)
 
 Weapon-swap once you have completed the combo (second cast of skill 4).
 
@@ -138,7 +138,7 @@ If you really need really need more CC or specific utilities for raid mechanics,
 
 - This bench is done with food, utility and no infusions.
 - I opted not to use mace skills simulate using a different off-hand weapon and ran out of kicks mid-bench.
-- You should be able to surpass 35k easily and even hit close to 37k if you include infusions and use a second CC skill such as {{ skill(id="14415") }} to optimise the {{ item(id="103574") }} uptime.
+- You should be able to surpass 35k easily and even hit close to 37k if you include infusions and use a second CC skill such as {{ skill(id="14415") }} to optimise {{ item(id="103574") }} uptime.
 - You can further increase DPS using OH mace/axe bursts even without weapon swaps. 
 
 #### Advanced Rotation with bursts (38k off-hand burst rotation)
