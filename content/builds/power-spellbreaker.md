@@ -18,8 +18,8 @@ tagline = "Put your sword back into its place."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 balance = "2026-01"
-benchmark = "38k DPS (35k simplified)"
-apm = "43 (21 simplified)"
+benchmark = "38.9k DPS (38.2k no-swap)"
+apm = "21-43"
 +++
 
 ## Notes
@@ -100,24 +100,24 @@ And you should always cast 4 of these skills before you hit the boss. As both {{
 For the simplified rotation, you may substitute {{ skill(id="14410") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the more complex rotation.  
 
 ---
-#### Off-hand Mace/Axe DPS Burst Combos (38k DPS, 43 APM)
+#### Off-hand DPS Burst Combos (38-39k DPS, 31-43 APM)
 --- 
 
-Most skills randomly pressed will result in a DPS loss. There are two burst chains that warrant use even if it interrupts your auto-chains. It is good to use {{ skill(id="14410") }} prior to the burst combo if it is available. 
+Most randomly pressed skills will result in a DPS loss. There are two burst chains that warrant use even if it interrupts your auto-chains. It is good to use {{ skill(id="14410") }} prior to the burst combo for an even bigger gain if it is available.
 
 **Off-hand Mace Combo**
 > 1. {{ skill(id="14518") }}(4)
 > 2. {{ skill(id="14415") }}(5)
 > 3. {{ skill(id="14518") }}(4)
 
-**Off-hand Axe Combo**
+**Off-hand Axe Combo** (optional)
 > 1. {{ skill(id="14418") }}(4)
 > 2. {{ skill(id="14399") }}(5)
 > 3. {{ skill(id="14418") }}(4)
 
-Weapon-swap once you have completed the combo (second cast of skill 4). Omiting the weapon swap and relying only on one weapon set results in minimal loss of DPS.
+You may opt to Weapon-swap once you have completed the combo (second cast of skill 4). Omiting the weapon swap and relying only on one weapon set results in only a minimal loss of DPS.
 
-For the Advanced rotation, you should substitute {{ skill(id="14413") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the more complex rotation. 
+For the Advanced rotation, you should substitute {{ skill(id="14413") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the OH burst rotation. 
 
 Experienced warriors should note that {{ skill(id="14404") }} does not have a cast time, nor will it interrupt the current skill that is being casted, and can be pressed anytime as soon as it is off cooldown. Use it only when you need to top up stacks of {{ trait(id="1344") }}, which should be fairly rare considering you are already using {{ skill(id="14410") }} prior to the burst combo.
 
@@ -143,20 +143,27 @@ If you really need really need more CC or specific utilities for raid mechanics,
 
 ---
 
-#### Simplified Rotation (35k auto-attack rotation)
+The videos below are performed with food, utility and no infusions.
+
+#### Simplified Flexible Rotation (35k auto-attack D/X)
 
 {{ youtube(id="SgxMlYlEDKw") }}
 
-- This bench is done with food, utility and no infusions.
 - I opted not to use mace skills simulate using a different off-hand weapon and ran out of kicks mid-bench.
-- You should be able to surpass 35k easily and even hit close to 37k if you include infusions and use a second CC skill such as {{ skill(id="14415") }} to optimise {{ item(id="103574") }} uptime.
-- You can further increase DPS using OH mace/axe bursts even without weapon swaps. 
+- You should be able to surpass 36k easily if you include infusions.
+- To increase DPS further, bring another CC or OH Mace to refresh {{ item(id="103574") }}
 
-#### Advanced Rotation with bursts (38k off-hand burst rotation)
+#### Intermediate Rotation with bursts (38.2k D/M)
 
-{{ youtube(id="Y6tt6pzbGm8") }}
+{{ youtube(id="-D4ykeWSY7o") }}
 
-- This bench is done with food, utility and no infusions.
-- Omitting the weapon swap (single offhand burst) is about 37k DPS without infusions. 
+- Omitting the weapon swap (single offhand burst) produces a decent increase without much complexity. 
 - You should be able to surpass 39k easily if you include infusions.
-- This build is not grinded and the highest expected DPS ceiling should be roughly around 40-44k. 
+
+#### Advanced Rotation with bursts (38.9k D/M ⇋ D/A)
+
+{{ youtube(id="LnmK-bQ2B_U") }}
+
+- Adding the weapon swap may lead to leaked autos, resulting DPS loss in unfamiliar hands.
+- You should be able to surpass 40k easily if you include infusions.
+- This build is not grinded and the highest expected DPS ceiling should be roughly around 41-44k.
