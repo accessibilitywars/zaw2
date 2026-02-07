@@ -92,7 +92,7 @@ extra_syntaxes_and_themes = ["syntaxes"]
 
 menu = [
     {url = "about", name = "Info", slash = true, blank = false, size="s150", submenu = [
-		{url = "about", name = "Our Mission", slash = true, blank = false, size="s120"},
+		{url = "about", name = "About / Mission", slash = true, blank = false, size="s120"},
 		{url = "philosophy", name = "Our Philosophy", slash = true, blank = false, size="s120"},
 		{url = "guides", name = "Guides", slash = true, blank = false, size="s120"},
 	]},
