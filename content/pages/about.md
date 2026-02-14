@@ -17,10 +17,10 @@ with the goal of allowing players to access more difficult content and comfortab
 To get involved, any of the following is very helpful:
 
 1. join the [Accessibility Wars Too discord](https://aw2.help/discord)
-2. check out [the GitHub](https://github.com/accessibilitywars/zaw2) to help with code
-3. share the [Accessibility Wars website]({{ baseurl() }})
-4. test out builds and provide feedback (on [discord](https://aw2.help/discord))
-5. submit new builds (on [discord](https://aw2.help/discord))
+1. share the [Accessibility Wars website]({{ baseurl() }})
+1. test out builds and provide feedback (on [discord](https://aw2.help/discord))
+1. submit new builds (on [discord](https://aw2.help/discord)) or via [the GitHub](https://github.com/accessibilitywars/zaw2) (we accept PRs)
+1. check out [the GitHub](https://github.com/accessibilitywars/zaw2) to help with code
 
 # The Crew
 
@@ -32,3 +32,11 @@ To get involved, any of the following is very helpful:
 - bunny - _discord_
 
 ... and various other contributors
+
+# Licenses
+
+All website content is © 2026 Accessibility Wars • Website content is licensed [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Profession and elite specialization logos (tango logos) are licensed under the [GNU Free Documentation License, Version 1.3](https://www.gnu.org/licenses/fdl-1.3.html).
+
+NCSOFT, ArenaNet, Guild Wars, Guild Wars 2, GW2, Guild Wars 2: Heart of Thorns, Guild Wars 2: Path of Fire, Guild Wars 2: End of Dragons, Guild Wars 2: Secrets of the Obscure, Guild Wars 2: Janthir Wilds, Guild Wars 2: Visions of Eternity and all associated logos, designs, and composite marks are trademarks or registered trademarks of NCSOFT Corporation.

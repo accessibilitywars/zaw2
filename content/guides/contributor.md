@@ -95,17 +95,7 @@ That's basically it. It will automatically refresh whenever it detects changes.
 1. if needed, fix issues, and **push** new changes to github, updating the pull request
 1. if all is good, it will be merged
 
-### Method 2: export
-
-Follow the above steps, but instead of finding an existing build file and editing it,
-use [the buildwars commandline tool](https://github.com/berdandy/buildwars) in combination with an ArenaNet API
-Key ([make one here](https://account.arena.net/applications)), to export a character to our .md file format.
-
-> For example:
-> 
-> `> buildwars API-KEY-GOES-HERE "Character Name" 1 1`
-
-### Method 3: create on github web
+### Method 2: create on github web
 
 This method doesn't require software installation, but the price is that you don't get to preview it, and it's much easier
 to upload broken content if you can't see it.
@@ -122,6 +112,20 @@ to upload broken content if you can't see it.
 1. turn on github notifications and wait for comments. If anything needs to be fixed, berdandy will message you using github
 1. if needed, fix issues, updating the pull request
 1. if all is good, it will be merged
+
+### Method 3: export a template and add notes
+
+***NOTE: buildwars hasn't been updated in a while. Consider it very early alpha***
+
+Follow the above steps, but instead of finding an existing build file and editing it,
+use [the buildwars commandline tool](https://github.com/berdandy/buildwars) in combination with an ArenaNet API
+Key ([make one here](https://account.arena.net/applications)), to export a character to our .md file format.
+
+> For example:
+> 
+> `> buildwars API-KEY-GOES-HERE "Character Name" 1 1`
+
+Then edit the output for rotation/notes and save it in content/builds/*.md
 
 ---
 
