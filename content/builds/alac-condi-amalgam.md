@@ -89,7 +89,7 @@ You give Alacrity with Morph Skills:
 
 1. {{ skill(id="76908") }} is an evade stance
 2. {{ skill(id="21659") }} can bypass many mechanics. 
-3. {{ item(id="106364") }} or {{ item(id="106206") for Open-world
+3. {{ item(id="106364") }} or Mist Stranger for Open-world
 
 
 ## Video
