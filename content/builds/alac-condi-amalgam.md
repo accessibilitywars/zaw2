@@ -1,6 +1,6 @@
 +++
-title = "Kitless Alacrity T1000 [aDPS]"
-description = "Simple kitless Condition Alacrity build"
+title = "0-KIT ALAC-T1000 [aDPS]"
+description = "Simple Kitless Condition Alacrity Amalgam Build"
 date = 2026-02-14
 updated = 2026-02-14
 draft = false
@@ -23,19 +23,32 @@ apm = "43"
 log = "https://dps.report/qghq-20260214-115919_golem"
 +++
 
-Simple kitless Condition Alacrity build
+---
+## Introduction
+---
 
+This is build is equipped similar to the Snowcrow's guide but reduces the need for kits. The kits can be added back for additional DPS when one is comfortable with the build. 
+
+---
 ## Gearing
 ---
 #### Equipment
 ---
-- Armor: Viper's with {{ item(id="67339") }}
-- Amulet: Sinister's
-- Other Trinkets: Viper's
-- {{ spear(stat="Viper's", sigils=["Bursting", "Earth"]) }}
-- {{ item(id="100153") }}
 
-[^1]: Start by adding Viper Pieces until your condi duration is about 67%. You can fill the remaining slots with Sinister or Grieving gear.
+{{ medium(stat="Viper's", rune="Trapper") }}
+{{ spear(stat="Viper's", sigils=["Bursting", "Earth"]) }}
+{{ trinkets(
+	back="Viper's",
+	accessory1="Viper's",
+	accessory2="Viper's",
+	ring1="Viper's",
+	ring2="Viper's",
+	amulet="Sinister",
+	relic="Fractal") }}
+
+---
+
+Start by adding Viper Pieces until your condi duration is about 67%. You can fill the remaining slots with Sinister or Grieving gear.
 
 ---
 #### Food and Utility and Infusions
@@ -48,7 +61,7 @@ Simple kitless Condition Alacrity build
 ## Build
 ---
 
-{{ chatlink(code="[&DQMGJyY5SycAAAAAAACGAAAAAAAAAAAAAACJAQAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQMGJyY5SyYqDwAAWh0AAIIdAAAiAQAAex0AAAAAAAAAAAAAAAAAAAAAAAACCQE2AAA=]") }}
 
 [GW2Skills Link](https://gw2skills.net/editor/?PeQEQLSakKdcWynnKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
 
@@ -90,4 +103,6 @@ You give Alacrity with Morph Skills:
 ## Video
 ---
 
-Coming Soon
+{{ youtube(id="3c9o7JkDv6M") }}
+
+This build is performed with Ascended Gear, food, utilities and no infusions.
