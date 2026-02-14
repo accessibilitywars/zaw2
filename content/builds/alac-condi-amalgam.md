@@ -8,7 +8,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["alacrity", "condi","engineer","amalgam","hot","voe","soto","lowcog","lowphys","lowrep"]
+tags = ["alacrity", "condi","engineer","amalgam","voe","soto","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["amalgam", "engineer"]
 
@@ -57,7 +57,7 @@ Start by adding Viper Pieces until your condi duration is about 67%. You can fil
 
 {{ chatlink(code="[&DQMGJyY5SyYqDwAAWh0AAIIdAAAiAQAAex0AAAAAAAAAAAAAAAAAAAAAAAACCQE2AAA=]") }}
 
-[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLSakKdcWynnKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
+[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLTgZn2mZJs7KdcWynlKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
 
 
 ## Rotation
@@ -89,8 +89,9 @@ You give Alacrity with Morph Skills:
 
 1. {{ skill(id="76908") }} is an evade stance
 2. {{ skill(id="21659") }} can bypass many mechanics. 
-3. {{ item(id="106364") }} or Mist Stranger for Open-world
-
+3. {{ trait(id="2366") }} is useful for additional heals
+4. {{ trait(id="2395") }} can be used for condi cleanses
+5. {{ item(id="106364") }} or Mist Stranger for Open-world
 
 ## Video
 
