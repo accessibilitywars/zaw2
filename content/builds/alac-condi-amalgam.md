@@ -91,7 +91,7 @@ You give Alacrity with Morph Skills:
 2. {{ skill(id="21659") }} can bypass many mechanics. 
 3. {{ trait(id="2366") }} is useful for additional heals
 4. {{ trait(id="2395") }} can be used for condi cleanses
-5. {{ item(id="106364") }} or {{ item(id="106206") for Open-world
+5. {{ item(id="106364") }} or Mist Stranger for Open-world
 
 ## Video
 
