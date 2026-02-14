@@ -63,7 +63,7 @@ Start by adding Viper Pieces until your condi duration is about 67%. You can fil
 
 {{ chatlink(code="[&DQMGJyY5SyYqDwAAWh0AAIIdAAAiAQAAex0AAAAAAAAAAAAAAAAAAAAAAAACCQE2AAA=]") }}
 
-[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLSakKdcWynnKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
+[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLTgZn2mZJs7KdcWynlKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
 
 ---
 ## Notes
@@ -97,7 +97,9 @@ You give Alacrity with Morph Skills:
 #### Sustainability
 1. {{ skill(id="76908") }} is an evade stance
 2. AED can bypass many mechanics. 
-3. {{ item(id="106364") }} or {{ item(id="106206") for Open-world
+3. {{ trait(id="2366") }} is useful for additional heals
+4. {{ trait(id="2395") }} can be used for condi cleanses
+5. {{ item(id="106364") }} or {{ item(id="106206") for Open-world
 
 ---
 ## Video
