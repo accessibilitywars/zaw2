@@ -2,7 +2,7 @@
 title = "Rifle Mechanist [pDPS]"
 description = "Simple and effective build for dealing ranged damage."
 date = 2024-08-27
-updated = 2025-06-25
+updated = 2026-03-04
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "engineer"
 tagline = "Guild Wars 2: End of Rotations"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-12"
-benchmark = "36.7k DPS"
+balance = "2026-01"
+benchmark = "35.2k DPS"
 apm = "31"
-log = "https://dps.report/4Lyb-20250514-205156_golem"
+log = "https://dps.report/bv6I-20260305-233606_golem"
 +++
 
 ## Notes
@@ -43,7 +43,7 @@ Highly recommended, beginner friendly build that can be played in all scenarios,
 
 ## Build
 
-{{ chatlink(code="[&DQMGNyYvRh8NGwAAJgGGABobAAAQGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADVQBaADYAAA==]") }}
+{{ chatlink(code="[&DQMGNyYfRh4NGwAAJgGGABobGhsQGwsbCRuJAQAAAAAAAAAAAAAAAAAAAAABVQAA]") }}
 
 ## Rotation
 
@@ -113,5 +113,5 @@ You can also recall your Mech using {{ skill(id="63089") }} and resummoning it w
 
 ---
 
-{{ youtube(id="fGwUEpknoEs") }}
+{{ youtube(id="xWaNpc4-bTc") }}
 
