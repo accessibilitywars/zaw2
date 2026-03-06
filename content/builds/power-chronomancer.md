@@ -58,7 +58,7 @@ It is able to do large amounts of CC due to the free elite skill slot, and has m
 
 ## Build
 
-{{ chatlink(code="[&DQcBHQoaKBYjDwAAjwEAAM8SAACCAQAAsxIAAAAAAAAAAAAAAAAAAAAAAAACWgAvAAA=]") }}
+{{ chatlink(code="[&DQcBHQoaKDYjDwAAjwEAAM8SAACCAQAAsxIAAAAAAAAAAAAAAAAAAAAAAAACWgAvAAA=]") }}
 
 ## Rotation
 
