@@ -1,5 +1,5 @@
 +++
-title = "Boon Power Chronomancer [a/qDPS]"
+title = "Boon Power Chronomancer [Boon DPS]"
 description = "Provide full party alacrity or quickness by swapping 1 trait from the Power Chronomancer build."
 date = 2026-03-06
 draft = false
