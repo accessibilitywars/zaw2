@@ -16,10 +16,10 @@ series = "mesmer"
 tagline = "Brr baa brrr brrbrrbaaa baaaaaa brr brr brr baaa brr brr baaaaa"
 keywords = "Guild Wars 2, GW2, LI, Troubadour"
 toc = true
-balance = "2025-12"
-benchmark = "33.7k DPS"
+balance = "2026-01"
+benchmark = "31.4k DPS"
 apm = "35"
-log = "https://dps.report/tQLS-20251112-222622_golem"
+log = "https://dps.report/Ee55-20260306-214456_golem"
 +++
 
 <div style=‘clear:both;’>&nbsp;</div>
