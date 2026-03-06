@@ -3,7 +3,7 @@ title = "Quickness Power Chronomancer [qDPS]"
 description = "Provide full party quickness by swapping 1 trait from the Power Chronomancer build."
 date = 2024-10-13
 updated = 2025-08-09
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
