@@ -151,6 +151,10 @@ Note: this build was created for the older {{ page.extra.balance }} balance patc
           {%- set sorted_array = tag.pages | sort(attribute="date") %}
           {%- set num_pages = tag.page_count %}
 
+	  {%- if not current_section_index -%}
+	  {%- set current_section_index = 1 -%}
+	  {%- endif -%}
+
           {# Shows the first page #}
           {{ aw_macros::series_link(inner=sorted_array.0, page=page, config=config) }}
 
