@@ -43,9 +43,9 @@ This Template can also be used directly for the index eg: example.com/ or as the
       <article>
 		<div class="boxed">
 	    {%- if page.taxonomies.specs %}
-		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.taxonomies.specs[0] | safe }}.png'/>
+		<img style='float: left; padding: 1em; width: 120px;' src='{{ config.base_url | safe }}/images/icons/{{ page.taxonomies.specs[0] | safe }}.png'/>
 	    {%- elif page.extra.spec %}
-		<img style='float: left; padding: 1em;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
+		<img style='float: left; padding: 1em; width: 120px;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
 	    {%- endif %}
         {{- aw_macros::title_index(page=page, config=config) }}
         {%- if config.extra.meta_index.position %}
