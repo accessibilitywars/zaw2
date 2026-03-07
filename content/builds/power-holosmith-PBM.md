@@ -2,7 +2,7 @@
 title = "Blastmaster [pDPS]"
 description = "A sword priority-based build, with two different priority sets (in/out of forge), this build heats up fast."
 date = 2024-03-03
-updated = 2025-06-24
+updated = 2026-03-07
 draft = false
 template = "build.html"
 
@@ -18,9 +18,9 @@ series = "engineer"
 tagline = "Is a photon forge like a particle accelerator? Let smash some Adams."
 keywords = "Guild Wars 2, GW2, LI, Holosmith"
 toc = true
-balance = "2025-12"
-benchmark = "34.6k DPS"
-apm = "40"
+balance = "2026-01"
+benchmark = "34.0k DPS"
+apm = "46"
 +++
 
 ## Notes
@@ -37,7 +37,7 @@ It also loses out in damage over time, and is weaker on fights with long phases.
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }}
-{{ shield_off(stat="Berserker's", sigil="Air") }}
+{{ shield_off(stat="Berserker's", sigil="Impact") }}
 {{ trinkets(stat="Berserker's", relic="Eagle") }}
 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}
@@ -45,7 +45,7 @@ It also loses out in damage over time, and is weaker on fights with long phases.
 
 ## Build
 
-{{ chatlink(code="[&DQMGNyYvOTsqDwAA5RYAAKMAAABXFgAA8BUAAAAAAAAAAAAAAAAAAAAAAAADWgBXAFUAAA==]") }}
+{{ chatlink(code="[&DQMGNyYfOTcqDwAA5RaGAKMAAABXFgAA8BWJAQAAAAAAAAAAAAAAAAAAAAADWgBXAFUAAA==]") }}
 
 ## Rotation
 
@@ -101,14 +101,14 @@ Both {{ skill(id="6053") }} (Shield 4) and {{ skill(id="6054") }} (Shield 5) hav
 
 {{ skill(id="21659") }} will heal you to 12,280 HP if you take lethal damage, and can also be used as another panic button.
 
+## Advanced Tips
+
+---
+
+Your healing skill, {{ skill(id="21659") }}, will heal you and remove all damaging conditions when you take lethal damage. This is especially useful in some fights, such as Deimos, where you can skip the mindcrush mechanic, and Sabir, where you can skip both the shockwave and corner mechanic. This will allow you to maintain higher damage uptime on bosses, increasing your DPS.
+
 ## Video
 
 ---
 
-{{ youtube(id="WsuGyVXw-Is") }}
-
-## Build demo in high end static
-
----
-
-{{ youtube(id="478ENOnvYv8") }}
+{{ youtube(id="J_1Vn__ZjjY") }}
