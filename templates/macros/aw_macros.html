@@ -13,6 +13,7 @@
         <div class="tpad" style="white-space: nowrap;">
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
 			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}
+                   {%- if page.extra.benchmark2 %} ({{ page.extra.benchmark2 }}){%- endif -%}
 			       {%- if page.extra.apm %} {{ page.extra.apm }}&nbsp;APM{%- endif -%}"
 			>
             {%- if page.taxonomies.specs -%}
@@ -30,13 +31,9 @@
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
 	{%- if page.extra.benchmark or page.extra.apm -%}
 	  <span style="float: right;"><h3>
-	{%- if page.extra.benchmark -%}
-		{{ page.extra.benchmark }}
-	{%- endif -%}
-	{%- if page.extra.apm -%}
-		</br>
-		{{ page.extra.apm }}&nbsp;APM
-	{%- endif -%}
+        {%- if page.extra.benchmark -%}<div>{{ page.extra.benchmark }}</div>{%- endif -%}
+        {%- if page.extra.benchmark2 %}<div style="font-size: 0.7em;">&nbsp;{{ page.extra.benchmark2 }}</div>{%- endif -%}
+        {%- if page.extra.apm -%}<div>{{ page.extra.apm }}&nbsp;APM</div>{%- endif -%}
 	</h3></span>
 	{%- endif -%}
     <h1><a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a></h1>
@@ -47,13 +44,9 @@
 {%- if config.extra.offline %}{% set uglyurls = true %}{% endif %}
 		{%- if page.extra.benchmark or page.extra.apm -%}
 		  <span style="max-width: 8em; float: right;"><h3>
-		{%- if page.extra.benchmark -%}
-			{{ page.extra.benchmark }}
-		{%- endif -%}
-		{%- if page.extra.apm -%}
-			</br>
-			{{ page.extra.apm }}&nbsp;APM
-		{%- endif -%}
+            {%- if page.extra.benchmark -%}<div>{{ page.extra.benchmark }}</div>{%- endif -%}
+            {%- if page.extra.benchmark2 %}<div style="font-size: 0.7em;">&nbsp;{{ page.extra.benchmark2 }}</div>{%- endif -%}
+            {%- if page.extra.apm -%}<div>{{ page.extra.apm }}&nbsp;APM</div>{%- endif -%}
 		</h3></span>
 		{%- endif -%}
         <h1>
@@ -67,8 +60,9 @@
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;{% if "specs" in page.taxonomies %}{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}{% endif -%}
 	<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
 	  - {{ aw_macros::updated_date(page=page) }}
-		{%- if page.extra.benchmark %} - {{ page.extra.benchmark }}{%- endif -%}
-		{%- if page.extra.apm %} - {{ page.extra.apm }}&nbsp;APM{%- endif -%}
+        {%- if page.extra.benchmark %} - {{ page.extra.benchmark }}{%- endif -%}
+        {%- if page.extra.benchmark2 %} ({{ page.extra.benchmark2 }}){%- endif -%}
+        {%- if page.extra.apm %} - {{ page.extra.apm }}&nbsp;APM{%- endif -%}
 		{{- aw_macros::balance_index(page=page, config=config) }}
 	</p>
 {%- endmacro icon_index %}
@@ -99,11 +93,13 @@
   {%- if inner.content == page.content %}
       <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
+      {%- if inner.extra.benchmark2 %} ({{ inner.extra.benchmark2 }}){%- endif -%}
       {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 >{{ inner.title }}</a></li>
     {% else %}
       <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
+      {%- if inner.extra.benchmark2 %} ({{ inner.extra.benchmark2 }}){%- endif -%}
       {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 	>{{ inner.title }}</a></li>
   {%- endif %}

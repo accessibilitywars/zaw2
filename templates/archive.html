@@ -71,6 +71,7 @@ This Template can also be used as the rendering template for Sections, eg: examp
       {%- if post.components is not containing("hidden") %}
         <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>
 		{%- if post.extra.benchmark %} - {{ post.extra.benchmark }}{%- endif -%}
+		{%- if post.extra.benchmark2 %} - {{ post.extra.benchmark2 }}{%- endif -%}
 		{%- if post.extra.apm %} - {{ post.extra.apm }}&nbsp;APM{%- endif -%}
 		{%- if not hide_section_dates %} - {{ aw_macros::updated_date(page=post) }} {%- endif %}</p>
       {%- endif -%}
@@ -89,6 +90,7 @@ This Template can also be used as the rendering template for Sections, eg: examp
       {%- if post.components is not containing("hidden") %}
 		  <p><a href="{{ post.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ post.title }}</a>
 		  {%- if post.extra.benchmark %} - {{ post.extra.benchmark }}{%- endif -%}
+		  {%- if post.extra.benchmark2 %} - {{ post.extra.benchmark2 }}{%- endif -%}
 		  {%- if post.extra.apm %} - {{ post.extra.apm }}&nbsp;APM{%- endif -%}
 		  {%- if not hide_section_dates %} - {{ aw_macros::updated_date(page=post) }}{%- endif %}</p>
 	  {%- endif -%}

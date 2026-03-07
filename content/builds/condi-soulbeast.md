@@ -18,7 +18,8 @@ tagline = "Condi Shortbow Ranger"
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
 balance = "2026-01"
-benchmark = "27.7k DPS solo, 30k DPS w. allies"
+benchmark = "27.7k DPS solo"
+benchmark2 = "30k DPS allies"
 +++
 
 The purpose of writing this guide is to provide a no-weapon swap method to play a ranged PVE soulbeast while easily hitting the 70% benchmark with minimal effort. This build is low cognition, has few repetitions but has a relatively high APM. The skills do not require specific timing and having extra hard CC (total of 4) in the build allows flexible upkeep of {{ trait(id="2127") }}, which has a rather tight timing on other builds. The auto-attack of the build provides sufficient hits to proc bleeding and the skills that empower the shortbow hits do not interrupt the attack rotation. The way the bows are empowered with bleeding stacks is inspired by the Guild Wars 1 skill [Barbed Arrows](https://wiki.guildwars.com/wiki/Barbed_Arrows).

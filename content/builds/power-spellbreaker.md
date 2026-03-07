@@ -18,7 +18,8 @@ tagline = "Put your sword back into its place."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 balance = "2026-01"
-benchmark = "38.9k DPS (38.2k no-swap)"
+benchmark = "38.9k DPS"
+benchmark2 = "38.2k no-swap"
 apm = "21-43"
 +++
 
