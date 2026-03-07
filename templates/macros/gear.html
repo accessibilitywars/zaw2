@@ -70,17 +70,17 @@
 </tbody></table>
 {%- endmacro harmor -%}
 
-{%- macro weapon_main(itemid, typedesc, stat, sigil) -%}
-<table>
-<thead><tr><th>Weapon</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+{%- macro weapon_main(itemid, typedesc, stat, sigil, header) -%}
+<table class="weapontable">
+<thead><tr><th>{{header}}</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
 <tr>
-	<td><span class="armory-inline" data-armory-embed="items" 
-		data-armory-ids="{{itemid}}" 
+	<td><span class="armory-inline" data-armory-embed="items"
+		data-armory-ids="{{itemid}}"
 		data-armory-{{itemid}}-upgrades="{{self::sigil(name=sigil)}}"
 		data-armory-{{itemid}}-stat="{{self::stat(name=stat)}}"></span></td>
 	<td>{{typedesc}}</td>
 	<td>{{stat}}</td>
-	<td><span class="armory-inline" data-armory-embed="items" 
+	<td><span class="armory-inline" data-armory-embed="items"
 		data-armory-ids="{{self::sigil(name=sigil)}}"></span> {{sigil}}</td>
 </tr>
 {%- endmacro weapon_main -%}
@@ -88,20 +88,20 @@
 {%- macro weapon_off(itemid, typedesc, stat, sigil) -%}
 <tr>
 	<td><span class="armory-inline" data-armory-embed="items" s
-		data-armory-ids="{{itemid}}" 
+		data-armory-ids="{{itemid}}"
 		data-armory-{{itemid}}-upgrades="{{self::sigil(name=sigil)}}"
 		data-armory-{{itemid}}-stat="{{self::stat(name=stat)}}"></span></td>
 	<td>{{typedesc}}</td>
 	<td>{{stat}}</td>
-	<td><span class="armory-inline" data-armory-embed="items" 
+	<td><span class="armory-inline" data-armory-embed="items"
 		data-armory-ids="{{self::sigil(name=sigil)}}"></span> {{sigil}}</td>
 </tr>
 </tbody></table>
 {%- endmacro weapon_off -%}
 
-{%- macro weapon_2h(itemid, typedesc, stat, sigils) -%}
+{%- macro weapon_2h(itemid, typedesc, stat, sigils, header) -%}
 <table>
-<thead><tr><th>Weapon</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
+<thead><tr><th>{{header}}</th><th>Type</th><th>Stat</th><th>Upgrade</th></tr></thead><tbody>
 <tr>
 	<td><span class="armory-inline"
 		data-armory-embed="items"
@@ -126,30 +126,30 @@
 {%- macro trinkets(ring1, ring2, accessory1, accessory2, back, amulet, relic, alternative) -%}
 <hr/>
 <table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="74155" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="74155"
 	data-armory-74155-stat="{{self::stat(name=back)}}"></span></td><td>Back item</td><td> {{back}}</td></tr>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="95380" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="95380"
 	data-armory-95380-stat="{{self::stat(name=amulet)}}"></span></td><td>Amulet</td><td> {{amulet}}</td></tr>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="81908" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="81908"
 	data-armory-81908-stat="{{self::stat(name=accessory1)}}"></span></td><td>Accessory</td><td> {{accessory1}}</td></tr>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="91048" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="91048"
 	data-armory-91048-stat="{{self::stat(name=accessory2)}}"></span></td><td>Accessory</td><td> {{accessory2}}</td></tr>
 </tbody></table>
 <table><thead><tr><th>Trinkets</th><th>Type</th><th>Stat</th></tr></thead><tbody>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="93105" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="93105"
 	data-armory-93105-stat="{{self::stat(name=ring1)}}"></span></td><td>Ring</td><td> {{ring1}}</td></tr>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
-	data-armory-ids="91234" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
+	data-armory-ids="91234"
 	data-armory-91234-stat="{{self::stat(name=ring2)}}"></span></td><td>Ring</td><td> {{ring2}}</td></tr>
-<tr><td><span class="armory-inline" data-armory-embed="items" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
 	data-armory-ids="{{self::relic(name=relic)}}"></span></td><td>Relic</td><td> {{relic}} </td></tr>
 {%- if alternative -%}
-<tr><td><span class="armory-inline" data-armory-embed="items" 
+<tr><td><span class="armory-inline" data-armory-embed="items"
 	data-armory-ids="{{self::relic(name=alternative)}}"></span></td><td>Relic (alternative)</td><td> {{alternative}} </td></tr>
 {%- endif -%}
 </tbody></table>

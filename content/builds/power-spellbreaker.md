@@ -36,9 +36,13 @@ The simplified build also has multiple CC options, optional utility slots, optio
 ## Gearing
 
 {{ heavy(stat="Berserker's", rune="Scholar") }}
+
 {{ dagger_main(stat="Berserker's", sigil="Force") }}
 {{ axe_off(stat="Berserker's", sigil="Impact") }}
+
+{{ dagger_main(header="Alternate", stat="Berserker's", sigil="Force") }}
 {{ mace_off(stat="Berserker's", sigil="Air") }}
+
 {{ trinkets(stat="Berserker's", relic="Claw") }}
 
 - Food: {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }} or {{ item(id="41569", name="Bowl of Sweet and Spicy Butternut Squash Soup") }}

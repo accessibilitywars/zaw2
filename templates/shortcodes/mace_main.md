@@ -1,3 +1,7 @@
 {%- import "macros/gear.html" as gear %}
 
-{{ gear::weapon_main(itemid="95612", typedesc="Mace", stat=stat, sigil=sigil) }}
+{%- if header -%}
+{{ gear::weapon_main(header=header, itemid="95612", typedesc="Mace", stat=stat, sigil=sigil) }}
+{%- else -%}
+{{ gear::weapon_main(header="Weapon", itemid="95612", typedesc="Mace", stat=stat, sigil=sigil) }}
+{%- endif -%}
