@@ -109,6 +109,8 @@ and use them only when the CC bar is up.
 
 You can also recall your Mech using {{ skill(id="63089") }} and resummoning it with {{ skill(id="63050") }} for even more breakbar damage if required. Do take note that if your Mech has been damaged, you will not be able to resummon it immediately, hence you only want to do this if you are very familiar with the fight, as not having your Mech is a large DPS loss.
 
+On some fights, such as Deimos and Sabir, you can swap out {{ skill(id="63049") }} for {{ skill(id="21659") }}. {{ skill(id="21659") }} will heal you and remove all damaging conditions when you take lethal damage, allowing you to skip certain mechanics, increasing your damage uptime on the boss, allowing you to deal higher DPS.
+
 ## Video
 
 ---
