@@ -9,23 +9,26 @@ toc = true
 
 # How to Contribute
 
-## Time / Effort
-Contributors of time and expertise are very welcomed. Most content on the site is written in markdown, a simple text file format.
-It's pretty approachable, and works like discord. For example, using `**asterisks**` to **bold** text is markdown.
+## Builds, time & effort
 
-We have some adaptations to add Guild Wars 2 specific functionality of course, but most of the complexity will be working with github, the site
-that _stores_ the files.
+Build contributions are very welcomed. Most content on the site is written in markdown, a simple text file format.
+
+If you do not feel comfortable writing a build on your own, we do take manual submissions as starting points. At a minimum, we
+can work with the following information:
+
+- gear (armor, weapons, trinkets, runes, sigils, relic, possibly infusions)
+- build template code
+- rotation
+
+Contact `@berdandy` on discord to submit a build in this way.
 
 ## Financial
 
 Of course, financial contributions are always welcome too, if that's preferred. We have
 [a page set up on OpenCollective](https://opencollective.com/accessibility-wars), which is an open community
-funding platform. All funds currently go towards development and hosting costs and all of that information is transparently visible on the collective site.
+funding platform. All funds currently go towards development/hosting costs and are 100% transparently visible on the collective site.
 
-Other options such as GitHub Sponsors or Patreon are being considered. Reach out [on discord](@/discord/_index.md) if
-you prefer one of those options.
-
-# Content how to...
+# Content Submission how to...
 
 Accessibility Wars uses a static site generator. This means there is no database, no server-side scripts, and no way to edit directly on the site.
 
