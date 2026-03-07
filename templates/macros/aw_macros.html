@@ -56,6 +56,14 @@
 		</h1>
 {%- endmacro title_index %}
 
+{%- macro spec_icon(page, config) %}
+    {%- if page.taxonomies.specs %}
+    <img style='float: left; width: 30px;' src='{{ config.base_url | safe }}/images/icons/{{ page.taxonomies.specs[0] | safe }}.png'/>
+    {%- elif page.extra.spec %}
+    <img style='float: left; width: 30px;' src='{{ config.base_url | safe }}/images/icons/{{ page.extra.spec | safe }}.png'/>
+    {%- endif %}
+{%- endmacro spec_icon %}
+
 {%- macro icon_index(page, config) %}
 	<p>&nbsp;&nbsp;&nbsp;&nbsp;{% if "specs" in page.taxonomies %}{{ aw_macros::safeicon(icon=page.taxonomies["specs"][0]) }}{% endif -%}
 	<a href="{{ page.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}">{{ page.title }}</a>
