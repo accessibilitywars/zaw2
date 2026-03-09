@@ -1,6 +1,6 @@
 +++
 title = "Flamebender [cDPS]"
-description = "Learn 1 simple combo, and hit everything else off cooldown."
+description = "A more structured DPS build focused on hitting buttons in a specific order"
 date = 2024-05-23
 updated = 2026-03-10
 draft = false
@@ -26,7 +26,7 @@ apm = "53"
 
 ---
 
-Learn 1 simple combo, and hit everything else off cooldown.
+Flamebender is a more structured build, with high importance placed on the order of skills cast.
 
 ## Gearing
 
