@@ -2,7 +2,7 @@
 title = "Fire Whirl [cDPS]"
 description = "A brand new spicy Fire Tempest build is great for roasted golems and friendly raid barbeques. Bring your friends, invite your neighbours."
 date = 2024-02-18
-updated = 2025-06-24
+updated = 2026-04-15
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "elementalist"
 tagline =  "'Burn, baby, burn!'"
 keywords = "Guild Wars 2, GW2, LI, Tempest"
 toc = true
-balance = "2025-12"
-benchmark = "37.1k DPS"
+balance = "2026-04"
+benchmark = "36.3k DPS"
 apm = "46"
-log = "https://dps.report/GFZP-20250215-142801_golem"
+log = "https://dps.report/Ji2H-20260415-200817_golem"
 +++
 
 ## Notes
@@ -123,10 +123,4 @@ Swap back to {{ skill(id="5492") }} as soon as it is off cooldown, and continue 
 
 ---
 
-{{ youtube(id="P1d0w_QI6WA") }}
-
-## Build demo in "high" level play
-
----
-
-{{ youtube(id="Fa0yf0lHUTI") }}
+{{ youtube(id="qFhtL6cnGyA") }}
