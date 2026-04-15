@@ -2,7 +2,7 @@
 title = "Gunmech [cDPS]"
 description = "All-signet, kit-free, free-range, grain-fed condi mech. Priority-based skill rotation included"
 date = 2024-03-10
-updated = 2025-08-11
+updated = 2026-04-15
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "engineer"
 tagline = "Green Eggs without HAM"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2026-01"
-benchmark = "34.9k DPS"
+balance = "2026-04"
+benchmark = "34.6k DPS"
 apm = "25"
-log = "https://dps.report/LQyn-20250806-195649_golem"
+log = "https://dps.report/zbdy-20240208-110835_golem"
 +++
 
 This mechanist build is all-signets, and no kit usage, for simple play
@@ -45,7 +45,7 @@ Gunmech is also capable of dealing most of its damage from range, and having goo
 
 ## Build
 
-{{ chatlink(code="[&DQMGJyY5RjUNGwAAGhsAAA4bAAAQGwAACRsAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQMGJyY5RjUNGwAAGhuGAA4bAAAQGwAACRuJAQAAAAAAAAAAAAAAAAAAAAACNgAJAQA=]") }}
 
 ## Rotation
 
@@ -86,8 +86,4 @@ If you need boon strip or more CC, you can replace {{ skill(name="Force Signet")
 
 ## Video
 
-{{ youtube(id="zBh_exTC6qs") }}
-
-## Build demo in a pug raid
-
-{{ youtube(id="GcxYf1rHy8g") }}
+{{ youtube(id="-VYUmt9TK6Q") }}
