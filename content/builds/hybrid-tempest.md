@@ -2,7 +2,7 @@
 title = "Into the Inferno [DPS]"
 description = "Press Everything Off Cooldown in Fire Attunement"
 date = 2025-07-02
-updated = 2025-09-16
+updated = 2026-04-15
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "elementalist"
 tagline = "I am become Fire, destroyer of raids."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "2026-01"
-benchmark = "41.8k DPS"
+balance = "2026-04"
+benchmark = "36.1k DPS"
 apm = "50"
-log = "https://dps.report/KIYx-20250916-124829_golem"
+log = "https://dps.report/BCkA-20260415-163831_golem"
 +++
 
 ## Notes
@@ -52,7 +52,7 @@ This build does ~55% of your total damage in Burning, with the remaining ~45% in
 
 ## Build
 
-{{ chatlink(code="[&DQYfPSkfMBd0AHQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAvAAkBAA==]") }}
+{{ chatlink(code="[&DQYfPSkfMBfHEnQAwxLLAMsAcwC+AVABJgAAAAAAAAAAAAAAAAAAAAAAAAADVgAxAGcAAA==]") }}
 
 
 ## Rotation
@@ -118,4 +118,4 @@ Then return to {{ skill(id="5492") }} as soon as you are able to.
 
 ---
 
-{{ youtube(id="VDgnMjoZvdc") }}
+{{ youtube(id="3kb7Ajgt9gI") }}
