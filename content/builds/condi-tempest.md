@@ -61,7 +61,7 @@ This build does heavy burning damage, relying on Sigil of the Earth to inflict b
 
 ## Build
 
-{{ chatlink(code="[&DQYfFSU9MBfHEgAAvgEAAHIAAADLAAAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQYfFRomMBfHEicPwxLLAMsAHAG+AY8AJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgAxADYALwAA]") }}
 
 ## Rotation
 
