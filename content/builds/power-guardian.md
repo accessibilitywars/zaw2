@@ -2,7 +2,7 @@
 title = "Symbolic Core Avenger[pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing group utilities, crowd control and condi cleanses."
 date = 2023-07-29
-updated = 2026-01-26
+updated = 2026-04-17
 draft = false
 template = "build.html"
 
@@ -17,7 +17,7 @@ series = "guardian"
 tagline = "Auto-Attack Core Guardian"
 keywords = "Guild Wars 2, GW2, LI, core, guardian"
 toc = true
-balance = "2026-01"
+balance = "2026-04"
 benchmark = "30k DPS"
 +++
 
@@ -54,18 +54,18 @@ Weapon swap is optional, all the available options will massively reduce DPS and
 2. Scepter/Focus - Provides a decent immobilise option with some ranged DPS.
 
 Optimised Loadout
-[GW2Skills Link](https://gw2skills.net/editor/?PWgAINlJwmYUMM2JO0L+raA-DSRYBhgMHV07lRtVQFpgt/AohCzAgKA-e)
+[GW2Skills Link](https://gw2skills.net/editor/?PWgAINlJwmYUMM2JO0L+pXA-DSRYBhgMHV07lRtVQFpgt/AohCzAgKA-e)
 
 #### Food
 - {{ item(id="91805") }} OR
 - {{ item(id="91917") }}
 
 #### Utility
-- {{ item(id="9443") }}(Power)
+- {{ item(id="9443") }}
 
 ## Build
 Power DPS
-{{ chatlink(code="[&DQEqOhA+LjU4AQAA/gAAAEYBAAA2AQAAcRIAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQEqOhA+MS84ATgBeAEtAUcBuQH+AP4AcRJxEgAAAAAAAAAAAAAAAAAAAAACMwAjAAA=]") }}
 
 ## Rotation and Utilities
 #### DPS Rotation

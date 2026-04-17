@@ -2,7 +2,7 @@
 title = "Symbolic Healbender [aHeal]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Karakosa consecutively with a burst heal rotation. Besides being easy to play, this build has flexible utilities, decent crowd control and excellent condi cleanses."
 date = 2024-04-04
-updated = 2026-01-26
+updated = 2026-04-17
 template = "build.html"
 
 [taxonomies]
@@ -16,12 +16,12 @@ series = "guardian"
 tagline = "Auto-Attack Healbender"
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "2026-01"
+balance = "2026-04"
 +++
 
-This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer).
+This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer). Ideally, the build should function as a low-toughness healer.
 
-This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. This build requires only one weapon with no requirement of a weapon swap: Hammer!
+This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. This build requires only one weapon with no requirement of a weapon swap as long as the partial fury requirement is met. This means there are certain quick DPS builds (such as Deadeye, Berserker, Conduit, Ritualist, Harbinger, Untamed, Chronomancer, Troubadour and more) that are ideal to pair with this healer. Alternatively, a simple occasional spear rotation and/or utility adjustments to cover fury.
 
 # Gearing
 
