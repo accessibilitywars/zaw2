@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "It goes on, and on, and on and on, when me and you party together..."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-01"
+balance = "2026-04"
 +++
 
 
