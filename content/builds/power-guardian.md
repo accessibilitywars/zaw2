@@ -61,11 +61,11 @@ Optimised Loadout
 - {{ item(id="91917") }}
 
 #### Utility
-- {{ item(id="9443") }}(Power)
+- {{ item(id="9443") }}
 
 ## Build
 Power DPS
-{{ chatlink(code="[&DQEqOhA+MS84AQAA/gAAAEYBAAA2AQAAcRIAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQEqOhA+MS84ATgBeAEtAUcBuQH+AP4AcRJxEgAAAAAAAAAAAAAAAAAAAAACMwAjAAA=]") }}
 
 ## Rotation and Utilities
 #### DPS Rotation
