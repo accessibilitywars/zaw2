@@ -73,7 +73,7 @@ On top of this, you want to use a Shatter skill whenever you have 3 clones.
 > 1. {{ skill(id="10190") }}
 > 1. {{ skill(id="10191") }}
 
-After using a Shatter, you will gain Mirage Cloak and automatically perform {{ skill(id="40184") }} (Ambush). Do not use any other skills until you have finished casting {{ skill(id="40184") }} (Ambush), as using any other skill will cancen {{ skill(id="40184") }} (Ambush).
+After using a Shatter, you will gain Mirage Cloak and automatically perform {{ skill(id="40184") }} (Ambush). Do not use any other skills until you have finished casting {{ skill(id="40184") }} (Ambush), as using any other skill will cancel {{ skill(id="40184") }} (Ambush).
 
 ## Crowd Control
 
