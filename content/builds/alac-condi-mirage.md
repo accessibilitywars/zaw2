@@ -79,6 +79,8 @@ Your highest priority skill is {{ skill(id="40184") }} (Ambush). To use {{ skill
 
 You do not need to pick up the mirage mirror created using {{ skill(id="41065") }} or {{ skill(id="40200") }} immediately, as they will last on the ground for 8 seconds before disappearing. This allows you to squeeze in other skills from your priority list, allowing for higher DPS.
 
+Take care not to cancel {{ skill(id="40184") }} (Ambush) by casting another skill while {{ skill(id="40184") }} (Ambush) is casting.
+
 ## Crowd Control
 
 ---
