@@ -26,7 +26,7 @@ log = "https://dps.report/vNZn-20260418-203252_golem"
 
 ---
 
-The concept behind Dune Cloak Alacrity Condition Mirage is that you want to use an Ambush attack, specifically {{ skill(id="40184") }}, as much as possible, and how you get an Ambush attack is by dodging, or Shattering with 3 clones. Your next auto attack will be an Ambush after dodging or picking up a Mirage Mirror. This is especially important as it is designed to be a support build, and you will give Alacrity through your Ambush attacks.
+The concept behind Dune Cloak Alacrity Condition Mirage is that you want to use an Ambush attack, specifically {{ skill(id="40184") }}, as much as possible, and how you get an Ambush attack is by dodging, or Shattering with 3 clones. Your next auto attack will be an Ambush after dodging or Shattering. This is especially important as it is designed to be a support build, and you will give Alacrity through your Ambush attacks.
 
 Ambush attacks also provide high uptime of both Might and Fury for your subgroup.
 
