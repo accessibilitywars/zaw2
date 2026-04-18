@@ -45,7 +45,7 @@ Ambush attacks also provide high uptime of both Might and Fury for your subgroup
 
 ## Build
 
-{{ chatlink(code="[&DQctPQElOxnuFQAA4BUAAIEBAACDAQAARhcAAAAAAAAAAAAAAAAAAAAAAAADWQBWAGYAAA==]") }}
+{{ chatlink(code="[&DQctPRg9OzsjDwAAggEAAIEBAACDAQAA7RIAAAAAAAAAAAAAAAAAAAAAAAADWQBWAGYAAA==]") }}
 
 ## Rotation
 
