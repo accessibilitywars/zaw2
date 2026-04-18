@@ -1,32 +1,29 @@
 +++
-title = "Unload Deadeye [pDPS/qDPS]"
+title = "Unload Deadeye [pDPS]"
 description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
 date = 2024-03-29
-updated = 2024-07-01
+updated = 2026-04-18
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["pistol","dagger","power","quickness","thief","deadeye","pof","lowcog","lowphys","lowrep"]
+tags = ["pistol","dagger","power","thief","deadeye","pof","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["deadeye", "thief"]
 
 [extra]
 series = "thief"
-tagline = "Auto-Attack Deadeye with/without Quickness"
+tagline = "Auto-Attack Deadeye"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-01"
-benchmark = "32k DPS"
+balance = "2026-04"
+benchmark = "30k DPS"
 +++
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 
 
-This simplified build also allows you to perform niche roles like pylon kiting, which is extremely useful when learning the role and not wanting to be bogged down by rotation. I have completed all 7 wings in NM with this build being fairly high/average ranked in DPS meters. At the time of writing, the options for deadeye across the power DPS variants does not smoothly transition players from low to high intensity. There are better options that players can consider as an alternate set to complement this build when you are ready, starting with dual daggers (See Trait Alternatives: Practiced Tolerance).
-
-The improvised quickness variant uses the same stats and is able to overcap on quickness through a very simple rotation and minimal use of cantrips.
-
+This simplified build also allows you to perform niche roles like pylon kiting, which is extremely useful when learning the role and not wanting to be bogged down by rotation. I have completed all 8 wings in NM with this build being fairly high/average ranked in DPS meters. At the time of writing, the options for deadeye across the power DPS variants does not smoothly transition players from low to high intensity. There are better options that players can consider as an alternate set to complement this build when you are ready, starting with dual daggers (See Trait Alternatives: Practiced Tolerance).
 
 ## Gearing and Consumables
 #### Equipment
@@ -60,36 +57,25 @@ The improvised quickness variant uses the same stats and is able to overcap on q
 #### DPS
 {{ chatlink(code="[&DQUjHxw9Oi+FAIUAMwFYAVgBMwGsFlYBKAAoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
 
-#### Quickness Variant
-{{ chatlink(code="[&DQUjGxwtOj+FAAwBMwFYASAXMwFYAFYBDgEoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
-
 #### Trait Alternatives
 1. Practiced Tolerance - For fights where power cleave/pierce is detrimental, you should also take {{ trait(id="1272") }} (eg. Soulless Horror). You can freely switch to daggers if you take this trait.
-2. Quickness Variant – Take {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }}. {{ skill(id="41372") }} is required for full quickness uptime.
-
-> <small>_Both Practiced Tolerance and Quickness can be taken together_</small>
 
 ## Rotation and Utilities
-#### DPS Rotation
+#### Dual Pistol DPS Rotation
 Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (bring on fights with long damage downtimes)
 1. Set {{ skill(id="13011") }} (Pistols 3) to auto. Use {{ skill(id="13046") }} for a small DPS boost on cooldown. 
 2. Try to time {{ skill(id="13046") }} with {{ skill(id="41158") }}. 
 3. If taking {{ trait(id="1272") }}, you may switch to daggers when the window of opportunity opens up for a DPS boost especially when the boss is below 50% hp. 
 
-#### Quickness Rotation
-1. For the quickness variant, you need to use steal time. Due to {{ trait(id="1167") }}, each steal provides two charges of {{ skill(id="42863") }}. 
-2. There is an aftercast for the skill but it should not take much time to blast both charges. 
-3. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}. Use {{ skill(id="43390") }} which you can use immediately for two more charges of {{ skill(id="42863") }}. 
-4. When you have hit the quickness cap, you may wish to spread the use of Steal Time to increase {{ trait(id="1704") }} uptime.
-
-#### Dagger Rotation (Practiced Tolerance)
-1. For the dagger rotation, which is mostly autos, use {{ skill(id="16432") }} for stealth and queue {{ skill(id="13005") }} to deal heavy damage. 
+#### Optional Dual Dagger Rotation (Practiced Tolerance)
+1. For the dagger rotation, which is mostly autos, use {{ skill(id="16432") }} for stealth and queue {{ skill(id="50481") }} to deal heavy damage. 
 2. Ensure that you are not 'revealed' when you do the next stealth and backstab cycle.
-3. Slot {{ skill(id="13097") }} when you are comfortable to build malice, and use your stolen skills to enter stealth when at full malice.
+3. Slot {{ skill(id="13097") }} when you are comfortable to build malice, and use your stolen skills to enter stealth at full malice.
+4. You may use {{ skill(id="13019") }} to build malice as well, which may replace the first {{ skill(id="13097") }} to speed up your rotation for higher ping players.
 
 #### Crowd Control rotation
 1. You have decent CC by just spamming {{ skill(id="13012") }} (Pistol 4). 
-2. You can take {{ skill(id="13132") }} (elite) for a minimal DPS loss if you still need more CC. 
+2. You can take {{ skill(id="13132") }} (elite) for a minimal (~1k+) DPS loss if you still need more CC. 
 
 #### Other Utilities
 You may drop {{ skill(id="13064") }} or {{ skill(id="41158") }} for different utilities.
@@ -97,6 +83,7 @@ You may drop {{ skill(id="13064") }} or {{ skill(id="41158") }} for different ut
 #### Sustainability
 1. Your heal skill {{ skill(id="13050") }} should provide enough heals per hit. You can opt to take {{ trait(id="1702") }} but this is not an efficient choice for sustainability.
 2. If you use dual daggers, dagger provides an additional evade on {{ skill(id="13006") }}.
+3. {{ item(id="101955") }} as an optional relic swap (eg. Kiting)
 
 ## Optimisation
 #### Maximising Cleave/Pierce
@@ -121,9 +108,8 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 ## Videos
 I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
 
-#### DPS benchmark (28-29k)
-{{ youtube(id="xOLjCEErMD8") }}
-You should be able to hit >30k when optimised with the right gear and infusions as this bench was done before the buff to {{ trait(id="1299") }}.
+#### DPS benchmark (30k)
+Updated Video Coming Soon.
 
 #### LI Dagger Rotation
 {{ youtube(id="8xBio3WnVXw") }}
