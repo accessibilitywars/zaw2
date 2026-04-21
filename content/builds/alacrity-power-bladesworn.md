@@ -2,7 +2,7 @@
 title = "Signet Sworn Sword [aDPS]"
 description = "This build generates a generous amount of alacrity through discipline and spirit."
 date = 2025-10-24
-updated = 2025-10-24
+updated = 2026-04-21
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "warrior"
 tagline = "Victory is reserved for those who are willing to pay its price. - Sun Tzu"
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
-balance = "2026-01"
-benchmark = "32k DPS"
+balance = "2026-04"
+benchmark = "30.1k DPS"
 apm = "65"
 +++
 
@@ -85,8 +85,3 @@ This build has weak crowd control. Replace {{ skill(id="14404") }} with a physic
 > * {{ skill(id="14502") }}
 
 Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above CC skills. 
-
-## Video
-{{ youtube(id="GYZ4EW2EYIw") }}
-
-This bench is made with budget utilities, food and no infusions.
