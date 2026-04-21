@@ -1,8 +1,8 @@
 +++
 title = "Magebane Daggerbreaker [pDPS]"
-description = "This build focuses on maintaining magebane tether using only dagger and omits the complex sword stow rotation."
+description = "This build focuses on maintaining magebane tether using only dagger and omits the complex sword stow rotation or weapon swapping."
 date = 2026-02-03
-updated = 2026-02-03
+updated = 2026-04-21
 draft = false
 template = "build.html"
 
@@ -18,9 +18,8 @@ tagline = "Put your sword back into its place."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
 balance = "2026-01"
-benchmark = "38.9k DPS"
-benchmark2 = "38.2k no-swap"
-apm = "21-43"
+benchmark = "35k"
+apm = "21-31"
 +++
 
 ## Notes
@@ -31,7 +30,7 @@ This build focuses on engaging the Spellbreaker class mechanics, specifically ma
 
 Additional Actions Per Minute (APM) can be introduced through off-hand weapon bursts as the user becomes more familiar, leading to marginal increases in DPS at the comfort of the user, and reduces the learning curve without affecting the skill ceiling.  
 
-The simplified build also has multiple CC options, optional utility slots, optional off-hand slots and decent boon strips, making it situationally the preferred optimised build to bring in some team set-ups.
+The simplified build also has multiple CC options, optional utility slots, optional off-hand slots and decent boon strips, making it situationally the preferred optimised build to bring in some team set-ups on melee fights. 
 
 ## Gearing
 
@@ -54,8 +53,8 @@ The simplified build also has multiple CC options, optional utility slots, optio
 3. Sword (block/cripple)
 4. Dagger (sustain/boon-strip)
 
-> 1.  <small>You may switch some pieces for Dragon's stats if you need higher vitality without any significant DPS loss</small>
-> 2.  <small>This buid is severely over-capped on precision and will function even without signet of fury. (see auto-attack rotation)</small>
+> 1. <small>You may switch some pieces for Dragon's stats if you need higher vitality without any significant DPS loss</small>
+> 2. <small>This buid is severely over-capped on precision and will function even without signet of fury. (see auto-attack rotation)</small>
 
 ## Build
 {{ chatlink(code="[&DQIEHyQ2PT1wAKcAogEAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
@@ -72,7 +71,7 @@ The simplified build also has multiple CC options, optional utility slots, optio
 The primary focus of this build is to understand how your DPS buffs accumulates and introduces a simplified approach towards a more complex rotation that squeezes out a few thousand more DPS. 
 
 --- 
-#### Simplified Auto-Attack Rotation (35k DPS, 21 APM)
+#### Simplified Auto-Attack Rotation (31.5k DPS, 21 APM)
 --- 
 
 In the simplified build, many of the signets are optional and the off-hand is flexible, resulting in better utility and choices. This requires ONLY DAGGER and the weapon on the off-hand is only for display or for extra utility/CC (Mace/Axe/Sword/Dagger).
@@ -91,7 +90,7 @@ Make sure you do not cast {{ skill(id="45252") }} before {{ skill(id="44937") }}
 
 Using a CC skill can increase {{ item(id="103574") }} buff uptime.
 
-It is crucial to master the Auto Attack Rotation before learning the harder rotation. This build has very efficient auto-attacks. This is around 80% benchmark and **CAN CLEAR ALL RAIDING CONTENT INCLUDING CMS**. If you do not manage to hit 34-35k without infusions on the simplified rotation, attempting the harder rotation may lead to a DPS loss due to interruption of the auto-chains!
+It is crucial to master the Auto Attack Rotation before learning the harder rotation. This build has very efficient auto-attacks. This is around 80% benchmark and **CAN CLEAR ALL RAIDING CONTENT INCLUDING CMS**. If you do not manage to hit 30k without infusions on the simplified rotation, attempting the harder rotation may lead to a DPS loss due to interruption of the auto-chains!
 
 **Pre-cast:**
 > 1. {{ skill(id="14389") }}
@@ -105,7 +104,7 @@ And you should always cast 4 of these skills before you hit the boss. As both {{
 For the simplified rotation, you may substitute {{ skill(id="14410") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the more complex rotation.  
 
 ---
-#### Off-hand DPS Burst Combos (38-39k DPS, 31-43 APM)
+#### Off-hand DPS Burst Combo (35k DPS, 31 APM)
 --- 
 
 Most randomly pressed skills will result in a DPS loss. There are two burst chains that warrant use even if it interrupts your auto-chains. It is good to use {{ skill(id="14410") }} prior to the burst combo for an even bigger gain if it is available.
@@ -115,16 +114,9 @@ Most randomly pressed skills will result in a DPS loss. There are two burst chai
 > 2. {{ skill(id="14415") }}(5)
 > 3. {{ skill(id="14518") }}(4)
 
-**Off-hand Axe Combo** (optional)
-> 1. {{ skill(id="14418") }}(4)
-> 2. {{ skill(id="14399") }}(5)
-> 3. {{ skill(id="14418") }}(4)
+For the Advanced rotation, you should substitute {{ skill(id="14413") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the OH burst rotation. Experienced warriors should note that {{ skill(id="14404") }} does not have a cast time, nor will it interrupt the current skill that is being casted, and can be pressed anytime as soon as it is off cooldown. Use it only when you need to top up stacks of {{ trait(id="1344") }}, which should be fairly rare considering you are already using {{ skill(id="14410") }} prior to the burst combo.
 
-You may opt to Weapon-swap once you have completed the combo (second cast of skill 4). Omiting the weapon swap and relying only on one weapon set results in only a minimal loss of DPS.
-
-For the Advanced rotation, you should substitute {{ skill(id="14413") }} as you are already overcapped on precision. It is however a DPS buff when using burst chains and you want to save it for the OH burst rotation. 
-
-Experienced warriors should note that {{ skill(id="14404") }} does not have a cast time, nor will it interrupt the current skill that is being casted, and can be pressed anytime as soon as it is off cooldown. Use it only when you need to top up stacks of {{ trait(id="1344") }}, which should be fairly rare considering you are already using {{ skill(id="14410") }} prior to the burst combo.
+The axe weapon swap chain has been removed from the build as of the latest patch but remains a careful consideration where cleave is needed. 
 
 ## Crowd Control and taking extra Utilities
 
@@ -143,32 +135,3 @@ If you really need really need more CC or specific utilities for raid mechanics,
 > 1. Group Aegis
 > 1. Invulnerability/blocks
 > 1. Group revives
-
-## Video
-
----
-
-The videos below are performed with food, utility and no infusions.
-
-#### Simplified Flexible Rotation (35k auto-attack D/X)
-
-{{ youtube(id="SgxMlYlEDKw") }}
-
-- I opted not to use mace skills simulate using a different off-hand weapon and ran out of kicks mid-bench.
-- You should be able to surpass 36k easily if you include infusions.
-- To increase DPS further, bring another CC or OH Mace to refresh {{ item(id="103574") }}
-
-#### Intermediate Rotation with bursts (38.2k D/M)
-
-{{ youtube(id="-D4ykeWSY7o") }}
-
-- Omitting the weapon swap (single offhand burst) produces a decent increase without much complexity. 
-- You should be able to surpass 39k easily if you include infusions.
-
-#### Advanced Rotation with bursts (38.9k D/M ⇋ D/A)
-
-{{ youtube(id="LnmK-bQ2B_U") }}
-
-- Adding the weapon swap may lead to leaked autos, resulting DPS loss in unfamiliar hands.
-- You should be able to surpass 40k easily if you include infusions.
-- This build is not grinded and the highest expected DPS ceiling should be roughly around 41-44k.
