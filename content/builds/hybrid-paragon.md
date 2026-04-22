@@ -2,6 +2,7 @@
 title = "Dual Blademaster [DPS]"
 description = "Auto-Attack Hybrid Paragon"
 date = 2025-11-02
+updated = 2026-04-23
 draft = false
 template = "build.html"
 
@@ -16,8 +17,8 @@ series = "warrior"
 tagline = "I am the bone of my sword."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-01"
-benchmark = "38.6k DPS"
+balance = "2026-04"
+benchmark = "36k DPS"
 apm = "26"
 log = "https://dps.report/dnK9-20251212-022925_golem"
 +++
@@ -63,11 +64,13 @@ This build has a lot of auto attacks.
 #### Food, Enhancement
 - Food: {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }}
 - Food: {{ item(id="43550", name="Dragon's Revelry Starcake") }} (Budget)
+- Food: {{ item(id="95241", name="Feast of Delectable Birthday Cake") }} (Budget)
 - Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
-- Better (prohibitively expensive) enhancements are available
+- Better (prohibitively expensive) food/enhancements are available
     * **Snow Diamond Ornament**
     * {{ item(id="72510", name="Writ of Masterful Malice") }}
     * {{ item(id="76833", name="Writ of Masterful Accuracy") }}
+    * Cooking Golem and/or Sharpening Golem (may be freely available on occasion)
 <br/>
 
 #### Infusions
@@ -119,11 +122,3 @@ This build has very poor CC options and you may bring additional CC by sacrifici
 > 3. Use **Relic of the Mistfire** for life siphon and additional damage
 > 4. Use {{ skill(id="76562") }} in emergencies
 > 5. Use {{ skill(id="14413") }} for stability
-
-## Video
----
-{{ youtube(id="Zp68hj-ziBA") }}
-
-> - This bench was performed without infusions
-> - This bench is not grinded and you should easily be able to surpass 40k by optimising utilities, RNG procs and cancelling less autos. 
-> - The complexity and damage ceiling of this build is low, so do not expect a much higher performance above 42k DPS. 
