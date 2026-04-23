@@ -3,7 +3,7 @@ title = "Symbolic Core Avenger[pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing group utilities, crowd control and condi cleanses."
 date = 2023-07-29
 updated = 2026-04-17
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
@@ -70,7 +70,7 @@ Power DPS
 ## Rotation and Utilities
 #### DPS Rotation
 1. Opening - {{ skill(id="9124") }} (Hammer 4)
-2. Spread out virtues (F1, F2, F3) use to maintain resolution uptime
+2. This build doesn't make sense because there is no good way to upkeep resolution. 
 3. Use {{ skill(id="9150") }} on cooldown.
 
 #### Crowd Control rotation
