@@ -2,7 +2,7 @@
 title = "Symbolic Dragonhammer [pDPS]"
 description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing stability, crowd control and condi cleanses."
 date = 2024-04-02
-updated = 2026-01-27
+updated = 2026-04-23
 draft = false
 template = "build.html"
 
@@ -18,7 +18,7 @@ tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
 balance = "2026-04"
-benchmark = "32k DPS"
+benchmark = "31k DPS"
 +++
 
 The purpose of writing this guide is to provide an ultra low intensity method to play PvE dragonhunter while easily hitting the 70% benchmark with minimal effort. This build is low cognition, low physical complexity, has very few repetitions and is functional in instanced content. The utilities do not require specific timing and do not interrupt the auto attack nature of the build. This build requires only one weapon to deal damage to near competitive levels with no requirement of a weapon swap: Hammer!
@@ -52,7 +52,6 @@ The purpose of writing this guide is to provide an ultra low intensity method to
 
 #### Infusions
 ---
-
 {{ item(id="43255") }} (optional)
 
 #### Weapon Swap
@@ -79,10 +78,7 @@ Power DPS
 {{ chatlink(code="[&DQEqOjEtGys4AQAAhBIAAP4SAAD+AAAAcRIAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 #### Trait Alternatives
-There is a [Core Guardian variant](https://aw2.help/builds/power-guardian/) which provides more selfless support but due to the large amounts of gear differences (crit requirement at 40% only), it will not be covered in this guide. The core guardian is useful if you do not have access to {{ item(id="104994") }} (Janthir Wilds).
-
-Although somewhat repetitive (spamming virtues) and dependent on resolution uptime, it remains a very strong contender and in many situations superior to this build. Dragonhunter provides a low-repetition option and is therefore the build of choice on this site.
-
+There is a Core Guardian variant which provides more selfless support but due to the large amounts of gear differences (crit requirement at 40% only), it will not be covered in this guide. Due to recent changes to the virtues trait, the core guardian build has issues maintaining its own resolution but can still work with certain healers. The build has hence been removed from our library. This is the only viable hammer auto-attack build at the time of writing, underperforms and has a higher APM. Dragonhunter provides a low-repetition option and is therefore the build of choice on this site.
 
 ## Rotation and Utilities
 #### DPS Rotation
@@ -131,10 +127,7 @@ A few examples where this advantage can be used are:
 > - _killing deadly adds like tormented dead_</small>
 
 
-## Videos
-I have benched the build with mostly Assassin's and a handful Marauders Gear and food/utilities.
-
-#### DPS benchmark (33k)
-Latest Video Coming soon
-<br/>
-> <small>_{{ skill(id="30273") }} will start the encounter early. {{ skill(id="30461") }} is brought for the benchmark instead. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) because it has a long precast and a short aftercast. _</small>
+## Golem Tips
+1. {{ skill(id="30273") }} will start the encounter early. 
+2. {{ skill(id="30461") }} is brought for the benchmark instead. 
+3. Ideally you want to frontload the damage using {{ skill(id="9124") }} (Hammer 4) because it has a long precast and a short aftercast.
