@@ -113,7 +113,7 @@ You have several options for burst heals:
 
 #### Condi Cleanses
 You need to bring 'enough' condi cleanses.
-> 1. {{ trait(id="5535") }} (minimal DPS loss)
+> 1. {{ skill(id="5535") }} (minimal DPS loss)
 > 2. {{ trait(id="358") }} (minor DPS loss)
 > 3. {{ trait(id="362") }} (moderate healing loss)
 > 4. {{ trait(id="340") }} (moderate DPS loss)
