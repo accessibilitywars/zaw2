@@ -94,7 +94,6 @@ Therefore a simplified elemental cycle will be:
 Healers also need to provide boons but some healers are missing certain key boons eg. swiftness. There are three ways to provide swiftness, 
 > 1. {{ skill(id="30008") }} (not 100% uptime)
 > 2. {{ skill(id="30047") }} (not 100% uptime)
-> 3. {{ skill(id="101116") }} (significant DPS/Healing loss)
 
 Thus some players will squeeze air into the rotation. 
 
