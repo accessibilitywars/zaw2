@@ -17,8 +17,8 @@ series = "elementalist"
 tagline = "I won't give up, no, I won't give in, 'Til I reach the end, and then I'll start again."
 keywords = "Guild Wars 2, GW2, LI, tempest"
 toc = true
-balance = "2026-01"
-benchmark = "18.8k DPS"
+balance = "2026-04"
+benchmark = "10-19k DPS"
 +++
 
 This build is an extension of the condition tempest build. With scepter benefiting from power damage increases, this condition build can scale with multiple stats, making it a great performer in doing multiple roles at once. While this build has a low skill floor, it does have a high toughness and players should be expected to tank. Swapping to water and air for CC is not detrimental compared to camping fire and is included as part of the rotation.
@@ -81,6 +81,7 @@ In order to provide alacrity, you will need share auras. The aura-sharing skills
 > 6. {{ skill(id="30432") }}
 
 <small>*Overloads reduce the APM of the build greatly.*</small>
+<small>*A triple aura-shout build allows you to rotate VERY slowly while providing boons and 100% alacrity uptime. This drops the bench to around 14.5k*</small>
 
 #### Healing Over Time
 Tempest has reliable heal over time mechanics, primarily due to long lasting regeneration and soothing mist. In order to maintain soothing mist, water attunement must always be included as a bridge to swapping elements. Each time you swap into water, you provide 10s of soothing mist. 
@@ -90,9 +91,10 @@ Therefore a simplified elemental cycle will be:
 > 3. {{ skill(id="5495") }}
 
 #### Providing Boons
-Healers also need to provide boons but some healers are missing certain key boons eg. Scourge doesn’t have swiftness. There are two ways to provide swiftness, 
+Healers also need to provide boons but some healers are missing certain key boons eg. swiftness. There are three ways to provide swiftness, 
 > 1. {{ skill(id="30008") }} (not 100% uptime)
 > 2. {{ skill(id="30047") }} (not 100% uptime)
+> 3. {{ skill(id="101116") }} (significant DPS/Healing loss)
 
 Thus some players will squeeze air into the rotation. 
 
@@ -112,10 +114,11 @@ You have several options for burst heals:
 
 #### Condi Cleanses
 You need to bring 'enough' condi cleanses.
-> 1. {{ trait(id="358") }} (minor DPS loss)
-> 2. {{ trait(id="362") }} (moderate healing loss)
-> 3. {{ trait(id="340") }} (moderate DPS loss)
-> 4. Combo: {{ trait(id="361") }} + {{ trait(id="1886") }} + {{ trait(id="340") }}
+> 1. {{ trait(id="5535") }} (minimal DPS loss)
+> 2. {{ trait(id="358") }} (minor DPS loss)
+> 3. {{ trait(id="362") }} (moderate healing loss)
+> 4. {{ trait(id="340") }} (moderate DPS loss)
+> 5. Combo: {{ trait(id="361") }} + {{ trait(id="1886") }} + {{ trait(id="340") }}
 
 If you need anything more than this, Cele Scourge may be a better option. 
 
@@ -141,7 +144,6 @@ F4-F1 (reverse)
 #### DPS Rotation
 
 **(Start in Fire) F1-F4**
-
 > 1. F1 {{ skill(id="29706") }}
 
 > 2. F2 {{ skill(id="5493") }}
@@ -154,7 +156,6 @@ F4-F1 (reverse)
 >> - use Earth 5 to 1 in descending order
 
 **F4-F1 (reverse)**
-
 > 1. F4 {{ skill(id="29618") }}
 
 > 2. F3 {{ skill(id="5494") }} (optional)
@@ -169,18 +170,15 @@ F4-F1 (reverse)
 #### Crowd Control rotation
 > 1. {{ skill(id="30864") }} (Wh4 while attuned to water)
 > 2. {{ skill(id="30008") }} (Wh4 while attuned to air)
-> 3. Other soft CC skills
-> 4. Additional Adaptions for CC
->> - {{ skill(id="5567") }} -> {{ skill(id="5721") }}
->> - {{ skill(id="25491") }} -> {{ skill(id="25492") }} (Also works as a spike heal)
+> 3. {{ skill(id="5567") }} -> {{ skill(id="5721") }}
+> 4. {{ skill(id="25491") }} -> {{ skill(id="25492") }} (Also works as a spike heal)
 
 ## Optimisation
 #### Omitting Air
 {{ skill(id="5494") }} is always optional in the rotation. This can be omitted in order to speed up the elemental cycle for various reasons:
 > 1. You need to get access to water faster. 
 > 2. You already have sufficient swiftness.
-> 3. You need to blast your water field.
-> 4. You need to reapply certain boons.
+> 3. You need to reapply certain boons.
 
 Check with your team regarding the boons that you need to cover.
 
@@ -207,13 +205,9 @@ Check with your team regarding the boons that you need to cover.
 
 #### Pitfalls and Special Roles
 > 1. Just in case the other healer has 2k toughness and you are considering, Tempest in general does not perform as a better hand kite than other alternatives. You have to change a lot of things in the build which is outside the scope of this guide.
-> 2. You need to sacrifice a lot to be able do significant condi cleanses. It is viable but isn't a great performer on slothasor. 
+> 2. You need to sacrifice a lot to be able do significant condi cleanses. It is viable but isn't a great performer on slothasor. A dedicated healer is better in this scenario.
 > 3. The reflects on elementalist can be a little janky on Matthias. I recommend sticking to the tradition of using mesmers and guardians. 
 
 ## Videos
-#### DPS benchmark (18k)
-{{ youtube(id="uydaDvc9xZI") }}
-This bench is done with only birthday cake and {{ item(id="101268") }} and no infusions/utilities and {{ trait(id="2033") }}. In our testing, the {{ trait(id="1986") }} does equal amounts of damage and maintains alacrity equally well. In low pressure fights, you may use {{ item(id="100153") }}, utilities and infusions to easily punch above 20k DPS.
-
 #### OLC demo - Explanatory Video
 {{ youtube(id="bCPk1Cz5AW8") }}
