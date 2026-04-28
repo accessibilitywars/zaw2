@@ -101,6 +101,19 @@
     {%- endif %}
     {%- endif %}
 
+    {%- if page.extra.balance %}
+    <div class="blockdiv">
+      Balance Patch:
+      {%- if page.extra.balance == config.extra.balance %}
+        <span style="color: LightGreen;">{{ page.extra.balance }}</span>
+      {%- elif page.extra.balance == config.extra.prev_balance %}
+        <span style="color: Gold;">{{ page.extra.balance }}</span>
+      {%- else %}
+        <span style="color: Crimson;">{{ page.extra.balance }}</span>
+      {%- endif %}
+    </div>
+    {%- endif %}
+
     {%- if page.taxonomies.specs or page.extra.spec %}
 	</div>
 	{%- endif %}
@@ -251,20 +264,7 @@ Note: this build was created for the older {{ page.extra.balance }} balance patc
 		  {%- endfor %}
 		</div>
 
-		{%- if page.extra.balance %}
-		<div class="blockdiv">
-		  <h2 class="b s150">Balance</h2>
-		  {%- if page.extra.balance == config.extra.balance %}
-			<p style="color: LightGreen;">{{ page.extra.balance }}</p>
-		  {%- elif page.extra.balance == config.extra.prev_balance %}
-			<p style="color: Gold;">{{ page.extra.balance }}</p>
-		  {%- else %}
-			<p style="color: Crimson;">{{ page.extra.balance }}</p>
-		  {%- endif %}
-		</div>
-		{%- endif %}
-
-   		{%- if page.extra.log %}
+		{%- if page.extra.log %}
 		<div class="blockdiv">
 		  <h2 class="b s150">DPS Log</h2>
 			<p><a href="{{ page.extra.log }}">DPS Log</a></p>
