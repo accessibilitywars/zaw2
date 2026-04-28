@@ -2,7 +2,7 @@
 title = "0-KIT ALAC-T1000 [aDPS]"
 description = "Simple Kitless Condition Alacrity Amalgam Build"
 date = 2026-02-14
-updated = 2026-02-14
+updated = 2026-04-28
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "engineer"
 tagline = "If you hurry home we can have dinner together. I am making beef stew!"
 keywords = "Guild Wars 2, GW2, LI, amalgam"
 toc = true
-balance = "2026-01"
-benchmark = "28.8k DPS"
+balance = "2026-04"
+benchmark = "27.8k DPS"
 apm = "43"
-log = "https://dps.report/qghq-20260214-115919_golem"
+log = "https://dps.report/MIKC-20260428-120308_golem"
 +++
 
 ---
@@ -35,17 +35,17 @@ This is build is equipped similar to the Snowcrow's guide but reduces the need f
 #### Equipment
 
 {{ medium(stat="Viper's", rune="Trapper") }}
-{{ spear(stat="Viper's", sigils=["Bursting", "Earth"]) }}
+{{ spear(stat="Celestial", sigils=["Bursting", "Earth"]) }}
 {{ trinkets(
-	back="Viper's",
-	accessory1="Viper's",
-	accessory2="Viper's",
+	back="Celestial",
+	accessory1="Celestial",
+	accessory2="Celestial",
 	ring1="Viper's",
 	ring2="Viper's",
 	amulet="Sinister",
 	relic="Fractal") }}
 
-Start by adding Viper Pieces until your condi duration is about 67%. You can fill the remaining slots with Sinister or Grieving gear.
+- <small>Start by adding Viper/Celestial Pieces until your condi duration is about 67%. More celestial pieces will provide more concentration and boon duration of 12-30% is ideal. You can fill the remaining slots with Sinister or Grieving gear. The above gear has 16% boon duration.</small>
 
 #### Food and Utility and Infusions
 - {{ item(id="91878") }}
@@ -57,7 +57,7 @@ Start by adding Viper Pieces until your condi duration is about 67%. You can fil
 
 {{ chatlink(code="[&DQMGJyY5SyYqDwAAWh0AAIIdAAAiAQAAex0AAAAAAAAAAAAAAAAAAAAAAAACCQE2AAA=]") }}
 
-[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLTgZn2mZJs7KdcWynlKQ7xnOA-DSRYfBFYGFc+nRcSgOUAK8YQACXD8aSxZFoC-e)
+[GW2Skills Link](https://gw2skills.net/editor/?PeQEQLTgZn2mZJs7KdcWynmKQ7xnOA-DSZYVRBC/LoAzwZcGxJB6QBowjBBIcNwrJFnVgKA-e)
 
 
 ## Rotation
@@ -70,13 +70,14 @@ You give Alacrity with Morph Skills:
 > 1. {{ skill(id="77163") }}
 
 > - <small>You may replace {{ skill(id="76815") }} with another protocol of choice for additional utility.</small>
-> - <small>You should use these skills on cooldown to ensure Alacrity doesn't drop.</small> 
+> - <small>You should use these skills spread out but frequently enough to ensure Alacrity doesn't drop.</small> 
 > - <small>{{ skill(id="76806") }} and {{ skill(id="77163") }} are your main damage buffs.</small>
 
 #### DPS Rotation
 
 1. Precast {{ skill(id="5836") }} and **DO NOT** {{ skill(id="5985") }}
-2. Use all your skills off-cooldown except your non-alac CC and healing skills
+2. Use all your skills off-cooldown except your CC ({{ skill(id="21661") }} & {{ skill(id="72977") }}) and healing skill ({{ skill(id="21661") }})
+3. Spread out morph skills to maintain {{ trait(id="2356") }}
 
 #### CC skills
 
@@ -93,8 +94,6 @@ You give Alacrity with Morph Skills:
 4. {{ trait(id="2395") }} can be used for condi cleanses
 5. {{ item(id="106364") }} or Mist Stranger for Open-world
 
-## Video
+## Benchmark
 
-{{ youtube(id="3c9o7JkDv6M") }}
-
-This build is performed with Ascended Gear, food, utilities and no infusions.
+The estimated DPS is provided without any infusions. 
