@@ -2,6 +2,7 @@
 title = "Fever (Fire-only Meme Weaver) [DPS]"
 description = "You probably shouldn't play this build 🔥"
 date = 2025-08-23
+updated = 2026-04-28
 draft = false
 template = "build.html"
 
@@ -16,8 +17,8 @@ series = "elementalist"
 tagline = "Ive Got A Fever And The Only Prescription Is More Cowbell!"
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Weaver"
 toc = true
-balance = "2026-01"
-benchmark = "39.2k DPS"
+balance = "2026-04"
+benchmark = "33.5k DPS"
 apm = "48"
 log = "https://dps.report/FFrK-20250924-220250_golem"
 +++
@@ -28,13 +29,14 @@ This build was initially written as a meme build. Tempest is still the ideal bui
 
 ---
 
-This build is the Weaver alternative for Inferno Elementalist. With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. Although Tempest does more damage, this build offers a few small advantages against Tempest in niche conditions and decent DPS in the following conditions:
+This build is the Weaver alternative for Inferno Elementalist. With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. Although Tempest does more damage, this build offers a few small advantages against Tempest in niche conditions and decent DPS in the following *very unlikely* conditions:
 
 > 1. Being locked out of melee range (Pylon Kiting, Flak Kiting)
 > 2. You have only standard power food
 > 3. Multiple reset phases (e.g. All the EOD Strikes)
 > 4. During CC phases where you can't deal damage
 > 5. When you are constantly forced to cancel your overloads
+> 6. You do not own HoT or VoE
 
 This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible while, while phase resets allow you to reset your opener, triggering {{ trait(id="2131") }}. Although this is a power build, there is a ramp-up time. 
 
@@ -66,8 +68,10 @@ This build attempts to maximise this trait by staying in {{ skill(id="5492") }} 
 Opener: 
 Start in {{ skill(id="5492") }}/{{ skill(id="5494") }}
 > 1. {{ skill(id="5692") }} (🪄🔥2)
-> 1. {{ skill(id="5736") }} (Optional)
 > 1. {{ skill(id="5492") }} (🔥/🔥)
+> 1. {{ skill(id="5497") }} 
+> 2. Simultaneous cast skills
+
 ---
 
 Then press all of your skills off cooldown. It honestly doesn't matter too much which order you push your buttons in, as long as you try your best to hit them off cooldown. I personally press most of my buttons from left to right on the keyboard for this build, as it is easier that way.
@@ -85,7 +89,7 @@ Do take note that some skills have no cooldown and can be simultaneously cast wi
 
 ---
 
-You have to prepare your CC skills in advance. Staying in air is a DPS loss. You do play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
+You have to prepare your CC skills in advance, and even after all that, it is much inferior to Evoker. Staying in air is a DPS loss. You do play DPS catch-up after doing the necessary CC and resetting your opener which triggers {{ trait(id="2131") }}. 
 
 **CC Rotation 400-800:**
 > 1. {{ skill(id="5494") }} 🌩️/🔥
@@ -100,10 +104,6 @@ Use Fire-only skills and utilities while you are attuned to 🌩️/🔥 or 🔥
 - <small>It may not be worthwhile to echo {{ skill(id="5687") }} if you are taking dagger because it does a lot less CC.</small>
 - <small>Additional CC can be done, for example attuning to water and bringing arcane wave, but these will result in a massive drop in DPS.</small>
 
-## Video
-
----
-
-{{ youtube(id="pP9vOoFX4vY") }}
-* <small>Our benches are 39.2k DPS without infusions and 40.5k DPS with infusions.</small> 
-* <small>You can surpass 41k if you delay Primordial Stance charges till when the boss is below 50% health, this is a golem gimmick and serves at most minimal effectiveness on actual fights.</small>
+## Benching
+- <small>The bench is done without infusions and ordinary power food. You can easily surpass 34k with optimisations.</small>
+- <small>You can surpass 35k if you delay Primordial Stance charges till when the boss is below 50% health, this is a golem gimmick and serves at most minimal effectiveness on actual fights.</small>
