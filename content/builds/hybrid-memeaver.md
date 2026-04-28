@@ -20,7 +20,6 @@ toc = true
 balance = "2026-04"
 benchmark = "33.5k DPS"
 apm = "48"
-log = "https://dps.report/FFrK-20250924-220250_golem"
 +++
 
 This build was initially written as a meme build. Tempest is still the ideal build for DPS, but this build may see situational use where Tempest is disadvantaged. That being said, it still performs surprisingly well.
