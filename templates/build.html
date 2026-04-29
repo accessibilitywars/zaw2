@@ -60,6 +60,19 @@
 
 	</div>
 
+    {%- if page.extra.balance %}
+    <div class="blockdiv">
+      Balance Patch:
+      {%- if page.extra.balance == config.extra.balance %}
+        <span style="color: LightGreen;">{{ page.extra.balance }}</span>
+      {%- elif page.extra.balance == config.extra.prev_balance %}
+        <span style="color: Gold;">{{ page.extra.balance }}</span>
+      {%- else %}
+        <span style="color: Crimson;">{{ page.extra.balance }}</span>
+      {%- endif %}
+    </div>
+    {%- endif %}
+
     {# In Page Series Navigation #}
     {%- if config.extra.series | default(value=true) %}
     {%- if page.extra.series %}
@@ -99,19 +112,6 @@
       </div>
     </div>
     {%- endif %}
-    {%- endif %}
-
-    {%- if page.extra.balance %}
-    <div class="blockdiv">
-      Balance Patch:
-      {%- if page.extra.balance == config.extra.balance %}
-        <span style="color: LightGreen;">{{ page.extra.balance }}</span>
-      {%- elif page.extra.balance == config.extra.prev_balance %}
-        <span style="color: Gold;">{{ page.extra.balance }}</span>
-      {%- else %}
-        <span style="color: Crimson;">{{ page.extra.balance }}</span>
-      {%- endif %}
-    </div>
     {%- endif %}
 
     {%- if page.taxonomies.specs or page.extra.spec %}
