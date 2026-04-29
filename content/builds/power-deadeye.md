@@ -106,13 +106,9 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
 
 ## Videos
-I have benched the build with a slight increase in hp by using mixed ascended gear without infusions and budget food. The reason for increasing the vitality is that the intensity of the build may be lowered and DPS uptime can be increased in certain instances. e.g. You should be able to take the sniper shot on Kaineng Overlook NM without dodging.
 
 #### DPS benchmark (30k)
 Updated Video Coming Soon.
-
-#### LI Dagger Rotation
-{{ youtube(id="8xBio3WnVXw") }}
 
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
