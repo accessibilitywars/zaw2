@@ -53,7 +53,7 @@ Weapon swap is optional. Consider scepter and shield for tanking and focus for a
 
 # Build
 
-Heal Quickness Build {{ chatlink(code="[&DQctOhcqSTptAQ8BUx2GAYQdgQEAAGsBbR28AQAAAAAAAAAAAAAAAAAAAAADVQBWADEAAA==]") }}
+Heal Quickness Build {{ chatlink(code="[&DQctOhcqSTptAQ8BUx2GAYQdgQFrHWsBbR28AQAAAAAAAAAAAAAAAAAAAAABWQAA]") }}
 
 ## Rotation and Utilities
 
@@ -87,7 +87,7 @@ Your healing skills trigger {{ item(id="101116") }} to grant swiftness, use them
 
 #### Utilty
 
-You may select any of the following for the unused slot
+You may replace skill slot 9 with any of the following:
 > 1. {{ skill(id="77178") }} for a stun break + short stability + additional notes
 > 2. {{ skill(id="10237") }} for permanent stability 
 > 3. {{ skill(id="10207") }} for heavy condi cleanses
