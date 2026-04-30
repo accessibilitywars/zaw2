@@ -3,7 +3,7 @@ title = "Barbed Arrows [cDPS]"
 description = "This build is designed around the shortbow Auto Attack being empowered by non-interruptible skills without cast time. "
 date = 2024-04-16
 updated = 2026-01-15
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
