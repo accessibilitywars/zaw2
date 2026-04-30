@@ -2,7 +2,7 @@
 title = "Blade of Alacrity [aDPS]"
 description = "This build is designed around empowered poison/bleeding and Dagger bursts."
 date = 2024-06-07
-updated = 2025-09-03
+updated = 2026-04-30
 draft = false
 template = "build.html"
 
@@ -17,75 +17,71 @@ series = "thief"
 tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
-balance = "2026-01"
-benchmark = "30k DPS"
+balance = "2026-04"
+benchmark = "26.3k DPS solo"
+benchmark2 = "~28-29k DPS w allies"
 +++
 
 The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime and decent DPS output in group PVE content. While weapon swaps are not included in the rotation, swapping to another dagger or a ranged option remains viable choices. This build is functional in both open world and instanced content. While this build has a a moderate skill floor, it has a higher achievable damage ceiling once the basics are secured. Because of the differences in condition types and trait interactions, this build is not efficient with torment unless special arrangements are made, thus three loadouts are explored here but this guide assumes you are following the optimised loadout.
 
-This build requires daggers and unfortunately has a small amount of forced movement. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary. This build has intermediate difficulty and although the APM is relatively low, high ping, slow execution and fumbling with your skills can lead to a massive drop in DPS. 
+This build requires daggers and unfortunately has a small amount of forced movement. The alternative weapon sets (spear and scepter) are not covered in this guide due to easily cancelled skills and complexity of execution. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation on mobile fights and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary. This build has intermediate difficulty and although the APM is relatively low, high ping, slow execution and fumbling with your skills can lead to a massive drop in DPS.
 
 
 ## Gearing and Consumables
 #### GW2Skills Links
-1. [Optimised Loadout](https://gw2skills.net/editor/?PaABgihjlhyOYssJ2IO2W1xcA-DSJYyRP/hUgUISFQliAF+CgmZ8pBqA-e)
-2. [Ranged/Mobile Loadout](https://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W/xcA-DSJYyRP/hUgUoLRQkKAF+CgGZ8pBqA-e)
-3. [Support Loadout](http://gw2skills.net/editor/?PaABgitjlhyOYIMW2JO2W3xfA-DSJYyRP/hUgUoLRQkKAFeMgGZ8pBqA-e)
+1. [Optimised Loadout](https://gw2skills.net/editor/?PaABgihjlJwOYKMK2IO2W1xcA-DSJYyRP/hEpCoSRQISBF+CgmZ8pBqA-e)
 
-> - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger loadout.</small>
-> - <small>The ranged loadout increases torment and scepter use and is aimed at fights where the use of close range dagger attacks become nullified due to boss positioning or mobility. This also assumes that weapon swaps may not be possible.</small>
-> - <small> The support loadout takes on barrier via consume shadows and also provides boons such as fury if supply from the healer is lacking.</small>
+> - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger 🗡️ loadout.</small>
 
 #### Equipment
 - Full Ritualist's
 {{ medium(stat="Ritualist's", rune="Trapper") }}
-{{ dagger_main(stat="Ritualist's", sigil="Agony") }}
+{{ dagger_main(stat="Ritualist's", sigil="Malice") }}
 {{ dagger_off(stat="Ritualist's", sigil="Doom") }}
 {{ trinkets(stat="Ritualist's", relic="Fractal") }}
-- You may swap a few pieces for Viper's for a slight increase in DPS when you are comfortable with the uptime
 
-> <small>This build is geared similar to [SnowCrows](https://snowcrows.com/builds/raids/thief/condition-alacrity-spectre). You may find that it worthwhile to reference their build especially if there is minimal boss movement with flexible attack windows.</small>
+> - You may swap a few pieces for Viper's for a negligible increase in DPS when you are comfortable with the uptime
+> - Different sigils have different effects on DPS depending on your utilities. You are already capped on poison duration.
 
 #### Weapon Swap Options
-{{ dagger_off(stat="Ritualist's", sigil="Transference") }} as a third dagger for a small DPS increase [^1]
-{{ scepter_main(stat="Ritualist's", sigil="Concentration") }} as a ranged option
+{{ dagger_off(stat="Ritualist's", sigil="Geomancy") }} as a third dagger for a small DPS increase (1k+) [^1]
 
 [^1]: Swapping to a third Dagger allows utilisation of two different sigils
 
 #### Food
-- {{ item(id="96578") }}
-  There is no need for a budget alternative as this is relatively cheap. 
-  Consider swapping this for alternatives if you are using budget runes.
+- Any standard condition food will work. Take note that you are already capped on poison duration.
 
 #### Utility
   - {{ item(id="81079") }}(Condi)
 
 ## Build
 #### Alac DPS (Optimised)
-{{ chatlink(code="[&DQUcGyw1RzkVGwAALwEAAAYbAABUAQAAKAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQUcGyw9RzUkDwwBVQEvAS8BPgELAVYBKAAoAAAAAAAAAAAAAAAAAAAAAAACLwBWAAA=]") }}
 
 #### Trait Alternatives
 1. {{ trait(id="2275") }} is able to provide group barrier if that is missing from your group.[^2]
 2. {{ trait(id="2285") }} can refill your shroud meter if you bring wells.[^3]
 
 [^2]: Barriers scale according to your vitality so investment into healing power is not necessary.
-[^3]: This scales to more than 5 players, and is very useful in open world nd Raids/Strikes, less so in fractals.
+[^3]: This scales to more than 5 players, and is very useful in open world and Raids/Strikes, less so in fractals.
 
 ## Rotation and Utilities
-Ensure skill 1 on both shroud and daggers are set to autocast. You don't have to complete your auto-attack chain, the damage is negligible and prioritising the chain on top of other skills will lead to a DPS drop.
+Ensure skill 1 on both shroud and daggers are set to autocast. Prioritising your auto-chains on top of other skills will lead to a DPS/Alac drop.
 
 #### Rotation
 Precasts - {{ skill(id="13082") }} (Elite) and Utilities (use these on cooldown)
-Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
-1. Alacrity Rotation - Perform autos + {{ skill(id="63167") }} (Sh2) + {{ skill(id="63160") }} (Sh4) on cooldown.[^4]
-2. DPS rotation - Spam {{ skill(id="13006") }} (D3)[^5]
-3. Cast utilities and {{ skill(id="63067") }} (F1) during/after step 2.[^6]
-4. Reset the rotation using {{ skill(id="63155") }} (F2).[^7]
+Opener - {{ skill(id="63067") }} (🫳F1) and {{ skill(id="63155") }} (🥷F2) and use them on cooldown. 
+1. Alacrity Rotation (In Shroud 🥷) - {{ skill(id="63167") }} (🥷2) + {{ skill(id="63160") }} (🥷4) on cooldown.[^4]
+2. DPS rotation - Exit Shroud and Spam {{ skill(id="13006") }} (🗡️3)[^5]
+3. Cast utilities during/after step 2.[^6]
+4. Use up all your initiative with {{ skill(id="13006") }} (🗡️3). If your initiative is 0, try to do a few **uninterrupted full auto chains** till {{ skill(id="63155") }} is refreshed.[^7]
+5. Reset the rotation using {{ skill(id="63155") }} (🥷F2).[^8]
 
-[^4]: You may need to stay in shroud for a longer period of time (due to range or to extend alacrity)
-[^5]: Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast. Using a utility when you are out of initiative to smoothen that.
+[^4]: You may need to stay in shroud for a longer period of time (due to range or to extend alacrity), usually a rotation of 2 casts of 🥷2 is sufficient. 
+[^5]: Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast.
 [^6]: Some of these have no cast time and can be done mid animation.
-[^7]: This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about
+[^7]: Your initiative can carry over to the next dagger loop. Unless you are confident that you won't interrupt your autos, you should allow a bit of leeway for your auto chains.
+[^8]: This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about.
 
 #### Utilties
 1. Utilities to cast on cooldown
@@ -93,12 +89,11 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
     * {{ skill(id="13093") }}
     * {{ skill(id="13028") }}
     * {{ skill(id="56898") }}
-    * {{ skill(id="13055") }} (if taking Scepter)
+    * {{ skill(id="63276") }} (viable on less mobile fights)
 2. Optional Situational Utilities
     * {{ skill(id="13132") }}
     * {{ skill(id="63323") }}
     * {{ skill(id="63292") }}
-    * {{ skill(id="63276") }} (if taking Scepter/{{ trait(id="2285") }})
 3. Other Strategic Options
     * {{ skill(id="13002") }}
     * {{ skill(id="13038") }}
@@ -106,14 +101,14 @@ Opener - {{ skill(id="63067") }} (F1) and {{ skill(id="63155") }} (F2)
 > <small>Note: All the utilites are optional as your rotation is predetermined by your weapon and shroud skills.</small>
 
 #### CC options
-{{ skill(id="13132") }} is your best CC skill.
-In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5) to CC
+
+- {{ skill(id="13132") }} is your best CC skill.
+- In shroud, you can use {{ skill(id="63220") }}(🥷3)/{{ skill(id="63249") }}(🥷5) to CC
 
 #### Sustainability
+
 1. {{ skill(id="13006") }} (D3) is an evade. You spend almost half the time in evade frames. 
 2. {{ skill(id="63155") }} is your second health bar. You spend almost half the time on your second health bar.
-
-> <small>Taking {{ trait(id="2275") }} will obliterate your second health bar but can assist your healers with certain fights if timed well. Use it for group survivabiity.</small>
 
 ## Optimisation
 #### Raid Ready
@@ -140,3 +135,7 @@ In shroud, you can use {{ skill(id="63220") }}(Sh3)/{{ skill(id="63249") }}(Sh5)
 3. W3 Xera - Bringing a power option is recommended but this is not a strict contraindication.
 4. W6 Conjured Amalgamate - Bringing a power option is recommended.
 5. W7 Qadim the Peerless - If you need to pylon kite, just play a deadeye.
+
+#### Benchmark 
+
+The benchmark is based on budget food and no infusions. 
