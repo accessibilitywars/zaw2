@@ -78,7 +78,7 @@ Opener - {{ skill(id="63067") }} (🫳F1) and {{ skill(id="63155") }} (🥷F2) a
 5. Reset the rotation using {{ skill(id="63155") }} (🥷F2).[^8]
 
 [^4]: You may need to stay in shroud for a longer period of time (due to range or to extend alacrity), usually a rotation of 2 casts of 🥷2 is sufficient. 
-[^5]: Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (D3)'s aftercast.
+[^5]: Note: Your shroud skill may be non-responsive and doesn't queue well after {{ skill(id="13006") }} (🗡️3)'s aftercast.
 [^6]: Some of these have no cast time and can be done mid animation.
 [^7]: Your initiative can carry over to the next dagger loop. Unless you are confident that you won't interrupt your autos, you should allow a bit of leeway for your auto chains.
 [^8]: This rotation is surprisingly short, you need to enter shroud as soon as you can and not muck about.
@@ -107,7 +107,7 @@ Opener - {{ skill(id="63067") }} (🫳F1) and {{ skill(id="63155") }} (🥷F2) a
 
 #### Sustainability
 
-1. {{ skill(id="13006") }} (D3) is an evade. You spend almost half the time in evade frames. 
+1. {{ skill(id="13006") }} (🗡️3) is an evade. You spend almost half the time in evade frames. 
 2. {{ skill(id="63155") }} is your second health bar. You spend almost half the time on your second health bar.
 
 ## Optimisation
