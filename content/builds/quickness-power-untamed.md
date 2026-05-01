@@ -3,7 +3,7 @@ title = "Bunny Thumper [qDPS]"
 description = "Bunny Thumpers are melee Rangers who use a combination of Hammer attacks and Beast Mastery skills to inflict pressure damage."
 date = 2025-10-05
 updated = 2025-10-05
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
