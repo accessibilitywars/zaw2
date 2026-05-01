@@ -22,16 +22,14 @@ benchmark = "26.3k DPS solo"
 benchmark2 = "~28-29k DPS w allies"
 +++
 
-The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime and decent DPS output in group PVE content. While weapon swaps are not included in the rotation, swapping to another dagger or a ranged option remains viable choices. This build is functional in both open world and instanced content. While this build has a a moderate skill floor, it has a higher achievable damage ceiling once the basics are secured. Because of the differences in condition types and trait interactions, this build is not efficient with torment unless special arrangements are made, thus three loadouts are explored here but this guide assumes you are following the optimised loadout.
+The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime and decent DPS output in group PVE content. While weapon swaps are not included in the rotation, swapping to another dagger or a ranged option remains viable choices. This build is functional in both open world and instanced content. While this build has a a moderate skill floor, it has a higher achievable damage ceiling once the basics are secured. Because of the differences in condition types and trait interactions, this build is not efficient with torment unless special arrangements are made, thus this guide assumes you are only using dual/triple daggers.
 
-This build requires daggers and unfortunately has a small amount of forced movement. The alternative weapon sets (spear and scepter) are not covered in this guide due to easily cancelled skills and complexity of execution. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation on mobile fights and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary. This build has intermediate difficulty and although the APM is relatively low, high ping, slow execution and fumbling with your skills can lead to a massive drop in DPS.
+The alternative weapon sets (spear and scepter) are not covered in this guide due to easily cancelled skills and complexity of execution. Daggers unfortunately, do have a small amount of forced movement. The issues and workarounds with the rotation will be discussed in the guide with a primary focus on accessibility and choosing fights. The featured build is selective for utilities that do not hinder the rotation on mobile fights and has preference for utilities that are multifunctional and smoothens the gameplay experience. Time sensitive skills that disrupt the rotation or involve more button presses may be played situationally and adopted as deemed necessary. This build has intermediate difficulty and although the APM is relatively low, high ping, slow execution and fumbling with your skills can lead to a massive drop in DPS.
 
 
 ## Gearing and Consumables
 #### GW2Skills Links
-1. [Optimised Loadout](https://gw2skills.net/editor/?PaABgihjlJwOYKMK2IO2W1xcA-DSJYyRP/hEpCoSRQISBF+CgmZ8pBqA-e)
-
-> - <small>For the purpose of writing a concise guide, I will be focusing on the optimised dual/triple dagger 🗡️ loadout.</small>
+1. [Daggers Loadout](https://gw2skills.net/editor/?PaABgihjlJwOYKMK2IO2W1xcA-DSJYyRP/hEpCoSRQISBF+CgmZ8pBqA-e)
 
 #### Equipment
 - Full Ritualist's
