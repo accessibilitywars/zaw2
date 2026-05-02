@@ -91,7 +91,7 @@ After using your 2nd Unleash Ambush -> Autos about to start/started
 >     * {{ skill(id="63208") }} OR {{ skill(id="12639") }}
 > 1. Utilities 7/8 if available +/- Pet skill (F3)
 >     * {{ skill(id="63157") }} OR {{ skill(id="12633") }}
->     * {{ skill(id="67084") }}
+>     * {{ skill(id="64882") }}
 > 1. Optional Weapon 2 on refresh
 > 1. Autos (till 🔃 **Weapon Swap** refreshes)
 > 1. {{ skill(id="63344") }} -> {{ skill(id="63147") }} 
