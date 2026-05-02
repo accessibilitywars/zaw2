@@ -38,8 +38,8 @@ There are two channeled skills that will destroy your build when cancelled. Thes
 	amulet="Berserker's",
 	relic="Claw") }}
 {{ hammer(stat="Berserker's", sigils=["Air", "Hydromancy"]) }}
-{{ sword_main(stat="Berserker's", sigil=["Air") }}
-{{ axe_off(stat="Berserker's", sigil=["Hydromancy"]) }}
+{{ sword_main(stat="Berserker's", sigil="Air") }}
+{{ axe_off(stat="Berserker's", sigil="Hydromancy") }}
 
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
