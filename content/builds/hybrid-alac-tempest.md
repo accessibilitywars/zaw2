@@ -31,7 +31,7 @@ Press everything off cooldown while in {{ skill(id="5492") }}.
 
 Just like all the other {{ trait(id="1675" , name="Inferno") }} builds, this build does ~55% of your total damage in Burning, with the remaining ~45% in Power, easily making it a Hybrid DPS build.
 
-Now this comes topped up with Alacrity and Healing using {{ trait(id="1986" }} and {{ trait(id="361" }} which adds increased survivability and sustainability in both raids on open world.
+Now this comes topped up with Alacrity and Healing using {{ trait(id="1986") }} and {{ trait(id="361") }} which adds increased survivability and sustainability in both raids on open world.
 
 ## Gearing
 
