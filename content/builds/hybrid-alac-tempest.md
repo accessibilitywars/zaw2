@@ -52,7 +52,7 @@ Now this comes topped up with Alacrity and Healing using {{ trait(id="1986") }} 
 
 ## Build
 
-{{ chatlink(code="[&DQYfPSkfMDfHEnQAwxJzAL4BAADLAMsAJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgBnAFoAMQAA]") }}
+{{ chatlink(code="[&DQYfPREuMDfHEnQAywBzAMMSwxK+AcsAJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgBnAFoAMQAA]") }}
 
 
 ## Rotation
