@@ -18,7 +18,7 @@ toc = true
 balance = "2026-04"
 +++
 
-The Troubadour has an easy design such that when you randomly mash all the buttons, you'd provide all the right boons and heals. This build has selected utilities for minimal cognitive complexity, such that the hardest part of playing this build is enduring the out-of-sync music throughout the fight. 
+The Troubadour has an easy design such that when you randomly mash all the buttons, you'd provide all the right boons and an excessive amount of healing. This build has selected utilities for minimal cognitive complexity, such that the hardest part of playing this build is enduring the out-of-sync music throughout the fight. 
 
 While this guide assumes no weapon swap is needed, if you take an off-tank role, you may consider swapping rifle to other alternatives.
 
@@ -37,6 +37,10 @@ Weapon swap is optional. Consider scepter and shield for tanking and focus for a
 
 {{ scepter_main(stat="Harrier's", sigil="Transference") }}
 {{ shield_off(stat="Harrier's", sigil="Paralyzation") }}
+
+OR 
+
+{{ scepter_main(stat="Harrier's", sigil="Transference") }}
 {{ focus_off(stat="Minstrel's", sigil="Renewal") }}
 
 > <small>_Shield is better used for tanking and focus is useful for pulling adds. Alternate weapon sets should be prioritised based on utility requirements._</small>
