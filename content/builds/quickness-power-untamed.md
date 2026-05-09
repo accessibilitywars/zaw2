@@ -23,7 +23,7 @@ benchmark = "27k DPS"
 +++
 
 ## Notes
-This build is simplified to activate the relic of the claw to reduce relic downtime on burst windows on a fixed, consistent and easy-to-remember rotation. This provides steady quickness for the group and decent sustained CC. There is a relatively a large amount of button downtime filled with auto attacks. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptime.
+This build is simplified to activate the {{ item(id="103574") }} to reduce relic downtime on burst windows on a fixed, consistent and easy-to-remember rotation. This provides steady quickness for the group and decent sustained CC. There is a relatively a large amount of button downtime filled with auto attacks. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptime.
 
 There are two channeled skills that will destroy your build when cancelled. These skills are positioned in the rotation where they are less likely to be cancelled (because the other skills are on cooldown). 
 
