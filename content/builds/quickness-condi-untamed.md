@@ -23,12 +23,10 @@ apm = "60"
 +++
 
 ## Notes
-This build is simplified to activate the relic of the claw to reduce relic downtime on burst windows on a fixed, consistent and easy-to-remember rotation. This provides steady quickness for the group and decent sustained CC. There is a relatively a large amount of button downtime filled with auto attacks. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptimes.
-
-There are two channeled skills that will destroy your build when cancelled. These skills are positioned in the rotation where they are less likely to be cancelled (because the other skills are on cooldown). 
+This build is simplified to use a fixed, consistent and easy-to-remember rotation. Condition damage and eight-legged pets are empowered through the trait {{ trait(id="1099") }}. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptime.
 
 ## Gearing
-{{ medium(stat="Berserker's", rune="Fireworks") }}
+{{ medium(stat="Ritualist's", rune="Trapper") }}
 	{{ trinkets(
 	back="Ritualist's",
 	accessory1="Ritualist's",
