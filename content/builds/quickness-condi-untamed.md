@@ -112,7 +112,7 @@ After using your 2nd Unleash Ambush -> use the skills from left to right for Axe
 * <small>Using {{ skill(id="63147") }} too early will lead to a large DPS loss. Using it late will lead to a small DPS loss and maintain quickness.</small>
 
 **Crowd Control Skills**
-> 1. {{ skill(id="12673") }} (F1)
+> 1. {{ skill(id="43068") }} (F1)
 > 2. {{ skill(id="63157") }} (Utility Alternative)
 > 3. {{ skill(id="12476") }} (Utility Alternative)
 > 4. Bring other pets if you need more
