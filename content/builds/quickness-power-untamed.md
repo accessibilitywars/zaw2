@@ -23,7 +23,7 @@ benchmark = "27k DPS"
 +++
 
 ## Notes
-This build is simplified to activate the relic of the claw to reduce relic downtime on burst windows on a fixed, consistent and easy-to-remember rotation. This provides steady quickness for the group and decent sustained CC. There is a relatively a large amount of button downtime filled with auto attacks. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptimes.
+This build is simplified to activate the relic of the claw to reduce relic downtime on burst windows on a fixed, consistent and easy-to-remember rotation. This provides steady quickness for the group and decent sustained CC. There is a relatively a large amount of button downtime filled with auto attacks. This build however still performs decently and allows one to comfortably learn the class mechanics with fewer APMs while providing very good and steady quickness uptime.
 
 There are two channeled skills that will destroy your build when cancelled. These skills are positioned in the rotation where they are less likely to be cancelled (because the other skills are on cooldown). 
 
@@ -59,15 +59,16 @@ The entirety of quickness Untamed rotation can be summarised into two steps.
 
 #### Opener
 The opener can give a very good burst, especially when the boss has different phases.
+> 1. {{ skill(id="63344") }}
 > 1. {{ skill(id="12633") }} 
 > 1. 3 pet skills (can be cast simultaneously)
 >     * {{ skill(id="63209") }}
 >     * {{ skill(id="63258") }}
 >     * {{ skill(id="63094") }}
-> 1. {{ skill(id="63344") }} -> {{ skill(id="63147") }} 
+> 1. {{ skill(id="63147") }} 
 
 * <small>If you skip the opener, you have to use {{ skill(id="63147") }} to unlock Unleash Ambush to give quickness.</small>
-* <small>Starting the opener with sword will trigger {{ item(id="103574") }} right at the beginning which is a significant initial burst.</small>
+* <small>Starting the opener with sword will trigger {{ item(id="103574") }} right at the beginning which is a significant initial DPS burst.</small>
 * <small>If you use a 2KRO/3KRO keyboard, your simultaneous cast of pet skills may result in input failure. Most gaming keyboards are 6KRO, allowing all the buttons to be pressed at the same time. Alternatively, you press the three pet skills one by one as fast as you can.</small>
 
 #### Quickness Rotation
@@ -102,7 +103,7 @@ After using your 2nd Unleash Ambush -> Autos about to start/started
 * <small>Try not to cancel {{ skill(id="63438") }} or {{ skill(id="12639") }}.</small>
 * <small>You may wish to introduce a slight delay after casting {{ skill(id="63438") }}</small>
 * <small>The sequence of button presses are similar on both weapons.</small>
-* <small>If you are slow on your rotation, you can skip weapon 3.</small>
+* <small>If you are slow on your rotation, you can skip Weapon 3.</small>
 * <small>If you use {{ skill(id="63147") }} before your 🔃 **Weapon Swap** refreshes, your Unleashed Ambush will not be ready.</small>
 * <small>Dragging your feet on using ambush will lead to a small 1-2k DPS loss. Swapping Unleash Mode too early will lead to a higher DPS loss.</small>
 
@@ -118,5 +119,4 @@ If you started off with the wrong weapon, then remember to reserve {{ skill(id="
 4. Your pet F3 skills deal CC through the trait {{ trait(id="1945") }}
 
 #### Benchmark
-
 This bench was done with ascended food, standard utiltiies and without infusions. 
