@@ -77,9 +77,6 @@ Before the fight, set the following
 ***Warning: avoid targeting Deimos to allow the mech to stay nearby***.<br/>
 The mech will go after your target when you press F2/F3
 
-Staying in a kit will also proc {{ trait(name="Backpack Regenerator") }}. I find it helpful to just stay in
-{{ skill(name="Tool Kit") }} most of the time so I don't accidentally use {{ skill(name="Static Shield") }} (Shield 5).
-
 ## Hands
 
 Almost immediately, Deimos will start spawning hands. They spawn on the furthest player, 5 spawn at a time (every ~1 second), then

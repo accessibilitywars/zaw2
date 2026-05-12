@@ -55,7 +55,6 @@ Notes:
 
 - If you're in a large group PvE environment, swap to staff to tag lots of targets
 - With {{ trait(name="Transfusion") }} traited, staff will buff all allies. This includes your minions
-- Staff also brings more opportunites to inflict bleeding to proc {{ trait(name="Blood Bond") }}, essentially giving life steal to allies
 
 # Condition Cleanse
 
