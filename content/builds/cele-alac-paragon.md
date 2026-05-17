@@ -85,7 +85,7 @@ Use the following off-cooldown
 #### General House Rules
 > 1. Your primary goal is to maintain alacrity and your party's survivability before DPS 
 > 1. You need to maintain 7-10 motivations
-> 1. Timing your burst with {{ skill(id="1480") }} will improve your might uptime.
+> 1. Timing your burst with {{ trait(id="1480") }} will improve your might uptime.
 
 #### Crowd Control
 This build has very poor CC options and you may bring additional CC through weapon swaps. The details are covered in the heal and hybrid DPS guide.
