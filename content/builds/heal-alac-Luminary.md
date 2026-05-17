@@ -90,7 +90,8 @@ You should not be adjusting the build to try to increase healing but focus on yo
 3. Use {{ skill(id="76813") }} for extra CC
 4. {{ skill(id="73132") }} (Spear 5)
 5. {{ skill(id="9128") }} (Alt Utility Skill)
-6. More options are available but not exhausted in this guide
+
+<small>Note: More options are available but not exhausted in this guide.</small>
 
 #### Condi Cleanses
 1. {{ skill(id="78604") }} (F2)
