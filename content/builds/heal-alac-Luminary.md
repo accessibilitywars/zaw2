@@ -109,4 +109,4 @@ You should not be adjusting the build to try to increase healing but focus on yo
 1. {{ skill(id="9153") }}
 1. {{ skill(id="9084") }} (Swiftness)
 
-<small>Note: If you do not use Staff or Relic of Febe, you will need alternate sources of swiftness like "Advance!".</small>
+<small>Note: If you do not use Staff or Relic of Febe, you will need alternate sources of swiftness like {{ skill(id="9084") }} (replace {{ skill(id="77321") }}).</small>
