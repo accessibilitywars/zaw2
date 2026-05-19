@@ -84,6 +84,8 @@ You should not be adjusting the build to try to increase healing but focus on yo
 >     * Reserve {{ skill(id="76813") }} for extra CC
 >     * Use {{ skill(id="29965") }} on cooldown for extra Fury uptime
 
+<small>Note: If your might uptime is patchy, consider spamming {{ skill(id="78837") }} (F1) during your Forge rotation.</small>
+
 #### Crowd Control rotation
 1. You have decent CC using only {{ skill(id="76978") }} (Forge 5 Flip)
 2. You can extend your CC rotation by starting with {{ skill(id="77339") }} (Forge 2) i.e. 2-5-4-3-2
