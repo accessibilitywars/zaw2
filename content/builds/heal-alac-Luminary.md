@@ -33,12 +33,13 @@ There is an excessive amount of light effects on this build and you may wish to 
 {{ trinkets(stat="Harrier's", relic="Flock") }}
 
 #### Alternate Pieces
-{{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+{{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }} (for might and swiftness and additional healing)
 {{ item(id="99965") }} (for barrier)
 {{ item(id="101116") }} (for swiftness)
 
 > <small>_Note: Weapon swap is optional. Alternate weapon sets should be prioritised based on utility requirements._</small>
 > <small>_Note: Febe gives patchy swiftness coverage but allows you to avoid swapping to staff for {{ skill(id="9143") }}._</small>
+> <small>_Note: If you do not use these sources of swifness, you will need to take {{ skill(id="9084") }}._</small>
 
 #### Budget Options
 
