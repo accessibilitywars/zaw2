@@ -30,7 +30,7 @@ There is an excessive amount of light effects on this build and you may wish to 
 
 {{ heavy(stat="Harrier's", rune="Monk") }}
 {{ spear(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
-{{ trinkets(stat="Harrier's", relic="Flock") }}
+{{ trinkets(stat="Harrier's", relic="Karakosa") }}
 
 #### Alternate Pieces
 {{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }} (for might and swiftness and additional healing)
