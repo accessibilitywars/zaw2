@@ -30,15 +30,15 @@ There is an excessive amount of light effects on this build and you may wish to 
 
 {{ heavy(stat="Harrier's", rune="Monk") }}
 {{ spear(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
-{{ trinkets(stat="Harrier's", relic="Febe") }}
+{{ trinkets(stat="Harrier's", relic="Flock") }}
 
 #### Alternate Pieces
 {{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
-{{ item(id="101268") }} (for extra heals)
 {{ item(id="99965") }} (for barrier)
+{{ item(id="101116") }} (for swiftness)
 
 > <small>_Note: Weapon swap is optional. Alternate weapon sets should be prioritised based on utility requirements._</small>
-> <small>_Note: Using an alternative relic means you need staff or another swiftness source._</small>
+> <small>_Note: Febe gives patchy swiftness coverage but allows you to avoid swapping to staff for {{ skill(id="9143") }}._</small>
 
 #### Budget Options
 
@@ -109,4 +109,5 @@ You should not be adjusting the build to try to increase healing but focus on yo
 1. {{ skill(id="9153") }}
 1. {{ skill(id="9084") }} (Swiftness)
 
-<small>Note: If you do not use Staff or Relic of Febe, you will need alternate sources of swiftness like {{ skill(id="9084") }} (replace {{ skill(id="77321") }}).</small>
+<small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
+<small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
