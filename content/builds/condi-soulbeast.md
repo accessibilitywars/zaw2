@@ -3,7 +3,7 @@ title = "Barbed Arrows [cDPS]"
 description = "This build is inspired by the Guild Wars 1 skill, Barbed Arrows."
 date = 2024-04-16
 updated = 2026-05-22
-draft = true
+draft = false
 template = "build.html"
 
 [taxonomies]
@@ -20,7 +20,8 @@ toc = true
 balance = "2026-01"
 benchmark = "30k DPS solo"
 benchmark2 = "33k DPS allies"
-APM = 33
+apm = "33"
+log = "https://dps.report/G22e-20260521-221450_golem"
 +++
 
 The purpose of writing this guide is to provide a no-weapon swap method to play a ranged PVE soulbeast while easily hitting the 70% benchmark with minimal effort. This build is low cognition, has few repetitions but has a relatively high APM. The skills do not require specific timing and having extra hard CC (total of 4) in the build allows flexible upkeep of {{ trait(id="2127") }}, which has a rather tight timing on other builds. The auto-attack of the build provides sufficient hits to proc bleeding and the skills that empower the shortbow hits do not interrupt the attack rotation. The way the bows are empowered with bleeding stacks is inspired by the Guild Wars 1 skill [Barbed Arrows](https://wiki.guildwars.com/wiki/Barbed_Arrows).
@@ -57,7 +58,7 @@ Weapon swap is optional
 </td></tr>
 <tr><td colspan=2 style="white-space: normal;">
 
-> <small>*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a ranged build has better uptime and damage with this trait selection.*</small>
+> <small>*Dagger/Axe (Axe 4 can proc {{ trait(id="2127") }}) runs on a similar concept and will do similar damage on a hybrid build. However, a shortbow has better ranged damage uptime with this trait selection.*</small>
 
 </td></tr></table>
 
