@@ -30,7 +30,7 @@ The juvenile bee does decent condition damage with a very decent extra 300 point
 
 ## Gearing and Consumables
 #### Equipment
-{{ medium(stat="Viper's", rune="Trapper's") }}
+{{ medium(stat="Viper's", rune="Trapper") }}
 	{{ trinkets(
 	back="Viper's",
 	accessory1="Viper's",
@@ -53,16 +53,19 @@ The juvenile bee does decent condition damage with a very decent extra 300 point
 Weapon swap is optional
 1. Dagger/Dagger
 2. Dagger/Torch
-3. Dagger/Axe
+
+#### Infusions
+* {{ item(id="39337") }} OR
+* {{ item(id="39620") }}
 
 ---
 
 Optimised Viper's Loadout
-[GW2Skills Link](https://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3ca3+4hDB-DSRYfBFaGFcehRaBEmAG/KoJFnVgKA-e)
+[GW2Skills Link](https://gw2skills.net/editor/?POQAUlZUw+YSMKmJWaXXP3c4hDb3+A-DSJYmRB/ZEnCIEJgCPGQTKOrAVA-e)
 
 #### Relic
-- {{ item(id="104424") }} (default)
-- {{ item(id="100153") }} (test)
+- {{ item(id="100153") }} (standard)
+- {{ item(id="104424") }} (situational)
 
 * <small>It is not possible to bench {{ item(id="104424") }} due to the conditions required to trigger it at the golem.</small><br/>
 * <small>{{ item(id="102199") }} has been considered but remains a much weaker version as there is a hidden ICD, preventing 
@@ -89,7 +92,7 @@ Condi DPS\
 ## Rotation and Utilities
 #### DPS Rotation
 Stay merged at all times. 
-> 1. Early Precast - {{ skill(id="12476") }}
+> 1. Early Precast - {{ skill(id="12476") }} and stack dodges.
 > 2. Pre-battle - {{ skill(id="45717") }} + {{ skill(id="12537") }} + {{ skill(id="40498") }} + {{ skill(id="45479") }} (if using Bristleback)
 > 3. General Rotation - Use all non-healing skills on cooldown except F1
 
@@ -107,22 +110,10 @@ Stay merged at all times.
 #### Twice as Vicious
 > 1. Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. 
 > 1. Use your other pet CC skills if your coverage is falling such as {{ skill(id="75771") }}.
-> 1. You may wish to delay using {{ skill(id="12508") }} as it is a potent CC skill.
 
 #### Dodging
-> 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} by 4s after the dodge to have better uptime of {{ trait(id="1912") }}. 
-> 2. It is better to use {{ skill(id="12517") }} to dodge once if you don't need to dodge twice for better DPS uptime. 
-
-#### Raid Ready
-1. W1 Gorseval - Immobilise with {{ skill(id="12580") }} during the split phase.
-2. W2 Slothasor - Jaguar is useful for {{ skill(id="43375") }} to pull slublings. Make sure to point your bow away from ally slubs!
-3. W2 Bandit Trio - The range, self sustainability and high amounts of CC allows this build to do mortars.
-4. W3 Escort - For backwarg, bring {{ skill(id="12580") }} and use {{ skill(id="12507") }} to immobilise. For frontwarg, black widow/jungle spider is useful for {{ skill(id="43375") }} to pull white mantle and {{ skill(id="44097") }} provides meaningul immobilise uptime on the frontwarg.
-5. W4 Cairn - This build does superb on Cairn, no adjustment is necessary, though you may wish to use {{ skill(id="31914") }} if you are baiting red circles for the group.
-6. W4 Samarog - {{ skill(id="12476") }} can be used to launch Rigom, although the pushback from longbow and using a power build is preferred.
-7. W5 Dhuum - Use {{ skill(id="12517") }} during the suck phase.
-8. W6 This build is excellent on Twin Largos.
-9. W8 his build can provide good range damage on Decima and excellent on-demand CC.
+> 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} after the dodge to have better uptime of {{ trait(id="1912") }}. 
+> 1. {{ skill(id="75771") }} can also refresh {{ trait(id="1912") }}. 
 
 ## Benchmark
 The build is benched with ascended gear and infusions, skipping {{ skill(id="12517") }} (Shortbow 3) to avoid forced movement. 
