@@ -1,5 +1,5 @@
 +++
-title = "Vicious Afflictions [cDPS]"
+title = "Vicious Afflictions [DPS]"
 description = "Hybrid DPS build with no weapon swap."
 date = 2024-04-16
 updated = 2026-05-24
@@ -31,8 +31,8 @@ The juvenile bee is essential for this build and cannot be swapped out.
 ## Gearing and Consumables
 #### Equipment
 {{ medium(stat="Viper's", rune="Afflicted") }}
-{{ dagger_main(stat="Viper's", sigil=["Malice"]) }}
-{{ dagger_off(stat="Viper's", sigil=["Malice"]) }}
+{{ dagger_main(stat="Viper's", sigil="Malice") }}
+{{ dagger_off(stat="Viper's", sigil="Malice") }}
 	{{ trinkets(
 	back="Viper's",
 	accessory1="Sinister",
