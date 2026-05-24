@@ -33,9 +33,11 @@ There is an excessive amount of light effects on this build and you may wish to 
 {{ trinkets(stat="Harrier's", relic="Karakosa") }}
 
 #### Alternate Pieces
-{{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }} (for might and swiftness and additional healing)
-{{ item(id="99965") }} (for barrier)
-{{ item(id="101116") }} (for swiftness)
+{{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+---
+
+* {{ item(id="99965") }}
+* {{ item(id="101116") }}
 
 > <small>_Note: Weapon swap is optional. Alternate weapon sets should be prioritised based on utility requirements._</small>
 > <small>_Note: Febe gives patchy swiftness coverage but allows you to avoid swapping to staff for {{ skill(id="9143") }}._</small>
@@ -59,7 +61,7 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS45URVhHTgBVx0tAXgdSAFWHTIBiRIAAAAA
 
 - Bring {{ trait(id="617") }} if you are taking consecrations.
 
-> <small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-luminary-spear-staff) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
+* <small>_This build is a simplified version of the heal alacrity build on [snowcrows](https://snowcrows.com/builds/raids/guardian/heal-alacrity-luminary-spear-staff) with selective preferences for lower intensity. If you are able to adapt to the version on SC, feel free to follow their guide._</small>
 
 ## Rotation and Utilities
 
@@ -68,24 +70,25 @@ The excessive amount of healing provided by this build piles on top of the alrea
 You should not be adjusting the build to try to increase healing but focus on your utilities instead.
 
 #### Heal and Alacrity Alac Rotation
-> 1. Use your virtues before you {{ skill(id="77073") }}
+> 1. Use your virtues before {{ skill(id="77073") }}
 > 2. Use skills **5-4-3-2** in Forge
 >     * to grant alacrity
 >     * for a strong CC
 >     * To burst heal 
 > 3. {{ skill(id="76616") }}
-> 4. Use skills **5-4-3-2** with your spear
->     * To grant Fury
->     * For a minor CC
->     * To burst heal
-> 5. Using any of your utilities will overcap on protection, which can be used on cooldown or reserved
+> 4. Using any of your utilities will overcap on protection, which can be used on cooldown or reserved
 >     * Reserve {{ skill(id="76621") }} for Condi Cleanse and healing
 >     * Reserve {{ skill(id="77321") }} for Aegis
 >     * Reserve {{ skill(id="77300") }} for Stability
 >     * Reserve {{ skill(id="76813") }} for extra CC
 >     * Use {{ skill(id="29965") }} on cooldown for extra Fury uptime
+> 5. Use skills **5-4-3-2** with your spear
+>     * To grant Fury
+>     * For a minor CC
+>     * To burst heal
+> 6. Repeat step 1 when refreshed.
 
-<small>Note: If your might uptime is patchy, consider spamming {{ skill(id="78837") }} (F1) during your Forge rotation.</small>
+* <small>Note: If your might uptime is patchy, consider spamming {{ skill(id="78837") }} (F1) during your Forge rotation.</small>
 
 #### Crowd Control rotation
 1. You have decent CC using only {{ skill(id="76978") }} (Forge 5 Flip)
@@ -94,7 +97,7 @@ You should not be adjusting the build to try to increase healing but focus on yo
 4. {{ skill(id="73132") }} (Spear 5)
 5. {{ skill(id="9128") }} (Alt Utility Skill)
 
-<small>Note: More options are available but not exhausted in this guide.</small>
+* <small>Note: More options are available but not exhausted in this guide.</small>
 
 #### Condi Cleanses
 1. {{ skill(id="78604") }} (F2)
@@ -104,7 +107,7 @@ You should not be adjusting the build to try to increase healing but focus on yo
 5. {{ skill(id="9187") }} (Alt Utility)
 6. {{ skill(id="9245") }} (Alt Utility)
 
-<small>Note: It is very unlikely that you will require to use alternate utilities for extra condi cleanses.</small>
+* <small>Note: It is very unlikely that you will require to use alternate utilities for extra condi cleanses.</small>
 
 #### Situational Utilties/Relics
 1. {{ skill(id="9251") }}
@@ -112,5 +115,5 @@ You should not be adjusting the build to try to increase healing but focus on yo
 1. {{ skill(id="9153") }}
 1. {{ skill(id="9084") }} (Swiftness)
 
-<small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
-<small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
+* <small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
+* <small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
