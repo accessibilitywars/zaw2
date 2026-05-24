@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "This build is inspired by the Guild Wars 1 skill, Barbed Arrows."
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-balance = "2026-01"
+balance = "2026-04"
 benchmark = "30k DPS solo"
 benchmark2 = "33k DPS allies"
 apm = "33"
@@ -30,6 +30,7 @@ The juvenile bee does decent condition damage with a very decent extra 300 point
 
 ## Gearing and Consumables
 #### Equipment
+{{ shortbow(stat="Viper's", sigils=["Malice", "Earth"]) }}
 {{ medium(stat="Viper's", rune="Trapper") }}
 	{{ trinkets(
 	back="Viper's",
@@ -39,15 +40,6 @@ The juvenile bee does decent condition damage with a very decent extra 300 point
 	ring2="Viper's",
 	amulet="Viper's",
 	relic="Fractal") }}
-
-<table>
-<tr>
-<td>
-
-{{ shortbow(stat="Viper's", sigils=["Malice", "Earth"]) }}
-
-</td>
-<td>
 
 #### Weapon Swap
 Weapon swap is optional
@@ -85,10 +77,12 @@ Optimised Viper's Loadout
 > 2. The Wallow provides a poison field, decent healing and condition cleanses which is good in open world.
 > 3. Other options include the Bristleback, Jungle Spider, Jaguar, Warthog and Black Widow.
 
+---
 ## Build
 Condi DPS\
 {{ chatlink(code="[&DQQeLSE3Ny55AAAAvwAAAOkWAAC6AAAALhYAAEclAAAAAAAAAAAAAAAAAAADawAvAAUAAA==]") }}
 
+---
 ## Rotation and Utilities
 #### DPS Rotation
 Stay merged at all times. 
@@ -106,6 +100,7 @@ Stay merged at all times.
 > 2. {{ skill(id="12517") }} (Shortbow 3) is an evade that does a step back. This is useful for bosses with pull mechanics.
 > 3. If you need an extra heal, you may swap your pet to the Wallow for {{ skill(id="44626") }}
 
+---
 ## Optimisation
 #### Twice as Vicious
 > 1. Spread out {{ skill(id="12537") }}, {{ skill(id="40588") }} and {{ skill(id="12508") }} to maximise {{ trait(id="2127") }} uptime. 
@@ -115,5 +110,6 @@ Stay merged at all times.
 > 1. Where dodging is necessary, you may delay {{ skill(id="12517") }} after the dodge to have better uptime of {{ trait(id="1912") }}. 
 > 1. {{ skill(id="75771") }} can also refresh {{ trait(id="1912") }}. 
 
+---
 ## Benchmark
 The build is benched with ascended gear and infusions, skipping {{ skill(id="12517") }} (Shortbow 3) to avoid forced movement. 
