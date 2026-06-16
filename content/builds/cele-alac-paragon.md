@@ -114,7 +114,7 @@ Use the following off-cooldown
 
 #### Crowd Control
 
-{{ skill(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE stunbreak, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity. 
+{{ trait(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE stunbreak, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity. 
 
 * You may carry off-hand mace or shield for additional hard CC.
 * Take dagger if you require a boon strip.
