@@ -34,6 +34,7 @@ There is an excessive amount of light effects on this build and you may wish to 
 
 #### Alternate Pieces
 {{ staff(stat="Harrier's", sigils=["Transference", "Concentration"]) }}
+
 ---
 
 * {{ item(id="99965") }}
