@@ -53,10 +53,13 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 | Shield (OH)   | Celestial     | {{ item(id="24639") }}  |
 <br/>
 
+---
+
 #### Food, Enhancement
-- Food: {{ item(id="91804) }}
+- Food: {{ item(id="91804") }}
 - Enhancement: {{ item(id="9476", name="Master Tuning Crystal") }}
-<br/>
+
+---
 
 > - <small>It is possible to mix other stats to increase DPS but you want to at least maintain 1000 healing power and 40% boon duration.</small>
 > - <small>Try to maintain at least 10k DPS or you may opt to do the reverberation healing build instead.</small>
@@ -66,10 +69,9 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 >     1. <small>{{ item(id="106880") }}</small>
 >     1. <small>Fractal Cooking/Sharpening Golem </small>
 
+---
 
 ## Build
-
----
 
 [DPS Group Content](https://gw2skills.net/editor/?PKAFwkFbYZvsLmHDmRil6k70CA-DyIY1onvMirCyNF04YQACnOY59bAoC-e)<br/>
 {{ chatlink(code="[&DQIkNQsuShZ5HQAAqAAAAK0BAAB+HQAA7gAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
