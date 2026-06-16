@@ -77,6 +77,7 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 {{ chatlink(code="[&DQIkNQsuShZ5HQAAqAAAAK0BAAB+HQAA7gAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 * {{ trait(id="1333") }} provides a higher DPS but {{ trait(id="1346") }} is better if you are sitting on Warhorn for long periods. 
+* {{ trait(id="2399") }} is a very powerful flexible support trait with minimal DPS loss. 
 
 ## Rotation
 
@@ -110,7 +111,7 @@ Use the following off-cooldown
 
 #### General House Rules
 > 1. Your primary goal is to maintain boons, alacrity and your party's survivability before DPS 
-> 1. You need to maintain 7-10 motivations, 8-10 boons and 100% alacrity uptime.
+> 1. You need to maintain 8-10 boons and 100% alacrity uptime.
 
 #### Crowd Control
 
