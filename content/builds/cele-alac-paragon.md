@@ -110,12 +110,12 @@ Use the following off-cooldown
 > * <small>If you need CC, using mace in the offhand shortens your DPS rotation with only minimal loss in DPS.</small>
 
 #### General House Rules
-> 1. Your primary goal is to maintain boons, alacrity and your party's survivability before DPS 
-> 1. You need to maintain 8-10 boons and 100% alacrity uptime.
+1. Your primary goal is to maintain boons, alacrity and your party's survivability before DPS 
+1. You need to maintain 8-10 boons and 100% alacrity uptime.
 
 #### Crowd Control
 
-{{ trait(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE stunbreak, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity. 
+{{ trait(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE defiance break, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity:
 
 * You may carry off-hand mace or shield for additional hard CC.
 * Take dagger if you require a boon strip.
