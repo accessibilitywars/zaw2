@@ -1,7 +1,7 @@
 +++
-title = "Celestial Blademaster [aHeal]"
-description = ""
-date = 2025-11-05
+title = "Celestial Sword Saint [aHeal]"
+description = "Celestial warrior with high damage floor."
+date = 2026-06-16
 draft = true
 template = "build.html"
 
@@ -13,24 +13,24 @@ specs = ["paragon","warrior"]
 
 [extra]
 series = "warrior"
-tagline = "I am the bone of my sword."
+tagline = "Celestial warrior with high damage floor."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2025-06"
 benchmark = "20k DPS"
-apm = "41"
-log = "https://dps.report/kq1M-20251101-011803_golem"
 +++
 
 
 ## Notes
+
 ---
 
-This is a build which uses Celestial gear and hybrid traits to maximise the sword's physical prowress and bleeding capabilities. This build is designed to replace a dedicated healer slot. This is a more tanky version of the grieving hybrid build but relies on more complex core mechanics to provideb sustained boons and healing. 
+This is a build which uses Celestial gear and hybrid traits to maximise the sword's physical prowress and bleeding capabilities. This build is designed to replace a dedicated healer slot. Compared to other celestial healers, this build has one of the lower damage ceilings and is less preferred in the meta. However, it is favored on this site due to the easily achievable high damage floor (14k Sw/WH camp).
 
 Hybrid healing builds have a lot of give and take and toe the line to bring 'just enough', so you need to adjust the build to the strengths of your team composition. 
 
 ## Gearing
+
 ---
 
 | Equipment     | Stat          | Rune/Sigil              |
@@ -41,7 +41,7 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 | All Trinkets  | Celestial     | N/A 					  |
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
 | Relic	(Heal)  | N/A           | Relic of the Flock      |
-| Relic	(Sust)  | N/A           | Relic of the Biomancer  |
+| Relic	(Sust)  | N/A           | -                       |
 <br/>
 
 #### Optional weapon sets
@@ -57,8 +57,9 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 - Enhancement: {{ item(id="9476", name="Master Tuning Crystal") }}
 <br/>
 
-> - <small> It is possible to mix other stats to increase DPS but you want to at least maintain 1000 healing power and 50% boon duration.</small>
+> - <small> It is possible to mix other stats to increase DPS but you want to at least maintain 1000 healing power and 40% boon duration.</small>
 > - <small>Try to maintain at least 10k DPS or you may opt to do the reverberation healing build instead.</small>
+> - <small>If you ever find yourself switching to staff, play a dedicated healer instead.</small>
 
 ## Build
 ---
@@ -67,6 +68,7 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 {{ chatlink(code="[&DQIkNQsuShZ5HQAAqAAAAK0BAAB+HQAA7gAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
 ## Rotation
+
 ---
 
 #### Opener
@@ -89,12 +91,3 @@ Use the following off-cooldown
 
 #### Crowd Control
 This build has very poor CC options and you may bring additional CC through weapon swaps. The details are covered in the heal and hybrid DPS guide.
-
-#### Sustain in Open World
-> 1. Use **Relic of the Biomancer** for baseline healing
-> 2. Swap to dagger for boon strip and better survivability
-
-## Video
----
-
-Coming Soon
