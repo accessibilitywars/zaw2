@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "Hybrid melee DPS build with no weapon swap."
 keywords = "Guild Wars 2, GW2, LI, soulbeast"
 toc = true
-balance = "2026-01"
+balance = "2026-04"
 benchmark = "32.5k DPS solo"
 benchmark2 = "35k DPS allies"
 apm = "46"
@@ -30,9 +30,9 @@ The juvenile bee is essential for this build and cannot be swapped out.
 
 ## Gearing and Consumables
 #### Equipment
-{{ medium(stat="Viper's", rune="Afflicted") }}
 {{ dagger_main(stat="Viper's", sigil="Malice") }}
-{{ dagger_off(stat="Viper's", sigil="Malice") }}
+{{ dagger_off(stat="Viper's", sigil="Earth") }}
+{{ medium(stat="Viper's", rune="Afflicted") }}
 	{{ trinkets(
 	back="Viper's",
 	accessory1="Sinister",
@@ -42,16 +42,10 @@ The juvenile bee is essential for this build and cannot be swapped out.
 	amulet="Viper's",
 	relic="Aristocracy") }}
 
-<table>
-<tr>
-<td>
-
 * <small>Relic of Aristocracy can be procced through auto-attacks, therefore your mainhand must be dagger most of the time.</small><br/>
 * <small>Swapping all your Viper's (HoT-only Set) pieces to Celestial (Core Set)) will lead to a small DPS loss (<10%).</small>
 * <small>Grieving pieces may be added in place of Sinister Pieces</small>
 
-</td>
-<td>
 
 #### Weapon Swap
 Weapon swap is optional but not recommended unless situationally used
@@ -79,9 +73,13 @@ Weapon swap is optional but not recommended unless situationally used
 #### Pets
 > 1. The Janthiri Bee is competitive in damage and provides ready access CC, making it the default best option for raiding.
 
+---
+
 ## Build
 Condi DPS\
 {{ chatlink(code="[&DQQePSE3Ny55AAAAvwAAAOkWAAAbAAAALhYAAEclAAAAAAAAAAAAAAAAAAACLwBrAAA=]") }}
+
+---
 
 ## Rotation and Utilities
 #### DPS Rotation
@@ -100,7 +98,10 @@ Stay merged at all times.
 > 1. Swapping all your Vipers pieces to Celestial only reduces your DPS by 5%. This is an efficient way to maintain high DPS and survive harder encounters in open world. 
 > 2. You may opt to use Oyster-based ascended food or birthday cake.
 
+---
+
 ## Benchmark
-The build is benched with ascended but without infusions. You should be able to achieve 32.5k DPS with infusions at the golem.
-For benching or if playing solo, pick {{ trait(id="2143") }}
-It is not possible to bench with allies unless you have a friend to assist you. 
+
+* The build is benched with ascended but without infusions. You should be able to achieve 32.5k DPS with infusions at the golem.
+* For benching or if playing solo, pick {{ trait(id="2143") }}.
+* It is not possible to bench with allies unless you have a friend to assist you.
