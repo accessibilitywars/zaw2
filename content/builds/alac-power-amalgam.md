@@ -61,8 +61,7 @@ This can be used if more CC is desired.
 ---
 ## Build
 
-{{ chatlink(code="[&DQMmHwY7SyoqD4QAjgEmASYBAABaHQAAex2JAQAAAAAAAAAAAAAAAAAAAAADWgA2AFUAAA==]
-") }}
+{{ chatlink(code="[&DQMmHwY7SyoqD4QAjgEmASYBAABaHQAAex2JAQAAAAAAAAAAAAAAAAAAAAADWgA2AFUAAA==]") }}
 
 [GW2Skills Link](https://gw2skills.net/editor/?PegAwqlJwYSbbMb2dlO2LfTVFo94THA-DSZYBRDDOoj5gwPj2kAVoAU4HiAEOvGKMDAqA-e)
 
