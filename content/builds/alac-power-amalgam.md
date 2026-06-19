@@ -34,7 +34,7 @@ This is build has no kits and provides reliable DPS and Alacrity. The kits can b
 
 {{ medium(stat="Berserker's", rune="Scholar") }}
 {{ sword_main(stat="Berserker's", sigil="Force") }}
-{{ torch_off(stat="Berserker's", sigil="Air") }}
+{{ pistol_off(stat="Berserker's", sigil="Air") }}
 {{ trinkets(
 	back="Dragon's",
 	accessory1="Dragon's",
