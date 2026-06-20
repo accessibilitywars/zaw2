@@ -7,7 +7,7 @@ template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["spear", "alacrity", "power","engineer","amalgam","voe","soto","lowcog","lowrep"]
+tags = ["sword","pistol","shield", "alacrity", "power","engineer","amalgam","voe","soto","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["amalgam", "engineer"]
 
@@ -51,7 +51,7 @@ This is build has no kits and provides reliable DPS and Alacrity. The kits can b
 
 {{ shield_off(stat="Berserker's", sigil="Air") }}
 
-This can be used if more CC is desired. 
+This can be used if more CC is desired for a small DPS loss. 
 
 #### Food and Utility and Infusions
 
@@ -64,7 +64,6 @@ This can be used if more CC is desired.
 {{ chatlink(code="[&DQMmHwY7SyoqD4QAjgEmASYBAABaHQAAex2JAQAAAAAAAAAAAAAAAAAAAAADWgA2AFUAAA==]") }}
 
 [GW2Skills Link](https://gw2skills.net/editor/?PegAwqlJwYSbbMb2dlO2LfTVFo94THA-DSZYBRDDOoj5gwPj2kAVoAU4HiAEOvGKMDAqA-e)
-
 
 ## Rotation
 
