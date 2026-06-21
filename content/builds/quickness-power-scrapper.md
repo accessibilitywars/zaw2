@@ -50,7 +50,7 @@ This is build has no kits and provides reliable DPS and an excessive amount of *
 - {{ item(id="78305", name="Superior Sharpening Stone") }}
 
 ## Build
-{{ chatlink(code="[&DQMmHwY3Ky0qD4QAJgEmAa4SAAAnEwAA+RKJAQAAAAAAAAAAAAAAAAAAAAADWgA2AFUAAA==]") }}
+{{ chatlink(code="[&DQMmHwY3Ky0qD4QAJgEmAa4SAAAnEwAAiQGJAQAAAAAAAAAAAAAAAAAAAAADWgA2AFUAAA==]") }}
 
 ---
 
@@ -69,10 +69,10 @@ Your field skills are
 > 1. {{ skill(id="31167") }} (no superspeed)
 
 > * <small>Pop your kit fields when lacking before using combos. 
-> * <small>Your gyros provide superspeed but {{ skill(id="31167") }} does not. If you use {{ skill(id="29665") }} with {{ skill(id="31167") }}, it will increase your superspeed uptime and hence increase your DPS.</small>
+> * <small>Your field gyros provide superspeed but {{ skill(id="31167") }} does not. If you use {{ skill(id="29665") }} with {{ skill(id="31167") }}, it will increase your superspeed uptime and hence increase your DPS.</small>
 > * <small>Essentially if you don't want to memorise rotations, if you sweep from right to left (98754321)</small>
-> * <small>If you mashed all your field skills and run out of them, you can create one using the skills in your {{ skill(id="30800") }}.</small>
-> * <small>Other elite skills can provide additional defiance break if you do not require the {{ skill(id="30800") }}.</small>
+> * <small>If you mashed all your field skills and run out of them, you can create one using {{ skill(id="30800") }}, although this is almost never necessary.</small>
+> * <small>Other elite skills can provide additional utility/defiance break if you do not require the {{ skill(id="30800") }}.</small>
 > * <small>You can also use {{ skill(id="56920") }} if you have allies that have been downed, and this will summon up to 3 seperate Gyros, which will automatically go revive allies nearby.</small>
 
 #### DPS Rotation
@@ -86,8 +86,9 @@ Your field skills are
 #### CC skills
 1. {{ skill(id="6161") }} (used in DPS rotation)
 2. {{ skill(id="21661") }} (AED Toolbelt - backup)
-3. {{ skill(id="31167") }} (Spare Field)
-4. Lightning field -> Leap Combo
+3. {{ skill(id="31167") }} (CC + Lightning Field)
+4. {{ skill(id="69565") }} (Lightning Field Leap Combo)
+5. {{ skill(id="5868") }}(Optional Elite)
 
 ## Benchmark
 The estimated DPS is provided without any infusions. 
