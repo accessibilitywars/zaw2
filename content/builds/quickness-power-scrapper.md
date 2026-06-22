@@ -62,7 +62,7 @@ This is build has no kits and provides reliable DPS and an excessive amount of *
 
 #### Granting Quickness and Superspeed
 
-You give quickness through the trait {{ item(id="2052") }} by performing blast, leap or whirl combos when a field is active. 
+You give quickness through the trait {{ trait(id="2052") }} by performing blast, leap or whirl combos when a field is active. 
 Your field skills are 
 > 1. {{ skill(id="31248") }}  
 > 1. {{ skill(id="56920") }}
