@@ -1,8 +1,8 @@
 +++
-title = "Hyperclocked Mech [aDPS]"
+title = "Crisis Zone [aDPS]"
 description = "Probably the easiest to play Alacrity build"
 date = 2024-05-26
-updated = 2025-06-24
+updated = 2026-06-24
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "engineer"
 tagline = "Babe, si Optimum Pride Œœœœœ"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2025-12"
-benchmark = "27.1k DPS"
+balance = "2026-04"
+benchmark = "26.5k DPS"
 apm = "24"
 log = "https://dps.report/atzo-20240519-221326_golem"
 +++
@@ -40,7 +40,7 @@ Probably the easiest to play Alacrity build
 
 ## Build
 
-{{ chatlink(code="[&DQMGNyYvRioNGyoPJgGGABobowAQGwAACRsSAQAAAAAAAAAAAAAAAAAAAAADVQBaAFcAAA==]") }}
+{{ chatlink(code="[&DQMGNyYfRioNGwAACxuGABobAAAQGwAACRuJAQAAAAAAAAAAAAAAAAAAAAADVQA1AFcAAA==]") }}
 
 ## Notes
 
