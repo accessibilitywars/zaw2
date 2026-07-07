@@ -57,7 +57,7 @@ Using dagger/rifle with {{ skill(id="76582") }} will result in a moderate DPS in
     - try to catch different stolen skills, you may prioritise skills that provide power/strike damage/initiative
     - use {{ skill(id="76582") }} with {{ skill(id="13005") }} if weapon swap is desired (optional, see SC guide)
 3. Use all your initiative on {{ skill(id="29911") }} (Staff 2)
-4. Use {{ skill(id="96664") }} if you have nothing better to do or replace it with another utility, do not backfire this.
+4. Use {{ skill(id="77230") }} if you have nothing better to do or replace it with another utility, do not backfire this.
 
 > - <small>Use {{ skill(id="77255") }} when {{ skill(id="77397") }} is recharging</small>
 > - <small>Avoid {{ skill(id="77397") }} when {{ skill(id="77255") }} is active</small>
