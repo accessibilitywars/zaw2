@@ -34,7 +34,7 @@ This build heavily relies on {{ skill(id="29911") }} (Staff 2) for DPS and {{ sk
 #### Equipment
 - Full Berserker's
 {{ medium(stat="Berserker's", rune="Scholar") }}
-{{ Staff(stat="Diviner's", sigils=["Concentration", "Force"]) }}
+{{ staff(stat="Diviner's", sigils=["Concentration", "Force"]) }}
 {{ trinkets(stat="Berserker's", relic="Thief") }}
 
 > - Compared to other build guides, addition concentration is added to this guide to allow easier alacrity uptime. You may add even more Diviner's pieces with minimal loss of DPS.
