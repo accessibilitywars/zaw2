@@ -18,13 +18,13 @@ keywords = "Guild Wars 2, GW2, LI, antiquary"
 toc = true
 balance = "2026-04"
 benchmark = "32k DPS"
-apm = "71, 30 (Non-Staff)"
+apm = "51-71, 30 (Non-Staff)"
 log = "https://dps.report/OtHq-20260708-000323_golem"
 +++
 
 The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime without forced movement or weapon swaps. The base attack is quite high and fumbling with your skills is not severely punishing.
 
-The alternative weapon sets (rifle and dagger) are not covered in this guide. The concept for the other weapons is relatively simple and you may find more information on the build guides of other sites such as Snow Crows. This build has intermediate difficulty and although the APM is relatively high, most of the button presses are attributed to a single skill, {{ skill(id="29911") }} (Staff 2), which simplifies the rotation a lot, leaving only 30 APM for other skills. 
+The alternative weapon sets (rifle and dagger) are not covered in this guide. The concept for the other weapons is relatively simple and you may find more information on the build guides of other sites such as Snow Crows. This build has intermediate difficulty and although the APM is relatively high, most of the button presses are attributed to a single skill, {{ skill(id="29911") }} (Staff 2), which simplifies the rotation a lot. The APM can be reduced by about 15-20 holding down Staff 2 for continuous casts, leaving only 30 APM for other skills. 
 
 This build heavily relies on {{ skill(id="77255") }} for alacrity. Moving out of the scuffle radius (360) will result in missing alacrity for a significant amount of time.
 
