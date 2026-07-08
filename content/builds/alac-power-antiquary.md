@@ -24,7 +24,7 @@ log = "https://dps.report/OtHq-20260708-000323_golem"
 
 The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime without forced movement or weapon swaps. The base attack is quite high and fumbling with your skills is not severely punishing.
 
-The alternative weapon sets (rifle and dagger) are not covered in this guide. The concept for the other weapons is relatively simple and you may find more information on the build guides of other sites such as Snow Crows. This build has intermediate difficulty and although the APM is relatively high, most of the button presses are attributed to a single skill, {{ skill(id="29911") }} (Staff 2), which simplifies the rotation a lot. The APM can be reduced by about 15-20 holding down Staff 2 for continuous casts, leaving only 30 APM for other skills. 
+The alternative weapon sets (rifle and dagger) are not covered in this guide. The concept for the other weapons is relatively simple and you may find more information on the build guides of other sites such as SnowCrows. This build has intermediate difficulty and although the APM is relatively high (70), most of the button presses are attributed to a single skill, {{ skill(id="29911") }} (Staff 2), which simplifies the rotation a lot. The rotation can be simplified (reduction of ~ 20 APM) by holding down Staff 2 for continuous casts , while other skills only require around 30 APM. 
 
 This build heavily relies on {{ skill(id="77255") }} for alacrity. Moving out of the scuffle radius (360) will result in missing alacrity for a significant amount of time.
 
