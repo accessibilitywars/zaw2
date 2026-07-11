@@ -1,8 +1,7 @@
 +++
 title = "I'll Never Yield [pDPS]"
 description = "A selfless high DPS Paragon build"
-date = 2026-06-23
-updated = 2026-06-24
+date = 2026-07-11
 draft = false
 template = "build.html"
 
@@ -14,12 +13,13 @@ specs = ["paragon", "warrior"]
 
 [extra]
 series = "warrior"
-tagline = "I will never yield"
+tagline = "What if Spellbreaker, but Paragon?"
 keywords = "Guild Wars 2, GW2, LI, Paragon"
 toc = true
 balance = "2026-04"
 benchmark = "35k"
 apm = "32"
+log = "https://dps.report/uiOM-20260709-090422_golem"
 +++
 
 ## Notes
