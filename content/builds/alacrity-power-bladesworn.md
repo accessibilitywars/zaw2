@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "Victory is reserved for those who are willing to pay its price. - Sun Tzu"
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "30.1k DPS"
 apm = "65"
 +++

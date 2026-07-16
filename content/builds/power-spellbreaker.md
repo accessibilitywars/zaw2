@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "Put your sword back into its place."
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "35k"
 apm = "21-31"
 +++

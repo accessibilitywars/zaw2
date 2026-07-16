@@ -27,6 +27,7 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 
 ## Gearing and Consumables
 #### Equipment
+
 - Full Berserker's up to the crit cap.
 - Dragon’s/Valkyrie+Berserker if desired as the build is heavily overcapped on precision
 - Dual Pistols
