@@ -2,7 +2,7 @@
 title = "Unload Deadeye [pDPS]"
 description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
 date = 2024-03-29
-updated = 2026-04-18
+updated = 2026-07-16
 draft = false
 template = "build.html"
 
@@ -18,7 +18,7 @@ tagline = "Auto-Attack Deadeye"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
 balance = "2026-07"
-benchmark = "30k DPS"
+benchmark = "30.2k DPS"
 +++
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. There is an optional amount of APM to push the build to its limit. While this build has a low skill floor, it has a low damage ceiling as well, requiring daggers and a few button presses to push its damage to more competitive levels. 
@@ -28,7 +28,7 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 ## Gearing and Consumables
 #### Equipment
 - Full Berserker's up to the crit cap.
-- Dragon’s/Valkyrie+Berserker if desired as the build is heavily overcapped on precision
+- Dragon’s/Berserker's if desired as the build is heavily overcapped on precision
 - Dual Pistols/Dual Daggers
 
 > <small>It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}</small>
@@ -44,14 +44,13 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 
 #### Relic
 - {{ item(id="100916") }}
-- {{ item(id="100148") }}(Jumping Puzzles)
 
 #### Food
   - {{ item(id="91805") }}
   - {{ item(id="91917") }}
 
 #### Utility
-  - {{ item(id="9443") }}(Power)
+  - {{ item(id="9443") }}
 
 ## Build
 #### DPS
@@ -62,10 +61,23 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 
 ## Rotation and Utilities
 #### Dual Pistol DPS Rotation
-Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (bring on fights with long damage downtimes)
-1. Set {{ skill(id="13011") }} (Pistols 3) to auto. Use {{ skill(id="13046") }} for a small DPS boost on cooldown. 
-2. Try to time {{ skill(id="13046") }} with {{ skill(id="41158") }}. 
-3. If taking {{ trait(id="1272") }}, you may switch to daggers when the window of opportunity opens up for a DPS boost especially when the boss is below 50% hp. 
+
+* **Precast**
+    1. {{ skill(id="13057") }} (bring on fights with long damage downtimes)
+    2. {{ skill(id="13082") }} (use on cooldown)
+
+* **Opener**
+    1. {{ skill(id="56880") }}
+    2. {{ skill(id="43390") }}
+
+* **Rotation**
+    1. Set {{ skill(id="13011") }} (Pistols 3)
+
+* **DPS Burst**
+    1. Trigger {{ trait(id="1704") }} using your stolen skills at max malice
+    2. Use {{ skill(id="13046") }} for a small DPS boost on cooldown.
+    3. {{ skill(id="41158") }} during the above for a bigger boost.
+    4. If taking {{ trait(id="1272") }}, you may switch to daggers when the window of opportunity opens up for a DPS boost especially when the boss is below 50% hp. 
 
 #### Optional Dual Dagger Rotation (Practiced Tolerance)
 1. For the dagger rotation, which is mostly autos, use {{ skill(id="16432") }} for stealth and queue {{ skill(id="50481") }} to deal heavy damage. 
@@ -78,12 +90,13 @@ Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (br
 2. You can take {{ skill(id="13132") }} (elite) for a minimal (~1k+) DPS loss if you still need more CC. 
 
 #### Other Utilities
-You may drop {{ skill(id="13064") }} or {{ skill(id="41158") }} for different utilities.
+You may drop {{ skill(id="13057") }} or {{ skill(id="41158") }} for different utilities.
 
 #### Sustainability
-1. Your heal skill {{ skill(id="13050") }} should provide enough heals per hit. You can opt to take {{ trait(id="1702") }} but this is not an efficient choice for sustainability.
-2. If you use dual daggers, dagger provides an additional evade on {{ skill(id="13006") }}.
-3. {{ item(id="101955") }} as an optional relic swap (eg. Kiting)
+1. Your heal skill {{ skill(id="13050") }} should provide enough heals per hit. 
+2. You can opt to take {{ trait(id="1702") }} but this is not an efficient choice for DPS.
+3. If you use dual daggers, dagger provides an additional evade on {{ skill(id="13006") }}.
+4. {{ item(id="101955") }} as an optional relic swap (eg. Kiting)
 
 ## Optimisation
 #### Maximising Cleave/Pierce
@@ -105,10 +118,9 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 3.  W6 Qadim - While solo lamp is ideally performed using daredevil (same equipment), you may choose to use this build instead if 2 players are sent to do Lamp. 
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
 
+## Benchmark
+The benchmark numbers are performed with ascended gear, food and utilities.
+
 ## Videos
-
-#### DPS benchmark (30k)
-Updated Video Coming Soon.
-
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
