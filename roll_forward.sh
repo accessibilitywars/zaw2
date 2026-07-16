@@ -10,6 +10,6 @@ fi
 
 echo "Rolling forward unchanged builds $OLD to $NEW..."
 
-for i in `gw2fulcrum content/builds/patch/$NEW.txt content/builds/[^_]*\.md`; do
+for i in `gw2fulcrum -i content/builds/patch/$NEW.txt content/builds/[^_]*\.md`; do
 	sed -i "s/balance = \"$OLD\"/balance = \"$NEW\"/" $i
 done
