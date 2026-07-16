@@ -5,6 +5,7 @@ NEW=$2
 
 if [ "$1" == "" ]; then
 	echo "Usage: $0 OLD-PATCH NEW-PATCH"
+	exit 1
 fi
 
 echo "Rolling forward unchanged builds $OLD to $NEW..."
