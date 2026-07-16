@@ -1,14 +1,14 @@
 +++
 title = "Dual Blademaster [DPS]"
-description = "Auto-Attack Hybrid Paragon"
+description = "Auto-Attack Condition Paragon"
 date = 2025-11-02
-updated = 2026-04-23
+updated = 2026-07-16
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["sword", "hybrid","warrior","paragon","voe","lowcog","lowphys","lowrep"]
+tags = ["sword", "condi","warrior","paragon","voe","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["paragon","warrior"]
 
@@ -17,17 +17,16 @@ series = "warrior"
 tagline = "I am the bone of my sword."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-04"
-benchmark = "36k DPS"
+balance = "2026-07"
+benchmark = "37.1k DPS"
 apm = "26"
-log = "https://dps.report/dnK9-20251212-022925_golem"
 +++
 
 
 ## Notes
 ---
 
-This is a build which uses mostly Vipers and Grieving gear to maximise the dual swords' physical prowress and bleeding capabilities. 
+This is a build which uses mostly Vipers Gear to maximise the dual swords new reworked bleeding capabilities. 
 
 This build has a lot of auto attacks.
 
@@ -54,12 +53,14 @@ This build has a lot of auto attacks.
 | Relic	(Sust)  | N/A           | Relic of the Mistfire   |
 <br/>
 
-#### Optional weapon sets
+#### Optional equipment sets
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
 | Mace (OH)     | Viper's       | {{ item(id="24560") }}  |
 | Dagger (OH)   | Viper's       | {{ item(id="24560") }}  |
 <br/>
+
+> * <small>Note: Sinister stats can be used in place of the one Grieving piece.</small>
 
 #### Food, Enhancement
 - Food: {{ item(id="91804", name="Spherified Cilantro Oyster Soup") }}
@@ -80,9 +81,7 @@ This build has a lot of auto attacks.
 ## Build
 ---
 
-An alternate set (more Grieving pieces and Krait Runes) is also available and may provide a faster competitive ramp when using Relic of Thorns and other sustain relics.
 [Viper's Variant](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmRL1PbIBnRcKgclCK8YQACXL8amwZFsC-e)<br/>
-[Grieving Variant](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmhAxGt03lRcFQupgPHDChgSGwpFu8XTKOrgVA-e)<br/>
 <br/>
 {{ chatlink(code="[&DQIEHyQ+SiWmAAAAswAAAK8AAACpAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
@@ -90,7 +89,7 @@ An alternate set (more Grieving pieces and Krait Runes) is also available and ma
 ---
 
 #### Opener
-> 1. Signets (Can be cast very early to maintain 5 stacks)
+> 1. Signets (Cast very early to maintain 5 stacks)
 > 1. {{ skill(id="77342") }}
 > 1. {{ skill(id="14402") }}
 > 
@@ -99,9 +98,9 @@ An alternate set (more Grieving pieces and Krait Runes) is also available and ma
 
 #### Skill Priority
 Use the following off-cooldown
-> 1. Flurry (⚔ Burst)
+> 1. {{ skill(id="80203") }} (⚔ Burst)
 > 1. {{ skill(id="14498") }} (⚔ 4)
-> 1. Final Thrust (⚔ 3)
+> 1. {{ skill(id="80247") }} (⚔ 3)
 > 1. {{ skill(id="14413") }}
 > 1. {{ skill(id="14404") }} (if required)
 > 1. Other Signets only if required
@@ -111,10 +110,11 @@ Use the following off-cooldown
 >> - {{ skill(id="14404") }} has no cast time.
 
 #### Crowd Control
-This build has very poor CC options and you may bring additional CC by sacrificing {{ skill(id="14413") }} and using other signets instead. {{ trait(id="1344") }} will be harder to maintain. 
+This build has very poor CC options and you may bring additional CC by sacrificing {{ skill(id="14413") }} but {{ trait(id="1344") }} will be harder to maintain. Other weapon sets provide decent CC with minimal DPS loss. 
 > 1. {{ skill(id="77114") }}
 > 1. {{ skill(id="14502") }}
 > 1. {{ skill(id="14415") }} (swap to mace for CC)
+> 1. {{ skill(id="45160") }} (swap to mace for CC)
 
 #### Sustain in Open World
 > 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
@@ -122,3 +122,7 @@ This build has very poor CC options and you may bring additional CC by sacrifici
 > 3. Use **Relic of the Mistfire** for life siphon and additional damage
 > 4. Use {{ skill(id="76562") }} in emergencies
 > 5. Use {{ skill(id="14413") }} for stability
+
+## Changes
+- Sword has been reworked. The grieving variant has been removed from the guide as sword no longer scales well to power.
+- Dagger has been added as a new CC option. This is useful as dagger offers boon-strip as well.
