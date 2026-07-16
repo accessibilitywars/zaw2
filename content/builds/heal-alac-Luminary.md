@@ -15,7 +15,7 @@ series = "guardian"
 tagline = "The hardest part of this build is enduring the glaring amount of light effects. 5, 4, 3, 2, HOLY NOVA!"
 keywords = "Guild Wars 2, GW2, LI, Luminary"
 toc = true
-balance = "2026-07"
+balance = "2026-04"
 +++
 
 This is a very accessible build that relies on an excessive amount of healing, CC, condi cleanses and utilites, more than you will ever need. Ideally, the build should function as a low-toughness healer.

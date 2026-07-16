@@ -17,7 +17,7 @@ series = "elementalist"
 tagline = "Ive Got A Fever And The Only Prescription Is More Cowbell!"
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Weaver"
 toc = true
-balance = "2026-07"
+balance = "2026-04"
 benchmark = "33.5k DPS"
 apm = "48"
 +++
