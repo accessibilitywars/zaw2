@@ -1,8 +1,8 @@
 +++
-title = "Power Tempest [pDPS]"
+title = "Fresh Air [pDPS]"
 description = "Simple, step based rotation with most of your damage in Air Attunement"
 date = 2024-06-30
-updated = 2025-11-14
+updated = 2026-07-16
 draft = false
 template = "build.html"
 
@@ -17,10 +17,10 @@ series = "elementalist"
 tagline = "A storm is coming."
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "2026-01"
-benchmark = "37.6k DPS"
+balance = "2026-07"
+benchmark = "36.8k DPS"
 apm = "59"
-log = "https://dps.report/NpoR-20251114-023832_golem"
+log = "https://dps.report/O0FR-20260716-230859_golem"
 +++
 
 <div style=‘clear:both;’>&nbsp;</div>
@@ -128,22 +128,4 @@ Immediately after {{ skill(id="29719") }}.
 
 ---
 
-{{ youtube(id="wfaxwh5iwtQ") }}
-
-# Changes
-
-content/builds/power-tempest.md was changed: 
- - Fire Strike: Increased the power coefficient from 0.8 to 1.0 in PvE only.
- - Flame Uprising: Increased the power coefficient of the initial strike from 1.5 to 2.0 in PvE only.
- - Cauterizing Strike: Increased the power coefficient against burning foes from 2.33 to 2.91 in PvE only.
- - Dragon's Claw: Increased the power coefficient per strike from 0.375 to 0.45 in PvE only.
- - Drake's Breath: Increased the power coefficient per strike from 0.8 to 1.05 in PvE only.
- - Burning Speed: Increased the power coefficient from 2.0 to 3.0 in PvE only.
- - Lightning Whip: Increased the power coefficient per strike from 0.63 to 0.75 in PvE only.
- - Convergence: Increased the power coefficient from 1.8 to 2.4 in PvE only.
- - Ring of Earth: Increased the secondary strike power coefficient from 1.5 to 1.9 in PvE only.
- - Earthen Rush: Increased the power coefficient from 1.8 to 2.3 in PvE only.
- - Steam Surge: Increased the water field duration from 2 seconds to 4 seconds. Increased the power coefficient from 1.5 to 1.75 in PvE and from 1.0 to 1.25 in PvP and WvW.
- - Katabatic Wind: This skill will now perform a delayed second strike. The first strike will deal less damage and inflict a short daze while the second strike deals more damage and inflicts a longer daze.
- - Grinding Stones: Reduced the cooldown from 18 seconds to 15 seconds.
- - Ashen Blast: This skill now strikes enemies an additional time. The first strike will deal less damage and inflict blind, while the second strike deals more damage and inflicts burning.
+{{ youtube(id="LJulR8gccyU") }}
