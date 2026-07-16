@@ -2,6 +2,7 @@
 title = "Holy Nova [aHeal]"
 description = "The hardest part of this build is enduring the glaring amount of light effects. 5, 4, 3, 2, HOLY NOVA!"
 date = 2026-05-17
+updated = 2026-07-16
 template = "build.html"
 
 [taxonomies]
@@ -15,7 +16,7 @@ series = "guardian"
 tagline = "The hardest part of this build is enduring the glaring amount of light effects. 5, 4, 3, 2, HOLY NOVA!"
 keywords = "Guild Wars 2, GW2, LI, Luminary"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 +++
 
 This is a very accessible build that relies on an excessive amount of healing, CC, condi cleanses and utilites, more than you will ever need. Ideally, the build should function as a low-toughness healer.
@@ -118,7 +119,4 @@ You should not be adjusting the build to try to increase healing but focus on yo
 
 * <small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
 * <small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
-# Changes
-
-content/builds/heal-alac-Luminary.md was changed: 
- - Symbol of Swiftness: This skill now grants superspeed on its first pulse. Increased the cooldown from 15 seconds to 18 seconds in PvP and WvW.
+* <small>Note: {{ skill(id="9143") }} now grants superspeed on its first pulse.</small>
