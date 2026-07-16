@@ -113,8 +113,8 @@ Use the following off-cooldown
 This build has very poor CC options and you may bring additional CC by sacrificing {{ skill(id="14413") }} but {{ trait(id="1344") }} will be harder to maintain. Other weapon sets provide decent CC with minimal DPS loss. 
 > 1. {{ skill(id="77114") }}
 > 1. {{ skill(id="14502") }}
-> 1. {{ skill(id="14415") }} (swap to mace for CC)
-> 1. {{ skill(id="45160") }} (swap to mace for CC)
+> 1. {{ skill(id="14415") }} (swap to mace)
+> 1. {{ skill(id="45160") }} (swap to dagger)
 
 #### Sustain in Open World
 > 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
