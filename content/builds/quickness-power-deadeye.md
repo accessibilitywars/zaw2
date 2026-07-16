@@ -2,7 +2,7 @@
 title = "Unload Quickeye [qDPS]"
 description = "This build is designed around the skill Unload, with quickness."
 date = 2024-03-29
-updated = 2026-04-18
+updated = 2026-07-16
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-04"
-benchmark = "26k DPS"
+balance = "2026-07"
+benchmark = "26.5k DPS"
 +++
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye while providing quickness. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. This build also provides abundance of Might and Fury boons that support healers that are lacking in effort.
@@ -29,7 +29,7 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 #### Equipment
 
 - Full Berserker's up to the crit cap.
-- Dragon’s/Valkyrie+Berserker if desired as the build is heavily overcapped on precision
+- Dragon’s/Berserker's if desired as the build is heavily overcapped on precision
 - Dual Pistols
 
 > <small>It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}</small>
@@ -81,7 +81,7 @@ Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (br
 
 ## Optimisation
 #### Maximising Cleave/Pierce
-This build may underperform at high end raiding but it can do extremely well in fights where ranged pierce is able to double your DPS. Some targets are tall and piercing should not be presumed as your rounds may fire upwards (refer to the benchmark video shot sideways). The effect causes you to miss all posterior targets. Instead, you need to manually select the furthest target in order to hit as many targets as possible. Ranged pierce can also be done with a rifle with better DPS but the reduced mobility and increased difficulty in execution may not be feasible in certain fights. 
+This build may underperform at high end raiding but it can do extremely well in fights where ranged pierce is able to double your DPS. Some targets are tall and piercing should not be presumed as your rounds may fire upwards (refer to the benchmark video shot sideways). The effect causes you to miss all posterior targets. Instead, you need to manually select the furthest target in order to hit as many targets as possible. Ranged pierce can also be done with a rifle but this is not covered in this low-intensity guide.
 
 #### Niche Roles
 1.  W1 Sabetha - Both the quickness and DPS builds are ideal to do mechanics as you can carry a shadowstep and overcap boons, sacrificing very little for doing cannons.
@@ -90,14 +90,8 @@ This build may underperform at high end raiding but it can do extremely well in 
 4.  W7 QtP - This build is able to pylon kite. A video is provided for reference.
 
 ## Videos
-
-#### DPS benchmark (26k)
-Updated Video Coming Soon.
-
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
 
-# Changes
-
-content/builds/quickness-power-deadeye.md was changed: 
- - Improvisation: Specters now gain additional shadow force from Siphon while equipping this trait.
+## Latest Changes
+{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.
