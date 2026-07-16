@@ -82,3 +82,10 @@ Your CC skills are Air 2 and 4, Water 4, Earth 2 and 5. Dropping rotation to CC 
 
 {{ youtube(id="JWgnq9yLE5w") }}
 
+
+# Changes
+
+content/builds/power-catalyst.md was changed: 
+ - Fire Strike: Increased the power coefficient from 0.8 to 1.0 in PvE only.
+ - Flame Uprising: Increased the power coefficient of the initial strike from 1.5 to 2.0 in PvE only.
+ - Cauterizing Strike: Increased the power coefficient against burning foes from 2.33 to 2.91 in PvE only.

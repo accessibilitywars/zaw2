@@ -106,3 +106,8 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 10. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
 
 <small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>
+
+# Changes
+
+content/builds/heal-alac-willbender.md was changed: 
+ - Power for Power: Increased the Willbender Flames damage bonus from 100% to 200% in PvE only.

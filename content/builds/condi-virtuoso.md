@@ -144,3 +144,11 @@ And use {{ skill(id="10302") }} whenever you need to reflect.
 ---
 
 {{ youtube(id="AJh4Ao2W_PI") }}
+
+# Changes
+
+content/builds/condi-virtuoso.md was changed: 
+ - Bladecall: This skill now attempts to face the target when used.
+ - Signet of Domination: Reduced the cooldown from 45 seconds to 25 seconds. Reduced the stun duration from 3 seconds to 2 seconds in PvE. This skill now removes boons from the target.
+ - Method of Madness: Lesser Chaos Storm no longer inflicts daze. Reduced the cooldown of Lesser Chaos Storm from 75 seconds to 35 seconds in PvP and WvW.
+ - Chaotic Interruption: This trait has moved to the master tier, replacing Chaotic Potency.

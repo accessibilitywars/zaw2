@@ -69,3 +69,8 @@ You have several options:
 - {{ skill(name="executioner's scythe") }} (Shroud 5)
 - {{ skill(name="Chilled to the Bone") }}
 - {{ skill(name="Spectral Grasp") }}
+
+# Changes
+
+content/builds/power-reaper.md was changed: 
+ - Blood Bank: This trait will no longer trigger while in shrouds that replace health.

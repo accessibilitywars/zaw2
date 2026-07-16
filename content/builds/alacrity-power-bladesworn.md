@@ -85,3 +85,11 @@ This build has weak crowd control. Replace {{ skill(id="14404") }} with a physic
 > * {{ skill(id="14502") }}
 
 Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above CC skills. 
+
+# Changes
+
+content/builds/alacrity-power-bladesworn.md was changed: 
+ - Savage Leap: This skill now inflicts bleeding.
+ - Unseen Sword: This trait now strikes nearby enemies and grants you increased flow rate when swapping to the gunsaber in combat.
+ - Fierce as Fire: This trait now increases both strike and condition damage for each round of ammunition spent.
+ - Daring Dragon: This trait now increases the effectiveness of Dragon Slash skills depending on which variation is being used.

@@ -106,3 +106,26 @@ Use Fire-only skills and utilities while you are attuned to 🌩️/🔥 or 🔥
 ## Benching
 - <small>The bench is done without infusions and ordinary power food. You can easily surpass 34k with optimisations.</small>
 - <small>You can surpass 35k if you delay Primordial Stance charges till when the boss is below 50% health, this is a golem gimmick and serves at most minimal effectiveness on actual fights.</small>
+
+# Changes
+
+content/builds/hybrid-memeaver.md was changed: 
+ - Dragon's Claw: Increased the power coefficient per strike from 0.375 to 0.45 in PvE only.
+ - Drake's Breath: Increased the power coefficient per strike from 0.8 to 1.05 in PvE only.
+ - Burning Speed: Increased the power coefficient from 2.0 to 3.0 in PvE only.
+ - Lightning Whip: Increased the power coefficient per strike from 0.63 to 0.75 in PvE only.
+ - Convergence: Increased the power coefficient from 1.8 to 2.4 in PvE only.
+ - Ring of Earth: Increased the secondary strike power coefficient from 1.5 to 1.9 in PvE only.
+ - Earthen Rush: Increased the power coefficient from 1.8 to 2.3 in PvE only.
+ - Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.
+ - Steam Surge: Increased the water field duration from 2 seconds to 4 seconds. Increased the power coefficient from 1.5 to 1.75 in PvE and from 1.0 to 1.25 in PvP and WvW.
+ - Katabatic Wind: This skill will now perform a delayed second strike. The first strike will deal less damage and inflict a short daze while the second strike deals more damage and inflicts a longer daze.
+ - Grinding Stones: Reduced the cooldown from 18 seconds to 15 seconds.
+ - Ashen Blast: This skill now strikes enemies an additional time. The first strike will deal less damage and inflict blind, while the second strike deals more damage and inflicts burning.
+ - Superior Elements: Increased the critical strike chance from 15% to 20% in PvE only.
+ - Swift Revenge: This trait has been reworked. Dual Attacks grant bonuses based on their elements. Fire: Gain might. Water: Remove one condition. Air: Gain swiftness. Earth: Gain endurance.
+ - Elements of Rage: This trait no longer grants bonus precision. This trait now grants access to Unravel as an additional profession skill. Increased the strike damage bonus from 7% to 15% in PvE only. Increased the condition damage bonus from 5% to 10% in PvE only.

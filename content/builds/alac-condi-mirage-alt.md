@@ -99,3 +99,14 @@ Your CC skills are, in order of priority:
 ---
 
 {{ youtube(id="LUXKoofW8cU") }}
+
+# Changes
+
+content/builds/alac-condi-mirage-alt.md was changed: 
+ - Phase Retreat: Reduced the cooldown from 10 seconds to 8 seconds.
+ - Phantasmal Warlock: Reduced the cooldown from 15 seconds to 12 seconds in PvE and from 18 seconds to 15 seconds in PvP and WvW.
+ - Chaos Armor: Reduced the cooldown from 20 seconds to 16 seconds.
+ - Chaos Storm: Reduced the cooldown from 25 seconds to 20 seconds in PvE and from 28 seconds to 25 seconds in PvP and WvW.
+ - Signet of Domination: Reduced the cooldown from 45 seconds to 25 seconds. Reduced the stun duration from 3 seconds to 2 seconds in PvE. This skill now removes boons from the target.
+ - Method of Madness: Lesser Chaos Storm no longer inflicts daze. Reduced the cooldown of Lesser Chaos Storm from 75 seconds to 35 seconds in PvP and WvW.
+ - Chaotic Interruption: This trait has moved to the master tier, replacing Chaotic Potency.

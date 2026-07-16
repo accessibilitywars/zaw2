@@ -100,3 +100,9 @@ If you find yourself being forced out of Shroud early, just carry on and do Out 
 ## Build demo in "high" level play
 
 {{ youtube(id="eFDH37T6_sc") }}
+
+# Changes
+
+content/builds/quickness-power-harbinger.md was changed: 
+ - Spiteful Talisman: This trait no longer reduces the cooldowns of axe and focus skills. This trait now increases base strike damage and is further increased against boonless foes.
+ - Deathly Haste: This trait has been reworked. Grant boons to nearby allies when you enter Harbinger Shroud and when you use Dark Barrage.

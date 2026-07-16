@@ -121,3 +121,8 @@ and you can swap out {{ skill(id="76971") }} for {{ skill(id="29519") }} if a lo
 ---
 
 {{ youtube(id="_7CuoPQF1c0") }}
+
+# Changes
+
+content/builds/power-troubadour.md was changed: 
+ - Vicious Expression: This trait now increases base strike damage and is further increased against boonless foes.

@@ -135,3 +135,7 @@ If you really need really need more CC or specific utilities for raid mechanics,
 > 1. Group Aegis
 > 1. Invulnerability/blocks
 > 1. Group revives
+# Changes
+
+content/builds/power-spellbreaker.md was changed: 
+ - Hushblade: Swipe out in a cone before you, dazing enemies struck.

@@ -118,3 +118,7 @@ You should not be adjusting the build to try to increase healing but focus on yo
 
 * <small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
 * <small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
+# Changes
+
+content/builds/heal-alac-Luminary.md was changed: 
+ - Symbol of Swiftness: This skill now grants superspeed on its first pulse. Increased the cooldown from 15 seconds to 18 seconds in PvP and WvW.

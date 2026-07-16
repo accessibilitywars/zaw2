@@ -170,3 +170,14 @@ This bench is done with {{ skill(id="25486") }} despite the inherent RNG of the 
 
 {{ youtube(id="tmlxNp32f64") }}
 
+
+# Changes
+
+content/builds/condi-weaver.md was changed: 
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.
+ - Superior Elements: Increased the critical strike chance from 15% to 20% in PvE only.
+ - Master's Fortitude: This trait has been reworked and moved to the top master trait slot. Gain barrier when you dodge.
+ - Elements of Rage: This trait no longer grants bonus precision. This trait now grants access to Unravel as an additional profession skill. Increased the strike damage bonus from 7% to 15% in PvE only. Increased the condition damage bonus from 5% to 10% in PvE only.

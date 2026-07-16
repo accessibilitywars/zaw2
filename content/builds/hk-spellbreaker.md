@@ -185,3 +185,8 @@ Position yourself just slightly off-mid on the arena. This allows you to survive
 {{ youtube(id="JVflCnj3-xs") }}
 
 This video used Bullet Catcher which has been removed from the game. there are alternative skills to mitigate hands which are described above. 
+
+# Changes
+
+content/builds/hk-spellbreaker.md was changed: 
+ - Savage Leap: This skill now inflicts bleeding.

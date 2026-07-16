@@ -129,3 +129,8 @@ This can be done for all fights, but is highly recommended for fights with many 
 ---
 
 UNDER CONSTRUCTION
+
+# Changes
+
+content/builds/power-spellbreaker-scooby.md was changed: 
+ - Hushblade: Swipe out in a cone before you, dazing enemies struck.

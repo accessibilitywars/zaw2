@@ -91,3 +91,11 @@ To reduce the damage RNG, I have benched the build without precasting any {{ ski
 ## Video
 
 {{ youtube(id="AKlqEwHnJn8") }}
+
+# Changes
+
+content/builds/condi-core-elementalist.md was changed: 
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.

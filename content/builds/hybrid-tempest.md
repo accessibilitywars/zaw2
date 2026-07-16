@@ -119,3 +119,12 @@ Then return to {{ skill(id="5492") }} as soon as you are able to.
 ---
 
 {{ youtube(id="3kb7Ajgt9gI") }}
+
+# Changes
+
+content/builds/hybrid-tempest.md was changed: 
+ - Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.

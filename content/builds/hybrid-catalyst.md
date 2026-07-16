@@ -100,3 +100,12 @@ Swap back to {{ skill(id="5492") }} as soon as it is off cooldown, and continue 
 ---
 
 {{ youtube(id="9MQt965gKwc") }}
+
+# Changes
+
+content/builds/hybrid-catalyst.md was changed: 
+ - Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.

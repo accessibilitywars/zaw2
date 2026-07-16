@@ -150,3 +150,8 @@ Consider for your utilities:
 ## Video
 
 {{ youtube(id="F6MyevsbmeQ") }}
+
+# Changes
+
+content/builds/power-paragon.md was changed: 
+ - Hushblade: Swipe out in a cone before you, dazing enemies struck.

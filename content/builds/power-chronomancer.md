@@ -127,3 +127,8 @@ You can also block attacks with {{ skill(name="Illusionary Riposte") }} (Sword 4
 ---
 
 {{ youtube(id="83FLFHqQ4vw") }}
+
+# Changes
+
+content/builds/power-chronomancer.md was changed: 
+ - Vicious Expression: This trait now increases base strike damage and is further increased against boonless foes.

@@ -148,3 +148,11 @@ You can replace {{ skill(id="5666") }} with {{ skill(id="29968") }} for a minor 
 ---
 
 {{ youtube(id="nk7B0cN4DLU") }}
+
+# Changes
+
+content/builds/alac-power-tempest.md was changed: 
+ - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
+ - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
+ - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
+ - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.

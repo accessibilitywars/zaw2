@@ -95,3 +95,8 @@ Updated Video Coming Soon.
 
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
+
+# Changes
+
+content/builds/quickness-power-deadeye.md was changed: 
+ - Improvisation: Specters now gain additional shadow force from Siphon while equipping this trait.

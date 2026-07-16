@@ -137,3 +137,7 @@ Opener - {{ skill(id="63067") }} (🫳F1) and {{ skill(id="63155") }} (🥷F2) a
 #### Benchmark 
 
 The benchmark is based on budget food and no infusions. 
+# Changes
+
+content/builds/alac-condi-specter.md was changed: 
+ - Panic Strike: This trait no longer immobilizes foes struck under the health threshold. This trait now immobilizes foes struck if they have more than a set number of conditions.
