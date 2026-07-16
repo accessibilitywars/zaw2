@@ -103,9 +103,9 @@ Your ability to perform the opener will depend on the boss and you may need to s
 
 #### DPS rotation
 Use the following off-cooldown
-1. {{ skill(id="14428") }} (⚔ Burst)
+1. Flurry (⚔ Burst)
 1. {{ skill(id="14498") }} (⚔ 4 Optional)
-1. {{ skill(id="14497") }} (⚔ 3)
+1. Final Thrust (⚔ 3)
 
 > * <small>If you need CC, using mace in the offhand shortens your DPS rotation with only minimal loss in DPS.</small>
 

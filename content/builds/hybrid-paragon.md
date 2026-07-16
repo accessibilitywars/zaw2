@@ -99,9 +99,9 @@ An alternate set (more Grieving pieces and Krait Runes) is also available and ma
 
 #### Skill Priority
 Use the following off-cooldown
-> 1. {{ skill(id="14428") }} (⚔ Burst)
+> 1. Flurry (⚔ Burst)
 > 1. {{ skill(id="14498") }} (⚔ 4)
-> 1. {{ skill(id="14497") }} (⚔ 3)
+> 1. Final Thrust (⚔ 3)
 > 1. {{ skill(id="14413") }}
 > 1. {{ skill(id="14404") }} (if required)
 > 1. Other Signets only if required
