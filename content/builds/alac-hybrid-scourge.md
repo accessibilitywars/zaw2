@@ -129,3 +129,6 @@ I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }},
 
 #### DPS benchmark (18.8k)
 {{ youtube(id="8lBgmakjHAk") }}
+
+## Latest patch changes
+This build is now less spammy but it is now harder to upkeep alacrity and might.
