@@ -93,5 +93,5 @@ This build may underperform at high end raiding but it can do extremely well in 
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
 
-## Latest Changes
+## Latest patch changes
 {{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.
