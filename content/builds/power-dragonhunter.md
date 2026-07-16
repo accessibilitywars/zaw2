@@ -17,7 +17,7 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter"
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "31k DPS"
 +++
 

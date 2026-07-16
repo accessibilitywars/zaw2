@@ -15,7 +15,7 @@ series = "mesmer"
 tagline = "She's got a smile that it seems to me, reminds me of childhood memories, where everything was as fresh as the bright blue sky."
 keywords = "Guild Wars 2, GW2, LI, Troubadour"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 +++
 
 The Troubadour has an easy design such that when you randomly mash all the buttons, you'd provide all the right boons and an excessive amount of healing. This build has selected utilities for minimal cognitive complexity, such that the hardest part of playing this build is enduring the out-of-sync music throughout the fight. 

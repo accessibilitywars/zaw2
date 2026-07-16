@@ -16,7 +16,7 @@ series = "warrior"
 tagline = "Celestial warrior with high damage floor."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "20k DPS"
 +++
 

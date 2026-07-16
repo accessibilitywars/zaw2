@@ -16,7 +16,7 @@ series = "ranger"
 tagline = "We are Venom."
 keywords = "Guild Wars 2, GW2, LI, untamed"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "27k DPS"
 apm = "60"
 

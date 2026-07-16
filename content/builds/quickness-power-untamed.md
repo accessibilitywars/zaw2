@@ -17,7 +17,7 @@ series = "ranger"
 tagline = "Bunny Thumpers are melee Rangers who use a combination of Hammer attacks and Beast Mastery skills to inflict pressure damage."
 keywords = "Guild Wars 2, GW2, LI, untamed"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "27k DPS"
 
 +++
