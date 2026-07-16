@@ -123,6 +123,6 @@ This build has very poor CC options and you may bring additional CC by sacrifici
 > 4. Use {{ skill(id="76562") }} in emergencies
 > 5. Use {{ skill(id="14413") }} for stability
 
-## Changes
+## Latest patch changes
 - Sword has been reworked. The grieving variant has been removed from the guide as sword no longer scales well to power.
 - Dagger has been added as a new CC option. This is useful as dagger offers boon-strip as well.
