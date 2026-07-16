@@ -121,6 +121,5 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 ## Benchmark
 The benchmark numbers are performed with ascended gear, food and utilities.
 
-## Videos
-#### QTP Pylon Kiting
-{{ youtube(id="1JjqeBQe8jE") }}
+## Latest patch changes
+{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.
