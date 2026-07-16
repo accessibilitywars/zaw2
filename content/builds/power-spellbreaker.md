@@ -65,7 +65,7 @@ The simplified build also has multiple CC options, optional utility slots, optio
 
 ---
 
-The primary focus of this build is to understand how your DPS buffs accumulates and introduces a simplified approach towards a more complex rotation that squeezes out a few thousand more DPS. 
+The primary focus of this build is to introduce a simplified approach with minimal button presses by engaging the class mechanics. 
 
 --- 
 
