@@ -2,6 +2,7 @@
 title = "Vocals of Eternity [aHeal]"
 description = "I wanna scream and shout and let it all out!"
 date = 2025-11-05
+updated = 2026-07-17
 draft = false
 template = "build.html"
 
@@ -51,12 +52,13 @@ Its quite hard to do badly on this build... This build gambles on {{ trait(id="2
 #### Optional weapon sets
 
 You may replace Dagger/warhorn
+
 **Main Hand**<br/>
 - Mace (for Tanking and CC)
 
 **Off Hand**<br/>
 - Mace (for CC)
-- Dagger (Boon Strip)
+- Dagger (Boon Strip and CC)
 
 ## Build
 
