@@ -21,11 +21,13 @@ balance = "2026-07"
 
 
 ## Notes
+
 ---
 
 Its quite hard to do badly on this build... This build gambles on {{ trait(id="2399") }} to empower **Commands**.
 
 ## Gearing
+
 ---
 
 | Equipment     | Stat          | Rune/Sigil              |
@@ -37,12 +39,14 @@ Its quite hard to do badly on this build... This build gambles on {{ trait(id="2
 | Warhorn (OH)  | Harrier's     | {{ item(id="44947") }}  |
 | All Trinkets  | Minstrel's    | N/A 					  |
 | Relic         | N/A           | {{ item(id="99965") }}  |
-<br/>
+
+---
 
 #### Food, Enhancement
 - Food: {{ item(id="91690", name="Bowl of Fruit Salad with Mint Garnish") }}
 - Enhancement: {{ item(id="67528", name="Bountiful Maintenance Oil") }}
-<br/>
+
+---
 
 #### Optional weapon sets
 
@@ -55,13 +59,16 @@ You may replace Dagger/warhorn
 - Dagger (Boon Strip)
 
 ## Build
+
 ---
 
 [GW2Skills Link](https://gw2skills.net/editor/?PKwEYCNssXWMDmJzox036f6B-DSRYjBrG1sSJxII1Qo6CI9Ew3fBs0+mFUB-e)<br/>
 {{ chatlink(code="[&DQILHzM/Sh55HQAAhh0AAH4dAAB2HQAAcx0AAAAAAAAAAAAAAAAAAAAAAAA=]") }}
-<br/>
+
+---
 
 ## Rotation
+
 ---
 
 Other than providing alacrity, there isn't a real rotation, you could mash all the buttons on cooldown and it will heal, provide 10-11 boons and bruteforce heal/barrier most mechanics. 
@@ -78,7 +85,8 @@ The opener is optional and helps to speed up initial ramp of adrenaline and prio
 >     > {{ skill(id="14394") }}
 > 1. Rotate your chants to provide alacrity.
 > 1. 🔁Weapon swap (to Staff)
-<br/>
+
+---
 
 #### Providing Alacrity
 Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} (⚕️2) and {{ skill(id="71889") }} (⚕️5) to get adrenaline. For Chants, there is a certain priority depending on the situation:
@@ -87,7 +95,8 @@ Alternate your chants every 6s to provide alacrity. Use {{ skill(id="72002") }} 
 > | {{ skill(id="77342") }} | F2    | To give might and fury             |
 > | {{ skill(id="76782") }} | F3    | When you need heals                |
 > | {{ skill(id="77155") }} | F4    | When you need stability/stun-break |
-<br/>
+
+---
 
 #### Commands and Other Boons
 You must use your commands to grant boons, but you must also reserve some for emergencies. 
@@ -100,7 +109,8 @@ You must use your commands to grant boons, but you must also reserve some for em
 > | {{ skill(id="76769") }} | For Aegis, Resistance, Resolution  |<br/>
 > - <small>{{ skill(id="77040") }} and {{ skill(id="76769") }} should be used as part of your rotation to maintain boons.</small>
 > - <small>Many of your other boons are covered by your weapons and there is some overlap.</small>
-<br/>
+
+---
 
 #### Crowd Control
 
