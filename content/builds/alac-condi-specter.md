@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "26.3k DPS solo"
 benchmark2 = "~28-29k DPS w allies"
 +++
@@ -136,8 +136,4 @@ Opener - {{ skill(id="63067") }} (🫳F1) and {{ skill(id="63155") }} (🥷F2) a
 
 #### Benchmark 
 
-The benchmark is based on budget food and no infusions. 
-# Changes
-
-content/builds/alac-condi-specter.md was changed: 
- - Panic Strike: This trait no longer immobilizes foes struck under the health threshold. This trait now immobilizes foes struck if they have more than a set number of conditions.
+The benchmark is based on budget food and no infusions.
