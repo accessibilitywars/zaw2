@@ -31,6 +31,7 @@ This is a build which uses mostly Vipers Gear to maximise the dual swords new re
 This build has a lot of auto attacks.
 
 ## Gearing
+
 ---
 
 {{ heavy(
@@ -51,14 +52,16 @@ This build has a lot of auto attacks.
 | Relic	(DPS)   | N/A           | Relic of the Thorn      |
 | Relic	(Sust)  | N/A           | Relic of the Biomancer  |
 | Relic	(Sust)  | N/A           | Relic of the Mistfire   |
-<br/>
+
+---
 
 #### Optional equipment sets
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
 | Mace (OH)     | Viper's       | {{ item(id="24560") }}  |
 | Dagger (OH)   | Viper's       | {{ item(id="24560") }}  |
-<br/>
+
+---
 
 > * <small>Note: Sinister stats can be used in place of the one Grieving piece.</small>
 
