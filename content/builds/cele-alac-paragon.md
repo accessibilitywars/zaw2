@@ -2,6 +2,7 @@
 title = "Sword Saint Commander [aHeal]"
 description = "Celestial warrior with high damage floor."
 date = 2026-06-16
+updated = 2026-06-17
 draft = false
 template = "build.html"
 
@@ -16,7 +17,7 @@ series = "warrior"
 tagline = "Celestial warrior with high damage floor."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "20k DPS"
 +++
 
@@ -42,7 +43,8 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 | Relic (DPS)   | N/A           | Relic of the Fractal    |
 | Relic	(Heal)  | N/A           | Relic of the Flock      |
 | Relic	(Sust)  | N/A           | -                       |
-<br/>
+
+---
 
 #### Optional weapon sets
 | Equipment     | Stat          | Sigil                   |
@@ -51,13 +53,12 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 | Mace (OH)     | Celestial     | {{ item(id="24560") }}  |
 | Dagger (OH)   | Celestial     | {{ item(id="24560") }}  |
 | Shield (OH)   | Celestial     | {{ item(id="24639") }}  |
-<br/>
 
 ---
 
 #### Food, Enhancement
 - Food: {{ item(id="91804") }}
-- Enhancement: {{ item(id="9476", name="Master Tuning Crystal") }}
+- Enhancement: {{ item(id="81079") }}
 
 ---
 
@@ -76,7 +77,7 @@ Hybrid healing builds have a lot of give and take and toe the line to bring 'jus
 [DPS Group Content](https://gw2skills.net/editor/?PKAFwkFbYZvsLmHDmRil6k70CA-DyIY1onvMirCyNF04YQACnOY59bAoC-e)<br/>
 {{ chatlink(code="[&DQIkNQsuShZ5HQAAqAAAAK0BAAB+HQAA7gAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
 
-* {{ trait(id="1333") }} provides a higher DPS but {{ trait(id="1346") }} is better if you are sitting on Warhorn for long periods. 
+* {{ trait(id="1333") }} provides a higher DPS but {{ trait(id="1346") }} is better if you are sitting on Warhorn for long periods.
 * {{ trait(id="2399") }} is a very powerful flexible support trait with minimal DPS loss. 
 
 ## Rotation
@@ -103,11 +104,12 @@ Your ability to perform the opener will depend on the boss and you may need to s
 
 #### DPS rotation
 Use the following off-cooldown
-1. Flurry (⚔ Burst)
+1. {{ skill(id="80203") }} (⚔ Burst)
 1. {{ skill(id="14498") }} (⚔ 4 Optional)
-1. Final Thrust (⚔ 3)
+1. {{ skill(id="80247") }} (⚔ 3)
 
 > * <small>If you need CC, using mace in the offhand shortens your DPS rotation with only minimal loss in DPS.</small>
+> * <small>While swapped to warhorn, {{ skill(id="14366") }} may result in a DPS increase.</small>
 
 #### General House Rules
 1. Your primary goal is to maintain boons, alacrity and your party's survivability before DPS 
@@ -117,6 +119,11 @@ Use the following off-cooldown
 
 {{ trait(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE defiance break, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity:
 
-* You may carry off-hand mace or shield for additional hard CC.
-* Take dagger if you require a boon strip.
+* You may carry off-hand mace, dagger or shield for additional hard CC.
+* Take off-hand dagger if you require a boon strip.
 * Other utilities with defiance breaks may be picked with caution.
+
+## Latest patch changes
+
+* The new changes to dagger allows it to be used for both boon-strip and CC.
+* Sword no longer scales more towards condi but the build still retains its high damage floor. 
