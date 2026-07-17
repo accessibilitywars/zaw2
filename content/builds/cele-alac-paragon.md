@@ -2,7 +2,7 @@
 title = "Sword Saint Commander [aHeal]"
 description = "Celestial warrior with high damage floor."
 date = 2026-06-16
-updated = 2026-06-17
+updated = 2026-07-17
 draft = false
 template = "build.html"
 
@@ -118,7 +118,7 @@ Use the following off-cooldown
 #### Crowd Control
 
 {{ trait(id="2399") }} and {{ skill(id="77114") }} provides a solid AOE defiance break, (eg. shields on CA) such that you will rarely require anything else. Additional options are listed here for posterity:
-
+    
 * You may carry off-hand mace, dagger or shield for additional hard CC.
 * Take off-hand dagger if you require a boon strip.
 * Other utilities with defiance breaks may be picked with caution.
