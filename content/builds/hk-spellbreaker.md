@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "Go with the flow... if you can't groove to this, then you probably are dead!"
 keywords = "Guild Wars 2, GW2, LI, Spellbreaker"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 +++
 
 This is a specialized build, intended for use in the final fight of Raid Wing 4 (Deimos). This build can be made comfortable and yet retains a high skill ceiling to allow the hand kiter to contribute to the team from far. 
@@ -83,9 +83,10 @@ In an ideal world, you will want to stack 5 hands in the same spot. But we will 
 
 This guide assumes that basic encounter knowledge is present. If you don't you may refer to the video at the end of the guide.
 
----
+
 ## Pre-Phase
- 
+
+--- 
 
 #### Greens
 
@@ -144,6 +145,8 @@ You may choose to use and of the following blocks, easiest executions with the m
 | {{ skill(id="14362") }} | Long Cooldown, Off-hand             |
 | {{ skill(id="14400") }} | Blocks only 1 attack, Off-hand      |
 
+---
+
 > - <small>If you find yourself struggling with a rotation, Endure pain has no cast time and may be used either as a backup or for mind-crush.</small>
 > - <small>You can mix and match these skills to create your own combos if you are creative.</small>
 > - <small>Bullet catcher was removed in the latest update</small>
@@ -185,8 +188,3 @@ Position yourself just slightly off-mid on the arena. This allows you to survive
 {{ youtube(id="JVflCnj3-xs") }}
 
 This video used Bullet Catcher which has been removed from the game. there are alternative skills to mitigate hands which are described above. 
-
-# Changes
-
-content/builds/hk-spellbreaker.md was changed: 
- - Savage Leap: This skill now inflicts bleeding.
