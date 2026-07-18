@@ -2,7 +2,7 @@
 title = "Antimage [pDPS]"
 description = "This build focuses on maintaining magebane tether using only daggers."
 date = 2026-02-03
-updated = 2026-07-17
+updated = 2026-07-18
 draft = false
 template = "build.html"
 
@@ -55,6 +55,8 @@ The simplified build also has multiple CC options, optional utility slots, optio
 
 > 1. <small>You may switch some pieces for Dragon's stats if you need higher vitality without any significant DPS loss</small>
 > 2. <small>This buid is severely over-capped on precision and will function even without signet of fury.</small>
+> 3. <small>You may use any power focused sigil you have availble (night, impact, air, hydromancy) although force is the most efficient.</small>
+> 4. <small>Superior Sigil of Severance may be useful on some encounters but this is situational.</small>
 
 ## Build
 {{ chatlink(code="[&DQIEHyQ2PT1wAKcAogEAAKkAAACvAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
@@ -80,7 +82,7 @@ Precast signets, then:
 > * **Magebane Combo:**
 >     1. {{ skill(id="44937") }} (Dagger 3)
 >     2. {{ skill(id="45252") }} (Dagger F1)
-> * **Off-hand Dagger Combo**
+> * **Off-hand Dagger Burst**
 >     1. {{ skill(id="44004") }} (Dagger 4)
 >     2. {{ skill(id="45160") }} (Dagger 5)
 
@@ -88,18 +90,61 @@ You will spend almost your entire rotation doing autos. Make sure you do not cas
 
 Using a CC skill can increase {{ item(id="103574") }} buff uptime. This can be achieved with any weapon or utility but offhand Dagger has a short reliable cooldown. 
 
-It is crucial to master the Auto Attack Rotation before learning to use other weapons. This build has very efficient auto-attacks. This is around 80% benchmark and **CAN CLEAR ALL RAIDING CONTENT INCLUDING CMS**. If you do not manage to hit 30k, attempting the harder rotations may lead to a DPS loss due to interruption of the auto-chains!
-
 **Pre-cast:**
 > 1. {{ skill(id="14389") }}
 > 1. {{ skill(id="14404") }}
 > 1. {{ skill(id="14413") }} (replaceable)
-> 1. {{ skill(id="14410") }} (replaceable)
 > 1. {{ skill(id="14355") }} (replaceable)
+> 1. {{ skill(id="14410") }} (replaceable)
 
 And you should always cast 4 of these skills before you hit the boss. As both {{ skill(id="14413") }} and {{ skill(id="14404") }} have no cast time, you may use either to maintain 5 stacks of {{ trait(id="1344") }}.
 
-For the simplified rotation, you may substitute {{ skill(id="14410") }} as you are already overcapped on precision but this signet can often be used during burst windows for higher DPS.
+For the simplified rotation, you may substitute {{ skill(id="14410") }} as you are already overcapped on precision but this signet can often be used during burst windows for higher DPS which is detailed below. This also refreshes your Adrenaline in the opener and removing this will result in a lower damage ramp.
+
+It is crucial to master the Auto Attack Rotation before learning to use other weapons. This is above 80% benchmark and **CAN CLEAR ALL RAIDING CONTENT INCLUDING CMS**. If you do not manage to hit 30k, attempting the harder rotations may lead to a DPS loss due to interruption of the auto-chains!
+
+#### Opener (35.6k, 27 APM)
+
+This component is entirely optional and requires a few buttons to be pressed in quick succession. The increase in DPS is only about 4%, of which the opener contributes to majority of the gain.
+
+Start with Dagger/Mace:
+
+> 1. {{ skill(id="14410") }}
+> 2. **Magebane Combo:**
+>     * {{ skill(id="44937") }} -> {{ skill(id="45252") }}
+> 3. **Off-hand Mace Burst**
+>     * {{ skill(id="14518") }} -> {{ skill(id="14415") }} -> {{ skill(id="14518") }} -> Weapon Swap
+> 4. **Off-hand Dagger Burst**
+>     * {{ skill(id="44004") }} -> {{ skill(id="45160") }}
+> 5. Fill with autos -> **Magebane Combo** (resume Simplified Rotation)
+
+#### Extended Burst (36.5k, 41 APM)
+
+While on Dagger/Dagger, where Signet of Fury is ready, replace the **Off-hand Dagger Burst** with this extended burst after the **Magebane Combo**.
+> 1. **Opener**
+> 2. {{ skill(id="14410") }}
+> 3. **Off-hand Dagger Burst**
+>     * {{ skill(id="44004") }} -> {{ skill(id="45160") }} -> Weapon Swap
+> 4. **Off-hand Mace Burst**
+>     * {{ skill(id="14518") }} -> {{ skill(id="14415") }} -> {{ skill(id="14518") }} -> Autos
+> 5. **Magebane Combo**
+>     * {{ skill(id="44937") }} -> {{ skill(id="45252") }} -> Weapon Swap
+> 6. Resume Simplified Rotation
+
+#### Full Rotation Preview
+
+> 1. Opener
+> 1. Extended Burst Combo 
+> 1. Simplified Rotation
+> 1. Extended Burst Combo
+> 1. Simplified Rotation
+> 1. Extended Burst Combo
+> 1. Simplified Rotation
+> 1. ... Repeat
+
+The full 4M golem rotation will look like:
+
+![Rotation Diagram](./images/guide/spb-rotation.png "Rotation Diagram")
 
 ---
 
@@ -121,7 +166,7 @@ If you really need really need more CC or specific utilities for raid mechanics,
 > 1. Invulnerability/blocks
 > 1. Group revives
 
-## Video
+## Video (Auto Attack Video)
 {{ youtube(id="yXHCgOS0kaY") }}
 
 This bench is made with ascended food, utilties and ascended gear. 
