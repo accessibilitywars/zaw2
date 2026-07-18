@@ -1,5 +1,5 @@
 +++
-title = "Fever (Fire-only Meme Weaver) [DPS]"
+title = "Fever (Fire Meme Weaver) [DPS]"
 description = "You probably shouldn't play this build 🔥"
 date = 2025-08-23
 updated = 2026-07-18
@@ -22,7 +22,7 @@ benchmark = "33.5k DPS"
 apm = "48"
 +++
 
-This build was initially written as a meme build. Tempest is still the ideal build for DPS, but this build may see situational use where Tempest is disadvantaged. That being said, it still performs surprisingly well.
+This is a meme build. This build may see situational use where Tempest/Evoker is disadvantaged such as when you do not own HoT or VoE. That being said, it still performs surprisingly well.
 
 ## Notes
 
@@ -31,11 +31,8 @@ This build was initially written as a meme build. Tempest is still the ideal bui
 This build is the Weaver alternative for Inferno Elementalist. With the addition of Major Grandmaster trait {{ trait(id="1675" , name="Inferno") }}, burning you do now scales off of your Power instead of Condition Damage. Although Tempest does more damage, this build offers a few small advantages against Tempest in niche conditions and decent DPS in the following *very unlikely* conditions:
 
 > 1. Being locked out of melee range (Pylon Kiting, Flak Kiting)
-> 2. You have only standard power food
-> 3. Multiple reset phases (e.g. All the EOD Strikes)
-> 4. During CC phases where you can't deal damage
-> 5. When you are constantly forced to cancel your overloads
-> 6. You do not own HoT or VoE
+> 2. Multiple reset phases (e.g. All the EOD Strikes)
+> 3. You do not own HoT or VoE
 
 This build attempts to maximise this trait by staying in {{ skill(id="5492") }} as much as possible while, while phase resets allow you to reset your opener, triggering {{ trait(id="2131") }}. Although this is a power build, there is a ramp-up time. 
 
@@ -111,4 +108,4 @@ Use Fire-only skills and utilities while you are attuned to 🌩️/🔥 or 🔥
 
 Inferno was buffed by a small amount. This build minimally benefited from superior elements and lost a lot from the damage buff transferred away from Swift Revenge. Elements of Rage was buffed heavily but this had minimal impact on the build.
 
-Currently the damage remains at 33.5k although all the other Inferno builds have seen substantial damage increases. This build is kept in the repository for players who do not own HoT or VoE.
+Currently the damage remains at 33.5k although all the other Inferno builds have seen substantial damage increases. This build is kept in the repository for players who do not own HoT or VoE. Consider playing core elementalist.
