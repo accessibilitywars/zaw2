@@ -3,7 +3,7 @@ title = "Signet Sworn Sword [aDPS]"
 description = "This build generates a generous amount of alacrity through discipline and spirit."
 date = 2025-10-24
 updated = 2026-04-21
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
