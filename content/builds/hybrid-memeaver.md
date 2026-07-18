@@ -58,7 +58,7 @@ This build attempts to maximise this trait by staying in {{ skill(id="5492") }} 
 {{ dagger_off(stat="Berserker's", sigil="Bursting") }}
 
 ## Build
-{{ chatlink(code="[&DQYfPSkfOBl0AAAAywAAAL4BAAA1FwAAJgAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQYfPSkfOB10AHQANRdzAMsAAAC+AcsAJgCWAAAAAAAAAAAAAAAAAAAAAAAEVgAxAFoALwAA]") }}
 
 ## Rotation
 Opener: 
