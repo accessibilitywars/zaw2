@@ -1,5 +1,5 @@
 +++
-title = "Dual Blademaster [DPS]"
+title = "Dual Blademaster [cDPS]"
 description = "Auto-Attack Condition Paragon"
 date = 2025-11-02
 updated = 2026-07-16
