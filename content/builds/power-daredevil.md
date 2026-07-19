@@ -2,14 +2,14 @@
 title = "Bojutsu [pDPS]"
 description = "Very high damage for very little APM, but requires great positioning."
 date = 2024-04-17
-updated = 2025-06-24
+updated = 2026-07-20
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["group"]
 tags = ["staff","power","thief","daredevil","hot","lowcog","lowrep","lowphys"]
-authors = ["scooby"]
+authors = ["xellink","scooby"]
 specs = ["daredevil", "thief"]
 
 [extra]
@@ -18,7 +18,7 @@ tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
 balance = "2026-01"
-benchmark = "34.2k DPS"
+benchmark = "37.8k DPS"
 apm = "19"
 log = "https://dps.report/am2Y-20240320-224707_golem"
 +++
@@ -46,11 +46,12 @@ This build is also heavily reliant on Vigor, and not having Vigor will result in
 - #### Consumable (Power):
   - {{ item(id="43451") }}
  
-<small>Dragonhunter runes work equally well</small>
+<small>{{ item(id="74978") }} work equally well.</small>
+<small>{{ item(id="36053") }} can be situationally better.</small>
 
 ## Build
 
-{{ chatlink(code="[&DQUjGxw9BzmFAAwBWAFXAVcBMwEzAQAADgEoAAAAAAAAAAAAAAAAAAAAAAACNgBZAAA=]") }}
+{{ chatlink(code="[&DQUcPSMbBzkMAQwBMwEvAVgBPgFXAVYBKAAoAAAAAAAAAAAAAAAAAAAAAAACWQA2AAA=]") }}
 
 ## Rotation
 
@@ -60,9 +61,9 @@ There are 2 main resources you have to manage in this rotation, **Initiative** a
 
 There are also 2 crucial buffs to upkeep, {{ item(id="100916") }} and {{ trait(name="bounding dodger") }}. 
 
-Your skills cost **Initiative** to cast but have no cooldown, and casting a skill refreshes {{ item(id="100916") }} uptime. Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiatve**, you want to use it as much as possible over all of your other skills.
+Your skills cost **Initiative** to cast but have no cooldown, and casting a skill refreshes {{ item(id="100916") }} uptime. Consider {{ item(id="104241") }} on some fights. Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiatve**, you want to use it as much as possible over all of your other skills. You may press and hold this skill to reduce the number of button presses (APM).
 
-Dodging activates {{ trait(name="bounding dodger") }}, but costs **Endurance**. In this guide we are using all of our **Endurance** but it is recommended for less experienced players to save at least 1 bar of **Endurance** at all times instead of using it all up. This will result in a minor DPS loss, but allow you to have a dodge in a bad situation.
+Dodging activates {{ trait(name="bounding dodger") }}, but costs **Endurance**. It is recommended for less experienced players to save at least 1 bar of **Endurance** at all times instead of using it all up. This will result in a minor DPS loss, but allow you to have a dodge in a bad situation.
 
 By following the below rotation, you will naturally maintain full uptime on {{ item(id="100916") }}, as well as high uptime on {{ trait(name="bounding dodger") }}.
 
@@ -81,21 +82,32 @@ If you run out of stamina and cannot dodge after using 2 full auto attack chains
 
 You can also look at your **Endurance**, and as soon as you fill up 1 or 2 bars depending on how safe you are playing, finish your current auto attack chain and start from step 2 in the loop.
 
-Your final attack in the auto attack chain, {{ skill(id="30434") }}, is a huge twirl of the staff, and is easier to see if you use a flashier staff skin. It also plays a very different sound from the first 2 attacks, and can be used as a point of reference.
+Your final attack in the auto attack chain, {{ skill(id="30434") }}, is a huge twirl of the staff, and is easier to see if you use a flashier staff skin. It also plays a very different sound from the first 2 attacks, and can be used as a point of reference. Try not to cancel {{ skill(id="30434") }}, as a large part of your damage comes from {{ skill(id="30434") }}.
 
-Try not to cancel {{ skill(id="30434") }}, as a large part of your damage comes from {{ skill(id="30434") }}.
+#### Utilties
+
+---
+
+You may replace following skills for extra utilities a small/minimal DPS loss:
+1. {{ skill(id="13062") }} -> {{ skill(id="13057") }} (for precasted opener is a DPS gain)
+2. {{ skill(id="13064") }}
+3. {{ skill(id="13082") }}
+4. {{ skill(id="13027") }}
 
 ## Crowd Control
 
 ---
 
-You only realistically have 1 CC skill, that is {{ skill(id="13132") }}. However, it is also 1 of the most effective CC skills in the game, doing up to 750 defiance bar damage each time you use it.
+1. {{ skill(id="30210") }} (Stealth Attack)
+2. {{ skill(id="71802") }} (Staff 3 Flip)
+3. {{ skill(id="13132") }} (Elite Swap)
+4. {{ skill(id="56880") }} (Utility Swap)
 
 ## Advanced Tips
 
 ---
 
-You can use {{ skill(id="13014") }} whenever it is off cooldown to instantly regain 1 bar of **Endurance**. This will allow you to upkeep full uptime on {{ trait(name="bounding dodger") }}, increasing your DPS output to ~36.0k.
+You can use {{ skill(id="13014") }} whenever it is off cooldown to instantly regain 1 bar of **Endurance**. The latest log does not include steal in the rotation.
 
 It is also recommended for advance players to bring an alternative set of weapons:
 {{ pistol_main(stat="Berserker's", sigil="Force") }}
@@ -124,14 +136,17 @@ Examples of bosses that this is particularly effective on include
 > 1. Conjured Amalgamate (Wing 6)
 > 1. Qadim (Wing 6)
 
+#### Sustainability for Solo/OW
+
+You may equip the following for extra sustainability:
+- {{ item(id="101955") }} 
+- {{ skill(id="13050") }}
+- {{ trait(id="1702") }}
+
 ## Video
 
 ---
 
-{{ youtube(id="-KKWiwc4pIE") }}
-
-## Build demo in high end static
-
----
+Build demo in high end static
 
 {{ youtube(id="aBkjhsxvLBE") }}
