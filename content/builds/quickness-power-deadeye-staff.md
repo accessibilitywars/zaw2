@@ -1,8 +1,7 @@
 +++
 title = "Staff Quickeye [qDPS]"
 description = "This build is stronger than unload, but with quickness."
-date = 2024-03-29
-updated = 2026-07-20
+date = 2026-07-20
 draft = false
 template = "build.html"
 
