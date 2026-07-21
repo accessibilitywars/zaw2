@@ -16,7 +16,7 @@ series = "elementalist"
 tagline = "POV bro still aura farming all the way in Tyria"
 keywords = "Guild Wars 2, GW2, LI, Elementalist, Tempest"
 toc = true
-balance = "2026-01"
+balance = "2026-07"
 benchmark = "11.5k DPS"
 apm = "68"
 log = "https://dps.report/9khY-20250815-231307_golem"
@@ -30,7 +30,7 @@ Step based heal alacrity support with easy access to both Aegis and Stability.
 
 With the recent changes to {{ trait(id="1986") }}, Tempest now both heals and gives Alacrity to allies you grant an aura to. As a whole, Elementalist has lots of auras in its kit, and Tempest adds even more. Together with {{ trait(id="361") }}, this allows Tempest to constantly apply auras onto its allies.
 
-We are also abusing changes to {{ trait(id="1675") }} to deal damage as part of the boon/healing rotation. {{ trait(id="1675") }} makes it so that Burning damage you deal scales of Power instead of Condition Damage, and by taking a full set of Harrier's equipment (Power/Healing/Boon Duration), we are maxing out the efficiency of the equipment.
+We are also maximising {{ trait(id="1675") }} to deal damage as part of the boon/healing rotation. {{ trait(id="1675") }} makes it so that Burning damage you deal scales of Power instead of Condition Damage, and by taking a full set of Harrier's equipment (Power/Healing/Boon Duration), we are maxing out the efficiency of the equipment.
 
 ## Boon Coverage
 
@@ -173,11 +173,5 @@ If you are in a fight where lots of condition cleanse is required (i.e Slothasau
 
 {{ youtube(id="kIMeGfEenAU") }}
 
-# Changes
-
-content/builds/heal-alac-tempest.md was changed: 
- - Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
- - Fiery Frost: Increased the evade distance from 250 to 510. This skill now removes inhibiting conditions.
- - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
- - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
- - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.
+# Latest Patch Changes
+- Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
