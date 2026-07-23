@@ -68,7 +68,7 @@ Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13027") }}
 1. For the quickness, you need to use {{ skill(id="42863") }}. {{ skill(id="43390") }} provides one charge.
 2. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}.
 3. Your other cantrip(s) also provide 1 charge of {{ skill(id="42863") }}
-4. You may reserve {{ skill(id="42863") }} at full malice to gain stealth/**Revealed** and a damage boost through {{ skill(id="1704") }}
+4. You may reserve {{ skill(id="42863") }} at full malice to gain stealth/**Revealed** and a damage boost through {{ trait(id="1704") }}
 5. If you mess up your rotation, your group will lose quickness, for example
     * using {{ skill(id="41372") }} when {{ skill(id="43390") }} is about to refresh
     * using {{ skill(id="43390") }} before using the charge from {{ skill(id="41372") }}
