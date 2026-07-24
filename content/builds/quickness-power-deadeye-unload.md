@@ -2,7 +2,7 @@
 title = "Unload Quickeye [qDPS]"
 description = "This build is designed around the skill Unload, with quickness."
 date = 2024-03-29
-updated = 2026-07-16
+updated = 2026-07-23
 draft = false
 template = "build.html"
 
@@ -28,11 +28,9 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 ## Gearing and Consumables
 #### Equipment
 
-- Full Berserker's up to the crit cap.
-- Dragon’s/Berserker's if desired as the build is heavily overcapped on precision
+- Full Berserker's
+- Dragon’s if desired as the build is heavily overcapped on precision
 - Dual Pistols
-
-> <small>It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}</small>
 
 #### Runes
 - {{ item(id="24836") }} OR
@@ -55,20 +53,33 @@ This simplified build also allows you to perform niche roles like pylon kiting, 
 
 ## Build
 #### Quickness DPS
-{{ chatlink(code="[&DQUjGxwtOj+FAAwBMwFYASAXMwFYAFYBDgEoAAAAAAAAAAAAAAAAAAAAAAACNgAvAAA=]") }}
+{{ chatlink(code="[&DQUjHxw9Oj8MAQwBIBdYATMBMwGsFlYBKAAoAAAAAAAAAAAAAAAAAAAAAAACNgBZAAA=]") }}
+
+> * <small>Note: Using {{ trait(id="1167") }} increases the quickness uptime and makes the build easier to play at a cost of slightly reduced DPS</small>
+> * <small>You should prioritise quickness uptime instead of DPS as this affects the entire subgroup.</small>
+> * <small>It is okay to overcap on precision due to the occasional need to switch to {{ trait(name="Practiced Tolerance") }}</small>
 
 ## Rotation and Utilities
 #### DPS Rotation
-Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13057") }} (bring on fights with long damage downtimes)
+Precasts - {{ skill(id="13082") }} (use on refresh), {{ skill(id="13027") }}
 1. Set {{ skill(id="13011") }} (Pistols 3) to auto. Use {{ skill(id="13046") }} for a small DPS boost on cooldown. 
 
 #### Quickness Rotation
+1. For the quickness, you need to use {{ skill(id="42863") }}. {{ skill(id="43390") }} provides one charge.
+2. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}.
+3. Your other cantrip(s) also provide 1 charge of {{ skill(id="42863") }}
+4. You may reserve {{ skill(id="42863") }} at full malice to gain stealth/**Revealed** and a damage boost through {{ trait(id="1704") }}
+5. If you mess up your rotation, your group will lose quickness, for example
+    * using {{ skill(id="41372") }} when {{ skill(id="43390") }} is about to refresh
+    * using {{ skill(id="43390") }} before using the charge from {{ skill(id="41372") }}
+    * being split up from your group due to mechanics
+6. Consider taking improvisation if you find quickness difficult to upkeep. 
+
+#### Quickness Rotation with Improvisation
 {{ trait(id="1167") }}, {{ trait(id="2136") }} and {{ trait(id="2146") }} paired with {{ skill(id="41372") }} provides 30s of Quickness right at the start of the fight.
 1. For the quickness, you need to use {{ skill(id="42863") }}. Each steal provides two charges.
-2. There is an aftercast for the skill but it should not take much time to blast both charges. 
-3. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}. Use {{ skill(id="43390") }} which you can use immediately for two more charges of {{ skill(id="42863") }}.
-4. When you have hit the quickness cap, you may wish to spread the use of Steal Time use it when your malice is full, which gives stealth and a buff from {{ trait(id="1704") }}.
-5. Try to time {{ skill(id="13046") }} with **Revealed** status.
+2. {{ skill(id="41372") }} as a cantrip provides 1 charge of {{ skill(id="42863") }} and resets {{ skill(id="43390") }}. Use {{ skill(id="43390") }} which you can use immediately for two more charges of {{ skill(id="42863") }}.
+3. There is so much quickness overcap with improvisation it is almost impossible to have any downtime. 
 
 #### Crowd Control rotation
 1. You have decent CC by just spamming {{ skill(id="13012") }} (Pistol 4). 
