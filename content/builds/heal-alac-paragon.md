@@ -108,7 +108,10 @@ You must use your commands to grant boons, but you must also reserve some for em
 > | {{ skill(id="76755") }} | Lots of healing and condi-cleanses |
 > | {{ skill(id="76934") }} | Barrier                            |
 > | {{ skill(id="77040") }} | For Might uptime                   |
-> | {{ skill(id="76769") }} | For Aegis, Resistance, Resolution  |<br/>
+> | {{ skill(id="76769") }} | For Aegis, Resistance, Resolution  |
+
+--- 
+
 > - <small>{{ skill(id="77040") }} and {{ skill(id="76769") }} should be used as part of your rotation to maintain boons.</small>
 > - <small>Many of your other boons are covered by your weapons and there is some overlap.</small>
 
