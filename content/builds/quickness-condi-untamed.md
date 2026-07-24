@@ -41,6 +41,8 @@ This build is simplified to use a fixed, consistent and easy-to-remember rotatio
 {{ axe_main(stat="Ritualist's", sigil="Malice") }}
 {{ dagger_off(stat="Ritualist's", sigil="Geomancy") }}
 
+---
+
 #### Consumables
 - {{ item(id="91876", name="Salsa-Topped Veggie Flatbread") }}
 - {{ item(id="81079", name="Magnanimous Tuning Crystal") }}
