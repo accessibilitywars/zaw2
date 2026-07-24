@@ -2,7 +2,7 @@
 title = "Bojutsu [pDPS]"
 description = "Very high damage for very little APM, but requires great positioning."
 date = 2024-04-17
-updated = 2026-07-20
+updated = 2026-07-23
 draft = false
 template = "build.html"
 
@@ -18,9 +18,8 @@ tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
 balance = "2026-07"
-benchmark = "37.8k DPS"
+benchmark = "33k DPS"
 apm = "19"
-log = "https://dps.report/7cfE-20260719-235353_golem"
 +++
 
 ## Notes
@@ -67,6 +66,10 @@ Dodging activates {{ trait(name="bounding dodger") }}, but costs **Endurance**. 
 
 By following the below rotation, you will naturally maintain full uptime on {{ item(id="100916") }}, as well as high uptime on {{ trait(name="bounding dodger") }}.
 
+**Precast**
+1. {{ skill(id="13082") }}
+2. {{ skill(id="13027") }}
+
 **Opener:**
 > 1. Dodge to start the fight
 > 1. Use all your initiative on {{ skill(id="29911") }} (Staff 2)
@@ -92,22 +95,25 @@ You may replace following skills for extra utilities a small/minimal DPS loss:
 1. {{ skill(id="13062") }} -> {{ skill(id="13057") }} (for precasted opener is a DPS gain)
 2. {{ skill(id="13064") }}
 3. {{ skill(id="13082") }}
-4. {{ skill(id="13027") }}
 
 ## Crowd Control
 
 ---
 
 1. {{ skill(id="30210") }} (Stealth Attack)
-2. {{ skill(id="71802") }} (Staff 3 Flip)
-3. {{ skill(id="13132") }} (Elite Swap)
-4. {{ skill(id="56880") }} (Utility Swap)
+2. {{ skill(id="30520") }} -> {{ skill(id="71802") }} 
+3. {{ skill(id="30868") }} -> {{ skill(id="30693") }}
+4. {{ skill(id="13132") }} (Elite Swap)
+5. {{ skill(id="56880") }} (Utility Swap)
+
+* <small>Note: You may use {{ skill(id="13027") }} to access the Stealth Attack for CC.
 
 ## Advanced Tips
 
 ---
 
-You can use {{ skill(id="13014") }} whenever it is off cooldown to instantly regain 1 bar of **Endurance**. The latest log does not include steal in the rotation.
+You can use {{ skill(id="13014") }} whenever it is off cooldown to instantly regain 1 bar of **Endurance**. You may switch one of the auto attack chains with {{ skill(id="30868") }} -> {{ skill(id="30693") }} for a small DPS gain, which can be press and held to cast the skill chain. 
+
 
 It is also recommended for advance players to bring an alternative set of weapons:
 {{ pistol_main(stat="Berserker's", sigil="Force") }}
