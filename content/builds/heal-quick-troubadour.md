@@ -33,15 +33,23 @@ While this guide assumes no weapon swap is needed, if you take an off-tank role,
 
 #### Alternative
 
-Weapon swap is optional. Consider scepter and shield for tanking and focus for additional CC/pulls.
+Weapon swap is optional:
+
+---
+
+Scepter and shield for tanking 
 
 {{ scepter_main(stat="Harrier's", sigil="Transference") }}
 {{ shield_off(stat="Harrier's", sigil="Paralyzation") }}
 
-OR 
+---
+
+Scepter and focus for additional CC/pulls.
 
 {{ scepter_main(stat="Harrier's", sigil="Transference") }}
 {{ focus_off(stat="Minstrel's", sigil="Renewal") }}
+
+---
 
 > <small>_Shield is better used for tanking and focus is useful for pulling adds. Alternate weapon sets should be prioritised based on utility requirements._</small>
 
