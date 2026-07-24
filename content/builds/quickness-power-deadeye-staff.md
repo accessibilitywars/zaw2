@@ -23,7 +23,7 @@ benchmark = "28.7k DPS"
 
 The purpose of writing this guide is to provide a very low intensity method to play PvE deadeye while providing quickness. This build is low cognition, has low physical complexity, and has very few repetitions. This build is functional in both open world and instanced content. This build also provides abundance of Might and Fury boons that support healers that are lacking in effort.
 
-Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiatve**, you want to use it as much as possible over all of your other skills. You may press and hold this skill to reduce the number of button presses (APM).
+Since {{ skill(id="29911") }} (Staff 2) does the most damage per point of **Initiative**, you want to use it as much as possible over all of your other skills. You may press and hold this skill to reduce the number of button presses (APM).
 
 ## Gearing and Consumables
 #### Equipment
@@ -94,7 +94,7 @@ Precasts - {{ skill(id="13082") }} (use on refresh) and {{ skill(id="13027") }}(
 > * <small>Using stolen skills at max malice will give stealth.</small> 
 > * <small>Exiting Stealth will give revealed status which increases DPS through {{ trait(id="1704") }}</small> 
 > * <small>Note: Using {{ skill(id="13046") }} and {{ skill(id="41158") }} during **revealed** can increase DPS. For simplicity, place this after the 2nd charge of {{ skill(id="42863") }}.</small>
-> * <small>Note: Using {{ skill(id="41158") }} will give an extra charge of {{ skill(id="42863") }} whcih can trigger **revealed** status again.</small>
+> * <small>Note: Using {{ skill(id="41158") }} will give an extra charge of {{ skill(id="42863") }} which can trigger **revealed** status again.</small>
 
 ## Crowd Control
 
