@@ -58,8 +58,8 @@ This build has a lot of auto attacks.
 #### Optional equipment sets
 | Equipment     | Stat          | Sigil                   |
 | ------------- | ------------- | ----------------------- |
-| Mace (OH)     | Viper's       | {{ item(id="24560") }}  |
-| Dagger (OH)   | Viper's       | {{ item(id="24560") }}  |
+| Longbow (2H)  | Viper's       | {{ item(id="24624") }}  |
+| -             | -             | {{ item(id="24560") }}  |
 
 ---
 
@@ -113,19 +113,16 @@ Use the following off-cooldown
 >> - {{ skill(id="14404") }} has no cast time.
 
 #### Crowd Control
-This build has very poor CC options and you may bring additional CC by sacrificing {{ skill(id="14413") }} but {{ trait(id="1344") }} will be harder to maintain. Other weapon sets provide decent CC with minimal DPS loss. 
-> 1. {{ skill(id="77114") }}
-> 1. {{ skill(id="14502") }}
-> 1. {{ skill(id="14415") }} (swap to mace)
-> 1. {{ skill(id="45160") }} (swap to dagger)
+Longbow provides additional ranged damage uptime and CC options.
 
 #### Sustain in Open World
 > 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
+> 2. {{ skill(id="14413") }} for stun break, healing and stability.
+> 3. {{ skill(id="76782") }} for barrier and healing
+> 4. {{ skill(id="77155") }} for stability
 > 2. Use **Relic of the Biomancer** for baseline healing
 > 3. Use **Relic of the Mistfire** for life siphon and additional damage
 > 4. Use {{ skill(id="76562") }} in emergencies
-> 5. Use {{ skill(id="14413") }} for stability
 
 ## Latest patch changes
-- Sword has been reworked. The grieving variant has been removed from the guide as sword no longer scales well to power.
-- Dagger has been added as a new CC option. This is useful as dagger offers boon-strip as well.
+- Sword has been reworked.
