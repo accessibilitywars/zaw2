@@ -1,7 +1,7 @@
 +++
 title = "AAA Blademaster [aDPS]"
 description = "AAA stands for Auto-Attack Alacrity."
-date = 2025-07-26
+date = 2026-07-26
 draft = false
 template = "build.html"
 
