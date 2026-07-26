@@ -1,5 +1,5 @@
 +++
-title = "Dragonbonker[pDPS]"
+title = "Dragonbonker [pDPS]"
 description = "This build is designed around old core guardian hammer Auto Attack build, updated for better DPS and more flexibility. It uses only 1 weapon and 98%+ of its damage comes from hammer 1"
 date = 2026-07-26
 draft = false
