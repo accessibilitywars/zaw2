@@ -135,6 +135,6 @@ Longbow provides additional ranged damage uptime and CC options.
 
 ## Video
 
-{{ youtube(id="tmlxNp32f64") }}
+{{ youtube(id="F9kttt9O7AM") }}
 
 This bench is done with ascended gear, food, utilities and no infusions.
