@@ -1,34 +1,36 @@
 +++
-title = "Dual Blademaster [cDPS]"
-description = "Auto-Attack Condition Paragon"
-date = 2025-11-02
-updated = 2026-07-16
+title = "AAA Blademaster [aDPS]"
+description = "AAA stands for Auto-Attack Alacrity."
+date = 2025-07-26
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["sword", "condi","warrior","paragon","voe","lowcog","lowphys","lowrep"]
+tags = ["sword","condi","alacrity","warrior","paragon","voe","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["paragon","warrior"]
 
 [extra]
 series = "warrior"
-tagline = "I am the bone of my sword."
+tagline = "AAA stands for Auto-Attack Alacrity."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2026-07"
-benchmark = "37.1k DPS"
-apm = "26"
+benchmark = "28.5k DPS"
+apm = "40"
+log = "https://dps.report/vzZJ-20260726-172858_golem"
 +++
 
 
 ## Notes
 ---
 
+AAA stands for Auto-Attack Alacrity.
+
 This is a build which uses mostly Vipers Gear to maximise the dual swords new reworked bleeding capabilities. 
 
-This build has a lot of auto attacks.
+This build provides sizeable group barrier and frequent applications of group stability as part of its rotation. 
 
 ## Gearing
 
@@ -71,7 +73,7 @@ This build has a lot of auto attacks.
 - Food: {{ item(id="95241", name="Feast of Delectable Birthday Cake") }} (Budget)
 - Enhancement: {{ item(id="48917", name="Toxic Tuning Crystal") }}
 - Better (prohibitively expensive) food/enhancements are available
-    * **Snow Diamond Ornament**
+    * **Snow Diamond Ornament** (Fairly accessible)
     * {{ item(id="72510", name="Writ of Masterful Malice") }}
     * {{ item(id="76833", name="Writ of Masterful Accuracy") }}
     * Cooking Golem and/or Sharpening Golem (may be freely available on occasion)
@@ -84,45 +86,55 @@ This build has a lot of auto attacks.
 ## Build
 ---
 
-[Viper's Variant](https://gw2skills.net/editor/?PKwAwynlFwsYUsJWJO+K+zSA-DSRYmRL1PbIBnRcKgclCK8YQACXL8amwZFsC-e)<br/>
+[Viper's Variant](https://gw2skills.net/editor/?PKwAwynlZwsYUsJWJO+K+zKA-DSRYmRL1PbIBnRcKgclCK8YQACXL8amwZFsC-e)<br/>
 <br/>
-{{ chatlink(code="[&DQIEHyQ+SiWmAAAAswAAAK8AAACpAAAAnAAAAAAAAAAAAAAAAAAAAAAAAAA=]") }}
+{{ chatlink(code="[&DQIEHyQ+ShVwAKcAswCtAKkArwCvAAAAnADuAAAAAAAAAAAAAAAAAAAAAAACLwA1AAA=]") }}
 
 ## Rotation
 ---
 
 #### Opener
-> 1. Signets (Cast very early to maintain 5 stacks)
-> 1. {{ skill(id="77342") }}
-> 1. {{ skill(id="14402") }}
-> 
+1. Signets (Cast very early to maintain 5 stacks)
+1. {{ skill(id="77342") }}
+
 > - <small>None of these skills will trigger the boss fight, and you can perpetually keep refreshing signet until the fight begins.</small>
 > - <small>{{ skill(id="14410") }} and {{ skill(id="14402") }} provide adrenaline so you may use them in between fight phases or as part of your opener</small>
 
-#### Skill Priority
-Use the following off-cooldown
-> 1. {{ skill(id="80203") }} (⚔ Burst)
-> 1. {{ skill(id="14498") }} (⚔ 4)
-> 1. {{ skill(id="80247") }} (⚔ 3)
-> 1. {{ skill(id="14413") }}
-> 1. {{ skill(id="14404") }} (if required)
-> 1. Other Signets only if required
-> 
->> - Try to maintain 4-5 stacks of {{ trait(id="1344") }}.
->> - {{ skill(id="14413") }} has no cast time.
->> - {{ skill(id="14404") }} has no cast time.
+#### DPS Rotation
+Use the following
+1. {{ skill(id="80203") }} (⚔ Burst)
+1. {{ skill(id="14498") }} (⚔ 4)
+1. {{ skill(id="80247") }} (⚔ 3)
+1. {{ skill(id="14413") }}
+1. {{ skill(id="14410") }} (when you need **Adrenaline**)
+1. Use skills on cooldown/when required.
 
-#### Crowd Control
+> * <small>Try to maintain 5 stacks of {{ trait(id="1344") }}.</small>
+> * <small>{{ skill(id="14413") }} has no cast time.</small>
+> * <small>Try to queue skills with cast time to reduce interruption of autos.</small>
+
+#### Alacrity Rotation
+1. {{ skill(id="14389") }}
+2. Double cast your chants when you have full adrenaline:
+    * {{ skill(id="76782") }} for barrier
+    * {{ skill(id="77155") }} for stability
+    * Return to {{ skill(id="14389") }} to upkeep {{ trait(id="2385") }}
+3. If you need extra adrenaline, use {{ skill(id="14410") }}
+
+#### Longbow
 Longbow provides additional ranged damage uptime and CC options.
 
 #### Sustain in Open World
-> 1. Switch to {{ skill(id="14389") }} for baseline healing and to maintain {{ trait(id="1344") }}
+> 1. {{ skill(id="14389") }} for baseline healing
 > 2. {{ skill(id="14413") }} for stun break, healing and stability.
 > 3. {{ skill(id="76782") }} for barrier and healing
 > 4. {{ skill(id="77155") }} for stability
-> 2. Use **Relic of the Biomancer** for baseline healing
-> 3. Use **Relic of the Mistfire** for life siphon and additional damage
-> 4. Use {{ skill(id="76562") }} in emergencies
+> 5. Use {{ skill(id="76562") }} in emergencies
+> 6. Use **Relic of the Biomancer** for extra baseline healing
+> 7. Use **Relic of the Mistfire** for life siphon
 
-## Latest patch changes
-- Sword has been reworked.
+## Video
+
+{{ youtube(id="tmlxNp32f64") }}
+
+This bench is done with ascended gear, food, utilities and no infusions.
