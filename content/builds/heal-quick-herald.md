@@ -24,7 +24,7 @@ You may need to rearrange the subgroups to ensure more diverse/rationing of boon
 
 # Gearing
 
-{{ Heavy(stat="Harrier's", rune="Rebirth") }}
+{{ heavy(stat="Harrier's", rune="Rebirth") }}
 {{ scepter_main(stat="Harrier's", sigil="Water") }}
 {{ shield_off(stat="Harrier's", sigil="Transference") }}
 {{ trinkets(stat="Cleric's", relic="Flock") }}
