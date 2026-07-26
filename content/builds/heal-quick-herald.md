@@ -35,7 +35,7 @@ You may need to rearrange the subgroups to ensure more diverse/rationing of boon
 
 Consider swapping to Staff for CC
 
-{{ Staff(stat="Harrier's", sigils=["Water", "Transference"]) }}
+{{ staff(stat="Harrier's", sigils=["Water", "Transference"]) }}
 
 ---
 
