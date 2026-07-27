@@ -78,7 +78,7 @@ Even the most damaging utility skills are a DPS loss compared to hammer 1.
 * {{ skill(id="9153") }} provides resolution, group stability, and group stun break.
 * {{ skill(id="9084") }} for lots of extra group aegis
 * {{ skill(id="9245") }} for a decent DPS boost, provided your sub has resolution uptime covered.
-* {{ skill(id="9245") }} for boss fights that require you to travel alot. 1200-range gap-closer and stunbreak with a 20s cooldown.
+* {{ skill(id="9247") }} for boss fights that require you to travel alot. 1200-range gap-closer and stunbreak with a 20s cooldown.
 
 #### Elite Skill
 * {{ skill(id="30461") }} is the default option. This should only ever be used as an emergency stun break or group stability. It has a long channel, but this can be interrupted at any point by simply moving.
@@ -92,7 +92,7 @@ Even the most damaging utility skills are a DPS loss compared to hammer 1.
 
 #### Crowd Control rotation
 * {{ skill(id="9260") }} (Hammer 3),  {{ skill(id="9124") }} (Hammer 4), and {{ skill(id="9195") }} (Hammer 5) are all pretty good CC options.
-* {{ skill(id="9260") }} (Traited F2) also provides more immobilize.
+* {{ skill(id="30225") }} (Traited F2) also provides immobilize.
 * {{ skill(id="29887") }} -> {{ skill(id="33134") }} will also do CC, however this should be your last CC option, as losing the justice passive temporarily may drop your DPS.
 * {{ skill(id="9128") }} can be used in the flex slot for huge CC, if resolution uptime is covered by allies.
 
