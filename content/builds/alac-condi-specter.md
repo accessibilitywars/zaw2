@@ -1,5 +1,5 @@
 +++
-title = "Blade of Alacrity [aDPS]"
+title = "3-Blades [aDPS]"
 description = "This build is designed around empowered poison/bleeding and Dagger bursts."
 date = 2024-06-07
 updated = 2026-04-30
