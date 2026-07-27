@@ -1,12 +1,12 @@
 +++
-title = "Dragon Cleric [qHeal]"
+title = "Dragon Cleric [qHeal/HK]"
 description = "Massive overflow healing, unique damage denial and easy access wide-range quickness."
 date = 2026-07-27
 template = "build.html"
 
 [taxonomies]
 categories = ["solo","group"]
-tags = ["scepter","shield","heal","quickness","revenant","herald","hot","lowphys","lowrep"]
+tags = ["scepter","shield","heal","handkite","quickness","revenant","herald","hot","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["herald", "revenant"]
 
@@ -29,7 +29,8 @@ You may need to rearrange the subgroups to ensure more diverse/rationing of boon
 {{ shield_off(stat="Harrier's", sigil="Transference") }}
 {{ trinkets(stat="Cleric's", relic="Flock") }}
 
-> * Consider Giver's in place of Harrier's gear if you need more **Toughness**.
+> * <small>Consider Giver's in place of Harrier's gear if you need more **Toughness**.</small>
+> * <small>Consider Magi's in place of Cleric's gear if you need lower **Toughness**.</small>
 
 ### Alternative
 
@@ -52,7 +53,7 @@ There is no rotation for providing **Quickness**. Quickness effuses out of your 
 
 #### Legendary Dragon Stance
 
-Always start with {{ skill(id="28085") }}. This provides almost all of what you need and even if you decide to camp only this stance, it kind of works. 
+Always start with {{ skill(id="28085") }}. You want to stay in this stance as long as possible as it provides almost all of what you need. Even if you decide to camp only this stance, it kind of works. 
 
 To maintain energy loss, you need to use skills that drain energy. Many of these skills are found on {{ skill(id="28085") }} in the form of Facets:
 
@@ -76,6 +77,11 @@ When you turn off Facets, you Consume them for an effect
 > 1. {{ skill(id="26644") }} -> {{ skill(id="28113") }} (DPS Buff)
 > 1. {{ skill(id="27760") }} -> {{ skill(id="28075") }} (Extend Boons)
 
+> * <small>{{ skill(id="27228") }} should only be used as a last resort.</small>
+> * <small>Alternate the upkeep of facets to support a variety of boons.</small>
+> * <small>Try not to consume all your facets at once or all your upkeep </small>
+> * <small>You don't need to upkeep {{ skill(id="27760") }} but detonate using {{ skill(id="28075") }} immediately.</small>
+
 #### Changing Legendary Stances
 
 Changing stance is the most efficient way to manage energy due to {{ trait(id="1791") }}. Changing stance is especially useful when you:
@@ -93,12 +99,18 @@ When you first invoke {{ skill(id="28195") }}, you will notice that you have a s
 
 For practical purposes, the **Tranquil** Status is most used on 2 specific skills. This gives your next **Legendary Centaur** an extra effect denoted by (T) below.
 
-1. {{ skill(id="28195") }} Burst Heal/Stability (T)
-2. {{ skill(id="29310") }} Quickness and projectile destruction/ Protection (T) AKA
+1. {{ skill(id="28195") }} 
+    * Burst Heal
+    * Stability (T)
+2. {{ skill(id="29310") }} 
+    * Quickness
+    * Projectile destruction
+    * Protection (T) AKA
 
-> * Use {{ skill(id="27760") }} -> {{ skill(id="28075") }} to reset **tranquil** and provide a small heal.
-> * Remember to use resummon the tablet via {{ skill(id="29148") }} after detonating the tablet with {{ skill(id="28195") }}.
-> * Your other utility skills provide condi cleanses and extra healing. 
+> * <small>Use {{ skill(id="27760") }} -> {{ skill(id="28075") }} to reset **tranquil** and provide a small heal.</small>
+> * <small>Remember to use resummon the tablet via {{ skill(id="29148") }} after detonating the tablet with {{ skill(id="28195") }}.</small>
+> * <small>Your other utility skills provide condi cleanses and extra healing.</small>
+> * <small>Switch back to {{ skill(id="28085") }} where possible.</small>
 
 #### Using Weapon skills 
 Unlike other heal specs, you want to be using auto attacks all the time. Use other skills situationally where required. If you desperately need to use a weapon skill but are out of energy, consider swapping legends to regain energy. 
@@ -111,12 +123,27 @@ Unlike other heal specs, you want to be using auto attacks all the time. Use oth
 
 **Shield**
 
-> {{ skill(id="29386") }} - Group Aegis
-> {{ skill(id="28262") }} - Very good for {{ skill(id="37613") }}
+> 1. {{ skill(id="29386") }} - Group Aegis
+> 2. {{ skill(id="28262") }} - Very good for {{ skill(id="37613") }}
 
 
 **Staff**
 
-> Staff is usually brought for a very strong CC although the third auto also does a small heal. 
-> {{ skill(id="28978") }} - multiple knockbacks
-> Use the other skills for healing, blocks and condi cleanses. 
+> 1. Staff is usually brought for a very strong CC although the third auto also does a small heal. 
+> 2. {{ skill(id="28978") }} - multiple knockbacks
+> 3. {{ skill(id="29288") }} - for blocks
+> 4. Use the other skills for healing and condi cleanses. 
+
+#### Hand Kiting 
+
+This build can hand kite with damage mitigation skills.
+
+> 1. {{ skill(id="29288") }} - 1st hands
+> 1. {{ skill(id="27228") }} - 2nd hands
+> 1. {{ skill(id="29288") }} - 3rd hands
+> 1. {{ skill(id="28262") }} - {{ skill(id="37613") }}
+> 1. Reset loop after {{ skill(id="37613") }}. 
+
+> * <small>Swap weapons for Mind Crush.</small> 
+> * <small>Dodging as the hands are about to end adds evade frames.</small>
+> * <small>Bring {{ trait(id="1743") }} for extra heals.</small> 
