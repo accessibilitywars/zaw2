@@ -114,11 +114,11 @@ Use the following
 > * <small>Try to queue skills with cast time to reduce interruption of autos.</small>
 
 #### Alacrity Rotation
-1. {{ skill(id="14389") }}
+1. {{ skill(id="77342") }}
 2. Double cast your chants when you have full adrenaline:
     * {{ skill(id="76782") }} for barrier
     * {{ skill(id="77155") }} for stability
-    * Return to {{ skill(id="14389") }} to upkeep {{ trait(id="2385") }}
+    * Return to {{ skill(id="77342") }} to upkeep {{ trait(id="2385") }}
 3. If you need extra adrenaline, use {{ skill(id="14410") }}
 
 #### Longbow
