@@ -1,24 +1,24 @@
 +++
-title = "Signet Sworn Sword [aDPS]"
+title = "Renzokuken [aDPS]"
 description = "This build generates a generous amount of alacrity through discipline and spirit."
 date = 2025-10-24
-updated = 2026-04-21
-draft = true
+updated = 2026-07-28
+draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["group"]
-tags = ["sword","pistol","axe","power","warrior","bladesworn","eod","soto","alacrity","lowcog","lowrep"]
+tags = ["sword","pistol","power","warrior","bladesworn","eod","soto","alacrity","lowcog","lowrep"]
 authors = ["xellink"]
 specs = ["bladesworn", "warrior"]
 
 [extra]
 series = "warrior"
-tagline = "Victory is reserved for those who are willing to pay its price. - Sun Tzu"
+tagline = "I'll be here. I'll be waiting for you. So if you come here, you'll get alacrity."
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
 balance = "2026-04"
-benchmark = "30.1k DPS"
+benchmark = "29k DPS"
 apm = "65"
 +++
 
@@ -38,29 +38,41 @@ You may use any combination of Berserker's, Assassin's or Marauder's stats but k
 	relic="Peitha") }}
 
 #### Weapon Options
+
+**Recommended**
+
 {{ sword_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
+
+---
+
+**Alternative**
+
 {{ axe_main(stat="Berserker's", sigil="Force") }}
 {{ pistol_off(stat="Berserker's", sigil="Accuracy") }}
 
 ---
+
 #### Consumables
 - {{ item(id="91805", name="Cilantro Lime Sous-Vide Steak") }}
 - {{ item(id="67530", name="Furious Sharpening Stone") }} (Optimised)
 - {{ item(id="78305", name="Superior Sharpening Stone") }} (Budget)
 
 ## Build
-{{ chatlink(code="[&DQIEHwsVRDunACkP8hoAAKkAAACvAK0A/BqcAAAAAAAAAAAAAAAAAAAAAAAEWgA2AC8ABQAA]") }}
+{{ chatlink(code="[&DQIEHwsVRDmmACkP8hoAAK8AAACpAK0AnACcAAAAAAAAAAAAAAAAAAAAAAAEWgA2AC8ANQAA]") }}
 
 ## Notes
 This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. Because of this, you must not delay {{ skill(id="62803") }} and you have to use **Dragon Slash - Force** (DT1) almost immediately after triggering {{ item(id="100177") }}.
 
 ## Rotation
 
+Mainhand Sword feels smoother to play and hence this guide will not cover Axe.
+
 #### Precasts
 > 1. Gunsaber skills
-> 1. Utilty skills ({{ skill(id="62967") }} x3 [^1]
+> 1. Utilty skills ({{ skill(id="62967") }} x3
 > 1. {{ skill(id="14401") }}
+
 >> * <small>Use {{ skill(id="62901") }} to get the third {{ skill(id="62967") }}</small>
 
 #### Dragon Slash Combo
@@ -68,28 +80,37 @@ You **MUST** learn this combo:
 > 1. {{ skill(id="62803") }}
 > 1. **Flickerstep** (triggers {{ item(id="100177") }})
 > 1. **Dragon Slash - Force** (ASAP when charged)
->> * <small>Be careful not to cancel your {{ skill(id="62803") }} by moving!</small>
->> * <small>Triggerguard can be added on for free aegis.</small>
+
+>> * <small>This is also your opener.</small>
+>> * <small>Triggerguard can be added on for free aegis and an extra FAF stack.</small>
+>> * <small>{{ item(id="100177") }} affects the enemy, not you.</small>
+>> * <small>{{ item(id="104241") }} may be used on certain fights, e.g. Largos</small>
 
 #### Simplified Loop
-> 1. Dragon Slash Combo
+After 1st Dragon Slash opener:
+
 > 1. Weapon Skills (5→1→Autos)
 > 1. Dragon Slash Combo
-> 1. Gunsaber (4→3→2→1→Autos)
+> 1. Gunsaber (4→3→2→1→Utilities)
 > 1. Dragon Slash Combo ↺
->> * <small>You may skip Sword 2 or keep the leap as a finisher when you need it.</small>
+
+>> * <small>You may skip {{ skill(id="14366") }} (Sword 2) or keep the leap as a finisher/gap-closer when you need it.</small>
+>> * <small>You deal significant damage on Sword Autos.</small>
+>> * <small>You lose a lot of damage on Gunsaber Autos.</small>
 
 ## Crowd Control
-This build has weak crowd control. Replace {{ skill(id="14404") }} with a physical skills that has CC:
+This build has weak crowd control:
+> * Your only hard-CC skill is {{ skill(id="62732") }} (Gunsaber 3)
+> * Sword provides a few soft-CC conditions.
+
+Replace {{ skill(id="14404") }} for a sizeable DPS loss only when absolutely necessary:
 > * {{ skill(id="14516") }}
 > * {{ skill(id="14502") }}
 
-Physical skills provide a short term buff through {{ trait(id="1444") }}, so you can mitigate the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above CC skills. 
+Physical skills provide a small through {{ trait(id="1444") }}, so you can mitigate some of the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above physical skills.
 
-# Changes
-
-content/builds/alacrity-power-bladesworn.md was changed: 
- - Savage Leap: This skill now inflicts bleeding.
+## Latest Patch Changes
  - Unseen Sword: This trait now strikes nearby enemies and grants you increased flow rate when swapping to the gunsaber in combat.
- - Fierce as Fire: This trait now increases both strike and condition damage for each round of ammunition spent.
  - Daring Dragon: This trait now increases the effectiveness of Dragon Slash skills depending on which variation is being used.
+ - Sword has been reworked.
+ - The rotation remains unchanged.
