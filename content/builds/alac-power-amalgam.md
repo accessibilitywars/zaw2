@@ -1,6 +1,6 @@
 +++
-title = "0-KIT ALAC-T1002-P [aDPS]"
-description = "Simple Kitless Power Alacrity Amalgam Build"
+title = "T1002-PWR-ALAC [aDPS]"
+description = "Kitless Power Alacrity Amalgam Build"
 date = 2026-06-19
 draft = false
 template = "build.html"
