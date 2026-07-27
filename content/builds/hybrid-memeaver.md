@@ -1,5 +1,5 @@
 +++
-title = "Fever (Fire Meme Weaver) [DPS]"
+title = "Fever (Fire-Weaver) [DPS]"
 description = "You probably shouldn't play this build 🔥"
 date = 2025-08-23
 updated = 2026-07-18
