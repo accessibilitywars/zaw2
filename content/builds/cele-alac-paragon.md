@@ -1,6 +1,6 @@
 +++
-title = "Sword Saint Commander [aHeal]"
-description = "Celestial warrior with high damage floor."
+title = "Sword Saint [aHeal]"
+description = "Celestial warrior healer with high damage floor."
 date = 2026-06-16
 updated = 2026-07-17
 draft = false
@@ -14,7 +14,7 @@ specs = ["paragon","warrior"]
 
 [extra]
 series = "warrior"
-tagline = "Celestial warrior with high damage floor."
+tagline = "Celestial warrior healer with high damage floor."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2026-07"
