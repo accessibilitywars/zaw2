@@ -1,5 +1,5 @@
 +++
-title = "The Blast and the Quickness [pDPS]"
+title = "Blast and Quickness [qDPS]"
 description = "I don't have friends, I got family."
 date = 2026-06-21
 draft = false
