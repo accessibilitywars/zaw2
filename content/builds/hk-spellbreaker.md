@@ -1,5 +1,5 @@
 +++
-title = "Hand Break [HK]"
+title = "Hand-Break [HK]"
 description = "You can't touch this... Break it down!"
 date = 2025-12-16
 updated = 2026-01-15
@@ -184,7 +184,8 @@ You will need to do the hands mechanic as before. However this is a relatively s
 Position yourself just slightly off-mid on the arena. This allows you to survive knockbacks in case your stability runs out. You can also provide additional sources of stability or dodge the knockback.
 
 ## Video
----
-{{ youtube(id="JVflCnj3-xs") }}
 
-This video used Bullet Catcher which has been removed from the game. there are alternative skills to mitigate hands which are described above. 
+---
+{{ youtube(id="6G5fnby1T_k") }}
+
+This demo uses only one weapon set without any weapon swapping. Immobilisation of prides is also demonstrated here. 
