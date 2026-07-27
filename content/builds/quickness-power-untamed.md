@@ -1,5 +1,5 @@
 +++
-title = "Whirling Bunny Thumper [qDPS]"
+title = "Bunny Thumper [qDPS]"
 description = "Spin to win with this simplified Quick Power DPS build."
 date = 2026-05-02
 updated = 2026-05-02
