@@ -1,6 +1,6 @@
 +++
-title = "0-KIT ALAC-T1000-C [aDPS]"
-description = "Simple Kitless Condition Alacrity Amalgam Build"
+title = "T1000-COND-ALAC [aDPS]"
+description = "Kitless Condition Alacrity Amalgam Build"
 date = 2026-02-14
 updated = 2026-04-28
 draft = false
