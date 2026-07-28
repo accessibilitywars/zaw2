@@ -28,8 +28,6 @@ The alternative weapon sets (spear and scepter) are not covered in this guide du
 
 
 ## Gearing and Consumables
-#### GW2Skills Links
-1. [Daggers Loadout](https://gw2skills.net/editor/?PaABgihjlJwOYKMK2IO2W1xcA-DSJYyRP/hEpCoSRQISBF+CgmZ8pBqA-e)
 
 #### Equipment
 - Full Ritualist's
