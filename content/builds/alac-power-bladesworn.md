@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "I'll be here. I'll be waiting for you. So if you come here, you'll get alacrity."
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
-balance = "2026-04"
+balance = "2026-07"
 benchmark = "29k DPS"
 apm = "65"
 +++
