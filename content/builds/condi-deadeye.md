@@ -1,5 +1,5 @@
 +++
-title = "Maleficent [aDPS]"
+title = "Maleficent [cDPS]"
 description = "There is an evil in this world, hatred, and betrayal. And I cannot keep you from it."
 date = 2026-07-29
 draft = false
