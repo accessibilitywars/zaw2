@@ -57,10 +57,7 @@ When your malice is full, you gain a multitude of offensive and defensive self-b
 
 Precast - {{ skill(id="13026") }} + {{ skill(id="13082") }}
 Opener - {{ skill(id="43390") }} + {{ skill(id="56898") }}
-1. Utilities to cast on cooldown
-    * {{ skill(id="13037") }}
-    * {{ skill(id="13026") }}
-    * {{ skill(id="13093") }} (viable on mobile fights)
+1. Cast damage utilities on cooldown.
 2. {{ skill(id="63254") }} (Press & Hold 3) until malice is full
 3. Recharge -> {{ skill(id="63314") }} by first using:
     * Stolen Skill -> Stealth
@@ -70,8 +67,15 @@ Opener - {{ skill(id="43390") }} + {{ skill(id="56898") }}
 
 > * <small>Allow {{ skill(id="63314") }} to fully cast and do not cancel it.</small>
 > * <small>Do not overspend your initiative when malice is full or you will have problems refilling malice when you reset it.</small>
-> * <small>You may delay reapplying {{ skill(id="43390") }} to time the initiative gain from {{ trait(id="2145") }}</small>
+> * <small>You may delay reapplying {{ skill(id="43390") }} for timely initiative gain from {{ trait(id="2145") }}</small>
 > * <small>If you done the rotation masterfully, you would be using minimal to no auto attacks.</small>
+
+#### Damage Utility Options
+
+* {{ skill(id="13037") }}
+* {{ skill(id="13026") }}
+* {{ skill(id="13093") }} (viable on mobile fights)
+* {{ skill(id="13028") }} (if you don't like double tapping)
 
 #### CC options
 
