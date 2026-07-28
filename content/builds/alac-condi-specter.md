@@ -19,7 +19,7 @@ keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
 balance = "2026-07"
 benchmark = "26.3k DPS solo"
-benchmark2 = "~28-29k DPS w allies"
+benchmark2 = "~29k w/ allies"
 +++
 
 The purpose of writing this guide is to provide a competent DPS options with good alacrity uptime and decent DPS output in group PVE content. While weapon swaps are not included in the rotation, swapping to another dagger or a ranged option remains viable choices. This build is functional in both open world and instanced content. While this build has a a moderate skill floor, it has a higher achievable damage ceiling once the basics are secured. Because of the differences in condition types and trait interactions, this build is not efficient with torment unless special arrangements are made, thus this guide assumes you are only using dual/triple daggers.
