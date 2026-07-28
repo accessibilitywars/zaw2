@@ -39,10 +39,14 @@ This build heavily relies on {{ skill(id="77255") }} for alacrity. Moving out of
 
 > - You may swap a few pieces for Ritualist's for a negligible DPS loss if you have problems maintaining Alacrity uptime. 
 
+---
+
 #### Weapon Swap Options
 
 {{ scepter_main(stat="Viper's", sigil="Bursting") }}
 {{ pistol_off(stat="Viper's", sigil="Torment") }}
+
+---
 
 #### Food
 
@@ -50,7 +54,9 @@ This build heavily relies on {{ skill(id="77255") }} for alacrity. Moving out of
 
 #### Utility
 
-- {{ item(id="9476") }}(Condi)
+- {{ item(id="9476") }}(Condi)'
+
+---
 
 ## Build
 #### Alac DPS 
