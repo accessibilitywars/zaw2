@@ -1,7 +1,7 @@
 +++
 title = "Ratmancer [aDPS]"
 description = "Deal lots of condi damage with your rat."
-date = 2026-07-29
+date = 2026-07-28
 draft = false
 template = "build.html"
 
