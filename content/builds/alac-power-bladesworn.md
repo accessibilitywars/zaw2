@@ -1,6 +1,6 @@
 +++
 title = "Renzokuken [aDPS]"
-description = "This build generates a generous amount of alacrity through discipline and spirit."
+description = "I'll be here. I'll be waiting for you. So if you come here, you will find alacrity."
 date = 2025-10-24
 updated = 2026-07-28
 draft = false
@@ -14,7 +14,7 @@ specs = ["bladesworn", "warrior"]
 
 [extra]
 series = "warrior"
-tagline = "I'll be here. I'll be waiting for you. So if you come here, you'll get alacrity."
+tagline = "I'll be here. I'll be waiting for you. So if you come here, you will find alacrity."
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
 balance = "2026-07"
