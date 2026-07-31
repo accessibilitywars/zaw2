@@ -23,6 +23,8 @@ benchmark = "28.5k DPS"
 This is the condition variant of an old but popular build without weapon swaps. The ranged nature of the build allows higher damage uptime
 and a full set of Ritualist's gear improves survivability. This build lacks self-boons for solo play. 
 
+Although the rotation is easy to learn, energy management requires active participation and requires players to to swap legends during a narrow window.
+
 ## Gearing and Consumables
 
 |Equipment      | Stats         | Rune/Sigil/Relic        |
@@ -61,23 +63,32 @@ and a full set of Ritualist's gear improves survivability. This build lacks self
 
 #### DPS Rotation Loop
 After Opener:
-1. {{ skill(id="43993") }} (S.Bow 4) -> Filler
-2. {{ skill(id="41829") }} (S.Bow 3) -> Filler
-3. {{ skill(id="40175") }} (S.Bow 2) -> Filler/Burn
-4. Burn Remaining Energy using {{ skill(id="42836") }} or use Bow Attacks on cooldown
-5. Swap Legends (@ Energy < 10%)
+1. Use Weapon Skills on cooldown +/- Fillers
+    * {{ skill(id="40175") }} (S.Bow 2)
+    * {{ skill(id="41829") }} (S.Bow 3)
+    * {{ skill(id="43993") }} (S.Bow 4)
+2. Where required, burn Remaining Energy
+3. Legend Swap @ Energy < 10%
     * {{ skill(id="41858") }} OR
     * {{ skill(id="28494") }}
-6. Start with opener
+4. Start with opener
     * Mallyx: {{ skill(id="28287") }} OR
     * Kalla: {{ skill(id="40485") }} -> {{ skill(id="42949") }}
-7. Repeat Loop
+5. Repeat Loop
 
-> * <small>{{ skill(id="28287") }} has an ICD of 3s. Spread out your bow skills with Fillers to maximise its effects.</small>
+---
+
+> **Mallyx Fillers**
+> * <small>{{ skill(id="28287") }} has an ICD of 3s. Spread out your bow skills with Auto-Attack Fillers to maximise its effects.</small>
+>     * <small>You will be energy starved during Mallyx.</small>
 >     * <small>If you need energy for CC, use autos during the Fillers.</small>
->     * <small>If you have excess energy, use {{ skill(id="40485") }} during fillers when its available.</small>
+
+> **Kalla Energy Burn**
 > * <small>It is better to burn your energy than to reserve it due to {{ trait(id="1791") }}.</small>
-> * <small>Reserve {{ skill(id="41820") }} (S.Bow 5) for CC</small>
+>     * <small>You will have abundant energy during Kalla.</small>
+>     * <small>Try to time your CC phases during this stance</small>
+>     * <small>Burn excess energy using {{ skill(id="42836") }}</small>
+>     * <small>As a last resort, use {{ skill(id="45773") }} if you can't Legend Swap fast enough.</small>
 
 ## Optimisation
 #### CC
