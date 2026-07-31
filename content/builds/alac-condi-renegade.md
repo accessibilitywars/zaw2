@@ -67,7 +67,7 @@ After Opener:
 4. Burn Remaining Energy using {{ skill(id="42836") }} or use Bow Attacks on cooldown
 5. Swap Legends (@ Energy < 10%)
     * {{ skill(id="41858") }} OR
-    * {{ skill(id="28376") }}
+    * {{ skill(id="28494") }}
 6. Start with opener
     * Mallyx: {{ skill(id="28287") }} OR
     * Kalla: {{ skill(id="40485") }} -> {{ skill(id="42949") }}
