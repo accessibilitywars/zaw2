@@ -14,7 +14,7 @@ specs = ["renegade", "revenant"]
 [extra]
 series = "revenant"
 tagline = "Condition variant of an old but popular build without weapon swaps."
-keywords = "Guild Wars 2, GW2, LI, herald"
+keywords = "Guild Wars 2, GW2, LI, renegade"
 toc = true
 balance = "2026-07"
 benchmark = "28.5k DPS"
