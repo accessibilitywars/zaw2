@@ -14,7 +14,7 @@ specs = ["willbender", "guardian"]
 [extra]
 series = "guardian"
 tagline = "Long ago, the four nations lived together in harmony. Then everything changed..."
-keywords = "Guild Wars 2, GW2, LI, Willbender"
+keywords = "Guild Wars 2, GW2, LI, Willbender, alacrity"
 toc = true
 balance = "2026-07"
 benchmark = "25k DPS"
