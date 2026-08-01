@@ -35,7 +35,7 @@ The downside of this build is the relatively high APM and forced movement.
 
 {{ heavy(stat="Ritualist's", rune="Trapper") }}
 {{ pistol_main(stat="Ritualist's", sigil="Bursting") }}
-{{ pistol_off(stat="Ritualist's", sigil="Smouldering") }}
+{{ pistol_off(stat="Ritualist's", sigil="Smoldering") }}
 {{ trinkets(ring1="Ritualist's", ring2="Ritualist's", accessory1="Ritualist's", accessory2="Ritualist's", back="Sinister", amulet="Ritualist's", relic="Fractal") }}
 
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} OR {{ item(name="Plate of Beef Rendang") }}
