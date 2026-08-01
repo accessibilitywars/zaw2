@@ -52,10 +52,10 @@ The downside of this build is the relatively high APM and forced movement.
 ---
 
 #### Providing Alacrity
-* {{ skill(name="Flowing Resolve") }} provides alacrity through {{ trait(name="Phoenix Protocol") }} and {{ trait(name="Battle Presence") }}
+* {{ skill(id="62603") }} provides alacrity through {{ trait(name="Phoenix Protocol") }} and {{ trait(name="Battle Presence") }}
 * This is a forced movement skill which can be repositioned with {{ skill(name="Rushing Justice") }}
 * Your Alacrity Combo will therefore be:
-    1. {{ skill(name="Flowing Resolve") }} (where available)
+    1. {{ skill(id="62603") }} (where available)
     2. {{ skill(id="62668") }} (on cooldown)
 * You must not delay  {{ skill(id="62668") }}!
 * You will need around 40% Boon Duration.
