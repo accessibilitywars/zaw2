@@ -51,16 +51,16 @@ The downside of this build is the relatively high APM and forced movement.
 
 ---
 
-#### Providing Alacrity
+#### Providing Alacrity and Condition Damage
 * {{ skill(id="62603") }} provides alacrity through {{ trait(name="Phoenix Protocol") }} and {{ trait(name="Battle Presence") }}
-* This is a forced movement skill which can be repositioned with {{ skill(name="Rushing Justice") }}
+* This is a forced movement skill which can be repositioned with {{ skill(id="62668") }}.
 * Your Alacrity Combo will therefore be:
     1. {{ skill(id="62603") }} (where available)
     2. {{ skill(id="62668") }} (on cooldown)
 * You must not delay  {{ skill(id="62668") }}!
 * You will need around 40% Boon Duration.
 
-#### Dealing Damage
+#### Skill Combos
 Always ensure {{ skill(id="62668") }} is up
 1. {{ skill(id="9187") }} → {{ skill(id="62565") }}
 1. {{ skill(id="71987") }} → {{ skill(id="71918") }} (🔫3 → 🔫4)
