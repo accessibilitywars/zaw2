@@ -1,6 +1,6 @@
 +++
 title = "Gambit [aDPS]"
-description = "This build is designed around a few cards and a staff."
+description = "Designed around a few cards and a staff."
 date = 2026-07-08
 draft = false
 template = "build.html"

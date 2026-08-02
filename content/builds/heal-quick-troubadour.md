@@ -1,6 +1,6 @@
 +++
 title = "Rifle and Roses [qHeal]"
-description = "The hardest part of playing this build is enduring the out-of-sync music throughout the fight."
+description = "The hardest part of this build is enduring the out-of-sync music throughout the fight."
 date = 2026-04-29
 template = "build.html"
 

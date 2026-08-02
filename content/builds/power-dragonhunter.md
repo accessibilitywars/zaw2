@@ -1,6 +1,6 @@
 +++
 title = "Dragonhammer [pDPS]"
-description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Brawler and bringing stability, crowd control and condi cleanses."
+description = "Designed around the hammer Auto Attack, the Honor trait provides high cleave damage and group healing."
 date = 2024-04-02
 updated = 2026-04-23
 draft = false
@@ -14,7 +14,7 @@ specs = ["dragonhunter", "guardian"]
 
 [extra]
 series = "guardian"
-tagline = "Auto-Attack Dragonhunter"
+tagline = "Auto-Attack Dragonhunter with cleave damage and background heals."
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
 balance = "2026-07"

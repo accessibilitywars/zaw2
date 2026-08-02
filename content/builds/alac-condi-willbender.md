@@ -1,6 +1,6 @@
 +++
 title = "Divine Firearms [aDPS]"
-description = "Long ago, the four nations lived together in harmony. Then everything changed..."
+description = "Double-pistol alacrity firebender."
 date = 2026-08-01
 draft = false
 template = "build.html"

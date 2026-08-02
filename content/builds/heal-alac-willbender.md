@@ -1,6 +1,6 @@
 +++
 title = "Healbender [aHeal]"
-description = "This build is designed around the hammer Auto Attack, being able to proc Relic of the Karakosa consecutively with a burst heal rotation. Besides being easy to play, this build has flexible utilities, decent crowd control and excellent condi cleanses."
+description = "Auto-attack heal alacrity willbender."
 date = 2024-04-04
 updated = 2026-04-17
 template = "build.html"
@@ -13,7 +13,7 @@ specs = ["willbender", "guardian"]
 
 [extra]
 series = "guardian"
-tagline = "Auto-Attack Healbender"
+tagline = "Hammer Auto Attack, with a burst heal options. This build is easy to play, has flexible utilities, decent crowd control and excellent condi cleanses."
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
 balance = "2026-07"

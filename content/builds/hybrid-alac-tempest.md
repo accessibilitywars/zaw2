@@ -1,6 +1,6 @@
 +++
 title = "Inferno Bastion [aDPS]"
-description = "Press Everything Off Cooldown in Fire Attunement, now with Alacrity"
+description = "Press everything off cooldown in Fire Attunement, now with Alacrity"
 date = 2026-05-04
 updated = 2026-07-16
 draft = false

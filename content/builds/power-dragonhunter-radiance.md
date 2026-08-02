@@ -1,19 +1,19 @@
 +++
 title = "Dragonbonker [pDPS]"
-description = "This build is designed around old core guardian hammer Auto Attack build, updated for better DPS and more flexibility. It uses only 1 weapon and 98%+ of its damage comes from hammer 1"
+description = "Dragonhunter hammer Auto Attack build, the Radiance trait increases vitality and survivability in solo play."
 date = 2026-07-26
 draft = false
 template = "build.html"
 
 [taxonomies]
-categories = ["group"]
+categories = ["group","solo"]
 tags = ["hammer","power","guardian","dragonhunter","hot","lowcog","lowphys","lowrep"]
 authors = ["NonEuclideanOtter"]
 specs = ["dragonhunter", "guardian"]
 
 [extra]
 series = "guardian"
-tagline = "Auto-Attack Dragonhunter with fantastic group support"
+tagline = "Auto-Attack Dragonhunter with fantastic group support and high survivability."
 keywords = "Guild Wars 2, GW2, LI, Dragonhunter, guardian, bonk"
 toc = true
 balance = "2026-07"
@@ -21,6 +21,8 @@ benchmark = "30.1k DPS"
 +++
 
 This build is focused on doing damage almost exclusively with hammer, with extremely low apm.
+
+Higher vitality from this build makes solo play viable. 
 
 ## Gearing and Consumables
 #### Equipment

@@ -1,6 +1,6 @@
 +++
 title = "Chrono Tank [aHeal/qHeal/Tank]"
-description = "This build is designed around clone generation via auto attacks, multiple blocks to excel in tanking and shatters to maintain alacrity, steady heals and excellent condi cleanses."
+description = "Clone generating auto attacks with Alacrity/Quickness."
 date = 2024-10-06
 template = "build.html"
 
