@@ -1,6 +1,6 @@
 +++
 title = "3-Blades [aDPS]"
-description = "This build is designed around empowered poison/bleeding and Dagger bursts."
+description = "Triple/Dual dagger build with Alacrity and support boons."
 date = 2024-06-07
 updated = 2026-04-30
 draft = false
@@ -14,7 +14,7 @@ specs = ["specter", "thief" ]
 
 [extra]
 series = "thief"
-tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts"
+tagline = "Condition Alacrity Specter featuring empowered poison/bleeding and Dagger bursts."
 keywords = "Guild Wars 2, GW2, LI, specter"
 toc = true
 balance = "2026-07"

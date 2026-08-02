@@ -1,6 +1,6 @@
 +++
 title = "Hand-Break [HK]"
-description = "You can't touch this... Break it down!"
+description = "Spellbreaker hand-kiter with pride-control options."
 date = 2025-12-16
 updated = 2026-01-15
 draft = false
@@ -22,6 +22,7 @@ balance = "2026-07"
 
 This is a specialized build, intended for use in the final fight of Raid Wing 4 (Deimos). This build can be made comfortable and yet retains a high skill ceiling to allow the hand kiter to contribute to the team from far. 
 
+Weapon swapping is optional.
 
 ## Gearing
 {{ heavy(stat="Minstrel's", rune="Rebirth") }}

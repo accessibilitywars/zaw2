@@ -1,6 +1,6 @@
 +++
 title = "Bojutsu [pDPS]"
-description = "Very high damage for very little APM, but requires great positioning."
+description = "High damage for very little APM, but requires great positioning."
 date = 2024-04-17
 updated = 2026-07-23
 draft = false

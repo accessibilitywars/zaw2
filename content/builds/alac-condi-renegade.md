@@ -1,6 +1,6 @@
 +++
 title = "Condi Alacrigade [aDPS]"
-description = "Condition variant of an old but popular build without weapon swaps."
+description = "Shortbow variant of the classic Alacrigade."
 date = 2026-07-31
 draft = false
 template = "build.html"

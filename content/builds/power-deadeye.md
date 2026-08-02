@@ -1,6 +1,6 @@
 +++
 title = "Unload Deadeye [pDPS]"
-description = "This build is designed around the skill Unload, being able to refresh Relic of the Thief and being self sufficient in initiative use."
+description = "Designed around the skill Unload with neglible keyboard interaction."
 date = 2024-03-29
 updated = 2026-07-16
 draft = false

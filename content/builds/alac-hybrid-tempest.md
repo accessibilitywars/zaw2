@@ -1,6 +1,6 @@
 +++
 title = "Celestial Elements [aHeal]"
-description = "This is a build that relies on the hybrid nature of scepter and powerful heal traits on tempest to make the most out of Celestial gear."
+description = "Scepter and powerful heal traits make the most out of Celestial gear."
 date = 2024-07-13
 updated = 2026-04-28
 draft = false

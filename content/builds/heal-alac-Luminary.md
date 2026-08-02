@@ -1,6 +1,6 @@
 +++
 title = "Holy Nova [aHeal]"
-description = "The hardest part of this build is enduring the glaring amount of light effects. 5, 4, 3, 2, HOLY NOVA!"
+description = "The hardest part of this build is enduring the glaring amount of light effects."
 date = 2026-05-17
 updated = 2026-07-16
 template = "build.html"
@@ -13,7 +13,7 @@ specs = ["luminary", "guardian"]
 
 [extra]
 series = "guardian"
-tagline = "The hardest part of this build is enduring the glaring amount of light effects. 5, 4, 3, 2, HOLY NOVA!"
+tagline = "I'm sorry but the great mother has only gifted me with HOLY NOVA!"
 keywords = "Guild Wars 2, GW2, LI, Luminary"
 toc = true
 balance = "2026-07"

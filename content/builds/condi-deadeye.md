@@ -1,6 +1,6 @@
 +++
 title = "Maleficent [cDPS]"
-description = "There is an evil in this world, hatred, and betrayal. And I cannot keep you from it."
+description = "Maleficent Seven and dodge-stealth-attacks recharge Scepter 3 endlessly."
 date = 2026-07-29
 draft = false
 template = "build.html"

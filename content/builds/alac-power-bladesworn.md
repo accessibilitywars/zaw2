@@ -1,6 +1,6 @@
 +++
 title = "Renzokuken [aDPS]"
-description = "I'll be here. I'll be waiting for you. So if you come here, you will find alacrity."
+description = "Wide-range Alacrity on powerful charged attack."
 date = 2025-10-24
 updated = 2026-07-28
 draft = false

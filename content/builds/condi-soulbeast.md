@@ -1,6 +1,6 @@
 +++
 title = "Barbed Arrows [cDPS]"
-description = "This build is inspired by the Guild Wars 1 skill, Barbed Arrows."
+description = "Inspired by the Guild Wars 1 skill, Barbed Arrows."
 date = 2024-04-16
 updated = 2026-05-22
 draft = false

@@ -1,6 +1,6 @@
 +++
 title = "T1002-PWR-ALAC [aDPS]"
-description = "Kitless Power Alacrity Amalgam Build"
+description = "Kitless Power Alacrity Amalgam build."
 date = 2026-06-19
 draft = false
 template = "build.html"

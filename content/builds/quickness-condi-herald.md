@@ -1,6 +1,6 @@
 +++
 title = "Seven Paths of Pain [qDPS]"
-description = "This build uses 7 key skills in its rotation without weapon swap, stacking as much torment as possible."
+description = "Full ranged quickness build which stacks as much torment"
 date = 2024-08-16
 draft = false
 template = "build.html"

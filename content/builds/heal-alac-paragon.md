@@ -1,6 +1,6 @@
 +++
 title = "Vocals of Eternity [aHeal]"
-description = "I wanna scream and shout and let it all out!"
+description = "Empowered commands with generous boon uptime."
 date = 2025-11-05
 updated = 2026-07-17
 draft = false
@@ -14,7 +14,7 @@ specs = ["paragon","warrior"]
 
 [extra]
 series = "warrior"
-tagline = "It goes on, and on, and on and on, when me and you party together..."
+tagline = "I want to scream, and shout, and let it all out!"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
 balance = "2026-07"
