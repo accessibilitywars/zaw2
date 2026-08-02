@@ -1,6 +1,6 @@
 +++
 title = "Ratmancer [aDPS]"
-description = "Deal lots of condi damage with your rat."
+description = "Alac DPS build with high damage floor and ceiling and some RNG."
 date = 2026-07-28
 draft = false
 template = "build.html"
