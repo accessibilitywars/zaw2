@@ -2,7 +2,7 @@
 title = "Power Berserker [pDPS]"
 description = "Simple, priority based, and ranged Power DPS build."
 date = 2025-07-13
-draft = false
+draft = true
 template = "build.html"
 
 [taxonomies]
