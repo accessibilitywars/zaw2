@@ -28,7 +28,7 @@ log = "https://dps.report/OZSX-20260804-003518_golem"
 
 This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. 
 
-You will need to use various skills to upkeep {{ skill(id="30435") }}. If drop out of {{ skill(id="30435") }}, it can be very punishing but if perform the skills as required, the build is very fun and rewarding. 
+You will need to use various skills to upkeep {{ skill(id="30435") }}. If you drop out of {{ skill(id="30435") }}, it can be very punishing. However, if perform the skills as required, the state can be sustained and the build is very fun and rewarding. 
 
 ## Gearing
 
