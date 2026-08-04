@@ -28,7 +28,7 @@ log = "https://dps.report/OZSX-20260804-003518_golem"
 
 This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. 
 
-You will need to use various skills to upkeep {{ skill(id="30435") }}. If you drop out of {{ skill(id="30435") }}, it can be very punishing. However, if perform the skills as required, the state can be sustained and the build is very fun and rewarding. 
+You will need to use various skills to upkeep {{ skill(id="30435") }}. If you drop out of {{ skill(id="30435") }}, it can be very punishing. However, if perform the skills as required, the state can be sustained and the build becomes very fun and rewarding. 
 
 ## Gearing
 
@@ -100,11 +100,11 @@ You will need to use various skills to upkeep {{ skill(id="30435") }}. If you dr
 #### Opener (optional)
 
 1. {{ skill(id="30343") }} → {{ skill(id="30435") }}
-1. {{ skill(id="29923") }} (x2 ↔ {{ skill(id="30189") }})
-3. 🔁Weapon Swap -> {{ skill(id="14366") }}
+1. {{ skill(id="29923") }} (🏹Burst)(x2 ↔ {{ skill(id="30189") }})
+3. 🔁Weapon Swap -> {{ skill(id="14366") }} (⚔2)
 
 > * <small>Your opener gives a significant amount of **Quickness**.</small>
-> * <small>{{ skill(id="30189") }} allows you to double cast your Primal Burst.</small>
+> * <small>{{ skill(id="30189") }} allows you to double cast {{ skill(id="29923") }} (🏹 Burst).</small>
 > * <small>{{ skill(id="14366") }} provides **Fire Aura** for extra DPS.</small>
 > * <small>Performing/Repeating the opener will result in small DPS increases.</small>
 
@@ -112,12 +112,12 @@ You will need to use various skills to upkeep {{ skill(id="30435") }}. If you dr
 
 Use the following off-cooldown:
 1. Utilities
-2. {{ skill(id="30682") }} (🏹 Burst)(x2 ↔ {{ skill(id="30189") }})
-1. Sword Skills
-    * {{ skill(id="14498") }} (⚔ 4)
-    * {{ skill(id="80247") }} (⚔ 3)
-1. {{ skill(id="80203") }} (⚔ Burst)
-1. {{ skill(id="14410") }} (when you need **Adrenaline** at range)
+2. {{ skill(id="30682") }} (⚔Burst)(x2 ↔ {{ skill(id="30189") }})
+3. Sword Skills
+    * {{ skill(id="14498") }} (⚔4)
+    * {{ skill(id="80247") }} (⚔3)
+4. {{ skill(id="80203") }} (⚔Burst)
+5. {{ skill(id="14410") }} (when you need **Adrenaline** at range)
 
 > * <small>Use {{ skill(id="30682") }} → {{ skill(id="30189") }} together to double cast your Primal Burst.</small>
 > * <small>Use {{ skill(id="30074") }} → {{ skill(id="30343") }} together to mitigate the stun effect.</small>
@@ -128,7 +128,7 @@ Use the following off-cooldown:
 
 1. {{ skill(id="14505") }} (🏹 4) provides a small CC.
 2. {{ skill(id="30343") }} (Elite) is a strong CC skill.
-3. Use Bow Skills to upkeep DPS when locked out of range. 
+3. Use Bow Skills to upkeep adrenaline and DPS when locked out of range. 
 
 ## Video
 
