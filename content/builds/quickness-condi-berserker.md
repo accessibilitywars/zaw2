@@ -54,7 +54,6 @@ You will need to use various skills to upkeep {{ skill(id="30435") }}. If you dr
 	amulet="Grieving",
 	relic="Fractal") }}
 
----
 
 #### Main Weapon set
 | Equipment     | Stat          | Rune/Sigil              |
@@ -83,6 +82,8 @@ You will need to use various skills to upkeep {{ skill(id="30435") }}. If you dr
 #### Infusions
 - {{ item(id="43253") }} (optional)
 
+---
+
 ## Build
 
 ---
@@ -108,6 +109,8 @@ You will need to use various skills to upkeep {{ skill(id="30435") }}. If you dr
 > * <small>{{ skill(id="14366") }} provides **Fire Aura** for extra DPS.</small>
 > * <small>Performing/Repeating the opener will result in small DPS increases.</small>
 
+---
+
 #### DPS Rotation
 
 Use the following off-cooldown:
@@ -117,20 +120,28 @@ Use the following off-cooldown:
     * {{ skill(id="14498") }} (⚔ 4)
     * {{ skill(id="80247") }} (⚔ 3)
 1. {{ skill(id="80203") }} (⚔ Burst)
-1. {{ skill(id="14410") }} (when you need **Adrenaline** at range)
+
+---
 
 > * <small>Use {{ skill(id="30682") }} → {{ skill(id="30189") }} together to double cast your Primal Burst.</small>
 > * <small>Use {{ skill(id="30074") }} → {{ skill(id="30343") }} together to mitigate the stun effect.</small>
 > * <small>Using {{ skill(id="30343") }} helps provide a buffer to upkeep {{ skill(id="30435") }} status.</small>
 > * <small>{{ skill(id="30258") }} has no cast time and can be simultaneously casted together with other skills. DO NOT delay this skill.</small>
 
+---
+
 #### Range and CC
 
 1. {{ skill(id="14505") }} (🏹 4) provides a small CC.
 2. {{ skill(id="30343") }} (Elite) is a strong CC skill.
 3. Use Bow Skills to upkeep DPS when locked out of range. 
+4. {{ skill(id="14410") }} for **Adrenaline** (e.g. invulnerable target or out of range)
+
+---
 
 ## Video
+
+---
 
 {{ youtube(id="pKEQSvI3VI0") }}
 
