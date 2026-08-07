@@ -120,9 +120,10 @@ Longbow provides additional ranged damage uptime and CC options.
 > 2. {{ skill(id="14413") }} for stun break, healing and stability.
 > 3. {{ skill(id="76782") }} for barrier and healing
 > 4. {{ skill(id="77155") }} for stability
-> 2. Use **Relic of the Biomancer** for baseline healing
-> 3. Use **Relic of the Mistfire** for life siphon and additional damage
-> 4. Use {{ skill(id="76562") }} in emergencies
+> 5. {{ skill(id="14400") }} for block. 
+> 6. Use **Relic of the Biomancer** for baseline healing
+> 7. Use **Relic of the Mistfire** for life siphon and additional damage
+> 8. Use {{ skill(id="76562") }} in emergencies
 
 ## Latest patch changes
 - Sword has been reworked.
