@@ -26,7 +26,7 @@ log = "https://dps.report/OZSX-20260804-003518_golem"
 ## Notes
 ---
 
-This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. 
+This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. Apart from being easier to play, the build has more regular access to the block skill has reduced cooldown to the block skill { skill(id="14400") }} (⚔5) which also contributes to some damage on actual fights. 
 
 You will need to use various skills to upkeep {{ skill(id="30435") }}. If you drop out of {{ skill(id="30435") }}, it can be very punishing. However, if perform the skills as required, the state can be sustained and the build becomes very fun and rewarding. 
 
@@ -117,18 +117,19 @@ Use the following off-cooldown:
     * {{ skill(id="14498") }} (⚔4)
     * {{ skill(id="80247") }} (⚔3)
 4. {{ skill(id="80203") }} (⚔Burst)
-5. {{ skill(id="14410") }} (when you need **Adrenaline** at range)
 
 > * <small>Use {{ skill(id="30682") }} → {{ skill(id="30189") }} together to double cast your Primal Burst.</small>
 > * <small>Use {{ skill(id="30074") }} → {{ skill(id="30343") }} together to mitigate the stun effect.</small>
 > * <small>Using {{ skill(id="30343") }} helps provide a buffer to upkeep {{ skill(id="30435") }} status.</small>
 > * <small>{{ skill(id="30258") }} has no cast time and can be simultaneously casted together with other skills. DO NOT delay this skill.</small>
 
-#### Range and CC
+#### Optimisations and CC. 
 
 1. {{ skill(id="14505") }} (🏹 4) provides a small CC.
 2. {{ skill(id="30343") }} (Elite) is a strong CC skill.
 3. Use Bow Skills to upkeep adrenaline and DPS when locked out of range. 
+4. {{ skill(id="14410") }} (when you need **Adrenaline** at range)
+5. A well timed {{ skill(id="14400") }} (⚔5) increases damage significantly on actual fights.
 
 ## Video
 
