@@ -110,6 +110,8 @@ Use the following off-cooldown
 
 > * <small>If you need CC, using mace in the offhand shortens your DPS rotation with only minimal loss in DPS.</small>
 > * <small>While swapped to warhorn, {{ skill(id="14366") }} may result in a DPS increase.</small>
+> * <small>A well timed {{ skill(id="14400") }} (⚔5) increases damage significantly on actual fights.</small>
+
 
 #### General House Rules
 1. Your primary goal is to maintain boons, alacrity and your party's survivability before DPS 
