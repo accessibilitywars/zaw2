@@ -112,6 +112,7 @@ Use the following
 > * <small>Try to maintain 5 stacks of {{ trait(id="1344") }}.</small>
 > * <small>{{ skill(id="14413") }} has no cast time.</small>
 > * <small>Try to queue skills with cast time to reduce interruption of autos.</small>
+> * <small>A well timed {{ skill(id="14400") }} (⚔5) increases damage significantly on actual fights.</small>
 
 #### Alacrity Rotation
 1. {{ skill(id="77342") }}
@@ -129,9 +130,12 @@ Longbow provides additional ranged damage uptime and CC options.
 > 2. {{ skill(id="14413") }} for stun break, healing and stability.
 > 3. {{ skill(id="76782") }} for barrier and healing
 > 4. {{ skill(id="77155") }} for stability
-> 5. Use {{ skill(id="76562") }} in emergencies
-> 6. Use **Relic of the Biomancer** for extra baseline healing
-> 7. Use **Relic of the Mistfire** for life siphon
+> 5. {{ skill(id="14400") }} for block. 
+> 6. Use {{ skill(id="76562") }} in emergencies
+> 7. Use **Relic of the Biomancer** for extra baseline healing
+> 8. Use **Relic of the Mistfire** for life siphon
+
+
 
 ## Video
 
