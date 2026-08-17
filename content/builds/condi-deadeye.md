@@ -1,29 +1,30 @@
 +++
 title = "Maleficent [cDPS]"
-description = "Maleficent Seven and dodge-stealth-attacks recharge Scepter 3 endlessly."
+description = "A very rudimentary rotation involving Maleficent Seven and stealth-attacks."
 date = 2026-07-29
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["scepter","condition","thief","antiquary","pof","soto","lowcog","lowphys","lowrep"]
+tags = ["scepter","condition","thief","deadeye","pof","soto","lowcog","lowphys","lowrep"]
 authors = ["xellink"]
 specs = ["deadeye", "thief" ]
 
 [extra]
 series = "thief"
-tagline = "There is an evil in this world, hatred, and betrayal. And I cannot keep you from it."
+tagline = "A rudimentary rotation with a very evil concept of filling malice."
 keywords = "Guild Wars 2, GW2, LI, deadeye"
 toc = true
 balance = "2026-07"
 benchmark = "33.5k DPS solo"
 benchmark2 = "~36k w/ allies"
+APM = "~30"
 +++
 
-This is a simple build which provides lots of damage, full range and no weapon swap. 
+The hardest part of this build is the variability of malice generation which may or may not be sufficient for the rotation, messing up fixed rotations and requiring players to juggle the two currencies, malice (🟠) and initiative (♦️). This is a build  provides lots of damage, full range and no weapon swap. The variability can be mitigated by {{ skill(id="43390") }} which always gives a constant 2 malice (🟠). When players eventually run out of ♦️ and hit a wall in their rotation, they can use {{ skill(id="41372") }} to reset the rotation.
 
-This build heavily relies on {{ trait(id="2111") }} for initiative. Reserve Mercy for resetting the cycle if you mess up your rotation or run out of initiative.
+This build heavily relies on {{ trait(id="2111") }} for initiative (♦️). Reserve Mercy for resetting the cycle if you mess up your rotation or run out of initiative (♦️). 
 
 When your malice is full, you gain a multitude of offensive and defensive self-boons, making this build significantly hardy in solo/OW play.
 
@@ -58,15 +59,15 @@ When your malice is full, you gain a multitude of offensive and defensive self-b
 > * Precast - {{ skill(id="13026") }} + {{ skill(id="13082") }}
 > * Opener - {{ skill(id="43390") }} + {{ skill(id="56898") }}
 > 1. Cast damage utilities on cooldown.
-> 2. {{ skill(id="63254") }} (Press & Hold 3) until malice is full
+> 2. {{ skill(id="63254") }} (Press & Hold 3) until 🟠 is full
 > 3. Recharge -> {{ skill(id="63314") }} by first using:
 >     * Stolen Skill -> Stealth
 >     * Dodge -> {{ trait(id="2118") }}
 > 4. Repeat 
-> 5. Use {{ skill(id="41372") }} when you run out of initiative
+> 5. Use {{ skill(id="41372") }} when you run out of ♦️
 > 
 >> * <small>Allow {{ skill(id="63314") }} to fully cast and do not cancel it.</small>
->>  * <small>Do not overspend your initiative when malice is full or you will have problems refilling malice when you reset it.</small>
+>>  * <small>Do not overspend your initiative when malice (🟠) is full or you will have problems refilling when you reset it.</small>
 >>  * <small>You may delay reapplying {{ skill(id="43390") }} for timely initiative gain from {{ trait(id="2145") }}</small>
 >>  * <small>If you done the rotation masterfully, you would be using minimal to no auto attacks.</small>
 
