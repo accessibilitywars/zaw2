@@ -6,14 +6,14 @@ draft = false
 template = "build.html"
 
 [taxonomies]
-categories = ["group"]
+categories = ["solo", "group"]
 tags = ["dagger","sword","power","necromancer","ritualist","voe","soto","lowcog","lowphys","boon","quickness"]
 authors = ["xellink"]
 specs = ["ritualist", "necromancer"]
 
 [extra]
 series = "necromancer"
-tagline = "My pain brings you strength!"
+tagline = "Summon spirits and minions to DPS."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Ritualist"
 toc = true
 balance = "2026-07"
@@ -59,7 +59,7 @@ The build provides boons and most importantly quickness just by summoning spirit
 
 Summon Minions first if any. 
 
-1. Cast Weapon spells
+1. Precast Weapon spells
     * {{ skill(id="76975") }}
     * {{ skill(id="76739") }}
 2. Use all your off-hand sword skills (Activates Claw Relic)
@@ -83,7 +83,7 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
 1. {{ skill(id="69302") }}
 2. Repeat **Precast/Opener**
    <details>
-   <summary>Click to Expand</summary>
+   <summary>View Precast/Opener</summary>
 
     1. Cast your Weapon spells
         * {{ skill(id="76975") }}
@@ -95,7 +95,7 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
         * {{ skill(id="69302") }}
         * {{ skill(id="77238") }}
 
-   </details>
+           </details>
 
 > * <small>The weapon rotation can be simplified: use your damage skills until you cast {{ skill(id="69302") }} twice.</small>
 > * <small>The shroud rotation can be simplified: use your shroud skills until you cast Anguish twice.</small>
@@ -104,12 +104,17 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
 
 Using a CC skill can increase {{ item(id="103574") }} buff uptime, spaced out in the rotation.
 
-1. {{ skill(id="71998") }} will refresh {{ item(id="103574") }} moments before entering shroud.
-2. {{ skill(id="76732") }} will refresh {{ item(id="103574") }} when exiting shroud and has no cast time.
-3. {{ skill(id="76607") }} will refresh {{ item(id="103574") }} as part of your shroud rotation.
+1. {{ skill(id="71998") }} moments before entering shroud.
+2. {{ skill(id="76732") }} when exiting shroud and has no cast time.
+3. {{ skill(id="76607") }} as part of your shroud rotation.
 4. Use {{ skill(id="10647") }} for on-demand CC.
 
+#### Crowd Control
+
+This build has a good amount of might generation for solo play. Replace one of your weapon skills with other utilities like summons for group play.
+
 ## Benchmark
+
 The benchmark is performed with ascended food and gear without infusions. You should be able to break 26k easily as this number is not grinded for. 
-The build does more damage in actual fights due to allies than on the golem.
+The build does more damage in actual fights due to allies than on the golem. You may bench higher when you replace one weapon skill with minions. 
 The damage numbers on ArcDPS may not be accurate when there are other ritualists in the same subgroup.
