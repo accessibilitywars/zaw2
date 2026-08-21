@@ -13,7 +13,7 @@ specs = ["ritualist", "necromancer"]
 
 [extra]
 series = "necromancer"
-tagline = "Summon spirits and minions to DPS."
+tagline = "Support DPS Spirit Minionmancer."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Ritualist"
 toc = true
 balance = "2026-07"
