@@ -83,7 +83,7 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
 1. {{ skill(id="69302") }}
 2. Repeat **Precast/Opener**
    <details>
-   <summary>View Precast/Opener</summary>
+   <summary>Click for Recap</summary>
 
     1. Cast your Weapon spells
         * {{ skill(id="76975") }}
@@ -97,8 +97,11 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
 
            </details>
 
-> * <small>The weapon rotation can be simplified: use your damage skills until you cast {{ skill(id="69302") }} twice.</small>
-> * <small>The shroud rotation can be simplified: use your shroud skills until you cast Anguish twice.</small>
+>
+> The entire rotation can be summarised into two lines:
+>
+> * <small>Weapon rotation: use your damage skills until you cast Life Siphon twice.</small>
+> * <small>Shroud rotation: use your shroud skills until you cast Anguish twice.</small>
 
 #### Crowd Control
 
