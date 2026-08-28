@@ -128,4 +128,4 @@ Use the following off-cooldown
 ## Latest patch changes
 
 * The new changes to dagger allows it to be used for both boon-strip and CC.
-* Sword no longer scales more towards condi but the build still retains its high damage floor. 
+* Sword has been reworked.
