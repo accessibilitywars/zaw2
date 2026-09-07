@@ -26,7 +26,7 @@ log = "https://dps.report/OZSX-20260804-003518_golem"
 ## Notes
 ---
 
-This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. Apart from being easier to play, the build has more regular access to the block skill has reduced cooldown to the block skill { skill(id="14400") }} (⚔5) which also contributes to some damage on actual fights. 
+This build relies on the {{ trait(id="1333") }} and {{ trait(id="1707") }} to commit to dual wielding swords with no weapon swap instead of the standard condition traits. Apart from being easier to play, the build has more regular access to the block skill has reduced cooldown to the block skill {{ skill(id="14400") }}(⚔5) which also contributes to some damage on actual fights. 
 
 You will need to use various skills to upkeep {{ skill(id="30435") }}. If you drop out of {{ skill(id="30435") }}, it can be very punishing. However, if perform the skills as required, the state can be sustained and the build becomes very fun and rewarding. 
 
