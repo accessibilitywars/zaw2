@@ -2,13 +2,14 @@
 title = "Spiritmancer [qDPS]"
 description = "Power quickness build with easy relic management."
 date = 2026-08-21
+updated = 2026-10-01
 draft = false
 template = "build.html"
 
 [taxonomies]
 categories = ["solo", "group"]
-tags = ["dagger","sword","power","necromancer","ritualist","voe","soto","lowcog","lowphys","boon","quickness"]
-authors = ["xellink"]
+tags = ["dagger","sword","power","necromancer","ritualist","voe","soto","lowcog","lowrep","boon","quickness"]
+authors = ["xellink","Shinokage"]
 specs = ["ritualist", "necromancer"]
 
 [extra]
@@ -17,9 +18,10 @@ tagline = "Support DPS Spirit Minionmancer."
 keywords = "Guild Wars 2, GW2, LI, Necromancer, Ritualist"
 toc = true
 balance = "2026-07"
-benchmark = "26k DPS"
-benchmark2 = "~27k w/ allies"
-apm = "51"
+benchmark = "29.2k DPS"
+benchmark2 = "~30+k w/ allies"
+apm = "63"
+log = "https://dps.report/PMzc-20260930-211629_golem"
 +++
 
 ## Introduction
@@ -74,7 +76,8 @@ Summon Minions first if any.
 **Shroud/Quickness Rotation**
 1. Use all your shroud skills until you cast {{ skill(id="76864") }} twice
     * Use skills 1-5 on cooldown
-    * Use {{ skill(id="77003") }} and {{ skill(id="76602") }} on cooldown
+    * Use {{ skill(id="77003") }} on cooldown
+    * Reserve {{ skill(id="76602") }} for stability
     * Reserve {{ skill(id="76732") }} during {{ skill(id="76933") }}
 2. {{ skill(id="76732") }} + {{ skill(id="76933") }}
 
@@ -102,6 +105,8 @@ Use your DPS skills until you cast {{ skill(id="69302") }} twice
 >
 > * <small>Weapon rotation: use your damage skills until you cast Life Siphon twice.</small>
 > * <small>Shroud rotation: use your shroud skills until you cast Anguish twice.</small>
+> * <small>You may {{ skill(id="76602") }} (F4) to reduce your inputs which may increase your DPS if you are having problems executing the build fast enough.</small>
+> * <small>Reserve {{ skill(id="76602") }} (F4) for stability</small>
 
 #### Crowd Control
 
@@ -118,6 +123,10 @@ This build has a good amount of might generation for solo play. Replace one of y
 
 ## Benchmark
 
-The benchmark is performed with ascended food and gear without infusions. You should be able to break 26k easily as this number is not grinded for. 
+The benchmark is performed by **Shinokage** with ascended food and gear without infusions. You should be able to break 26k easily as this number is not grinded for. 
 The build does more damage in actual fights due to allies than on the golem. You may bench higher when you replace one weapon skill with minions. 
 The damage numbers on ArcDPS may not be accurate when there are other ritualists in the same subgroup.
+
+---
+
+> * <small>Update Oct 2026: F4 has been removed from the rotation to reduce the number of inputs and simplify the build. The increase in APM in our pulls (due to familiarisation) resulted in higher DPS and the numbers have been adjusted to reflect this.</small>
