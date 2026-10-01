@@ -9,7 +9,7 @@ template = "build.html"
 [taxonomies]
 categories = ["solo", "group"]
 tags = ["dagger","sword","power","necromancer","ritualist","voe","soto","lowcog","lowrep","boon","quickness"]
-authors = ["xellink","Shinokage"]
+authors = ["xellink","shinokage"]
 specs = ["ritualist", "necromancer"]
 
 [extra]
