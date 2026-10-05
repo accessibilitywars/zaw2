@@ -77,10 +77,10 @@ Before the fight, set all your skills to autocast:
 2. {{ skill(name="Crisis Zone") }} (F2)
 3. {{ skill(name="Barrier Burst") }} (F3)
 4. Summon your turrets
+    * {{ skill(id="5857") }} for vigor
     * {{ skill(id="5837") }} for swiftness
-    * {{ skill(name="Rocket Turret") }} for resolution
-    * {{ skill(name="Healing Turret") }} for vigor
-    * {{ skill(name="Supply Crate") }}
+    * {{ skill(id="5912") }} for resolution
+    * {{ skill(id="5868") }}
 
 ---
 
@@ -136,3 +136,5 @@ Additional water fields are also nice which can be provided by the kit skills
     4. {{ skill(name="Rocket Fist Prototype") }} (🥄3)
     5. {{ skill(name="Explosive Rockets") }} Overcharge
     6. {{ skill(name="Electrified Net") }} Overcharge
+    7. {{ skill(name="Overcharge Supply Crate") }} Overcharge
+
