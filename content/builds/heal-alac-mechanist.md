@@ -98,7 +98,7 @@ Your rotation is:
 #### Situational skills
 
 - {{ skill(name="Static Shield") }} (🛡️5) for blocks (eg. Mind Crush)
-- {{ skill(name="Throw Mine") }} for boon removal
+- {{ skill(id="6161") }} for boon removal
 - {{ skill(name="Barrier Signet") }} for projectile blocks
 - {{ skill(name="Shift Signet") }} for mobility/repositioning
 - Reserve your turrets for reflects (eg. Matthias) via {{ trait(id="1678") }}
@@ -134,7 +134,8 @@ Additional water fields are also nice which can be provided by the kit skills
     2. {{ skill(name="Static Shield") }} (🛡️5)
     3. {{ skill(name="Throw Shield") }} (🛡️5 flip)
     4. {{ skill(name="Rocket Fist Prototype") }} (🥄3)
-    5. {{ skill(name="Explosive Rockets") }} Overcharge
-    6. {{ skill(name="Electrified Net") }} Overcharge
-    7. {{ skill(name="Overcharge Supply Crate") }} Overcharge
+    5. {{ skill(id="6161") }}
+    6. {{ skill(name="Explosive Rockets") }} Overcharge
+    7. {{ skill(name="Electrified Net") }} Overcharge
+    8. {{ skill(name="Overcharge Supply Crate") }} Overcharge
 
