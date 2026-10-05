@@ -119,7 +119,7 @@ Try to use blast skills in water fields for extra healing and barrier from  {{ i
 
 #### The Kits...
 
-This is meant to be a kitless guide, but the usefulness of {{ skill(name="Infusion Bomb") }} and {{ skill(name="Super Elixir") }} requires a mention. 
+This is meant to be a kitless guide, but the usefulness of {{ skill(id="50444") }} and {{ skill(id="5937") }} requires a mention. 
 
 Additional water fields are also nice which can be provided by the kit skills 
 * {{ skill(name="Cleansing Field") }} (Med Kit 3)
