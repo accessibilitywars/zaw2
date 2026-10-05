@@ -77,7 +77,7 @@ Before the fight, set all your skills to autocast:
 2. {{ skill(name="Crisis Zone") }} (F2)
 3. {{ skill(name="Barrier Burst") }} (F3)
 4. Summon your turrets
-    * {{ skill(name="Net Turret") }} for swiftness
+    * {{ skill(id="5837") }} for swiftness
     * {{ skill(name="Rocket Turret") }} for resolution
     * {{ skill(name="Healing Turret") }} for vigor
     * {{ skill(name="Supply Crate") }}
