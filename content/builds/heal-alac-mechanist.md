@@ -89,7 +89,7 @@ Before the fight, set all your skills to autocast:
 Your rotation is: 
 
 1. Keep pressing {{ skill(name="Energizing Slam") }} (🥄2) if you don't know what to do.
-2. Use shield skills for protection via {{ skill(id="394") }}
+2. Use shield skills for protection via {{ trait(id="394") }}
 3. Let your mech do the rest
 4. Figure out situational skills (next section) as you gain experience in the game.
 
