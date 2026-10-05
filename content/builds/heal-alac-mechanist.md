@@ -137,5 +137,5 @@ Additional water fields are also nice which can be provided by the kit skills
     5. {{ skill(id="6161") }}
     6. {{ skill(name="Explosive Rockets") }} Overcharge
     7. {{ skill(name="Electrified Net") }} Overcharge
-    8. {{ skill(name="Overcharge Supply Crate") }} Overcharge
+    8. {{ skill(id="30264") }} Overcharge
 
