@@ -1,7 +1,7 @@
 +++
 title = "Heal Bot [aHeal]"
 description = "The healing build that plays by itself."
-date = 2025-08-13
+date = 2026-10-06
 draft = false
 template = "build.html"
 
@@ -59,7 +59,7 @@ It has a few downsides:
 
 ## Build
 
-{{ chatlink(code="[&DQMvOR0/RioUAQAAXgEAAGABAACKAQAAmAEAAAAAAAAAAAAAAAAAAAAAAAABVQAA]") }}
+{{ chatlink(code="[&DQMvNR0/RiooAQAAowAAAI4BAAALGwAAiQEAAAAAAAAAAAAAAAAAAAAAAAADNQBXADYAAA==]") }}
 
 ---
 
@@ -78,9 +78,9 @@ Before the fight, set all your skills to autocast:
 3. {{ skill(name="Barrier Burst") }} (F3)
 4. Summon your turrets
     * {{ skill(id="5857") }} for vigor
-    * {{ skill(id="5837") }} for swiftness
+    * {{ skill(id="5818") }} for fury
     * {{ skill(id="5912") }} for resolution
-    * {{ skill(id="5868") }}
+    * {{ skill(id="5868") }} for swiftness + other boons
 
 ---
 
@@ -133,9 +133,9 @@ Additional water fields are also nice which can be provided by the kit skills
     1. {{ skill(name="Magnetic Inversion") }} (🛡️4 flip)
     2. {{ skill(name="Static Shield") }} (🛡️5)
     3. {{ skill(name="Throw Shield") }} (🛡️5 flip)
-    4. {{ skill(name="Rocket Fist Prototype") }} (🥄3)
-    5. {{ skill(id="6161") }}
-    6. {{ skill(name="Explosive Rockets") }} Overcharge
-    7. {{ skill(name="Electrified Net") }} Overcharge
-    8. {{ skill(id="30264") }} Overcharge
+- {{ skill(name="Rocket Fist Prototype") }} (🥄3)
+- {{ skill(id="6161") }}
+- Overcharge turret skills
+    1. {{ skill(name="Explosive Rockets") }} Overcharge
+    2. {{ skill(id="30264") }} Overcharge
 
