@@ -32,8 +32,6 @@ It requires the Weaponmaster Training from Secrets of the Obscure to be able to 
 
 It also has high burst APM, as there is a 5 button combo that you ideally press quickly. Expect lower DPS if you do not press this combo quickly.
 
-Consider it a more selfless alternative to the [Magebane Daggerbreaker](http://https://aw2.help/builds/power-spellbreaker/) build. 
-
 ## Gearing
 
 {{ heavy(stat="Berserker's", rune="Scholar") }}
