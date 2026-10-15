@@ -62,7 +62,8 @@ The benchmark for this build is 36k with normal food and utility, but with ascen
 - {{ item(id="48915") }} (Budget option)
 
 ## Build
-{{ chatlink(code=" [&DQkOHQMXPyrcEdwR1BErEgYSBhIrEtQRyhHKEQUEAgQrEgYS1BEAAAAAAAADawA1AAUAAA==]") }}
+
+{{ chatlink(code="[&DQkOHQMXPyrcEdwR1BErEgYSBhIrEtQRyhHKEQUEAgQrEgYS1BEAAAAAAAADNQAFAGsAAA==]") }}
 
 ## Rotation
 
@@ -104,8 +105,8 @@ The second method is related to gear, as you can equip infusions in ascended/leg
 
 #### CC
 1. {{ skill(id="41820") }} (Short Bow 5)
-2. {{ skill(id="27917") }} in Mallyx/demon stance
-3. {{ skill(id="41220") }} in Kalla/renegade stance
+2. {{ skill(id="27917") }} in Mallyx/Demon stance
+3. {{ skill(id="41220") }} in Kalla/Renegade stance
 4. {{ skill(id="28409") }} (Axe 5)
 
 #### Other information
