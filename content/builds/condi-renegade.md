@@ -77,7 +77,7 @@ You will start on Kalla/renegade stance: {{ skill(id="41858") }} and with Short 
 #### DPS Rotation Loop
 
 After Opener and demon + Maxe (mace+axe) loop:
-1. Stance swap immediately following the Short Bow 3 from the opener to: Mallyx/demon stance: {{ skill(id="28376") }}
+1. Stance swap immediately following the Short Bow 3 from the opener to: Mallyx/demon stance: {{ skill(id="28494") }}
 2. Activate {{ skill(id="28287") }}
 3. Weapon swap to Maxe (mace+axe)
     * {{ skill(id="41858") }} (Mace 2)
@@ -92,7 +92,7 @@ After Opener and demon + Maxe (mace+axe) loop:
     * {{ skill(id="40175") }} (Short Bow 2)
     * {{ skill(id="40485") }} 
     * {{ skill(id="42949") }}
-7. Use the skills from step 6 off cool down until you can stance swap to Mallyx/demon stance: {{ skill(id="28376") }} (Cont. after step 1)
+7. Use the skills from step 6 off cool down until you can stance swap to Mallyx/demon stance: {{ skill(id="28494") }} (Cont. after step 1)
 
 ---
 
