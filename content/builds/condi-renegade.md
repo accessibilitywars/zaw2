@@ -69,7 +69,7 @@ The benchmark for this build is 36k with normal food and utility, but with ascen
 
 #### Opener
 
-You will start on Kalla/renegade stance: {{ skill(id="41858") }} and with Short Bow.
+You will start on Kalla/{{ skill(id="41858") }} and with Short Bow.
 1. {{ skill(id="40485") }} 
 2. {{ skill(id="42949") }}
 3. {{ skill(id="41829") }} (Short Bow 3)
@@ -77,22 +77,22 @@ You will start on Kalla/renegade stance: {{ skill(id="41858") }} and with Short 
 #### DPS Rotation Loop
 
 After Opener and demon + Maxe (mace+axe) loop:
-1. Stance swap immediately following the Short Bow 3 from the opener to: Mallyx/demon stance: {{ skill(id="28494") }}
+1. Stance swap immediately following the Short Bow 3 from the opener to: Mallyx/{{ skill(id="28494") }}
 2. Activate {{ skill(id="28287") }}
 3. Weapon swap to Maxe (mace+axe)
-    * {{ skill(id="41858") }} (Mace 2)
+    * {{ skill(id="28357") }} (Mace 2)
     * {{ skill(id="27964") }} (Mace 3)
     * {{ skill(id="28409") }} (Axe 5)
-4. Use the skills from steps 3 off cool down until you have run out of energy or just enough that you cannot cast another {{ skill(id="41858") }}
-5. Stance swap to Kalla/renegade stance loop: {{ skill(id="41858") }} 
-    * {{ skill(id="41858") }} (Mace 2)
+4. Use the skills from steps 3 off cool down until you have run out of energy or just enough that you cannot cast another {{ skill(id="28357") }}
+5. Stance swap to Kalla/{{ skill(id="41858") }} 
+    * {{ skill(id="28357") }} (Mace 2)
 6. Weapon swap to Short Bow.
     * {{ skill(id="43993") }} (Short Bow 4)
     * {{ skill(id="41829") }} (Short Bow 3)
     * {{ skill(id="40175") }} (Short Bow 2)
     * {{ skill(id="40485") }} 
     * {{ skill(id="42949") }}
-7. Use the skills from step 6 off cool down until you can stance swap to Mallyx/demon stance: {{ skill(id="28494") }} (Cont. after step 1)
+7. Use the skills from step 6 off cool down until you can stance swap to Mallyx/{{ skill(id="28494") }} (Cont. after step 1)
 
 ---
 
@@ -109,19 +109,25 @@ The second method is related to gear, as you can equip infusions in ascended/leg
 3. {{ skill(id="41220") }} in Kalla/Renegade stance
 4. {{ skill(id="28409") }} (Axe 5)
 
-#### Other information
-Due to the nature of this build being 'made' by a raider, there will be raid boss specific information here.
-For Vale Guardian, mace 2 may cause you to be teleported it used during the teleport mechanic. Thus, you will want to quickly step out of it to avoid the teleport.
-Sabetha's flamewall is an instakill mechanic, however, mace 2 will not take you into her hitbox so you can safely use it during the flamewall if you are behind her or to her side.
-For Sloth, be aware that you may mistakenly pull a friendly slubling with axe 5 so be aware of where it is pointed.
-For Xera's pre-event, you can easily take a button and use your Short Bow to destroy the crystal on the second platform.
-For Deimos it is important to remember that your mace 2 may take you into an oil, so be very cautious of when you use it or to omit it entirely when oils spawn.
-For Soulless Horror you must be warry of {{ skill(id="40485") }} as it can immobilize the tormented dead, and cause trouble for your pusher.
-For Dhuum, in the final 10% you must be outside of his hitbox but within the dome for several of your skills to hit the boss.
-For Twin Largos, you can begin the fight and most platform transitions using the opener and if you have an excess amount of energy then using {{ skill(id="42836") }} and/or {{ skill(id="41820") }}.
-For Adina CM, {{ skill(id="41858") }} will not let you jump over the holes made by pillars, but {{ skill(id="28029") }} will let you do it safely.
-For Ura CM/LM when the healers are off group you can use {{ skill(id="45686") }} as it has a low energy cost, so you can use it to help heal your allies (if needed). You will easily have a first phase of 32 to 33k, 
-but DPS will fall off drastically if you must go off group for mechanics.
+#### Raid Ready
+1. Wing 1
+    * For Vale Guardian, mace 2 may cause you to be teleported it used during the teleport mechanic. Thus, you will want to quickly step out of it to avoid the teleport.
+    * Sabetha's flamewall is an instakill mechanic, however, mace 2 will not take you into her hitbox so you can safely use it during the flamewall if you are behind her or to her side.
+2. Wing 2
+    * For Sloth, be aware that you may mistakenly pull a friendly slubling with axe 5 so be aware of where it is pointed.
+3. Wing 3 
+    * For Xera's pre-event, you can easily take a button and use your Short Bow to destroy the crystal on the second platform.
+4. Wing 4
+    * For Deimos it is important to remember that your mace 2 may take you into an oil, so be very cautious of when you use it or to omit it entirely when oils spawn.
+5. Wing 5
+    * For Soulless Horror you must be warry of {{ skill(id="40485") }} as it can immobilize the tormented dead, and cause trouble for your pusher.
+    * For Dhuum, in the final 10% you must be outside of his hitbox but within the dome for several of your skills to hit the boss.
+6. Wing 6
+    * For Twin Largos, you can begin the fight and most platform transitions using the opener and if you have an excess amount of energy then using {{ skill(id="42836") }} and/or {{ skill(id="41820") }}.
+7. Wing 7 
+    * For Adina CM, {{ skill(id="28029") }} will let you jump over the holes made by pillars.
+8. Wing 8
+    * For Ura CM/LM when the healers are off group you can use {{ skill(id="45686") }} as it has a low energy cost, so you can use it to help heal your allies (if needed). You will easily have a first phase of 32 to 33k, but DPS will fall off drastically if you must go off group for mechanics.
 
 ## Video Demonstration
 
