@@ -19,7 +19,7 @@ toc = true
 balance = "2026-07"
 +++
 
-This is a low-intensity healing build, offering all the essential of a full-fledged healer with minimal effort. All kits have been removed, reducing the build from low-intensity to almost no-intensity. Barriers increase the leeway to respond to damage sources and the build consistently supplies this. 
+This is a low-intensity healing build, offering all the essential of a full-fledged healer with minimal effort. All kits have been removed, reducing the build from low-intensity to almost no-intensity. Barriers increase the leeway to respond to damage sources and the build consistently supplies this and the build maintains 8-9 boons by iteself. 
 
 It has a few downsides: 
 1. The need to control the mech which has a mind of its own
@@ -78,11 +78,15 @@ Before the fight, set all your skills to autocast:
 3. {{ skill(name="Barrier Burst") }} (F3)
 4. Summon your turrets
     * {{ skill(id="5857") }} for vigor
-    * {{ skill(id="5818") }} for fury
     * {{ skill(id="5912") }} for resolution
     * {{ skill(id="5868") }} for swiftness + other boons
+    * {{ skill(id="5836") }} for might (if required)
 
 ---
+
+> Notes:
+> * <small>The water field from your turret is fairly large and you want to place it in a comfortable position taking into account boss movement.</small>
+> * <small>If your initial might burst is slow, bring flame turret.</small>
 
 #### General Heal/Boon Rotation
 
@@ -119,7 +123,7 @@ Try to use blast skills in water fields for extra healing and barrier from  {{ i
 
 #### The Kits...
 
-This is meant to be a kitless guide, but the usefulness of {{ skill(id="50444") }} and {{ skill(id="5937") }} requires a mention. 
+This is meant to be a kitless guide, but the usefulness of {{ skill(id="50444") }} and {{ skill(id="5937") }} requires a mention especially when you are forced to take one on certain fights. You will need to replace all your turrets if you are in a fight that does not allow reflects.
 
 Additional water fields are also nice which can be provided by the kit skills 
 * {{ skill(name="Cleansing Field") }} (Med Kit 3)
@@ -138,4 +142,3 @@ Additional water fields are also nice which can be provided by the kit skills
 - Overcharge turret skills
     1. {{ skill(name="Explosive Rockets") }} Overcharge
     2. {{ skill(id="30264") }} Overcharge
-
