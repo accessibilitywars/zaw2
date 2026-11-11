@@ -37,7 +37,7 @@ notably one of the few sources for roaming (non-zerg) WvW builds.
 
 Builds for raids (and newly, open world). Snowcrows has a history of high-performer optimization, though they do have some beginner builds.
 Their [profession sections](https://snowcrows.com/guides/professions) give a great overview for each profession that is worth reading.
-They also includes [good resources for how to get started in raids](https://snowcrows.com/guides/getting-started)
+They also includes good resources for how to get started in raids.
 
 #### [Discretize](https://discretize.eu/)
 
