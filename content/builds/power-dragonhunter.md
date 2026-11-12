@@ -17,7 +17,7 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter with cleave damage and background heals."
 keywords = "Guild Wars 2, GW2, LI, dragonhunter"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "31k DPS"
 +++
 

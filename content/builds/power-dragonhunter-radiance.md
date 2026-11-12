@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "Auto-Attack Dragonhunter with fantastic group support and high survivability."
 keywords = "Guild Wars 2, GW2, LI, Dragonhunter, guardian, bonk"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "30.1k DPS"
 +++
 
