@@ -132,3 +132,9 @@ The second method is related to gear, as you can equip infusions in ascended/leg
 ## Video Demonstration
 
 {{ youtube(id="bB41UrYg8yE") }}
+
+# Changes
+
+content/builds/condi-renegade.md was changed: 
+ - Lasting Legacy: Reduced the strike damage per stack from 5% to 4% in PvE only.
+ - Gladiator's Defense: This skill has been reworked. Break stun and block incoming attacks. After which, the conduit also retaliates with an attack to nearby enemies. During the blocking phase, if an attack is blocked, the retaliation attack deals increased damage and inflicts weakness. If Legendary Dwarf Stance is equipped, gain aegis after blocking.

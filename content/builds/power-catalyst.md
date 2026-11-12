@@ -89,3 +89,9 @@ content/builds/power-catalyst.md was changed:
  - Fire Strike: Increased the power coefficient from 0.8 to 1.0 in PvE only.
  - Flame Uprising: Increased the power coefficient of the initial strike from 1.5 to 2.0 in PvE only.
  - Cauterizing Strike: Increased the power coefficient against burning foes from 2.33 to 2.91 in PvE only.
+
+# Changes
+
+content/builds/power-catalyst.md was changed: 
+ - Wildfire: Reduced the burning duration from 3 seconds to 2.5 seconds in PvE only.
+ - Dust Storm: This skill can now damage the same enemy only once per attack interval.

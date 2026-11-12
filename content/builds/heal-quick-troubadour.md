@@ -119,3 +119,7 @@ Your weapon swaps allow access to additional CCs.
 #### Optimisations
 
 Mesmer as a class is designed to be flexible. The skill choices on this site are designed to be simple. There are an incredible amount of permutations that are not exhausted in this guide. You may introduce additional utilities when you are comfortable so play around.
+# Changes
+
+content/builds/heal-quick-troubadour.md was changed: 
+ - Tale of the August Queen: Increased the cooldown from 75 seconds to 90 seconds in WvW only.

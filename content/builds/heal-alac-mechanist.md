@@ -142,3 +142,7 @@ Additional water fields are also nice which can be provided by the kit skills
 - Overcharge turret skills
     1. {{ skill(name="Explosive Rockets") }} Overcharge
     2. {{ skill(id="30264") }} Overcharge
+# Changes
+
+content/builds/heal-alac-mechanist.md was changed: 
+ - Energizing Slam: Increased the cooldown from 6 seconds to 8 seconds

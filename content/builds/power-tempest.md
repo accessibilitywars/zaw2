@@ -129,3 +129,9 @@ Immediately after {{ skill(id="29719") }}.
 ---
 
 {{ youtube(id="YhgYxdda344") }}
+
+# Changes
+
+content/builds/power-tempest.md was changed: 
+ - Tempestuous Aria: Increased the condition damage bonus from 5% to 7% in PvE only.
+ - Transcendent Tempest: Increased the condition damage bonus from 20% to 25% in PvE only.

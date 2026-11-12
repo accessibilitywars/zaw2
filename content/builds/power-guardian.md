@@ -81,3 +81,8 @@ Power DPS
 1. Your autos generate perma-protection and your symbols heal you.
 2. {{ skill(id="9118") }} provides aegis and a stun break. 
 3. Use {{ skill(id="9153") }} for a group stun break and multiple stacks of stability.
+
+# Changes
+
+content/builds/power-guardian.md was changed: 
+ - Smite Condition: This skill now has a casting time. Increased the damage coefficient when removing a condition from 1.9 to 2.75 in PvE

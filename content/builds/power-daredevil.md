@@ -156,3 +156,8 @@ You may equip the following for extra sustainability:
 Build demo in high end static
 
 {{ youtube(id="aBkjhsxvLBE") }}
+
+# Changes
+
+content/builds/power-daredevil.md was changed: 
+ - Twin Fangs: This trait now grants its critical-hit chance bonus for a duration after striking an enemy from behind or the side.

@@ -132,3 +132,8 @@ I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }},
 
 ## Latest patch changes
 This build is now less spammy but it is now harder to upkeep alacrity and might.
+
+# Changes
+
+content/builds/alac-hybrid-scourge.md was changed: 
+ - Desert Empowerment: Increased the alacrity duration from 1.5 seconds to 2 seconds in PvE only.

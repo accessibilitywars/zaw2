@@ -126,3 +126,9 @@ and you can swap out {{ skill(id="76971") }} for {{ skill(id="29519") }} if a lo
 
 content/builds/power-troubadour.md was changed: 
  - Vicious Expression: This trait now increases base strike damage and is further increased against boonless foes.
+
+# Changes
+
+content/builds/power-troubadour.md was changed: 
+ - Illusionary Leap: The clone's attack will now inflict immobilized instead of crippled.
+ - Tale of the August Queen: Increased the cooldown from 75 seconds to 90 seconds in WvW only.

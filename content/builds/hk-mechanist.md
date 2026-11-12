@@ -111,3 +111,8 @@ can be used for precise timing.
 ## Tears
 
 These are a relatively minor annoyance, but they do increase damage pressure. Walk into nearby tears during the hand "gap time"
+
+# Changes
+
+content/builds/hk-mechanist.md was changed: 
+ - Energizing Slam: Increased the cooldown from 6 seconds to 8 seconds

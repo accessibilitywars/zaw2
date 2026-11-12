@@ -79,3 +79,8 @@ If you do not want to weapon swap, your CC skills are:
 ## Video
 
 {{ youtube(id="m5aNd6PqeYQ") }}
+
+# Changes
+
+content/builds/power-herald.md was changed: 
+ - Gladiator's Defense: This skill has been reworked. Break stun and block incoming attacks. After which, the conduit also retaliates with an attack to nearby enemies. During the blocking phase, if an attack is blocked, the retaliation attack deals increased damage and inflicts weakness. If Legendary Dwarf Stance is equipped, gain aegis after blocking.

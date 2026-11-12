@@ -190,3 +190,7 @@ Position yourself just slightly off-mid on the arena. This allows you to survive
 {{ youtube(id="6G5fnby1T_k") }}
 
 This demo uses only one weapon set without any weapon swapping. Immobilisation of prides is also demonstrated here. 
+# Changes
+
+content/builds/hk-spellbreaker.md was changed: 
+ - Signet of Rage: This skill now grants 10 adrenaline and recharges weapon burst skills. Reduced the cooldown from 40 seconds to 30 seconds in PvE only, reduced the boon durations from 25 seconds to 10 seconds, and increased the might stacks from 5 to 20 in PvE only.

@@ -90,3 +90,7 @@ You may equip the following for extra:
 #### Benchmark 
 
 The benchmark can vary greatly depending on which stolen skills you get. The numbers are not grinded for and it is likely you will achieve higher DPS than our attempts.
+# Changes
+
+content/builds/alac-power-antiquary.md was changed: 
+ - Twin Fangs: This trait now grants its critical-hit chance bonus for a duration after striking an enemy from behind or the side.

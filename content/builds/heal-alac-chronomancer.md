@@ -155,3 +155,8 @@ Other utilities and trait combos
 16. W7 Adina - Tank on the grass. Just alternating your three blocks is enough. {{ skill(id="10302") }} can be duplicated with {{ skill(id="29830") }} and {{ skill(id="29578") }}. For most groups, a 4th projectile block is not required but in case your options are exhausted, {{ skill(id="10282") }}. {{ skill(id="10186") }} (Focus 4) may fail to block projectiles due to height limitations and you will need to sacrifice a trait.
 17. W7 QtP - You will be tanking this fight. Your timely channelled blocks are extrely useful to bypass attacks.
 18. W8 Greer - A reflection variant of this build makes this fight much easier.
+
+# Changes
+
+content/builds/heal-alac-chronomancer.md was changed: 
+ - Phantasmal Warden: This skill has been moved, replacing Phantasmal Disenchanter as a utility skill. Reduced the number of hits from 12 to 8. The phantasm now spawns at the user's location.

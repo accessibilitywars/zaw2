@@ -80,3 +80,8 @@ Your CC skills are, in order of how you should use them:
 content/builds/power-soulbeast.md was changed: 
  - Go for the Throat: Increased the damage bonus of Lesser "Sic 'Em!" while in Beastmode from 10% to 15% in PvE only. Reduced the cooldown of Lesser "Sic 'Em!" from 15 seconds to 10 seconds in PvE only. Increased the duration from 5 seconds to 8 seconds when triggered by a pet.
  - Go for the Throat: Increased the damage bonus of Lesser "Sic 'Em!" while a soulbeast is merged from 10% to 15% in PvE only.
+
+# Changes
+
+content/builds/power-soulbeast.md was changed: 
+ - Apex Predator: Merged abilities cause a savage frenzy of attacks when they strike an enemy. Frenzies caused by beast skills are stronger.

@@ -106,3 +106,9 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 10. W7 Sabir - For the final phase if your group needs projectile blocks, consider {{ skill(id="9182") }} and {{ skill(id="9251") }} 
 
 <small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>
+
+# Changes
+
+content/builds/heal-alac-willbender.md was changed: 
+ - Unscathed Contender: This trait has been reworked. Deal 10% increased damage while above the health threshold or while you have aegis. Lowered the health threshold from 90% to 75%. The damage increase is 12% in PvE
+ - Phoenix Protocol: This trait now applies its boons to nearby allies.

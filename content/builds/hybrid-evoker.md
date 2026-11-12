@@ -146,3 +146,8 @@ content/builds/hybrid-evoker.md was changed:
  - Glacial Drift: Increased the projectile speed. This skill now dazes enemies that it strikes.
  - Earthen Synergy: Increased the stun duration from 1.5 seconds to 2 seconds.
  - Stone Tide: The first pulse of this skill will now cripple enemies that it strikes.
+
+# Changes
+
+content/builds/hybrid-evoker.md was changed: 
+ - Familiar's Focus: Increased the strike damage bonus from 10% to 12% in PvE only.

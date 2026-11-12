@@ -105,3 +105,7 @@ Stay merged at all times.
 * The build is benched with ascended but without infusions. You should be able to achieve 32.5k DPS with infusions at the golem.
 * For benching or if playing solo, pick {{ trait(id="2143") }}.
 * It is not possible to bench with allies unless you have a friend to assist you.
+# Changes
+
+content/builds/condi-soulbeast-daggers.md was changed: 
+ - Hidden Barbs: This trait now causes short-bow skills to pierce.

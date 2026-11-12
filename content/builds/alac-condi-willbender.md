@@ -88,3 +88,7 @@ Willbender has a lot of mobility built into its kit.
 2. {{ skill(id="62648") }} is both a 600 range shadow step and Aegis, allowing you to get out of a bad situation (Flame Walls).
 3. {{ skill(id="62668") }} is an enemy target dash, used as a gap-closer.
 4. {{ skill(id="62561") }} is a CC which shadowsteps to your enemy target.
+# Changes
+
+content/builds/alac-condi-willbender.md was changed: 
+ - Phoenix Protocol: This trait now applies its boons to nearby allies.

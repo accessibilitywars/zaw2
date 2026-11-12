@@ -142,3 +142,8 @@ Longbow provides additional ranged damage uptime and CC options.
 {{ youtube(id="F9kttt9O7AM") }}
 
 This bench is done with ascended gear, food, utilities and no infusions.
+
+# Changes
+
+content/builds/alac-condi-paragon.md was changed: 
+ - Signet of Rage: This skill now grants 10 adrenaline and recharges weapon burst skills. Reduced the cooldown from 40 seconds to 30 seconds in PvE only, reduced the boon durations from 25 seconds to 10 seconds, and increased the might stacks from 5 to 20 in PvE only.
