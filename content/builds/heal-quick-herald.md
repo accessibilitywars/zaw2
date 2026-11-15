@@ -15,7 +15,7 @@ series = "revenant"
 tagline = "Nothing will harm you while I am here!"
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 Although the build can only upkeep 6 permanent boons, it can situationally provide 3 boons and a massive amount of overflow healing, unique class mechanics for damage denial and easy access wide-range quickness.
@@ -147,7 +147,3 @@ This build can hand kite with damage mitigation skills.
 > * <small>Swap weapons for Mind Crush.</small> 
 > * <small>Dodging as the hands are about to end adds evade frames.</small>
 > * <small>Bring {{ trait(id="1743") }} for extra heals.</small> 
-# Changes
-
-content/builds/heal-quick-herald.md was changed: 
- - Gladiator's Defense: This skill has been reworked. Break stun and block incoming attacks. After which, the conduit also retaliates with an attack to nearby enemies. During the blocking phase, if an attack is blocked, the retaliation attack deals increased damage and inflicts weakness. If Legendary Dwarf Stance is equipped, gain aegis after blocking.
