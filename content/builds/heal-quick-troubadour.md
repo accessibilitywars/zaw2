@@ -2,6 +2,7 @@
 title = "Rifle and Roses [qHeal]"
 description = "The hardest part of this build is enduring the out-of-sync music throughout the fight."
 date = 2026-04-29
+updated = 2026-11-16
 template = "build.html"
 
 [taxonomies]
@@ -15,7 +16,7 @@ series = "mesmer"
 tagline = "She's got a smile that it seems to me, reminds me of childhood memories, where everything was as fresh as the bright blue sky."
 keywords = "Guild Wars 2, GW2, LI, Troubadour"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 The Troubadour has an easy design such that when you randomly mash all the buttons, you'd provide all the right boons and an excessive amount of healing. This build has selected utilities for minimal cognitive complexity, such that the hardest part of playing this build is enduring the out-of-sync music throughout the fight. 
@@ -106,20 +107,21 @@ You may replace skill slot 9 with any of the following:
 > 4. {{ skill(id="10302") }} for reflects
 > 5. {{ skill(id="10197") }} for skips
 
+
+
 #### Crowd Control
 
 You have decent CC with your base kit:
 > 1. {{ skill(id="72007") }} (R4)
 > 2. {{ skill(id="77079") }} (F3)
 > 3. {{ skill(id="76971") }} (Elite)
-> 3. {{ skill(id="76931") }} (while Drum is playing)
+> 4. {{ skill(id="76931") }} (while Drum is playing)
+
 
 Your weapon swaps allow access to additional CCs.
+> 1. {{ skill(id="10363") }} (F4) (for pull)
+> 2. {{ skill(id="10267") }} (F5) (for boon strips)
 
 #### Optimisations
 
 Mesmer as a class is designed to be flexible. The skill choices on this site are designed to be simple. There are an incredible amount of permutations that are not exhausted in this guide. You may introduce additional utilities when you are comfortable so play around.
-# Changes
-
-content/builds/heal-quick-troubadour.md was changed: 
- - Tale of the August Queen: Increased the cooldown from 75 seconds to 90 seconds in WvW only.
