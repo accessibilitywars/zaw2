@@ -2,7 +2,7 @@
 title = "Healbender [aHeal]"
 description = "Auto-attack heal alacrity willbender."
 date = 2024-04-04
-updated = 2026-04-17
+updated = 2026-11-16
 template = "build.html"
 
 [taxonomies]
@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "Hammer Auto Attack, with a burst heal options. This build is easy to play, has flexible utilities, decent crowd control and excellent condi cleanses."
 keywords = "Guild Wars 2, GW2, LI, Willbender"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 This is a very accessible build that requires minimal effort to play, where majority of its effects are based on auto-attacks. The end of the auto-attack chain {{ skill(id="9161") }} rely on {{ trait(id="558") }} to provide heals. You may find that DPS is fairly decent (for a healer). Ideally, the build should function as a low-toughness healer.
@@ -43,7 +43,7 @@ This build is low cognition, low physical complexity, has very few repetitions a
 - {{ item(id="67528", name="Bountiful Maintenance Oil") }}
 
 # Build
-Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAAAAAAAAAAAAAAAAAAAAABMwAA]") }}
+Heal Alacrity Build {{ chatlink(code="[&DQExLS49QRp/ADgBSwEtATYBSAEtATIB6RoAAAAAAAAAAAAAAAAAAAAAAAACCQEzAAA=]") }}
 
 #### Trait Alternatives
 
@@ -89,8 +89,8 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 
 #### Other tips and tricks
 - You may drop {{ skill(id="9153") }} for different utilities.
-- {{ skill(id="62648") }} allows you to shadow step through mechanics
-- Blocking increases your heal power and doing so intelligently allows efficient use of {{ trait(id="1899") }}
+- {{ skill(id="62648") }} allows you to shadow step through mechanics and is a valuable stability source.
+- Blocking increases your heal power and doing so intelligently allows efficient use of {{ trait(id="1899") }}.
 
 ## Optimisation
 #### Raid Ready
@@ -108,7 +108,4 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS4tQRp/ADgBLQEtATYBSAEyATIBcRIAAAAA
 <small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>
 
 # Changes
-
-content/builds/heal-alac-willbender.md was changed: 
- - Unscathed Contender: This trait has been reworked. Deal 10% increased damage while above the health threshold or while you have aegis. Lowered the health threshold from 90% to 75%. The damage increase is 12% in PvE
- - Phoenix Protocol: This trait now applies its boons to nearby allies.
+Battle Presence is no longer needed to apply boons to nearby allies. This build now uses Indomitable Courage as its default trait choice. 
