@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "I'm sorry but the great mother has only gifted me with HOLY NOVA!"
 keywords = "Guild Wars 2, GW2, LI, Luminary"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 This is a very accessible build that relies on an excessive amount of healing, CC, condi cleanses and utilites, more than you will ever need. Ideally, the build should function as a low-toughness healer.
@@ -120,9 +120,3 @@ You should not be adjusting the build to try to increase healing but focus on yo
 * <small>Note: If you do not use {{ skill(id="9143") }} (Staff 3) or {{ item(id="101116") }}, you will need alternate sources of swiftness like {{ skill(id="9084") }}.</small>
 * <small>Note: {{ skill(id="9084") }} has to be used on cooldown for 100% swiftness coverage but you can rely on {{ skill(id="78358") }} as an alternate source of Aegis.</small>
 * <small>Note: {{ skill(id="9143") }} now grants superspeed on its first pulse.</small>
-
-# Changes
-
-content/builds/heal-alac-Luminary.md was changed: 
- - Empower: Increased the might stacks per pulse from 3 to 4 and increased the duration from 10 seconds to 12 seconds in PvE only.
- - Unscathed Contender: This trait has been reworked. Deal 10% increased damage while above the health threshold or while you have aegis. Lowered the health threshold from 90% to 75%. The damage increase is 12% in PvE
