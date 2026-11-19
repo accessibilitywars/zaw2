@@ -17,8 +17,8 @@ series = "warrior"
 tagline = "Celestial warrior healer with high damage floor."
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-07"
-benchmark = "20k DPS"
+balance = "2026-11"
+benchmark = "14-20k DPS"
 +++
 
 
@@ -124,8 +124,3 @@ Use the following off-cooldown
 * You may carry off-hand mace, dagger or shield for additional hard CC.
 * Take off-hand dagger if you require a boon strip.
 * Other utilities with defiance breaks may be picked with caution.
-
-## Latest patch changes
-
-* The new changes to dagger allows it to be used for both boon-strip and CC.
-* Sword has been reworked.
