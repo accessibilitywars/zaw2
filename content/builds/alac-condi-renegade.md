@@ -16,7 +16,7 @@ series = "revenant"
 tagline = "Condition variant of an old but popular build without weapon swaps."
 keywords = "Guild Wars 2, GW2, LI, renegade"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "28.5k DPS"
 +++
 
@@ -102,8 +102,3 @@ After Opener:
 #### Others
 1. {{ skill(id="27505") }} for boon strip
 2. Use {{ skill(id="76503") }} (flip skill) after CC for damage and energy burn
-
-# Changes
-
-content/builds/alac-condi-renegade.md was changed: 
- - Gladiator's Defense: This skill has been reworked. Break stun and block incoming attacks. After which, the conduit also retaliates with an attack to nearby enemies. During the blocking phase, if an attack is blocked, the retaliation attack deals increased damage and inflicts weakness. If Legendary Dwarf Stance is equipped, gain aegis after blocking.
