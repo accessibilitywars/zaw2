@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Staff Deadeye with Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "28.7k DPS"
 +++
 
