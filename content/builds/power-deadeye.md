@@ -120,11 +120,3 @@ If taking practiced tolerance and daggers as an off-hand set, your daggers are y
 
 ## Benchmark
 The benchmark numbers are performed with ascended gear, food and utilities.
-
-## Latest patch changes
-{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.
-# Changes
-
-content/builds/power-deadeye.md was changed: 
- - Twin Fangs: This trait now grants its critical-hit chance bonus for a duration after striking an enemy from behind or the side.
- - Premeditation: This trait now scales up to 5 boons only. Increased the damage per boon from 1% to 2%.
