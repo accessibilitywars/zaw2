@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Let me smash your head in with this sparkly magic staff"
 keywords = "Guild Wars 2, GW2, LI, Daredevil"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "33k DPS"
 apm = "19"
 +++
@@ -156,8 +156,3 @@ You may equip the following for extra sustainability:
 Build demo in high end static
 
 {{ youtube(id="aBkjhsxvLBE") }}
-
-# Changes
-
-content/builds/power-daredevil.md was changed: 
- - Twin Fangs: This trait now grants its critical-hit chance bonus for a duration after striking an enemy from behind or the side.
