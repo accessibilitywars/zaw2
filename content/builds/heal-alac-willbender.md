@@ -107,5 +107,5 @@ Heal Alacrity Build {{ chatlink(code="[&DQExLS49QRp/ADgBSwEtATYBSAEtATIB6RoAAAAA
 
 <small>With the new reduced cooldown, Mace/Focus can be an alternate weapon to tank, e.g. to block Deimos comfortably. However there are much better healing/tank options out there.</small>
 
-# Changes
+## Latest Patch Changes
 Battle Presence is no longer needed to apply boons to nearby allies. This build now uses Indomitable Courage as its default trait choice. 
