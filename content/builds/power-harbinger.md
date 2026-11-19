@@ -149,3 +149,8 @@ Experienced players or players with lower ping might sometimes find that the **N
 content/builds/power-harbinger.md was changed: 
  - Spiteful Talisman: This trait no longer reduces the cooldowns of axe and focus skills. This trait now increases base strike damage and is further increased against boonless foes.
  - Cascading Corruption: This trait has been reworked. Gain stacks of Cascading Corruption when you consume blight. When you reach the stack threshold, explode necrotic energy and increase your damage for a duration.
+
+# Changes
+
+content/builds/power-harbinger.md was changed: 
+ - Cascading Corruption: Reduced the torment stacks from 6 to 3 and reduced meltdown's strike and condition damage increase from 10% to 7% in PvE only.

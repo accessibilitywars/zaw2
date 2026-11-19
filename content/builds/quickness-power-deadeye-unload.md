@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "26.5k DPS"
 +++
 
@@ -103,6 +103,3 @@ This build may underperform at high end raiding but it can do extremely well in 
 ## Videos
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
-
-## Latest patch changes
-{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.

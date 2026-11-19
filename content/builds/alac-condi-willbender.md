@@ -2,6 +2,7 @@
 title = "Divine Firearms [aDPS]"
 description = "Double-pistol alacrity firebender."
 date = 2026-08-01
+updated = 2026-11-17
 draft = false
 template = "build.html"
 
@@ -16,9 +17,10 @@ series = "guardian"
 tagline = "Long ago, the four nations lived together in harmony. Then everything changed..."
 keywords = "Guild Wars 2, GW2, LI, Willbender, alacrity"
 toc = true
-balance = "2026-07"
-benchmark = "25k DPS"
+balance = "2026-11"
+benchmark = "26.8k DPS"
 apm = "48"
+log = "https://dps.report/pce5-20261116-234215_golem"
 +++
 
 ## Notes
@@ -36,16 +38,20 @@ The downside of this build is the relatively high APM and forced movement.
 {{ heavy(stat="Ritualist's", rune="Trapper") }}
 {{ pistol_main(stat="Ritualist's", sigil="Bursting") }}
 {{ pistol_off(stat="Ritualist's", sigil="Smoldering") }}
-{{ trinkets(ring1="Ritualist's", ring2="Ritualist's", accessory1="Ritualist's", accessory2="Ritualist's", back="Sinister", amulet="Ritualist's", relic="Fractal") }}
+{{ trinkets(ring1="Ritualist's", ring2="Ritualist's", accessory1="Ritualist's", accessory2="Ritualist's", back="Sinister", amulet="Ritualist's", relic="Last Tyrant") }}
 
 - Food: {{ item(id="91878", name="Cilantro and Cured Meat Flatbread") }} OR {{ item(name="Plate of Beef Rendang") }}
 - Enhancement: {{ item(name="Magnanimous Tuning Crystal") }} 
+
+#### Alternative (Balthazar)
+* Balthazar Runes/Sigil of Air is a cheaper competitive alternative.
+* Replace Sigil of Smoldering if you are using this combo.
 
 ## Build
 
 ---
 
-{{ chatlink(code="[&DQEuJxAaQRU4ATgBTAEtAdgaSAExATIB6RoAAAAAAAAAAAAAAAAAAAAAAAACNgBmAAA=]") }}
+{{ chatlink(code="[&DQEuFxAaQRU4ATgBTAEtAdgaSAExATIB6RoAAAAAAAAAAAAAAAAAAAAAAAACNgBmAAA=]") }}
 
 ## Rotation
 
@@ -88,3 +94,9 @@ Willbender has a lot of mobility built into its kit.
 2. {{ skill(id="62648") }} is both a 600 range shadow step and Aegis, allowing you to get out of a bad situation (Flame Walls).
 3. {{ skill(id="62668") }} is an enemy target dash, used as a gap-closer.
 4. {{ skill(id="62561") }} is a CC which shadowsteps to your enemy target.
+
+## Latest Patch Changes
+
+* Significant DPS increase due to 
+    1. New update to Phoenix Protocol allows us to concurrently use Permeating Wrath. 
+    2. The relatively new relic Last Tyrant has also been added to the build.

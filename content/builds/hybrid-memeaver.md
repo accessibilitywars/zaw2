@@ -109,3 +109,7 @@ Use Fire-only skills and utilities while you are attuned to 🌩️/🔥 or 🔥
 Inferno was buffed by a small amount. This build minimally benefited from superior elements and lost a lot from the damage buff transferred away from Swift Revenge. Elements of Rage was buffed heavily but this had minimal impact on the build.
 
 Currently the damage remains at 33.5k although all the other Inferno builds have seen substantial damage increases. This build is kept in the repository for players who do not own HoT or VoE. Consider playing core elementalist.
+# Changes
+
+content/builds/hybrid-memeaver.md was changed: 
+ - Elements of Rage: Reduced the strike damage bonus from 15% to 12% in PvE only. Reduced the condition damage bonus from 10% to 7% in PvE only.

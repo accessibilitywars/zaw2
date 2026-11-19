@@ -113,3 +113,11 @@ Stay merged at all times.
 ---
 ## Benchmark
 The build is benched with ascended gear and infusions, skipping {{ skill(id="12517") }} (Shortbow 3) to avoid forced movement. 
+# Changes
+
+content/builds/condi-soulbeast.md was changed: 
+ - Crossfire: This skill no longer inflicts increased bleeding duration when flanking a target. Increased the bleeding duration from 2 seconds to 5 seconds in PvE
+ - Poison Volley: This skill's increased poison duration is now inflicted to movement-impaired, disabled, and defiant targets instead of when flanking. Reduced the cooldown from 8 seconds to 6 seconds in PvE only. Increased the poison duration from 5 seconds to 7 seconds in PvE only.
+ - Concussion Shot: Reduced the cooldown from 20 seconds to 16 seconds.
+ - Hidden Barbs: This trait now causes short-bow skills to pierce.
+ - Light on your Feet: This trait no longer modifies short-bow skills and instead grants increased movement speed for a brief duration after dodging or using a ranger skill that evades.

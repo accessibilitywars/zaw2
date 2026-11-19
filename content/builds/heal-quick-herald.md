@@ -15,7 +15,7 @@ series = "revenant"
 tagline = "Nothing will harm you while I am here!"
 keywords = "Guild Wars 2, GW2, LI, Chronomancer"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 Although the build can only upkeep 6 permanent boons, it can situationally provide 3 boons and a massive amount of overflow healing, unique class mechanics for damage denial and easy access wide-range quickness.

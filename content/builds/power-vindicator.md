@@ -112,3 +112,11 @@ That will always be on your utilities bar, and in many situations might be all t
 ---
 
 {{ youtube(id="HllSVARmZuU") }}
+
+# Changes
+
+content/builds/power-vindicator.md was changed: 
+ - Reaver's Curse: This trait has been moved to the adept tier, replacing Leviathan Strength.
+ - Forerunner of Death: This trait has been moved to the master tier, replacing Reaver's Curse.
+ - Friend of the Luxons: This is a new grandmaster trait. Gain the ability to use the Archemorus's Strike skill, which knocks down and deals damage to nearby enemies. Gain increased strike damage after using a Luxon skill.
+ - Gladiator's Defense: This skill has been reworked. Break stun and block incoming attacks. After which, the conduit also retaliates with an attack to nearby enemies. During the blocking phase, if an attack is blocked, the retaliation attack deals increased damage and inflicts weakness. If Legendary Dwarf Stance is equipped, gain aegis after blocking.

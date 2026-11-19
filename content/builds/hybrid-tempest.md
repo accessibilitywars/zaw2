@@ -119,3 +119,9 @@ Then return to {{ skill(id="5492") }} as soon as you are able to.
 ---
 
 {{ youtube(id="gibWzM2xtWo") }}
+
+# Changes
+
+content/builds/hybrid-tempest.md was changed: 
+ - Tempestuous Aria: Increased the condition damage bonus from 5% to 7% in PvE only.
+ - Transcendent Tempest: Increased the condition damage bonus from 20% to 25% in PvE only.

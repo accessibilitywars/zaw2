@@ -181,3 +181,8 @@ content/builds/condi-weaver.md was changed:
  - Superior Elements: Increased the critical strike chance from 15% to 20% in PvE only.
  - Master's Fortitude: This trait has been reworked and moved to the top master trait slot. Gain barrier when you dodge.
  - Elements of Rage: This trait no longer grants bonus precision. This trait now grants access to Unravel as an additional profession skill. Increased the strike damage bonus from 7% to 15% in PvE only. Increased the condition damage bonus from 5% to 10% in PvE only.
+
+# Changes
+
+content/builds/condi-weaver.md was changed: 
+ - Elements of Rage: Reduced the strike damage bonus from 15% to 12% in PvE only. Reduced the condition damage bonus from 10% to 7% in PvE only.

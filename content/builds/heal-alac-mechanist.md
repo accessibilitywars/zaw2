@@ -2,6 +2,7 @@
 title = "Heal Bot [aHeal]"
 description = "The healing build that plays by itself."
 date = 2026-10-06
+updated = 2026-11-16
 draft = false
 template = "build.html"
 
@@ -16,7 +17,7 @@ series = "engineer"
 tagline = "In GW2, you don't play HAM. The HAM plays you!"
 keywords = "Guild Wars 2, GW2, LI, Mechanist"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 This is a low-intensity healing build, offering all the essential of a full-fledged healer with minimal effort. All kits have been removed, reducing the build from low-intensity to almost no-intensity. Barriers increase the leeway to respond to damage sources and the build consistently supplies this and the build maintains 8-9 boons by iteself. 
@@ -95,7 +96,7 @@ Your rotation is:
 1. Keep pressing {{ skill(name="Energizing Slam") }} (🥄2) if you don't know what to do.
 2. Use shield skills for protection via {{ trait(id="394") }}
 3. Let your mech do the rest
-4. Figure out situational skills (next section) as you gain experience in the game.
+4. Figure out situational skills as you gain experience in the game.
 
 ---
 
@@ -112,6 +113,7 @@ Your rotation is:
 > * <small>When you become experienced, you will know what are all the situational skills and kits to bring.</small>
 > * <small>If you need to bring more situational skills, switch {{ trait(id="1678") }} to {{ trait(id="1834") }} instead.</small>
 > * <small>Ideally you would also have learnt how to adapt med kit into your rotation.</small>
+> * <small>The reflects take time to trigger so {{ skill(id="6053") }} is useful to bridge the gap.</small>
 
 ---
 

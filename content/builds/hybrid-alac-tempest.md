@@ -113,3 +113,8 @@ Return to {{ skill(id="5492") }} as soon as you are able to.
 ---
 
 {{ youtube(id="8RTny-z2BaQ") }}
+
+# Changes
+
+content/builds/hybrid-alac-tempest.md was changed: 
+ - Tempestuous Aria: Increased the condition damage bonus from 5% to 7% in PvE only.

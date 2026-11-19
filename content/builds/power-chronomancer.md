@@ -132,3 +132,10 @@ You can also block attacks with {{ skill(name="Illusionary Riposte") }} (Sword 4
 
 content/builds/power-chronomancer.md was changed: 
  - Vicious Expression: This trait now increases base strike damage and is further increased against boonless foes.
+
+# Changes
+
+content/builds/power-chronomancer.md was changed: 
+ - Illusionary Leap: The clone's attack will now inflict immobilized instead of crippled.
+ - Phantasmal Warden: This skill has been moved, replacing Phantasmal Disenchanter as a utility skill. Reduced the number of hits from 12 to 8. The phantasm now spawns at the user's location.
+ - Chronophantasma: This trait now reduces condition durations applied by resummoned phantasms. Reduces the strike damage of resummoned phantasms from 105% to 100% in PvE only.

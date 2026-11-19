@@ -175,3 +175,8 @@ If you are in a fight where lots of condition cleanse is required (i.e Slothasau
 
 # Latest Patch Changes
 - Inferno: Increased the power scaling from 7.5% to 8.25% in PvE only.
+# Changes
+
+content/builds/heal-alac-tempest.md was changed: 
+ - Wildfire: Reduced the burning duration from 3 seconds to 2.5 seconds in PvE only.
+ - Dust Storm: This skill can now damage the same enemy only once per attack interval.

@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Staff Deadeye with Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "28.7k DPS"
 +++
 
@@ -110,6 +110,3 @@ You may equip the following for extra sustainability:
 - {{ item(id="101955") }} 
 - {{ skill(id="13050") }}
 - {{ trait(id="1702") }}
-
-## Latest patch changes
-{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. It now provides a shadowstep for melee builds. 

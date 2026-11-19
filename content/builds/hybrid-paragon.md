@@ -127,3 +127,7 @@ Longbow provides additional ranged damage uptime and CC options.
 
 ## Latest patch changes
 - Sword has been reworked.
+# Changes
+
+content/builds/hybrid-paragon.md was changed: 
+ - Signet of Rage: This skill now grants 10 adrenaline and recharges weapon burst skills. Reduced the cooldown from 40 seconds to 30 seconds in PvE only, reduced the boon durations from 25 seconds to 10 seconds, and increased the might stacks from 5 to 20 in PvE only.

@@ -119,3 +119,7 @@ After using your 2nd Unleash Ambush -> use the skills from left to right for Axe
 
 #### Benchmark
 This bench was done with ascended food, standard utiltiies and without infusions. 
+# Changes
+
+content/builds/quickness-condi-untamed.md was changed: 
+ - Hidden Barbs: This trait now causes short-bow skills to pierce.

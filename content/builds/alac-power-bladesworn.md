@@ -114,3 +114,7 @@ Physical skills provide a small through {{ trait(id="1444") }}, so you can mitig
  - Daring Dragon: This trait now increases the effectiveness of Dragon Slash skills depending on which variation is being used.
  - Sword has been reworked.
  - The rotation remains unchanged.
+# Changes
+
+content/builds/alac-power-bladesworn.md was changed: 
+ - Signet of Rage: This skill now grants 10 adrenaline and recharges weapon burst skills. Reduced the cooldown from 40 seconds to 30 seconds in PvE only, reduced the boon durations from 25 seconds to 10 seconds, and increased the might stacks from 5 to 20 in PvE only.

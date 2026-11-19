@@ -2,7 +2,7 @@
 title = "Sand Seraph [aHeal]"
 description = "Celestial/Seraph Heal DPS build."
 date = 2024-05-20
-updated = 2025-09-04
+updated = 2026-11-16
 draft = false
 template = "build.html"
 
@@ -17,8 +17,8 @@ series = "necromancer"
 tagline = "I like sand. It is fine, soothing and silky and it gets everywhere"
 keywords = "Guild Wars 2, GW2, LI, scourge"
 toc = true
-balance = "2026-07"
-benchmark = "18.8k DPS"
+balance = "2026-11"
+benchmark = "10-19k DPS"
 +++
 
 This guide explains how hybrid scourge works and how it assists with training runs, low experience practice runs and in statics. This build does rely on a relatively high APM but the order of presses is irrelevant to performance so long as you don't greed DPS and remember to prioritise group alacrity. The forgiving nature of the build allows you to vent your frustrations on the keyboard after a stressful day. Scourge also allows barrier to be pulsed even when disabled.
@@ -99,12 +99,12 @@ Swap for {{ skill(id="10611") }} and {{ skill(id="10589") }} if the APM is too h
 ## Optimisation
 Check with your team regarding the boons that you need to cover. If there is already might overcap, you may drop certain skills for more utilities. You can also make an educated guess by looking at the classes the other players are playing, the weapons equipped etc. By default, your build provides Might, Fury, Alacrity, Protection, Regeneration and Aegis but some may not hit 100% uptime. Although Scourge can provide 10-man stability, this area of effect is really small and groups must be really organised to make full use of it. You may also opt to rearrange the subgroup to put tankier classes with the hybrid healer.
 
-#### Strike Ready
+#### Raid Ready (Encounters)
 1. Boneskinner - While it sounds like it is a huge responsibility to play as a carry scourge, you don't die as easily because you have more vitality and higher toughness. Take {{ trait(id="780") }} and use {{ skill(id="44428") }} sparingly. 
 2. Whisper of Jormag - Use {{ skill(id="10543") }} in the middle during the ball phase. 
 3. Harvest Temple - {{ skill(id="42917") }} is really useful to reposition players behind the ball. Swapping to pistol grants more hits against the ball.
 
-#### Raid Ready
+#### Raid Ready (Wings)
 1. W1 Vale Guardian - Be prepared to tank the fight. If you are not the tank, you may opt to go to the red guardian during splits, which gives the condi team added survivability. Barrier trivialises the green mechanic. {{ skill(id="51647") }} removes boons from the blue guardian. 
 2. W1 Gorseval - {{ skill(id="10532") }} is a long reliable cripple during the split phase.  
 3. W1 Sabetha - If you bring {{ skill(id="42917") }}, you may be able to serve as a cannon backup. You can {{ skill(id="42917") }} through the flame wall. 
@@ -122,7 +122,7 @@ Check with your team regarding the boons that you need to cover. If there is alr
 15. W6 Qadim - This build can Kite Qadim, Tank Wyverns or even solo Lamp. 
 16. W7 Sabir - Projectile blocks from {{ skill(id="10689") }} is useful. {{ skill(id="44428") }} is very helpful for players who can't do tornado jumps. 
 17. W7 Adina - Projectile blocks from {{ skill(id="10689") }} is useful although not as good as a Ventari Bubble. You can no longer pull allies who identify themselves as sandsharks.
-18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early. 
+18. W7 Qadim the Peerless - Consider taking North pylon as you be tanky enough to handle misplaced boss attacks. {{ skill(id="42917") }} does not have the teleport range of other kiters so you need to start moving early.
 
 ## Videos
 I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }}, with infusions and no weapon swaps. 
@@ -131,4 +131,4 @@ I have benched the build with {{ item(id="95241") }} and {{ item(id="67185") }},
 {{ youtube(id="8lBgmakjHAk") }}
 
 ## Latest patch changes
-This build is now less spammy but it is now harder to upkeep alacrity and might.
+Boon maintenance (especially alacrity and might) is now made easier. 

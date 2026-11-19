@@ -130,3 +130,8 @@ content/builds/condi-chronomancer.md was changed:
  - Signet of Domination: Reduced the cooldown from 45 seconds to 25 seconds. Reduced the stun duration from 3 seconds to 2 seconds in PvE. This skill now removes boons from the target.
  - Method of Madness: Lesser Chaos Storm no longer inflicts daze. Reduced the cooldown of Lesser Chaos Storm from 75 seconds to 35 seconds in PvP and WvW.
  - Chaotic Interruption: This trait has moved to the master tier, replacing Chaotic Potency.
+
+# Changes
+
+content/builds/condi-chronomancer.md was changed: 
+ - Chronophantasma: This trait now reduces condition durations applied by resummoned phantasms. Reduces the strike damage of resummoned phantasms from 105% to 100% in PvE only.

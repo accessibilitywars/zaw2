@@ -16,7 +16,7 @@ series = "guardian"
 tagline = "I'm sorry but the great mother has only gifted me with HOLY NOVA!"
 keywords = "Guild Wars 2, GW2, LI, Luminary"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 This is a very accessible build that relies on an excessive amount of healing, CC, condi cleanses and utilites, more than you will ever need. Ideally, the build should function as a low-toughness healer.

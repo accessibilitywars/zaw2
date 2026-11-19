@@ -16,7 +16,7 @@ series = "thief"
 tagline = "Deal lots of condi damage with your rat."
 keywords = "Guild Wars 2, GW2, LI, antiquary"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "29k DPS solo"
 benchmark2 = "~32.5k w/ allies"
 +++
