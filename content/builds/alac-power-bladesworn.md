@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "I'll be here. I'll be waiting for you. So if you come here, you will find alacrity."
 keywords = "Guild Wars 2, GW2, LI, bladesworn"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "29k DPS"
 apm = "65"
 +++
@@ -59,7 +59,7 @@ You may use any combination of Berserker's, Assassin's or Marauder's stats but k
 - {{ item(id="78305", name="Superior Sharpening Stone") }} (Budget)
 
 ## Build
-{{ chatlink(code="[&DQIEHwsVRDmmACkP8hoAAK8AAACpAK0AnACcAAAAAAAAAAAAAAAAAAAAAAAEWgA2AC8ANQAA]") }}
+{{ chatlink(code="[&DQIEHwsVRDmmACkP8hoAAK8AAACpAK0A/BqcAAAAAAAAAAAAAAAAAAAAAAACLwA1AAA=]") }}
 
 ## Notes
 This build relies on **Dragon Slash - Force** (DT1) to deal most of its damage. Because of this, you must not delay {{ skill(id="62803") }} and you have to use **Dragon Slash - Force** (DT1) almost immediately after triggering {{ item(id="100177") }}.
@@ -108,13 +108,3 @@ Replace {{ skill(id="14404") }} for a sizeable DPS loss only when absolutely nec
 > * {{ skill(id="14502") }}
 
 Physical skills provide a small through {{ trait(id="1444") }}, so you can mitigate some of the damage loss for bringing a CC if you use {{ skill(id="62803") }} right after using one of the above physical skills.
-
-## Latest Patch Changes
- - Unseen Sword: This trait now strikes nearby enemies and grants you increased flow rate when swapping to the gunsaber in combat.
- - Daring Dragon: This trait now increases the effectiveness of Dragon Slash skills depending on which variation is being used.
- - Sword has been reworked.
- - The rotation remains unchanged.
-# Changes
-
-content/builds/alac-power-bladesworn.md was changed: 
- - Signet of Rage: This skill now grants 10 adrenaline and recharges weapon burst skills. Reduced the cooldown from 40 seconds to 30 seconds in PvE only, reduced the boon durations from 25 seconds to 10 seconds, and increased the might stacks from 5 to 20 in PvE only.
