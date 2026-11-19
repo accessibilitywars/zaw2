@@ -17,7 +17,7 @@ series = "thief"
 tagline = "Auto-Attack Deadeye with Quickness"
 keywords = "Guild Wars 2, GW2, LI, Deadeye"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 benchmark = "26.5k DPS"
 +++
 
@@ -103,11 +103,3 @@ This build may underperform at high end raiding but it can do extremely well in 
 ## Videos
 #### QTP Pylon Kiting
 {{ youtube(id="1JjqeBQe8jE") }}
-
-## Latest patch changes
-{{ skill(id="43390") }} has no cast time and no longer interrupts your rotation. The increase in DPS is minimal.
-# Changes
-
-content/builds/quickness-power-deadeye-unload.md was changed: 
- - Twin Fangs: This trait now grants its critical-hit chance bonus for a duration after striking an enemy from behind or the side.
- - Premeditation: This trait now scales up to 5 boons only. Increased the damage per boon from 1% to 2%.
