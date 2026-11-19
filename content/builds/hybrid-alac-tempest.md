@@ -2,7 +2,7 @@
 title = "Inferno Bastion [aDPS]"
 description = "Press everything off cooldown in Fire Attunement, now with Alacrity"
 date = 2026-05-04
-updated = 2026-07-16
+updated = 2026-10-25
 draft = false
 template = "build.html"
 
@@ -37,7 +37,7 @@ Now this comes topped up with Alacrity and Healing using {{ trait(id="1986") }} 
 
 {{ light(stat="Berserker's", rune="Flame Legion") }}
 {{ scepter_main(stat="Berserker's", sigil="Smoldering") }}
-{{ focus_off(stat="Berserker's", sigil="Bursting") }}
+{{ focus_off(stat="Berserker's", sigil="Concentration") }}
 {{ trinkets(
 	back="Berserker's",
 	accessory1="Berserker's",
@@ -45,7 +45,9 @@ Now this comes topped up with Alacrity and Healing using {{ trait(id="1986") }} 
 	ring1="Berserker's",
 	ring2="Berserker's",
 	amulet="Berserker's",
-	relic="Fireworks") }}
+	relic="Last Tyrant") }}
+
+<small>Use Relic of Fireworks if you do not have Last Tyrant unlocked.</small>
 
 - Food: {{ item(id="91709", name="Plate of Coq Au Vin with Salsa") }} or {{ item(id="12467", name="Plate of Truffle Steak") }}
 - Enhancement: {{ item(id="78305", name="Superior Sharpening Stone") }}
