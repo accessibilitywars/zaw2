@@ -17,7 +17,7 @@ series = "warrior"
 tagline = "I want to scream, and shout, and let it all out!"
 keywords = "Guild Wars 2, GW2, LI, Warrior, Paragon"
 toc = true
-balance = "2026-07"
+balance = "2026-11"
 +++
 
 
