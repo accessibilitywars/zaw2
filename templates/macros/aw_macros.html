@@ -14,6 +14,7 @@
             <a href="{{ page.permalink | safe}}{%- if uglyurls %}index.html{%- endif %}"
 			title="{%- if page.extra.benchmark %}Benchmark: {{ page.extra.benchmark }}{%- endif -%}
                    {%- if page.extra.benchmark2 %} ({{ page.extra.benchmark2 }}){%- endif -%}
+                   {%- if page.extra.roughbenchmark %} ({{ page.extra.roughbenchmark }} roughly){%- endif -%}
 			       {%- if page.extra.apm %} {{ page.extra.apm }}&nbsp;APM{%- endif -%}"
 			>
             {%- if page.taxonomies.specs -%}
@@ -33,6 +34,7 @@
 	  <span style="float: right;"><h3>
         {%- if page.extra.benchmark -%}<div>{{ page.extra.benchmark }}</div>{%- endif -%}
         {%- if page.extra.benchmark2 %}<div style="font-size: 0.7em;">&nbsp;{{ page.extra.benchmark2 }}</div>{%- endif -%}
+        {%- if page.extra.roughbenchmark -%}<div>{{ page.extra.roughbenchmark }} roughly</div>{%- endif -%}
         {%- if page.extra.apm -%}<div>{{ page.extra.apm }}&nbsp;APM</div>{%- endif -%}
 	</h3></span>
 	{%- endif -%}
@@ -46,6 +48,7 @@
 		  <span style="max-width: 8em; float: right;"><h3>
             {%- if page.extra.benchmark -%}<div>{{ page.extra.benchmark }}</div>{%- endif -%}
             {%- if page.extra.benchmark2 %}<div style="font-size: 0.7em;">&nbsp;{{ page.extra.benchmark2 }}</div>{%- endif -%}
+            {%- if page.extra.roughbenchmark -%}<div>{{ page.extra.roughbenchmark }} roughly</div>{%- endif -%}
             {%- if page.extra.apm -%}<div>{{ page.extra.apm }}&nbsp;APM</div>{%- endif -%}
 		</h3></span>
 		{%- endif -%}
@@ -70,6 +73,7 @@
 	  - {{ aw_macros::updated_date(page=page) }}
         {%- if page.extra.benchmark %} - {{ page.extra.benchmark }}{%- endif -%}
         {%- if page.extra.benchmark2 %} ({{ page.extra.benchmark2 }}){%- endif -%}
+        {%- if page.extra.roughbenchmark %} - {{ page.extra.roughbenchmark }} roughly{%- endif -%}
         {%- if page.extra.apm %} - {{ page.extra.apm }}&nbsp;APM{%- endif -%}
 		{{- aw_macros::balance_index(page=page, config=config) }}
 	</p>
@@ -102,12 +106,14 @@
       <li><a class="scur" href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
       {%- if inner.extra.benchmark2 %} ({{ inner.extra.benchmark2 }}){%- endif -%}
+      {%- if inner.extra.roughbenchmark %} Benchmark: {{ inner.extra.roughbenchmark }} roughly{%- endif -%}
       {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 >{{ inner.title }}</a></li>
     {% else %}
       <li><a href="{{ inner.permalink | safe }}{%- if uglyurls %}index.html{%- endif %}" title="
       {%- if inner.extra.benchmark %} Benchmark: {{ inner.extra.benchmark }}{%- endif -%}
       {%- if inner.extra.benchmark2 %} ({{ inner.extra.benchmark2 }}){%- endif -%}
+      {%- if inner.extra.roughbenchmark %} Benchmark: {{ inner.extra.roughbenchmark }} roughly{%- endif -%}
       {%- if inner.extra.apm %} {{ inner.extra.apm }}&nbsp;APM{%- endif -%}"
 	>{{ inner.title }}</a></li>
   {%- endif %}
